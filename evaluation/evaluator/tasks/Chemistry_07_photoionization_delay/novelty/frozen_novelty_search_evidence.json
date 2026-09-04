@@ -1,0 +1,427 @@
+{
+  "all_queries_completed": true,
+  "api_cutoff": "2020-12-31",
+  "cards": {
+    "A": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2020-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1364/up.2014.09.wed.c.7",
+              "id": "https://doi.org/10.1364/up.2014.09.wed.c.7",
+              "landing_page_url": "https://doi.org/10.1364/up.2014.09.wed.c.7",
+              "publication_date": "2014-01-01",
+              "publication_year": 2014,
+              "source_name": "19th International Conference on Ultrafast Phenomena",
+              "title": "Photoionization Time Delay in Molecular Hydrogen",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "The potential use of fixed molecule photoelectron angular distributions (PADs) as a detailed probe of photoionization dynamics is explored using Continuum Multiple Scattering-Xα calculations for the molecule CF3Cl. A number of dynamical phenomena (various shape resonances and a Cooper minimum) encountered in the vuv photoionization of CF3Cl up to 70 eV are examined. Cross-sections and asymmetry parameters are also reported and the nature of the low energy shape resonances is examined using eigenchannel plots. These show a clear correspondence between the present scattering calculations and the alternative description of shape resonances as antibonding virtual valence orbitals. PADs from fixed in space molecules are predicted to show a pronounced orientation, favoring electron emission from one end of the molecule. After passing through a shape resonance this orientation can flip direction as a consequence of resonant phase shifts in the interfering partial waves. Resonant electron-ion interactions can also result in greater alignment of the electron’s orbital angular momentum with the molecular axis; the corollary is that the PAD becomes less strongly aligned or oriented along this direction at the resonance energy.",
+              "doi": "https://doi.org/10.1063/1.473549",
+              "id": "https://doi.org/10.1063/1.473549",
+              "landing_page_url": "https://doi.org/10.1063/1.473549",
+              "publication_date": "1997-03-22",
+              "publication_year": 1997,
+              "source_name": "The Journal of Chemical Physics",
+              "title": "Oriented molecule photoelectron angular distributions in the vicinity of a photoionization shape resonance: Continuum multiple scattering-Xα calculations for valence ionization of CF3Cl",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1103/physrevlett.43.1005",
+              "id": "https://doi.org/10.1103/physrevlett.43.1005",
+              "landing_page_url": "https://doi.org/10.1103/physrevlett.43.1005",
+              "publication_date": "1979-10-01",
+              "publication_year": 1979,
+              "source_name": "Physical Review Letters",
+              "title": "Shape-Resonance-Enhanced Nuclear-Motion Effects in Molecular Photoionization",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract The angular distribution and photoionization Wigner time delay of Xe 5s photoelectrons are studied in the region of the second Cooper minimum (SCM) using (i) the relativistic multiconfiguration Tamm–Dancoff approximation, (ii) the relativistic-random-phase approximation (RRPA) and (iii) the RRPA- with -relaxation to demonstrate how differing treatments of correlation, and the relativistic interactions, affect the results. The results of the three methods are compared with each other and with available experimental data. The comparison reveals the importance of electron correlations for which a multiconfiguration description of the initial state is essential. The spin-resolved and spin-averaged photoionization time delay results show important signatures in the region of the SCM in the Xe 5s photoionization cross-section.",
+              "doi": "https://doi.org/10.1088/1361-6455/abbe2e",
+              "id": "https://doi.org/10.1088/1361-6455/abbe2e",
+              "landing_page_url": "https://doi.org/10.1088/1361-6455/abbe2e",
+              "publication_date": "2020-10-22",
+              "publication_year": 2020,
+              "source_name": "Journal of Physics B: Atomic, Molecular and Optical Physics",
+              "title": "Photoionization of Xe 5s: angular distribution and Wigner time delay in the vicinity of the second Cooper minimum",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1080/00268977400102391",
+              "id": "https://doi.org/10.1080/00268977400102391",
+              "landing_page_url": "https://doi.org/10.1080/00268977400102391",
+              "publication_date": "1974-10-01",
+              "publication_year": 1974,
+              "source_name": "Molecular Physics",
+              "title": "Time-delay matrix for resonance tunnelling reactions",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1088/0953-4075/49/9/095602",
+              "id": "https://doi.org/10.1088/0953-4075/49/9/095602",
+              "landing_page_url": "https://doi.org/10.1088/0953-4075/49/9/095602",
+              "publication_date": "2016-04-22",
+              "publication_year": 2016,
+              "source_name": "Journal of Physics B: Atomic, Molecular and Optical Physics",
+              "title": "Time delay in molecular photoionization",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/cleo.2008.4551937",
+              "id": "https://doi.org/10.1109/cleo.2008.4551937",
+              "landing_page_url": "https://doi.org/10.1109/cleo.2008.4551937",
+              "publication_date": "2008-05-01",
+              "publication_year": 2008,
+              "source_name": "2008 Conference on Lasers and Electro-Optics",
+              "title": "Angular-dependence of molecular photoionization cross-sections studied by time-resolved EUV spectroscopy",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/9783527677689.ch9",
+              "id": "https://doi.org/10.1002/9783527677689.ch9",
+              "landing_page_url": "https://doi.org/10.1002/9783527677689.ch9",
+              "publication_date": "2014-03-07",
+              "publication_year": 2014,
+              "source_name": "Attosecond and XUV Physics",
+              "title": "Angular Distributions in Molecular Photoionization",
+              "type": "other"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "molecular photoionization angular time delay shape resonance",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=molecular+photoionization+angular+time+delay+shape+resonance&filter=until-pub-date%3A2020-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2021-01-01"
+        },
+        {
+          "api_cutoff": "2020-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1364/fio.2017.fth2b.3",
+              "id": "https://doi.org/10.1364/fio.2017.fth2b.3",
+              "landing_page_url": "https://doi.org/10.1364/fio.2017.fth2b.3",
+              "publication_date": "2017-01-01",
+              "publication_year": 2017,
+              "source_name": "Frontiers in Optics 2017",
+              "title": "(Angle Resolved) Photoemission Spectroscopy Utilizing Attosecond Pulse Trains in Argon and Tungsten",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-3-662-52732-0_2",
+              "id": "https://doi.org/10.1007/978-3-662-52732-0_2",
+              "landing_page_url": "https://doi.org/10.1007/978-3-662-52732-0_2",
+              "publication_date": "2016-06-22",
+              "publication_year": 2016,
+              "source_name": "Springer Theses",
+              "title": "Angle-Resolved Photoemission Spectroscopy",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-3-030-31087-5_2",
+              "id": "https://doi.org/10.1007/978-3-030-31087-5_2",
+              "landing_page_url": "https://doi.org/10.1007/978-3-030-31087-5_2",
+              "publication_date": "2019-09-28",
+              "publication_year": 2019,
+              "source_name": "Springer Theses",
+              "title": "Angle Resolved Photoemission",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/s0167-2991(08)61786-3",
+              "id": "https://doi.org/10.1016/s0167-2991(08)61786-3",
+              "landing_page_url": "https://doi.org/10.1016/s0167-2991(08)61786-3",
+              "publication_date": "1992-01-01",
+              "publication_year": 1992,
+              "source_name": "Studies in Surface Science and Catalysis",
+              "title": "Chapter 16 Future Prospects in Angle-Resolved Photoemission",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.2172/5860703",
+              "id": "https://doi.org/10.2172/5860703",
+              "landing_page_url": "https://doi.org/10.2172/5860703",
+              "publication_date": "1985-03-01",
+              "publication_year": 1985,
+              "source_name": null,
+              "title": "Angle-resolved photoemission extended fine structure",
+              "type": "report"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/s0167-2991(08)61782-6",
+              "id": "https://doi.org/10.1016/s0167-2991(08)61782-6",
+              "landing_page_url": "https://doi.org/10.1016/s0167-2991(08)61782-6",
+              "publication_date": "1992-01-01",
+              "publication_year": 1992,
+              "source_name": "Studies in Surface Science and Catalysis",
+              "title": "Chapter 12 Spin- and Angle-Resolved Photoemission from Ferromagnets",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1117/12.2255639",
+              "id": "https://doi.org/10.1117/12.2255639",
+              "landing_page_url": "https://doi.org/10.1117/12.2255639",
+              "publication_date": "2017-04-19",
+              "publication_year": 2017,
+              "source_name": "Ultrafast Phenomena and Nanophotonics XXI",
+              "title": "Modelling and physical interpretation of time-delay differences observed in attosecond-time-resolved photoemission from WSe2 and BiTeCl surfaces (Conference Presentation)",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.2172/813170",
+              "id": "https://doi.org/10.2172/813170",
+              "landing_page_url": "https://doi.org/10.2172/813170",
+              "publication_date": "2003-05-13",
+              "publication_year": 2003,
+              "source_name": null,
+              "title": "Study of High Temperature Superconductors with Angle-Resolved Photoemission Spectroscopy",
+              "type": "report"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "angle resolved photoemission delay attosecond",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=angle+resolved+photoemission+delay+attosecond&filter=until-pub-date%3A2020-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2021-01-01"
+        }
+      ],
+      "search_completed": true
+    },
+    "B": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2020-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1140/epjp/s13360-020-00762-5",
+              "id": "https://doi.org/10.1140/epjp/s13360-020-00762-5",
+              "landing_page_url": "https://doi.org/10.1140/epjp/s13360-020-00762-5",
+              "publication_date": "2020-09-23",
+              "publication_year": 2020,
+              "source_name": "The European Physical Journal Plus",
+              "title": "Photoionization phase shift and Wigner time delay of endohedrally confined atoms using transient phase methods",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1364/up.2016.um2b.3",
+              "id": "https://doi.org/10.1364/up.2016.um2b.3",
+              "landing_page_url": "https://doi.org/10.1364/up.2016.um2b.3",
+              "publication_date": "2016-01-01",
+              "publication_year": 2016,
+              "source_name": "International Conference on Ultrafast Phenomena",
+              "title": "Asymmetric Wigner time delay in CO photoionization",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1364/cleo_qels.2015.fth4c.3",
+              "id": "https://doi.org/10.1364/cleo_qels.2015.fth4c.3",
+              "landing_page_url": "https://doi.org/10.1364/cleo_qels.2015.fth4c.3",
+              "publication_date": "2015-01-01",
+              "publication_year": 2015,
+              "source_name": "CLEO: 2015",
+              "title": "Photoionization Time Delay Dynamics in Noble Gase",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1134/s0021364020160018",
+              "id": "https://doi.org/10.1134/s0021364020160018",
+              "landing_page_url": "https://doi.org/10.1134/s0021364020160018",
+              "publication_date": "2020-08-26",
+              "publication_year": 2020,
+              "source_name": "JETP Letters",
+              "title": "Time Delay of Photoionization by Endohedrals",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Ultrafast processes are now accessible on the attosecond time scale due to the availability of ultrashort XUV laser pulses. Noble-gas and halogen atoms remain important targets due to their giant dipole resonance and Cooper minimum. Here, we calculate photoionization cross section, asymmetry parameter and Wigner time delay using the time-dependent local-density approximation (TDLDA), which includes the electron correlation effects. Our results are consistent with experimental data and other theoretical calculations. The asymmetry parameter provides an extra layer of access to the phase information of the photoionization processes. We find that halogen atoms bear a strong resemblance on cross section, asymmetry parameter and time delay to their noble-gas neighbors. Our predicted time delay should provide a guidance for future experiments on those atoms and related molecules.",
+              "doi": "https://doi.org/10.3390/app8030322",
+              "id": "https://doi.org/10.3390/app8030322",
+              "landing_page_url": "https://doi.org/10.3390/app8030322",
+              "publication_date": "2018-02-26",
+              "publication_year": 2018,
+              "source_name": "Applied Sciences",
+              "title": "Attosecond Time Delay in Photoionization of Noble-Gas and Halogen Atoms",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1103/physreva.83.023421",
+              "id": "https://doi.org/10.1103/physreva.83.023421",
+              "landing_page_url": "https://doi.org/10.1103/physreva.83.023421",
+              "publication_date": "2011-02-25",
+              "publication_year": 2011,
+              "source_name": "Physical Review A",
+              "title": "Time delay in strong-field photoionization of a hydrogen atom",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1364/up.2014.09.wed.c.7",
+              "id": "https://doi.org/10.1364/up.2014.09.wed.c.7",
+              "landing_page_url": "https://doi.org/10.1364/up.2014.09.wed.c.7",
+              "publication_date": "2014-01-01",
+              "publication_year": 2014,
+              "source_name": "19th International Conference on Ultrafast Phenomena",
+              "title": "Photoionization Time Delay in Molecular Hydrogen",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1103/physreva.87.063404",
+              "id": "https://doi.org/10.1103/physreva.87.063404",
+              "landing_page_url": "https://doi.org/10.1103/physreva.87.063404",
+              "publication_date": "2013-06-06",
+              "publication_year": 2013,
+              "source_name": "Physical Review A",
+              "title": "Time delay in valence-shell photoionization of noble-gas atoms",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "photoionization time delay energy derivative phase",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=photoionization+time+delay+energy+derivative+phase&filter=until-pub-date%3A2020-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2021-01-01"
+        },
+        {
+          "api_cutoff": "2020-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1103/physrev.98.145",
+              "id": "https://doi.org/10.1103/physrev.98.145",
+              "landing_page_url": "https://doi.org/10.1103/physrev.98.145",
+              "publication_date": "1955-04-01",
+              "publication_year": 1955,
+              "source_name": "Physical Review",
+              "title": "Lower Limit for the Energy Derivative of the Scattering Phase Shift",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/3-540-17894-5_356",
+              "id": "https://doi.org/10.1007/3-540-17894-5_356",
+              "landing_page_url": "https://doi.org/10.1007/3-540-17894-5_356",
+              "publication_date": "2005-07-28",
+              "publication_year": 2005,
+              "source_name": "Lecture Notes in Physics",
+              "title": "Wigner phase-space approach in the molecular collision theory - search for Wigner trajectories",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-3-662-02781-3_28",
+              "id": "https://doi.org/10.1007/978-3-662-02781-3_28",
+              "landing_page_url": "https://doi.org/10.1007/978-3-662-02781-3_28",
+              "publication_date": "1993-01-01",
+              "publication_year": 1993,
+              "source_name": "The Collected Works of Eugene Paul Wigner",
+              "title": "Derivative Matrix and Scattering Matrix",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-3-642-59033-7_23",
+              "id": "https://doi.org/10.1007/978-3-642-59033-7_23",
+              "landing_page_url": "https://doi.org/10.1007/978-3-642-59033-7_23",
+              "publication_date": "1997-01-01",
+              "publication_year": 1997,
+              "source_name": "Part I: Physical Chemistry. Part II: Solid State Physics",
+              "title": "Lower Limit for the Energy Derivative of the Scattering Phase Shift",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1140/epjp/s13360-020-00762-5",
+              "id": "https://doi.org/10.1140/epjp/s13360-020-00762-5",
+              "landing_page_url": "https://doi.org/10.1140/epjp/s13360-020-00762-5",
+              "publication_date": "2020-09-23",
+              "publication_year": 2020,
+              "source_name": "The European Physical Journal Plus",
+              "title": "Photoionization phase shift and Wigner time delay of endohedrally confined atoms using transient phase methods",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1364/ol.34.003151",
+              "id": "https://doi.org/10.1364/ol.34.003151",
+              "landing_page_url": "https://doi.org/10.1364/ol.34.003151",
+              "publication_date": "2009-10-09",
+              "publication_year": 2009,
+              "source_name": "Optics Letters",
+              "title": "Adaptive window Wigner-Ville-distribution-based method to estimate phase derivative from optical fringes",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1103/physreva.85.033606",
+              "id": "https://doi.org/10.1103/physreva.85.033606",
+              "landing_page_url": "https://doi.org/10.1103/physreva.85.033606",
+              "publication_date": "2012-03-05",
+              "publication_year": 2012,
+              "source_name": "Physical Review A",
+              "title": "Wigner crystal induced by dipole-dipole interaction in one-dimensional optical lattices",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1117/12.555764",
+              "id": "https://doi.org/10.1117/12.555764",
+              "landing_page_url": "https://doi.org/10.1117/12.555764",
+              "publication_date": "2004-08-02",
+              "publication_year": 2004,
+              "source_name": "SPIE Proceedings",
+              "title": "Retrieval of phase-derivative discontinuities in digital speckle pattern interferometry fringes using the Wigner-Ville distribution",
+              "type": "proceedings-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "Wigner delay dipole phase derivative molecular",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=Wigner+delay+dipole+phase+derivative+molecular&filter=until-pub-date%3A2020-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2021-01-01"
+        }
+      ],
+      "search_completed": true
+    }
+  },
+  "generated_at": "2026-08-22",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "177987d41292c889b868da760a2a780535a65f089afad24cac4b0d508703956f",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Searches are frozen reproducible retrieval evidence within the declared provider, queries, cutoff, and result depth. They do not certify absence from all literature.",
+  "strict_before": "2021-01-01",
+  "target_doi_excluded": "10.1038/s41467-021-27360-y",
+  "task_id": "Chemistry_07_photoionization_delay",
+  "release": "V1.0"
+}

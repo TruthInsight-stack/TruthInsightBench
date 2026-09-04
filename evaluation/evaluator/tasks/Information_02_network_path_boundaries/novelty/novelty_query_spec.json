@@ -1,0 +1,21 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "extremal average shortest path network fixed size density",
+        "network topology bounds path length efficiency given nodes edges"
+      ]
+    },
+    "B": {
+      "queries": [
+        "maximum shortest path efficiency graph edge density extremal networks",
+        "graph construction diameter path length boundaries fixed links"
+      ]
+    }
+  },
+  "provider": "frozen_bibliographic_snapshot",
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2018-10-29",
+  "task_id": "Information_02_network_path_boundaries",
+  "release": "V1.0"
+}

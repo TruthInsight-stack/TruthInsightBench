@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Chemistry_08_catalysis_response_landscape",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition.py",
+      "script_sha256": "1da04c0608118a8793531c4e2cd0f878fe1cfefdd1b13f95e12063907840b0a2"
+    },
+    {
+      "script": "verification/perturb/A/method.py",
+      "script_sha256": "c5f42ab0cbb2ba247176e91017aa1f7cdda435ca7c94ec2c1184f6894bcd4eea"
+    },
+    {
+      "script": "verification/perturb/A/sample.py",
+      "script_sha256": "6d62941c19bff5d191262747e41549b25616a7f706ffc2732ee7cad75e6e9bde"
+    },
+    {
+      "script": "verification/perturb/B/definition.py",
+      "script_sha256": "5d7d3395180b237ccc51ae6f89e6c5914edcd0f84d3c905a36fec196f1309c25"
+    },
+    {
+      "script": "verification/perturb/B/method.py",
+      "script_sha256": "5f9a943b00c99db0cf1fbf2fdff2feb0b025a151ffa2467946b0781152be3b2e"
+    },
+    {
+      "script": "verification/perturb/B/sample.py",
+      "script_sha256": "2995b14ee247816190a738ff93434d4a34c4636ac56aca873bb60193f274d7b6"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "4b52d13733131b00197e45a503011aab7e6d98c8e4c5a3a9bcb35204fc7cb855"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "72a103b8403dbe6664d39990a885452ec590d49a2c19113b3dd517b7694a3208"
+    }
+  ],
+  "verification_tree_sha256": "469faae90fe91a45b06f95e5e94d2d2fbd63840f247cb9f6620ec0e153919fac",
+  "verification_file_count": 8,
+  "shared_runtime_tree_sha256": "d8710168f8a9c9ce1fd4946fdcfa0a279806376236feda46a5384b7f302428e9",
+  "shared_runtime_file_count": 4
+}

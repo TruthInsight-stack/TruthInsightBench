@@ -1,0 +1,27 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "stellar metallicity photon flux wavelength effective temperature atmosphere spectrum",
+        "stellar composition shortwave ultraviolet surface flux model"
+      ]
+    },
+    "B": {
+      "queries": [
+        "normalized stellar spectral response peak wavelength concordance",
+        "spectral shape correlation stellar atmosphere wavelength"
+      ]
+    }
+  },
+  "frozen_at": "2026-08-22",
+  "provider": "OpenAlex_primary_with_Crossref_fallback",
+  "provider_api": [
+    "https://api.openalex.org/works",
+    "https://api.crossref.org/works"
+  ],
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2023-01-01",
+  "target_doi_excluded": "10.1038/s41467-023-37195-4",
+  "task_id": "Astronomy_05_stellar_spectral_boundary",
+  "release": "V1.0"
+}

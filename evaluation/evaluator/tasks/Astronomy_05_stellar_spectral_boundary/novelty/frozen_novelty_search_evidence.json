@@ -1,0 +1,427 @@
+{
+  "all_queries_completed": true,
+  "api_cutoff": "2022-12-31",
+  "cards": {
+    "A": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2022-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-94-011-5602-8_22",
+              "id": "https://doi.org/10.1007/978-94-011-5602-8_22",
+              "landing_page_url": "https://doi.org/10.1007/978-94-011-5602-8_22",
+              "publication_date": "1997-01-01",
+              "publication_year": 1997,
+              "source_name": "Fundamental Stellar Properties: The Interaction Between Observation and Theory",
+              "title": "Stellar Effective Temperatures through the Infrared Flux Method",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1051/0004-6361/201730715",
+              "id": "https://doi.org/10.1051/0004-6361/201730715",
+              "landing_page_url": "https://doi.org/10.1051/0004-6361/201730715",
+              "publication_date": "2017-08-15",
+              "publication_year": 2017,
+              "source_name": "Astronomy &amp; Astrophysics",
+              "title": "Metallicity determination of M dwarfs",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-94-009-5456-4_74",
+              "id": "https://doi.org/10.1007/978-94-009-5456-4_74",
+              "landing_page_url": "https://doi.org/10.1007/978-94-009-5456-4_74",
+              "publication_date": "1985-01-01",
+              "publication_year": 1985,
+              "source_name": "Calibration of Fundamental Stellar Quantities",
+              "title": "A Reddening and Metallicity-Free Temperature Estimator for Late M Giants",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.21236/ad0641359",
+              "id": "https://doi.org/10.21236/ad0641359",
+              "landing_page_url": "https://doi.org/10.21236/ad0641359",
+              "publication_date": "1966-05-01",
+              "publication_year": 1966,
+              "source_name": null,
+              "title": "ALO RESONANT SPECTRUM FOR UPPER ATMOSPHERE TEMPERATURE DETERMINATION",
+              "type": "report"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-94-011-2434-8_36",
+              "id": "https://doi.org/10.1007/978-94-011-2434-8_36",
+              "landing_page_url": "https://doi.org/10.1007/978-94-011-2434-8_36",
+              "publication_date": "1992-01-01",
+              "publication_year": 1992,
+              "source_name": "The Stellar Populations of Galaxies",
+              "title": "Metallicity of Unresolved Stellar Populations",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-94-011-5602-8_21",
+              "id": "https://doi.org/10.1007/978-94-011-5602-8_21",
+              "landing_page_url": "https://doi.org/10.1007/978-94-011-5602-8_21",
+              "publication_date": "1997-01-01",
+              "publication_year": 1997,
+              "source_name": "Fundamental Stellar Properties: The Interaction Between Observation and Theory",
+              "title": "The Stellar Temperature Scale from Angular Diameters and Flux Distributions",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1063/1.4819615",
+              "id": "https://doi.org/10.1063/1.4819615",
+              "landing_page_url": "https://doi.org/10.1063/1.4819615",
+              "publication_date": "2013-01-01",
+              "publication_year": 2013,
+              "source_name": "AIP Conference Proceedings",
+              "title": "Effective radiance temperature: Concept, measurement and effective wavelength",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-94-017-1778-6_48",
+              "id": "https://doi.org/10.1007/978-94-017-1778-6_48",
+              "landing_page_url": "https://doi.org/10.1007/978-94-017-1778-6_48",
+              "publication_date": "2003-01-01",
+              "publication_year": 2003,
+              "source_name": "Highlights of Spanish Astrophysics III",
+              "title": "Nebular Diagnostics for Young Stellar Populations: Photon Escape Vs. Atmosphere Blanketing",
+              "type": "book-chapter"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "stellar metallicity photon flux wavelength effective temperature atmosphere spectrum",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=stellar+metallicity+photon+flux+wavelength+effective+temperature+atmosphere+spectrum&filter=until-pub-date%3A2022-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2023-01-01"
+        },
+        {
+          "api_cutoff": "2022-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1086/108543",
+              "id": "https://doi.org/10.1086/108543",
+              "landing_page_url": "https://doi.org/10.1086/108543",
+              "publication_date": "1961-03-01",
+              "publication_year": 1961,
+              "source_name": "The Astronomical Journal",
+              "title": "Stellar Flux Measurements in the Middle Ultraviolet.",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1029/2010jd014930",
+              "id": "https://doi.org/10.1029/2010jd014930",
+              "landing_page_url": "https://doi.org/10.1029/2010jd014930",
+              "publication_date": "2011-04-22",
+              "publication_year": 2011,
+              "source_name": "Journal of Geophysical Research",
+              "title": "Analysis of the biases in the downward shortwave surface flux in the GFDL CM2.1 general circulation model",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-94-011-5602-8_10",
+              "id": "https://doi.org/10.1007/978-94-011-5602-8_10",
+              "landing_page_url": "https://doi.org/10.1007/978-94-011-5602-8_10",
+              "publication_date": "1997-01-01",
+              "publication_year": 1997,
+              "source_name": "Fundamental Stellar Properties: The Interaction Between Observation and Theory",
+              "title": "Review of the Ultraviolet Flux Calibration",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "Abstract Solar extreme-ultraviolet (EUV: 100–1100 Å) radiation rises in the 10 4 K upper chromosphere and hotter layers extending into the million-degree corona. Much of the EUV normally is not visible in other stars owing to interstellar H i absorption. The present study derived power-law scaling relations for EUV species based on irradiance spectra from the Extreme Ultraviolet Variability Experiment on board the Solar Dynamics Observatory, over the rise and fall of recent sunspot Cycle 24. These relations not only can test solar models, but also allow “invisible” stellar EUV emissions to be reconstructed from more accessible ultraviolet (UV: 1100–3000 Å) proxies, with implications for heating, ionization, and erosion of exoplanet atmospheres by Sun-like hosts. Hot EUV coronal tracers like Si xii 520 Å (8 MK) show strongly curved power laws relative to chromospheric H i 1025 Å Ly β , as was seen in Paper I for 0.2–2 keV soft X-rays versus Mg ii 2800 Å. The brightest EUV feature, He ii 303 Å, exhibits a nearly 1:1 correlation with Ly β (and H i 1215 Ly α , but slightly steeper than 1:1 relative to Mg ii ). The second brightest, C iii 977 Å, has a shallower power-law slope of ∼0.5. Correlations for low first ionization potential species, such as Mg, Si, and Fe, might be affected by cycle-dependent chemical fractionation. Parameterized flux–flux relations are presented for most of the strong EUV (and selected UV) features, together with fluxes of individual lines and broad EUV wavelength bands at the highs and lows of Cycle 24.",
+              "doi": "https://doi.org/10.3847/1538-4357/abd095",
+              "id": "https://doi.org/10.3847/1538-4357/abd095",
+              "landing_page_url": "https://doi.org/10.3847/1538-4357/abd095",
+              "publication_date": "2021-02-24",
+              "publication_year": 2021,
+              "source_name": "The Astrophysical Journal",
+              "title": "In the Trenches of the Solar–Stellar Connection. II. Extreme Ultraviolet Flux–Flux Correlations across Solar Cycle 24",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.7149/opa.45.1.29",
+              "id": "https://doi.org/10.7149/opa.45.1.29",
+              "landing_page_url": "https://doi.org/10.7149/opa.45.1.29",
+              "publication_date": "2012-03-15",
+              "publication_year": 2012,
+              "source_name": "Optica Pura y Aplicada",
+              "title": "Cloud modulation of shortwave and ultraviolet solar irradiances at surface",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1063/1.4804861",
+              "id": "https://doi.org/10.1063/1.4804861",
+              "landing_page_url": "https://doi.org/10.1063/1.4804861",
+              "publication_date": "2013-01-01",
+              "publication_year": 2013,
+              "source_name": "AIP Conference Proceedings",
+              "title": "Evaluation of a relationship between aerosols and surface downward shortwave flux through an integrative analysis of a global aerosol-transport model and in-situ measurements",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1086/159804",
+              "id": "https://doi.org/10.1086/159804",
+              "landing_page_url": "https://doi.org/10.1086/159804",
+              "publication_date": "1982-04-01",
+              "publication_year": 1982,
+              "source_name": "The Astrophysical Journal",
+              "title": "International ultraviolet explorer spectroscopy of hot stars in the LMC and SMC - The SMC extinction law, stellar flux distributions, and details of the stellar winds",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-94-010-3293-3_26",
+              "id": "https://doi.org/10.1007/978-94-010-3293-3_26",
+              "landing_page_url": "https://doi.org/10.1007/978-94-010-3293-3_26",
+              "publication_date": "1970-01-01",
+              "publication_year": 1970,
+              "source_name": "Ultraviolet Stellar Spectra and Related Ground-Based Observations",
+              "title": "Observations of Ultraviolet Stellar Spectra",
+              "type": "book-chapter"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "stellar composition shortwave ultraviolet surface flux model",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=stellar+composition+shortwave+ultraviolet+surface+flux+model&filter=until-pub-date%3A2022-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2023-01-01"
+        }
+      ],
+      "search_completed": true
+    },
+    "B": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2022-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/1-4020-0613-6_13761",
+              "id": "https://doi.org/10.1007/1-4020-0613-6_13761",
+              "landing_page_url": "https://doi.org/10.1007/1-4020-0613-6_13761",
+              "publication_date": "2017-11-30",
+              "publication_year": 2017,
+              "source_name": "Computer Science and Communications Dictionary",
+              "title": "peak spectral wavelength",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1117/1.oe.51.3.034403",
+              "id": "https://doi.org/10.1117/1.oe.51.3.034403",
+              "landing_page_url": "https://doi.org/10.1117/1.oe.51.3.034403",
+              "publication_date": "2012-03-14",
+              "publication_year": 2012,
+              "source_name": "Optical Engineering",
+              "title": "Investigation of peak wavelength detection of fiber Bragg grating with sparse spectral data",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1515/9781400833368-003",
+              "id": "https://doi.org/10.1515/9781400833368-003",
+              "landing_page_url": "https://doi.org/10.1515/9781400833368-003",
+              "publication_date": "2009-12-31",
+              "publication_year": 2009,
+              "source_name": "Stellar Spectral Classification",
+              "title": "Chapter 1. The History and Philosophy of Stellar Spectral Classification",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.2307/j.ctv1nxcw72.5",
+              "id": "https://doi.org/10.2307/j.ctv1nxcw72.5",
+              "landing_page_url": "https://doi.org/10.2307/j.ctv1nxcw72.5",
+              "publication_date": "2021-06-08",
+              "publication_year": 2021,
+              "source_name": "Stellar Spectral Classification",
+              "title": "The History and Philosophy of Stellar Spectral Classification",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/tsp.2008.928954",
+              "id": "https://doi.org/10.1109/tsp.2008.928954",
+              "landing_page_url": "https://doi.org/10.1109/tsp.2008.928954",
+              "publication_date": "2008-10-01",
+              "publication_year": 2008,
+              "source_name": "IEEE Transactions on Signal Processing",
+              "title": "Spectral Peak-Shift Estimation With Wavelength Dependent Sources and Detectors",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1051/978-2-7598-0328-6-004",
+              "id": "https://doi.org/10.1051/978-2-7598-0328-6-004",
+              "landing_page_url": "https://doi.org/10.1051/978-2-7598-0328-6-004",
+              "publication_date": "2020-11-04",
+              "publication_year": 2020,
+              "source_name": "Stars and Stellar Evolution",
+              "title": "3 Stellar atmosphere: Spectral structure",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1515/9781400833368-014",
+              "id": "https://doi.org/10.1515/9781400833368-014",
+              "landing_page_url": "https://doi.org/10.1515/9781400833368-014",
+              "publication_date": "2009-12-31",
+              "publication_year": 2009,
+              "source_name": "Stellar Spectral Classification",
+              "title": "Chapter 12. Endpoints of Stellar Evolution",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1051/978-2-7598-0328-6.c004",
+              "id": "https://doi.org/10.1051/978-2-7598-0328-6.c004",
+              "landing_page_url": "https://doi.org/10.1051/978-2-7598-0328-6.c004",
+              "publication_date": "2020-11-04",
+              "publication_year": 2020,
+              "source_name": "Stars and Stellar Evolution",
+              "title": "3 Stellar atmosphere: Spectral structure",
+              "type": "book-chapter"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "normalized stellar spectral response peak wavelength concordance",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=normalized+stellar+spectral+response+peak+wavelength+concordance&filter=until-pub-date%3A2022-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2023-01-01"
+        },
+        {
+          "api_cutoff": "2022-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1051/978-2-7598-0328-6-004",
+              "id": "https://doi.org/10.1051/978-2-7598-0328-6-004",
+              "landing_page_url": "https://doi.org/10.1051/978-2-7598-0328-6-004",
+              "publication_date": "2020-11-04",
+              "publication_year": 2020,
+              "source_name": "Stars and Stellar Evolution",
+              "title": "3 Stellar atmosphere: Spectral structure",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1051/978-2-7598-0328-6.c004",
+              "id": "https://doi.org/10.1051/978-2-7598-0328-6.c004",
+              "landing_page_url": "https://doi.org/10.1051/978-2-7598-0328-6.c004",
+              "publication_date": "2020-11-04",
+              "publication_year": 2020,
+              "source_name": "Stars and Stellar Evolution",
+              "title": "3 Stellar atmosphere: Spectral structure",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1051/978-2-7598-0356-9.c004",
+              "id": "https://doi.org/10.1051/978-2-7598-0356-9.c004",
+              "landing_page_url": "https://doi.org/10.1051/978-2-7598-0356-9.c004",
+              "publication_date": "2020-11-04",
+              "publication_year": 2020,
+              "source_name": "Stars and Stellar Evolution",
+              "title": "3 Stellar atmosphere: Spectral structure",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-94-009-5372-7_18",
+              "id": "https://doi.org/10.1007/978-94-009-5372-7_18",
+              "landing_page_url": "https://doi.org/10.1007/978-94-009-5372-7_18",
+              "publication_date": "1985-01-01",
+              "publication_year": 1985,
+              "source_name": "Progress in Stellar Spectral Line Formation Theory",
+              "title": "NLTE Spectral Line Formation in a Three-Dimensional Atmosphere with Velocity Fields",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1515/9781400833368-003",
+              "id": "https://doi.org/10.1515/9781400833368-003",
+              "landing_page_url": "https://doi.org/10.1515/9781400833368-003",
+              "publication_date": "2009-12-31",
+              "publication_year": 2009,
+              "source_name": "Stellar Spectral Classification",
+              "title": "Chapter 1. The History and Philosophy of Stellar Spectral Classification",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1086/305287",
+              "id": "https://doi.org/10.1086/305287",
+              "landing_page_url": "https://doi.org/10.1086/305287",
+              "publication_date": "1998-03-01",
+              "publication_year": 1998,
+              "source_name": "The Astrophysical Journal",
+              "title": "Parallel Implementation of the PHOENIX Generalized Stellar Atmosphere Program. II. Wavelength Parallelization",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.2307/j.ctv1nxcw72.5",
+              "id": "https://doi.org/10.2307/j.ctv1nxcw72.5",
+              "landing_page_url": "https://doi.org/10.2307/j.ctv1nxcw72.5",
+              "publication_date": "2021-06-08",
+              "publication_year": 2021,
+              "source_name": "Stellar Spectral Classification",
+              "title": "The History and Philosophy of Stellar Spectral Classification",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1051/978-2-7598-0328-6-003",
+              "id": "https://doi.org/10.1051/978-2-7598-0328-6-003",
+              "landing_page_url": "https://doi.org/10.1051/978-2-7598-0328-6-003",
+              "publication_date": "2020-11-04",
+              "publication_year": 2020,
+              "source_name": "Stars and Stellar Evolution",
+              "title": "2 Stellar atmosphere: Continuum radiation + structure",
+              "type": "book-chapter"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "spectral shape correlation stellar atmosphere wavelength",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=spectral+shape+correlation+stellar+atmosphere+wavelength&filter=until-pub-date%3A2022-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2023-01-01"
+        }
+      ],
+      "search_completed": true
+    }
+  },
+  "generated_at": "2026-08-22",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "485650d65cf38f2a76dde1e4f6fd231be4d8713b41bab71313a664a3f47a8271",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Searches are frozen reproducible retrieval evidence within the declared provider, queries, cutoff, and result depth. They do not certify absence from all literature.",
+  "strict_before": "2023-01-01",
+  "target_doi_excluded": "10.1038/s41467-023-37195-4",
+  "task_id": "Astronomy_05_stellar_spectral_boundary",
+  "release": "V1.0"
+}

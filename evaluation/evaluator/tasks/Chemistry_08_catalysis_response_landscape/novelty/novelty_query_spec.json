@@ -1,0 +1,27 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "asymmetric catalysis high throughput chemical space categorical reaction outcome",
+        "reaction condition category yield enantioselectivity landscape"
+      ]
+    },
+    "B": {
+      "queries": [
+        "catalysis reaction feature mapping low dimensional correlation panel",
+        "high throughput catalysis response descriptor correlation"
+      ]
+    }
+  },
+  "frozen_at": "2026-08-22",
+  "provider": "OpenAlex_primary_with_Crossref_fallback",
+  "provider_api": [
+    "https://api.openalex.org/works",
+    "https://api.crossref.org/works"
+  ],
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2023-01-01",
+  "target_doi_excluded": "10.1038/s41467-023-42446-5",
+  "task_id": "Chemistry_08_catalysis_response_landscape",
+  "release": "V1.0"
+}

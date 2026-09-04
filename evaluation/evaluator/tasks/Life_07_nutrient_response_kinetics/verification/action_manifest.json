@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Life_07_nutrient_response_kinetics",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition.py",
+      "script_sha256": "b8d9279f333d76e770666dbf3eb9f46f426527fabca90dcf3b184e8826faf0d9"
+    },
+    {
+      "script": "verification/perturb/A/method.py",
+      "script_sha256": "96f923a1b4c00e944514d03b8fb0c7b4f2c4d9e7939d733de36145da8f11ef44"
+    },
+    {
+      "script": "verification/perturb/A/sample.py",
+      "script_sha256": "13c78d3c18270d64886392993f8c212ff5b96a701d812cbab3a9d675f9018902"
+    },
+    {
+      "script": "verification/perturb/B/definition.py",
+      "script_sha256": "0ab08ce7cffd202fcd70eb8703319696df3779ca9e511a1d6bc9af881e5b0f30"
+    },
+    {
+      "script": "verification/perturb/B/method.py",
+      "script_sha256": "7e3db3075f594353a1a81c2586139ca147f72a38d64e764cbecf12fecc2e3d67"
+    },
+    {
+      "script": "verification/perturb/B/sample.py",
+      "script_sha256": "b539c772434669e7be75fdf1b9cce6942b61593e14d0a08e0a071b3df3058f54"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "58c42948d2820b5c40e6f77e7abf92e8a7536ebad1ef4f5454521a2167af5f44"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "9cbc60f9dd6125bcc67039310522f773f561c94845a54def8f8c440b01875a70"
+    }
+  ],
+  "verification_tree_sha256": "95ad77b083fc4caffa12cb97346235518d4ed3ba2a038eeea14954bd34edeb53",
+  "verification_file_count": 8,
+  "shared_runtime_tree_sha256": "d8710168f8a9c9ce1fd4946fdcfa0a279806376236feda46a5384b7f302428e9",
+  "shared_runtime_file_count": 4
+}

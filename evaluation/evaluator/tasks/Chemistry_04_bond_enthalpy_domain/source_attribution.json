@@ -1,0 +1,8 @@
+{
+  "schema": "truthinsightbench-source-attribution",
+  "release": "V1.0",
+  "task_id": "Chemistry_04_bond_enthalpy_domain",
+  "title": "Prediction of organic homolytic bond dissociation enthalpies at near chemical accuracy with sub-second computational cost",
+  "doi": "10.1038/s41467-020-16201-z",
+  "first_publication_date": "2020-05-11"
+}

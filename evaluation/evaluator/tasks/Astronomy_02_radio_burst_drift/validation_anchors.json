@@ -1,0 +1,208 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "快慢漂移组成存在大幅条件转移：来源组1快漂移占优，其他两组慢漂移占优",
+      "independent_reconstruction_method": "Frozen evaluator recomputation: verification/recompute/A.py",
+      "non_exhaustive_validation_anchor": true,
+      "object": "三个匿名来源组在两个偏振通道上的快慢漂移群体",
+      "one_liner": "参照条件的快漂移占比为0.9194，替代条件为0.2508，两者相差0.6687。",
+      "perturbation_bindings": [
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition_frozen.py",
+          "script_sha256": "7afb78625944bc6587008ff38bd160009b16d6ee4314f18c7e595d9897d8b836"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method_frozen.py",
+          "script_sha256": "96f6ed17821cb138a0ab74ed12c899cbed2b45f79c6cd5f8191b37d1ddb96d6c"
+        },
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample_frozen.py",
+          "script_sha256": "6bc0100e245cf98d73b91a53e2dc66d64a3f02fa8ed34f98f0793b00e9aa351d"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "measurement: \"在独立观测期按同一探测合同重建三个来源组×两个偏振通道的快慢漂移分布\"; expected_range: [0.55, 0.8]; failure_criterion: \"来源组1与其他组的快漂移占比差低于0.40，或完整序列留出后两组不再分居0.5两侧\""
+      },
+      "quantities": [
+        {
+          "key": "reference_fast_fraction",
+          "role": "core",
+          "tolerance_rel": 0.01,
+          "unit": "fraction",
+          "value": 0.9194406724
+        },
+        {
+          "key": "alternate_fast_fraction",
+          "role": "core",
+          "tolerance_rel": 0.02,
+          "unit": "fraction",
+          "value": 0.2507512521
+        },
+        {
+          "key": "fast_fraction_difference",
+          "role": "core",
+          "tolerance_rel": 0.02,
+          "unit": "fraction",
+          "value": 0.6686894203
+        },
+        {
+          "key": "reference_slow_to_fast_ratio",
+          "role": "supporting",
+          "tolerance_rel": 0.03,
+          "unit": "ratio",
+          "value": 0.0876177551
+        },
+        {
+          "key": "alternate_slow_to_fast_ratio",
+          "role": "supporting",
+          "tolerance_rel": 0.03,
+          "unit": "ratio",
+          "value": 2.9880159787
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "values": [
+          {
+            "json_path": "values.reference_fast_fraction",
+            "quantity_key": "reference_fast_fraction"
+          },
+          {
+            "json_path": "values.alternate_fast_fraction",
+            "quantity_key": "alternate_fast_fraction"
+          },
+          {
+            "json_path": "values.fast_fraction_difference",
+            "quantity_key": "fast_fraction_difference"
+          },
+          {
+            "json_path": "values.reference_slow_to_fast_ratio",
+            "quantity_key": "reference_slow_to_fast_ratio"
+          },
+          {
+            "json_path": "values.alternate_slow_to_fast_ratio",
+            "quantity_key": "alternate_slow_to_fast_ratio"
+          }
+        ],
+        "script_sha256": "63054e2b7b19ab6dd34dc2df0dcf9be98e50499a86590ca49ebb30d2e03dcfa5"
+      },
+      "scope": "十二条完整分布；来源组1的两条序列对比来源组2–3的四条序列",
+      "target_alignment": {
+        "paper_claim_paraphrase": "目标论文报告快漂移群体在一类条件中压倒性占优，而其他条件同时保留快慢两类群体且慢漂移更多。",
+        "paper_location": "Results and Fig. 6, source-conditioned drift-rate distributions",
+        "rationale": "冻结复算器直接汇总十二条Source Data分布，以完整偏振/来源序列留出和事件级阈值交叉验证。",
+        "status": "reported_target_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "该条件下慢漂移群体占多数，但快漂移群体在两个偏振通道和完整事件中都可复验",
+      "independent_reconstruction_method": "Frozen evaluator recomputation: verification/recompute/B.py",
+      "non_exhaustive_validation_anchor": true,
+      "object": "匿名来源组2的两条偏振群体分布和两个完整动态谱事件",
+      "one_liner": "指定匿名条件的慢、快漂移占比为0.7450和0.2550，完整事件同时给出3.361与16.867 MHz/s的两类漂移。",
+      "perturbation_bindings": [
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition_frozen.py",
+          "script_sha256": "8fb60a753c8391088fa74be9166b4e8caf92e2d8461d86e41ce38ba08f125c15"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method_frozen.py",
+          "script_sha256": "6a156429555e2d013d96c7f58c73ad58554c0f07b452fc3db02f177a529e5a2e"
+        },
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample_frozen.py",
+          "script_sha256": "07cbe35d8ec170bd76092ae4234d512d4f19cc5788911c60976b4d08004eff37"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "measurement: \"在独立观测期为来源组2两个偏振通道分别重建快慢漂移分布，并保留完整事件级拟合\"; expected_range: [0.1, 0.4]; failure_criterion: \"任一偏振通道的快漂移占比为0或超过0.50，或新事件不再同时包含绝对漂移率低于8与高于12 MHz/s的两类样本\""
+      },
+      "quantities": [
+        {
+          "key": "group_b_slow_fraction",
+          "role": "core",
+          "tolerance_rel": 0.02,
+          "unit": "fraction",
+          "value": 0.7450124688
+        },
+        {
+          "key": "group_b_fast_fraction",
+          "role": "core",
+          "tolerance_rel": 0.02,
+          "unit": "fraction",
+          "value": 0.2549875312
+        },
+        {
+          "key": "group_b_slow_example_abs_mhz_s",
+          "role": "core",
+          "tolerance_rel": 0.03,
+          "unit": "MHz_per_s",
+          "value": 3.3614250505
+        },
+        {
+          "key": "group_b_fast_example_abs_mhz_s",
+          "role": "core",
+          "tolerance_rel": 0.03,
+          "unit": "MHz_per_s",
+          "value": 16.8672977841
+        },
+        {
+          "key": "group_b_example_rate_ratio",
+          "role": "supporting",
+          "tolerance_rel": 0.05,
+          "unit": "ratio",
+          "value": 5.0179008994
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "values": [
+          {
+            "json_path": "values.group_b_slow_fraction",
+            "quantity_key": "group_b_slow_fraction"
+          },
+          {
+            "json_path": "values.group_b_fast_fraction",
+            "quantity_key": "group_b_fast_fraction"
+          },
+          {
+            "json_path": "values.group_b_slow_example_abs_mhz_s",
+            "quantity_key": "group_b_slow_example_abs_mhz_s"
+          },
+          {
+            "json_path": "values.group_b_fast_example_abs_mhz_s",
+            "quantity_key": "group_b_fast_example_abs_mhz_s"
+          },
+          {
+            "json_path": "values.group_b_example_rate_ratio",
+            "quantity_key": "group_b_example_rate_ratio"
+          }
+        ],
+        "script_sha256": "7d321f9f143597ffbd418c166a789a4f8dbf21e59831f3f2b568b72d478f84a3"
+      },
+      "scope": "来源组2的全部快慢分布计数，以及event_3和event_4的冻结漂移率",
+      "target_alignment": {
+        "paper_claim_paraphrase": "目标论文报告该来源组同时出现快慢两类漂移群体，而非单一连续水位。",
+        "paper_location": "Results and Fig. 2/Fig. 6, coexistence of fast and slow populations",
+        "rationale": "冻结验证器同时跑群体分布计数和完整事件漂移率，不以两个示例代替全群体。",
+        "status": "reported_target_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "Two verified validation anchors for blind-rediscovery diagnostics; not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2022-10-13",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Astronomy_02_radio_burst_drift",
+  "release": "V1.0"
+}

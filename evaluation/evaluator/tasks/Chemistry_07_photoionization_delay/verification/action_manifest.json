@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Chemistry_07_photoionization_delay",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition.py",
+      "script_sha256": "51afb754ff9e5d41467be87e4565bd6142c82bd3d14a37d4f962ace446fda036"
+    },
+    {
+      "script": "verification/perturb/A/method.py",
+      "script_sha256": "b092d738494a119567e16dfbae2f6bcb65d08ed55c63de4ff70ef79605090079"
+    },
+    {
+      "script": "verification/perturb/A/sample.py",
+      "script_sha256": "8f2d74b1f3333f4dc3b41567dfee40b459042f10d8752f02f32c4226fe56c479"
+    },
+    {
+      "script": "verification/perturb/B/definition.py",
+      "script_sha256": "c698ef80373958e9f150a9c833dfa3b57170c974425f636b973505c21a425cde"
+    },
+    {
+      "script": "verification/perturb/B/method.py",
+      "script_sha256": "3263f3974f5374401d1b174b8a71d712bc490e3f9f3d7b107a01e642793a9be5"
+    },
+    {
+      "script": "verification/perturb/B/sample.py",
+      "script_sha256": "40cdfbba0733a9c83128ff8c7f4b9d0db9f8566e06698f8fc8f38576bb47952e"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "7efbe8c535add485aaf120d09057035c645c0171b274468ae8f368c9190c1eb8"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "d56880a0f65ed75708ab0002e97aafae9fe2cae0d2a8609ef480243a6748d051"
+    }
+  ],
+  "verification_tree_sha256": "fb3601833f1402d5364ca83ce487efe50ab0d13b991df96458a834252d1d63f6",
+  "verification_file_count": 8,
+  "shared_runtime_tree_sha256": "d8710168f8a9c9ce1fd4946fdcfa0a279806376236feda46a5384b7f302428e9",
+  "shared_runtime_file_count": 4
+}

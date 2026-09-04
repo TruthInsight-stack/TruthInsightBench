@@ -1,0 +1,206 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "Whole-curve bias conductance and specimen-level conductivity agree on enhanced transport in the modified class.",
+      "independent_reconstruction_method": "OLS, origin-constrained, and Theil-Sen whole-curve slopes plus class medians/means and leave-one-specimen conductivity checks; local vectors receive descriptive trim sensitivity only.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Complete bias-current curves and the restored class-labelled conductivity specimens; unparented local-current vectors are descriptive supporting evidence only.",
+      "one_liner": "The modified membrane class has about tenfold larger bias conductance and over thirtyfold higher specimen-level median conductivity than the reference class.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample.py",
+          "script_sha256": "d962c695bd07c02531ae3c7fb5be8ad8afe30fc0071e821568fd9a688ed221d4"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method.py",
+          "script_sha256": "c02eaad75d0657a3c998bce304ac21ce0841be171ab91b2f4221cbffa5f6670c"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition.py",
+          "script_sha256": "172fd1651351a5e04a70892b7a456541aecdf37bcc7070d1509c9b6ceaa48ef1"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A preregistered independent specimen set supports the relationship if both its class-median conductivity ratio and complete-curve conductance ratio exceed five; either ratio at or below five is failure."
+      },
+      "quantities": [
+        {
+          "key": "bias_conductance_ratio",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "fold",
+          "value": 10.35549309091258
+        },
+        {
+          "key": "conductivity_median_ratio",
+          "role": "core",
+          "tolerance_rel": 0.12,
+          "unit": "fold",
+          "value": 34.14493262942243
+        },
+        {
+          "key": "modified_conductivity_median_mS_cm2",
+          "role": "supporting",
+          "tolerance_rel": 0.1,
+          "unit": "mS_cm2",
+          "value": 108.333335
+        },
+        {
+          "key": "reference_conductivity_median_mS_cm2",
+          "role": "supporting",
+          "tolerance_rel": 0.1,
+          "unit": "mS_cm2",
+          "value": 3.17275
+        },
+        {
+          "key": "modified_bias_conductance_A_per_V",
+          "role": "supporting",
+          "tolerance_rel": 0.08,
+          "unit": "ampere_per_volt",
+          "value": 1.009135115268341e-09
+        },
+        {
+          "key": "reference_bias_conductance_A_per_V",
+          "role": "supporting",
+          "tolerance_rel": 0.08,
+          "unit": "ampere_per_volt",
+          "value": 9.744925774262776e-11
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "script_sha256": "99693a35999f2158543617fd6ceeeb22c4d204c9f64ac4abdb3e6b70c2f12e73",
+        "values": [
+          {
+            "json_path": "values.bias_conductance_ratio",
+            "quantity_key": "bias_conductance_ratio"
+          },
+          {
+            "json_path": "values.conductivity_median_ratio",
+            "quantity_key": "conductivity_median_ratio"
+          },
+          {
+            "json_path": "values.modified_conductivity_median_mS_cm2",
+            "quantity_key": "modified_conductivity_median_mS_cm2"
+          },
+          {
+            "json_path": "values.reference_conductivity_median_mS_cm2",
+            "quantity_key": "reference_conductivity_median_mS_cm2"
+          },
+          {
+            "json_path": "values.modified_bias_conductance_A_per_V",
+            "quantity_key": "modified_bias_conductance_A_per_V"
+          },
+          {
+            "json_path": "values.reference_bias_conductance_A_per_V",
+            "quantity_key": "reference_bias_conductance_A_per_V"
+          }
+        ]
+      },
+      "scope": "The supplied membrane classes; curve points are nested, conductivity rows are specimens, and local-current trace values lack parent-unit identifiers.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports strongly enhanced cross-plane proton conductivity after functionalization.",
+        "paper_location": "Electrical transport Results and source-data bias/local-current panels.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "High-current regions coexist with near-background regions rather than forming a spatially uniform sheet.",
+      "independent_reconstruction_method": "Contiguous spatial blocks with quadrant holdouts and multi-threshold hot-region definitions.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Complete 29×29 local-current map.",
+      "one_liner": "The spatial current map is strongly heterogeneous, with adjacent block medians spanning near-background to over 160 pA.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample.py",
+          "script_sha256": "bb30dea8605434670f74491e9cfa7f67070a210b70578efb4dd648b9eba53564"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method.py",
+          "script_sha256": "461caa6202c8422fffab35ebffd5d9314eb6706ba9c2980c4604c100566e6937"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition.py",
+          "script_sha256": "2cbba53f02608a4bc756e4acd81f8da880365950a028aa6279b718f088d7001e"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "Under predeclared 1-µm blocks, an independent map supports the relationship if its minimum block median is below 0.1 pA and maximum block median exceeds 100 pA; either condition failing is failure."
+      },
+      "quantities": [
+        {
+          "key": "fraction_pixels_above_10_pA",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "fraction",
+          "value": 0.49108204518430437
+        },
+        {
+          "key": "one_um_block_minimum_median_pA",
+          "role": "supporting",
+          "tolerance_rel": 0.2,
+          "unit": "pA",
+          "value": 0.0114059075819394
+        },
+        {
+          "key": "one_um_block_maximum_median_pA",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "pA",
+          "value": 163.57705291697
+        },
+        {
+          "key": "spatial_pixel_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 841
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "script_sha256": "d069146494a6e4ccc4d1f20c080a180e3d1ac990c0a2cdd3fe8e4152e32a8651",
+        "values": [
+          {
+            "json_path": "values.fraction_pixels_above_10_pA",
+            "quantity_key": "fraction_pixels_above_10_pA"
+          },
+          {
+            "json_path": "values.one_um_block_minimum_median_pA",
+            "quantity_key": "one_um_block_minimum_median_pA"
+          },
+          {
+            "json_path": "values.one_um_block_maximum_median_pA",
+            "quantity_key": "one_um_block_maximum_median_pA"
+          },
+          {
+            "json_path": "values.spatial_pixel_count",
+            "quantity_key": "spatial_pixel_count"
+          }
+        ]
+      },
+      "scope": "Spatial blocks, not pixels, are the inferential units; threshold choices are explicitly perturbed.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports spatially nonuniform cross-plane proton transport.",
+        "paper_location": "Spatial electrochemical mapping Results and source-data current map.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "These two cards are verified reference discoveries for blind-rediscovery diagnostics and are not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2023-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Material_03_membrane_selective_permeation",
+  "release": "V1.0"
+}

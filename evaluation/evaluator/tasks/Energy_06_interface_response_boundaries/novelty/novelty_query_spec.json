@@ -1,0 +1,27 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "metal support interaction CO2 hydrogenation temperature response catalyst",
+        "ruthenium titania interface temperature catalytic activity monotonic"
+      ]
+    },
+    "B": {
+      "queries": [
+        "CO2 hydrogenation catalyst independent condition response shape",
+        "metal support interface catalytic activity temperature validation"
+      ]
+    }
+  },
+  "frozen_at": "2026-08-22",
+  "provider": "OpenAlex_primary_with_Crossref_fallback",
+  "provider_api": [
+    "https://api.openalex.org/works",
+    "https://api.crossref.org/works"
+  ],
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2022-01-01",
+  "target_doi_excluded": "10.1038/s41467-021-27910-4",
+  "task_id": "Energy_06_interface_response_boundaries",
+  "release": "V1.0"
+}

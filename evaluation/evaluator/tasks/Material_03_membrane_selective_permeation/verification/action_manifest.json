@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Material_03_membrane_selective_permeation",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition.py",
+      "script_sha256": "172fd1651351a5e04a70892b7a456541aecdf37bcc7070d1509c9b6ceaa48ef1"
+    },
+    {
+      "script": "verification/perturb/A/method.py",
+      "script_sha256": "c02eaad75d0657a3c998bce304ac21ce0841be171ab91b2f4221cbffa5f6670c"
+    },
+    {
+      "script": "verification/perturb/A/sample.py",
+      "script_sha256": "d962c695bd07c02531ae3c7fb5be8ad8afe30fc0071e821568fd9a688ed221d4"
+    },
+    {
+      "script": "verification/perturb/B/definition.py",
+      "script_sha256": "2cbba53f02608a4bc756e4acd81f8da880365950a028aa6279b718f088d7001e"
+    },
+    {
+      "script": "verification/perturb/B/method.py",
+      "script_sha256": "461caa6202c8422fffab35ebffd5d9314eb6706ba9c2980c4604c100566e6937"
+    },
+    {
+      "script": "verification/perturb/B/sample.py",
+      "script_sha256": "bb30dea8605434670f74491e9cfa7f67070a210b70578efb4dd648b9eba53564"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "99693a35999f2158543617fd6ceeeb22c4d204c9f64ac4abdb3e6b70c2f12e73"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "d069146494a6e4ccc4d1f20c080a180e3d1ac990c0a2cdd3fe8e4152e32a8651"
+    }
+  ],
+  "verification_tree_sha256": "6638b2b5909b1a2d8ba4acea470d082a6dca037732c480771a2910eb23e91201",
+  "verification_file_count": 8,
+  "shared_runtime_tree_sha256": "d8710168f8a9c9ce1fd4946fdcfa0a279806376236feda46a5384b7f302428e9",
+  "shared_runtime_file_count": 4
+}

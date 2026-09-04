@@ -1,0 +1,1193 @@
+{
+  "all_queries_completed": true,
+  "cards": {
+    "A": {
+      "queries": [
+        {
+          "api_cutoff": "2021-12-31",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "Drug development is a lengthy and costly process that proceeds through several stages from target identification to lead discovery and optimization, preclinical validation and clinical trials culminating in approval for clinical use. An important step in this process is high-throughput screening (HTS) of small compound libraries for lead identification. Currently, the majority of cell-based HTS is being carried out on cultured cells propagated in two-dimensions (2D) on plastic surfaces optimized for tissue culture. At the same time, compelling evidence suggests that cells cultured in these non-physiological conditions are not representative of cells residing in the complex microenvironment of a tissue. This discrepancy is thought to be a significant contributor to the high failure rate in drug discovery, where only a low percentage of drugs investigated ever make it through the gamut of testing and approval to the market. Thus, three-dimensional (3D) cell culture technologies that more closely resemble in vivo cell environments are now being pursued with intensity as they are expected to accommodate better precision in drug discovery. Here we will review common approaches to 3D culture, discuss the significance of 3D cultures in drug resistance and drug repositioning and address some of the challenges of applying 3D cell cultures to high-throughput drug discovery.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-01-23",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3389/fphar.2018.00006",
+              "id": "https://openalex.org/W2791017844",
+              "provider": "openalex",
+              "title": "Three-Dimensional in Vitro Cell Culture Models in Drug Discovery and Drug Repositioning"
+            },
+            {
+              "abstract": "This chapter explores various questions: Are synapses added as we learn? Are there more synapses in some cortical areas than in others? Are there gender differences in synaptic density and do we lose synapses as we age? If we lose synapses with age, what is the timing and rate of this dissolution? To address these issue this chapter present the finding reported in the rhesus monkey. The study of major structural and functional subdivisions of the cortex over the primate lifespan offers a particularly comprehensive view of synapse formation. From study, it is eminently clear that knowledge of the normal course and mechanisms of synapse formation, the influence of various exogenous and endogenous events upon synapse stability and turnover, are essential prerequisites to determining the locus and timing of etiological factors in diseases that affect the cortex and alter cognitive function.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1994-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/s0079-6123(08)60543-9",
+              "id": "https://openalex.org/W1260555871",
+              "provider": "openalex",
+              "title": "Synaptic development of the cerebral cortex: implications for learning, memory, and mental illness"
+            },
+            {
+              "abstract": "The descending projections from motor cortex share many features with top-down or backward connections in visual cortex; for example, corticospinal projections originate in infragranular layers, are highly divergent and (along with descending cortico-cortical projections) target cells expressing NMDA receptors. This is somewhat paradoxical because backward modulatory characteristics would not be expected of driving motor command signals. We resolve this apparent paradox using a functional characterisation of the motor system based on Helmholtz's ideas about perception; namely, that perception is inference on the causes of visual sensations. We explain behaviour in terms of inference on the causes of proprioceptive sensations. This explanation appeals to active inference, in which higher cortical levels send descending proprioceptive predictions, rather than motor commands. This process mirrors perceptual inference in sensory cortex, where descending connections convey predictions, while ascending connections convey prediction errors. The anatomical substrate of this recurrent message passing is a hierarchical system consisting of functionally asymmetric driving (ascending) and modulatory (descending) connections: an arrangement that we show is almost exactly recapitulated in the motor system, in terms of its laminar, topographic and physiological characteristics. This perspective casts classical motor reflexes as minimising prediction errors and may provide a principled explanation for why motor cortex is agranular.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2012-11-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s00429-012-0475-5",
+              "id": "https://openalex.org/W2033422410",
+              "provider": "openalex",
+              "title": "Predictions not commands: active inference in the motor system"
+            },
+            {
+              "abstract": "In the current article, we provide a critical review of the extant literature that has focused on environmental influences on cognitive and brain plasticity over the adult life span. The review includes both human epidemiological, and human and nonhuman cross-sectional and longitudinal research. We review a number of factors that have been suggested to reduce age-related cognitive decline including both formal and informal education, leisure pursuits, intellectual engagement, and expertise in different skill domains. We also examine the literature on cognitive and physical fitness training. We conclude with a discussion of the gaps in the literature and suggestions for future research.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2004-09-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1093/gerona/59.9.m940",
+              "id": "https://openalex.org/W2135940547",
+              "provider": "openalex",
+              "title": "Environmental Influences on Cognitive and Brain Plasticity During Aging"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2003-04-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/s0006-3223(03)00117-3",
+              "id": "https://openalex.org/W2048557710",
+              "provider": "openalex",
+              "title": "Enhancing neuronal plasticity and cellular resilience to develop novel, improved therapeutics for Difficult-to-Treat depression"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-05-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.arr.2016.04.005",
+              "id": "https://openalex.org/W2341046893",
+              "provider": "openalex",
+              "title": "Synaptic pathology: A shared mechanism in neurological disease"
+            },
+            {
+              "abstract": "Dendritic spines are small protrusions studding neuronal dendrites, first described in 1888 by Ramón y Cajal using his famous Golgi stainings. Around 50 years later the advance of electron microscopy (EM) confirmed Cajal's intuition that spines constitute the postsynaptic site of most excitatory synapses in the mammalian brain. The finding that spine density decreases between young and adult ages in fixed tissues suggested that spines are dynamic. It is only a decade ago that two-photon microscopy (TPM) has unambiguously proven the dynamic nature of spines, through the repeated imaging of single spines in live animals. Spine dynamics comprise formation, disappearance, and stabilization of spines and are modulated by neuronal activity and developmental age. Here, we review several emerging concepts in the field that start to answer the following key questions: What are the external signals triggering spine dynamics and the molecular mechanisms involved? What is, in return, the role of spine dynamics in circuit-rewiring, learning, and neuropsychiatric disorders?",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-08-28",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3389/fnsyn.2020.00036",
+              "id": "https://openalex.org/W3082326031",
+              "provider": "openalex",
+              "title": "Dendritic Spine Plasticity: Function and Mechanisms"
+            },
+            {
+              "abstract": "Synaptic plasticity is thought to be the principal neuronal mechanism underlying learning. Models of plastic networks typically combine point neurons with spike-timing-dependent plasticity (STDP) as the learning rule. However, a point neuron does not capture the local non-linear processing of synaptic inputs allowed for by dendrites. Furthermore, experimental evidence suggests that STDP is not the only learning rule available to neurons. By implementing biophysically realistic neuron models, we study how dendrites enable multiple synaptic plasticity mechanisms to coexist in a single cell. In these models, we compare the conditions for STDP and for synaptic strengthening by local dendritic spikes. We also explore how the connectivity between two cells is affected by these plasticity rules and by different synaptic distributions. Finally, we show that how memory retention during associative learning can be prolonged in networks of neurons by including dendrites.Synaptic plasticity is the neuronal mechanism underlying learning. Here the authors construct biophysical models of pyramidal neurons that reproduce observed plasticity gradients along the dendrite and show that dendritic spike dependent LTP which is predominant in distal sections can prolong memory retention.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-09-20",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41467-017-00740-z",
+              "id": "https://openalex.org/W2753962205",
+              "provider": "openalex",
+              "title": "Modeling somatic and dendritic spike mediated plasticity at the single neuron and network level"
+            },
+            {
+              "abstract": "Schizophrenia is a complex, heterogeneous behavioural and cognitive syndrome that seems to originate from disruption of brain development caused by genetic or environmental factors, or both. Dysfunction of dopaminergic neurotransmission contributes to the genesis of psychotic symptoms, but evidence also points to a widespread and variable involvement of other brain areas and circuits. Disturbances of synaptic function might underlie abnormalities of neuronal connectivity that possibly involves interneurons, but the precise nature, location, and timing of these events are uncertain. At present, treatment mainly consists of antipsychotic drugs combined with psychological therapies, social support, and rehabilitation, but a pressing need for more effective treatments and delivery of services exists. Advances in genomics, epidemiology, and neuroscience have led to great progress in understanding the disorder, and the opportunities for further scientific breakthrough are numerous--but so are the challenges.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-01-15",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/s0140-6736(15)01121-6",
+              "id": "https://openalex.org/W4211145950",
+              "provider": "openalex",
+              "title": "Schizophrenia"
+            },
+            {
+              "abstract": "In this review, we focus on the potential role of the γ-aminobutyric acidergic (GABAergic) system in age-related episodic memory impairments in humans, with a particular focus on Alzheimer's disease (AD). Well-established animal models have shown that GABA plays a central role in regulating and synchronizing neuronal signaling in the hippocampus, a brain area critical for episodic memory that undergoes early and significant morphologic and functional changes in the course of AD. Neuroimaging research in humans has documented hyperactivity in the hippocampus and losses of resting state functional connectivity in the Default Mode Network, a network that itself prominently includes the hippocampus-presaging episodic memory decline in individuals at-risk for AD. Apolipoprotein ε4, the highest genetic risk factor for AD, is associated with GABAergic dysfunction in animal models, and episodic memory impairments in humans. In combination, these findings suggest that GABA may be the linchpin in a complex system of factors that eventually leads to the principal clinical hallmark of AD: episodic memory loss. Here, we will review the current state of literature supporting this hypothesis. First, we will focus on the molecular and cellular basis of the GABAergic system and its role in memory and cognition. Next, we report the evidence of GABA dysregulations in AD and normal aging, both in animal models and human studies. Finally, we outline a model of GABAergic dysfunction based on the results of functional neuroimaging studies in humans, which have shown hippocampal hyperactivity to e",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-02-09",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.semcdb.2021.01.005",
+              "id": "https://openalex.org/W3126925105",
+              "provider": "openalex",
+              "title": "GABAergic dysfunction, neural network hyperactivity and memory impairments in human aging and Alzheimer’s disease"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2014-01-01",
+              "date_precision": "year",
+              "doi": "https://doi.org/10.1007/978-1-4614-8094-5_26",
+              "id": "S2:09cf22f4f395fb8cb35a93c89f2f8582f5bb5311",
+              "provider": "semantic_scholar",
+              "title": "Synaptic plasticity and pattern recognition in cerebellar Purkinje cells",
+              "url": "https://www.semanticscholar.org/paper/09cf22f4f395fb8cb35a93c89f2f8582f5bb5311?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2014-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:cb3216bb31e070ea43a2a1747940d7a17044eb6b",
+              "provider": "semantic_scholar",
+              "title": "MULTISCALE MODELING , STOCHASTIC AND ASYMPTOTIC APPROACHES FOR ANALYZING NEURAL NETWORKS BASED ON SYNAPTIC DYNAMICS",
+              "url": "https://www.semanticscholar.org/paper/cb3216bb31e070ea43a2a1747940d7a17044eb6b?utm_source=api"
+            },
+            {
+              "abstract": "Behavioral and neuroscientific data on reward-based decision making point to a fundamental distinction between habitual and goal-directed action selection. The formation of habits, which requires simple updating of cached values, has been studied in great detail, and the reward prediction error theory of dopamine function has enjoyed prominent success in accounting for its neural bases. In contrast, the neural circuit mechanisms of goal-directed decision making, requiring extended iterative computations to estimate values online, are still unknown. Here we present a spiking neural network that provably solves the difficult online value estimation problem underlying goal-directed decision making in a near-optimal way and reproduces behavioral as well as neurophysiological experimental data on tasks ranging from simple binary choice to sequential decision making. Our model uses local plasticity rules to learn the synaptic weights of a simple neural network to achieve optimal performance and solves one-step decision-making tasks, commonly considered in neuroeconomics, as well as more challenging sequential decision-making tasks within 1 s. These decision times, and their parametric dependence on task parameters, as well as the final choice probabilities match behavioral data, whereas the evolution of neural activities in the network closely mimics neural responses recorded in frontal cortices during the execution of such tasks. Our theory provides a principled framework to understand the neural underpinning of goal-directed decision making and makes novel predictions for sequential decision-making tasks with multiple rewards. SIGNIFICANCE STATEMENT Goal-directed actions requiring prospective planning pervade decision making, but their circuit-level mechanisms remain elusive. We show how a model circuit of biologically realistic spiking neurons can solve this computationally challenging problem in a novel way. The synaptic weights of our network can be learned using local plasticity rules such that its dynamics devise a near-optimal plan of action. By systematically comparing our model results to experimental data, we show that it reproduces behavioral decision times and choice probabilities as well as neural responses in a rich set of tasks. Our results thus offer the first biologically realistic account for complex goal-directed decision making at a computational, algorithmic, and implementational level.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-02-03",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1523/JNEUROSCI.2854-15.2016",
+              "id": "S2:0701ea4e641288f274f7b2c5dd86e265838fb9f8",
+              "provider": "semantic_scholar",
+              "title": "Goal-Directed Decision Making with Spiking Neurons",
+              "url": "https://www.semanticscholar.org/paper/0701ea4e641288f274f7b2c5dd86e265838fb9f8?utm_source=api"
+            },
+            {
+              "abstract": "Persistent activity, the maintenance of neural activation over short periods of time in cortical networks, is widely thought to underlie the cognitive function of working memory. A large body of modeling studies has reproduced this kind of activity using cell assemblies with strengthened synaptic connections. However, almost all of these studies have considered persistent activity within networks with homogeneous neurons and synapses, making it difficult to judge the validity of such model results for cortical dynamics, which is based on highly heterogeneous neurons. Here, we consider persistent activity in a detailed, strongly data-driven network model of the prefrontal cortex with heterogeneous neuron and synapse parameters. Surprisingly, persistent activity could not be reproduced in this model without incorporating further constraints. We identified three factors that prevent successful persistent activity: heterogeneity in the cell parameters of interneurons, heterogeneity in the parameters of short-term synaptic plasticity and heterogeneity in the synaptic weights. Our model predicts that persistent activity is recovered if the heterogeneity in the activity of individual interneurons is diminished, which could be achieved by a homeostatic plasticity mechanism. Such a plasticity scheme could also compensate the heterogeneities in the synaptic weights and short-term plasticity when applied to the inhibitory synapses. Cell assemblies shaped in this way may be potentially targeted by distinct inputs or become more responsive to specific tuning or spectral properties. Furthermore, the model predicts that a network that exhibits persistent activity is not able to dynamically produce intrinsic in vivo-like irregular activity at the same time, because heterogeneous synaptic connections are required for these dynamics. Thus, the background noise in such a network must either be produced by external input or constitutes an entirely different state of the network, which is brought about, e.g., by neuromodulation. Author summary To operate effectively in a constantly changing world, it is crucial to keep relevant information in mind for short periods of time. This ability, called working memory, is commonly assumed to rest on reverberating activity among members of cell assemblies. While effective in reproducing key results of working memory, most cell assembly models rest on major simplifications such as using the same parameters for all neurons and synapses, i.e., assuming homogeneity in these parameters. Here, we show that this homogeneity assumption is necessary for persistent activity to arise, specifically for inhibitory interneurons and synapses. Using a strongly data-driven network model of the prefrontal cortex, we show that the heterogeneities in the above parameters that are implied by in vitro studies prevent persistent activity. When homogeneity is imposed on inhibitory neurons and synapses, persistent activity is recovered. We propose that the homogeneity constraints can be implemented in the brain by means of homeostatic plasticity, a form of learning that keeps the activity of a network in a constant, homeostatic state. The model makes a number of predictions for biological networks, including a structural separation of networks responsible for generating persistent activity and spontaneous, noise-like activity.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-05-24",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1101/645663",
+              "id": "S2:60a6bd5eb48146beb8281a643243ca7c63cbd0ea",
+              "provider": "semantic_scholar",
+              "title": "Constraints on Persistent Activity in a Biologically Detailed Network Model of the Prefrontal Cortex with Heterogeneities",
+              "url": "https://www.semanticscholar.org/paper/60a6bd5eb48146beb8281a643243ca7c63cbd0ea?utm_source=api"
+            },
+            {
+              "abstract": "The dynamics of synaptic plasticity and the encoding of spatial information have been extensively studied in the hippocampus. Yet few attempts have been made to investigate how the two combine to produce the most striking emergent function of this system, the cognitive map (Toleman, 1948). \n \nHere, Bush et al. present a neural network model describing how a cognitive map based on empirical findings from hippocampal electrophysiology could function in order to encode space and enable sequence learning. The model demonstrates how both functions could be accommodated within the same network architecture and using the same learning rule (Bush et al., 2010). \n \nThe network employed by the authors is based on the recurrently connected CA3 region of the hippocampus, where individual “place cells” fire maximally at specific locations within one, two, and three-dimensional space (O'Keefe and Dostrovsky, 1971; O'Keefe, 1976; Hayman et al., 2011). Connection strengths are fully modifiable and are governed by spike-timing dependent plasticity (STDP) rules based on empirical findings from hippocampal cultures (Bi and Poo, 1998; Debanne et al., 1998; Wang et al., 2005). Here, the timing of pre- and post-synaptic activity is crucial in determining the magnitude and direction of synaptic plasticity, in contrast to purely rate-coded synaptic dynamics. In addition, changes in synaptic weights are dynamically modulated by ongoing theta-coded activity dictated by a phenomenological phase precession model (O'Keefe and Recce, 1993; Huxter et al., 2008). \n \nWhen the network experiences neural activity corresponding to a series of shuttle runs across a square arena, heteroassociative connections between activated place cells become potentiated, cells with overlapping place fields develop strong bidirectional connections and asymmetric connections between cells against the direction of motion become depressed. The elevated connectivity of the activated ensemble resembles the broad development of a “cognitive map” with bidirectional connections providing detailed information about the relative proximity of individual place fields. The firing patterns of cells with overlapping place fields satisfy the STDP rule and enable connections between such cells to become potentiated, as demonstrated in slices (Isaac et al., 2009). The biasing of asymmetric connection weights toward the last direction of motion enables the encoding of recent trajectories or episodes. Thus the requirements for spatial encoding and sequence learning can be fulfilled simultaneously. The authors note that if there was only a single direction of motion, the connections between the place cells would become purely asymmetric and the cognitive map would thus remain undeveloped. \n \nDuring simulated random exploration of an arena, a similar pattern of bidirectional connectivity develops between place cells encoding proximal place fields, with local asymmetric connections reflecting fragments of recent trajectories. Repeated traversals of a one dimensional route in a single direction through such a learned environment does not alter the gross structure of the map, but profoundly alters the connections of place cells that lie on the route. As before, connections following the direction of travel are significantly potentiated but those against it are depressed, suggesting information concerning recent trajectories can be embedded in the cognitive map. \n \nThe model goes some way to supporting in vivo and in vitro data demonstrating the role of synaptic plasticity within the of development of the cognitive map and the encoding of episodic memory; it also prompts a number of predictions as to when and where plasticity may be induced during these processes (Sadowski et al., 2011). However, these predictions are perhaps limited to the experimental context within which their STDP rule is rooted – that being data gleaned primarily from hippocampal cultures rather than acute brain slices (Buchanan and Mellor, 2010). The model is used to explore the consequences of dynamic plasticity modulation by theta-coded activity, yet other dynamic factors, most notably cholinergic tone, are also known to be powerful modulators of synaptic plasticity and may have a crucial role in tuning the development of the cognitive map. \n \nOne unexplored aspect of the paper relates to the “offline” dynamics of a network when such patterns of connectivity have been established. The phenomenon of place cell replay has been observed during in vivo hippocampal recordings, where sequences of place cell activity are recapitulated during sleep or rest following behavior (Skaggs and McNaughton, 1996). It is postulated that replay may facilitate the long term consolidation of episodic memory by driving correlated activity in other brain regions such the neocortex (Walker and Stickgold, 2010). In theory the potentiated asymmetric connections between place cells involved in recent route traversals would make it more likely for them to be reactivated in the same sequence during the post-encoding phase. Forward and reverse replay of place cell firing patterns have been observed in behaving rats (Foster and Wilson, 2006; Diba and Buzsaki, 2007), yet the model by Bush et al. does not provide as obvious an explanation for reverse replay than forward replay. The involvement of replay would allow learned sequences to become consolidated in the cortex, but it suggests that the consolidation of the cognitive map may be more piecemeal, if indeed it occurs at all. \n \nOverall, the paper demonstrates how computational modeling can elegantly combine parallel strands of hippocampal electrophysiology and make defined predictions about how behavior might shape connectivity and therefore the function of neural networks. An integrated in vivo and in vitro approach is necessary to test such predictions; recording from place cells during behavior and investigating the consequences of such activity on connectivity. In addition, robust empirical data regarding the influence of neuromodulators on STDP must be acquired in order to improve the physiological relevance of this promising model of plasticity and the cognitive map.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2012-07-13",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3389/fnins.2012.00110",
+              "id": "S2:30b66186078ccb24474cf76c47b9b92cb88440d1",
+              "provider": "semantic_scholar",
+              "title": "Putting Plasticity in Its Place",
+              "url": "https://www.semanticscholar.org/paper/30b66186078ccb24474cf76c47b9b92cb88440d1?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2012-12-06",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:9c1178f0d1211032f8eb7a8c0a12a9a315d6b739",
+              "provider": "semantic_scholar",
+              "title": "Artificial Neural Networks in Medicine and Biology: Proceedings of the ANNIMAB-1 Conference, Göteborg, Sweden, 13–16 May 2000",
+              "url": "https://www.semanticscholar.org/paper/9c1178f0d1211032f8eb7a8c0a12a9a315d6b739?utm_source=api"
+            },
+            {
+              "abstract": "Critical behavior in neural networks characterized by scale-free event distributions and brought about by self-regulatory mechanisms such as short-term synaptic dynamics or homeostatic plasticity, is believed to optimize sensitivity to input and information transfer in the system. Although theoretical predictions of the spike distributions have been confirmed by in-vitro experiments, in-vivo data yield a more complex picture which might be due to the in-homogeneity of the network structure, leakage in currents or massive driving inputs which has so far not been comprehensively covered by analytical or numerical studies.We address these questions by the study of a neural model of memory that allows for storage and retrieval of patterns and for recombining such patterns as needed for search in problem solving. The model features critical dynamics in the neural assembly as a result of the interplay of synaptic depression and facilitation (Levina e.a 2007, 2009). Model simulations show that the prolonged consolidation of memory patterns induces a bias towards the memories which affects the scale-free spike-frequency distribution. However, selective modification of neuronal circuitry in the form of controlled homeostatic regulation in the form of recalibration of the synaptic weights towards the critical value preserved criticality although characterized by fluctuations between learned random patterns, as observed by the dynamics of stored pattern retrieval quality. The resulting spike statistics depends on the assumed coding scheme, but even sparse or orthogonal memory patterns introduce a typical event size which is incompatible with critical dynamics below the maximal memory capacity. Specifically results obtained for de-correlated patterns show an immediate jump from the sub-critical regime to a state of super-criticality in contrast to a more structured wave-like formation in the avalanche dynamics obtained from a general set of random patterns, pointing towards an eventual evolution of the network connectivity and the optimization of the critical regime. Specifically results obtained for de-correlated patterns show an immediate jump from the sub-critical regime to a state of super-criticality in contrast to a more structured wave-like formation in the avalanche dynamics obtained from a general set of random patterns, pointing towards an eventual evolution of the network connectivity and the optimization of the critical regime (Pearlmutter and Houghton, 2009).The combination of memory and ongoing dynamics in the model was chosen for its implications in the context of cognitive aging. Following the paradigm of aging as a multi-criteria optimization process, we posit aging effects as a result of an increasing incompatibility of learning goals. In aging, a shift from fluid intelligence (flexibility to recombine memory content) towards crystalline intelligence (optimal memory organization) appears as a lifelong trend against the general decrease of resources. We show that in young age memory and criticality can be maintained simultaneously by a homeostatic leveling of the synaptic conductances. This balance is lost in the aging brain where the memory attractors cannot be kept sufficiently shallow due to neural and synaptic loss, a reduction of activity while experiencing a growth in memories. The value of the memory organization is therefore protected on the cost of the partial loss of the capability of recombining memory patterns in a task-dependent way.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2011-03-22",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/NPRE.2011.5829.1",
+              "id": "S2:9b5fc3d59c71998be592ba659893fa149d7b77ae",
+              "provider": "semantic_scholar",
+              "title": "Critical dynamics in homeostatic memory networks",
+              "url": "https://www.semanticscholar.org/paper/9b5fc3d59c71998be592ba659893fa149d7b77ae?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2000-11-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/81430",
+              "id": "S2:d69e0d089360ada909687d955255f15a92c7f038",
+              "provider": "semantic_scholar",
+              "title": "Half a century of Hebb",
+              "url": "https://www.semanticscholar.org/paper/d69e0d089360ada909687d955255f15a92c7f038?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:4e792de9a09cb80321c74585b9f7c14e79b6b139",
+              "provider": "semantic_scholar",
+              "title": "AFRL-AFOSR-JP-TR-2016-0014 Bio-Inspired Human-Level Machine Learning",
+              "url": "https://www.semanticscholar.org/paper/4e792de9a09cb80321c74585b9f7c14e79b6b139?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2009-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:c29626d3bd1c82febb853198adacbe9bc5fedbae",
+              "provider": "semantic_scholar",
+              "title": "Balanced noise and adaptation in neuronal competition models of perceptual bistability",
+              "url": "https://www.semanticscholar.org/paper/c29626d3bd1c82febb853198adacbe9bc5fedbae?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2021-12-31",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 1612,
+              "query": "in vitro neural network synaptic plasticity prospective prediction",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8789",
+                "reset_seconds": "51923"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2021-12-31",
+                  "per_page": "10",
+                  "search": "in vitro neural network synaptic plasticity prospective prediction",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2022-01-01"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2021-12-31",
+              "attempts": 1,
+              "locally_excluded_uncertain_or_not_strictly_before": 0,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 10,
+              "query": "in vitro neural network synaptic plasticity prospective prediction",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "in vitro neural network synaptic plasticity prospective prediction",
+                  "year": "1900-2021"
+                }
+              },
+              "strict_before": "2022-01-01"
+            }
+          },
+          "query": "in vitro neural network synaptic plasticity prospective prediction",
+          "strict_before": "2022-01-01"
+        },
+        {
+          "api_cutoff": "2021-12-31",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "The free-energy principle (FEP) is a formal model of neuronal processes that is widely recognised in neuroscience as a unifying theory of the brain and biobehaviour. More recently, however, it has been extended beyond the brain to explain the dynamics of living systems, and their unique capacity to avoid decay. The aim of this review is to synthesise these advances with a meta-theoretical ontology of biological systems called variational neuroethology, which integrates the FEP with Tinbergen's four research questions to explain biological systems across spatial and temporal scales. We exemplify this framework by applying it to Homo sapiens, before translating variational neuroethology into a systematic research heuristic that supplies the biological, cognitive, and social sciences with a computationally tractable guide to discovery.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-09-20",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.plrev.2017.09.001",
+              "id": "https://openalex.org/W2754844655",
+              "provider": "openalex",
+              "title": "Answering Schrödinger's question: A free-energy formulation"
+            },
+            {
+              "abstract": "The brain, which represents 2% of body mass but consumes 20% of body energy at rest, has a limited capacity to store energy and is therefore highly dependent on oxygen and glucose supply from the blood stream. Normal functioning of neural circuits thus relies on adequate matching between metabolic needs and blood supply. Moreover, not only does the brain need to be densely vascularized, it also requires a tightly controlled environment free of toxins and pathogens to provide the proper chemical composition for synaptic transmission and neuronal function. In this review, we focus on three major factors that ensure optimal brain perfusion and function: the patterning of vascular networks to efficiently deliver blood and nutrients, the function of the blood-brain barrier to maintain brain homeostasis, and the regulation of cerebral blood flow to adequately couple energy supply to neural function.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-03-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1146/annurev-neuro-071714-033835",
+              "id": "https://openalex.org/W2122372853",
+              "provider": "openalex",
+              "title": "Neuronal and Vascular Interactions"
+            },
+            {
+              "abstract": "In this work, we address the neuronal encoding problem from a Bayesian perspective. Specifically, we ask whether neuronal responses in an in vitro neuronal network are consistent with ideal Bayesian observer responses under the free energy principle. In brief, we stimulated an in vitro cortical cell culture with stimulus trains that had a known statistical structure. We then asked whether recorded neuronal responses were consistent with variational message passing based upon free energy minimisation (i.e., evidence maximisation). Effectively, this required us to solve two problems: first, we had to formulate the Bayes-optimal encoding of the causes or sources of sensory stimulation, and then show that these idealised responses could account for observed electrophysiological responses. We describe a simulation of an optimal neural network (i.e., the ideal Bayesian neural code) and then consider the mapping from idealised in silico responses to recorded in vitro responses. Our objective was to find evidence for functional specialisation and segregation in the in vitro neural network that reproduced in silico learning via free energy minimisation. Finally, we combined the in vitro and in silico results to characterise learning in terms of trajectories in a variational information plane of accuracy and complexity.",
+              "also_returned_by": [
+                "semantic_scholar"
+              ],
+              "alternate_ids": [
+                "S2:5037b0342ba925b418068e69f1b734685ac6dc0d"
+              ],
+              "date": "2018-11-12",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41598-018-35221-w",
+              "id": "https://openalex.org/W2952777976",
+              "provider": "openalex",
+              "title": "In vitro neural networks minimise variational free energy"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-07-24",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41573-020-0072-x",
+              "id": "https://openalex.org/W3044114834",
+              "provider": "openalex",
+              "title": "Brain energy rescue: an emerging therapeutic concept for neurodegenerative disorders of ageing"
+            },
+            {
+              "abstract": "Neuroscience has focused on the detailed implementation of computation, studying neural codes, dynamics and circuits. In machine learning, however, artificial neural networks tend to eschew precisely designed codes, dynamics or circuits in favor of brute force optimization of a cost function, often using simple and relatively uniform initial architectures. Two recent developments have emerged within machine learning that create an opportunity to connect these seemingly divergent perspectives. First, structured architectures are used, including dedicated systems for attention, recursion and various forms of short- and long-term memory storage. Second, cost functions and training procedures have become more complex and are varied across layers and over time. Here we think about the brain in terms of these ideas. We hypothesize that (1) the brain optimizes cost functions, (2) the cost functions are diverse and differ across brain locations and over development, and (3) optimization operates within a pre-structured architecture matched to the computational problems posed by behavior. In support of these hypotheses, we argue that a range of implementations of credit assignment through multiple layers of neurons are compatible with our current knowledge of neural circuitry, and that the brain's specialized systems can be interpreted as enabling efficient optimization for specific problem classes. Such a heterogeneously optimized system, enabled by a series of interacting cost functions, serves to make learning data-efficient and precisely targeted to the needs of the organism. We",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-06-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3389/fncom.2016.00094",
+              "id": "https://openalex.org/W2951065015",
+              "provider": "openalex",
+              "title": "Toward an Integration of Deep Learning and Neuroscience"
+            },
+            {
+              "abstract": "The discovery that mammalian cells have the ability to synthesize the free radical nitric oxide (NO) has stimulated an extraordinary impetus for scientific research in all the fields of biology and medicine. Since its early description as an endothelial-derived relaxing factor, NO has emerged as a fundamental signaling device regulating virtually every critical cellular function, as well as a potent mediator of cellular damage in a wide range of conditions. Recent evidence indicates that most of the cytotoxicity attributed to NO is rather due to peroxynitrite, produced from the diffusion-controlled reaction between NO and another free radical, the superoxide anion. Peroxynitrite interacts with lipids, DNA, and proteins via direct oxidative reactions or via indirect, radical-mediated mechanisms. These reactions trigger cellular responses ranging from subtle modulations of cell signaling to overwhelming oxidative injury, committing cells to necrosis or apoptosis. In vivo, peroxynitrite generation represents a crucial pathogenic mechanism in conditions such as stroke, myocardial infarction, chronic heart failure, diabetes, circulatory shock, chronic inflammatory diseases, cancer, and neurodegenerative disorders. Hence, novel pharmacological strategies aimed at removing peroxynitrite might represent powerful therapeutic tools in the future. Evidence supporting these novel roles of NO and peroxynitrite is presented in detail in this review.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2007-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1152/physrev.00029.2006",
+              "id": "https://openalex.org/W2122386753",
+              "provider": "openalex",
+              "title": "Nitric Oxide and Peroxynitrite in Health and Disease"
+            },
+            {
+              "abstract": "The processes underwriting the acquisition of culture remain unclear. How are shared habits, norms, and expectations learned and maintained with precision and reliability across large-scale sociocultural ensembles? Is there a unifying account of the mechanisms involved in the acquisition of culture? Notions such as \"shared expectations,\" the \"selective patterning of attention and behaviour,\" \"cultural evolution,\" \"cultural inheritance,\" and \"implicit learning\" are the main candidates to underpin a unifying account of cognition and the acquisition of culture; however, their interactions require greater specification and clarification. In this article, we integrate these candidates using the variational (free-energy) approach to human cognition and culture in theoretical neuroscience. We describe the construction by humans of social niches that afford epistemic resources called cultural affordances. We argue that human agents learn the shared habits, norms, and expectations of their culture through immersive participation in patterned cultural practices that selectively pattern attention and behaviour. We call this process \"thinking through other minds\" (TTOM) - in effect, the process of inferring other agents' expectations about the world and how to behave in social context. We argue that for humans, information from and about other people's expectations constitutes the primary domain of statistical regularities that humans leverage to predict and organize behaviour. The integrative model we offer has implications that can advance theories of cognition, enculturation, adapta",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-05-30",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1017/s0140525x19001213",
+              "id": "https://openalex.org/W2947609478",
+              "provider": "openalex",
+              "title": "Thinking through other minds: A variational approach to cognition and culture"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2010-08-17",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1124/pr.109.002451",
+              "id": "https://openalex.org/W2037852973",
+              "provider": "openalex",
+              "title": "Glutamate Receptor Ion Channels: Structure, Regulation, and Function"
+            },
+            {
+              "abstract": "The influence that neurons exert on astrocytic function is poorly understood. To investigate this, we first developed a system combining cortical neurons and astrocytes from closely related species, followed by RNA-seq and in silico species separation. This approach uncovers a wide programme of neuron-induced astrocytic gene expression, involving Notch signalling, which drives and maintains astrocytic maturity and neurotransmitter uptake function, is conserved in human development, and is disrupted by neurodegeneration. Separately, hundreds of astrocytic genes are acutely regulated by synaptic activity via mechanisms involving cAMP/PKA-dependent CREB activation. This includes the coordinated activity-dependent upregulation of major astrocytic components of the astrocyte-neuron lactate shuttle, leading to a CREB-dependent increase in astrocytic glucose metabolism and elevated lactate export. Moreover, the groups of astrocytic genes induced by neurons or neuronal activity both show age-dependent decline in humans. Thus, neurons and neuronal activity regulate the astrocytic transcriptome with the potential to shape astrocyte-neuron metabolic cooperation.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-05-02",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/ncomms15132",
+              "id": "https://openalex.org/W2611496024",
+              "provider": "openalex",
+              "title": "Neurons and neuronal activity control gene expression in astrocytes to regulate their development and metabolism"
+            },
+            {
+              "abstract": "BACKGROUND: Current concepts of Attention-Deficit/Hyperactivity Disorder (ADHD) emphasize the role of higher-order cognitive functions and reinforcement processes attributed to structural and biochemical anomalies in cortical and limbic neural networks innervated by the monoamines, dopamine, noradrenaline and serotonin. However, these explanations do not account for the ubiquitous findings in ADHD of intra-individual performance variability, particularly on tasks that require continual responses to rapid, externally-paced stimuli. Nor do they consider attention as a temporal process dependent upon a continuous energy supply for efficient and consistent function. A consideration of this feature of intra-individual response variability, which is not unique to ADHD but is also found in other disorders, leads to a new perspective on the causes and potential remedies of specific aspects of ADHD. THE HYPOTHESIS: We propose that in ADHD, astrocyte function is insufficient, particularly in terms of its formation and supply of lactate. This insufficiency has implications both for performance and development: H1) In rapidly firing neurons there is deficient ATP production, slow restoration of ionic gradients across neuronal membranes and delayed neuronal firing; H2) In oligodendrocytes insufficient lactate supply impairs fatty acid synthesis and myelination of axons during development. These effects occur over vastly different time scales: those due to deficient ATP (H1) occur over milliseconds, whereas those due to deficient myelination (H2) occur over months and years. Collectively",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2006-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1186/1744-9081-2-30",
+              "id": "https://openalex.org/W2130195204",
+              "provider": "openalex",
+              "title": "Response variability in Attention-Deficit/Hyperactivity Disorder: a neuronal and glial energetics hypothesis."
+            },
+            {
+              "abstract": "An efficient and trajectory-free active learning method is proposed to automatically sample data points for constructing globally accurate reactive potential energy surfaces (PESs) using neural networks (NNs). Although NNs do not provide the predictive variance as the Gaussian process regression does, we can alternatively minimize the negative of the squared difference surface (NSDS) given by two different NN models to actively locate the point where the PES is least confident. A batch of points in the minima of this NSDS can be iteratively added into the training set to improve the PES. The configuration space is gradually and globally covered without the need to run classical trajectory (or equivalently molecular dynamics) simulations. Through refitting the available analytical PESs of H3 and OH3 reactive systems, we demonstrate the efficiency and robustness of this new strategy, which enables fast convergence of the reactive PESs with respect to the number of points in terms of quantum scattering probabilities.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-02-14",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1063/5.0004944",
+              "id": "S2:714630bc27268e3cd2262c191e16fb90bb999648",
+              "provider": "semantic_scholar",
+              "title": "Automatically growing global reactive neural network potential energy surfaces: A trajectory-free active learning strategy.",
+              "url": "https://www.semanticscholar.org/paper/714630bc27268e3cd2262c191e16fb90bb999648?utm_source=api"
+            },
+            {
+              "abstract": "Although model-free reinforcement learning methods are illustrated to own abilities to learn a wide range of control and decision-making tasks, it is time-consuming and needs a huge number of samples to learn optimal policy. Therefore, model-based reinforcement learning algorithms are always treated as the most efficient ways to settle robotic control problems. In this work, a model-based reinforcement learning tracking control method with free energy is proposed. The control objective is to make sure that the proposed controller can let a robotic manipulator with parameters uncertainties and disturbance follow the desired trajectory and obtain good tracking performance. The main contribution of this work is to employ the free energy principle to optimize the problem of robotic control. The probability distribution of robotic dynamic model is learnt by a evolving neural network, a free energy based reinforcement learning control method uses the learnt model to find optimal control policy. The experiment results demonstrate that the proposed tracking control method is effective in solving robotic tracking control problems.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-07-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.23919/CCC50068.2020.9189310",
+              "id": "S2:98ab6919065643ebb30178062e89f9741f95ff05",
+              "provider": "semantic_scholar",
+              "title": "Learning Control for Robotic Manipulator with Free Energy",
+              "url": "https://www.semanticscholar.org/paper/98ab6919065643ebb30178062e89f9741f95ff05?utm_source=api"
+            },
+            {
+              "abstract": "The determination of drug residence times, which define the time an inhibitor is in complex with its target, is a fundamental part of the drug discovery process. Synthesis and experimental measurements of kinetic rate constants are, however, expensive, and time-consuming. In this work, we aimed to obtain drug residence times computationally. Furthermore, we propose a novel algorithm to identify molecular design objectives based on ligand unbinding kinetics. We designed an enhanced sampling technique to accurately predict the free energy profiles of the ligand unbinding process, focusing on the free energy barrier for unbinding. Our method first identifies unbinding paths determining a corresponding set of internal coordinates (IC) that form contacts between the protein and the ligand, it then iteratively updates these interactions during a series of biased molecular-dynamics (MD) simulations to reveal the ICs that are important for the whole of the unbinding process. Subsequently, we performed finite temperature string simulations to obtain the free energy barrier for unbinding using the set of ICs as a complex reaction coordinate. Importantly, we also aimed to enable further design of drugs focusing on improved residence times. To this end, we developed a supervised machine learning (ML) approach with inputs from unbiased “downhill” trajectories initiated near the transition state (TS) ensemble of the string unbinding path. We demonstrate that our ML method can identify key ligand-protein interactions driving the system through the TS. Some of the most important drugs for cancer treatment are kinase inhibitors. One of these kinase targets is Cyclin Dependent Kinase 2 (CDK2), an appealing target for anticancer drug development. Here, we tested our method using two different CDK2 inhibitors for potential further development of these compounds. We compared the free energy barriers obtained from our calculations with those observed in available experimental data. We highlighted important interactions at the distal ends of the ligands that can be targeted for improved residence times. Our method provides a new tool to determine unbinding rates, and to identify key structural features of the inhibitors that can be used as starting points for novel design strategies in drug discovery.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-09-09",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/acs.jctc.1c00924",
+              "id": "S2:4ce796392cb6353b8a8fa55f0cbb38fae30d2b86",
+              "provider": "semantic_scholar",
+              "title": "Combined Free-Energy Calculation and Machine Learning Methods for Understanding Ligand Unbinding Kinetics",
+              "url": "https://www.semanticscholar.org/paper/4ce796392cb6353b8a8fa55f0cbb38fae30d2b86?utm_source=api"
+            },
+            {
+              "abstract": "The assumption that during cortical embryogenesis neurons and synaptic connections are selected to form an ensemble maximising synchronous oscillation explains mesoscopic cortical development, and a mechanism for cortical information processing is implied by consistency with the Free Energy Principle and Dynamic Logic. A heteroclinic network emerges, with stable and unstable fixed points of oscillation corresponding to activity in symmetrically connected, versus asymmetrically connected, sets of neurons. Simulations of growth explain a wide range of anatomical observations for columnar and non-columnar cortex, superficial patch connections, and the organization and dynamic interactions of neurone response properties. An antenatal scaffold is created, upon which postnatal learning can establish continuously ordered neuronal representations, permitting matching of co-synchronous fields in multiple cortical areas to solve optimization problems as in Dynamic Logic. Fast synaptic competition partitions equilibria, minimizing \"the curse of dimensionality\", while perturbations between imperfectly partitioned synchronous fields, under internal reinforcement, enable the cortex to become adaptively self-directed. As learning progresses variational free energy is minimized and entropy bounded.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-06-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.plrev.2020.05.004",
+              "id": "S2:b8ae5eaca93c166686f2350495f228e0f05a21bd",
+              "provider": "semantic_scholar",
+              "title": "The growth of cognition: Free energy minimization and the embryogenesis of cortical computation.",
+              "url": "https://www.semanticscholar.org/paper/b8ae5eaca93c166686f2350495f228e0f05a21bd?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-04-10",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:f5517dc57e3a58188c1d485711d38c9b00385423",
+              "provider": "semantic_scholar",
+              "title": "Learning Trajectory Prediction with Continuous Inverse Optimal Control via Langevin Sampling of Energy-Based Models",
+              "url": "https://www.semanticscholar.org/paper/f5517dc57e3a58188c1d485711d38c9b00385423?utm_source=api"
+            },
+            {
+              "abstract": "ABSTRACT Murraya koenigii (Linn.) Spreng, commonly known as curry leaf tree, is popular as a condiment and spice among Asian countries. Ethnobotanical studies suggest that certain phytochemicals in different parts of the plant are involved in anti-inflammatory, anti-oxidant and anti-cancer activities. There is a knowledge gap in connecting the ethnobotanical applications of M. koenigii, identification of chief phytochemicals through computational approaches and and evaluation of phytochemical’s effect on cancer cell lines. We present here a comprehensive study to identify the phytochemicals responsible for anti-inflammation using random forest (RF) models, the interactions with COX-1 and COX-2 enzymes using molecular docking, dynamics simulation and free energy calculations. The RF models prioritised four phytochemicals viz. girinimbine, murrayanine, murrastinine-B and mukolidine with COX-1 and COX-2 binding potential. These phytochemicals developed key contacts with COX targets which were largely retained in the trajectories of the dynamics simulations. Phytochemicals ranking based on the binding free energy suggested that girinimbine (a carbazole alkaloid) is selective towards COX-2 supported by the experimental studies on COX anti-inflammation. Cytotoxicity assessment on the breast cancer cell line MDA-MB-231 illustrated that the presence of this phytochemical in root, stem and leaf (IC50 value: 0.006 µg/ml) parts highlight its role as a COX-2 inhibitor.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-05-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1080/08927022.2020.1764552",
+              "id": "S2:5a3a63c56f12b73ea5e0c4fa79ca665dae7bc4ed",
+              "provider": "semantic_scholar",
+              "title": "Identification of promising compounds from curry tree with cyclooxygenase inhibitory potential using a combination of machine learning, molecular docking, dynamics simulations and binding free energy calculations",
+              "url": "https://www.semanticscholar.org/paper/5a3a63c56f12b73ea5e0c4fa79ca665dae7bc4ed?utm_source=api"
+            },
+            {
+              "abstract": "Many important multi-component crystalline solids undergo mechanochemical spinodal decomposition: a phase transformation in which the compositional redistribution is coupled with structural changes of the crystal, resulting in dynamically evolving microstructures. The ability to rapidly compute the macroscopic behavior based on these detailed microstructures is of paramount importance for accelerating material discovery and design. Here, our focus is on the macroscopic, nonlinear elastic response of materials harboring microstructure. Because of the diversity of microstructural patterns that can form, there is interest in taking a purely computational approach to predicting their macroscopic response. However, the evaluation of macroscopic, nonlinear elastic properties purely based on direct numerical simulations (DNS) is computationally very expensive, and hence impractical for material design when a large number of microstructures need to be tested. A further complexity of a hierarchical nature arises if the elastic free energy and its variation with strain is a small-scale fluctuation on the dominant trajectory of the total free energy driven by microstructural dynamics. To address these challenges, we present a data-driven approach, which combines advanced neural network (NN) models with DNS to predict the homogenized, macroscopic, mechanical free energy and stress fields arising in a family of multi-component crystalline solids that develop microstructure. The hierarchical structure of the free energy's evolution induces a multi-resolution character to the machine learning paradigm: We construct knowledge-based neural networks (KBNNs) with either pre-trained fully connected deep neural networks (DNNs), or pre-trained convolutional neural networks (CNNs) that describe the dominant characteristic of the data to fully represent the hierarchically evolving free energy.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-12-31",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.cma.2020.113362",
+              "id": "S2:5da67b1200ac3e52fcc409c7e0f0eed97e9dc93c",
+              "provider": "semantic_scholar",
+              "title": "Machine learning materials physics: Multi-resolution neural networks learn the free energy and nonlinear elastic response of evolving microstructures",
+              "url": "https://www.semanticscholar.org/paper/5da67b1200ac3e52fcc409c7e0f0eed97e9dc93c?utm_source=api"
+            },
+            {
+              "abstract": "With the increasing adoption of GPS modules, there are a wide range of urban applications based on trajectory data analysis, such as vehicle navigation, travel time estimation, and driver behavior analysis. The effectiveness of urban applications relies greatly on the high sampling rates of trajectories precisely matched to the map. However, a large number of trajectories are collected under a low sampling rate in real-world practice, due to certain communication loss and energy constraints. To enhance the trajectory data and support the urban applications more effectively, many trajectory recovery methods are proposed to infer the trajectories in free space. In addition, the recovered trajectory still needs to be mapped to the road network, before it can be used in the applications. However, the two-stage pipeline, which first infers high-sampling-rate trajectories and then performs the map matching, is inaccurate and inefficient. In this paper, we propose a Map-constrained Trajectory Recovery framework, MTrajRec, to recover the fine-grained points in trajectories and map match them on the road network in an end-to-end manner. MTrajRec implements a multi-task sequence-to-sequence learning architecture to predict road segment and moving ratio simultaneously. Constraint mask, attention mechanism, and attribute module are proposed to overcome the limits of coarse grid representation and improve the performance. Extensive experiments based on large-scale real-world trajectory data confirm the effectiveness and efficiency of our approach.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-08-14",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1145/3447548.3467238",
+              "id": "S2:eb84dcefee0c9098b07a2c180cea39f2b6377a8d",
+              "provider": "semantic_scholar",
+              "title": "MTrajRec: Map-Constrained Trajectory Recovery via Seq2Seq Multi-task Learning",
+              "url": "https://www.semanticscholar.org/paper/eb84dcefee0c9098b07a2c180cea39f2b6377a8d?utm_source=api"
+            },
+            {
+              "abstract": "In this article, we apply the Free-Energy Principle to the question of motor primitives learning. An echo-state network is used to generate motor trajectories. We combine this network with a perception module and a controller that can influence its dynamics.This new compound network permits the autonomous learning of a repertoire of motor trajectories. To evaluate the repertoires built with our method, we exploit them in a handwriting task where primitives are chained to produce long-range sequences.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-05-07",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/IJCNN48605.2020.9206699",
+              "id": "S2:f4780edbcec3d9a8e74a1aa67ee96213a6bc7472",
+              "provider": "semantic_scholar",
+              "title": "Autonomous learning and chaining of motor primitives using the Free Energy Principle",
+              "url": "https://www.semanticscholar.org/paper/f4780edbcec3d9a8e74a1aa67ee96213a6bc7472?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2021-12-31",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 2698,
+              "query": "free energy neuronal culture learning trajectory",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8779",
+                "reset_seconds": "51921"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2021-12-31",
+                  "per_page": "10",
+                  "search": "free energy neuronal culture learning trajectory",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2022-01-01"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2021-12-31",
+              "attempts": 1,
+              "locally_excluded_uncertain_or_not_strictly_before": 0,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 587,
+              "query": "free energy neuronal culture learning trajectory",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "free energy neuronal culture learning trajectory",
+                  "year": "1900-2021"
+                }
+              },
+              "strict_before": "2022-01-01"
+            }
+          },
+          "query": "free energy neuronal culture learning trajectory",
+          "strict_before": "2022-01-01"
+        }
+      ]
+    },
+    "B": {
+      "queries": [
+        {
+          "api_cutoff": "2021-12-31",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "Developing a mechanistic understanding of the impact of food structure and composition on human health has increasingly involved simulating digestion in the upper gastrointestinal tract. These simulations have used a wide range of different conditions that often have very little physiological relevance, and this impedes the meaningful comparison of results. The standardized protocol presented here is based on an international consensus developed by the COST INFOGEST network. The method is designed to be used with standard laboratory equipment and requires limited experience to encourage a wide range of researchers to adopt it. It is a static digestion method that uses constant ratios of meal to digestive fluids and a constant pH for each step of digestion. This makes the method simple to use but not suitable for simulating digestion kinetics. Using this method, food samples are subjected to sequential oral, gastric and intestinal digestion while parameters such as electrolytes, enzymes, bile, dilution, pH and time of digestion are based on available physiological data. This amended and improved digestion method (INFOGEST 2.0) avoids challenges associated with the original method, such as the inclusion of the oral phase and the use of gastric lipase. The method can be used to assess the endpoints resulting from digestion of foods by analyzing the digestion products (e.g., peptides/amino acids, fatty acids, simple sugars) and evaluating the release of micronutrients from the food matrix. The whole protocol can be completed in ~7 d, including ~5 d required for the determinatio",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-03-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41596-018-0119-1",
+              "id": "https://openalex.org/W2920925854",
+              "provider": "openalex",
+              "title": "INFOGEST static in vitro simulation of gastrointestinal food digestion"
+            },
+            {
+              "abstract": "An extensive amount of information is currently available to clinical specialists, ranging from details of clinical symptoms to various types of biochemical data and outputs of imaging devices. Each type of data provides information that must be evaluated and assigned to a particular pathology during the diagnostic process. To streamline the diagnostic process in daily routine and avoid misdiagnosis, artificial intelligence methods (especially computer aided diagnosis and artificial neural networks) can be employed. These adaptive learning algorithms can handle diverse types of medical data and integrate them into categorized outputs. In this paper, we briefly review and discuss the philosophy, capabilities, and limitations of artificial neural networks in medical diagnosis through selected examples.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2013-02-20",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.2478/v10136-012-0031-x",
+              "id": "https://openalex.org/W2137687977",
+              "provider": "openalex",
+              "title": "Artificial neural networks in medical diagnosis"
+            },
+            {
+              "abstract": "OBJECTIVES: WGS-based antimicrobial susceptibility testing (AST) is as reliable as phenotypic AST for several antimicrobial/bacterial species combinations. However, routine use of WGS-based AST is hindered by the need for bioinformatics skills and knowledge of antimicrobial resistance (AMR) determinants to operate the vast majority of tools developed to date. By leveraging on ResFinder and PointFinder, two freely accessible tools that can also assist users without bioinformatics skills, we aimed at increasing their speed and providing an easily interpretable antibiogram as output. METHODS: The ResFinder code was re-written to process raw reads and use Kmer-based alignment. The existing ResFinder and PointFinder databases were revised and expanded. Additional databases were developed including a genotype-to-phenotype key associating each AMR determinant with a phenotype at the antimicrobial compound level, and species-specific panels for in silico antibiograms. ResFinder 4.0 was validated using Escherichia coli (n = 584), Salmonella spp. (n = 1081), Campylobacter jejuni (n = 239), Enterococcus faecium (n = 106), Enterococcus faecalis (n = 50) and Staphylococcus aureus (n = 163) exhibiting different AST profiles, and from different human and animal sources and geographical origins. RESULTS: Genotype-phenotype concordance was ≥95% for 46/51 and 25/32 of the antimicrobial/species combinations evaluated for Gram-negative and Gram-positive bacteria, respectively. When genotype-phenotype concordance was <95%, discrepancies were mainly linked to criteria for interpretation of pheno",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-07-16",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1093/jac/dkaa345",
+              "id": "https://openalex.org/W3048398081",
+              "provider": "openalex",
+              "title": "ResFinder 4.0 for predictions of phenotypes from genotypes"
+            },
+            {
+              "abstract": "MOTIVATION: Historically, gene expression has been shown to be the most informative data for drug response prediction. Recent evidence suggests that integrating additional omics can improve the prediction accuracy which raises the question of how to integrate the additional omics. Regardless of the integration strategy, clinical utility and translatability are crucial. Thus, we reasoned a multi-omics approach combined with clinical datasets would improve drug response prediction and clinical relevance. RESULTS: We propose MOLI, a multi-omics late integration method based on deep neural networks. MOLI takes somatic mutation, copy number aberration and gene expression data as input, and integrates them for drug response prediction. MOLI uses type-specific encoding sub-networks to learn features for each omics type, concatenates them into one representation and optimizes this representation via a combined cost function consisting of a triplet loss and a binary cross-entropy loss. The former makes the representations of responder samples more similar to each other and different from the non-responders, and the latter makes this representation predictive of the response values. We validate MOLI on in vitro and in vivo datasets for five chemotherapy agents and two targeted therapeutics. Compared to state-of-the-art single-omics and early integration multi-omics methods, MOLI achieves higher prediction accuracy in external validations. Moreover, a significant improvement in MOLI's performance is observed for targeted drugs when training on a pan-drug input, i.e. using all the drug",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-06-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1093/bioinformatics/btz318",
+              "id": "https://openalex.org/W2955502047",
+              "provider": "openalex",
+              "title": "MOLI: multi-omics late integration with deep neural networks for drug response prediction"
+            },
+            {
+              "abstract": "Following the discovery of context-dependent synchronization of oscillatory neuronal responses in the visual system, the role of neural synchrony in cortical networks has been expanded to provide a general mechanism for the coordination of distributed neural activity patterns. In the current paper, we present an update of the status of this hypothesis through summarizing recent results from our laboratory that suggest important new insights regarding the mechanisms, function and relevance of this phenomenon. In the first part, we present recent results derived from animal experiments and mathematical simulations that provide novel explanations and mechanisms for zero and nero-zero phase lag synchronization. In the second part, we shall discuss the role of neural synchrony for expectancy during perceptual organization and its role in conscious experience. This will be followed by evidence that indicates that in addition to supporting conscious cognition, neural synchrony is abnormal in major brain disorders, such as schizophrenia and autism spectrum disorders. We conclude this paper with suggestions for further research as well as with critical issues that need to be addressed in future studies.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2009-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3389/neuro.07.017.2009",
+              "id": "https://openalex.org/W2123492259",
+              "provider": "openalex",
+              "title": "Neural synchrony in cortical networks: history, concept and current status"
+            },
+            {
+              "abstract": "Because undesirable pharmacokinetics and toxicity of candidate compounds are the main reasons for the failure of drug development, it has been widely recognized that absorption, distribution, metabolism, excretion and toxicity (ADMET) should be evaluated as early as possible. In silico ADMET evaluation models have been developed as an additional tool to assist medicinal chemists in the design and optimization of leads. Here, we announced the release of ADMETlab 2.0, a completely redesigned version of the widely used AMDETlab web server for the predictions of pharmacokinetics and toxicity properties of chemicals, of which the supported ADMET-related endpoints are approximately twice the number of the endpoints in the previous version, including 17 physicochemical properties, 13 medicinal chemistry properties, 23 ADME properties, 27 toxicity endpoints and 8 toxicophore rules (751 substructures). A multi-task graph attention framework was employed to develop the robust and accurate models in ADMETlab 2.0. The batch computation module was provided in response to numerous requests from users, and the representation of the results was further optimized. The ADMETlab 2.0 server is freely available, without registration, at https://admetmesh.scbdd.com/.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-03-30",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1093/nar/gkab255",
+              "id": "https://openalex.org/W3154258817",
+              "provider": "openalex",
+              "title": "ADMETlab 2.0: an integrated online platform for accurate and comprehensive predictions of ADMET properties"
+            },
+            {
+              "abstract": "OBJECTIVE: To review and appraise the validity and usefulness of published and preprint reports of prediction models for diagnosing coronavirus disease 2019 (covid-19) in patients with suspected infection, for prognosis of patients with covid-19, and for detecting people in the general population at increased risk of covid-19 infection or being admitted to hospital with the disease. DESIGN: Living systematic review and critical appraisal by the COVID-PRECISE (Precise Risk Estimation to optimise covid-19 Care for Infected or Suspected patients in diverse sEttings) group. DATA SOURCES: PubMed and Embase through Ovid, up to 1 July 2020, supplemented with arXiv, medRxiv, and bioRxiv up to 5 May 2020. STUDY SELECTION: Studies that developed or validated a multivariable covid-19 related prediction model. DATA EXTRACTION: At least two authors independently extracted data using the CHARMS (critical appraisal and data extraction for systematic reviews of prediction modelling studies) checklist; risk of bias was assessed using PROBAST (prediction model risk of bias assessment tool). RESULTS: 37 421 titles were screened, and 169 studies describing 232 prediction models were included. The review identified seven models for identifying people at risk in the general population; 118 diagnostic models for detecting covid-19 (75 were based on medical imaging, 10 to diagnose disease severity); and 107 prognostic models for predicting mortality risk, progression to severe disease, intensive care unit admission, ventilation, intubation, or length of hospital stay. The most frequent types of pr",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-04-07",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1136/bmj.m1328",
+              "id": "https://openalex.org/W3014524604",
+              "provider": "openalex",
+              "title": "Prediction models for diagnosis and prognosis of covid-19: systematic review and critical appraisal"
+            },
+            {
+              "abstract": "Transepithelial/transendothelial electrical resistance (TEER) is a widely accepted quantitative technique to measure the integrity of tight junction dynamics in cell culture models of endothelial and epithelial monolayers. TEER values are strong indicators of the integrity of the cellular barriers before they are evaluated for transport of drugs or chemicals. TEER measurements can be performed in real time without cell damage and generally are based on measuring ohmic resistance or measuring impedance across a wide spectrum of frequencies. The measurements for various cell types have been reported with commercially available measurement systems and also with custom-built microfluidic implementations. Some of the barrier models that have been widely characterized using TEER include the blood-brain barrier (BBB), gastrointestinal (GI) tract, and pulmonary models. Variations in these values can arise due to factors such as temperature, medium formulation, and passage number of cells. The aim of this article is to review the different TEER measurement techniques and analyze their strengths and weaknesses, determine the significance of TEER in drug toxicity studies, examine the various in vitro models and microfluidic organs-on-chips implementations using TEER measurements in some widely studied barrier models (BBB, GI tract, and pulmonary), and discuss the various factors that can affect TEER measurements.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-01-14",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1177/2211068214561025",
+              "id": "https://openalex.org/W2154555351",
+              "provider": "openalex",
+              "title": "TEER Measurement Techniques for In Vitro Barrier Model Systems"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2012-06-07",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.tics.2012.05.003",
+              "id": "https://openalex.org/W2051850587",
+              "provider": "openalex",
+              "title": "Cortical oscillations and sensory predictions"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-09-14",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.15252/embr.201642195",
+              "id": "https://openalex.org/W2518959324",
+              "provider": "openalex",
+              "title": "The integrated stress response"
+            },
+            {
+              "abstract": "In this study, a method of predicting the seismic responses of building structures based on a convolutional neural network (CNN) is proposed. In the method, the time histories of acceleration responses previously measured in a building during earthquakes are used in the CNN input layer, with the corresponding time histories of the displacement responses being used in the CNN output layer. The correlations between the features automatically extracted from the acceleration responses by the convolution and pooling operations in the various CNN layers and the displacement responses in the CNN output layer are established through CNN training. The trained CNN predicts the displacement responses for a future earthquake event using only the measured acceleration responses. To verify the validity of the proposed method, a numerical study on the ASCE benchmark model and an experimental study on a reinforced concrete frame structure are conducted. In the numerical study, the structural responses of the ASCE model subject to artificial earthquakes are utilized for CNN training, and the performance of the trained CNN is verified through seismic response prediction. In the experimental study, shaking table tests are performed for various earthquakes to measure the seismic responses of the reinforced concrete test structure. The seismic response prediction performance of the proposed method is examined using CNN trained with the measured seismic responses. Furthermore, the performances of CNNs trained with different numbers of datasets generated by the proposed data generation method based on data overlapping with the same data pool are discussed with related to the number of CNN training iteration number.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-05-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/stc.2519",
+              "id": "S2:6aa6f04c7f2009d5080f4463f0199fd15d842b26",
+              "provider": "semantic_scholar",
+              "title": "Seismic response prediction method for building structures using convolutional neural network",
+              "url": "https://www.semanticscholar.org/paper/6aa6f04c7f2009d5080f4463f0199fd15d842b26?utm_source=api"
+            },
+            {
+              "abstract": "Abstract In this paper, a new model for predicting seismic responses of buildings based on the correlation of ground motion (GM) and the structure is presented by simulating numerous artificial earthquakes (AEQs). In the model, neural network (NN) configurations representing the relationships between GM characteristics and seismic responses of a structure are developed to predict responses of the structure with only GM data measured by monitoring system in future seismic events. To extract the GM characteristics, multiple AEQs corresponding to the design response spectrum are generated based on probabilistic vibration theory, instead of using historical earthquakes. In the presented NN configurations, GM characteristics including mean and predominant period, significant duration, and peak ground acceleration are established as the input layer and the maximum inter-story drift ratio and maximum displacement are established as the output layer. In addition, a new parameter called resonance area is proposed to represent the relationship between a GM and a target structure in the frequency domain and utilized in the NN input layer. By employing the new parameter, dynamic characteristics of the structure are considered in the response estimation of the model with related to GM. The model is applied to seismic response prediction for four multi-degrees-of-freedom (MDOF) structures with different natural periods using 2700 AEQs. The validities of the presented NN models are confirmed by investigating the performance of response prediction. The effectiveness of the resonance area parameter in the NN for predicting the seismic responses is assessed and discussed. Furthermore, the effects of the constitution of NNs and computational costs of those NNs on estimation were investigated. Finally, the presented model is employed for prediction of seismic responses for a structural model of a planar reinforced concrete building structure.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-03-03",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.jsv.2019.115109",
+              "id": "S2:bfe1b516db35080bb5b5522e34b38273c19c22c0",
+              "provider": "semantic_scholar",
+              "title": "Neural network-based seismic response prediction model for building structures using artificial earthquakes",
+              "url": "https://www.semanticscholar.org/paper/bfe1b516db35080bb5b5522e34b38273c19c22c0?utm_source=api"
+            },
+            {
+              "abstract": "If damage to a building caused by an earthquake is not detected immediately, the opportunity to decide on quick action, such as evacuating the building, is lost. For this reason, it is necessary to develop modern technologies that can quickly obtain the structural safety condition of buildings after an earthquake in order to resume economic and social activities and mitigate future damage by aftershocks. A methodology for the prediction of damage identification is proposed in this study. Using the wavelet spectrum of the absolute acceleration record measured by a single accelerometer located on the upper floor of a building as input data, a CNN model is trained to predict the damage information of the building. The maximum ductility factor, inter-story drift ratio, and maximum response acceleration of each floor are predicted as the damage information, and their accuracy is verified by comparing with the results of seismic response analysis using actual earthquakes. Finally, when an earthquake occurs, the proposed methodology enables immediate action by revealing the damage status of the building from the accelerometer observation records.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-10-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3390/s21206795",
+              "id": "S2:d181b1d962685c387df24c6ed4afbf0bcb252080",
+              "provider": "semantic_scholar",
+              "title": "Structural Response Prediction for Damage Identification Using Wavelet Spectra in Convolutional Neural Network",
+              "url": "https://www.semanticscholar.org/paper/d181b1d962685c387df24c6ed4afbf0bcb252080?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-03-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s12010-021-03509-9",
+              "id": "S2:d51a7ba93db61ce932d8b8d96f86210f15557761",
+              "provider": "semantic_scholar",
+              "title": "Antibiofilm Activity of α-Amylase from Bacillus subtilis and Prediction of the Optimized Conditions for Biofilm Removal by Response Surface Methodology (RSM) and Artificial Neural Network (ANN)",
+              "url": "https://www.semanticscholar.org/paper/d51a7ba93db61ce932d8b8d96f86210f15557761?utm_source=api"
+            },
+            {
+              "abstract": "Abstract Earthquake-induced landslides have resulted in huge casualties and considerable financial repercussions, and slope dynamic response analysis has always been a hot issue. The prediction of the dynamic response of a slope before the occurrence of future earthquakes will benefit disaster prevention and reduction. Traditional methods (such as the finite element method) are mostly based on simplified physical mechanisms and cannot accurately predict the dynamic response of complicated slope systems. This article innovatively applies novel recurrent neural networks to the prediction of the slope dynamic response. Using the results of large-scale shaking-table tests, we introduced a moving-steps strategy and established three recurrent neural network models: Simple-RNN, LSTM and GRU models. Moreover, a multi-layer perceptron prediction model was trained for comparative verification. We also conducted three experiments to investigate the effect of the data volume on the models. Results show that recurrent neural networks perform well in the analysis of the seismic dynamic response of a slope and provide better predictions than the multi-layer perceptron network. When there are many data, the LSTM and GRU models have advantages, and the confidence indexes of their predictions with normalized error within ±5% are 84.5% and 86.4%, respectively. It is concluded that recurrent neural networks are suitable for the time-series prediction of dynamic responses to seismic loads. To some extent, this paper may help reduce the future risks and losses of earthquake-triggered landslide disasters.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-08-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/J.ENGGEO.2021.106198",
+              "id": "S2:b2dedd59c1ac074a2f9302cc814bf438dfd1c77e",
+              "provider": "semantic_scholar",
+              "title": "Recurrent neural networks for complicated seismic dynamic response prediction of a slope system",
+              "url": "https://www.semanticscholar.org/paper/b2dedd59c1ac074a2f9302cc814bf438dfd1c77e?utm_source=api"
+            },
+            {
+              "abstract": "The troposphere is one of the atmospheric layers where most weather phenomena occur. Temperature variations in the troposphere, especially at 500 hPa, a typical level of the middle troposphere, are significant indicators of future weather changes. Numerical weather prediction is effective for temperature prediction, but its computational complexity hinders a timely response. This paper proposes a novel temperature prediction approach in framework of physics-informed deep learning. The new model, called PGnet, builds upon a generative neural network with a mask matrix. The mask is designed to distinguish the low-quality predicted regions generated by the first physical stage. The generative neural network takes the mask as prior for the second-stage refined predictions. A mask-loss and a jump pattern strategy are developed to train the generative neural network without accumulating errors during making time-series predictions. Experiments on ERA5 demonstrate that PGnet can generate more refined temperature predictions than the state-of-the-art.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-07-08",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/1748-9326/abfde9",
+              "id": "S2:a8f4b64cb0e797b1d9e404469927f7ce8c36947b",
+              "provider": "semantic_scholar",
+              "title": "Physics-informed generative neural network: an application to troposphere temperature prediction",
+              "url": "https://www.semanticscholar.org/paper/a8f4b64cb0e797b1d9e404469927f7ce8c36947b?utm_source=api"
+            },
+            {
+              "abstract": "Auditory Residual Inhibition (ARI) is a temporary suppression of tinnitus that occurs in some people following the presentation of masking sounds. Differences in neural response to ARI stimuli may enable classification of tinnitus and a tailored approach to intervention in the future. In an exploratory study, we investigated the use of a brain-inspired artificial neural network to examine the effects of ARI on electroencephalographic function, as well as the predictive ability of the model. Ten tinnitus patients underwent two auditory stimulation conditions (constant and amplitude modulated broadband noise) at two time points and were then characterised as responders or non-responders, based on whether they experienced ARI or not. Using a spiking neural network model, we evaluated concurrent neural patterns generated across space and time from features of electroencephalographic data, capturing the neural dynamic changes before and after stimulation. Results indicated that the model may be used to predict the effect of auditory stimulation on tinnitus on an individual basis. This approach may aid in the development of predictive models for treatment selection.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3390/brainsci11010052",
+              "id": "S2:dbcb7fae3cd822bf26d6ac0bdc398f91a82d1a3b",
+              "provider": "semantic_scholar",
+              "title": "Prediction of Acoustic Residual Inhibition of Tinnitus Using a Brain-Inspired Spiking Neural Network Model",
+              "url": "https://www.semanticscholar.org/paper/dbcb7fae3cd822bf26d6ac0bdc398f91a82d1a3b?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-07-07",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s41204-021-00131-2",
+              "id": "S2:4617c5e5f4cacda34e7511eb5f32dad3ce0a1a29",
+              "provider": "semantic_scholar",
+              "title": "Sensitivity analysis and prediction of erodibility of treated unsaturated soil modified with nanostructured fines of quarry dust using novel artificial neural network",
+              "url": "https://www.semanticscholar.org/paper/4617c5e5f4cacda34e7511eb5f32dad3ce0a1a29?utm_source=api"
+            },
+            {
+              "abstract": "Recent work has shown that convolutional neural networks (CNNs) trained on image recognition tasks can serve as valuable models for predicting neural responses in primate visual cortex. However, these models typically require biologically infeasible levels of labelled training data, so this similarity must at least arise via different paths. In addition, most popular CNNs are solely feedforward, lacking a notion of time and recurrence, whereas neurons in visual cortex produce complex time-varying responses, even to static inputs. Towards addressing these inconsistencies with biology, here we study the emergent properties of a recurrent generative network that is trained to predict future video frames in a self-supervised manner. Remarkably, the resulting model is able to capture a wide variety of seemingly disparate phenomena observed in visual cortex, ranging from single-unit response dynamics to complex perceptual motion illusions, even when subjected to highly impoverished stimuli. These results suggest potentially deep connections between recurrent predictive neural network models and computations in the brain, providing new leads that can enrich both fields. The deep convolutional recurrent neural network ‘PredNet’ can be trained to predict future video frames in a self-supervised manner. A surprising result is that it captures a wide array of phenomena observed in natural neuronal systems, ranging from low-level visual cortical neuron response properties to high-level perceptual illusions, hinting at potential similarities between recurrent predictive neural network models and computations in the brain.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-04-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s42256-020-0170-9",
+              "id": "S2:9b8cddec06cadc6ab3688101b18db7f1e914b5c3",
+              "provider": "semantic_scholar",
+              "title": "A neural network trained for prediction mimics diverse features of biological neurons and perception",
+              "url": "https://www.semanticscholar.org/paper/9b8cddec06cadc6ab3688101b18db7f1e914b5c3?utm_source=api"
+            },
+            {
+              "abstract": "Ever-changing variables in the electricity market require energy management systems (EMSs) to make optimal real-time decisions adaptively. Demand response (DR) is the latest approach being used to accelerate the efficiency and stability of power systems. This paper proposes an hour-ahead DR algorithm for home EMSs. To deal with the uncertainty in future prices, a steady price prediction model based on artificial neural network is presented. In cooperation with forecasted future prices, multi-agent reinforcement learning is adopted to make optimal decisions for different home appliances in a decentralized manner. To verify the performance of the proposed energy management scheme, simulations are conducted with non-shiftable, shiftable, and controllable loads. Experimental results demonstrate that the proposed DR algorithm can handle energy management for multiple appliances, minimize user energy bills, and dissatisfaction costs, and help the user to significantly reduce its electricity cost compared with a benchmark without DR.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-04-04",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/TSG.2019.2909266",
+              "id": "S2:4ebbd178639ed31e6ca1eac7ff0fe17bcb1d1090",
+              "provider": "semantic_scholar",
+              "title": "Demand Response for Home Energy Management Using Reinforcement Learning and Artificial Neural Network",
+              "url": "https://www.semanticscholar.org/paper/4ebbd178639ed31e6ca1eac7ff0fe17bcb1d1090?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2021-12-31",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 28481,
+              "query": "in vitro neural network future response prediction",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8769",
+                "reset_seconds": "51918"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2021-12-31",
+                  "per_page": "10",
+                  "search": "in vitro neural network future response prediction",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2022-01-01"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2021-12-31",
+              "attempts": 3,
+              "locally_excluded_uncertain_or_not_strictly_before": 0,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 835,
+              "query": "in vitro neural network future response prediction",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "in vitro neural network future response prediction",
+                  "year": "1900-2021"
+                }
+              },
+              "strict_before": "2022-01-01"
+            }
+          },
+          "query": "in vitro neural network future response prediction",
+          "strict_before": "2022-01-01"
+        },
+        {
+          "api_cutoff": "2021-12-31",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2013-07-16",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/nature12354",
+              "id": "https://openalex.org/W2171332611",
+              "provider": "openalex",
+              "title": "Ultrasensitive fluorescent proteins for imaging neuronal activity"
+            },
+            {
+              "abstract": "Our brain serves as a center for cognitive function and neurons within the brain relay and store information about our surroundings and experiences. Modulation of this complex neuronal circuitry allows us to process that information and respond appropriately. Proper development of neurons is therefore vital to the mental health of an individual, and perturbations in their signaling or morphology are likely to result in cognitive impairment. The development of a neuron requires a series of steps that begins with migration from its birth place and initiation of process outgrowth, and ultimately leads to differentiation and the formation of connections that allow it to communicate with appropriate targets. Over the past several years, it has become clear that the Rho family of GTPases and related molecules play an important role in various aspects of neuronal development, including neurite outgrowth and differentiation, axon pathfinding, and dendritic spine formation and maintenance. Given the importance of these molecules in these processes, it is therefore not surprising that mutations in genes encoding a number of regulators and effectors of the Rho GTPases have been associated with human neurological diseases. This review will focus on the role of the Rho GTPases and their associated signaling molecules throughout neuronal development and discuss how perturbations in Rho GTPase signaling may lead to cognitive disorders.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2005-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1101/gad.1256405",
+              "id": "https://openalex.org/W2109067831",
+              "provider": "openalex",
+              "title": "The role of the Rho GTPases in neuronal development"
+            },
+            {
+              "abstract": "Cerebral energy metabolism is a highly compartmentalized and complex process in which transcellular trafficking of metabolites plays a pivotal role. Over the past decade, a role for lactate in fueling the energetic requirements of neurons has emerged. Furthermore, a neuroprotective effect of lactate during hypoglycemia or cerebral ischemia has been reported. The majority of the current evidence concerning lactate metabolism at the cellular level is based on in vitro data; only a few recent in vivo results have demonstrated that the brain preferentially utilizes lactate over glucose. Using voltage-sensitive dye (VSD) imaging, beta-probe measurements of radiotracer kinetics, and brain activation by sensory stimulation in the anesthetized rat, we investigated several aspects of cerebral lactate metabolism. The present study is the first in vivo demonstration of the maintenance of neuronal activity in the presence of lactate as the primary energy source. The loss of the voltage-sensitive dye signal found during severe insulin-induced hypoglycemia is completely prevented by lactate infusion. Thus, lactate has a direct neuroprotective effect. Furthermore, we demonstrate that the brain readily oxidizes lactate in an activity-dependent manner. The washout of 1-[(11)C]L-lactate, reflecting cerebral lactate oxidation, was observed to increase during brain activation from 0.077 ± 0.009 to 0.105 ± 0.007 min(-1). Finally, our data confirm that the brain prefers lactate over glucose as an energy substrate when both substrates are available. Using [(18)F]fluorodeoxyglucose (FDG) to measur",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2011-05-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1523/jneurosci.0415-11.2011",
+              "id": "https://openalex.org/W2055493228",
+              "provider": "openalex",
+              "title": "<i>In Vivo</i>Evidence for Lactate as a Neuronal Energy Source"
+            },
+            {
+              "abstract": "Free radicals are common outcome of normal aerobic cellular metabolism. In-built antioxidant system of body plays its decisive role in prevention of any loss due to free radicals. However, imbalanced defense mechanism of antioxidants, overproduction or incorporation of free radicals from environment to living system leads to serious penalty leading to neuro-degeneration. Neural cells suffer functional or sensory loss in neurodegenerative diseases. Apart from several other environmental or genetic factors, oxidative stress (OS) leading to free radical attack on neural cells contributes calamitous role to neuro-degeneration. Though, oxygen is imperative for life, imbalanced metabolism and excess reactive oxygen species (ROS) generation end into a range of disorders such as Alzheimer's disease, Parkinson's disease, aging and many other neural disorders. Toxicity of free radicals contributes to proteins and DNA injury, inflammation, tissue damage and subsequent cellular apoptosis. Antioxidants are now being looked upon as persuasive therapeutic against solemn neuronal loss, as they have capability to combat by neutralizing free radicals. Diet is major source of antioxidants, as well as medicinal herbs are catching attention to be commercial source of antioxidants at present. Recognition of upstream and downstream antioxidant therapy to oxidative stress has been proved an effective tool in alteration of any neuronal damage as well as free radical scavenging. Antioxidants have a wide scope to sequester metal ions involved in neuronal plaque formation to prevent oxidative stress. ",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2009-03-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.2174/157015909787602823",
+              "id": "https://openalex.org/W1985031521",
+              "provider": "openalex",
+              "title": "Oxidative Stress and Neurodegenerative Diseases: A Review of Upstream and Downstream Antioxidant Therapeutic Options"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-01-19",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/nrn.2017.170",
+              "id": "https://openalex.org/W2782677553",
+              "provider": "openalex",
+              "title": "Mitochondria at the neuronal presynapse in health and disease"
+            },
+            {
+              "abstract": "In addition to its functions as a neuronal messenger molecule, nitric oxide (NO) has also been implicated in playing a major role in ischemic damage and glutamate neurotoxicity. Using primary cortical cultures from transgenic neuronal NO synthase (NOS) null (nNOS-) mice, we definitively establish NO as a mediator of NMDA and hypoxic neurotoxicity. Neurotoxicity elicited by NMDA is markedly attenuated in nNOS- cortical cultures compared with wild-type cultures. The NOS inhibitor nitro-L-arginine is neuroprotective in wild-type but not nNOS-cultures, confirming the role of nNOS-derived NO in glutamate neurotoxicity. Confirming that the nNOS- cultures lack NMDA-stimulated nNOS activity, NMDA did not stimulate the formation of cGMP in nNOS- cultures, but markedly elevates cGMP in wild-type cultures. Both wild-type and nNOS- cultures are sensitive to toxicity induced by NO donors, indicating that pathways stimulated by NO that result in neuronal cell death are still intact in the transgenic mice. Superoxide dismutase is neuroprotective against NMDA and NO neurotoxicity in both wild-type and nNOS- cultures, highlighting the importance of superoxide anion in subsequent neuronal damage. The unknown cellular factors that endow differential resistance to NMDA neurotoxicity and differential susceptibility to quisqualate neurotoxicity remain intact in the nNOS- cultures, because the response of somatostatin-immunopositive neurons in nNOS- cultures to high-dose NMDA and low-dose quisqualate is identical to the response of NOS-immunopositive neurons in the wild-type cultures. There is no",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1996-04-15",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1523/jneurosci.16-08-02479.1996",
+              "id": "https://openalex.org/W1926494419",
+              "provider": "openalex",
+              "title": "Resistance to neurotoxicity in cortical cultures from neuronal nitric oxide synthase-deficient mice"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-05-28",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.cell.2016.05.011",
+              "id": "https://openalex.org/W2399947804",
+              "provider": "openalex",
+              "title": "Sensory Neurons that Detect Stretch and Nutrients in the Digestive System"
+            },
+            {
+              "abstract": "Animal life is controlled by neurons and in this setting cholinergic neurons play an important role. Cholinergic neurons release ACh, which via nicotinic and muscarinic receptors (n- and mAChRs) mediate chemical neurotransmission, a highly integrative process. Thus, the organism responds to external and internal stimuli to maintain and optimize survival and mood. Blockade of cholinergic neurotransmission is followed by immediate death. However, cholinergic communication has been established from the beginning of life in primitive organisms such as bacteria, algae, protozoa, sponge and primitive plants and fungi, irrespective of neurons. Tubocurarine- and atropine-sensitive effects are observed in plants indicating functional significance. All components of the cholinergic system (ChAT, ACh, n- and mAChRs, high-affinity choline uptake, esterase) have been demonstrated in mammalian non-neuronal cells, including those of humans. Embryonic stem cells (mice), epithelial, endothelial and immune cells synthesize ACh, which via differently expressed patterns of n- and mAChRs modulates cell activities to respond to internal or external stimuli. This helps to maintain and optimize cell function, such as proliferation, differentiation, formation of a physical barrier, migration, and ion and water movements. Blockade of n- and mACHRs on non-innervated cells causes cellular dysfunction and/or cell death. Thus, cholinergic signalling in non-neuronal cells is comparable to cholinergic neurotransmission. Dysfunction of the non-neuronal cholinergic system is involved in the pathogenesis of ",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2008-05-26",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/bjp.2008.185",
+              "id": "https://openalex.org/W1594018550",
+              "provider": "openalex",
+              "title": "Acetylcholine beyond neurons: the non‐neuronal cholinergic system in humans"
+            },
+            {
+              "abstract": "The free-energy principle (FEP) is a formal model of neuronal processes that is widely recognised in neuroscience as a unifying theory of the brain and biobehaviour. More recently, however, it has been extended beyond the brain to explain the dynamics of living systems, and their unique capacity to avoid decay. The aim of this review is to synthesise these advances with a meta-theoretical ontology of biological systems called variational neuroethology, which integrates the FEP with Tinbergen's four research questions to explain biological systems across spatial and temporal scales. We exemplify this framework by applying it to Homo sapiens, before translating variational neuroethology into a systematic research heuristic that supplies the biological, cognitive, and social sciences with a computationally tractable guide to discovery.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-09-20",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.plrev.2017.09.001",
+              "id": "https://openalex.org/W2754844655",
+              "provider": "openalex",
+              "title": "Answering Schrödinger's question: A free-energy formulation"
+            },
+            {
+              "abstract": "Dynamic adjustments to neuronal energy supply in response to synaptic activity are critical for neuronal function. Glial cells known as astrocytes have processes that ensheath most central synapses and express G-protein-coupled neurotransmitter receptors and transporters that respond to neuronal activity. Astrocytes also release substrates for neuronal oxidative phosphorylation and have processes that terminate on the surface of brain arterioles and can influence vascular smooth muscle tone and local blood flow. Membrane receptor or transporter-mediated effects of glutamate represent a convergence point of astrocyte influence on neuronal bioenergetics. Astrocytic glutamate uptake drives glycolysis and subsequent shuttling of lactate from astrocytes to neurons for oxidative metabolism. Astrocytes also convert synaptically reclaimed glutamate to glutamine, which is returned to neurons for glutamate salvage or oxidation. Finally, astrocytes store brain energy currency in the form of glycogen, which can be mobilized to produce lactate for neuronal oxidative phosphorylation in response to glutamatergic neurotransmission. These mechanisms couple synaptically driven astrocytic responses to glutamate with release of energy substrates back to neurons to match demand with supply. In addition, astrocytes directly influence the tone of penetrating brain arterioles in response to glutamatergic neurotransmission, coordinating dynamic regulation of local blood flow. We will describe the role of astrocytes in neurometabolic and neurovascular coupling in detail and discuss, in turn, how ast",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2013-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3389/fncel.2013.00038",
+              "id": "https://openalex.org/W2100395945",
+              "provider": "openalex",
+              "title": "Multifunctional role of astrocytes as gatekeepers of neuronal energy supply"
+            },
+            {
+              "abstract": "Observations of neurons in a resting brain and neurons in cultures often display spontaneous scale-free (SF) collective dynamics in the form of information cascades, also called ‘neuronal avalanches’. This has motivated the so called critical brain hypothesis which posits that the brain is self-tuned to a critical point or regime, separating exponentially-growing dynamics from quiescent states, to achieve optimality. Yet, how such optimality of information transmission is related to behavior and whether it persists under behavioral transitions has remained a fundamental knowledge gap. Here, we aim to tackle this challenge by studying behavioral transitions in mice using two-photon calcium imaging of the retrosplenial cortex (RSC)—an area of the brain well positioned to integrate sensory, mnemonic, and cognitive information by virtue of its strong connectivity with the hippocampus, medial prefrontal cortex, and primary sensory cortices. Our work shows that the response of the underlying neural population to behavioral transitions can vary significantly between different sub-populations such that one needs to take the structural and functional network properties of these sub-populations into account to understand the properties at the total population level. Specifically, we show that the RSC contains at least one sub-population capable of switching between two different SF regimes, indicating an intricate relationship between behavior and the optimality of neuronal response at the subgroup level. This asks for a potential reinterpretation of the emergence of self-organized criticality in neuronal systems.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-11-02",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/2632-072X/ac35b4",
+              "id": "S2:2f08688a7aec40b0d161a90df5baa6c5bf2f33eb",
+              "provider": "semantic_scholar",
+              "title": "Deconstructing scale-free neuronal avalanches: behavioral transitions and neuronal response",
+              "url": "https://www.semanticscholar.org/paper/2f08688a7aec40b0d161a90df5baa6c5bf2f33eb?utm_source=api"
+            },
+            {
+              "abstract": "In this work, we address the neuronal encoding problem from a Bayesian perspective. Specifically, we ask whether neuronal responses in an in vitro neuronal network are consistent with ideal Bayesian observer responses under the free energy principle. In brief, we stimulated an in vitro cortical cell culture with stimulus trains that had a known statistical structure. We then asked whether recorded neuronal responses were consistent with variational message passing based upon free energy minimisation (i.e., evidence maximisation). Effectively, this required us to solve two problems: first, we had to formulate the Bayes-optimal encoding of the causes or sources of sensory stimulation, and then show that these idealised responses could account for observed electrophysiological responses. We describe a simulation of an optimal neural network (i.e., the ideal Bayesian neural code) and then consider the mapping from idealised in silico responses to recorded in vitro responses. Our objective was to find evidence for functional specialisation and segregation in the in vitro neural network that reproduced in silico learning via free energy minimisation. Finally, we combined the in vitro and in silico results to characterise learning in terms of trajectories in a variational information plane of accuracy and complexity.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-05-16",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41598-018-35221-w",
+              "id": "S2:5037b0342ba925b418068e69f1b734685ac6dc0d",
+              "provider": "semantic_scholar",
+              "title": "In vitro neural networks minimise variational free energy",
+              "url": "https://www.semanticscholar.org/paper/5037b0342ba925b418068e69f1b734685ac6dc0d?utm_source=api"
+            },
+            {
+              "abstract": "The brain attenuates its responses to self-produced exteroceptions (e.g., we cannot tickle ourselves). Is this phenomenon, known as sensory attenuation, enabled innately, or acquired through learning? Here, our simulation study using a multimodal hierarchical recurrent neural network model, based on variational free-energy minimization, shows that a mechanism for sensory attenuation can develop through learning of two distinct types of sensorimotor experience, involving self-produced or externally produced exteroceptions. For each sensorimotor context, a particular free-energy state emerged through interaction between top-down prediction with precision and bottom-up sensory prediction error from each sensory area. The executive area in the network served as an information hub. Consequently, shifts between the two sensorimotor contexts triggered transitions from one free-energy state to another in the network via executive control, which caused shifts between attenuating and amplifying prediction-error-induced responses in the sensory areas. This study situates emergence of sensory attenuation (or self-other distinction) in development of distinct free-energy states in the dynamic hierarchical neural system.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-11-04",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41598-022-18207-7",
+              "id": "S2:2f96e01828e68b1aaaf07b5dbb383d6d2ca418ae",
+              "provider": "semantic_scholar",
+              "title": "Emergence of sensory attenuation based upon the free-energy principle",
+              "url": "https://www.semanticscholar.org/paper/2f96e01828e68b1aaaf07b5dbb383d6d2ca418ae?utm_source=api"
+            },
+            {
+              "abstract": "The assumption that during cortical embryogenesis neurons and synaptic connections are selected to form an ensemble maximising synchronous oscillation explains mesoscopic cortical development, and a mechanism for cortical information processing is implied by consistency with the Free Energy Principle and Dynamic Logic. A heteroclinic network emerges, with stable and unstable fixed points of oscillation corresponding to activity in symmetrically connected, versus asymmetrically connected, sets of neurons. Simulations of growth explain a wide range of anatomical observations for columnar and non-columnar cortex, superficial patch connections, and the organization and dynamic interactions of neurone response properties. An antenatal scaffold is created, upon which postnatal learning can establish continuously ordered neuronal representations, permitting matching of co-synchronous fields in multiple cortical areas to solve optimization problems as in Dynamic Logic. Fast synaptic competition partitions equilibria, minimizing \"the curse of dimensionality\", while perturbations between imperfectly partitioned synchronous fields, under internal reinforcement, enable the cortex to become adaptively self-directed. As learning progresses variational free energy is minimized and entropy bounded.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-06-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.plrev.2020.05.004",
+              "id": "S2:b8ae5eaca93c166686f2350495f228e0f05a21bd",
+              "provider": "semantic_scholar",
+              "title": "The growth of cognition: Free energy minimization and the embryogenesis of cortical computation.",
+              "url": "https://www.semanticscholar.org/paper/b8ae5eaca93c166686f2350495f228e0f05a21bd?utm_source=api"
+            },
+            {
+              "abstract": "Integrated World Modeling Theory (IWMT) is a synthetic model that attempts to unify theories of consciousness within the Free Energy Principle and Active Inference framework, with particular emphasis on Integrated Information Theory (IIT) and Global Neuronal Workspace Theory (GNWT). IWMT further suggests predictive processing in sensory hierarchies may be well-modeled as (folded, sparse, partially disentangled) variational autoencoders, with beliefs discretely-updated via the formation of synchronous complexes—as self-organizing harmonic modes (SOHMs)—potentially entailing maximal a posteriori (MAP) estimation via turbo coding. In this account, alpha-synchronized SOHMs across posterior cortices may constitute the kinds of maximal complexes described by IIT, as well as samples (or MAP estimates) from multimodal shared latent space, organized according to egocentric reference frames, entailing phenomenal consciousness as mid-level perceptual inference. When these posterior SOHMs couple with frontal complexes, this may enable various forms of conscious access as a kind of mental act(ive inference), affording higher order cognition/control, including the kinds of attentional/intentional processing and reportability described by GNWT. Across this autoencoding heterarchy, intermediate-level beliefs may be organized into spatiotemporal trajectories by the entorhinal/hippocampal system, so affording episodic memory, counterfactual imaginings, and planning.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-08-28",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.31234/osf.io/paz5j",
+              "id": "S2:3d04e7f5ff1bd01c975ba277ad9585911fb7bce9",
+              "provider": "semantic_scholar",
+              "title": "Integrated World Modeling Theory (IWMT) Implemented: Towards Reverse Engineering Consciousness with the Free Energy Principle and Active Inference",
+              "url": "https://www.semanticscholar.org/paper/3d04e7f5ff1bd01c975ba277ad9585911fb7bce9?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2001-01-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/S0006-8993(00)03038-9",
+              "id": "S2:017e30253bcd9fb1b88422855fa45a80bb213682",
+              "provider": "semantic_scholar",
+              "title": "Treatment of aged rat sensory neurons in short-term, serum-free culture with nerve growth factor reverses the effect of aging on neurite outgrowth, calcium currents, and neuronal survival.",
+              "url": "https://www.semanticscholar.org/paper/017e30253bcd9fb1b88422855fa45a80bb213682?utm_source=api"
+            },
+            {
+              "abstract": "The brain is an especially active metabolic system, requiring a large supply of energy following neuronal activation. However, direct observation of cellular metabolic dynamics associated with neuronal activation is challenging with currently available imaging tools. In this study, an optical imaging approach combining imaging of calcium transients and the metabolic co-enzyme nicotinamide adenine dinucleotide (phosphate) (NAD(P)H) is utilized to track the metabolic dynamics in hippocampal neuron cultures. Results show distinct cellular components for the NAD(P)H response following neuronal activity, where notable differences in the NAD(P)H dynamics between neurons and astrocytes can be directly observed. Additionally, tracking of these responses across a large field of view is demonstrated for metabolic profiling of neuronal activation. Observation of neuronal dynamics using these methods allows for closer examination of the complex metabolic machinery of the brain, and may lead to a better understanding of the cellular metabolism of neuronal activation.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-02-22",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1063/5.0031348",
+              "id": "S2:fdeee52836423187aad60a9212ded70189efb42e",
+              "provider": "semantic_scholar",
+              "title": "High-speed label-free two-photon fluorescence microscopy of metabolic transients during neuronal activity.",
+              "url": "https://www.semanticscholar.org/paper/fdeee52836423187aad60a9212ded70189efb42e?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-07-08",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.biosystems.2021.104466",
+              "id": "S2:64f048d6dc411a95ba8d840ef4d56f39930656c1",
+              "provider": "semantic_scholar",
+              "title": "A heuristic perspective on non-variational free energy modulation at the sleep-like edge",
+              "url": "https://www.semanticscholar.org/paper/64f048d6dc411a95ba8d840ef4d56f39930656c1?utm_source=api"
+            },
+            {
+              "abstract": "ABSTRACT The surface free energy of a biomaterial plays an important role in the early stages of cell–biomaterial interactions, profoundly influencing protein adsorption, interfacial water accessibility, and cell attachment on the biomaterial surface. Although multiple approaches have been developed to engineer the surface free energy of biomaterials, systematically tuning their surface free energy without altering other physicochemical properties remains challenging. In this study, we constructed an array of chemically-equivalent surfaces with comparable apparent roughness through assembly of gold nanoparticles adopting various geometrically-distinct shapes but all capped with the same surface ligand, (1-hexadecyl)trimethylammonium chloride, on cell culture substrates. We found that bone marrow stem cells exhibited distinct osteogenic differentiation behaviours when interacting with different types of substrates comprising shape-controlled gold nanoparticles. Our results reveal that bone marrow stem cells are capable of sensing differences in the nanoscale topographical features, which underscores the role of the surface free energy of nanostructured biomaterials in regulating cell responses. The study was approved by Institutional Animal Care and Use Committee, School of Medicine, University of South Carolina.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-06-28",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.12336/biomatertransl.2021.02.006",
+              "id": "S2:d185d7612a8eba73af14cf4feaf50d0d11de52d3",
+              "provider": "semantic_scholar",
+              "title": "Surface topography and free energy regulate osteogenesis of stem cells: effects of shape-controlled gold nanoparticles",
+              "url": "https://www.semanticscholar.org/paper/d185d7612a8eba73af14cf4feaf50d0d11de52d3?utm_source=api"
+            },
+            {
+              "abstract": "Appropriate levels of arousal potential induce hedonic responses (i.e., emotional valence). However, the relationship between arousal potential and its factors (e.g., novelty, complexity, and uncertainty) have not been formalized. This paper proposes a mathematical model that explains emotional arousal using minimized free energy to represent information content processed in the brain after sensory stimuli are perceived and recognized (i.e., sensory surprisal). This work mathematically demonstrates that sensory surprisal represents the summation of information from novelty and uncertainty, and that the uncertainty converges to perceived complexity with sufficient sampling from a stimulus source. Novelty, uncertainty, and complexity all act as collative properties that form arousal potential. Analysis using a Gaussian generative model shows that the free energy is formed as a quadratic function of prediction errors based on the difference between prior expectation and peak of likelihood. The model predicts two interaction effects on free energy: that between prediction error and prior uncertainty (i.e., prior variance) and that between prediction error and sensory variance. A discussion on the potential of free energy as a mathematical principle is presented to explain emotion initiators. The model provides a general mathematical framework for understanding and predicting the emotions caused by novelty, uncertainty, and complexity. The mathematical model of arousal can help predict acceptable novelty and complexity based on a target population under different uncertainty levels mitigated by prior knowledge and experience.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-03-23",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3389/fncom.2021.698252",
+              "id": "S2:1a7bf49cae070cbe642c91f4559c1336373ad65d",
+              "provider": "semantic_scholar",
+              "title": "Free-Energy Model of Emotion Potential: Modeling Arousal Potential as Information Content Induced by Complexity and Novelty",
+              "url": "https://www.semanticscholar.org/paper/1a7bf49cae070cbe642c91f4559c1336373ad65d?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2021-12-31",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 14912,
+              "query": "free energy neuronal culture sensory response",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8759",
+                "reset_seconds": "51894"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2021-12-31",
+                  "per_page": "10",
+                  "search": "free energy neuronal culture sensory response",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2022-01-01"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2021-12-31",
+              "attempts": 1,
+              "locally_excluded_uncertain_or_not_strictly_before": 0,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 2692,
+              "query": "free energy neuronal culture sensory response",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "free energy neuronal culture sensory response",
+                  "year": "1900-2021"
+                }
+              },
+              "strict_before": "2022-01-01"
+            }
+          },
+          "query": "free energy neuronal culture sensory response",
+          "strict_before": "2022-01-01"
+        }
+      ]
+    }
+  },
+  "generated_at": "2026-08-09T09:35:08.677612+00:00",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "ab7ed037057dc41b6525abe57207a799015939f56d1599f693dde4cf29060f84",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Migrated without changing the frozen pre-t0 query results; non-detection is scoped, not universal priority.",
+  "strict_before": "2022-01-01",
+  "task_id": "Neuro_01_self_organization_prediction",
+  "release": "V1.0"
+}

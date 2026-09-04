@@ -1,0 +1,206 @@
+{
+  "analysis_unit": "One global low-energy configuration for one parameter combination; frames from the same optimization trajectory are not independent replicates.",
+  "domain": "material_science",
+  "files": [
+    {
+      "bundled": true,
+      "bytes": 759,
+      "materialization_required": false,
+      "path": "optimization_trajectory/LM_ENERGIES_32.txt",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "5540a0737c27f90ab60fd20efe30e77da44976c096eddff9f26c346cad3893b8"
+    },
+    {
+      "bundled": true,
+      "bytes": 28648,
+      "materialization_required": false,
+      "path": "optimization_trajectory/LM_MOVIE_32.xyz",
+      "role": "molecular_or_particle_coordinates",
+      "sha256": "a106c8936358091f30f0bd2aa93b3f97d52d65afe61c82b9aa806d01a58dee94"
+    },
+    {
+      "bundled": true,
+      "bytes": 3860,
+      "materialization_required": false,
+      "path": "structure_manifest.json",
+      "role": "structured_scientific_data",
+      "sha256": "3c3a99fc3353b3d23300fcc3e484a0d3a67c4e9815a3c21948e3bc734e27eeb2"
+    },
+    {
+      "bundled": true,
+      "bytes": 1172,
+      "materialization_required": false,
+      "path": "structures/structure_01.xyz",
+      "role": "molecular_or_particle_coordinates",
+      "sha256": "c3b88f964a90ba945181ddf6edf6a86c872c9389be1757f8457890dff832233e"
+    },
+    {
+      "bundled": true,
+      "bytes": 1174,
+      "materialization_required": false,
+      "path": "structures/structure_02.xyz",
+      "role": "molecular_or_particle_coordinates",
+      "sha256": "cfadc643e5cc51d19a766f4f71f2470fbf46f39074d377d17eafa3d5d8bedcd7"
+    },
+    {
+      "bundled": true,
+      "bytes": 1174,
+      "materialization_required": false,
+      "path": "structures/structure_03.xyz",
+      "role": "molecular_or_particle_coordinates",
+      "sha256": "ab69bbbfa5707581210a4bee34b2540ecfdbe120cfbb52af588e18e1f0f9958a"
+    },
+    {
+      "bundled": true,
+      "bytes": 1173,
+      "materialization_required": false,
+      "path": "structures/structure_04.xyz",
+      "role": "molecular_or_particle_coordinates",
+      "sha256": "9c539f4d5b57b85fbcee6e830551e2385b08bc173d6b3ce7a82425ffafd2f78d"
+    },
+    {
+      "bundled": true,
+      "bytes": 1249,
+      "materialization_required": false,
+      "path": "structures/structure_05.xyz",
+      "role": "molecular_or_particle_coordinates",
+      "sha256": "e3f6162120c6d3aef23cdbc5374612efb01fe4d1634929430129304d28019432"
+    },
+    {
+      "bundled": true,
+      "bytes": 1173,
+      "materialization_required": false,
+      "path": "structures/structure_06.xyz",
+      "role": "molecular_or_particle_coordinates",
+      "sha256": "02c0dc31b800cfafbb688fa824a1a1270ab2b394f257df14d61c61efb86b731e"
+    },
+    {
+      "bundled": true,
+      "bytes": 1589,
+      "materialization_required": false,
+      "path": "structures/structure_07.xyz",
+      "role": "molecular_or_particle_coordinates",
+      "sha256": "d6f4d2db10c2797cfe80d91fadcbdf4a89577d2cb5b1815146395cf57efaa78d"
+    },
+    {
+      "bundled": true,
+      "bytes": 1595,
+      "materialization_required": false,
+      "path": "structures/structure_08.xyz",
+      "role": "molecular_or_particle_coordinates",
+      "sha256": "af8fdb7c53638594861936504fea581f6dc560f726a29c11099a8323d76608a0"
+    },
+    {
+      "bundled": true,
+      "bytes": 1113,
+      "materialization_required": false,
+      "path": "structures/structure_09.xyz",
+      "role": "molecular_or_particle_coordinates",
+      "sha256": "cbe2cb9bd24fc09503e4bea840a9e5aa500e21e16a235ad4d9904177fd906c66"
+    },
+    {
+      "bundled": true,
+      "bytes": 1113,
+      "materialization_required": false,
+      "path": "structures/structure_10.xyz",
+      "role": "molecular_or_particle_coordinates",
+      "sha256": "3b029acbaee9ea42da74c705ac0c9f5d292051cc98972836af0c85d0f883aba7"
+    },
+    {
+      "bundled": true,
+      "bytes": 1833,
+      "materialization_required": false,
+      "path": "structures/structure_11.xyz",
+      "role": "molecular_or_particle_coordinates",
+      "sha256": "9c958a9b0534712328e089188587bd927fb957df5b24ceda82d0eff965fd06af"
+    },
+    {
+      "bundled": true,
+      "bytes": 2014,
+      "materialization_required": false,
+      "path": "structures/structure_12.xyz",
+      "role": "molecular_or_particle_coordinates",
+      "sha256": "aeda932d3c2fbee0cba3a079bfb2951ab3f8094f2f079aae2e271a44e4acbbcd"
+    },
+    {
+      "bundled": true,
+      "bytes": 2313,
+      "materialization_required": false,
+      "path": "structures/structure_13.xyz",
+      "role": "molecular_or_particle_coordinates",
+      "sha256": "d598495af45498caea30315c4f04d33e838d755f2099cc5f4819f1e71d9a681a"
+    },
+    {
+      "bundled": true,
+      "bytes": 2199,
+      "materialization_required": false,
+      "path": "structures/structure_14.xyz",
+      "role": "molecular_or_particle_coordinates",
+      "sha256": "e5093570332c2bd435a80d42e224ee742fde198bb7d68251ccd8820c19c3415d"
+    }
+  ],
+  "freeze_status": "frozen",
+  "license_boundary": "Article and supplementary source data: CC BY 4.0. Author-code redistribution is handled separately from the scientific payload.",
+  "missingness": "No curator-imposed row deletion or subsampling is present in the frozen scientific payload.",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "schema": "truthinsightbench-data-manifest",
+  "scientific_scope": "All 14 low-energy configurations in the source data and the complete accepted-local-minimum trajectory for one binary 6:6 system.",
+  "t0": "2022-01-01",
+  "task_id": "Material_01_binary_superlattice",
+  "title": "Low-Energy Assembly Structures of Binary Nanoparticles",
+  "variable_dictionary": [
+    {
+      "file_or_pattern": "structures/structure_*.xyz",
+      "measures": [
+        "particle_type",
+        "x",
+        "y",
+        "z",
+        "R1",
+        "R2",
+        "Chi",
+        "Epsilon",
+        "Energy",
+        "box"
+      ]
+    },
+    {
+      "file_or_pattern": "structure_manifest.json",
+      "measures": [
+        "file",
+        "particle_count",
+        "parameters",
+        "sha256"
+      ]
+    },
+    {
+      "file_or_pattern": "optimization_trajectory/LM_ENERGIES_32.txt",
+      "measures": [
+        "accepted_local_minimum_energy"
+      ]
+    },
+    {
+      "file_or_pattern": "optimization_trajectory/LM_MOVIE_32.xyz",
+      "measures": [
+        "frame",
+        "particle_type",
+        "x",
+        "y",
+        "z",
+        "header_parameters"
+      ]
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "warnings": [
+    "A finite cluster's particle-count ratio need not equal the stoichiometry of an infinite lattice exactly.",
+    "Any neighbor-based result must state its cutoff and include at least one cutoff perturbation."
+  ],
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

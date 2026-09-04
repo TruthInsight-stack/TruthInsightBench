@@ -1,0 +1,9 @@
+{
+  "schema": "truthinsightbench-source-attribution",
+  "release": "V1.0",
+  "task_id": "Life_07_nutrient_response_kinetics",
+  "title": "PHD1 controls muscle mTORC1 in a hydroxylation-independent manner by stabilizing leucyl tRNA synthetase",
+  "doi": "10.1038/s41467-019-13889-6",
+  "first_publication_date": "2020-01-10",
+  "raw_data_record": "Europe PMC OA supplementary archive for PMC6954236 (CC-BY)"
+}

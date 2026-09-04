@@ -1,0 +1,8 @@
+{
+  "schema": "truthinsightbench-source-attribution",
+  "release": "V1.0",
+  "task_id": "Physics_01_dynamic_nuclear_polarization_echoes",
+  "title": "Observation of dynamic nuclear polarization echoes",
+  "doi": "10.1126/sciadv.adr2420",
+  "first_publication_date": "2024-10-18"
+}

@@ -1,0 +1,427 @@
+{
+  "all_queries_completed": true,
+  "api_cutoff": "2022-12-31",
+  "cards": {
+    "A": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2022-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/3527604103.ch1",
+              "id": "https://doi.org/10.1002/3527604103.ch1",
+              "landing_page_url": "https://doi.org/10.1002/3527604103.ch1",
+              "publication_date": "2005-07-13",
+              "publication_year": 2005,
+              "source_name": "High‐Throughput Screening in Heterogeneous Catalysis",
+              "title": "Impact of High‐Throughput Screening Technologies on Chemical Catalysis",
+              "type": "other"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.molcata.2010.03.022",
+              "id": "https://doi.org/10.1016/j.molcata.2010.03.022",
+              "landing_page_url": "https://doi.org/10.1016/j.molcata.2010.03.022",
+              "publication_date": "2010-06-01",
+              "publication_year": 2010,
+              "source_name": "Journal of Molecular Catalysis A: Chemical",
+              "title": "Theory and application of medium to high throughput prediction method techniques for asymmetric catalyst design☆",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1021/bk-2022-1419.ch007",
+              "id": "https://doi.org/10.1021/bk-2022-1419.ch007",
+              "landing_page_url": "https://doi.org/10.1021/bk-2022-1419.ch007",
+              "publication_date": "2022-11-15",
+              "publication_year": 2022,
+              "source_name": "ACS Symposium Series",
+              "title": "High-Throughput Experimentation-Enabled Asymmetric Hydrogenation",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/3527604103.ch12",
+              "id": "https://doi.org/10.1002/3527604103.ch12",
+              "landing_page_url": "https://doi.org/10.1002/3527604103.ch12",
+              "publication_date": "2005-07-13",
+              "publication_year": 2005,
+              "source_name": "High‐Throughput Screening in Heterogeneous Catalysis",
+              "title": "High‐Throughput Approaches in Olefin Polymerization Catalysis",
+              "type": "other"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1021/ja026703t",
+              "id": "https://doi.org/10.1021/ja026703t",
+              "landing_page_url": "https://doi.org/10.1021/ja026703t",
+              "publication_date": "2002-07-10",
+              "publication_year": 2002,
+              "source_name": "Journal of the American Chemical Society",
+              "title": "Isotopically Chiral Probes for in Situ High-Throughput Asymmetric Reaction Analysis",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/s1874-5156(06)80008-9",
+              "id": "https://doi.org/10.1016/s1874-5156(06)80008-9",
+              "landing_page_url": "https://doi.org/10.1016/s1874-5156(06)80008-9",
+              "publication_date": "1995-01-01",
+              "publication_year": 1995,
+              "source_name": "Advances in Catalytic Processes",
+              "title": "Asymmetric catalysis of the glyoxylate-ene reaction and related reactions",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/s1351-4180(05)00877-9",
+              "id": "https://doi.org/10.1016/s1351-4180(05)00877-9",
+              "landing_page_url": "https://doi.org/10.1016/s1351-4180(05)00877-9",
+              "publication_date": "2005-03-01",
+              "publication_year": 2005,
+              "source_name": "Focus on Catalysts",
+              "title": "High-throughput screening in chemical catalysis",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/3527604103.ch3",
+              "id": "https://doi.org/10.1002/3527604103.ch3",
+              "landing_page_url": "https://doi.org/10.1002/3527604103.ch3",
+              "publication_date": "2005-07-13",
+              "publication_year": 2005,
+              "source_name": "High‐Throughput Screening in Heterogeneous Catalysis",
+              "title": "High‐Throughput Workflow Development: Strategies and Examples in Heterogeneous Catalysis",
+              "type": "other"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "asymmetric catalysis high throughput chemical space categorical reaction outcome",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=asymmetric+catalysis+high+throughput+chemical+space+categorical+reaction+outcome&filter=until-pub-date%3A2022-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2023-01-01"
+        },
+        {
+          "api_cutoff": "2022-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.53347/rid-9525",
+              "id": "https://doi.org/10.53347/rid-9525",
+              "landing_page_url": "https://doi.org/10.53347/rid-9525",
+              "publication_date": "2005-12-01",
+              "publication_year": 2005,
+              "source_name": "Radiopaedia.org",
+              "title": "RANZCR Syllabus: Condition Category Definitions",
+              "type": "reference-entry"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.24820/ark.5550190.p011.340",
+              "id": "https://doi.org/10.24820/ark.5550190.p011.340",
+              "landing_page_url": "https://doi.org/10.24820/ark.5550190.p011.340",
+              "publication_date": "2020-12-14",
+              "publication_year": 2020,
+              "source_name": "Arkivoc",
+              "title": "Studies on the influence of saccharide fragment of urea organocatalysts on the yield and enantioselectivity of aza-Henry reaction",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "In cases were the watersheds are exploited for intensive agricultural purposes, as consequence the fertilizer concentration increase. Thus, the fertilizer filters into the water and rise the accumulation of common nutrients, phosphorus and nitrogen, affecting their proper cycle. Around 384 million urbanities receive their drinking water from watersheds with high nutrient pollution. This map shows the total quantity of phosphorous moving out of a watershed in a given time interval, being expressed as units of tonnes/km2/year, organized into four categories: “Low” if less than 8kg/km2; “Medium” if between 8-20 kg/km2; “High” if more 20 kg/km2 and “No Information”. For more information, access the Urban Water Blueprint report here: http://www.iwa-network.org/wp-content/uploads/2016/06/Urban-Water-Blueprint-Report.pdf You can also visit the Urban Water Blueprint website here: http://water.nature.org/waterblueprint/#/intro=true Basin Drinking Water Groundwater Human Settlements Supply Surface water",
+              "doi": "https://doi.org/10.29104/wins.l.0060.2018",
+              "id": "https://doi.org/10.29104/wins.l.0060.2018",
+              "landing_page_url": "https://doi.org/10.29104/wins.l.0060.2018",
+              "publication_date": "2018-05-31",
+              "publication_year": 2018,
+              "source_name": null,
+              "title": "Phosphorus Yield Category",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "The land use greatly influence water quality on the one supplied by watersheds. Land use changes often increase significantly the sedimentation and nutrient pollution. Human activity can generate as well pollutant concentration rising and heavily affect water treatment cost for urban supply. This map shows the total quantity of sediment moving out of a watershed in a given time interval, being expressed as units of tonnes/km2/year, organized into four categories: “Low” if less than 6 tonnes/km2; “Medium” if between 6-40 tonnes/km2; “High” if more than 40 tonnes/km2, and “No information”. For more information, access the Urban Water Blueprint report here: http://www.iwa-network.org/wp-content/uploads/2016/06/Urban-Water-Blueprint-Report.pdf You can also visit the Urban Water Blueprint website here: http://water.nature.org/waterblueprint/#/intro=true Basin Drinking Water Groundwater Human Settlements Supply Surface water",
+              "doi": "https://doi.org/10.29104/wins.l.0061.2018",
+              "id": "https://doi.org/10.29104/wins.l.0061.2018",
+              "landing_page_url": "https://doi.org/10.29104/wins.l.0061.2018",
+              "publication_date": "2018-05-31",
+              "publication_year": 2018,
+              "source_name": null,
+              "title": "Sediment Yield by Category",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1246/nikkashi1948.69.17",
+              "id": "https://doi.org/10.1246/nikkashi1948.69.17",
+              "landing_page_url": "https://doi.org/10.1246/nikkashi1948.69.17",
+              "publication_date": "1948-01-01",
+              "publication_year": 1948,
+              "source_name": "Nippon kagaku zassi",
+              "title": "I. Relation between Reaction Condition and the Yield",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/chin.200333026",
+              "id": "https://doi.org/10.1002/chin.200333026",
+              "landing_page_url": "https://doi.org/10.1002/chin.200333026",
+              "publication_date": "2003-08-19",
+              "publication_year": 2003,
+              "source_name": "ChemInform",
+              "title": "OsO4 — Catalyzed Synthesis of α-Amino Ketones: Improvement of Yield and Enantioselectivity.",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.32388/eswxwt",
+              "id": "https://doi.org/10.32388/eswxwt",
+              "landing_page_url": "https://doi.org/10.32388/eswxwt",
+              "publication_date": "2020-02-02",
+              "publication_year": 2020,
+              "source_name": "Definitions",
+              "title": "NCI CTEP SDC AIDS-related Malignancy and Condition Category Terminology",
+              "type": "reference-entry"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1017/cbo9780511762956.112",
+              "id": "https://doi.org/10.1017/cbo9780511762956.112",
+              "landing_page_url": "https://doi.org/10.1017/cbo9780511762956.112",
+              "publication_date": "2010-04-19",
+              "publication_year": 2010,
+              "source_name": "The Mechanics and Thermodynamics of Continua",
+              "title": "Yield Surface. Yield Function. Consistency Condition",
+              "type": "book-chapter"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "reaction condition category yield enantioselectivity landscape",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=reaction+condition+category+yield+enantioselectivity+landscape&filter=until-pub-date%3A2022-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2023-01-01"
+        }
+      ],
+      "search_completed": true
+    },
+    "B": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2022-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.physe.2014.05.030",
+              "id": "https://doi.org/10.1016/j.physe.2014.05.030",
+              "landing_page_url": "https://doi.org/10.1016/j.physe.2014.05.030",
+              "publication_date": "2014-09-01",
+              "publication_year": 2014,
+              "source_name": "Physica E: Low-dimensional Systems and Nanostructures",
+              "title": "The nondestructive observation of correlation between optical characteristic and morphologic feature within capped ZnCdSe/ZnSe quantum dots system",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/icassp.2007.366143",
+              "id": "https://doi.org/10.1109/icassp.2007.366143",
+              "landing_page_url": "https://doi.org/10.1109/icassp.2007.366143",
+              "publication_date": "2007-04-01",
+              "publication_year": 2007,
+              "source_name": "2007 IEEE International Conference on Acoustics, Speech and Signal Processing - ICASSP '07",
+              "title": "Generalized Low Dimensional Feature Subspace for Robust Face Recognition on Unseen datasets using Kernel Correlation Feature Analysis",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1117/12.720975",
+              "id": "https://doi.org/10.1117/12.720975",
+              "landing_page_url": "https://doi.org/10.1117/12.720975",
+              "publication_date": "2007-04-09",
+              "publication_year": 2007,
+              "source_name": "SPIE Proceedings",
+              "title": "Robust low dimensional kernel correlation feature spaces that generalize to unseen datasets",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0161-7346(81)90119-x",
+              "id": "https://doi.org/10.1016/0161-7346(81)90119-x",
+              "landing_page_url": "https://doi.org/10.1016/0161-7346(81)90119-x",
+              "publication_date": "1981-04-01",
+              "publication_year": 1981,
+              "source_name": "Ultrasonic Imaging",
+              "title": "Two-dimensional spectral feature mapping",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1023/a:1017980926245",
+              "id": "https://doi.org/10.1023/a:1017980926245",
+              "landing_page_url": "https://doi.org/10.1023/a:1017980926245",
+              "publication_date": "2001-11-01",
+              "publication_year": 2001,
+              "source_name": "Reaction Kinetics and Catalysis Letters",
+              "title": "On the correlation between cyclohexane and thiophene conversion on Al2O3-supported metals",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1023/a:1016664610545",
+              "id": "https://doi.org/10.1023/a:1016664610545",
+              "landing_page_url": "https://doi.org/10.1023/a:1016664610545",
+              "publication_date": "2001-01-01",
+              "publication_year": 2001,
+              "source_name": "Catalysis Letters",
+              "title": "Reaction mechanisms on liquid and solid acid catalysts. Correlation with acidity",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1201/9781420007466-9",
+              "id": "https://doi.org/10.1201/9781420007466-9",
+              "landing_page_url": "https://doi.org/10.1201/9781420007466-9",
+              "publication_date": "2007-11-19",
+              "publication_year": 2007,
+              "source_name": "GIS for Environmental Decision-Making",
+              "title": "A New Framework for Feature-Based Digital Mapping in Three- Dimensional Space",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0021-9517(86)90338-6",
+              "id": "https://doi.org/10.1016/0021-9517(86)90338-6",
+              "landing_page_url": "https://doi.org/10.1016/0021-9517(86)90338-6",
+              "publication_date": "1986-04-01",
+              "publication_year": 1986,
+              "source_name": "Journal of Catalysis",
+              "title": "Characterization of palladium surfaces with (+)-apopinene: Correlation of reaction paths with surface features",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "catalysis reaction feature mapping low dimensional correlation panel",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=catalysis+reaction+feature+mapping+low+dimensional+correlation+panel&filter=until-pub-date%3A2022-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2023-01-01"
+        },
+        {
+          "api_cutoff": "2022-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/3527604103.ch12",
+              "id": "https://doi.org/10.1002/3527604103.ch12",
+              "landing_page_url": "https://doi.org/10.1002/3527604103.ch12",
+              "publication_date": "2005-07-13",
+              "publication_year": 2005,
+              "source_name": "High‐Throughput Screening in Heterogeneous Catalysis",
+              "title": "High‐Throughput Approaches in Olefin Polymerization Catalysis",
+              "type": "other"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/3527604103.ch3",
+              "id": "https://doi.org/10.1002/3527604103.ch3",
+              "landing_page_url": "https://doi.org/10.1002/3527604103.ch3",
+              "publication_date": "2005-07-13",
+              "publication_year": 2005,
+              "source_name": "High‐Throughput Screening in Heterogeneous Catalysis",
+              "title": "High‐Throughput Workflow Development: Strategies and Examples in Heterogeneous Catalysis",
+              "type": "other"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/3527604103.ch8",
+              "id": "https://doi.org/10.1002/3527604103.ch8",
+              "landing_page_url": "https://doi.org/10.1002/3527604103.ch8",
+              "publication_date": "2005-07-13",
+              "publication_year": 2005,
+              "source_name": "High‐Throughput Screening in Heterogeneous Catalysis",
+              "title": "Gas Sensor Technology for High‐Throughput Screening in Catalysis",
+              "type": "other"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-94-011-4329-5_25",
+              "id": "https://doi.org/10.1007/978-94-011-4329-5_25",
+              "landing_page_url": "https://doi.org/10.1007/978-94-011-4329-5_25",
+              "publication_date": "2000-01-01",
+              "publication_year": 2000,
+              "source_name": "Combinatorial Catalysis and High Throughput Catalyst Design and Testing",
+              "title": "Combinatorial Catalysis and High Throughput Catalyst Testing: Conclusions of the Workshop on “High Throughput Catalytic Testing: Its Challenges”",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/3527604103.ch1",
+              "id": "https://doi.org/10.1002/3527604103.ch1",
+              "landing_page_url": "https://doi.org/10.1002/3527604103.ch1",
+              "publication_date": "2005-07-13",
+              "publication_year": 2005,
+              "source_name": "High‐Throughput Screening in Heterogeneous Catalysis",
+              "title": "Impact of High‐Throughput Screening Technologies on Chemical Catalysis",
+              "type": "other"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-94-011-4329-5_26",
+              "id": "https://doi.org/10.1007/978-94-011-4329-5_26",
+              "landing_page_url": "https://doi.org/10.1007/978-94-011-4329-5_26",
+              "publication_date": "2000-01-01",
+              "publication_year": 2000,
+              "source_name": "Combinatorial Catalysis and High Throughput Catalyst Design and Testing",
+              "title": "Combinatorial Catalysis and High Throughput Catalyst Testing: Conclusions of the Nato Advanced Study Institute",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1201/9781420015751-15",
+              "id": "https://doi.org/10.1201/9781420015751-15",
+              "landing_page_url": "https://doi.org/10.1201/9781420015751-15",
+              "publication_date": "2006-05-25",
+              "publication_year": 2006,
+              "source_name": "Surface and Nanomolecular Catalysis",
+              "title": "High-Throughput Experimentation and Combinatorial Approaches in Catalysis",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/3527604103.fmatter",
+              "id": "https://doi.org/10.1002/3527604103.fmatter",
+              "landing_page_url": "https://doi.org/10.1002/3527604103.fmatter",
+              "publication_date": "2005-07-13",
+              "publication_year": 2005,
+              "source_name": "High‐Throughput Screening in Heterogeneous Catalysis",
+              "title": "Front Matter",
+              "type": "other"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "high throughput catalysis response descriptor correlation",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=high+throughput+catalysis+response+descriptor+correlation&filter=until-pub-date%3A2022-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2023-01-01"
+        }
+      ],
+      "search_completed": true
+    }
+  },
+  "generated_at": "2026-08-22",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "cb43eb0e0316622c27c48ac41ac4a25656e60749d0ed774e23ddb700728ab147",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Searches are frozen reproducible retrieval evidence within the declared provider, queries, cutoff, and result depth. They do not certify absence from all literature.",
+  "strict_before": "2023-01-01",
+  "target_doi_excluded": "10.1038/s41467-023-42446-5",
+  "task_id": "Chemistry_08_catalysis_response_landscape",
+  "release": "V1.0"
+}

@@ -1,0 +1,9 @@
+{
+  "schema": "truthinsightbench-source-attribution",
+  "release": "V1.0",
+  "task_id": "Math_02_compositional_invariants",
+  "title": "Analysis of compositions of microbiomes with bias correction",
+  "doi": "10.1038/s41467-020-17041-7",
+  "first_publication_date": "2020-07-14",
+  "raw_data_record": "Authors' GitHub result archive (MIT License; commit 2d98940)"
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Math_02_compositional_invariants",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition.py",
+      "script_sha256": "eca83f09bb39e0c821201c186f20af8e578372fc6132c909cb29447200a3e0d7"
+    },
+    {
+      "script": "verification/perturb/A/method.py",
+      "script_sha256": "f5a1b03d96d8ff764b14029e4d18682330fd417554b62ac0271fbfebc45c5e3f"
+    },
+    {
+      "script": "verification/perturb/A/sample.py",
+      "script_sha256": "7c386eb27af372922845e82c3ddd9e6406809a78e784a2ee1c475bdc5fcedf0e"
+    },
+    {
+      "script": "verification/perturb/B/definition.py",
+      "script_sha256": "4e1b29a6a2f050e6306f9ef1cdc008b4ccdff1a5423f5d969a1e1929a44048ed"
+    },
+    {
+      "script": "verification/perturb/B/method.py",
+      "script_sha256": "e62f2dd3b6c1dbf8bb09ccf6f2b9e68158019b5f59f402cbaac5219bd0e71bc3"
+    },
+    {
+      "script": "verification/perturb/B/sample.py",
+      "script_sha256": "37aaf75740c88546147a43195c60c16a722c3a3e8e84f320777be6471d50ee4c"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "040dae96ec91778df652b2a1586ddc56d265867db92a9eee6f5173cbdfe8f515"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "6d73a10526ed0f34db471d5c79c5d52872132da88f70d4a15d0eae9626d38213"
+    }
+  ],
+  "verification_tree_sha256": "e6bbde0a784b6e07ee2a154cc1f1659540cf96602e94b2bccc9ed60755ed15c8",
+  "verification_file_count": 8,
+  "shared_runtime_tree_sha256": "d8710168f8a9c9ce1fd4946fdcfa0a279806376236feda46a5384b7f302428e9",
+  "shared_runtime_file_count": 4
+}

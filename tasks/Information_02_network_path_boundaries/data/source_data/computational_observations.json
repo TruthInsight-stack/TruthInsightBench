@@ -1,0 +1,4139 @@
+{
+  "schema": "truthinsightbench-computational-observations",
+  "scientific_object": "anonymous directed graph families generated at fixed node and arc counts with independently recomputed path metrics",
+  "generation_contract": "deterministic replay of the last author-code commit strictly before the target journal publication",
+  "actions": [
+    {
+      "action_id": "directed_sparse_flower_boundary",
+      "case_count": 32,
+      "node_sizes": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "maximum_absolute_path_error": 0.0,
+      "maximum_absolute_efficiency_error": 7.771561172376096e-16,
+      "all_structural_checks_pass": true,
+      "all_cases_strongly_connected": true,
+      "sparse_regime_includes_diameter_above_two": true,
+      "reference_case_n8_l11": {
+        "n_nodes": 8,
+        "n_arcs": 11,
+        "regime": "sparse_strongly_connected_flower",
+        "observed_path_length": 2.3392857142857144,
+        "author_formula_path_length": 2.3392857142857144,
+        "absolute_path_error": 0.0,
+        "observed_global_efficiency": 0.5178571428571429,
+        "author_formula_global_efficiency": 0.517857142857143,
+        "absolute_efficiency_error": 1.1102230246251565e-16,
+        "diameter": 4.0,
+        "strongly_connected": true,
+        "structure": {
+          "shape_matches": true,
+          "binary": true,
+          "zero_diagonal": true,
+          "arc_count": 11,
+          "arc_count_matches": true
+        }
+      },
+      "cases": [
+        {
+          "n_nodes": 6,
+          "n_arcs": 6,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 3.0,
+          "author_formula_path_length": 3.0,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.45666666666666667,
+          "author_formula_global_efficiency": 0.45666666666666667,
+          "absolute_efficiency_error": 0.0,
+          "diameter": 5.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 6,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 6,
+          "n_arcs": 7,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 2.5,
+          "author_formula_path_length": 2.5,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.518888888888889,
+          "author_formula_global_efficiency": 0.5188888888888888,
+          "absolute_efficiency_error": 1.1102230246251565e-16,
+          "diameter": 5.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 7,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 6,
+          "n_arcs": 8,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 2.1333333333333333,
+          "author_formula_path_length": 2.1333333333333333,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.5722222222222222,
+          "author_formula_global_efficiency": 0.5722222222222222,
+          "absolute_efficiency_error": 0.0,
+          "diameter": 4.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 8,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 6,
+          "n_arcs": 9,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 1.9,
+          "author_formula_path_length": 1.9,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.6166666666666667,
+          "author_formula_global_efficiency": 0.6166666666666664,
+          "absolute_efficiency_error": 3.3306690738754696e-16,
+          "diameter": 3.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 9,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 6,
+          "n_arcs": 10,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 1.6666666666666667,
+          "author_formula_path_length": 1.6666666666666667,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.6666666666666666,
+          "author_formula_global_efficiency": 0.6666666666666661,
+          "absolute_efficiency_error": 5.551115123125783e-16,
+          "diameter": 2.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 10,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 8,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 4.0,
+          "author_formula_path_length": 4.0,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.37040816326530607,
+          "author_formula_global_efficiency": 0.37040816326530607,
+          "absolute_efficiency_error": 0.0,
+          "diameter": 7.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 8,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 9,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 3.25,
+          "author_formula_path_length": 3.25,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.42385204081632655,
+          "author_formula_global_efficiency": 0.42385204081632644,
+          "absolute_efficiency_error": 1.1102230246251565e-16,
+          "diameter": 7.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 9,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 10,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 2.6785714285714284,
+          "author_formula_path_length": 2.6785714285714284,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.47559523809523807,
+          "author_formula_global_efficiency": 0.47559523809523807,
+          "absolute_efficiency_error": 0.0,
+          "diameter": 5.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 10,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 11,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 2.3392857142857144,
+          "author_formula_path_length": 2.3392857142857144,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.5178571428571429,
+          "author_formula_global_efficiency": 0.517857142857143,
+          "absolute_efficiency_error": 1.1102230246251565e-16,
+          "diameter": 4.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 11,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 12,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 2.142857142857143,
+          "author_formula_path_length": 2.142857142857143,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.550595238095238,
+          "author_formula_global_efficiency": 0.5505952380952379,
+          "absolute_efficiency_error": 1.1102230246251565e-16,
+          "diameter": 4.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 12,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 13,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 1.9464285714285714,
+          "author_formula_path_length": 1.9464285714285714,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.5863095238095238,
+          "author_formula_global_efficiency": 0.5863095238095234,
+          "absolute_efficiency_error": 4.440892098500626e-16,
+          "diameter": 3.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 13,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 14,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 1.75,
+          "author_formula_path_length": 1.75,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.625,
+          "author_formula_global_efficiency": 0.6249999999999993,
+          "absolute_efficiency_error": 6.661338147750939e-16,
+          "diameter": 2.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 14,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 10,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 5.0,
+          "author_formula_path_length": 5.0,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.31432980599647264,
+          "author_formula_global_efficiency": 0.31432980599647264,
+          "absolute_efficiency_error": 0.0,
+          "diameter": 9.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 10,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 11,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 4.0,
+          "author_formula_path_length": 4.0,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.3606966490299824,
+          "author_formula_global_efficiency": 0.3606966490299825,
+          "absolute_efficiency_error": 1.1102230246251565e-16,
+          "diameter": 9.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 11,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 12,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 3.2,
+          "author_formula_path_length": 3.2,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.4100000000000001,
+          "author_formula_global_efficiency": 0.41,
+          "absolute_efficiency_error": 1.1102230246251565e-16,
+          "diameter": 6.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 12,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 13,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 2.7666666666666666,
+          "author_formula_path_length": 2.7666666666666666,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.4503703703703704,
+          "author_formula_global_efficiency": 0.4503703703703704,
+          "absolute_efficiency_error": 0.0,
+          "diameter": 5.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 13,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 14,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 2.466666666666667,
+          "author_formula_path_length": 2.466666666666667,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.4851851851851852,
+          "author_formula_global_efficiency": 0.4851851851851854,
+          "absolute_efficiency_error": 1.6653345369377348e-16,
+          "diameter": 4.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 14,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 15,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 2.3,
+          "author_formula_path_length": 2.3,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.5111111111111111,
+          "author_formula_global_efficiency": 0.5111111111111111,
+          "absolute_efficiency_error": 0.0,
+          "diameter": 4.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 15,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 16,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 2.1333333333333333,
+          "author_formula_path_length": 2.1333333333333333,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.5388888888888889,
+          "author_formula_global_efficiency": 0.5388888888888885,
+          "absolute_efficiency_error": 3.3306690738754696e-16,
+          "diameter": 4.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 16,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 17,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 1.9666666666666666,
+          "author_formula_path_length": 1.9666666666666666,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.5685185185185185,
+          "author_formula_global_efficiency": 0.568518518518518,
+          "absolute_efficiency_error": 5.551115123125783e-16,
+          "diameter": 3.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 17,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 18,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 1.8,
+          "author_formula_path_length": 1.8,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.6,
+          "author_formula_global_efficiency": 0.5999999999999993,
+          "absolute_efficiency_error": 6.661338147750939e-16,
+          "diameter": 2.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 18,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 12,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 6.0,
+          "author_formula_path_length": 6.0,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.27453430407975865,
+          "author_formula_global_efficiency": 0.27453430407975865,
+          "absolute_efficiency_error": 0.0,
+          "diameter": 11.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 12,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 13,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 4.75,
+          "author_formula_path_length": 4.75,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.31535648694739604,
+          "author_formula_global_efficiency": 0.31535648694739604,
+          "absolute_efficiency_error": 0.0,
+          "diameter": 11.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 13,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 14,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 3.787878787878788,
+          "author_formula_path_length": 3.787878787878788,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.35903679653679654,
+          "author_formula_global_efficiency": 0.3590367965367965,
+          "absolute_efficiency_error": 5.551115123125783e-17,
+          "diameter": 8.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 14,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 15,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 3.2045454545454546,
+          "author_formula_path_length": 3.2045454545454546,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.39848484848484844,
+          "author_formula_global_efficiency": 0.39848484848484844,
+          "absolute_efficiency_error": 0.0,
+          "diameter": 6.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 15,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 16,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 2.8181818181818183,
+          "author_formula_path_length": 2.8181818181818183,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.43383838383838386,
+          "author_formula_global_efficiency": 0.43383838383838397,
+          "absolute_efficiency_error": 1.1102230246251565e-16,
+          "diameter": 5.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 16,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 17,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 2.553030303030303,
+          "author_formula_path_length": 2.553030303030303,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.46338383838383834,
+          "author_formula_global_efficiency": 0.4633838383838385,
+          "absolute_efficiency_error": 1.6653345369377348e-16,
+          "diameter": 4.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 17,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 18,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 2.409090909090909,
+          "author_formula_path_length": 2.409090909090909,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.48484848484848486,
+          "author_formula_global_efficiency": 0.48484848484848486,
+          "absolute_efficiency_error": 0.0,
+          "diameter": 4.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 18,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 19,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 2.265151515151515,
+          "author_formula_path_length": 2.265151515151515,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.5075757575757576,
+          "author_formula_global_efficiency": 0.5075757575757573,
+          "absolute_efficiency_error": 2.220446049250313e-16,
+          "diameter": 4.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 19,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 20,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 2.121212121212121,
+          "author_formula_path_length": 2.121212121212121,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.5315656565656566,
+          "author_formula_global_efficiency": 0.5315656565656561,
+          "absolute_efficiency_error": 4.440892098500626e-16,
+          "diameter": 4.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 20,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 21,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 1.9772727272727273,
+          "author_formula_path_length": 1.9772727272727273,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.5568181818181818,
+          "author_formula_global_efficiency": 0.5568181818181812,
+          "absolute_efficiency_error": 5.551115123125783e-16,
+          "diameter": 3.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 21,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 22,
+          "regime": "sparse_strongly_connected_flower",
+          "observed_path_length": 1.8333333333333333,
+          "author_formula_path_length": 1.8333333333333333,
+          "absolute_path_error": 0.0,
+          "observed_global_efficiency": 0.5833333333333334,
+          "author_formula_global_efficiency": 0.5833333333333326,
+          "absolute_efficiency_error": 7.771561172376096e-16,
+          "diameter": 2.0,
+          "strongly_connected": true,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 22,
+            "arc_count_matches": true
+          }
+        }
+      ]
+    },
+    {
+      "action_id": "directed_disconnected_efficiency_lower_boundary",
+      "case_count": 190,
+      "range1_case_count": 158,
+      "range2_exact_case_count": 32,
+      "node_sizes": [
+        6,
+        8,
+        10,
+        12
+      ],
+      "maximum_absolute_efficiency_error": 0.0,
+      "maximum_absolute_efficiency_minus_density": 0.0,
+      "all_structural_checks_pass": true,
+      "reference_complete_dag_n8": {
+        "n_nodes": 8,
+        "n_arcs": 28,
+        "density": 0.5,
+        "construction": "range1_complete_DAG_prefix",
+        "model_order": null,
+        "observed_global_efficiency": 0.5,
+        "author_formula_global_efficiency": 0.5,
+        "absolute_efficiency_error": 0.0,
+        "efficiency_minus_density": 0.0,
+        "structure": {
+          "shape_matches": true,
+          "binary": true,
+          "zero_diagonal": true,
+          "arc_count": 28,
+          "arc_count_matches": true
+        }
+      },
+      "cases": [
+        {
+          "n_nodes": 6,
+          "n_arcs": 0,
+          "density": 0.0,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.0,
+          "author_formula_global_efficiency": 0.0,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 0,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 6,
+          "n_arcs": 1,
+          "density": 0.03333333333333333,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.03333333333333333,
+          "author_formula_global_efficiency": 0.03333333333333333,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 1,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 6,
+          "n_arcs": 2,
+          "density": 0.06666666666666667,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.06666666666666667,
+          "author_formula_global_efficiency": 0.06666666666666667,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 2,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 6,
+          "n_arcs": 3,
+          "density": 0.1,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.1,
+          "author_formula_global_efficiency": 0.1,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 3,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 6,
+          "n_arcs": 4,
+          "density": 0.13333333333333333,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.13333333333333333,
+          "author_formula_global_efficiency": 0.13333333333333333,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 4,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 6,
+          "n_arcs": 5,
+          "density": 0.16666666666666666,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.16666666666666666,
+          "author_formula_global_efficiency": 0.16666666666666666,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 5,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 6,
+          "n_arcs": 6,
+          "density": 0.2,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.2,
+          "author_formula_global_efficiency": 0.2,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 6,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 6,
+          "n_arcs": 7,
+          "density": 0.23333333333333334,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.23333333333333334,
+          "author_formula_global_efficiency": 0.23333333333333334,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 7,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 6,
+          "n_arcs": 8,
+          "density": 0.26666666666666666,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.26666666666666666,
+          "author_formula_global_efficiency": 0.26666666666666666,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 8,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 6,
+          "n_arcs": 9,
+          "density": 0.3,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.3,
+          "author_formula_global_efficiency": 0.3,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 9,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 6,
+          "n_arcs": 10,
+          "density": 0.3333333333333333,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.3333333333333333,
+          "author_formula_global_efficiency": 0.3333333333333333,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 10,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 6,
+          "n_arcs": 11,
+          "density": 0.36666666666666664,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.36666666666666664,
+          "author_formula_global_efficiency": 0.36666666666666664,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 11,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 6,
+          "n_arcs": 12,
+          "density": 0.4,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.4,
+          "author_formula_global_efficiency": 0.4,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 12,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 6,
+          "n_arcs": 13,
+          "density": 0.43333333333333335,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.43333333333333335,
+          "author_formula_global_efficiency": 0.43333333333333335,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 13,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 6,
+          "n_arcs": 14,
+          "density": 0.4666666666666667,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.4666666666666667,
+          "author_formula_global_efficiency": 0.4666666666666667,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 14,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 6,
+          "n_arcs": 15,
+          "density": 0.5,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.5,
+          "author_formula_global_efficiency": 0.5,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 15,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 6,
+          "n_arcs": 16,
+          "density": 0.5333333333333333,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 2,
+          "observed_global_efficiency": 0.5333333333333333,
+          "author_formula_global_efficiency": 0.5333333333333333,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 16,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 6,
+          "n_arcs": 18,
+          "density": 0.6,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 3,
+          "observed_global_efficiency": 0.6,
+          "author_formula_global_efficiency": 0.6,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 18,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 6,
+          "n_arcs": 21,
+          "density": 0.7,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 4,
+          "observed_global_efficiency": 0.7,
+          "author_formula_global_efficiency": 0.7,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 21,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 6,
+          "n_arcs": 25,
+          "density": 0.8333333333333334,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 5,
+          "observed_global_efficiency": 0.8333333333333334,
+          "author_formula_global_efficiency": 0.8333333333333334,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 25,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 6,
+          "n_arcs": 30,
+          "density": 1.0,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 6,
+          "observed_global_efficiency": 1.0,
+          "author_formula_global_efficiency": 1.0,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 30,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 0,
+          "density": 0.0,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.0,
+          "author_formula_global_efficiency": 0.0,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 0,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 1,
+          "density": 0.017857142857142856,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.017857142857142856,
+          "author_formula_global_efficiency": 0.017857142857142856,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 1,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 2,
+          "density": 0.03571428571428571,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.03571428571428571,
+          "author_formula_global_efficiency": 0.03571428571428571,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 2,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 3,
+          "density": 0.05357142857142857,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.05357142857142857,
+          "author_formula_global_efficiency": 0.05357142857142857,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 3,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 4,
+          "density": 0.07142857142857142,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.07142857142857142,
+          "author_formula_global_efficiency": 0.07142857142857142,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 4,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 5,
+          "density": 0.08928571428571429,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.08928571428571429,
+          "author_formula_global_efficiency": 0.08928571428571429,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 5,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 6,
+          "density": 0.10714285714285714,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.10714285714285714,
+          "author_formula_global_efficiency": 0.10714285714285714,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 6,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 7,
+          "density": 0.125,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.125,
+          "author_formula_global_efficiency": 0.125,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 7,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 8,
+          "density": 0.14285714285714285,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.14285714285714285,
+          "author_formula_global_efficiency": 0.14285714285714285,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 8,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 9,
+          "density": 0.16071428571428573,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.16071428571428573,
+          "author_formula_global_efficiency": 0.16071428571428573,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 9,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 10,
+          "density": 0.17857142857142858,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.17857142857142858,
+          "author_formula_global_efficiency": 0.17857142857142858,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 10,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 11,
+          "density": 0.19642857142857142,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.19642857142857142,
+          "author_formula_global_efficiency": 0.19642857142857142,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 11,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 12,
+          "density": 0.21428571428571427,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.21428571428571427,
+          "author_formula_global_efficiency": 0.21428571428571427,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 12,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 13,
+          "density": 0.23214285714285715,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.23214285714285715,
+          "author_formula_global_efficiency": 0.23214285714285715,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 13,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 14,
+          "density": 0.25,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.25,
+          "author_formula_global_efficiency": 0.25,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 14,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 15,
+          "density": 0.26785714285714285,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.26785714285714285,
+          "author_formula_global_efficiency": 0.26785714285714285,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 15,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 16,
+          "density": 0.2857142857142857,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.2857142857142857,
+          "author_formula_global_efficiency": 0.2857142857142857,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 16,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 17,
+          "density": 0.30357142857142855,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.30357142857142855,
+          "author_formula_global_efficiency": 0.30357142857142855,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 17,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 18,
+          "density": 0.32142857142857145,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.32142857142857145,
+          "author_formula_global_efficiency": 0.32142857142857145,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 18,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 19,
+          "density": 0.3392857142857143,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.3392857142857143,
+          "author_formula_global_efficiency": 0.3392857142857143,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 19,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 20,
+          "density": 0.35714285714285715,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.35714285714285715,
+          "author_formula_global_efficiency": 0.35714285714285715,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 20,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 21,
+          "density": 0.375,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.375,
+          "author_formula_global_efficiency": 0.375,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 21,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 22,
+          "density": 0.39285714285714285,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.39285714285714285,
+          "author_formula_global_efficiency": 0.39285714285714285,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 22,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 23,
+          "density": 0.4107142857142857,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.4107142857142857,
+          "author_formula_global_efficiency": 0.4107142857142857,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 23,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 24,
+          "density": 0.42857142857142855,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.42857142857142855,
+          "author_formula_global_efficiency": 0.42857142857142855,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 24,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 25,
+          "density": 0.44642857142857145,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.44642857142857145,
+          "author_formula_global_efficiency": 0.44642857142857145,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 25,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 26,
+          "density": 0.4642857142857143,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.4642857142857143,
+          "author_formula_global_efficiency": 0.4642857142857143,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 26,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 27,
+          "density": 0.48214285714285715,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.48214285714285715,
+          "author_formula_global_efficiency": 0.48214285714285715,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 27,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 28,
+          "density": 0.5,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.5,
+          "author_formula_global_efficiency": 0.5,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 28,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 29,
+          "density": 0.5178571428571429,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 2,
+          "observed_global_efficiency": 0.5178571428571429,
+          "author_formula_global_efficiency": 0.5178571428571429,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 29,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 31,
+          "density": 0.5535714285714286,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 3,
+          "observed_global_efficiency": 0.5535714285714286,
+          "author_formula_global_efficiency": 0.5535714285714286,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 31,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 34,
+          "density": 0.6071428571428571,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 4,
+          "observed_global_efficiency": 0.6071428571428571,
+          "author_formula_global_efficiency": 0.6071428571428571,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 34,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 38,
+          "density": 0.6785714285714286,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 5,
+          "observed_global_efficiency": 0.6785714285714286,
+          "author_formula_global_efficiency": 0.6785714285714286,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 38,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 43,
+          "density": 0.7678571428571429,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 6,
+          "observed_global_efficiency": 0.7678571428571429,
+          "author_formula_global_efficiency": 0.7678571428571429,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 43,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 49,
+          "density": 0.875,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 7,
+          "observed_global_efficiency": 0.875,
+          "author_formula_global_efficiency": 0.875,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 49,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 8,
+          "n_arcs": 56,
+          "density": 1.0,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 8,
+          "observed_global_efficiency": 1.0,
+          "author_formula_global_efficiency": 1.0,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 56,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 0,
+          "density": 0.0,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.0,
+          "author_formula_global_efficiency": 0.0,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 0,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 1,
+          "density": 0.011111111111111112,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.011111111111111112,
+          "author_formula_global_efficiency": 0.011111111111111112,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 1,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 2,
+          "density": 0.022222222222222223,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.022222222222222223,
+          "author_formula_global_efficiency": 0.022222222222222223,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 2,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 3,
+          "density": 0.03333333333333333,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.03333333333333333,
+          "author_formula_global_efficiency": 0.03333333333333333,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 3,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 4,
+          "density": 0.044444444444444446,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.044444444444444446,
+          "author_formula_global_efficiency": 0.044444444444444446,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 4,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 5,
+          "density": 0.05555555555555555,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.05555555555555555,
+          "author_formula_global_efficiency": 0.05555555555555555,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 5,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 6,
+          "density": 0.06666666666666667,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.06666666666666667,
+          "author_formula_global_efficiency": 0.06666666666666667,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 6,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 7,
+          "density": 0.07777777777777778,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.07777777777777778,
+          "author_formula_global_efficiency": 0.07777777777777778,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 7,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 8,
+          "density": 0.08888888888888889,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.08888888888888889,
+          "author_formula_global_efficiency": 0.08888888888888889,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 8,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 9,
+          "density": 0.1,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.1,
+          "author_formula_global_efficiency": 0.1,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 9,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 10,
+          "density": 0.1111111111111111,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.1111111111111111,
+          "author_formula_global_efficiency": 0.1111111111111111,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 10,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 11,
+          "density": 0.12222222222222222,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.12222222222222222,
+          "author_formula_global_efficiency": 0.12222222222222222,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 11,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 12,
+          "density": 0.13333333333333333,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.13333333333333333,
+          "author_formula_global_efficiency": 0.13333333333333333,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 12,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 13,
+          "density": 0.14444444444444443,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.14444444444444443,
+          "author_formula_global_efficiency": 0.14444444444444443,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 13,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 14,
+          "density": 0.15555555555555556,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.15555555555555556,
+          "author_formula_global_efficiency": 0.15555555555555556,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 14,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 15,
+          "density": 0.16666666666666666,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.16666666666666666,
+          "author_formula_global_efficiency": 0.16666666666666666,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 15,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 16,
+          "density": 0.17777777777777778,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.17777777777777778,
+          "author_formula_global_efficiency": 0.17777777777777778,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 16,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 17,
+          "density": 0.18888888888888888,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.18888888888888888,
+          "author_formula_global_efficiency": 0.18888888888888888,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 17,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 18,
+          "density": 0.2,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.2,
+          "author_formula_global_efficiency": 0.2,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 18,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 19,
+          "density": 0.2111111111111111,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.2111111111111111,
+          "author_formula_global_efficiency": 0.2111111111111111,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 19,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 20,
+          "density": 0.2222222222222222,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.2222222222222222,
+          "author_formula_global_efficiency": 0.2222222222222222,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 20,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 21,
+          "density": 0.23333333333333334,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.23333333333333334,
+          "author_formula_global_efficiency": 0.23333333333333334,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 21,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 22,
+          "density": 0.24444444444444444,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.24444444444444444,
+          "author_formula_global_efficiency": 0.24444444444444444,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 22,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 23,
+          "density": 0.25555555555555554,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.25555555555555554,
+          "author_formula_global_efficiency": 0.25555555555555554,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 23,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 24,
+          "density": 0.26666666666666666,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.26666666666666666,
+          "author_formula_global_efficiency": 0.26666666666666666,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 24,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 25,
+          "density": 0.2777777777777778,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.2777777777777778,
+          "author_formula_global_efficiency": 0.2777777777777778,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 25,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 26,
+          "density": 0.28888888888888886,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.28888888888888886,
+          "author_formula_global_efficiency": 0.28888888888888886,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 26,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 27,
+          "density": 0.3,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.3,
+          "author_formula_global_efficiency": 0.3,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 27,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 28,
+          "density": 0.3111111111111111,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.3111111111111111,
+          "author_formula_global_efficiency": 0.3111111111111111,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 28,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 29,
+          "density": 0.32222222222222224,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.32222222222222224,
+          "author_formula_global_efficiency": 0.32222222222222224,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 29,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 30,
+          "density": 0.3333333333333333,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.3333333333333333,
+          "author_formula_global_efficiency": 0.3333333333333333,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 30,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 31,
+          "density": 0.34444444444444444,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.34444444444444444,
+          "author_formula_global_efficiency": 0.34444444444444444,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 31,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 32,
+          "density": 0.35555555555555557,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.35555555555555557,
+          "author_formula_global_efficiency": 0.35555555555555557,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 32,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 33,
+          "density": 0.36666666666666664,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.36666666666666664,
+          "author_formula_global_efficiency": 0.36666666666666664,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 33,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 34,
+          "density": 0.37777777777777777,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.37777777777777777,
+          "author_formula_global_efficiency": 0.37777777777777777,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 34,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 35,
+          "density": 0.3888888888888889,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.3888888888888889,
+          "author_formula_global_efficiency": 0.3888888888888889,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 35,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 36,
+          "density": 0.4,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.4,
+          "author_formula_global_efficiency": 0.4,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 36,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 37,
+          "density": 0.4111111111111111,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.4111111111111111,
+          "author_formula_global_efficiency": 0.4111111111111111,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 37,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 38,
+          "density": 0.4222222222222222,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.4222222222222222,
+          "author_formula_global_efficiency": 0.4222222222222222,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 38,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 39,
+          "density": 0.43333333333333335,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.43333333333333335,
+          "author_formula_global_efficiency": 0.43333333333333335,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 39,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 40,
+          "density": 0.4444444444444444,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.4444444444444444,
+          "author_formula_global_efficiency": 0.4444444444444444,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 40,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 41,
+          "density": 0.45555555555555555,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.45555555555555555,
+          "author_formula_global_efficiency": 0.45555555555555555,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 41,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 42,
+          "density": 0.4666666666666667,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.4666666666666667,
+          "author_formula_global_efficiency": 0.4666666666666667,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 42,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 43,
+          "density": 0.4777777777777778,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.4777777777777778,
+          "author_formula_global_efficiency": 0.4777777777777778,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 43,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 44,
+          "density": 0.4888888888888889,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.4888888888888889,
+          "author_formula_global_efficiency": 0.4888888888888889,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 44,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 45,
+          "density": 0.5,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.5,
+          "author_formula_global_efficiency": 0.5,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 45,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 46,
+          "density": 0.5111111111111111,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 2,
+          "observed_global_efficiency": 0.5111111111111111,
+          "author_formula_global_efficiency": 0.5111111111111111,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 46,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 48,
+          "density": 0.5333333333333333,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 3,
+          "observed_global_efficiency": 0.5333333333333333,
+          "author_formula_global_efficiency": 0.5333333333333333,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 48,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 51,
+          "density": 0.5666666666666667,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 4,
+          "observed_global_efficiency": 0.5666666666666667,
+          "author_formula_global_efficiency": 0.5666666666666667,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 51,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 55,
+          "density": 0.6111111111111112,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 5,
+          "observed_global_efficiency": 0.6111111111111112,
+          "author_formula_global_efficiency": 0.6111111111111112,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 55,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 60,
+          "density": 0.6666666666666666,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 6,
+          "observed_global_efficiency": 0.6666666666666666,
+          "author_formula_global_efficiency": 0.6666666666666666,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 60,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 66,
+          "density": 0.7333333333333333,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 7,
+          "observed_global_efficiency": 0.7333333333333333,
+          "author_formula_global_efficiency": 0.7333333333333333,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 66,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 73,
+          "density": 0.8111111111111111,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 8,
+          "observed_global_efficiency": 0.8111111111111111,
+          "author_formula_global_efficiency": 0.8111111111111111,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 73,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 81,
+          "density": 0.9,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 9,
+          "observed_global_efficiency": 0.9,
+          "author_formula_global_efficiency": 0.9,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 81,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 10,
+          "n_arcs": 90,
+          "density": 1.0,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 10,
+          "observed_global_efficiency": 1.0,
+          "author_formula_global_efficiency": 1.0,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 90,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 0,
+          "density": 0.0,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.0,
+          "author_formula_global_efficiency": 0.0,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 0,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 1,
+          "density": 0.007575757575757576,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.007575757575757576,
+          "author_formula_global_efficiency": 0.007575757575757576,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 1,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 2,
+          "density": 0.015151515151515152,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.015151515151515152,
+          "author_formula_global_efficiency": 0.015151515151515152,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 2,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 3,
+          "density": 0.022727272727272728,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.022727272727272728,
+          "author_formula_global_efficiency": 0.022727272727272728,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 3,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 4,
+          "density": 0.030303030303030304,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.030303030303030304,
+          "author_formula_global_efficiency": 0.030303030303030304,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 4,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 5,
+          "density": 0.03787878787878788,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.03787878787878788,
+          "author_formula_global_efficiency": 0.03787878787878788,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 5,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 6,
+          "density": 0.045454545454545456,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.045454545454545456,
+          "author_formula_global_efficiency": 0.045454545454545456,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 6,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 7,
+          "density": 0.05303030303030303,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.05303030303030303,
+          "author_formula_global_efficiency": 0.05303030303030303,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 7,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 8,
+          "density": 0.06060606060606061,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.06060606060606061,
+          "author_formula_global_efficiency": 0.06060606060606061,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 8,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 9,
+          "density": 0.06818181818181818,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.06818181818181818,
+          "author_formula_global_efficiency": 0.06818181818181818,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 9,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 10,
+          "density": 0.07575757575757576,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.07575757575757576,
+          "author_formula_global_efficiency": 0.07575757575757576,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 10,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 11,
+          "density": 0.08333333333333333,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.08333333333333333,
+          "author_formula_global_efficiency": 0.08333333333333333,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 11,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 12,
+          "density": 0.09090909090909091,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.09090909090909091,
+          "author_formula_global_efficiency": 0.09090909090909091,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 12,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 13,
+          "density": 0.09848484848484848,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.09848484848484848,
+          "author_formula_global_efficiency": 0.09848484848484848,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 13,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 14,
+          "density": 0.10606060606060606,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.10606060606060606,
+          "author_formula_global_efficiency": 0.10606060606060606,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 14,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 15,
+          "density": 0.11363636363636363,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.11363636363636363,
+          "author_formula_global_efficiency": 0.11363636363636363,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 15,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 16,
+          "density": 0.12121212121212122,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.12121212121212122,
+          "author_formula_global_efficiency": 0.12121212121212122,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 16,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 17,
+          "density": 0.12878787878787878,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.12878787878787878,
+          "author_formula_global_efficiency": 0.12878787878787878,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 17,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 18,
+          "density": 0.13636363636363635,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.13636363636363635,
+          "author_formula_global_efficiency": 0.13636363636363635,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 18,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 19,
+          "density": 0.14393939393939395,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.14393939393939395,
+          "author_formula_global_efficiency": 0.14393939393939395,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 19,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 20,
+          "density": 0.15151515151515152,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.15151515151515152,
+          "author_formula_global_efficiency": 0.15151515151515152,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 20,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 21,
+          "density": 0.1590909090909091,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.1590909090909091,
+          "author_formula_global_efficiency": 0.1590909090909091,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 21,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 22,
+          "density": 0.16666666666666666,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.16666666666666666,
+          "author_formula_global_efficiency": 0.16666666666666666,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 22,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 23,
+          "density": 0.17424242424242425,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.17424242424242425,
+          "author_formula_global_efficiency": 0.17424242424242425,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 23,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 24,
+          "density": 0.18181818181818182,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.18181818181818182,
+          "author_formula_global_efficiency": 0.18181818181818182,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 24,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 25,
+          "density": 0.1893939393939394,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.1893939393939394,
+          "author_formula_global_efficiency": 0.1893939393939394,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 25,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 26,
+          "density": 0.19696969696969696,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.19696969696969696,
+          "author_formula_global_efficiency": 0.19696969696969696,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 26,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 27,
+          "density": 0.20454545454545456,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.20454545454545456,
+          "author_formula_global_efficiency": 0.20454545454545456,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 27,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 28,
+          "density": 0.21212121212121213,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.21212121212121213,
+          "author_formula_global_efficiency": 0.21212121212121213,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 28,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 29,
+          "density": 0.2196969696969697,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.2196969696969697,
+          "author_formula_global_efficiency": 0.2196969696969697,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 29,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 30,
+          "density": 0.22727272727272727,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.22727272727272727,
+          "author_formula_global_efficiency": 0.22727272727272727,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 30,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 31,
+          "density": 0.23484848484848486,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.23484848484848486,
+          "author_formula_global_efficiency": 0.23484848484848486,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 31,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 32,
+          "density": 0.24242424242424243,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.24242424242424243,
+          "author_formula_global_efficiency": 0.24242424242424243,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 32,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 33,
+          "density": 0.25,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.25,
+          "author_formula_global_efficiency": 0.25,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 33,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 34,
+          "density": 0.25757575757575757,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.25757575757575757,
+          "author_formula_global_efficiency": 0.25757575757575757,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 34,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 35,
+          "density": 0.26515151515151514,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.26515151515151514,
+          "author_formula_global_efficiency": 0.26515151515151514,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 35,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 36,
+          "density": 0.2727272727272727,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.2727272727272727,
+          "author_formula_global_efficiency": 0.2727272727272727,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 36,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 37,
+          "density": 0.2803030303030303,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.2803030303030303,
+          "author_formula_global_efficiency": 0.2803030303030303,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 37,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 38,
+          "density": 0.2878787878787879,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.2878787878787879,
+          "author_formula_global_efficiency": 0.2878787878787879,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 38,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 39,
+          "density": 0.29545454545454547,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.29545454545454547,
+          "author_formula_global_efficiency": 0.29545454545454547,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 39,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 40,
+          "density": 0.30303030303030304,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.30303030303030304,
+          "author_formula_global_efficiency": 0.30303030303030304,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 40,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 41,
+          "density": 0.3106060606060606,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.3106060606060606,
+          "author_formula_global_efficiency": 0.3106060606060606,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 41,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 42,
+          "density": 0.3181818181818182,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.3181818181818182,
+          "author_formula_global_efficiency": 0.3181818181818182,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 42,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 43,
+          "density": 0.32575757575757575,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.32575757575757575,
+          "author_formula_global_efficiency": 0.32575757575757575,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 43,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 44,
+          "density": 0.3333333333333333,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.3333333333333333,
+          "author_formula_global_efficiency": 0.3333333333333333,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 44,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 45,
+          "density": 0.3409090909090909,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.3409090909090909,
+          "author_formula_global_efficiency": 0.3409090909090909,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 45,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 46,
+          "density": 0.3484848484848485,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.3484848484848485,
+          "author_formula_global_efficiency": 0.3484848484848485,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 46,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 47,
+          "density": 0.3560606060606061,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.3560606060606061,
+          "author_formula_global_efficiency": 0.3560606060606061,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 47,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 48,
+          "density": 0.36363636363636365,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.36363636363636365,
+          "author_formula_global_efficiency": 0.36363636363636365,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 48,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 49,
+          "density": 0.3712121212121212,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.3712121212121212,
+          "author_formula_global_efficiency": 0.3712121212121212,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 49,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 50,
+          "density": 0.3787878787878788,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.3787878787878788,
+          "author_formula_global_efficiency": 0.3787878787878788,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 50,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 51,
+          "density": 0.38636363636363635,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.38636363636363635,
+          "author_formula_global_efficiency": 0.38636363636363635,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 51,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 52,
+          "density": 0.3939393939393939,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.3939393939393939,
+          "author_formula_global_efficiency": 0.3939393939393939,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 52,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 53,
+          "density": 0.4015151515151515,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.4015151515151515,
+          "author_formula_global_efficiency": 0.4015151515151515,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 53,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 54,
+          "density": 0.4090909090909091,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.4090909090909091,
+          "author_formula_global_efficiency": 0.4090909090909091,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 54,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 55,
+          "density": 0.4166666666666667,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.4166666666666667,
+          "author_formula_global_efficiency": 0.4166666666666667,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 55,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 56,
+          "density": 0.42424242424242425,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.42424242424242425,
+          "author_formula_global_efficiency": 0.42424242424242425,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 56,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 57,
+          "density": 0.4318181818181818,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.4318181818181818,
+          "author_formula_global_efficiency": 0.4318181818181818,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 57,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 58,
+          "density": 0.4393939393939394,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.4393939393939394,
+          "author_formula_global_efficiency": 0.4393939393939394,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 58,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 59,
+          "density": 0.44696969696969696,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.44696969696969696,
+          "author_formula_global_efficiency": 0.44696969696969696,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 59,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 60,
+          "density": 0.45454545454545453,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.45454545454545453,
+          "author_formula_global_efficiency": 0.45454545454545453,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 60,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 61,
+          "density": 0.4621212121212121,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.4621212121212121,
+          "author_formula_global_efficiency": 0.4621212121212121,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 61,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 62,
+          "density": 0.4696969696969697,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.4696969696969697,
+          "author_formula_global_efficiency": 0.4696969696969697,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 62,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 63,
+          "density": 0.4772727272727273,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.4772727272727273,
+          "author_formula_global_efficiency": 0.4772727272727273,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 63,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 64,
+          "density": 0.48484848484848486,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.48484848484848486,
+          "author_formula_global_efficiency": 0.48484848484848486,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 64,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 65,
+          "density": 0.49242424242424243,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.49242424242424243,
+          "author_formula_global_efficiency": 0.49242424242424243,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 65,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 66,
+          "density": 0.5,
+          "construction": "range1_complete_DAG_prefix",
+          "model_order": null,
+          "observed_global_efficiency": 0.5,
+          "author_formula_global_efficiency": 0.5,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 66,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 67,
+          "density": 0.5075757575757576,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 2,
+          "observed_global_efficiency": 0.5075757575757576,
+          "author_formula_global_efficiency": 0.5075757575757576,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 67,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 69,
+          "density": 0.5227272727272727,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 3,
+          "observed_global_efficiency": 0.5227272727272727,
+          "author_formula_global_efficiency": 0.5227272727272727,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 69,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 72,
+          "density": 0.5454545454545454,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 4,
+          "observed_global_efficiency": 0.5454545454545454,
+          "author_formula_global_efficiency": 0.5454545454545454,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 72,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 76,
+          "density": 0.5757575757575758,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 5,
+          "observed_global_efficiency": 0.5757575757575758,
+          "author_formula_global_efficiency": 0.5757575757575758,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 76,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 81,
+          "density": 0.6136363636363636,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 6,
+          "observed_global_efficiency": 0.6136363636363636,
+          "author_formula_global_efficiency": 0.6136363636363636,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 81,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 87,
+          "density": 0.6590909090909091,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 7,
+          "observed_global_efficiency": 0.6590909090909091,
+          "author_formula_global_efficiency": 0.6590909090909091,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 87,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 94,
+          "density": 0.7121212121212122,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 8,
+          "observed_global_efficiency": 0.7121212121212122,
+          "author_formula_global_efficiency": 0.7121212121212122,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 94,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 102,
+          "density": 0.7727272727272727,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 9,
+          "observed_global_efficiency": 0.7727272727272727,
+          "author_formula_global_efficiency": 0.7727272727272727,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 102,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 111,
+          "density": 0.8409090909090909,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 10,
+          "observed_global_efficiency": 0.8409090909090909,
+          "author_formula_global_efficiency": 0.8409090909090909,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 111,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 121,
+          "density": 0.9166666666666666,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 11,
+          "observed_global_efficiency": 0.9166666666666666,
+          "author_formula_global_efficiency": 0.9166666666666666,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 121,
+            "arc_count_matches": true
+          }
+        },
+        {
+          "n_nodes": 12,
+          "n_arcs": 132,
+          "density": 1.0,
+          "construction": "range2_bilateralised_M_forward",
+          "model_order": 12,
+          "observed_global_efficiency": 1.0,
+          "author_formula_global_efficiency": 1.0,
+          "absolute_efficiency_error": 0.0,
+          "efficiency_minus_density": 0.0,
+          "structure": {
+            "shape_matches": true,
+            "binary": true,
+            "zero_diagonal": true,
+            "arc_count": 132,
+            "arc_count_matches": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "Late-stage median strength exceeds early-stage median by about one unit and all cell-pair families shift positively.",
+      "independent_reconstruction_method": "Deduplicated early/late windows with whole-cell-pair holdout, mean alternative, and three stage-window definitions.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "The deduplicated complete stage-indexed interaction table across 18 ordered stages and nine cell-pair families.",
+      "one_liner": "Interaction-strength distributions shift upward from early to late development in every anonymous cell-pair family.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample.py",
+          "script_sha256": "06a8f2028b25174683f931765346ecc45c08f837933d3a7bbd8eab2e7c907dcd"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method.py",
+          "script_sha256": "0e91c6d6cb3998c1225d992e76d2c53972f434bb511cf5cb1fe5161a42c87f84"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition.py",
+          "script_sha256": "5a119eda158046ebe5575f99cfce6f1c4d7503bad597837c2b02173994542b5a"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A held-out cell-pair family supports the relationship if its late-minus-early shift is positive and the pooled leave-one shift exceeds 0.75; either failure rejects it."
+      },
+      "quantities": [
+        {
+          "key": "deduplicated_row_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 5920
+        },
+        {
+          "key": "early_stage_median_strength",
+          "role": "supporting",
+          "tolerance_rel": 0.12,
+          "unit": "strength_units",
+          "value": -0.281035664240461
+        },
+        {
+          "key": "late_stage_median_strength",
+          "role": "core",
+          "tolerance_rel": 0.1,
+          "unit": "strength_units",
+          "value": 0.652601217596519
+        },
+        {
+          "key": "late_minus_early_median_shift",
+          "role": "core",
+          "tolerance_rel": 0.1,
+          "unit": "strength_units",
+          "value": 0.93363688183698
+        },
+        {
+          "key": "cell_pair_positive_shift_fraction",
+          "role": "core",
+          "tolerance_rel": 0.0,
+          "unit": "fraction",
+          "value": 1.0
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "script_sha256": "62f93037d37b3c2eb14c5044512ed4f4d00986ccc9e5086f4e292ae20a7484b4",
+        "values": [
+          {
+            "json_path": "values.deduplicated_row_count",
+            "quantity_key": "deduplicated_row_count"
+          },
+          {
+            "json_path": "values.early_stage_median_strength",
+            "quantity_key": "early_stage_median_strength"
+          },
+          {
+            "json_path": "values.late_stage_median_strength",
+            "quantity_key": "late_stage_median_strength"
+          },
+          {
+            "json_path": "values.late_minus_early_median_shift",
+            "quantity_key": "late_minus_early_median_shift"
+          },
+          {
+            "json_path": "values.cell_pair_positive_shift_fraction",
+            "quantity_key": "cell_pair_positive_shift_fraction"
+          }
+        ]
+      },
+      "scope": "Distributional stage structure; association values do not prove direct biological communication.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports developmental reorganization of cell-cell interaction strength across ordered stages.",
+        "paper_location": "Stage-indexed interaction Results and complete source-data workbook.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "About one quarter persist for at least half the stages while roughly one third occur at a single stage, stable across nearby thresholds.",
+      "independent_reconstruction_method": "Whole-cell-pair holdout, raw-versus-deduplicated records, and 0.001/0.005/0.01 association thresholds.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Interaction-by-cell-pair families meeting the predeclared association threshold.",
+      "one_liner": "Significant interaction families mix persistent and single-stage patterns rather than following one universal trajectory.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample.py",
+          "script_sha256": "b0bfe5f018977b39b4be87c5ca6734247057d406eb5a8fcbd605dc1f39a2293a"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method.py",
+          "script_sha256": "693f16ae290148f15e230e25c505f5d59342a9126db77fa076f98db9d081a72a"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition.py",
+          "script_sha256": "71fb9d36ddd6a3bb7cd5fdb3de60cbf2403229fc00378b2ffa60d9774526c91d"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A new complete stage series supports the mixture if at least 20% of families persist for nine stages and at least 25% remain single-stage; otherwise it fails."
+      },
+      "quantities": [
+        {
+          "key": "significant_family_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 948
+        },
+        {
+          "key": "median_significant_stage_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 3.0
+        },
+        {
+          "key": "persistent_family_fraction_at_least_9_stages",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "fraction",
+          "value": 0.26054852320675104
+        },
+        {
+          "key": "single_stage_family_fraction",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "fraction",
+          "value": 0.33755274261603374
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "script_sha256": "cb3e5c47957f8cdc7d79330192e27ae0a90c581bad14180a44be3493d2a2840e",
+        "values": [
+          {
+            "json_path": "values.significant_family_count",
+            "quantity_key": "significant_family_count"
+          },
+          {
+            "json_path": "values.median_significant_stage_count",
+            "quantity_key": "median_significant_stage_count"
+          },
+          {
+            "json_path": "values.persistent_family_fraction_at_least_9_stages",
+            "quantity_key": "persistent_family_fraction_at_least_9_stages"
+          },
+          {
+            "json_path": "values.single_stage_family_fraction",
+            "quantity_key": "single_stage_family_fraction"
+          }
+        ]
+      },
+      "scope": "Persistence in the observed stage coverage; missing or unrecorded stages are not treated as biological absence.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports both persistent and stage-restricted developmental interactions.",
+        "paper_location": "Stage recurrence and association evidence in the source-data workbook.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "These two cards are verified reference discoveries for blind-rediscovery diagnostics and are not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2022-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Life_09_developmental_interaction_structure",
+  "release": "V1.0"
+}

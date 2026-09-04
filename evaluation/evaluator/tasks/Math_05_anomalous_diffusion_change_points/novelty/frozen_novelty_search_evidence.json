@@ -1,0 +1,427 @@
+{
+  "all_queries_completed": true,
+  "api_cutoff": "2020-12-31",
+  "cards": {
+    "A": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2020-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.2174/9781681082912117050003",
+              "id": "https://doi.org/10.2174/9781681082912117050003",
+              "landing_page_url": "https://doi.org/10.2174/9781681082912117050003",
+              "publication_date": "2017-04-28",
+              "publication_year": 2017,
+              "source_name": "Frontiers in Anti-Infective Drug Discovery",
+              "title": "Virus Infection Pathway in Living Cell: Anomalous Diffusion, Exponent Fluctuations, and Time-Scale Separation",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1103/physreve.96.022132",
+              "id": "https://doi.org/10.1103/physreve.96.022132",
+              "landing_page_url": "https://doi.org/10.1103/physreve.96.022132",
+              "publication_date": "2017-08-14",
+              "publication_year": 2017,
+              "source_name": "Physical Review E",
+              "title": "Statistical properties of the anomalous scaling exponent estimator based on time-averaged mean-square displacement",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1103/physreve.93.062109",
+              "id": "https://doi.org/10.1103/physreve.93.062109",
+              "landing_page_url": "https://doi.org/10.1103/physreve.93.062109",
+              "publication_date": "2016-06-06",
+              "publication_year": 2016,
+              "source_name": "Physical Review E",
+              "title": "Distributional behaviors of time-averaged observables in the Langevin equation with fluctuating diffusivity: Normal diffusion but anomalous fluctuations",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/s0375-9601(00)00518-1",
+              "id": "https://doi.org/10.1016/s0375-9601(00)00518-1",
+              "landing_page_url": "https://doi.org/10.1016/s0375-9601(00)00518-1",
+              "publication_date": "2000-09-01",
+              "publication_year": 2000,
+              "source_name": "Physics Letters A",
+              "title": "First passage time distribution for anomalous diffusion",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1088/1367-2630/15/4/045011",
+              "id": "https://doi.org/10.1088/1367-2630/15/4/045011",
+              "landing_page_url": "https://doi.org/10.1088/1367-2630/15/4/045011",
+              "publication_date": "2013-04-17",
+              "publication_year": 2013,
+              "source_name": "New Journal of Physics",
+              "title": "Anomalous diffusion and power-law relaxation of the time averaged mean squared displacement in worm-like micellar solutions",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1142/9789813142213_0003",
+              "id": "https://doi.org/10.1142/9789813142213_0003",
+              "landing_page_url": "https://doi.org/10.1142/9789813142213_0003",
+              "publication_date": "2019-01-28",
+              "publication_year": 2019,
+              "source_name": "High Accuracy Algorithm for the Differential Equations Governing Anomalous Diffusion",
+              "title": "Numerical methods for the time fractional differential equations",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1103/physreve.81.011107",
+              "id": "https://doi.org/10.1103/physreve.81.011107",
+              "landing_page_url": "https://doi.org/10.1103/physreve.81.011107",
+              "publication_date": "2010-01-06",
+              "publication_year": 2010,
+              "source_name": "Physical Review E",
+              "title": "First-passage distributions in a collective model of anomalous diffusion with tunable exponent",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Distinction between mobile and trapped tracers in disordered media reveals a simple phenomenological law for the subdiffusive exponent which reproduces the behaviour observed in a wide range of obstacles structures.",
+              "doi": "https://doi.org/10.1039/c8sm01961d",
+              "id": "https://doi.org/10.1039/c8sm01961d",
+              "landing_page_url": "https://doi.org/10.1039/c8sm01961d",
+              "publication_date": "2018-01-01",
+              "publication_year": 2018,
+              "source_name": "Soft Matter",
+              "title": "A general phenomenological relation for the subdiffusive exponent of anomalous diffusion in disordered media",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "anomalous diffusion trajectory time averaged exponent distribution",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=anomalous+diffusion+trajectory+time+averaged+exponent+distribution&filter=until-pub-date%3A2020-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2021-01-01"
+        },
+        {
+          "api_cutoff": "2020-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "Abstract In biological membranes many factors such as cytoskeleton, lipid composition, crowding and molecular interactions deviate lateral diffusion from the expected random walks. These factors have different effects on diffusion but act simultaneously so the observed diffusion is a complex mixture of diffusive behaviors (directed, &gt;Brownian, anomalous or confined). Therefore commonly used approaches to quantify diffusion based on averaging of the displacements, such as the mean square displacement, are not adapted to the analysis of this heterogeneity. We introduce a new parameter, the packing coefficient Pc , which gives an estimate of the degree of free movement that a molecule displays in a period of time independently of its global diffusivity. Applying this approach to two different situations (diffusion of a lipid probe and trapping of receptors at synapses), we show that Pc detected and localized temporary changes of diffusive behavior both in time and in space. More importantly, it allowed the detection of periods with very high confinement (~immobility), their frequency and duration, and thus it can be used to calculate the effective k on and k off of scaffolding interactions such those that immobilize receptors at synapses.",
+              "doi": "https://doi.org/10.1101/197152",
+              "id": "https://doi.org/10.1101/197152",
+              "landing_page_url": "https://doi.org/10.1101/197152",
+              "publication_date": "2017-10-02",
+              "publication_year": 2017,
+              "source_name": null,
+              "title": "A simple and powerful analysis of lateral subdiffusion using single particle tracking",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/s0006-3495(02)73971-4",
+              "id": "https://doi.org/10.1016/s0006-3495(02)73971-4",
+              "landing_page_url": "https://doi.org/10.1016/s0006-3495(02)73971-4",
+              "publication_date": "2002-10-01",
+              "publication_year": 2002,
+              "source_name": "Biophysical Journal",
+              "title": "Apparent Subdiffusion Inherent to Single Particle Tracking",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/isit.2015.7282690",
+              "id": "https://doi.org/10.1109/isit.2015.7282690",
+              "landing_page_url": "https://doi.org/10.1109/isit.2015.7282690",
+              "publication_date": "2015-06-01",
+              "publication_year": 2015,
+              "source_name": "2015 IEEE International Symposium on Information Theory (ISIT)",
+              "title": "Unified scaling of polar codes: Error exponent, scaling exponent, moderate deviations, and error floors",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1103/physrevresearch.1.023006",
+              "id": "https://doi.org/10.1103/physrevresearch.1.023006",
+              "landing_page_url": "https://doi.org/10.1103/physrevresearch.1.023006",
+              "publication_date": "2019-09-06",
+              "publication_year": 2019,
+              "source_name": "Physical Review Research",
+              "title": "Control of the transient subdiffusion exponent at short and long times",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.bpj.2017.09.017",
+              "id": "https://doi.org/10.1016/j.bpj.2017.09.017",
+              "landing_page_url": "https://doi.org/10.1016/j.bpj.2017.09.017",
+              "publication_date": "2017-12-01",
+              "publication_year": 2017,
+              "source_name": "Biophysical Journal",
+              "title": "A Simple and Powerful Analysis of Lateral Subdiffusion Using Single Particle Tracking",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract Chromatin organization remains complex and far from understood. We discuss here recent statistical methods to extract biophysical parameters from in vivo single particle trajectories of loci to reconstruct chromatin reorganization in response to cellular stress such as DNA damages. We look at the methods to analyze both single loci as well as multiple loci tracked simultaneously and explain how to quantify and describe chromatin motion using a combination of extractable parameters. These parameters can be converted into information about chromatin dynamics and function. Furthermore, we discuss how the time scale of recurrent motion of a locus can be extracted and converted into local chromatin dynamics. We also discuss the effect of various sampling rates on the estimated parameters. Finally, we discuss polymer methods based on cross-linkers that account for minimal loop constraints hidden in tracked loci, that reveal chromatin organization at the 250 nm spatial scale. We list and refer to some algorithm packages that are now publicly available. To conclude, chromatin organization and dynamics at hundreds of nanometers can be reconstructed from locus trajectories and predicted based on polymer models.",
+              "doi": "https://doi.org/10.1101/559369",
+              "id": "https://doi.org/10.1101/559369",
+              "landing_page_url": "https://doi.org/10.1101/559369",
+              "publication_date": "2019-03-04",
+              "publication_year": 2019,
+              "source_name": null,
+              "title": "Single particle trajectory statistic to reconstruct chromatin organization and dynamics",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/tit.2016.2616117",
+              "id": "https://doi.org/10.1109/tit.2016.2616117",
+              "landing_page_url": "https://doi.org/10.1109/tit.2016.2616117",
+              "publication_date": "2016-12-01",
+              "publication_year": 2016,
+              "source_name": "IEEE Transactions on Information Theory",
+              "title": "Unified Scaling of Polar Codes: Error Exponent, Scaling Exponent, Moderate Deviations, and Error Floors",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1103/physrevlett.97.218301",
+              "id": "https://doi.org/10.1103/physrevlett.97.218301",
+              "landing_page_url": "https://doi.org/10.1103/physrevlett.97.218301",
+              "publication_date": "2006-11-20",
+              "publication_year": 2006,
+              "source_name": "Physical Review Letters",
+              "title": "Scaling Exponent and Kuhn Length of Pinned Polymers by Single Molecule Force Spectroscopy",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "single particle trajectory scaling exponent subdiffusion classification",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=single+particle+trajectory+scaling+exponent+subdiffusion+classification&filter=until-pub-date%3A2020-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2021-01-01"
+        }
+      ],
+      "search_completed": true
+    },
+    "B": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2020-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3724/sp.j.1087.2013.02599",
+              "id": "https://doi.org/10.3724/sp.j.1087.2013.02599",
+              "landing_page_url": "https://doi.org/10.3724/sp.j.1087.2013.02599",
+              "publication_date": "2013-11-06",
+              "publication_year": 2013,
+              "source_name": "Journal of Computer Applications",
+              "title": "Local variance based anisotropic diffusion denoising method for ultrasonic image",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "This paper summarizes some of the main results obtained concerning aspects of anomalous single-dopant diffusion and the simultaneous diffusion of multi-diffusion species in semiconductors. Some important explanations of theoretical/practical aspects have been investigated, such as anomalous phenomena, general diffusivity expressions, general non-linear diffusion equations, modified Arrhenius equations and lowered activation energy have been offered in the case of the anomalous fast diffusion for single-dopant diffusion process. Indeed, a single diffusion process is always a complex system involving many interacting factors; conventional diffusion theory could not be applied to its investigation. The author has also investigated a system of multi-diffusion species with mutual interactions between them. More concretely, irreversible thermodynamics theory was used to investigate the simultaneous diffusion of dopants (As, B) and point defects (V, I) in Si semiconductors. Some attempts at theory development were made, such as setting up a system of general diffusion equations for the simultaneous diffusion of multi-diffusion species involving mutual interactions between them, such as the pair association and disassociation mechanisms which predominated during the simultaneous diffusion of dopants and point defects. The paper then gives some primary results of the numerical solution of distributions of dopants (B, As) and point defects (V, I) in Si semiconductor, using irreversible thermodynamics theory. Finally, several applications of simultaneous diffusion to semiconductor technology devices are also offered.",
+              "doi": "https://doi.org/10.4028/www.scientific.net/ddf.268.15",
+              "id": "https://doi.org/10.4028/www.scientific.net/ddf.268.15",
+              "landing_page_url": "https://doi.org/10.4028/www.scientific.net/ddf.268.15",
+              "publication_date": "2007-11-20",
+              "publication_year": 2007,
+              "source_name": "Defect and Diffusion Forum",
+              "title": "Important Features of Anomalous Single-Dopant Diffusion and Simultaneous Diffusion of Multi-Dopants and Point Defects in Semiconductors",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.4028/3-908451-47-7.15",
+              "id": "https://doi.org/10.4028/3-908451-47-7.15",
+              "landing_page_url": "https://doi.org/10.4028/3-908451-47-7.15",
+              "publication_date": "2007-11-20",
+              "publication_year": 2007,
+              "source_name": "Defect and Diffusion Forum",
+              "title": "Important Features of Anomalous Single-Dopant Diffusion and Simultaneous Diffusion of Multi-Dopants and Point Defects in Semiconductors",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1081/sqa-200063283",
+              "id": "https://doi.org/10.1081/sqa-200063283",
+              "landing_page_url": "https://doi.org/10.1081/sqa-200063283",
+              "publication_date": "2005-07-01",
+              "publication_year": 2005,
+              "source_name": "Sequential Analysis",
+              "title": "Inference for Change-Point and Post-Change Mean with Possible Change in Variance",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3182/20070919-3-hr-3904.00029",
+              "id": "https://doi.org/10.3182/20070919-3-hr-3904.00029",
+              "landing_page_url": "https://doi.org/10.3182/20070919-3-hr-3904.00029",
+              "publication_date": "2007-01-01",
+              "publication_year": 2007,
+              "source_name": "IFAC Proceedings Volumes",
+              "title": "DIFFUSION-BASED TRAJECTORY OBSERVERS WITH VARIANCE CONSTRAINTS",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.62721/diffusion-fundamentals.6.140",
+              "id": "https://doi.org/10.62721/diffusion-fundamentals.6.140",
+              "landing_page_url": "https://doi.org/10.62721/diffusion-fundamentals.6.140",
+              "publication_date": "2007-09-01",
+              "publication_year": 2007,
+              "source_name": "Diffusion Fundamentals",
+              "title": "Anomalous and apparently anomalous diffusion in the area of\nneurophysiology",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.scient.2012.01.011",
+              "id": "https://doi.org/10.1016/j.scient.2012.01.011",
+              "landing_page_url": "https://doi.org/10.1016/j.scient.2012.01.011",
+              "publication_date": "2012-06-01",
+              "publication_year": 2012,
+              "source_name": "Scientia Iranica",
+              "title": "Change point estimation of a normal process variance with monotonic change",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.2139/ssrn.3149095",
+              "id": "https://doi.org/10.2139/ssrn.3149095",
+              "landing_page_url": "https://doi.org/10.2139/ssrn.3149095",
+              "publication_date": "2016-01-01",
+              "publication_year": 2016,
+              "source_name": "SSRN Electronic Journal",
+              "title": "Sparse Change-Point Har Models for Realized Variance",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "anomalous diffusion change point local variance trajectory",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=anomalous+diffusion+change+point+local+variance+trajectory&filter=until-pub-date%3A2020-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2021-01-01"
+        },
+        {
+          "api_cutoff": "2020-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.csda.2018.07.014",
+              "id": "https://doi.org/10.1016/j.csda.2018.07.014",
+              "landing_page_url": "https://doi.org/10.1016/j.csda.2018.07.014",
+              "publication_date": "2018-12-01",
+              "publication_year": 2018,
+              "source_name": "Computational Statistics &amp; Data Analysis",
+              "title": "Recurrence statistics for anomalous diffusion regime change detection",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1103/physreve.65.026138",
+              "id": "https://doi.org/10.1103/physreve.65.026138",
+              "landing_page_url": "https://doi.org/10.1103/physreve.65.026138",
+              "publication_date": "2002-01-24",
+              "publication_year": 2002,
+              "source_name": "Physical Review E",
+              "title": "Anomalous diffusion in the nonasymptotic regime",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3182/20070919-3-hr-3904.00029",
+              "id": "https://doi.org/10.3182/20070919-3-hr-3904.00029",
+              "landing_page_url": "https://doi.org/10.3182/20070919-3-hr-3904.00029",
+              "publication_date": "2007-01-01",
+              "publication_year": 2007,
+              "source_name": "IFAC Proceedings Volumes",
+              "title": "DIFFUSION-BASED TRAJECTORY OBSERVERS WITH VARIANCE CONSTRAINTS",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.62721/diffusion-fundamentals.6.140",
+              "id": "https://doi.org/10.62721/diffusion-fundamentals.6.140",
+              "landing_page_url": "https://doi.org/10.62721/diffusion-fundamentals.6.140",
+              "publication_date": "2007-09-01",
+              "publication_year": 2007,
+              "source_name": "Diffusion Fundamentals",
+              "title": "Anomalous and apparently anomalous diffusion in the area of\nneurophysiology",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1088/0029-5515/16/5/015",
+              "id": "https://doi.org/10.1088/0029-5515/16/5/015",
+              "landing_page_url": "https://doi.org/10.1088/0029-5515/16/5/015",
+              "publication_date": "2011-01-24",
+              "publication_year": 2011,
+              "source_name": "Nuclear Fusion",
+              "title": "Anomalous diffusion of alpha particles in the non-linear trapped-ion regime",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/s10584-006-9234-z",
+              "id": "https://doi.org/10.1007/s10584-006-9234-z",
+              "landing_page_url": "https://doi.org/10.1007/s10584-006-9234-z",
+              "publication_date": "2007-02-08",
+              "publication_year": 2007,
+              "source_name": "Climatic Change",
+              "title": "Climatic regime shift and decadal anomalous events in China",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1140/epjb/e2013-40701-3",
+              "id": "https://doi.org/10.1140/epjb/e2013-40701-3",
+              "landing_page_url": "https://doi.org/10.1140/epjb/e2013-40701-3",
+              "publication_date": "2014-01-20",
+              "publication_year": 2014,
+              "source_name": "The European Physical Journal B",
+              "title": "Weakly driven anomalous diffusion in non-ergodic regime: an analytical solution",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1103/physreve.90.050102",
+              "id": "https://doi.org/10.1103/physreve.90.050102",
+              "landing_page_url": "https://doi.org/10.1103/physreve.90.050102",
+              "publication_date": "2014-11-26",
+              "publication_year": 2014,
+              "source_name": "Physical Review E",
+              "title": "Machta-Zwanzig regime of anomalous diffusion in infinite-horizon billiards",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "trajectory regime change increment variance anomalous diffusion",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=trajectory+regime+change+increment+variance+anomalous+diffusion&filter=until-pub-date%3A2020-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2021-01-01"
+        }
+      ],
+      "search_completed": true
+    }
+  },
+  "generated_at": "2026-08-22",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "ee447bc3feac11dc06c57a3ebe6d40011a76ab5c61b9eebbd1024a34ef608c2f",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Searches are frozen reproducible retrieval evidence within the declared provider, queries, cutoff, and result depth. They do not certify absence from all literature.",
+  "strict_before": "2021-01-01",
+  "target_doi_excluded": "10.1038/s41467-021-26320-w",
+  "task_id": "Math_05_anomalous_diffusion_change_points",
+  "release": "V1.0"
+}

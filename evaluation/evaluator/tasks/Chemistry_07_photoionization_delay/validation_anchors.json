@@ -1,0 +1,184 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "Delay varies strongly with emission angle in both panels, though their detailed angular shapes need not agree pointwise.",
+      "independent_reconstruction_method": "Three angular cones and a quantile-spread alternative, evaluated in contiguous energy windows.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Energy-angle photoionization delay maps in the two supplied representations, using the public degree coordinate and declared derived-grid provenance.",
+      "one_liner": "Both experiment-like and theory-like panels show angular delay excursions of hundreds of attoseconds near 31 eV.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample.py",
+          "script_sha256": "8f2d74b1f3333f4dc3b41567dfee40b459042f10d8752f02f32c4226fe56c479"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method.py",
+          "script_sha256": "b092d738494a119567e16dfbae2f6bcb65d08ed55c63de4ff70ef79605090079"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition.py",
+          "script_sha256": "51afb754ff9e5d41467be87e4565bd6142c82bd3d14a37d4f962ace446fda036"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A newly measured energy-resolved dipole-matrix block set or scan with enough adjacent energies to estimate the phase derivative supports the relationship if its independently reconstructed angular delay contrast exceeds 150 attoseconds; a contrast at or below 150 attoseconds is failure. A single isolated energy block, or additional points sampled only from the existing spline grid, does not count as replication."
+      },
+      "quantities": [
+        {
+          "key": "experiment_cone_contrast_as",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "attoseconds",
+          "value": 388.935
+        },
+        {
+          "key": "theory_cone_contrast_as",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "attoseconds",
+          "value": 198.73272751511797
+        },
+        {
+          "key": "experiment_q90_q10_spread_as",
+          "role": "supporting",
+          "tolerance_rel": 0.05,
+          "unit": "attoseconds",
+          "value": 364.38
+        },
+        {
+          "key": "theory_q90_q10_spread_as",
+          "role": "supporting",
+          "tolerance_rel": 0.08,
+          "unit": "attoseconds",
+          "value": 238.0942711403377
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "script_sha256": "7efbe8c535add485aaf120d09057035c645c0171b274468ae8f368c9190c1eb8",
+        "values": [
+          {
+            "json_path": "values.experiment_cone_contrast_as",
+            "quantity_key": "experiment_cone_contrast_as"
+          },
+          {
+            "json_path": "values.theory_cone_contrast_as",
+            "quantity_key": "theory_cone_contrast_as"
+          },
+          {
+            "json_path": "values.experiment_q90_q10_spread_as",
+            "quantity_key": "experiment_q90_q10_spread_as"
+          },
+          {
+            "json_path": "values.theory_q90_q10_spread_as",
+            "quantity_key": "theory_q90_q10_spread_as"
+          }
+        ]
+      },
+      "scope": "The local 30–32 eV region; the dense experiment-like map is spline-derived from measured energy blocks, and angular contrast alone does not identify a unique microscopic mechanism.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports completely resolved angular dependence with variations of a few hundred attoseconds.",
+        "paper_location": "Abstract and Results on angle-resolved delays across a shape resonance.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "Forward phase derivatives reproduce the delay arrays with near-unit correlation and sub-attosecond median error.",
+      "independent_reconstruction_method": "Unwrapped finite differences with central-gradient and magnitude-cutoff perturbations.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Paired phase and delay grids over energy and angle.",
+      "one_liner": "Delay is numerically consistent with the energy derivative of phase in both supplied panels.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample.py",
+          "script_sha256": "40cdfbba0733a9c83128ff8c7f4b9d0db9f8566e06698f8fc8f38576bb47952e"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method.py",
+          "script_sha256": "3263f3974f5374401d1b174b8a71d712bc490e3f9f3d7b107a01e642793a9be5"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition.py",
+          "script_sha256": "c698ef80373958e9f150a9c833dfa3b57170c974425f636b973505c21a425cde"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "This is a representation-integrity prediction, not independent scientific replication: an independently implemented exporter applied to a newly supplied phase/delay representation passes at central-gradient correlation above 0.995 and fails at or below 0.995."
+      },
+      "quantities": [
+        {
+          "key": "experiment_phase_delay_correlation",
+          "role": "core",
+          "tolerance_rel": 0.001,
+          "unit": "fraction",
+          "value": 0.999998807111481
+        },
+        {
+          "key": "theory_phase_delay_correlation",
+          "role": "core",
+          "tolerance_rel": 0.001,
+          "unit": "fraction",
+          "value": 0.9999956449566958
+        },
+        {
+          "key": "experiment_median_absolute_error_as",
+          "role": "supporting",
+          "tolerance_rel": 0.2,
+          "unit": "attoseconds",
+          "value": 0.05035390350237279
+        },
+        {
+          "key": "theory_median_absolute_error_as",
+          "role": "supporting",
+          "tolerance_rel": 0.2,
+          "unit": "attoseconds",
+          "value": 0.04439890608196606
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "script_sha256": "d56880a0f65ed75708ab0002e97aafae9fe2cae0d2a8609ef480243a6748d051",
+        "values": [
+          {
+            "json_path": "values.experiment_phase_delay_correlation",
+            "quantity_key": "experiment_phase_delay_correlation"
+          },
+          {
+            "json_path": "values.theory_phase_delay_correlation",
+            "quantity_key": "theory_phase_delay_correlation"
+          },
+          {
+            "json_path": "values.experiment_median_absolute_error_as",
+            "quantity_key": "experiment_median_absolute_error_as"
+          },
+          {
+            "json_path": "values.theory_median_absolute_error_as",
+            "quantity_key": "theory_median_absolute_error_as"
+          }
+        ]
+      },
+      "scope": "Finite values below declared magnitude cutoffs; derivative agreement is cross-representation consistency, not independent causal evidence.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source derives angle-resolved delays from the energy dependence of photoionization dipole phases.",
+        "paper_location": "Methods and Results defining photoionization delays from phase derivatives.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "These two cards are verified reference discoveries for blind-rediscovery diagnostics and are not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2021-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Chemistry_07_photoionization_delay",
+  "release": "V1.0"
+}

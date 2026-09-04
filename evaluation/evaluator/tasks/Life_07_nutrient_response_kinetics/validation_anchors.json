@@ -1,0 +1,206 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "Both states rise more than sevenfold, peak in the late window, and have similar integrated response despite an early state contrast.",
+      "independent_reconstruction_method": "Replicate holdout, median/mean timecourses, late-window peak location, and trapezoidal AUC.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Two complete five-time-point response trajectories with four biological replicates per state.",
+      "one_liner": "Both system states show a large late signaling response, with the measured maximum confined to the 20–30 minute window rather than a stable exact time.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample.py",
+          "script_sha256": "13c78d3c18270d64886392993f8c212ff5b96a701d812cbab3a9d675f9018902"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method.py",
+          "script_sha256": "96f923a1b4c00e944514d03b8fb0c7b4f2c4d9e7939d733de36145da8f11ef44"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition.py",
+          "script_sha256": "b8d9279f333d76e770666dbf3eb9f46f426527fabca90dcf3b184e8826faf0d9"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A new state replicate supports the boundary if its maximum lies at 20 or 30 minutes and its peak/baseline fold exceeds seven; failure of either rule rejects it."
+      },
+      "quantities": [
+        {
+          "key": "background_peak_time_min",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "min",
+          "value": 20.0
+        },
+        {
+          "key": "perturbed_peak_time_min",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "min",
+          "value": 20.0
+        },
+        {
+          "key": "background_peak_to_baseline_fold",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "fold",
+          "value": 11.202004500000001
+        },
+        {
+          "key": "perturbed_peak_to_baseline_fold",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "fold",
+          "value": 8.650898284951342
+        },
+        {
+          "key": "perturbed_to_background_ratio_at_5_min",
+          "role": "supporting",
+          "tolerance_rel": 0.08,
+          "unit": "fold",
+          "value": 1.451168993483896
+        },
+        {
+          "key": "perturbed_to_background_ratio_at_20_min",
+          "role": "supporting",
+          "tolerance_rel": 0.08,
+          "unit": "fold",
+          "value": 1.0827816575149563
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "script_sha256": "58c42948d2820b5c40e6f77e7abf92e8a7536ebad1ef4f5454521a2167af5f44",
+        "values": [
+          {
+            "json_path": "values.background_peak_time_min",
+            "quantity_key": "background_peak_time_min"
+          },
+          {
+            "json_path": "values.perturbed_peak_time_min",
+            "quantity_key": "perturbed_peak_time_min"
+          },
+          {
+            "json_path": "values.background_peak_to_baseline_fold",
+            "quantity_key": "background_peak_to_baseline_fold"
+          },
+          {
+            "json_path": "values.perturbed_peak_to_baseline_fold",
+            "quantity_key": "perturbed_peak_to_baseline_fold"
+          },
+          {
+            "json_path": "values.perturbed_to_background_ratio_at_5_min",
+            "quantity_key": "perturbed_to_background_ratio_at_5_min"
+          },
+          {
+            "json_path": "values.perturbed_to_background_ratio_at_20_min",
+            "quantity_key": "perturbed_to_background_ratio_at_20_min"
+          }
+        ]
+      },
+      "scope": "Kinetic shape in the measured 0–30 minute window; exact 20-minute peak timing is replicate-sensitive.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports state-dependent signaling kinetics following nutrient input.",
+        "paper_location": "Nutrient-response signaling kinetics Results/source data.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "Input folds are large and robust, whereas pooled tissue uptake ratios are below one but can approach or slightly cross one under replicate removal.",
+      "independent_reconstruction_method": "State-normalized median/mean folds and complete replicate holdouts across both assay levels.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Complete circulating-input and two-tissue uptake replicate panels.",
+      "one_liner": "Circulating input rises strongly in both states, while perturbed-state uptake is modestly lower in both tissues and is less leave-one-replicate stable.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample.py",
+          "script_sha256": "b539c772434669e7be75fdf1b9cce6942b61593e14d0a08e0a071b3df3058f54"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method.py",
+          "script_sha256": "7e3db3075f594353a1a81c2586139ca147f72a38d64e764cbecf12fecc2e3d67"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition.py",
+          "script_sha256": "0ab08ce7cffd202fcd70eb8703319696df3779ca9e511a1d6bc9af881e5b0f30"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "Replication supports robust input elevation if both state folds exceed five; uptake direction is validated only if both tissue ratios remain below one, and any ratio at or above one is a declared boundary failure."
+      },
+      "quantities": [
+        {
+          "key": "background_input_fold",
+          "role": "core",
+          "tolerance_rel": 0.12,
+          "unit": "fold",
+          "value": 10.992606663569028
+        },
+        {
+          "key": "perturbed_input_fold",
+          "role": "core",
+          "tolerance_rel": 0.12,
+          "unit": "fold",
+          "value": 11.852189656682858
+        },
+        {
+          "key": "tissue_1_perturbed_to_background_uptake_ratio",
+          "role": "supporting",
+          "tolerance_rel": 0.12,
+          "unit": "fraction",
+          "value": 0.9266514176993885
+        },
+        {
+          "key": "tissue_2_perturbed_to_background_uptake_ratio",
+          "role": "supporting",
+          "tolerance_rel": 0.12,
+          "unit": "fraction",
+          "value": 0.8076838753114862
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "script_sha256": "9cbc60f9dd6125bcc67039310522f773f561c94845a54def8f8c440b01875a70",
+        "values": [
+          {
+            "json_path": "values.background_input_fold",
+            "quantity_key": "background_input_fold"
+          },
+          {
+            "json_path": "values.perturbed_input_fold",
+            "quantity_key": "perturbed_input_fold"
+          },
+          {
+            "json_path": "values.tissue_1_perturbed_to_background_uptake_ratio",
+            "quantity_key": "tissue_1_perturbed_to_background_uptake_ratio"
+          },
+          {
+            "json_path": "values.tissue_2_perturbed_to_background_uptake_ratio",
+            "quantity_key": "tissue_2_perturbed_to_background_uptake_ratio"
+          }
+        ]
+      },
+      "scope": "A cross-level consistency boundary; input and uptake are distinct assays and do not prove a causal chain.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source contrasts circulating nutrient availability with tissue uptake across system states.",
+        "paper_location": "Circulating-input and tissue-uptake Results/source-data panels.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "These two cards are verified reference discoveries for blind-rediscovery diagnostics and are not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2020-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Life_07_nutrient_response_kinetics",
+  "release": "V1.0"
+}

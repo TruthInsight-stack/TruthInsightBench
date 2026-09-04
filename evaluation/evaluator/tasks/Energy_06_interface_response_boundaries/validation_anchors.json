@@ -1,0 +1,184 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "Whole-curve rank correlations approach one and positive slopes persist in both lower and upper setting windows.",
+      "independent_reconstruction_method": "Whole-condition rank and log-linear slopes, endpoint trimming, and lower/upper contiguous windows.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "All eight complete main-panel condition curves.",
+      "one_liner": "Every main condition curve rises strongly and nearly monotonically across the temperature-like setting.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample.py",
+          "script_sha256": "667cd59095a1c47e27fce422eacb0fb38b972419e8f952293dfb5b0215dfbe46"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method.py",
+          "script_sha256": "b64a7f4283a9cf7fddb096843038eb4c18388515b084ac5e0a1928d7700e1652"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition.py",
+          "script_sha256": "f703e8d04fa525f7b55fef0ea0c8c0828f7a6d4b0d896bf4406fe5c266ae4ff2"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A held-out condition supports the relationship if its whole-curve rank correlation exceeds 0.98 and both half-window slopes are positive; either failure rejects it."
+      },
+      "quantities": [
+        {
+          "key": "main_condition_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 8
+        },
+        {
+          "key": "minimum_condition_temperature_spearman",
+          "role": "core",
+          "tolerance_rel": 0.01,
+          "unit": "fraction",
+          "value": 0.990909090909091
+        },
+        {
+          "key": "median_endpoint_growth_ratio_with_offset",
+          "role": "supporting",
+          "tolerance_rel": 0.15,
+          "unit": "fold",
+          "value": 138.5330443823716
+        },
+        {
+          "key": "minimum_log_linear_slope",
+          "role": "core",
+          "tolerance_rel": 0.1,
+          "unit": "per_setting_unit",
+          "value": 0.02190937584789044
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "script_sha256": "4f8cf9cb452b1ea9a723aaf57f44fe35e76a4808235d3fee695d38c3545d1bc8",
+        "values": [
+          {
+            "json_path": "values.main_condition_count",
+            "quantity_key": "main_condition_count"
+          },
+          {
+            "json_path": "values.minimum_condition_temperature_spearman",
+            "quantity_key": "minimum_condition_temperature_spearman"
+          },
+          {
+            "json_path": "values.median_endpoint_growth_ratio_with_offset",
+            "quantity_key": "median_endpoint_growth_ratio_with_offset"
+          },
+          {
+            "json_path": "values.minimum_log_linear_slope",
+            "quantity_key": "minimum_log_linear_slope"
+          }
+        ]
+      },
+      "scope": "Operating response within the supplied setting range; it does not establish a microscopic interface mechanism.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports strongly temperature-dependent response across interface conditions.",
+        "paper_location": "Temperature-dependent catalysis curves in the main source-data panel.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "All check curves increase, and shared normalized shapes have high Pearson agreement.",
+      "independent_reconstruction_method": "Leave-one-setting rank tests, normalized-shape error, and independent log-linear slopes.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Four complete independent check curves, including the shared condition identifiers.",
+      "one_liner": "The independent condition panel reproduces monotone growth and closely matched shapes for shared anonymous conditions.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample.py",
+          "script_sha256": "20e5c88f52f60a38a3e159718a78ae91e8c4e97042f08f7053d74549d332975a"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method.py",
+          "script_sha256": "e6fd7995d90265134140cde9d9b3809e066a02978403bdb184c71ed0d53aec22"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition.py",
+          "script_sha256": "992d72ed730f29ca94b57f7a458e99e7c8d6b6fcb733e2a962907f81631559f1"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A new check condition supports transfer if its rank correlation exceeds 0.98 and normalized median shape error is below 0.20; otherwise it fails."
+      },
+      "quantities": [
+        {
+          "key": "independent_condition_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 4
+        },
+        {
+          "key": "minimum_independent_curve_spearman",
+          "role": "core",
+          "tolerance_rel": 0.01,
+          "unit": "fraction",
+          "value": 1.0
+        },
+        {
+          "key": "shared_condition_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 3
+        },
+        {
+          "key": "minimum_shared_curve_pearson",
+          "role": "core",
+          "tolerance_rel": 0.03,
+          "unit": "fraction",
+          "value": 0.9652954884680564
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "script_sha256": "0767044bed5b688ca391c6b7ebcc302be488798d9ea801891b765b80be359957",
+        "values": [
+          {
+            "json_path": "values.independent_condition_count",
+            "quantity_key": "independent_condition_count"
+          },
+          {
+            "json_path": "values.minimum_independent_curve_spearman",
+            "quantity_key": "minimum_independent_curve_spearman"
+          },
+          {
+            "json_path": "values.shared_condition_count",
+            "quantity_key": "shared_condition_count"
+          },
+          {
+            "json_path": "values.minimum_shared_curve_pearson",
+            "quantity_key": "minimum_shared_curve_pearson"
+          }
+        ]
+      },
+      "scope": "Independent curve-family consistency, not independent material replication where identifiers overlap.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source includes an auxiliary curve family supporting the main temperature-response boundary.",
+        "paper_location": "Independent condition-check source-data curves.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "These two cards are verified reference discoveries for blind-rediscovery diagnostics and are not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2022-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Energy_06_interface_response_boundaries",
+  "release": "V1.0"
+}

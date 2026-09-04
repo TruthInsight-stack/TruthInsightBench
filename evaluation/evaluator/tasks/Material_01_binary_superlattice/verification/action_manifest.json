@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Material_01_binary_superlattice",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition_sign_layers.py",
+      "script_sha256": "c5b5d8b7a90458706e8824fdc3ea594dc72996cd3978f3c7fa2956264ebef9ce"
+    },
+    {
+      "script": "verification/perturb/A/method_median.py",
+      "script_sha256": "e78e4fc4f1a40969f700a3601ceb199a114dc22a1bcddbb49975a487682e08a6"
+    },
+    {
+      "script": "verification/perturb/A/sample_trim_one.py",
+      "script_sha256": "de1d12684b316ec2b035d765f9d73330e77f90d6a81b619997679998a13fcc59"
+    },
+    {
+      "script": "verification/perturb/B/definition_ideal_gap.py",
+      "script_sha256": "dff917324bf1e82b8d9f3a84fe73c83d1ee5027bb662aa2edc5402b66eb569c1"
+    },
+    {
+      "script": "verification/perturb/B/method_cutoff_1025.py",
+      "script_sha256": "1b71344971c35e2ff075616fa0d199ad19e35014e65b022706b6840e2345e463"
+    },
+    {
+      "script": "verification/perturb/B/sample_boundary_interior.py",
+      "script_sha256": "1e987a5e065fa9da16490741c652bcf0dad714bfd4242a7eab47d920019cbd35"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "42c6fb2dbe07af1538707eeb2728588a758b9d48987250e324021c6b641d4667"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "cb60c93cb5b9f3f9d42c3d29d57b367863eb152c9a7739aa13d506cccc71ac73"
+    }
+  ],
+  "verification_tree_sha256": "c5b1c9be176418a9bcae436535b6e8e5e3e422951f269225a47f682e15fb896b",
+  "verification_file_count": 9,
+  "shared_runtime_tree_sha256": "d8710168f8a9c9ce1fd4946fdcfa0a279806376236feda46a5384b7f302428e9",
+  "shared_runtime_file_count": 4
+}

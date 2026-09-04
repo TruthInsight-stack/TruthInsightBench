@@ -1,0 +1,195 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "The dual ages have near-perfect Pearson and Spearman agreement, with a zero median absolute gap.",
+      "independent_reconstruction_method": "Whole-record and contiguous-block rank/linear agreement plus an absolute-gap definition.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "All complete paired age coordinates in the ordered sediment record.",
+      "one_liner": "The two supplied age coordinates are effectively rank-identical and differ only locally by small absolute amounts.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample.py",
+          "script_sha256": "cf51f417c991741ad65348e6f431e9fb93c35c2b77034ad9fc17a8374b02ba00"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method.py",
+          "script_sha256": "6c9e82d8496e8e0cfe92db9587cdc089ec6b94b082d4fc04b199ab3552bb1e93"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition.py",
+          "script_sha256": "4904c3600966b7b321ee4075bc4325ef1f6bb6fffcdc8e5f040b97a2755a725a"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A chronology extension supports coordinate interchangeability if blockwise rank correlation remains above 0.999 and at least 90% of gaps are at most 0.25 ka; otherwise it fails."
+      },
+      "quantities": [
+        {
+          "key": "complete_row_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 621
+        },
+        {
+          "key": "dual_age_spearman",
+          "role": "core",
+          "tolerance_rel": 0.001,
+          "unit": "fraction",
+          "value": 1.0
+        },
+        {
+          "key": "dual_age_pearson",
+          "role": "core",
+          "tolerance_rel": 0.001,
+          "unit": "fraction",
+          "value": 0.9999986390870661
+        },
+        {
+          "key": "median_absolute_age_gap_ka",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "ka",
+          "value": 0.0
+        },
+        {
+          "key": "p95_absolute_age_gap_ka",
+          "role": "supporting",
+          "tolerance_rel": 0.1,
+          "unit": "ka",
+          "value": 0.25
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "script_sha256": "cc3544d22c9dd254e4db0d204b3a0a05e6d2edf66d8a09d733fe4c9e8d0d0288",
+        "values": [
+          {
+            "json_path": "values.complete_row_count",
+            "quantity_key": "complete_row_count"
+          },
+          {
+            "json_path": "values.dual_age_spearman",
+            "quantity_key": "dual_age_spearman"
+          },
+          {
+            "json_path": "values.dual_age_pearson",
+            "quantity_key": "dual_age_pearson"
+          },
+          {
+            "json_path": "values.median_absolute_age_gap_ka",
+            "quantity_key": "median_absolute_age_gap_ka"
+          },
+          {
+            "json_path": "values.p95_absolute_age_gap_ka",
+            "quantity_key": "p95_absolute_age_gap_ka"
+          }
+        ]
+      },
+      "scope": "Coordinate consistency only; it does not make either chronology causally privileged.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source supplies two closely aligned chronology representations for the same core.",
+        "paper_location": "PANGAEA chronology columns accompanying the continuous proxy record.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "Eight contiguous block medians span a sizeable range despite a near-zero global rank correlation.",
+      "independent_reconstruction_method": "Contiguous age blocks under leave-one-block, median/mean, and six/eight/ten-block definitions.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "All nonmissing proxy observations in age order.",
+      "one_liner": "The isotope proxy has almost no global monotone age trend but substantial contiguous-block shifts, bounding any single smooth explanation.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample.py",
+          "script_sha256": "96e3e8543e2cde3c936abe527b23aaa6d839616ab537fc7cc04719ee80fed377"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method.py",
+          "script_sha256": "b6172097ebfade549009d460293ce63c5c8d57c024e231d2f90da8e59674a801"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition.py",
+          "script_sha256": "8c0626151ac01971a227d470431e052a6b5782bbe7a8d7d1cb48480adb5b7674"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A new contiguous extension supports the boundary if alternate block definitions retain a proxy range above 0.45; convergence below that range is failure."
+      },
+      "quantities": [
+        {
+          "key": "global_proxy_age_spearman",
+          "role": "supporting",
+          "tolerance_rel": 0.1,
+          "unit": "fraction",
+          "value": -0.002132859544770295
+        },
+        {
+          "key": "eight_block_proxy_median_range",
+          "role": "core",
+          "tolerance_rel": 0.1,
+          "unit": "proxy_units",
+          "value": 0.6550000000000002
+        },
+        {
+          "key": "eight_block_largest_adjacent_median_jump",
+          "role": "core",
+          "tolerance_rel": 0.1,
+          "unit": "proxy_units",
+          "value": 0.5800000000000001
+        },
+        {
+          "key": "proxy_nonmissing_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 593
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "script_sha256": "23827985daf2de819ec523117b8117dffd0d8f74d6dc05e09c3bab1fe93c8461",
+        "values": [
+          {
+            "json_path": "values.global_proxy_age_spearman",
+            "quantity_key": "global_proxy_age_spearman"
+          },
+          {
+            "json_path": "values.eight_block_proxy_median_range",
+            "quantity_key": "eight_block_proxy_median_range"
+          },
+          {
+            "json_path": "values.eight_block_largest_adjacent_median_jump",
+            "quantity_key": "eight_block_largest_adjacent_median_jump"
+          },
+          {
+            "json_path": "values.proxy_nonmissing_count",
+            "quantity_key": "proxy_nonmissing_count"
+          }
+        ]
+      },
+      "scope": "Within-record nonstationarity; one core cannot establish a global ocean causal mechanism.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source interprets millennial-to-orbital variability and coupling rather than a single global monotone trend.",
+        "paper_location": "Results and continuous benthic-isotope source record.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "These two cards are verified reference discoveries for blind-rediscovery diagnostics and are not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2022-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "EarthScience_05_ocean_thermal_coupling",
+  "release": "V1.0"
+}

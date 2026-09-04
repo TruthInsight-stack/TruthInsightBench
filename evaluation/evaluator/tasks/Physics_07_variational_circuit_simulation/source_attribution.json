@@ -1,0 +1,8 @@
+{
+  "schema": "truthinsightbench-source-attribution",
+  "release": "V1.0",
+  "task_id": "Physics_07_variational_circuit_simulation",
+  "title": "Classical variational simulation of the Quantum Approximate Optimization Algorithm",
+  "doi": "10.1038/s41534-021-00440-z",
+  "first_publication_date": "2021-06-18"
+}

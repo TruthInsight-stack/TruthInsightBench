@@ -1,0 +1,217 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "Replicates preserve the same global surface ordering despite nontrivial cell-level variation.",
+      "independent_reconstruction_method": "Complete-cell replicate correlations with raw-CV and all-pair alternatives.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Cell-matched replicated response surfaces and a separate independent response panel.",
+      "one_liner": "High-dimensional response-surface structure is reproducible across three replicates in both main and independent panels.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample.py",
+          "script_sha256": "00ae08378e82c31aeb88f7f4fb121a01019d72d0fc2b754bd581be6ab0831646"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method.py",
+          "script_sha256": "e5f1e25559dbe50bfce51a1682272fa11bfb225581285140fdcb77c4e2f5446b"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition.py",
+          "script_sha256": "0698fdf30bbdd739a251cffc23c921b7e8f39bf1f2d70b1c2de2aa89b9e20673"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A fourth complete replicate should correlate above 0.95 on log response; failure is loss of global ordering."
+      },
+      "quantities": [
+        {
+          "key": "replicated_median_pairwise_log_pearson",
+          "role": "core",
+          "tolerance_rel": 0.02,
+          "unit": "fraction",
+          "value": 0.9762997206143604
+        },
+        {
+          "key": "independent_median_pairwise_log_pearson",
+          "role": "core",
+          "tolerance_rel": 0.02,
+          "unit": "fraction",
+          "value": 0.9793786262555624
+        },
+        {
+          "key": "replicated_median_cell_cv",
+          "role": "supporting",
+          "tolerance_rel": 0.08,
+          "unit": "fraction",
+          "value": 0.27170196903076216
+        },
+        {
+          "key": "independent_median_cell_cv",
+          "role": "supporting",
+          "tolerance_rel": 0.08,
+          "unit": "fraction",
+          "value": 0.16202139756429698
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "script_sha256": "e3945a6fb89ffb4dd3802622f3172b6cb41307da5f675612a658b5a81fb2402d",
+        "values": [
+          {
+            "json_path": "values.replicated_median_pairwise_log_pearson",
+            "quantity_key": "replicated_median_pairwise_log_pearson"
+          },
+          {
+            "json_path": "values.independent_median_pairwise_log_pearson",
+            "quantity_key": "independent_median_pairwise_log_pearson"
+          },
+          {
+            "json_path": "values.replicated_median_cell_cv",
+            "quantity_key": "replicated_median_cell_cv"
+          },
+          {
+            "json_path": "values.independent_median_cell_cv",
+            "quantity_key": "independent_median_cell_cv"
+          }
+        ]
+      },
+      "scope": "Correlation on log response across complete cells; individual grid cells are not independent systems.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports tunable and robust signal-processing behavior across replicated measurements.",
+        "paper_location": "Results and source-data replicated response surfaces used to establish tunability and robustness.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "Normalized channel curves remain strongly aligned in every complete row and column, while local rows are less invariant than the pooled panel.",
+      "independent_reconstruction_method": "Direct per-row and per-column channel-curve validation, with pooled summaries, raw-scale correlations, one- versus two-bin baselines, and independent fit-error checks.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Independent 7×7 input panel, four output channels, three replicates, and supplied fit-error matrix.",
+      "one_liner": "Four output channels share strongly aligned normalized response shapes in every complete input row and column, with the weakest complete-row correlation about 0.94.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample.py",
+          "script_sha256": "027c6399fa9498d048370f3642b21c1de568eeb4b123c798d3c060b190ce1436"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method.py",
+          "script_sha256": "fdb7e46f7caad0c6b6e19f57885db69aa5e1493b6233ec87750efe99bb305645"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition.py",
+          "script_sha256": "ead61d3c825b896142f96e8e506a9b1816d1c61d6a18040a3db9a4e1f9c4501a"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A predeclared new complete input row supports the relationship if its minimum channel-curve correlation exceeds 0.90 on both log-normalized and raw ratio scales; correlation at or below 0.90 on either scale is failure."
+      },
+      "quantities": [
+        {
+          "key": "pooled_normalized_channel_curve_correlation",
+          "role": "supporting",
+          "tolerance_rel": 0.001,
+          "unit": "fraction",
+          "value": 0.9997631006471475
+        },
+        {
+          "key": "minimum_complete_row_channel_curve_correlation",
+          "role": "core",
+          "tolerance_rel": 0.02,
+          "unit": "fraction",
+          "value": 0.9414210664005452
+        },
+        {
+          "key": "minimum_complete_column_channel_curve_correlation",
+          "role": "core",
+          "tolerance_rel": 0.01,
+          "unit": "fraction",
+          "value": 0.9972696401326594
+        },
+        {
+          "key": "minimum_endpoint_fold_change",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "fold",
+          "value": 61.79954080870584
+        },
+        {
+          "key": "maximum_endpoint_fold_change",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "fold",
+          "value": 85.5452532073042
+        },
+        {
+          "key": "median_independent_fit_error",
+          "role": "supporting",
+          "tolerance_rel": 0.08,
+          "unit": "fraction",
+          "value": 0.1250539817241273
+        },
+        {
+          "key": "maximum_independent_fit_error",
+          "role": "supporting",
+          "tolerance_rel": 0.08,
+          "unit": "fraction",
+          "value": 0.157572418055826
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "script_sha256": "af2e25d990956a7c3f774513a55a887f8eb8de74d98e7c012049a438d8049285",
+        "values": [
+          {
+            "json_path": "values.pooled_normalized_channel_curve_correlation",
+            "quantity_key": "pooled_normalized_channel_curve_correlation"
+          },
+          {
+            "json_path": "values.minimum_complete_row_channel_curve_correlation",
+            "quantity_key": "minimum_complete_row_channel_curve_correlation"
+          },
+          {
+            "json_path": "values.minimum_complete_column_channel_curve_correlation",
+            "quantity_key": "minimum_complete_column_channel_curve_correlation"
+          },
+          {
+            "json_path": "values.minimum_endpoint_fold_change",
+            "quantity_key": "minimum_endpoint_fold_change"
+          },
+          {
+            "json_path": "values.maximum_endpoint_fold_change",
+            "quantity_key": "maximum_endpoint_fold_change"
+          },
+          {
+            "json_path": "values.median_independent_fit_error",
+            "quantity_key": "median_independent_fit_error"
+          },
+          {
+            "json_path": "values.maximum_independent_fit_error",
+            "quantity_key": "maximum_independent_fit_error"
+          }
+        ]
+      },
+      "scope": "Direct validation within each of seven complete rows and seven complete columns after explicit baseline normalization; pooled-panel and absolute output scales are reported separately.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports robust control relationships across perturbations and contexts.",
+        "paper_location": "Results on robust input-output control and the independent source-data panel.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "These two cards are verified reference discoveries for blind-rediscovery diagnostics and are not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2022-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Information_03_signal_surface_invariants",
+  "release": "V1.0"
+}

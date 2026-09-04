@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Math_03_ode_parameter_geometry",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition.py",
+      "script_sha256": "2f0e2a94b961d9b37ee144cdf7909ff15b0257d3a9e50d6797270fcd231b57eb"
+    },
+    {
+      "script": "verification/perturb/A/method.py",
+      "script_sha256": "9bb11aaa5ead51ce0f60a9d342b4b889eca27e7680b8f732eed59b1a207d0188"
+    },
+    {
+      "script": "verification/perturb/A/sample.py",
+      "script_sha256": "96095cda488a5c06814c016711bdcd986272d20f8c9d2a0e6c2d0d1f9de7dc34"
+    },
+    {
+      "script": "verification/perturb/B/definition.py",
+      "script_sha256": "f362a1440cd7ef43dc0edec52c751f5a3038f23e10059d2155d898cfea5ced9d"
+    },
+    {
+      "script": "verification/perturb/B/method.py",
+      "script_sha256": "39f618c39ed2540f4c7fa7f765e18ea09a96db44e1d60cae60a351b8883b5020"
+    },
+    {
+      "script": "verification/perturb/B/sample.py",
+      "script_sha256": "56e3d0d058aa87e8a9f05748865efd026fc0b71995a6d034cb642c1cdaab141a"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "e8aaccdb2bebea751cd8171126c9e99ebd1c9c59e1baeafcd870b0fb0cfe51a5"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "a5c01451bff5e5d6151ef9d00ad5b95a9a833ac3d7fff25b668ab440942e870d"
+    }
+  ],
+  "verification_tree_sha256": "95383054ebda18b00fa2edb7fadcb0ff80e37513fb8b664430991f894e40b72d",
+  "verification_file_count": 8,
+  "shared_runtime_tree_sha256": "d8710168f8a9c9ce1fd4946fdcfa0a279806376236feda46a5384b7f302428e9",
+  "shared_runtime_file_count": 4
+}

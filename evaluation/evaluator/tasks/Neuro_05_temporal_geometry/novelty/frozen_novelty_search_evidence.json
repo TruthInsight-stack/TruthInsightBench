@@ -1,0 +1,427 @@
+{
+  "all_queries_completed": true,
+  "api_cutoff": "2021-12-31",
+  "cards": {
+    "A": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.7554/elife.38052.032",
+              "id": "https://doi.org/10.7554/elife.38052.032",
+              "landing_page_url": "https://doi.org/10.7554/elife.38052.032",
+              "publication_date": "2018-06-13",
+              "publication_year": 2018,
+              "source_name": null,
+              "title": "Decision letter: CA2 neuronal activity controls hippocampal low gamma and ripple oscillations",
+              "type": "peer-review"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.neuropharm.2010.11.022",
+              "id": "https://doi.org/10.1016/j.neuropharm.2010.11.022",
+              "landing_page_url": "https://doi.org/10.1016/j.neuropharm.2010.11.022",
+              "publication_date": "2011-03-01",
+              "publication_year": 2011,
+              "source_name": "Neuropharmacology",
+              "title": "α5GABAA receptors regulate hippocampal sharp wave–ripple activity in vitro",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.neuron.2016.02.010",
+              "id": "https://doi.org/10.1016/j.neuron.2016.02.010",
+              "landing_page_url": "https://doi.org/10.1016/j.neuron.2016.02.010",
+              "publication_date": "2016-04-01",
+              "publication_year": 2016,
+              "source_name": "Neuron",
+              "title": "Coordinated Excitation and Inhibition of Prefrontal Ensembles during Awake Hippocampal Sharp-Wave Ripple Events",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.25006/ia.4.s2-a8.1",
+              "id": "https://doi.org/10.25006/ia.4.s2-a8.1",
+              "landing_page_url": "https://doi.org/10.25006/ia.4.s2-a8.1",
+              "publication_date": "2016-08-29",
+              "publication_year": 2016,
+              "source_name": "Intrinsic Activity",
+              "title": "Dopaminergic modulation of hippocampal spike timing-dependent plasticity",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3410/f.727161578.793528168",
+              "id": "https://doi.org/10.3410/f.727161578.793528168",
+              "landing_page_url": "https://doi.org/10.3410/f.727161578.793528168",
+              "publication_date": "2017-02-09",
+              "publication_year": 2017,
+              "source_name": "Faculty Opinions – Post-Publication Peer Review of the Biomedical Literature",
+              "title": "Faculty Opinions recommendation of Phase-Locked Inhibition, but Not Excitation, Underlies Hippocampal Ripple Oscillations in Awake Mice In Vivo.",
+              "type": "dataset"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3410/f.1165798.856081",
+              "id": "https://doi.org/10.3410/f.1165798.856081",
+              "landing_page_url": "https://doi.org/10.3410/f.1165798.856081",
+              "publication_date": "2010-01-11",
+              "publication_year": 2010,
+              "source_name": "Faculty Opinions – Post-Publication Peer Review of the Biomedical Literature",
+              "title": "Faculty Opinions recommendation of Disruption of ripple-associated hippocampal activity during rest impairs spatial learning in the rat.",
+              "type": "dataset"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.neuroscience.2010.11.027",
+              "id": "https://doi.org/10.1016/j.neuroscience.2010.11.027",
+              "landing_page_url": "https://doi.org/10.1016/j.neuroscience.2010.11.027",
+              "publication_date": "2011-02-01",
+              "publication_year": 2011,
+              "source_name": "Neuroscience",
+              "title": "Different effects of zolpidem and diazepam on hippocampal sharp wave—ripple activity in vitro",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract The hippocampus plays a key role in the acquisition of new memories for places and events. Evidence suggests that the consolidation of these memories is enhanced during sleep. At the neuronal level, reactivation of awake experience in the hippocampus during sharp‐wave ripple events, characteristic of slow‐wave sleep, has been proposed as a neural mechanism for sleep‐dependent memory consolidation. However, a causal relation between sleep reactivation and memory consolidation has not been established. Here we show that disrupting neuronal activity during ripple events impairs spatial learning. We trained rats daily in two identical spatial navigation tasks followed each by a 1‐hour rest period. After one of the tasks, stimulation of hippocampal afferents selectively disrupted neuronal activity associated with ripple events without changing the sleep‐wake structure. Rats learned the control task significantly faster than the task followed by rest stimulation, indicating that interfering with hippocampal processing during sleep led to decreased learning. © 2009 Wiley‐Liss, Inc.",
+              "doi": "https://doi.org/10.1002/hipo.20707",
+              "id": "https://doi.org/10.1002/hipo.20707",
+              "landing_page_url": "https://doi.org/10.1002/hipo.20707",
+              "publication_date": "2009-10-08",
+              "publication_year": 2009,
+              "source_name": "Hippocampus",
+              "title": "Disruption of ripple‐associated hippocampal activity during rest impairs spatial learning in the rat",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "hippocampal ripple pre event activity timing inhibition",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=hippocampal+ripple+pre+event+activity+timing+inhibition&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        },
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3389/conf.neuro.09.2009.05.097",
+              "id": "https://doi.org/10.3389/conf.neuro.09.2009.05.097",
+              "landing_page_url": "https://doi.org/10.3389/conf.neuro.09.2009.05.097",
+              "publication_date": "2009-01-01",
+              "publication_year": 2009,
+              "source_name": "Frontiers in Human Neuroscience",
+              "title": "Temporal-frontal network underlying pre-attentive change detection: A lagged correlation path model of the event-related optical signal (EROS)",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract Our daily lives unfold continuously, yet when we reflect on the past, we remember those experiences as distinct and cohesive events. To understand this phenomenon, early investigations focused on how and when individuals perceive natural breakpoints, or boundaries, in ongoing experience. More recent research has examined how these boundaries modulate brain mechanisms that support long‐term episodic memory. This work has revealed that a complex interplay between hippocampus and prefrontal cortex promotes the integration and separation of sequential information to help organize our experiences into mnemonic events. Here, we discuss how both temporal stability and change in one's thoughts, goals, and surroundings may provide scaffolding for these neural processes to link and separate memories across time. When learning novel or familiar sequences of information, dynamic hippocampal processes may work both independently from and in concert with other brain regions to bind sequential representations together in memory. The formation and storage of discrete episodic memories may occur both proactively as an experience unfolds. They may also occur retroactively , either during a context shift or when reactivation mechanisms bring the past into the present to allow integration. We also describe conditions and factors that shape the construction and integration of event memories across different timescales. Together these findings shed new light on how the brain transcends time to transform everyday experiences into meaningful memory representations.",
+              "doi": "https://doi.org/10.1002/hipo.23074",
+              "id": "https://doi.org/10.1002/hipo.23074",
+              "landing_page_url": "https://doi.org/10.1002/hipo.23074",
+              "publication_date": "2019-02-07",
+              "publication_year": 2019,
+              "source_name": "Hippocampus",
+              "title": "Transcending time in the brain: How event memories are constructed from experience",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract Our lives are a continuous stream of experience. Our episodic memories on the other hand have a definitive beginning, middle, and end. Theories of event segmentation suggest that salient changes in our environment produce event boundaries which partition the past from the present and, as a result, produce discretized memories. However, event boundaries cannot completely discretize two memories; any shared conceptual link will lead to the rapid integration of these memories. Here, we present a new framework inspired by electrophysiological research that resolves this apparent contradiction. At its heart, the framework proposes that hippocampal theta‐gamma coupling maintains a highly abstract model of an ongoing event and serves to encode this model as an episodic memory. When a second but related event begins, this theta‐gamma model is rapidly reconstructed within the hippocampus where new details of the second event can be appended to the existing event model. The event conjunction framework is the first electrophysiological explanation of how event memories can be formed at, and integrated across, event boundaries.",
+              "doi": "https://doi.org/10.1002/hipo.23161",
+              "id": "https://doi.org/10.1002/hipo.23161",
+              "landing_page_url": "https://doi.org/10.1002/hipo.23161",
+              "publication_date": "2019-09-30",
+              "publication_year": 2019,
+              "source_name": "Hippocampus",
+              "title": "Event conjunction: How the hippocampus integrates episodic memories across event boundaries",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/icspcs.2010.5709711",
+              "id": "https://doi.org/10.1109/icspcs.2010.5709711",
+              "landing_page_url": "https://doi.org/10.1109/icspcs.2010.5709711",
+              "publication_date": "2010-12-01",
+              "publication_year": 2010,
+              "source_name": "2010 4th International Conference on Signal Processing and Communication Systems",
+              "title": "Spatial correlation in the broadcast MU-MIMO UWB system using a pre-equalizer and Time Reversal pre-filter",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1201/b19013-4",
+              "id": "https://doi.org/10.1201/b19013-4",
+              "landing_page_url": "https://doi.org/10.1201/b19013-4",
+              "publication_date": "2018-09-03",
+              "publication_year": 2018,
+              "source_name": "Event-Based Control and Signal Processing",
+              "title": "Event-Triggered versus Time-Triggered Real-Time Systems: A Comparative Study",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3724/sp.j.1087.2008.01313",
+              "id": "https://doi.org/10.3724/sp.j.1087.2008.01313",
+              "landing_page_url": "https://doi.org/10.3724/sp.j.1087.2008.01313",
+              "publication_date": "2008-05-20",
+              "publication_year": 2008,
+              "source_name": "Journal of Computer Applications",
+              "title": "Study on event correlation detecting mechanism based on time Petri nets",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "ABSTRACT Sharp wave ripples (SPW‐Rs) represent the most synchronous population pattern in the mammalian brain. Their excitatory output affects a wide area of the cortex and several subcortical nuclei. SPW‐Rs occur during “off‐line” states of the brain, associated with consummatory behaviors and non‐REM sleep, and are influenced by numerous neurotransmitters and neuromodulators. They arise from the excitatory recurrent system of the CA3 region and the SPW‐induced excitation brings about a fast network oscillation (ripple) in CA1. The spike content of SPW‐Rs is temporally and spatially coordinated by a consortium of interneurons to replay fragments of waking neuronal sequences in a compressed format. SPW‐Rs assist in transferring this compressed hippocampal representation to distributed circuits to support memory consolidation; selective disruption of SPW‐Rs interferes with memory. Recently acquired and pre‐existing information are combined during SPW‐R replay to influence decisions, plan actions and, potentially, allow for creative thoughts. In addition to the widely studied contribution to memory, SPW‐Rs may also affect endocrine function via activation of hypothalamic circuits. Alteration of the physiological mechanisms supporting SPW‐Rs leads to their pathological conversion, “p‐ripples,” which are a marker of epileptogenic tissue and can be observed in rodent models of schizophrenia and Alzheimer's Disease. Mechanisms for SPW‐R genesis and function are discussed in this review. © 2015 The Authors Hippocampus Published by Wiley Periodicals, Inc.",
+              "doi": "https://doi.org/10.1002/hipo.22488",
+              "id": "https://doi.org/10.1002/hipo.22488",
+              "landing_page_url": "https://doi.org/10.1002/hipo.22488",
+              "publication_date": "2015-09-26",
+              "publication_year": 2015,
+              "source_name": "Hippocampus",
+              "title": "Hippocampal sharp wave‐ripple: A cognitive biomarker for episodic memory and planning",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/caps52117.2021.9730626",
+              "id": "https://doi.org/10.1109/caps52117.2021.9730626",
+              "landing_page_url": "https://doi.org/10.1109/caps52117.2021.9730626",
+              "publication_date": "2021-12-10",
+              "publication_year": 2021,
+              "source_name": "2021 International Conference on Control, Automation, Power and Signal Processing (CAPS)",
+              "title": "Maximum Power Point Tracking for Photovoltaic Systems Using Ripple Correlation Control",
+              "type": "proceedings-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "pre ripple signal event time correlation hippocampus",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=pre+ripple+signal+event+time+correlation+hippocampus&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        }
+      ],
+      "search_completed": true
+    },
+    "B": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3410/f.1165798.856081",
+              "id": "https://doi.org/10.3410/f.1165798.856081",
+              "landing_page_url": "https://doi.org/10.3410/f.1165798.856081",
+              "publication_date": "2010-01-11",
+              "publication_year": 2010,
+              "source_name": "Faculty Opinions – Post-Publication Peer Review of the Biomedical Literature",
+              "title": "Faculty Opinions recommendation of Disruption of ripple-associated hippocampal activity during rest impairs spatial learning in the rat.",
+              "type": "dataset"
+            },
+            {
+              "abstract": "Abstract The hippocampus plays a key role in the acquisition of new memories for places and events. Evidence suggests that the consolidation of these memories is enhanced during sleep. At the neuronal level, reactivation of awake experience in the hippocampus during sharp‐wave ripple events, characteristic of slow‐wave sleep, has been proposed as a neural mechanism for sleep‐dependent memory consolidation. However, a causal relation between sleep reactivation and memory consolidation has not been established. Here we show that disrupting neuronal activity during ripple events impairs spatial learning. We trained rats daily in two identical spatial navigation tasks followed each by a 1‐hour rest period. After one of the tasks, stimulation of hippocampal afferents selectively disrupted neuronal activity associated with ripple events without changing the sleep‐wake structure. Rats learned the control task significantly faster than the task followed by rest stimulation, indicating that interfering with hippocampal processing during sleep led to decreased learning. © 2009 Wiley‐Liss, Inc.",
+              "doi": "https://doi.org/10.1002/hipo.20707",
+              "id": "https://doi.org/10.1002/hipo.20707",
+              "landing_page_url": "https://doi.org/10.1002/hipo.20707",
+              "publication_date": "2009-10-08",
+              "publication_year": 2009,
+              "source_name": "Hippocampus",
+              "title": "Disruption of ripple‐associated hippocampal activity during rest impairs spatial learning in the rat",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.micpro.2015.01.009",
+              "id": "https://doi.org/10.1016/j.micpro.2015.01.009",
+              "landing_page_url": "https://doi.org/10.1016/j.micpro.2015.01.009",
+              "publication_date": "2015-03-01",
+              "publication_year": 2015,
+              "source_name": "Microprocessors and Microsystems",
+              "title": "A low latency minimum distance searching unit of the SOM based hardware quantizer",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3410/f.1165798.628864",
+              "id": "https://doi.org/10.3410/f.1165798.628864",
+              "landing_page_url": "https://doi.org/10.3410/f.1165798.628864",
+              "publication_date": "2009-11-04",
+              "publication_year": 2009,
+              "source_name": "Faculty Opinions – Post-Publication Peer Review of the Biomedical Literature",
+              "title": "Faculty Opinions recommendation of Disruption of ripple-associated hippocampal activity during rest impairs spatial learning in the rat.",
+              "type": "dataset"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3410/f.726171104.793514914",
+              "id": "https://doi.org/10.3410/f.726171104.793514914",
+              "landing_page_url": "https://doi.org/10.3410/f.726171104.793514914",
+              "publication_date": "2016-03-02",
+              "publication_year": 2016,
+              "source_name": "Faculty Opinions – Post-Publication Peer Review of the Biomedical Literature",
+              "title": "Faculty Opinions recommendation of Oscillations Go the Distance: Low-Frequency Human Hippocampal Oscillations Code Spatial Distance in the Absence of Sensory Cues during Teleportation.",
+              "type": "dataset"
+            },
+            {
+              "abstract": "Abstract Hippocampal sharp-wave ripples (SWRs) and the associated replay of neuronal sequences are well-established as the primary physiological substrates for memory consolidation. While the local transformations they induce within the hippocampus are well-characterized, their impact on the downstream cortical representations remains unknown. Here, we identify a distinct functional class of neurons in the anterior cingulate cortex “spatial context cells” that emerge through the multi-day integration of discrete hippocampal inputs. Using closed-loop disruption of SWRs and longitudinal calcium imaging, we demonstrate that formation of this global spatial framework depends on SWRs during offline periods. Whereas standard cortical place maps remain intact following SWR disruption, the emergence of spatial context cells is selectively abolished. These cells preferentially express c-Fos, identifying them as constituents of the cortical memory engram, and exhibit broad receptive fields that develop through an experience-dependent process of field convergence. Collectively, these findings establish SWR-mediated replay as a computational bridge transforming high-resolution, fragmented hippocampal spatial codes into generalized, stable cortical schemas. This work reveals a bifurcated consolidation process, identifying SWR-dependent synaptic remodeling as a fundamental mechanism for the ontogeny of remote memory.",
+              "doi": "https://doi.org/10.1101/2021.03.29.437441",
+              "id": "https://doi.org/10.1101/2021.03.29.437441",
+              "landing_page_url": "https://doi.org/10.1101/2021.03.29.437441",
+              "publication_date": "2021-03-30",
+              "publication_year": 2021,
+              "source_name": null,
+              "title": "Hippocampal ripple-mediated convergence of spatial codes drives the emergence of cortical contextual representations",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0014-4886(78)90096-1",
+              "id": "https://doi.org/10.1016/0014-4886(78)90096-1",
+              "landing_page_url": "https://doi.org/10.1016/0014-4886(78)90096-1",
+              "publication_date": "1978-02-01",
+              "publication_year": 1978,
+              "source_name": "Experimental Neurology",
+              "title": "Spatial correlates of hippocampal unit activity",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "ABSTRACT The relationship between the feature-tuning curve and information transfer profile of individual neurons provides vital insights about neural encoding. However, the relationship between the spatial tuning curve and spatial information transfer of hippocampal place cells remains unexplored. Here, employing a stochastic search procedure spanning thousands of models, we arrived at 127 conductance-based place-cell models that exhibited signature electrophysiological characteristics and sharp spatial tuning, with parametric values that exhibited neither clustering nor strong pairwise correlations. We introduced trial-to-trial variability in responses and computed model tuning curves and information transfer profiles, using stimulus-specific (SSI) and mutual (MI) information metrics, across locations within the place field. We found spatial information transfer to be heterogeneous across models, but to reduce consistently with increasing degrees of variability. Importantly, whereas reliable low-variability responses implied that maximal information transfer occurred at high-slope regions of the tuning curve, increase in variability resulted in maximal transfer occurring at the peak-firing location in a subset of models. Moreover, experience-dependent asymmetry in place-field firing introduced asymmetries in the information transfer computed through MI, but not SSI, and the impact of activity-dependent variability on information transfer was minimal compared to activity-independent variability. Biophysically, we unveiled a many-to-one relationship between different ion channels and information transfer, and demonstrated critical roles for N -methyl-D-aspartate receptors, transient potassium and dendritic sodium channels in regulating information transfer. Our results emphasize the need to account for trial-to-trial variability, tuning-curve shape and biological heterogeneities while assessing information transfer, and demonstrate ion-channel degeneracy in the regulation of spatial information transfer.",
+              "doi": "https://doi.org/10.1101/2020.09.17.301747",
+              "id": "https://doi.org/10.1101/2020.09.17.301747",
+              "landing_page_url": "https://doi.org/10.1101/2020.09.17.301747",
+              "publication_date": "2020-09-19",
+              "publication_year": 2020,
+              "source_name": null,
+              "title": "Spatial information transfer in hippocampal place cells depends on trial-to-trial variability, symmetry of place-field firing and biophysical heterogeneities",
+              "type": "posted-content"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "hippocampal ripple unit distance latency variability spatial",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=hippocampal+ripple+unit+distance+latency+variability+spatial&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        },
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.21437/interspeech.2004-68",
+              "id": "https://doi.org/10.21437/interspeech.2004-68",
+              "landing_page_url": "https://doi.org/10.21437/interspeech.2004-68",
+              "publication_date": "2004-10-04",
+              "publication_year": 2004,
+              "source_name": "Interspeech 2004",
+              "title": "An improved pair-wise variability index for comparing the timing characteristics of speech",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.7554/elife.38052.032",
+              "id": "https://doi.org/10.7554/elife.38052.032",
+              "landing_page_url": "https://doi.org/10.7554/elife.38052.032",
+              "publication_date": "2018-06-13",
+              "publication_year": 2018,
+              "source_name": null,
+              "title": "Decision letter: CA2 neuronal activity controls hippocampal low gamma and ripple oscillations",
+              "type": "peer-review"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.solener.2012.02.027",
+              "id": "https://doi.org/10.1016/j.solener.2012.02.027",
+              "landing_page_url": "https://doi.org/10.1016/j.solener.2012.02.027",
+              "publication_date": "2012-08-01",
+              "publication_year": 2012,
+              "source_name": "Solar Energy",
+              "title": "Short-term irradiance variability: Preliminary estimation of station pair correlation as a function of distance",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Spatial and episodic memory performance declines with age, and the neural basis for this decline is not well understood. Sharp-wave ripples are brief (∼70 ms) high-frequency oscillatory events generated in the hippocampus and are associated with the consolidation of spatial memories. Given the connection between ripple oscillations and memory consolidation, we investigated whether the structure of ripple oscillations and ripple-triggered patterns of single-unit activity are altered in aged rats. Local field and single-unit activity surrounding sharp-wave ripple events were examined in the CA1 region of the hippocampus of old ( n = 5) and young ( n = 6) F344 rats during periods of rest preceding and following performance on a place-dependent eyeblink-conditioning task. Neural responses in aged rats differed from responses in young rats in several ways. First, compared with young rats, the rate of ripple occurrence (ripple density) is reduced in aged rats during postbehavior rest. Second, mean ripple frequency during prebehavior and postbehavior rest is lower in aged animals (aged: 132 Hz; young: 146 Hz). Third, single neurons in aged animals responded more consistently from ripple to ripple. Fourth, variability in interspike intervals was greater in aged rats. Finally, neurons were tuned to a narrower range of phases of the ripple oscillation relative to young animals. Together, these results suggest that the CA1 network in aged animals has a reduced “vocabulary” of available representational states. SIGNIFICANCE STATEMENT The hippocampus is a structure that is critical for the formation of episodic memories. Sharp-wave ripple events generated in the hippocampus have been implicated in memory consolidation processes critical to memory stabilization. We examine here whether these ripple oscillations are altered over the course of the life span, which could contribute to hippocampus-dependent memory deficits that occur during aging. This experiment used young and aged memory-impaired rats to examine age-related changes in ripple architecture, ripple-triggered spike variance, and spike-phase coherence. We found that there are, indeed, significant changes in characteristics of ripples in older animals that could impact consolidation processes and memory stabilization in the aged brain.",
+              "doi": "https://doi.org/10.1523/jneurosci.3069-15.2016",
+              "id": "https://doi.org/10.1523/jneurosci.3069-15.2016",
+              "landing_page_url": "https://doi.org/10.1523/jneurosci.3069-15.2016",
+              "publication_date": "2016-05-18",
+              "publication_year": 2016,
+              "source_name": "The Journal of Neuroscience",
+              "title": "Age Is Associated with Reduced Sharp-Wave Ripple Frequency and Altered Patterns of Neuronal Variability",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Reich, Daniel S., Jonathan D. Victor, Bruce W. Knight, Tsuyoshi Ozaki, and Ehud Kaplan. Response variability and timing precision of neuronal spike trains in vivo. J. Neurophysiol. 77: 2836–2841, 1977. We report that neuronal spike trains can exhibit high, stimulus-dependent temporal precision even while the trial-to-trial response variability, measured in several traditional ways, remains substantially independent of the stimulus. We show that retinal ganglion cells and neurons in the lateral geniculate nucleus (LGN) of cats in vivo display both these aspects of firing behavior, which have previously been reported to be contradictory. We develop a simple model that treats neurons as “leaky” integrate-and-fire devices and show that it, too, can exhibit both behaviors. We consider the implications of our findings for the problem of neural coding.",
+              "doi": "https://doi.org/10.1152/jn.1997.77.5.2836",
+              "id": "https://doi.org/10.1152/jn.1997.77.5.2836",
+              "landing_page_url": "https://doi.org/10.1152/jn.1997.77.5.2836",
+              "publication_date": "1997-05-01",
+              "publication_year": 1997,
+              "source_name": "Journal of Neurophysiology",
+              "title": "Response Variability and Timing Precision of Neuronal Spike Trains In Vivo",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.5220/0006679200590066",
+              "id": "https://doi.org/10.5220/0006679200590066",
+              "landing_page_url": "https://doi.org/10.5220/0006679200590066",
+              "publication_date": "2018-01-01",
+              "publication_year": 2018,
+              "source_name": "Proceedings of the 10th International Conference on Computer Supported Education",
+              "title": "Pair-Wise: Automatic Essay Evaluation using Word Mover’s Distance",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.actpsy.2017.03.013",
+              "id": "https://doi.org/10.1016/j.actpsy.2017.03.013",
+              "landing_page_url": "https://doi.org/10.1016/j.actpsy.2017.03.013",
+              "publication_date": "2017-05-01",
+              "publication_year": 2017,
+              "source_name": "Acta Psychologica",
+              "title": "The effect of modeled absolute timing variability and relative timing variability on observational learning",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.2307/1369905",
+              "id": "https://doi.org/10.2307/1369905",
+              "landing_page_url": "https://doi.org/10.2307/1369905",
+              "publication_date": "1998-02-01",
+              "publication_year": 1998,
+              "source_name": "The Condor",
+              "title": "Timing of Pair and Extra-Pair Copulations in the Northern Fulmar",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "neuronal pair distance ripple timing variability",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=neuronal+pair+distance+ripple+timing+variability&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        }
+      ],
+      "search_completed": true
+    }
+  },
+  "generated_at": "2026-08-22",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "cbf4cb42ec3f511ee9e201ffad655f33f56443e822a2e3163a85fbd070622072",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Searches are frozen reproducible retrieval evidence within the declared provider, queries, cutoff, and result depth. They do not certify absence from all literature.",
+  "strict_before": "2022-01-01",
+  "target_doi_excluded": "10.1038/s41467-022-28890-9",
+  "task_id": "Neuro_05_temporal_geometry",
+  "release": "V1.0"
+}

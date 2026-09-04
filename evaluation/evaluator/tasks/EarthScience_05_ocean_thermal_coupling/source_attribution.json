@@ -1,0 +1,24 @@
+{
+  "schema": "truthinsightbench-source-attribution",
+  "release": "V1.0",
+  "task_id": "EarthScience_05_ocean_thermal_coupling",
+  "title": "Thermal coupling of the Indo-Pacific warm pool and Southern Ocean over the past 30,000 years",
+  "doi": "10.1038/s41467-022-33206-y",
+  "first_publication_date": "2022-09-17",
+  "raw_data_record": "PANGAEA 10.1594/PANGAEA.965848 (CC-BY-4.0)",
+  "data_record_creators": [
+    "Shuai Zhang",
+    "Tiegang Li",
+    "Fengming Chang",
+    "Zhoufei Yu",
+    "Zhifang Xiong",
+    "H Wang",
+    "Xun Gong",
+    "Yue Wang",
+    "Gerrit Lohmann",
+    "Yiquan Qi",
+    "Ann E Holbourn",
+    "Heng Liu",
+    "Xuhua Cheng"
+  ]
+}

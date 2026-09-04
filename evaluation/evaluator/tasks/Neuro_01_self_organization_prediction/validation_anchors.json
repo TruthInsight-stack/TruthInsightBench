@@ -1,0 +1,186 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "预测和观测权重在第100个会话仍接近，归一化平方误差低于4%",
+      "independent_reconstruction_method": "Frozen evaluator recomputation: verification/recompute/A.py",
+      "non_exhaustive_validation_anchor": true,
+      "object": "对照条件下30个独立体外神经网络实验的有效突触连接权重",
+      "one_liner": "仅用前10个会话建模，即可把第100个会话的突触权重归一化误差预测到3.189%",
+      "perturbation_bindings": [
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method_median.py",
+          "script_sha256": "40872c5de11ed502b6c34a1bfdd1de724ac746ba7d26397998a8ac55ec8b6d21"
+        },
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample_leave_one_out.py",
+          "script_sha256": "34e069e8ec16354d10eb51d843521a496a5f0fd1fbe08c635238d9fb5d984fc9"
+        },
+        {
+          "family": "window",
+          "script": "verification/perturb/A/window_initial_8.py",
+          "script_sha256": "151e40fae8d023b39586f4fc0e727df772effdb38555f4cd2d052b6a9cad1955"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "measurement: \"新的独立对照培养实验中，用前10个会话预测第100个会话权重的归一化误差\"; expected_range: [0.0, 6.0]; failure_criterion: \"新独立实验的平均误差高于6%\""
+      },
+      "quantities": [
+        {
+          "key": "initial_sessions",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "session",
+          "value": 10
+        },
+        {
+          "key": "forecast_end_session",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "session",
+          "value": 100
+        },
+        {
+          "key": "session100_weight_error_pct",
+          "role": "core",
+          "tolerance_rel": 0.15,
+          "unit": "%",
+          "value": 3.188721
+        },
+        {
+          "key": "independent_trials",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "trial",
+          "value": 30
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "values": [
+          {
+            "json_path": "values.initial_sessions",
+            "quantity_key": "initial_sessions"
+          },
+          {
+            "json_path": "values.forecast_end_session",
+            "quantity_key": "forecast_end_session"
+          },
+          {
+            "json_path": "values.session100_weight_error_pct",
+            "quantity_key": "session100_weight_error_pct"
+          },
+          {
+            "json_path": "values.independent_trials",
+            "quantity_key": "independent_trials"
+          }
+        ],
+        "script_sha256": "0123cddc5b7b732be4825a71297cd218da43891a535f915b47d05466955f36c9"
+      },
+      "scope": "每个实验100个会话；只用会话1–10确定初值，盲态外推会话11–100",
+      "target_alignment": {
+        "paper_claim_paraphrase": "作者只用最初10个会话的神经元响应预测后续突触塑性，报告到最后会话的预测误差低于4%（n=30独立实验）",
+        "paper_location": "Results, Fig. 3b/e/f and the paragraph beginning 'We found that the predicted changes in connectivity matched'",
+        "rationale": "金标3.188721%是按作者fig3.m定义对全部30个对照实验重算的精确值，是原文'<4%'同一量的数据级实现",
+        "status": "reported_target_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "第100个会话的预测响应与实际响应保持一致，按1减去均方误差计算的预测得分高于80%",
+      "independent_reconstruction_method": "Frozen evaluator recomputation: verification/recompute/B.py",
+      "non_exhaustive_validation_anchor": true,
+      "object": "对照条件下30个独立体外神经网络实验的源偏好神经元集群响应",
+      "one_liner": "仅用前10个会话建模，即可在第100个会话预测82.735%的神经元响应",
+      "perturbation_bindings": [
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method_median.py",
+          "script_sha256": "9f865902949089b9b8ff650f88cdbe66100ca4b1ce6560c7ef0190dd44192ccd"
+        },
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample_leave_one_out.py",
+          "script_sha256": "605fbc0428d0fdbb78f86b469f3181c95f4e94fea8ebc83e22e63dc8197afec9"
+        },
+        {
+          "family": "window",
+          "script": "verification/perturb/B/window_initial_8.py",
+          "script_sha256": "d871799baad3e102bbf8251efe8ccde959c14e6a8e0ce56c54d79e32021f9420"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "measurement: \"新的独立对照培养实验中，用前10个会话外推第100个会话响应的1-MSE得分\"; expected_range: [75.0, 90.0]; failure_criterion: \"新独立实验的平均响应得分低于75%\""
+      },
+      "quantities": [
+        {
+          "key": "initial_sessions",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "session",
+          "value": 10
+        },
+        {
+          "key": "forecast_end_session",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "session",
+          "value": 100
+        },
+        {
+          "key": "session100_response_score_pct",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "%",
+          "value": 82.734919
+        },
+        {
+          "key": "independent_trials",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "trial",
+          "value": 30
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "values": [
+          {
+            "json_path": "values.initial_sessions",
+            "quantity_key": "initial_sessions"
+          },
+          {
+            "json_path": "values.forecast_end_session",
+            "quantity_key": "forecast_end_session"
+          },
+          {
+            "json_path": "values.session100_response_score_pct",
+            "quantity_key": "session100_response_score_pct"
+          },
+          {
+            "json_path": "values.independent_trials",
+            "quantity_key": "independent_trials"
+          }
+        ],
+        "script_sha256": "9e5dbab63d5bab896327394fe49a74aea511a7945f79cb4400d5b3c49799e758"
+      },
+      "scope": "每个实验100个会话；只用会话1–10确定初值，盲态外推会话11–100",
+      "target_alignment": {
+        "paper_claim_paraphrase": "作者报告只基于会话1–10的数据，在会话100可预测超过80%的神经元响应",
+        "paper_location": "Results, Fig. 3g–j and the paragraph beginning 'In addition to the synaptic trajectory'",
+        "rationale": "82.734919%是对作者响应MSE定义的精确复算，对应原文'>80%'的直接量化关系",
+        "status": "reported_target_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "Two verified validation anchors for blind-rediscovery diagnostics; not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2022-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Neuro_01_self_organization_prediction",
+  "release": "V1.0"
+}

@@ -1,0 +1,184 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "Large width ratios survive recording-batch holdout, means, and disjoint observation splits.",
+      "independent_reconstruction_method": "Region-specific median/mean ratios, whole-batch holdout, and disjoint cell splits.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Per-cell peak-width summaries in regions 1 and 2 under baseline and receptor-stimulated conditions.",
+      "one_liner": "Receptor-stimulated peak widths are more than 2.5-fold above baseline in both regions shared across conditions.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample.py",
+          "script_sha256": "f9a2df4a0df35f96031a5c950afc0bc31fc314373b2496c0b7a6c43120d85b25"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method.py",
+          "script_sha256": "f8273aeeefc8bdf47d4dd7ea6d8b66a30e3f5fc44d9075d873971e6c01ceb4fd"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition.py",
+          "script_sha256": "09e91978a4d1c03c118fa9b1db17beb1d08f648766a7aa3f943b0e4c22b1506d"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A held-out batch supports the relationship if both shared-region width ratios exceed 2.5; either ratio failing rejects it."
+      },
+      "quantities": [
+        {
+          "key": "region_1_receptor_to_baseline_peak_width_ratio",
+          "role": "core",
+          "tolerance_rel": 0.1,
+          "unit": "fold",
+          "value": 3.9753987945577776
+        },
+        {
+          "key": "region_2_receptor_to_baseline_peak_width_ratio",
+          "role": "core",
+          "tolerance_rel": 0.1,
+          "unit": "fold",
+          "value": 5.409818903934427
+        },
+        {
+          "key": "minimum_shared_region_peak_width_ratio",
+          "role": "supporting",
+          "tolerance_rel": 0.1,
+          "unit": "fold",
+          "value": 3.9753987945577776
+        },
+        {
+          "key": "cell_observation_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 819
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "script_sha256": "063cb6c8020b1cc9f0a13959c2e213a8c286001c6da144f5a2c8c6cca03ff692",
+        "values": [
+          {
+            "json_path": "values.region_1_receptor_to_baseline_peak_width_ratio",
+            "quantity_key": "region_1_receptor_to_baseline_peak_width_ratio"
+          },
+          {
+            "json_path": "values.region_2_receptor_to_baseline_peak_width_ratio",
+            "quantity_key": "region_2_receptor_to_baseline_peak_width_ratio"
+          },
+          {
+            "json_path": "values.minimum_shared_region_peak_width_ratio",
+            "quantity_key": "minimum_shared_region_peak_width_ratio"
+          },
+          {
+            "json_path": "values.cell_observation_count",
+            "quantity_key": "cell_observation_count"
+          }
+        ]
+      },
+      "scope": "Cells are nested in slices and batches; the effect is not interpreted as independent-cell biological replication.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports condition-dependent changes in calcium-transient shape across anatomical regions.",
+        "paper_location": "Region- and condition-stratified calcium-transient Results/source data.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "Width, frequency, and prominence contrasts point to distinct regional response profiles.",
+      "independent_reconstruction_method": "Whole-batch holdout, median/mean alternatives, and disjoint cell splits across multiple features.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "All stimulated-condition cells across three anonymous regions.",
+      "one_liner": "Within the stimulated condition, region 2 has broader/more prominent peaks while region 1 has about twice the event frequency.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample.py",
+          "script_sha256": "973ff4e95da029f53e8b73a8b7763b9e276fd5cb1b391ac7f90ebc8e2c4f536a"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method.py",
+          "script_sha256": "649a225f084951e78666af44b4cca6e2c3ce544c181c272355009990dadfdb3e"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition.py",
+          "script_sha256": "272db942f08a107fbcd45fb78ea570177db6ba77831f1aca61844b03ba596b77"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A held-out batch supports the profile if region-2/1 width and region-1/2 frequency ratios both exceed 1.5; otherwise it fails."
+      },
+      "quantities": [
+        {
+          "key": "region_2_to_1_width_ratio",
+          "role": "core",
+          "tolerance_rel": 0.1,
+          "unit": "fold",
+          "value": 1.9415465427317575
+        },
+        {
+          "key": "region_1_to_2_frequency_ratio",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "fold",
+          "value": 1.9994033172422567
+        },
+        {
+          "key": "region_2_to_1_prominence_ratio",
+          "role": "supporting",
+          "tolerance_rel": 0.1,
+          "unit": "fold",
+          "value": 2.2058423792208095
+        },
+        {
+          "key": "stimulated_region_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 3
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "script_sha256": "d9352472deb6165b64149e352e17431decd3b6e88a5279184b27ff85d8e662be",
+        "values": [
+          {
+            "json_path": "values.region_2_to_1_width_ratio",
+            "quantity_key": "region_2_to_1_width_ratio"
+          },
+          {
+            "json_path": "values.region_1_to_2_frequency_ratio",
+            "quantity_key": "region_1_to_2_frequency_ratio"
+          },
+          {
+            "json_path": "values.region_2_to_1_prominence_ratio",
+            "quantity_key": "region_2_to_1_prominence_ratio"
+          },
+          {
+            "json_path": "values.stimulated_region_count",
+            "quantity_key": "stimulated_region_count"
+          }
+        ]
+      },
+      "scope": "A context-specific multi-feature regional interaction, not a universal region ordering.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports functional heterogeneity among regions under receptor stimulation.",
+        "paper_location": "Stimulated-condition regional calcium-transient source-data panel.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "These two cards are verified reference discoveries for blind-rediscovery diagnostics and are not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2020-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Neuro_02_calcium_response_regions",
+  "release": "V1.0"
+}

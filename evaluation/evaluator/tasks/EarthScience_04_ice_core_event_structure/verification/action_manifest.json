@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "EarthScience_04_ice_core_event_structure",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition.py",
+      "script_sha256": "62ccf85b2ee9b1f61e5cf32e0f8b942449854f935b2d8752c05e63c897e10b49"
+    },
+    {
+      "script": "verification/perturb/A/method.py",
+      "script_sha256": "9808920414756027868eaf5abf76a3a84257a3843d73614751b166e3d4122f5a"
+    },
+    {
+      "script": "verification/perturb/A/sample.py",
+      "script_sha256": "c09615c6bf3300f05b2eb393fa63571980540f1713e79baae99389d5efac188a"
+    },
+    {
+      "script": "verification/perturb/B/definition.py",
+      "script_sha256": "b23c7d32e57f6b225f789978611ebe708f2431143f3eed6e7920637faf581264"
+    },
+    {
+      "script": "verification/perturb/B/method.py",
+      "script_sha256": "1a218a1b0d2b1b1b9bd25454c4224ad31b706be8569084c10a2e3f1a6a07db9f"
+    },
+    {
+      "script": "verification/perturb/B/sample.py",
+      "script_sha256": "a645965ca8b829a69e430fa8d02ac9b626eef2f0395253a3d47213c7984dd769"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "e305b30fa2c990ba3913a8a3e1af30e7b7e093f1e1223446424c24b83a8749b7"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "bfdc6df57f102e77783e38b77f099b649205783a937fbb5775d33933f756d106"
+    }
+  ],
+  "verification_tree_sha256": "b5dec7b82e0a6b57f06e3e10c942b51ec7038e7de855d158050d817d44494ce8",
+  "verification_file_count": 8,
+  "shared_runtime_tree_sha256": "d8710168f8a9c9ce1fd4946fdcfa0a279806376236feda46a5384b7f302428e9",
+  "shared_runtime_file_count": 4
+}

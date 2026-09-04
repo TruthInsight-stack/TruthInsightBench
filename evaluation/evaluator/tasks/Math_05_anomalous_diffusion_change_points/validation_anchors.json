@@ -1,0 +1,195 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "The median exponent is below one and the sub-0.75 fraction is stable across trajectory halves, lag windows, and robust slopes.",
+      "independent_reconstruction_method": "Complete-trajectory halves, OLS/Theil-Sen log-MSD slopes, and lag maxima 16/24/32/48.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "All 240 complete length-128 anonymous trajectories.",
+      "one_liner": "Time-averaged scaling exponents are broadly distributed and shifted sublinearly, with over 40% below 0.75 and few above 1.25.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample.py",
+          "script_sha256": "cf551539d873163f682d7b69d7fb6cbf4c69c594f075d82df35a6a9fb599109d"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method.py",
+          "script_sha256": "6738a909bd909334d7cdbfaa11f8379e88acccd0d9e1b6856b546a41bf7c0f4e"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition.py",
+          "script_sha256": "60f32a1da69ef4fcb83e3b660a231cd587caaa66ab73cbb07b11d2508f976456"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A new trajectory batch supports heterogeneity if over 30% have exponent below 0.75 and under 8% exceed 1.25 across all lag definitions; otherwise it fails."
+      },
+      "quantities": [
+        {
+          "key": "trajectory_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 240
+        },
+        {
+          "key": "median_time_averaged_scaling_exponent",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "dimensionless",
+          "value": 0.8156620481819596
+        },
+        {
+          "key": "fraction_scaling_exponent_below_0_75",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "fraction",
+          "value": 0.43333333333333335
+        },
+        {
+          "key": "fraction_scaling_exponent_above_1_25",
+          "role": "supporting",
+          "tolerance_rel": 0.15,
+          "unit": "fraction",
+          "value": 0.0375
+        },
+        {
+          "key": "scaling_exponent_interquartile_range",
+          "role": "supporting",
+          "tolerance_rel": 0.1,
+          "unit": "dimensionless",
+          "value": 0.34925764163013484
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "script_sha256": "dcee96ced6dd71b91eb79239e7036422116dffe24472a8a7ecc91bde6ecd6ac6",
+        "values": [
+          {
+            "json_path": "values.trajectory_count",
+            "quantity_key": "trajectory_count"
+          },
+          {
+            "json_path": "values.median_time_averaged_scaling_exponent",
+            "quantity_key": "median_time_averaged_scaling_exponent"
+          },
+          {
+            "json_path": "values.fraction_scaling_exponent_below_0_75",
+            "quantity_key": "fraction_scaling_exponent_below_0_75"
+          },
+          {
+            "json_path": "values.fraction_scaling_exponent_above_1_25",
+            "quantity_key": "fraction_scaling_exponent_above_1_25"
+          },
+          {
+            "json_path": "values.scaling_exponent_interquartile_range",
+            "quantity_key": "scaling_exponent_interquartile_range"
+          }
+        ]
+      },
+      "scope": "Frozen model-generated trajectories with hidden labels; exponent summaries do not identify a unique process class.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source benchmarks heterogeneous anomalous-scaling regimes rather than one normal-diffusion population.",
+        "paper_location": "Anomalous-diffusion method-comparison simulations in the article-linked framework.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "Over 90% exceed a twofold local variance contrast while estimated locations have a broad interquartile range.",
+      "independent_reconstruction_method": "Disjoint trajectory halves and local variance windows of 8/12/16/20 points.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Complete trajectory increments evaluated with local contiguous windows.",
+      "one_liner": "Most trajectories contain a local increment-variance contrast above twofold, but the candidate boundary locations are widely dispersed.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample.py",
+          "script_sha256": "476d69825d1aadccf84de611eca2165d5af6c926edf30bbb29a80a139cd5ad74"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method.py",
+          "script_sha256": "1bb0ccd1a8f7c1f406d4d8628177d5ba27bbf0c7d65beb1ec378460a16a81d9f"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition.py",
+          "script_sha256": "3bbc44888b7245599c029d3f476e756f91bbdacf5c0b144d232a0bd0412695d3"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A new batch supports the boundary if over 90% exceed a twofold local contrast under every window; concentration at one location is not required and would be a distinct claim."
+      },
+      "quantities": [
+        {
+          "key": "median_max_local_log_variance_contrast",
+          "role": "core",
+          "tolerance_rel": 0.1,
+          "unit": "log_ratio",
+          "value": 1.565252777140616
+        },
+        {
+          "key": "fraction_trajectories_with_local_variance_contrast_above_twofold",
+          "role": "core",
+          "tolerance_rel": 0.03,
+          "unit": "fraction",
+          "value": 0.9583333333333334
+        },
+        {
+          "key": "median_candidate_change_location",
+          "role": "supporting",
+          "tolerance_rel": 0.15,
+          "unit": "time_index",
+          "value": 55.0
+        },
+        {
+          "key": "candidate_change_location_iqr",
+          "role": "supporting",
+          "tolerance_rel": 0.15,
+          "unit": "time_index",
+          "value": 53.5
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "script_sha256": "4d6ec9484632a2ff133179e74641ba73cdbfce3e5d0af9840b631c5ae3f9d74f",
+        "values": [
+          {
+            "json_path": "values.median_max_local_log_variance_contrast",
+            "quantity_key": "median_max_local_log_variance_contrast"
+          },
+          {
+            "json_path": "values.fraction_trajectories_with_local_variance_contrast_above_twofold",
+            "quantity_key": "fraction_trajectories_with_local_variance_contrast_above_twofold"
+          },
+          {
+            "json_path": "values.median_candidate_change_location",
+            "quantity_key": "median_candidate_change_location"
+          },
+          {
+            "json_path": "values.candidate_change_location_iqr",
+            "quantity_key": "candidate_change_location_iqr"
+          }
+        ]
+      },
+      "scope": "A candidate regime-boundary diagnostic, not proof that every trajectory has an abrupt generative change point.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source includes heterogeneous/nonstationary trajectories that challenge one-regime decoders.",
+        "paper_location": "Trajectory-regime and change-point benchmarking context in the source framework.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "These two cards are verified reference discoveries for blind-rediscovery diagnostics and are not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2021-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Math_05_anomalous_diffusion_change_points",
+  "release": "V1.0"
+}

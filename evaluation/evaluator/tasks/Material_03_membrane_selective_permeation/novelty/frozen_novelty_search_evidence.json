@@ -1,0 +1,427 @@
+{
+  "all_queries_completed": true,
+  "api_cutoff": "2022-12-31",
+  "cards": {
+    "A": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2022-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "Edge functionalization has better thermal transport than basal plane functionalization in polymer/graphene nanoplatelet nanocomposites. Inner layers of EFGNP actively participate in heat conduction in overall thermal transport with minimal damage to the graphene structure.",
+              "doi": "https://doi.org/10.1039/d2cp00146b",
+              "id": "https://doi.org/10.1039/d2cp00146b",
+              "landing_page_url": "https://doi.org/10.1039/d2cp00146b",
+              "publication_date": "2022-01-01",
+              "publication_year": 2022,
+              "source_name": "Physical Chemistry Chemical Physics",
+              "title": "The superior effect of edge functionalization relative to basal plane functionalization of graphene in enhancing the thermal conductivity of polymer–graphene nanocomposites – a combined molecular dynamics and Green's functions study",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "We compare the effectiveness of functionalization on the edge with that on the basal plane of graphene in enhancing interfacial thermal transport between polyethylene and graphene using an atomistic Green's function method. Harmonic interatomic force constants needed for the method are derived from the density-functional theory to provide a first-principles estimate of thermal conductance comparison. Computations reveal the thermal conductance for the edge functionalization to be 75% higher relative to the basal plane case at 300 K. Polarization specific transmission calculations are used to provide understanding of these differences.",
+              "doi": "https://doi.org/10.1063/1.4977433",
+              "id": "https://doi.org/10.1063/1.4977433",
+              "landing_page_url": "https://doi.org/10.1063/1.4977433",
+              "publication_date": "2017-03-03",
+              "publication_year": 2017,
+              "source_name": "Applied Physics Letters",
+              "title": "Relative effect of edge versus basal plane functionalization on graphene/polymer interfacial thermal conductance - Role of in-plane phonons",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/9781119069447.ch6",
+              "id": "https://doi.org/10.1002/9781119069447.ch6",
+              "landing_page_url": "https://doi.org/10.1002/9781119069447.ch6",
+              "publication_date": "2016-09-30",
+              "publication_year": 2016,
+              "source_name": "Graphene Oxide",
+              "title": "Functionalization and Reduction of Graphene Oxide",
+              "type": "other"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1021/am5017057",
+              "id": "https://doi.org/10.1021/am5017057",
+              "landing_page_url": "https://doi.org/10.1021/am5017057",
+              "publication_date": "2014-06-24",
+              "publication_year": 2014,
+              "source_name": "ACS Applied Materials &amp; Interfaces",
+              "title": "Effect of Noncovalent Basal Plane Functionalization on the Quantum Capacitance in Graphene",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.apmt.2021.101120",
+              "id": "https://doi.org/10.1016/j.apmt.2021.101120",
+              "landing_page_url": "https://doi.org/10.1016/j.apmt.2021.101120",
+              "publication_date": "2021-09-01",
+              "publication_year": 2021,
+              "source_name": "Applied Materials Today",
+              "title": "Covalent double functionalization of graphene oxide for proton conductive and redox-active functions",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Surface interactions of graphene oxide (GO) and graphene are presented in this review. This work is intended to complement previous reviews of graphene oxide chemistry as well as detail the newest efforts in this growing field. GO holds great promise as both a starting material for 2-D materials and as a platform for chemical reactions, and in both cases potential applications for these materials continue to increase. This work seeks to highlight reactions that promote attachment of different moieties and that “tune” the surface energies of GO that may enhance local interactions.",
+              "doi": "https://doi.org/10.2174/1385272819666150730220741",
+              "id": "https://doi.org/10.2174/1385272819666150730220741",
+              "landing_page_url": "https://doi.org/10.2174/1385272819666150730220741",
+              "publication_date": "2016-03-01",
+              "publication_year": 2016,
+              "source_name": "Current Organic Chemistry",
+              "title": "Surface Interactions: Functionalization of Graphene Oxide and Wetting of Graphene Oxide and Graphene",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "In this study, electrically conductive cotton fabric is prepared by a “dip and dry” method with graphene oxide (GO) nanosheets following by a reducing process with hydrazine hydrate. For a more practical application, an interfacial modification on the cotton fabric is conducted by using a functional silane coupling agent (KH-560) to enhance the binding force of GO and the fabric, which can increase the durability properties of the conductive fabric. The bonding mechanism among the cotton, KH-560 and GO is analyzed. The influences of the mass fraction of GO and the dipping cycle in GO dispersed solution on the properties of the conductive cotton fabric are investigated. The experimental results show that the optimal GO mass fraction for a good electrical conductivity of the resultant fabric (namely the reduced GO/KH-560/cotton) is 0.8%. In addition, the conductivity of the fabric is highest after five dipping cycles when prepared with a certain mass fraction of GO. Moreover, the durability properties of reduced GO/KH-560/cotton can be significantly improved when treated with KH-560. The prepared conductive fabric with a high flexibility, durability and excellent conductivity has a promising application for the preparation of wearable electronics, outdoor products, etc.",
+              "doi": "https://doi.org/10.1177/0040517518760757",
+              "id": "https://doi.org/10.1177/0040517518760757",
+              "landing_page_url": "https://doi.org/10.1177/0040517518760757",
+              "publication_date": "2018-02-28",
+              "publication_year": 2018,
+              "source_name": "Textile Research Journal",
+              "title": "Functionalization of cotton by reduced graphene oxide for improved electrical conductivity",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract Reduced graphene oxide (rGO) has been explored as an alternative to graphene as an electrode material for use in supercapacitors, which thus enables highly scalable solution‐based processing. To understand the performance of rGO electrodes in supercapacitors, we theoretically investigate model systems by considering OH‐functionalized graphene immersed in 1‐ethyl‐3‐methylimidazolium bis(fluorosulfonyl)imide (EMIM/FSI) ionic liquid. Our specific interest is to understand the influence of varying the hydroxyl content (or O/C ratio) on both the quantum ( C Q ) and electric double‐layer ( C D ) capacitances. Ultimately, the total interfacial capacitance is found to be sensitive to O/C, but is optimized when the suppression of C D is most effectively mitigated by the enhancement in C Q . Our findings clearly demonstrate that the use of GO materials has the potential to enhance supercapacitor performance significantly but will require careful control of both the concentration and composition of oxygen functional groups along the basal surface.",
+              "doi": "https://doi.org/10.1002/celc.201600064",
+              "id": "https://doi.org/10.1002/celc.201600064",
+              "landing_page_url": "https://doi.org/10.1002/celc.201600064",
+              "publication_date": "2016-02-26",
+              "publication_year": 2016,
+              "source_name": "ChemElectroChem",
+              "title": "On the Importance of Regulating Hydroxyl Coverage on the Basal Plane of Graphene Oxide for Supercapacitors",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "graphene oxide basal plane proton conductivity functionalization",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=graphene+oxide+basal+plane+proton+conductivity+functionalization&filter=until-pub-date%3A2022-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2023-01-01"
+        },
+        {
+          "api_cutoff": "2022-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.polymertesting.2020.106941",
+              "id": "https://doi.org/10.1016/j.polymertesting.2020.106941",
+              "landing_page_url": "https://doi.org/10.1016/j.polymertesting.2020.106941",
+              "publication_date": "2021-01-01",
+              "publication_year": 2021,
+              "source_name": "Polymer Testing",
+              "title": "Investigation of thermo-mechanical behavior, proton transfer and methanol permeation of polymer electrolyte membrane in low sulfonated state modified with thermally stable surface functionalized graphene oxide nanosheets",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0167-2738(95)00088-n",
+              "id": "https://doi.org/10.1016/0167-2738(95)00088-n",
+              "landing_page_url": "https://doi.org/10.1016/0167-2738(95)00088-n",
+              "publication_date": "1995-07-01",
+              "publication_year": 1995,
+              "source_name": "Solid State Ionics",
+              "title": "Measuring apparatus for hydrogen permeation using oxide proton conductor",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.chemphys.2021.111312",
+              "id": "https://doi.org/10.1016/j.chemphys.2021.111312",
+              "landing_page_url": "https://doi.org/10.1016/j.chemphys.2021.111312",
+              "publication_date": "2021-10-01",
+              "publication_year": 2021,
+              "source_name": "Chemical Physics",
+              "title": "New effect of strong oscillation and anisotropy of electrical conductance in graphene films with vertically aligned carbon nanotubes and monolayer pillared graphene films",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Nonlinear absorption of monolayer graphene and graphene oxide suspensions were studied in the wavelength of 800 nm by Z-scan method with 50fs pulses. Large reverse saturable absorption is observed in graphene, while graphene oxide shows saturable absorption at the incident intensity of 46 GW/cm 2 . The values of nonlinear absorption coefficient also have been determined from the experimental data. The NLA coefficient β of the monolayer graphene suspension is 1.96×10 -2 cm/GW,while the NLA coeffiecient β of graphene oxide is-6.84×10 -3 cm/GW.",
+              "doi": "https://doi.org/10.4028/www.scientific.net/amr.510.768",
+              "id": "https://doi.org/10.4028/www.scientific.net/amr.510.768",
+              "landing_page_url": "https://doi.org/10.4028/www.scientific.net/amr.510.768",
+              "publication_date": "2012-04-01",
+              "publication_year": 2012,
+              "source_name": "Advanced Materials Research",
+              "title": "Large Nonlinear Optical Absorption Response in Monolayer Graphene and Graphene Oxide",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract Two-dimensional (2D) monolayer nanomaterials can be exploited as the thinnest membrane with distinct differential sieving properties for proton isotopes. Motivated from the experimental evidence of differential sieving proton isotopes through graphene and hexagonal boron nitrate (h-BN) monolayer, we compute the kinetic barrier of isotope H+ and D+ permeation through model graphene and h-BN fragments at the MP2/6-31++G­(d,p) level of theory. On the basis of the ratio of tunneling reaction rate constant, the isotope separation ratio of H+/D+ and H+/T+ is predicted to be ∼12 and 37, respectively. The tunneling reaction rate constant can be estimated from the zero-point-energy computed at the transition state for the proton isotope permeation though the 2D model systems. We show that the presence of Stone–Wales (55–77) defect in the model graphene fragment can significantly lower the proton permeation barrier by 0.55 eV. With the defect, the ratio of tunneling reaction rate constant of H+/D+ is increased to ∼25. In addition to model graphene and h-BN, we have examined proton permeation capability of α-boron monolayer. We compute the tunneling reaction pathway for H+ through α-boron monolayer using both the climbing nudged elastic band (c-NEB) method and the scanning-path method. Both methods suggest that α-boron monolayer entails a relatively low barrier of ∼0.20 eV for H+ permeation, much lower than that of the model graphene and h-BN fragments. Our studies provide molecular-level insights into the differential permeation of proton isotopes through 2D materials. The methods can be extended to examine isotope separation capability of other 2D materials as well.",
+              "doi": "https://doi.org/10.1021/acs.jpclett.6b01507",
+              "id": "https://doi.org/10.1021/acs.jpclett.6b01507",
+              "landing_page_url": "https://doi.org/10.1021/acs.jpclett.6b01507",
+              "publication_date": "2016-08-14",
+              "publication_year": 2016,
+              "source_name": "The Journal of Physical Chemistry Letters",
+              "title": "Differential Permeability of Proton Isotopes through\nGraphene and Graphene Analogue Monolayer",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.carbon.2018.12.086",
+              "id": "https://doi.org/10.1016/j.carbon.2018.12.086",
+              "landing_page_url": "https://doi.org/10.1016/j.carbon.2018.12.086",
+              "publication_date": "2019-04-01",
+              "publication_year": 2019,
+              "source_name": "Carbon",
+              "title": "Graphene multi-protonation: A cooperative mechanism for proton permeation",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.carbon.2016.02.016",
+              "id": "https://doi.org/10.1016/j.carbon.2016.02.016",
+              "landing_page_url": "https://doi.org/10.1016/j.carbon.2016.02.016",
+              "publication_date": "2016-05-01",
+              "publication_year": 2016,
+              "source_name": "Carbon",
+              "title": "Tailoring permeation channels of graphene oxide membranes for precise ion separation",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract Two-dimensional (2D) materials have emerged as a platform for a broad array of future nanoelectronic devices. Here we use first-principles calculations and phonon interface transport modeling to calculate the temperature-dependent thermal boundary conductance (TBC) in single layers of beyond-graphene 2D materials silicene, hBN, boron arsenide (BAs), and blue and black phosphorene (BP) on amorphous SiO 2 and crystalline GaN substrates. Our results show that for 2D/3D systems, the room temperature TBC can span a wide range from 7 to 70 MW m −2 K −1 with the lowest being for BP and highest for hBN. We also show that 2D/3D TBC has a strong temperature dependence that can be alleviated by encapsulating the 2D/3D stack. Upon encapsulation with AlO x , the TBC of several beyond-graphene 2D materials can match or exceed reported values for graphene and numerous transition-metal dichalcogendies which are in the range of 15–40 MW m −2 K −1 . We also compute the room temperature TBC as a function of van der Waals spring coupling ( K a ) where the TBC falls in the range of 50–150 MW m −2 K −1 at coupling strengths of K a = 2–4 N m −1 for silicene, BAs, and blue phosphorene. We further identify group III–V materials with ultra-soft flexural branches as being promising 2D materials for thermal isolation and energy scavenging applications when matched with crystalline substrates.",
+              "doi": "https://doi.org/10.1088/1361-6528/ac0d7d",
+              "id": "https://doi.org/10.1088/1361-6528/ac0d7d",
+              "landing_page_url": "https://doi.org/10.1088/1361-6528/ac0d7d",
+              "publication_date": "2021-07-15",
+              "publication_year": 2021,
+              "source_name": "Nanotechnology",
+              "title": "Thermal boundary conductance of monolayer beyond-graphene two-dimensional materials on SiO\n                    <sub>2</sub>\n                    and GaN",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "proton permeation graphene oxide monolayer conductance",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=proton+permeation+graphene+oxide+monolayer+conductance&filter=until-pub-date%3A2022-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2023-01-01"
+        }
+      ],
+      "search_completed": true
+    },
+    "B": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2022-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "The fabrication of advanced membranes with simultaneously high electron and proton conductivities for energy applications such as H2 separation has been a long-running challenge because a trade-off exists between the two conductivities in general. Here, we report simultaneous improvement of the electron and proton conductivities in angstrom scale graphene oxide (GO) channels through elaborate thermal reduction and vertical confinement of the stacked GO. The electrical conductivity in the highly reduced GO angstrom channels is significantly improved by the removal of oxygen functional groups, which cause high resistance. Concurrently, the extremely reduced channel size of 4.4 Å allows protons to selectively pass through while easily removing other ions through the sieving mechanism. The GO angstrom channels reduced at 220 °C show 58.8 times higher selectivity for protons compared to K+ ions in a 1 M KCl environment, indicating a 42.6-fold improvement over the selectivity of Nafion. The highly reduced horizontal GO membrane has potential applicability in energy devices based on proton exchange membrane requiring high electron as well as proton conductivities.",
+              "doi": "https://doi.org/10.2139/ssrn.4131167",
+              "id": "https://doi.org/10.2139/ssrn.4131167",
+              "landing_page_url": "https://doi.org/10.2139/ssrn.4131167",
+              "publication_date": "2022-01-01",
+              "publication_year": 2022,
+              "source_name": null,
+              "title": "Abnormally Selective Proton Transport Through Angstrom Channels of Highly Reduced Graphene Oxide",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "Development of a PEM with insignificant methanol permeability at highly concentrated methanol supply is considered a major advancement in the direct methanol fuel cell (DMFC) technology. GO, a popular precursor for graphene synthesis, is decorated with surface oxidative groups (-COOH, -OH, C=O, etc.), which render proton conductivity to GO under hydrated conditions [1]. Its proton conductivity, along with a highly impermeable graphene backbone makes GO a suitable material for a highly selective PEM. We prepared a GO membrane, which exhibited two orders of magnitude higher proton to methanol selectivity, as compared to Nafion [2]. The membrane didn’t suffer any open cell voltage drop, even at 5 and 10 M methanol solution. GO is prepared by chemically exfoliating graphite flakes via oxidation. Different recipes have been reported in literature for oxidation of graphite, which result in GO with different oxidation levels. Oxidation level of GO is known to impact its physiochemical properties (flake size, surface defects), which should affect mass transport of species across it. Herein, we present effect of oxidation level of GO on its proton and methanol transport characteristics. At first, we studied the impact of mean flake size on these transport processes, by preparing GO using Hummer’s method, and varying its mean flake size via sonication, while keeping a constant oxidation level. A 10 µ m thick GO laminate is prepared by vacuum filtration of its aqueous dispersion. Methanol permeability of the GO laminate is observed to be varying linearly with flake size (Fig.1). This is because, being similar in size to water, methanol molecules also follow a tortuous transport path around a GO flake [3]. Hence, changing the flake size changes the diffusion path length for methanol. On the contrary, proton conductivity changed rather insignificantly with flake size (Fig.1). This could be due to the presence of proton selective atomic formations on the GO surface, which allows protons to be transported through the GO flake (Fig.3). We conducted a TEM study on the GO flakes, which revealed presence of surface defects of different sizes. Based on the size of these defects, possible proton transport paths across the GO flakes is discussed in Fig.4. GO with three different oxidation levels is prepared using process developed by Marcano et al. [4] by varying the weight ratio of graphite flakes to KMnO 4 . GO 1 to 3 (refers to products with an increasing oxidation level) is prepared by using weight ratios (Graphite: KMnO 4 ) of 1:2, 1:4 and 1:6 respectively. Mean flake size of GO is reduced with increase in the oxidation level; mean flake sizes for GO-1, GO-2 and GO-3 measuring 77, 56 and 34 µm. Reduction in flake size is due to unzipping of GO flakes under oxidative environments. Therefore, methanol permeability across the GO laminate changes with oxidation level (Fig.2). However, unlike in Fig.1, methanol permeability doesn’t change linearly with flake size; rather it varies polynomially (order 3). This is because, in addition to breaking down of flakes, surface defects on GO surface also enlarge under the oxidative environment. This further adds to the methanol permeability across the GO laminate. Proton conductivity also increases with increase in the oxidation level. As mean flake size doesn’t have a significant effect on proton conductivity of GO flakes, this increase is primarily due to increase in the number of surface oxidative groups, which are responsible for the in-plane ionic conductivity of the GO flakes. [1] Karim et al. J. Am. Chem. Soc. 135 (2013) 8097−8100. [2] Paneri et al. J. Power Sources (2013)(Under review). [3] Boukhvalov et al.Nano Lett. 13 (2013) 3930. [4] Marcano et al. ACS Nano 4 (2010) 4806.",
+              "doi": "https://doi.org/10.1149/ma2014-01/33/1269",
+              "id": "https://doi.org/10.1149/ma2014-01/33/1269",
+              "landing_page_url": "https://doi.org/10.1149/ma2014-01/33/1269",
+              "publication_date": "2014-04-01",
+              "publication_year": 2014,
+              "source_name": "ECS Meeting Abstracts",
+              "title": "Effect of Oxidation Level on  Methanol and Proton Transport Characteristics of Graphene Oxide (GO) Based Proton Exchange Membrane (PEM)",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract Novel nanostructured organo‐modified layered materials based on graphene oxide carrying various hydrophilic functional groups (‐NH 2 , ‐OH, ‐SO 3 H) are prepared and tested as nanofillers for the creation of innovative graphene‐based Nafion nanocomposites. The hybrid membranes are characterized by a combination of analytical techniques, which show that highly homogeneous exfoliated nanocomposites are created. The pulsed field gradient NMR technique is used to measure the water self‐diffusion coefficients. Remarkable behavior at temperatures up to 140 °C is observed for some composite membranes, thereby verifying the exceptional water retention property of these materials. Dynamic mechanical analysis shows that hybrid membranes are much stiffer and can withstand higher temperatures than pure Nafion.",
+              "doi": "https://doi.org/10.1002/smll.201200609",
+              "id": "https://doi.org/10.1002/smll.201200609",
+              "landing_page_url": "https://doi.org/10.1002/smll.201200609",
+              "publication_date": "2012-07-25",
+              "publication_year": 2012,
+              "source_name": "Small",
+              "title": "Graphene‐Based Nafion Nanocomposite Membranes: Enhanced Proton Transport and Water Retention by Novel Organo‐functionalized Graphene Oxide Nanosheets",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Selective mass transport in the forms of liquids, gases and ions is the fundamental process in filtration and separation applications. Membranes with porous microstructures have been widely applied in, for example, water treatment, gas separation and biomedical engineering. Graphene oxide (GO) membranes feature a layer-by-layer microstructure with embedded nanoscale interlayer galleries, channels, pores and slits that are highly selective for the transport of molecular species, while the atomistically smooth graphene walls allow enhanced slip flow, holding great promise in practical applications by offering high selectivity and permeability. Moreover, fluid–wall interactions and membrane microstructures can be finely tuned by functionalization of the GO sheets and control of their assembly processes. The GO membrane is thus also a model material for mechanistic studies, to elucidate the underlying mechanisms of selective mass transport in nanoscale channels. In this chapter, we will review the current understanding of nanoscale fluidic transport processes in the hierarchical pathway of GO membranes, based on recent theoretical and experimental progress.",
+              "doi": "https://doi.org/10.1039/9781788013017-00097",
+              "id": "https://doi.org/10.1039/9781788013017-00097",
+              "landing_page_url": "https://doi.org/10.1039/9781788013017-00097",
+              "publication_date": "2018-09-27",
+              "publication_year": 2018,
+              "source_name": "Graphene-based Membranes for Mass Transport Applications",
+              "title": "Mechanisms of Selective Mass Transport through Graphene Oxide Membranes",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1088/2053-1591/ac6d4d/v1/review1",
+              "id": "https://doi.org/10.1088/2053-1591/ac6d4d/v1/review1",
+              "landing_page_url": "https://doi.org/10.1088/2053-1591/ac6d4d/v1/review1",
+              "publication_date": "2022-03-23",
+              "publication_year": 2022,
+              "source_name": null,
+              "title": "Review for \"Temperature-controlled exfoliation of graphite oxide: studies of defects and transport properties of graphene oxide\"",
+              "type": "peer-review"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1088/2053-1591/ac6d4d/v2/review1",
+              "id": "https://doi.org/10.1088/2053-1591/ac6d4d/v2/review1",
+              "landing_page_url": "https://doi.org/10.1088/2053-1591/ac6d4d/v2/review1",
+              "publication_date": "2022-04-30",
+              "publication_year": 2022,
+              "source_name": null,
+              "title": "Review for \"Temperature-controlled exfoliation of graphite oxide: studies of defects and transport properties of graphene oxide\"",
+              "type": "peer-review"
+            },
+            {
+              "abstract": "Graphene oxide (GO) features a unique structure of sp2 hybridized carbon clusters and rich oxygen-containing functional groups co-existing within a two-dimensional (2D) lattice. Due to energetic favorability, the oxygen functional groups tend to cluster together, leaving the empty sp2 aromatic nanoclusters to form an interconnected percolation pathway. Upon stacking numerous GO nanosheets together to form a macroscopic lamellar membrane, the oxygen functional groups attached on GO basal planes act as pillars to support the unoxidized sp2 percolation pathway on individual layers to form a nanocapillary network by connecting with each other across the whole lamellar structure, which is presumably responsible for transmembrane mass transport. In recent years, the research on mass transport properties of GO-based membranes has received intense interest and significant advancements have been achieved both experimentally and theoretically. In this chapter, we review the recent developments in this burgeoning research field by emphasizing the transport properties of water, dissolved ions and molecules, and gaseous atoms and molecules through GO membranes. Finally, a perspective has been given for future developments.",
+              "doi": "https://doi.org/10.1039/9781788013017-00076",
+              "id": "https://doi.org/10.1039/9781788013017-00076",
+              "landing_page_url": "https://doi.org/10.1039/9781788013017-00076",
+              "publication_date": "2018-09-27",
+              "publication_year": 2018,
+              "source_name": "Graphene-based Membranes for Mass Transport Applications",
+              "title": "Selective Mass Transport Properties of Graphene Oxide Lamellar Membranes",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "Dielectric constant estimates suggest that confined water behaves distinctly differently in a hydrophilic environment than in a hydrophobic one.",
+              "doi": "https://doi.org/10.1039/d2cp03095k",
+              "id": "https://doi.org/10.1039/d2cp03095k",
+              "landing_page_url": "https://doi.org/10.1039/d2cp03095k",
+              "publication_date": "2022-01-01",
+              "publication_year": 2022,
+              "source_name": "Physical Chemistry Chemical Physics",
+              "title": "Dielectric response and proton transport in water confined in graphene oxide",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "graphene oxide proton transport spatial heterogeneity",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=graphene+oxide+proton+transport+spatial+heterogeneity&filter=until-pub-date%3A2022-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2023-01-01"
+        },
+        {
+          "api_cutoff": "2022-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.coelec.2020.06.001",
+              "id": "https://doi.org/10.1016/j.coelec.2020.06.001",
+              "landing_page_url": "https://doi.org/10.1016/j.coelec.2020.06.001",
+              "publication_date": "2020-08-01",
+              "publication_year": 2020,
+              "source_name": "Current Opinion in Electrochemistry",
+              "title": "Recent advances of scanning electrochemical microscopy and scanning ion conductance microscopy for single-cell analysis",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1533/9780857095480.3.399",
+              "id": "https://doi.org/10.1533/9780857095480.3.399",
+              "landing_page_url": "https://doi.org/10.1533/9780857095480.3.399",
+              "publication_date": "2012-01-01",
+              "publication_year": 2012,
+              "source_name": "Polymer Electrolyte Membrane and Direct Methanol Fuel Cell Technology",
+              "title": "Scanning electrochemical microscopy (SECM) in proton exchange membrane fuel cell research and development",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1201/b11850-15",
+              "id": "https://doi.org/10.1201/b11850-15",
+              "landing_page_url": "https://doi.org/10.1201/b11850-15",
+              "publication_date": "2012-04-16",
+              "publication_year": 2012,
+              "source_name": "Scanning Electrochemical Microscopy",
+              "title": "Scanning Electrochemical Microscopy of Living Cells",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/11663_2021_12",
+              "id": "https://doi.org/10.1007/11663_2021_12",
+              "landing_page_url": "https://doi.org/10.1007/11663_2021_12",
+              "publication_date": "2022-02-27",
+              "publication_year": 2022,
+              "source_name": "Bioanalytical Reviews",
+              "title": "Local Electrochemical Characterization Using Scanning Electrochemical Cell Microscopy",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1201/b11850-6",
+              "id": "https://doi.org/10.1201/b11850-6",
+              "landing_page_url": "https://doi.org/10.1201/b11850-6",
+              "publication_date": "2012-04-16",
+              "publication_year": 2012,
+              "source_name": "Scanning Electrochemical Microscopy",
+              "title": "Preparation of Tips for Scanning Electrochemical Microscopy",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1201/b11850-18",
+              "id": "https://doi.org/10.1201/b11850-18",
+              "landing_page_url": "https://doi.org/10.1201/b11850-18",
+              "publication_date": "2012-04-16",
+              "publication_year": 2012,
+              "source_name": "Scanning Electrochemical Microscopy",
+              "title": "Micro- and Nanopatterning Using Scanning Electrochemical Microscopy",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1201/9780203910771-5",
+              "id": "https://doi.org/10.1201/9780203910771-5",
+              "landing_page_url": "https://doi.org/10.1201/9780203910771-5",
+              "publication_date": "2001-04-18",
+              "publication_year": 2001,
+              "source_name": "Scanning Electrochemical Microscopy",
+              "title": "THE PREPARATION OF TIPS FOR SCANNING ELECTROCHEMICAL MICROSCOPY",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1201/b11850-17",
+              "id": "https://doi.org/10.1201/b11850-17",
+              "landing_page_url": "https://doi.org/10.1201/b11850-17",
+              "publication_date": "2012-04-16",
+              "publication_year": 2012,
+              "source_name": "Scanning Electrochemical Microscopy",
+              "title": "Applications of Scanning Electrochemical Microscopy in Corrosion Research",
+              "type": "book-chapter"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "scanning electrochemical cell microscopy proton current graphene oxide",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=scanning+electrochemical+cell+microscopy+proton+current+graphene+oxide&filter=until-pub-date%3A2022-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2023-01-01"
+        }
+      ],
+      "search_completed": true
+    }
+  },
+  "generated_at": "2026-08-22",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "4ba1bcdf5424b0a4cf4229ad7246a2cfb2ba5e2927e3b974944a0e082f1d606d",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Searches are frozen reproducible retrieval evidence within the declared provider, queries, cutoff, and result depth. They do not certify absence from all literature.",
+  "strict_before": "2023-01-01",
+  "target_doi_excluded": "10.1038/s41467-023-43637-w",
+  "task_id": "Material_03_membrane_selective_permeation",
+  "release": "V1.0"
+}

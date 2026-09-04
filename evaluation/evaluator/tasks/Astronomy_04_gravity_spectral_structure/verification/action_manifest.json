@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Astronomy_04_gravity_spectral_structure",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition.py",
+      "script_sha256": "e96c63d84e8ee16e2d5c4e8d804c60b021cc963886e467fc0f8d3f7cefeaca28"
+    },
+    {
+      "script": "verification/perturb/A/method.py",
+      "script_sha256": "4863f72fa4f154c9cf4bbfda169dc68c67623433462fd08c0e50082eacbfcd96"
+    },
+    {
+      "script": "verification/perturb/A/sample.py",
+      "script_sha256": "aa8a7a67129b01bbfe9a7a73c0fd3a3acbdd21454b2bdc4fd8bd732b430ce86f"
+    },
+    {
+      "script": "verification/perturb/B/definition.py",
+      "script_sha256": "1b446889fd16fc5efc79af2690008de347fd3894aa64f38c87daf87e6d5be25a"
+    },
+    {
+      "script": "verification/perturb/B/method.py",
+      "script_sha256": "83a58b90cc48a703350fc756c06eeffc17f38368bf693e101ca1931851d7cfd2"
+    },
+    {
+      "script": "verification/perturb/B/sample.py",
+      "script_sha256": "a4ee773f2d0e6554fbd81fe0d6137d69ec4882aff472b8baac30e7ffa562dc47"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "cf851c646b3ef5ffc0d3b81aa584abcccd3adc254aefc5de8fb018acc69b0e41"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "f5871c52c37858842539162722c456fdb6bf83eb696d743c833fd52875c6969e"
+    }
+  ],
+  "verification_tree_sha256": "c8aec8f08152243a3c947c0c5593efc6a0f6c873087417bd88cf78a3e1cf9c04",
+  "verification_file_count": 8,
+  "shared_runtime_tree_sha256": "d8710168f8a9c9ce1fd4946fdcfa0a279806376236feda46a5384b7f302428e9",
+  "shared_runtime_file_count": 4
+}

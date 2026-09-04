@@ -1,0 +1,27 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "nutrient stimulation mTORC1 signaling kinetics 20 minutes",
+        "leucine signaling time course muscle mTOR response"
+      ]
+    },
+    "B": {
+      "queries": [
+        "circulating leucine tissue uptake system state",
+        "nutrient input uptake tissue response perturbation"
+      ]
+    }
+  },
+  "frozen_at": "2026-08-22",
+  "provider": "OpenAlex_primary_with_Crossref_fallback",
+  "provider_api": [
+    "https://api.openalex.org/works",
+    "https://api.crossref.org/works"
+  ],
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2020-01-01",
+  "target_doi_excluded": "10.1038/s41467-019-13889-6",
+  "task_id": "Life_07_nutrient_response_kinetics",
+  "release": "V1.0"
+}

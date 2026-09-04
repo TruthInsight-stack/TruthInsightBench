@@ -1,0 +1,94 @@
+{
+  "schema": "truthinsightbench-data-manifest",
+  "task_id": "Neuro_05_temporal_geometry",
+  "title": "Event-State Timing and Unit-Distance Geometry",
+  "domain": "neuroscience",
+  "t0": "2022-01-01",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "scientific_scope": "All frozen event-level records from two recording sets, unit-distance latency summaries, and the complete multichannel event panel.",
+  "analysis_unit": "One complete recording set, unit, or multichannel event; adjacent events within a recording are repeated observations.",
+  "missingness": "No curator-imposed row deletion, random subsampling, or imputation is applied within the frozen task boundary.",
+  "license_boundary": "The selected source-data sheets are from a CC BY article record and are bundled after recording and neural identities are removed.",
+  "warnings": [
+    "Anonymous states and units permit timing and geometry claims but not a named cellular or synaptic mechanism.",
+    "Evidence must be separated across recording-, event-, unit-, and panel-level analysis units."
+  ],
+  "variable_dictionary": {
+    "event_recording_set_a.tsv": [
+      "event_index",
+      "event_relative_time",
+      "pre_event_signal"
+    ],
+    "event_recording_set_b.tsv": [
+      "event_index",
+      "event_relative_time",
+      "pre_event_signal"
+    ],
+    "unit_distance_mean_latency.tsv": [
+      "unit_index",
+      "pair_distance",
+      "mean_event_latency"
+    ],
+    "unit_distance_latency_variability.tsv": [
+      "unit_index",
+      "pair_distance",
+      "event_latency_sd"
+    ],
+    "multichannel_event_panel.tsv": [
+      "event_index",
+      "unit_index",
+      "pre_event_signal"
+    ]
+  },
+  "source_projection_inventory": [],
+  "files": [
+    {
+      "path": "event_recording_set_a.tsv",
+      "bytes": 601,
+      "sha256": "e328acecd5123d144756efde9ab16c51f5648ae7b32b7f888d9aa34e5dbe7f7e",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "event_recording_set_b.tsv",
+      "bytes": 9323,
+      "sha256": "06ef8d13f6642bdfc90ed96ff848d32edabc1493cb838c003734df5597492dfc",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "unit_distance_mean_latency.tsv",
+      "bytes": 716,
+      "sha256": "15a8470d2feaa7673c9c36d616e312ff6a767256c651c71fd8792196d09d63b4",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "unit_distance_latency_variability.tsv",
+      "bytes": 737,
+      "sha256": "7269074c0d14addac112ab87a6ad0b877f176604f035ce2d739aaf1a20a5df87",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "multichannel_event_panel.tsv",
+      "bytes": 1465,
+      "sha256": "c3821b1fdc252339d64239e982fb882f47357997512117da4a0a650b2d9278eb",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

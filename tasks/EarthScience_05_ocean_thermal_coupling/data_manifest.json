@@ -1,0 +1,43 @@
+{
+  "schema": "truthinsightbench-data-manifest",
+  "task_id": "EarthScience_05_ocean_thermal_coupling",
+  "title": "Coupling, Phase, and Transition Structure in a Continuous Ocean Record",
+  "domain": "earth_science",
+  "t0": "2022-01-01",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "scientific_scope": "The complete frozen sediment-depth, dual-age-coordinate, and isotope-proxy record, with every ordered row retained.",
+  "analysis_unit": "One contiguous depth or age interval; adjacent core rows are serially correlated and must not be treated as independent replicates.",
+  "missingness": "No curator-imposed row deletion, random subsampling, or imputation is applied within the frozen task boundary.",
+  "license_boundary": "The complete PANGAEA numerical table is CC BY 4.0 and is bundled with normalized, ordinal column names.",
+  "warnings": [
+    "One continuous record cannot by itself establish a global Earth-system causal mechanism.",
+    "Alternative age coordinates, smoothing windows, and contiguous block choices must be compared explicitly."
+  ],
+  "variable_dictionary": {
+    "observations.tsv": [
+      "c01_depth_sed_m_merged",
+      "c02_age_ka_bp_1_see_reference_s",
+      "c03_age_ka_bp_2_see_reference_s",
+      "c04_c_wuellerstorfi_18o_pdb_vs_vpdb_analytical_error_0"
+    ]
+  },
+  "source_projection_inventory": [],
+  "files": [
+    {
+      "path": "observations.tsv",
+      "bytes": 15150,
+      "sha256": "dd1954d79d70fff765e91be1d1778eecb0b7f5bd3afe75a4169960e8ae46c358",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

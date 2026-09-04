@@ -1,0 +1,1165 @@
+{
+  "all_queries_completed": true,
+  "cards": {
+    "A": {
+      "queries": [
+        {
+          "api_cutoff": "2023-09-24",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "Water deficiency compromises plant performance and yield in many habitats and in agriculture. In addition to survival of the acute drought stress period which depends on plant-genotype-specific characteristics, stress intensity and duration, also the speed and efficiency of recovery determine plant performance. Drought-induced deregulation of metabolism enhances generation of reactive oxygen species (ROS) and reactive nitrogen species (RNS) which in turn affect the redox regulatory state of the cell. Strong correlative and analytical evidence assigns a major role in drought tolerance to the redox regulatory and antioxidant system. This review compiles current knowledge on the response and function of superoxide, hydrogen peroxide and nitric oxide under drought stress in various species and drought stress regimes. The meta-analysis of reported changes in transcript and protein amounts, and activities of components of the antioxidant and redox network support the tentative conclusion that drought tolerance is more tightly linked to up-regulated ascorbate-dependent antioxidant activity than to the response of the thiol-redox regulatory network. The significance of the antioxidant system in surviving severe phases of dehydration is further supported by the strong antioxidant system usually encountered in resurrection plants.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-04-08",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3390/antiox8040094",
+              "id": "https://openalex.org/W2936861353",
+              "provider": "openalex",
+              "title": "The Role of the Plant Antioxidant System in Drought Tolerance"
+            },
+            {
+              "abstract": "In this paper, a terminological framework is provided for describing different transactionoriented recovery schemes for database systems in a conceptual rather than an implementation-dependent way. By introducing the terms materialized database, propagation strategy, and checkpoint, we obtain a means for classifying arbitrary implementations from a unified viewpoint. This is complemented by a classification scheme for logging techniques, which are precisely defined by using the other terms. It is shown that these criteria are related to all relevant questions such as speed and scope of recovery and amount of redundant information required. The primary purpose of this paper, however, is to establish an adequate and precise terminology for a topic in which the confusion of concepts and implementational aspects still imposes a lot of problems.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1983-12-02",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1145/289.291",
+              "id": "https://openalex.org/W2010042648",
+              "provider": "openalex",
+              "title": "Principles of transaction-oriented database recovery"
+            },
+            {
+              "abstract": "This paper introduces AntNet, a novel approach to the adaptive learning of routing tables in communications networks. AntNet is a distributed, mobile agents based Monte Carlo system that was inspired by recent work on the ant colony metaphor for solving optimization problems. AntNet's agents concurrently explore the network and exchange collected information. The communication among the agents is indirect and asynchronous, mediated by the network itself. This form of communication is typical of social insects and is called stigmergy. We compare our algorithm with six state-of-the-art routing algorithms coming from the telecommunications and machine learning fields. The algorithms' performance is evaluated over a set of realistic testbeds. We run many experiments over real and artificial IP datagram networks with increasing number of nodes and under several paradigmatic spatial and temporal traffic distributions. Results are very encouraging. AntNet showed superior performance under all the experimental conditions with respect to its competitors. We analyze the main characteristics of the algorithm and try to explain the reasons for its superiority.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1998-12-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1613/jair.530",
+              "id": "https://openalex.org/W1664011265",
+              "provider": "openalex",
+              "title": "AntNet: Distributed Stigmergetic Control for Communications Networks"
+            },
+            {
+              "abstract": "Hydrogen has been ‘just around the corner’ for decades, but now offers serious alternatives for decarbonising global heat, power and transport.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-12-10",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1039/c8ee01157e",
+              "id": "https://openalex.org/W2905218447",
+              "provider": "openalex",
+              "title": "The role of hydrogen and fuel cells in the global energy system"
+            },
+            {
+              "abstract": "We have developed Ceph, a distributed file system that provides excellent performance, reliability, and scalability. Ceph maximizes the separation between data and metadata management by replacing allocation tables with a pseudo-random data distribution function (CRUSH) designed for heterogeneous and dynamic clusters of unreliable object storage devices (OSDs). We leverage device intelligence by distributing data replication, failure detection and recovery to semi-autonomous OSDs running a specialized local object file system. A dynamic distributed metadata cluster provides extremely efficient metadata management and seamlessly adapts to a wide range of general purpose and scientific computing file system workloads. Performance measurements under a variety of workloads show that Ceph has excellent I/O performance and scalable metadata management, supporting more than 250,000 metadata operations per second. 1",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2006-11-06",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.5555/1298455.1298485",
+              "id": "https://openalex.org/W1999984505",
+              "provider": "openalex",
+              "title": "Ceph: a scalable, high-performance distributed file system"
+            },
+            {
+              "abstract": "This paper gives the main definitions relating to dependability, a generic concept including a special case of such attributes as reliability, availability, safety, integrity, maintainability, etc. Security brings in concerns for confidentiality, in addition to availability and integrity. Basic definitions are given first. They are then commented upon, and supplemented by additional definitions, which address the threats to dependability and security (faults, errors, failures), their attributes, and the means for their achievement (fault prevention, fault tolerance, fault removal, fault forecasting). The aim is to explicate a set of general concepts, of relevance across a wide range of situations and, therefore, helping communication and cooperation among a number of scientific and technical communities, including ones that are concentrating on particular types of system, of system failures, or of causes of system failures.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2004-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/tdsc.2004.2",
+              "id": "https://openalex.org/W2145071552",
+              "provider": "openalex",
+              "title": "Basic concepts and taxonomy of dependable and secure computing"
+            },
+            {
+              "abstract": "Significance Flooding due to extreme weather events can be highly detrimental to plant development and yield. Speedy recovery following stress removal is an important determinant of tolerance, yet mechanisms regulating this remain largely uncharacterized. We identified a regulatory network in Arabidopsis thaliana that controls water loss and senescence to influence recovery from prolonged submergence. Targeted control of the molecular mechanisms facilitating stress recovery identified here could potentially improve performance of crops in flood-prone areas.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-06-11",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1073/pnas.1803841115",
+              "id": "https://openalex.org/W2793502838",
+              "provider": "openalex",
+              "title": "A stress recovery signaling network for enhanced flooding tolerance in <i>Arabidopsis thaliana</i>"
+            },
+            {
+              "abstract": "Emerging mega-trends (e.g., mobile, social, cloud, and big data) in information and communication technologies (ICT) are commanding new challenges to future Internet, for which ubiquitous accessibility, high bandwidth, and dynamic management are crucial. However, traditional approaches based on manual configuration of proprietary devices are cumbersome and error-prone, and they cannot fully utilize the capability of physical network infrastructure. Recently, software-defined networking (SDN) has been touted as one of the most promising solutions for future Internet. SDN is characterized by its two distinguished features, including decoupling the control plane from the data plane and providing programmability for network application development. As a result, SDN is positioned to provide more efficient configuration, better performance, and higher flexibility to accommodate innovative network designs. This paper surveys latest developments in this active research area of SDN. We first present a generally accepted definition for SDN with the aforementioned two characteristic features and potential benefits of SDN. We then dwell on its three-layer architecture, including an infrastructure layer, a control layer, and an application layer, and substantiate each layer with existing research efforts and its related research areas. We follow that with an overview of the de facto SDN implementation (i.e., OpenFlow). Finally, we conclude this survey paper with some suggested open research challenges.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2014-06-19",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/comst.2014.2330903",
+              "id": "https://openalex.org/W2067453331",
+              "provider": "openalex",
+              "title": "A Survey on Software-Defined Networking"
+            },
+            {
+              "abstract": "Acute kidney injury (AKI) and chronic kidney disease are increasingly recognized as interconnected entities and the term acute kidney disease (AKD) has been proposed to define ongoing pathophysiologic processes following an episode of AKI. In this Consensus statement, the Acute Disease Quality Initiative 16 Workgroup propose definitions and staging criteria for AKD, and strategies for the management of affected patients. They also make recommendations for areas of future research with the aims of improving understanding of the underlying processes and improving outcomes. Consensus definitions have been reached for both acute kidney injury (AKI) and chronic kidney disease (CKD) and these definitions are now routinely used in research and clinical practice. The KDIGO guideline defines AKI as an abrupt decrease in kidney function occurring over 7 days or less, whereas CKD is defined by the persistence of kidney disease for a period of >90 days. AKI and CKD are increasingly recognized as related entities and in some instances probably represent a continuum of the disease process. For patients in whom pathophysiologic processes are ongoing, the term acute kidney disease (AKD) has been proposed to define the course of disease after AKI; however, definitions of AKD and strategies for the management of patients with AKD are not currently available. In this consensus statement, the Acute Disease Quality Initiative (ADQI) proposes definitions, staging criteria for AKD, and strategies for the management of affected patients. We also make recommendations for areas of future research, w",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-02-27",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/nrneph.2017.2",
+              "id": "https://openalex.org/W2591419591",
+              "provider": "openalex",
+              "title": "Acute kidney disease and renal recovery: consensus report of the Acute Disease Quality Initiative (ADQI) 16 Workgroup"
+            },
+            {
+              "abstract": "The past decade has witnessed the rapid evolution in blockchain technologies, which has attracted tremendous interests from both the research communities and industries. The blockchain network was originated from the Internet financial sector as a decentralized, immutable ledger system for transactional data ordering. Nowadays, it is envisioned as a powerful backbone/framework for decentralized data processing and data-driven self-organization in flat, open-access networks. In particular, the plausible characteristics of decentralization, immutability, and self-organization are primarily owing to the unique decentralized consensus mechanisms introduced by blockchain networks. This survey is motivated by the lack of a comprehensive literature review on the development of decentralized consensus mechanisms in blockchain networks. In this paper, we provide a systematic vision of the organization of blockchain networks. By emphasizing the unique characteristics of decentralized consensus in blockchain networks, our in-depth review of the state-of-the-art consensus protocols is focused on both the perspective of distributed consensus system design and the perspective of incentive mechanism design. From a game-theoretic point of view, we also provide a thorough review of the strategy adopted for self-organization by the individual nodes in the blockchain backbone networks. Consequently, we provide a comprehensive survey of the emerging applications of blockchain networks in a broad area of telecommunication. We highlight our special interest in how the consensus mechanisms impact",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/access.2019.2896108",
+              "id": "https://openalex.org/W2905867785",
+              "provider": "openalex",
+              "title": "A Survey on Consensus Mechanisms and Mining Strategy Management in Blockchain Networks"
+            },
+            {
+              "abstract": "India is vulnerable to disasters such as earthquakes, floods, tsunamis, landslides forest fires and cyclones due to its unique socio-economic and geo-climatic conditions. Twenty seven out of thirty-six states and union territories are prone to different types of disasters which cause loss of life, disruption of livelihoods, damage to infrastructure and property which in turn becomes a heavy burden on the national economy. Effective management of relief work is a key step towards normalizing human life post disaster. In this paper, we have presented the formal development and verification of a fault tolerance and recovery algorithm for district level disaster control centers in India which are connected to each other via a communication network. Formal methods help in the verification of critical properties of complex systems by developing mathematical models so that design errors can be detected and removed during the early stages of software development. Event-B, which is a formal method and Rodin platform is used for this work. Event-B is a mathematical language of first-order logic to provide a solution to the complex algorithms formally. In this algorithm a Disaster Control Centre is chosen as the coordinator based on its unique vote value. This vote value is allotted and modified dynamically based on the extent of damage in the area where the center is located. The center having the highest vote value among the currently active centers is elected as the coordinator. The correctness of the algorithm is verified through discharge of proof obligations generated by the Event-B model.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-05-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.56042/jsir.v81i05.59707",
+              "id": "S2:1c64f176e53255fd9ffc6fb43f86fca1aeef2f92",
+              "provider": "semantic_scholar",
+              "title": "Rigorous Design of Fault Tolerance and Recovery Algorithm for Disaster Management and Relief Distribution System using Event-B",
+              "url": "https://www.semanticscholar.org/paper/1c64f176e53255fd9ffc6fb43f86fca1aeef2f92?utm_source=api"
+            },
+            {
+              "abstract": "Real systems are usually composed by units or nodes whose activity can be interrupted and restored intermittently due to complex interactions not only with the environment, but also with the same system. Majdandžić et al (2014 Nat. Phys. 10 34) proposed a model to study systems in which active nodes fail and recover spontaneously in a complex network and found that in the steady state the density of active nodes can exhibit an abrupt transition and hysteresis depending on the values of the parameters. Here we investigate a model of recovery-failure from a dynamical point of view. Using an effective degree approach we find that the systems can exhibit a temporal sharp decrease in the fraction of active nodes. Moreover we show that, depending on the values of the parameters, the fraction of active nodes has an oscillatory regime which we explain as a competition between different failure processes. We also find that in the non-oscillatory regime, the critical fraction of active nodes presents a discontinuous drop which can be related to a ‘targeted’ k-core percolation process. Finally, using mean field equations we analyze the space of parameters at which hysteresis and oscillatory regimes can be found.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-06-10",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/1742-5468/2016/09/093402",
+              "id": "S2:c238ce8ba6846238311ad586c3170f96d20852a5",
+              "provider": "semantic_scholar",
+              "title": "Failure-recovery model with competition between failures in complex networks: a dynamical approach",
+              "url": "https://www.semanticscholar.org/paper/c238ce8ba6846238311ad586c3170f96d20852a5?utm_source=api"
+            },
+            {
+              "abstract": "The prediction of extreme events, from avalanches and droughts to tsunamis and epidemics, depends on the formulation and analysis of relevant, complex dynamical systems. Such dynamical systems are characterized by high intrinsic dimensionality with extreme events having the form of rare transitions that are several standard deviations away from the mean. Such systems are not amenable to classical order-reduction methods through projection of the governing equations due to the large intrinsic dimensionality of the underlying attractor as well as the complexity of the transient events. Alternatively, data-driven techniques aim to quantify the dynamics of specific, critical modes by utilizing data-streams and by expanding the dimensionality of the reduced-order model using delayed coordinates. In turn, these methods have major limitations in regions of the phase space with sparse data, which is the case for extreme events. In this work, we develop a novel hybrid framework that complements an imperfect reduced order model, with data-streams that are integrated though a recurrent neural network (RNN) architecture. The reduced order model has the form of projected equations into a low-dimensional subspace that still contains important dynamical information about the system and it is expanded by a long short-term memory (LSTM) regularization. The LSTM-RNN is trained by analyzing the mismatch between the imperfect model and the data-streams, projected to the reduced-order space. The data-driven model assists the imperfect model in regions where data is available, while for locations where data is sparse the imperfect model still provides a baseline for the prediction of the system state. We assess the developed framework on two challenging prototype systems exhibiting extreme events. We show that the blended approach has improved performance compared with methods that use either data streams or the imperfect model alone. Notably the improvement is more significant in regions associated with extreme events, where data is sparse.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-03-09",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1371/journal.pone.0197704",
+              "id": "S2:cd5477222fc1c615ad45ab9736802d9e5353897c",
+              "provider": "semantic_scholar",
+              "title": "Data-assisted reduced-order modeling of extreme events in complex dynamical systems",
+              "url": "https://www.semanticscholar.org/paper/cd5477222fc1c615ad45ab9736802d9e5353897c?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-04-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.robot.2016.10.007",
+              "id": "S2:5aa34faf7259a31b748528efcc90fa07a9d173d8",
+              "provider": "semantic_scholar",
+              "title": "Perspectives for miniaturized, distributed, networked cooperating systems for space exploration",
+              "url": "https://www.semanticscholar.org/paper/5aa34faf7259a31b748528efcc90fa07a9d173d8?utm_source=api"
+            },
+            {
+              "abstract": "In modern distributed systems, efficient write operations are critical to achieving high performance and responsiveness. However, as systems scale, the overhead associated with managing writes can become a bottleneck, particularly when batching techniques are used. Write batching is a common strategy to reduce the overhead of frequent write operations by grouping them together into a single batch. This approach reduces the number of transactions or communication rounds required to commit data, thus improving throughput. However, it also introduces a significant challenge: high write latency. High write latency occurs when the time it takes to write data to the system becomes excessive, resulting in delayed responses to clients and reduced overall system efficiency. The latency in write batching systems is often influenced by several factors, including the time required to accumulate enough writes to form a full batch, the coordination required between nodes, and the delay in flushing the batch to persistent storage or replicating it across the system If there are many write requests arriving at the same time, the system might need to handle conflicts or lock resources, leading to delays before writes can be committed. In some cases, partial batches—where not enough writes have accumulated—may need to be handled separately, further adding to the overhead. The high write latency in batching systems becomes especially pronounced when dealing with large numbers of nodes or when the network communication is slow or unreliable. As the system scales horizontally, the coordination and communication overhead grow, potentially exacerbating the delay in committing batches. This trade-off between write efficiency and latency is a fundamental challenge in distributed systems. If the system has a large batch size or a long flush period, this waiting time can lead to a noticeable delay in processing individual write requests. To address this issue, optimizing write batching systems requires strategies that balance the need for efficient coordination with minimizing delays. Reducing quorum requirements, implementing more efficient conflict resolution mechanisms, and dynamically adjusting batch sizes can help mitigate the impact of high write latency. Furthermore, leveraging algorithms that reduce the number of communication rounds, such as optimizing consensus protocols, can also help achieve better performance while ensuring consistency across the system. This paper addresses the high write latency issue which write operations are facing with the help of fast paxos algorithm.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-08-13",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.37082/ijirmps.v9.i4.232536",
+              "id": "S2:f5169e9a5f51d94e0ce04b2abbee978190e6c35a",
+              "provider": "semantic_scholar",
+              "title": "Ensuring Fault Tolerance and Consistency in Distributed Systems Using Zab",
+              "url": "https://www.semanticscholar.org/paper/f5169e9a5f51d94e0ce04b2abbee978190e6c35a?utm_source=api"
+            },
+            {
+              "abstract": "Abstract This paper studies semi-global state synchronization of discrete-time homogeneous networks with diffusive full-state coupling or partial-state coupling subject to actuator saturation and unknown nonuniform input delay. We assume that agents are at most critical unstable, that is the agents have all its eigenvalues in the closed unit disc. The communication network is associated with an undirected and weighted graph, which is represented by a row stochastic matrix. In this paper, we derive an upper bound for the input delay tolerance, which explicitly depends only on the agent dynamics. Moreover, for any unknown delay less than the upper bound, we propose a linear static protocol for MAS with full-state coupling and a linear dynamic protocol for MAS with partial-state coupling based on a low-gain methodology such that state synchronization is achieved among agents for any initial conditions in a priori given compact set.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-07-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.ejcon.2019.12.006",
+              "id": "S2:a23ba4819a9b516e4fdf604bbb3d715865967db6",
+              "provider": "semantic_scholar",
+              "title": "Semi-global state synchronization for discrete-time multi-agent systems subject to actuator saturation and unknown nonuniform input delay",
+              "url": "https://www.semanticscholar.org/paper/a23ba4819a9b516e4fdf604bbb3d715865967db6?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2013-12-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/nphys2819",
+              "id": "S2:61d27eb74b6e401852d434a75aad05fe52c7c4a5",
+              "provider": "semantic_scholar",
+              "title": "Spontaneous recovery in dynamical networks",
+              "url": "https://www.semanticscholar.org/paper/61d27eb74b6e401852d434a75aad05fe52c7c4a5?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-09-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1115/1.4030439",
+              "id": "S2:9d3826267098763c58d07187ba80217dc2f09bef",
+              "provider": "semantic_scholar",
+              "title": "Analysis of the Robustness and Recovery of Critical Infrastructures by Goal Tree–Success Tree: Dynamic Master Logic Diagram, Within a Multistate System-of-Systems Framework, in the Presence of Epistemic Uncertainty",
+              "url": "https://www.semanticscholar.org/paper/9d3826267098763c58d07187ba80217dc2f09bef?utm_source=api"
+            },
+            {
+              "abstract": "With the increasing deployment of deep neural networks (DNNs) in terrestrial and aerospace safety-critical applications, system reliability has emerged as a co-equal design metric alongside computational efficiency. Algorithm-based fault tolerance (ABFT) mechanisms, characterized by architecture-agnostic and cost-effectiveness, have become a promising solution for reliability enhancement. However, conventional ABFT approaches rely on rigorous verification mechanisms where even minor computational deviations trigger error recovery processes, which not only disregards the intrinsic fault tolerance characteristics of DNN models but also incurs redundant fault tolerance processing overhead. To address these limitations, we propose an Approximate ABFT framework (ApproxABFT) that innovatively introduces adaptive error tolerance thresholds to enable selective fault recovery, activating error correction modules exclusively when computational deviations exceed predefined thresholds. This approach effectively mitigating overreaction to non-critical computational errors. Furthermore, a dynamic block granularity optimization algorithm is implemented to achieve inter-layer error sensitivity balancing. Experimental evaluations demonstrate that the proposed ApproxABFT achieves a 43.39% average reduction in redundant computing overhead compared to previous accurate ABFT, while simultaneously enhancing the tolerable soft error rate by an order of magnitude.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2023-02-21",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:5cdffddd4e3fe672242644450e46161257e09f57",
+              "provider": "semantic_scholar",
+              "title": "ApproxABFT: Approximate Algorithm-Based Fault Tolerance for Neural Network Processing",
+              "url": "https://www.semanticscholar.org/paper/5cdffddd4e3fe672242644450e46161257e09f57?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2023-09-24",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 19649,
+              "query": "delay tolerance critical transition networked dynamical systems recovery",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8360",
+                "reset_seconds": "47097"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2023-09-24",
+                  "per_page": "10",
+                  "search": "delay tolerance critical transition networked dynamical systems recovery",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2023-09-25"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2023-09-24",
+              "attempts": 1,
+              "locally_excluded_uncertain_or_not_strictly_before": 1,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 346,
+              "query": "delay tolerance critical transition networked dynamical systems recovery",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "delay tolerance critical transition networked dynamical systems recovery",
+                  "year": "1900-2023"
+                }
+              },
+              "strict_before": "2023-09-25"
+            }
+          },
+          "query": "delay tolerance critical transition networked dynamical systems recovery",
+          "strict_before": "2023-09-25"
+        },
+        {
+          "api_cutoff": "2023-09-24",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2023-04-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.physrep.2023.03.005",
+              "id": "https://openalex.org/W4362640737",
+              "provider": "openalex",
+              "title": "Signal propagation in complex networks"
+            },
+            {
+              "abstract": "Viability is the ability of a supply chain (SC) to maintain itself and survive in a changing environment through a redesign of structures and replanning of performance with long-term impacts. In this paper, we theorize a new notion-the viable supply chain (VSC). In our approach, viability is considered as an underlying SC property spanning three perspectives, i.e., agility, resilience, and sustainability. The principal ideas of the VSC model are adaptable structural SC designs for supply-demand allocations and, most importantly, establishment and control of adaptive mechanisms for transitions between the structural designs. Further, we demonstrate how the VSC components can be categorized across organizational, informational, process-functional, technological, and financial structures. Moreover, our study offers a VSC framework within an SC ecosystem. We discuss the relations between resilience and viability. Through the lens and guidance of dynamic systems theory, we illustrate the VSC model at the technical level. The VSC model can be of value for decision-makers to design SCs that can react adaptively to both positive changes (i.e., the agility angle) and be able to absorb negative disturbances, recover and survive during short-term disruptions and long-term, global shocks with societal and economical transformations (i.e., the resilience and sustainability angles). The VSC model can help firms in guiding their decisions on recovery and re-building of their SCs after global, long-term crises such as the COVID-19 pandemic. We emphasize that resilience is the central persp",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-05-22",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s10479-020-03640-6",
+              "id": "https://openalex.org/W3026347338",
+              "provider": "openalex",
+              "title": "Viable supply chain model: integrating agility, resilience and sustainability perspectives—lessons from and thinking beyond the COVID-19 pandemic"
+            },
+            {
+              "abstract": "Technologically driven transport systems are characterized by a networked structure connecting operation centers and by a dynamics ruled by pre-established schedules. Schedules impose serious constraints on the timing of the operations, condition the allocation of resources and define a baseline to assess system performance. Here we study the performance of an air transportation system in terms of delays. Technical, operational or meteorological issues affecting some flights give rise to primary delays. When operations continue, such delays can propagate, magnify and eventually involve a significant part of the network. We define metrics able to quantify the level of network congestion and introduce a model that reproduces the delay propagation patterns observed in the U.S. performance data. Our results indicate that there is a non-negligible risk of systemic instability even under normal operating conditions. We also identify passenger and crew connectivity as the most relevant internal factor contributing to delay spreading.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2013-01-29",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/srep01159",
+              "id": "https://openalex.org/W1979691156",
+              "provider": "openalex",
+              "title": "Systemic delay propagation in the US airport network"
+            },
+            {
+              "abstract": "Due to a surge in the frequency and intensity of disruptive events, such as natural disasters, the Covid-19 pandemic, and intentional attacks, the concept of resilience has attracted increased attention in recent years. Many scholars have focused on transportation network resilience because of its importance in society's well-being and recovery efforts after disturbances. Existing studies have suggested various definitions, indicators, and methods for assessing the resilience of transportation networks. This variation is due to differences in the nature, scale, and impact of disturbances. This systematic literature review presents resilience assessment methods for transportation networks, indicators, and disturbance categories. A new representation is suggested for the relationships between performance, time, and resilience, emphasizing other network characteristics and their association with resilience. Resilience indicators are categorized, and disturbance categories are analyzed. Approaches are grouped based on their methodologies and presenting their strengths and limitations. This paper directs future studies toward investigating emerging threats, including climate change, pandemics, cybersecurity, failure propagation, and the impacts of new technologies and paradigms on urban transportation resilience. Additionally, it highlights the benefits of identifying a reference metric. Finally, this paper promotes resilience-based thinking to address challenges facing cities worldwide as a cornerstone for creating lasting sustainable development.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-10-14",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.scs.2021.103452",
+              "id": "https://openalex.org/W3206186094",
+              "provider": "openalex",
+              "title": "Urban Transportation Networks Resilience: Indicators, Disturbances, and Assessment Methods"
+            },
+            {
+              "abstract": "Power grids are cyber-physical systems and can be modelled as network systems where individual units (generators, busbars and loads) are interconnected through physical and cyber links. Network components (nodes/edges) may undergo intentional and/or random failures. In catastrophic cases, a failure initiating from a small set of these components can quickly propagate through the whole network, leading to a cascade of failures that might force a deep whole-grid blackout. Often network components have different vitality and protecting some is more critical than others. This manuscript aims to provide a focused overview of modelling power grids as complex networks and their resilience and reliability analysis. We also perform a critical review of vitality metrics and their precision in power grid resilience analysis. The review is accompanied by some simulations on benchmark and real power grids to show the applicability of these concepts in studying resilience.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/access.2021.3107492",
+              "id": "https://openalex.org/W3194684099",
+              "provider": "openalex",
+              "title": "Power Grids as Complex Networks: Resilience and Reliability Analysis"
+            },
+            {
+              "abstract": "The concept of resilience can be realized in natural and engineering systems, representing the ability of a system to adapt and recover from various disturbances. Although resilience is a critical property needed for understanding and managing the risks and collapses of transportation systems, an accepted and useful definition of resilience for urban traffic as well as its statistical property under perturbations are still missing. Here, we define city traffic resilience based on the spatiotemporal clusters of congestion in real traffic and find that the resilience follows a scale-free distribution in 2D city road networks and 1D highways with different exponents but similar exponents on different days and in different cities. The traffic resilience is also revealed to have a scaling relation between the cluster size of the spatiotemporal jam and its recovery duration independent of microscopic details. Our findings of universal traffic resilience can provide an indication toward better understanding and designing of these complex engineering systems under internal and external disturbances.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-04-12",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1073/pnas.1814982116",
+              "id": "https://openalex.org/W2799147922",
+              "provider": "openalex",
+              "title": "Scale-free resilience of real traffic jams"
+            },
+            {
+              "abstract": "Risk management is a fundamental approach to improving critical infrastructure systems’ safety against disruptive events. This approach focuses on designing robust critical infrastructure systems (CISs) that could resist disruptive events by minimizing the possible events’ probability and consequences using preventive and protective programs. However, recent disasters like COVID-19 have shown that most CISs cannot stand against all potential disruptions. Recently there is a transition from robust design to resilience design of CISs, increasing the focus on preparedness, response, and recovery. Resilient CISs withstand most of the internal and external shocks, and if they fail, they can bounce back to the operational phase as soon as possible using minimum resources. Moreover, in resilient CISs, early warning enables managers to get timely information about the proximity and development of distributions. An understanding of the concept of resilience, its influential factors, and available evaluation and analyzing tools are required to have effective resilience management. Moreover, it is important to highlight the current gaps. Technological resilience is a new concept associated with some ambiguity around its definition, its terms, and its applications. Hence, using the concept of resilience without understanding these variations may lead to ineffective pre- and post-disruption planning. A well-established systematic literature review can provide a deep understanding regarding the concept of resilience, its limitation, and applications. The aim of this paper is to conduct a",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-03-12",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3390/en14061571",
+              "id": "https://openalex.org/W3139534754",
+              "provider": "openalex",
+              "title": "The Resilience of Critical Infrastructure Systems: A Systematic Literature Review"
+            },
+            {
+              "abstract": "González, J. A., C. Montes, J. Rodríguez, and W. Tapia. 2008. Rethinking the Galapagos Islands as a complex social-ecological system: implications for conservation and management. Ecology and Society 13(2): 13. https://doi.org/10.5751/ES-02557-130213",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2008-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.5751/es-02557-130213",
+              "id": "https://openalex.org/W1517640814",
+              "provider": "openalex",
+              "title": "Rethinking the Galapagos Islands as a Complex Social-Ecological System: Implications for Conservation and Management"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2013-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1140/epjst/e2013-01711-9",
+              "id": "https://openalex.org/W2023841300",
+              "provider": "openalex",
+              "title": "Modelling the air transport with complex networks: A short review"
+            },
+            {
+              "abstract": "Plants growing in their natural habitats are often challenged simultaneously by multiple stress factors, both abiotic and biotic. Research has so far been limited to responses to individual stresses, and understanding of adaptation to combinatorial stress is limited, but indicative of non-additive interactions. Omics data analysis and functional characterization of individual genes has revealed a convergence of signaling pathways for abiotic and biotic stress adaptation. Taking into account that most data originate from imposition of individual stress factors, this review summarizes these findings in a physiological context, following the pathogenesis timeline and highlighting potential differential interactions occurring between abiotic and biotic stress signaling across the different cellular compartments and at the whole plant level. Potential effects of abiotic stress on resistance components such as extracellular receptor proteins, R-genes and systemic acquired resistance will be elaborated, as well as crosstalk at the levels of hormone, reactive oxygen species, and redox signaling. Breeding targets and strategies are proposed focusing on either manipulation and deployment of individual common regulators such as transcription factors or pyramiding of non- (negatively) interacting components such as R-genes with abiotic stress resistance genes. We propose that dissection of broad spectrum stress tolerance conferred by priming chemicals may provide an insight on stress cross regulation and additional candidate genes for improving crop performance under combined stress. V",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2014-05-19",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3389/fpls.2014.00207",
+              "id": "https://openalex.org/W2088102366",
+              "provider": "openalex",
+              "title": "Enhancing crop resilience to combined abiotic and biotic stress through the dissection of physiological and molecular crosstalk"
+            },
+            {
+              "abstract": "Multilayer systems are coupled networks characterized by different contexts (layers) of interaction and have gained much attention recently due to their suitability to describe a broad spectrum of empirical complex systems. They are very fragile to percolation and first-neighbor failure propagation, but little is known about how they respond to non-local disruptions, as it occurs in failures induced by flow redistribution, for example. Acknowledging that many socio-technical and biological systems sustain a flow of some physical quantity, such as energy or information, across the their components, it becomes crucial to understand when the flow redistribution can cause global cascades of failures in order to design robust systems, to increase their resilience or to learn how to efficiently dismantle them. In this paper we study the impact that different multiplex topological features have on the robustness of the system when subjected to non-local cascade propagation. We first numerically demonstrate that this dynamics has a critical value at which a small initial perturbation effectively dismantles the entire network, and that the transition appears abruptly. Then we identify that the excess of flow caused by a failure is, in general, more homogeneously distributed the networks in which the average distance between nodes is small. Using this information we find that aggregated versions of multiplex networks tend to overestimate robustness, even though to make the system more robust can be achieved by increasing the number of layers. Our predictions are confirmed by simulated cascading failures in a real multilayer system.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-08-14",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/1367-2630/abaf6b",
+              "id": "S2:f16b6e22451913150d4b046e77a8e719f7596cce",
+              "provider": "semantic_scholar",
+              "title": "Abrupt transition due to non-local cascade propagation in multiplex systems",
+              "url": "https://www.semanticscholar.org/paper/f16b6e22451913150d4b046e77a8e719f7596cce?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2013-04-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/nature12092",
+              "id": "S2:b1a138d77573c82bfbf7abdd5e8ea4e49f97032d",
+              "provider": "semantic_scholar",
+              "title": "Complex systems: Spatial signatures of resilience",
+              "url": "https://www.semanticscholar.org/paper/b1a138d77573c82bfbf7abdd5e8ea4e49f97032d?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-12-04",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1146/ANNUREV-ECOLSYS-112414-054242",
+              "id": "S2:23a2ea020af0b0ec02a6624d8e848456f55ae562",
+              "provider": "semantic_scholar",
+              "title": "Generic Indicators of Ecological Resilience: Inferring the Chance of a Critical Transition",
+              "url": "https://www.semanticscholar.org/paper/23a2ea020af0b0ec02a6624d8e848456f55ae562?utm_source=api"
+            },
+            {
+              "abstract": "Estimating resilience in complex systems Resilience is an important concept in the study of critical transitions and tipping points in complex systems and is defined by the size of the disturbance that a system can endure before tipping into an alternative stable state. Nevertheless, resilience has proved resistant to measurement. Arani et al. show how the mathematical concept of mean exit time, the time it takes for a system to cross a threshold, can help to solve this problem and characterize the resilience of complex systems. They derived a model approach to estimate exit time from time series data and applied it to examples from a grazed plant population model, lake cyanobacterial data, and Pleistocene-Holocene climate data. This approach may improve our understanding of the dynamical properties of complex systems under threat. Science, aay4895, this issue p. eaay4895 Ecosystem resilience can be estimated via a time series modeling approach, improving the anticipation of critical transitions. INTRODUCTION Financial markets may collapse, rainforest can shift to savanna, a person can become trapped in a depression, and the Gulf Stream can come to a standstill. Such critical transitions may happen in complex systems when resilience is low, allowing a perturbation to trigger self-propelled change toward the contrasting state. An intuitive way of visualizing this is to depict the system as a marble in a cup. If the cup is shallower, resilience is lower, and it becomes easier to flip the marble out. Resilience may sometimes be inferred from autocorrelation and variance of time series because they carry information about recovery rates from small perturbations, thus reflecting the slope of the attraction basin. However, although differences in such indicators may reflect differences in resilience, they cannot be interpreted in an absolute sense. The alternative—measuring resilience as the maximum perturbation that a system can take—may seem more attractive. However, this classical ecological definition of resilience assumes that the system is affected by distinct, isolated perturbations. In reality, most systems are perturbed instead by a never-ending natural regime of shocks and fluctuations. Thus, they rarely recover from a perturbation before the next one comes. As a result, the imaginary marble in the cup keeps wandering around, and occasionally a sequence of small but synergistic “perturbations” will push the system across the border of the basin of attraction. How then can we characterize the resilience of such systems in a useful and practical way? RATIONALE We propose to use “life expectancy” as a measure of resilience, which can be formalized as the mean exit time from an attraction basin (i.e., the expected time required to cross the border of the basin). This approach has the advantage of taking the natural variability of real complex systems explicitly into account. If we have many observations of shifts, we can calculate the mean exit time simply as the average time the system spends in each given state. However, such data are rare. Moreover, the permanent fluctuations also contain information about the system, which would be lost if one considers only the rare occasions at which a shift occurs. In the approach we outline, this information is used as we infer the deterministic and stochastic components of the underlying dynamical system from observed fluctuations. Applying techniques from statistical mechanics, we show how one can subsequently use the reconstructed empirical model to compute the expected mean exit time for each basin of attraction. RESULTS After using model-generated data to demonstrate the method, we applied it to two examples spanning very different time scales: the rapid dynamics of Cyanobacteria in a lake, and the much slower alternations between cold glacial and warmer interstadial regimes in the climate (the so-called Dansgaard-Oeschger events). For both time series, we show that one can reconstruct a model that has two alternative attractors. We estimated the mean exit time for each of these attractors, and we show how one can analyze the uncertainty of this estimate. A major challenge is that the approach requires high-resolution time series that cover dynamics across both basins of attraction. Such information can be obtained from a single long time series if it includes enough shifts between attraction basins. Alternatively, one may piece the required data together using shorter time series from sets of similar systems. CONCLUSION Characterizing resilience as the estimated life expectancy—of a rainforest, a coral reef, or the thermohaline circulation—is a natural and intuitively straightforward way to go. The high-resolution time series required for the approach we outline are still relatively rare. However, possibilities for automated sensing are rapidly expanding in fields as diverse as biomedicine, climate science, ecology, and financial markets. Against this background, the technique for estimating mean exit times is an exciting additional tool to anticipate critical transitions in the many complex systems on which humanity depends. Mean exit time as a measure of “life expectancy” estimated from fluctuations. Time series in this simulated example (B) reflect the underlying stability landscape (A) as well as the regime of stochastic perturbations. Given sufficiently long time series, we can estimate how the average change depends on the state (C), revealing attracting (black dots) and repelling (open dot) equilibria. Meanwhile, variance in the observed change allows estimation of the role of stochasticity (D). The resulting empirical model [based on (C) and (D)] can be used to compute the probability distribution of states (E), the mean exit time given any initial state (F), and the weighted mean exit time for the alternative basins of attraction [horizontal lines in (F)]. The shaded areas in (C), (D), and (F) are the estimated 95% confidence intervals. Ecological resilience is the magnitude of the largest perturbation from which a system can still recover to its original state. However, a transition into another state may often be invoked by a series of minor synergistic perturbations rather than a single big one. We show how resilience can be estimated in terms of average life expectancy, accounting for this natural regime of variability. We use time series to fit a model that captures the stochastic as well as the deterministic components. The model is then used to estimate the mean exit time from the basin of attraction. This approach offers a fresh angle to anticipating the chance of a critical transition at a time when high-resolution time series are becoming increasingly available.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-06-10",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1126/science.aay4895",
+              "id": "S2:4b19720f420e84e5d977b3c709a2c740923342ab",
+              "provider": "semantic_scholar",
+              "title": "Exit time as a measure of ecological resilience",
+              "url": "https://www.semanticscholar.org/paper/4b19720f420e84e5d977b3c709a2c740923342ab?utm_source=api"
+            },
+            {
+              "abstract": "The displacement of a viscous fluid by an air bubble in the narrow gap between two parallel plates can readily drive complex interfacial pattern formation known as viscous fingering. We focus on a modified system suggested recently by [1], in which the onset of the fingering instability is delayed by introducing a time-dependent (power-law) plate separation. We perform a complete linear stability analysis of a depth-averaged theoretical model to show that the plate separation delays the onset of non-axisymmetric instabilities, in qualitative agreement with the predictions obtained from a simplified analysis by [1]. We then employ direct numerical simulations to show that in the parameter regime where the axisymmetrically expanding air bubble is unstable to nonaxisymmetric perturbations, the interface can evolve in a self-similar fashion such that the interface shape at a given time is simply a rescaled version of the shape at an earlier time. These novel, self-similar solutions are linearly stable but they only develop if the initially circular interface is subjected to unimodal perturbations. Conversely, the application of non-unimodal perturbations (e.g. via the superposition of multiple linearly unstable modes) leads to the development of complex, constantly evolving finger patterns similar to those that are typically observed in constant-width Hele-Shaw cells. \n[1] Z. Zheng, H. Kim, and H. A. Stone, Controlling viscous fingering using time-dependent strategies, Phys. Rev. Lett. 115, 174501 (2015).",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-03-03",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PHYSREVFLUIDS.4.064002",
+              "id": "S2:2823b0d1fc8b0e2dc17605d668e3407c6b278f13",
+              "provider": "semantic_scholar",
+              "title": "Self-similar and disordered front propagation in a radial Hele-Shaw channel with time-varying cell depth",
+              "url": "https://www.semanticscholar.org/paper/2823b0d1fc8b0e2dc17605d668e3407c6b278f13?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:6b5b46efe71ed3be73bb6d31c3a721f13ccfc066",
+              "provider": "semantic_scholar",
+              "title": "Meets Complex Systems: Exploring Predictability of Extreme Climate Events via a Complex Network Approach\"",
+              "url": "https://www.semanticscholar.org/paper/6b5b46efe71ed3be73bb6d31c3a721f13ccfc066?utm_source=api"
+            },
+            {
+              "abstract": "Over the most recent twenty years, network science has bloomed and impacted different fields such as statistical physics, computer science, sociology, and so on. Studying the percolation behavior of a network system has a very important role in vital nodes identification, ranking, network resilience, and propagation behavior of networks. When a network system undergoes failures, network connectivity is broken. In this perspective, the percolation behavior of the giant connected component and finite-size connected components is explored in depth from the macroscopic and meso-microscopic views, respectively. From a macro perspective, a single network system always shows second-order phase transitions, but for a coupled network system, it shows rich percolation behaviors for various coupling strength, coupling patterns and coupling mechanisms. Although the giant component accounts for a large proportion in the real system, it cannot be neglected that when the network scale is large enough, the scale of finite-size connected components has an important influence on network connectivity. We here systematically analyze the phase transition behaviors of finite-size connected components that are different from the giant component from a meso-microscopic perspective. Studying percolation behaviors from the macro and meso-micro perspectives is helpful for a comprehensive understanding of many fields of network science, such as time-series networks, adaptive networks, and higher-order networks. The intention of this paper is to provide a frontier research progress and promising research direction of network percolation from the two perspectives, as well as the essential theory of percolation transitions on a network system.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-08-22",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1209/0295-5075/ac8ba1",
+              "id": "S2:2db4552005ff6b1e3ae3904051275d6d207ad027",
+              "provider": "semantic_scholar",
+              "title": "Understanding percolation phase transition behaviors in complex networks from the macro and meso-micro perspectives",
+              "url": "https://www.semanticscholar.org/paper/2db4552005ff6b1e3ae3904051275d6d207ad027?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:0a80f4e097e74dfb98e1b66d9d93d73dcec0f74f",
+              "provider": "semantic_scholar",
+              "title": "COMPLEX GINZBURG-LANDAU EQUATIONS WITH A DELAYED NONLOCAL PERTURBATION",
+              "url": "https://www.semanticscholar.org/paper/0a80f4e097e74dfb98e1b66d9d93d73dcec0f74f?utm_source=api"
+            },
+            {
+              "abstract": "The high-speed railway is a complex system composed of human, train and operation environment. Traditional train driving strategy optimization calculated offline based on scheduled timetable does not recover train delays due to external and internal perturbations in daily operations. In this paper, the real-time adjustment of optimal driving strategies for high-speed train group cooperative operation is investigated. Firstly, a distributed information interaction model based on multi-agent and graph theory is established to realize real-time information sharing among all train agents. Then, a set of resilience is denoted as a standard to trigger the integrated real-time optimization algorithm. With respect to the adverse influence of unanticipated perturbations, resilience adjustment is applied to ensure safety, energy-saving, punctuality and passenger comfort for the distributed cooperative operation of high-speed train group in real time. Finally, the effectiveness of proposed methods is verified by simulation using real data from a Chinese high-speed line.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-10-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/ITSC.2019.8917100",
+              "id": "S2:8b904607aecb6e510ff363ae48ef376983a38c53",
+              "provider": "semantic_scholar",
+              "title": "A Resilience Adjustment Method for Real-time Cooperative Optimization of High-speed Trains",
+              "url": "https://www.semanticscholar.org/paper/8b904607aecb6e510ff363ae48ef376983a38c53?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2023-09-24",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 1679,
+              "query": "time delayed perturbations complex systems resilience propagation transition",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8350",
+                "reset_seconds": "47094"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2023-09-24",
+                  "per_page": "10",
+                  "search": "time delayed perturbations complex systems resilience propagation transition",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2023-09-25"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2023-09-24",
+              "attempts": 1,
+              "locally_excluded_uncertain_or_not_strictly_before": 1,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 186,
+              "query": "time delayed perturbations complex systems resilience propagation transition",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "time delayed perturbations complex systems resilience propagation transition",
+                  "year": "1900-2023"
+                }
+              },
+              "strict_before": "2023-09-25"
+            }
+          },
+          "query": "time delayed perturbations complex systems resilience propagation transition",
+          "strict_before": "2023-09-25"
+        }
+      ]
+    },
+    "B": {
+      "queries": [
+        {
+          "api_cutoff": "2023-09-24",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2000-07-27",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/35019019",
+              "id": "https://openalex.org/W2065769502",
+              "provider": "openalex",
+              "title": "Error and attack tolerance of complex networks"
+            },
+            {
+              "abstract": "The physics of Anderson transitions between localized and metallic phases in disordered systems is reviewed. The term ``Anderson transition'' is understood in a broad sense, including both metal-insulator transitions and quantum-Hall-type transitions between phases with localized states. The emphasis is put on recent developments, which include multifractality of critical wave functions, criticality in the power-law random banded matrix model, symmetry classification of disordered electronic systems, mechanisms of criticality in quasi-one-dimensional and two-dimensional systems and survey of corresponding critical theories, network models, and random Dirac Hamiltonians. Analytical approaches are complemented by advanced numerical simulations.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2008-10-17",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/revmodphys.80.1355",
+              "id": "https://openalex.org/W3037850448",
+              "provider": "openalex",
+              "title": "Anderson transitions"
+            },
+            {
+              "abstract": "Since the discovery of small-world and scale-free networks the study of complex systems from a network perspective has taken an enormous flight. In recent years many important properties of complex networks have been delineated. In particular, significant progress has been made in understanding the relationship between the structural properties of networks and the nature of dynamics taking place on these networks. For instance, the 'synchronizability' of complex networks of coupled oscillators can be determined by graph spectral analysis. These developments in the theory of complex networks have inspired new applications in the field of neuroscience. Graph analysis has been used in the study of models of neural networks, anatomical connectivity, and functional connectivity based upon fMRI, EEG and MEG. These studies suggest that the human brain can be modelled as a complex network, and may have a small-world structure both at the level of anatomical as well as functional connectivity. This small-world structure is hypothesized to reflect an optimal situation associated with rapid synchronization and information transfer, minimal wiring costs, as well as a balance between local processing and global integration. The topological structure of functional networks is probably restrained by genetic and anatomical factors, but can be modified during tasks. There is also increasing evidence that various types of brain disease such as Alzheimer's disease, schizophrenia, brain tumours and epilepsy may be associated with deviations of the functional network topology from the optimal s",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2007-07-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1186/1753-4631-1-3",
+              "id": "https://openalex.org/W2026384313",
+              "provider": "openalex",
+              "title": "Graph theoretical analysis of complex networks in the brain"
+            },
+            {
+              "abstract": "The global energy transition towards a carbon neutral society requires a profound transformation of electricity generation and consumption, as well as of electric power systems. Hydrogen has an important potential to accelerate the process of scaling up clean and renewable energy, however its integration in power systems remains little studied. This paper reviews the current progress and outlook of hydrogen technologies and their application in power systems for hydrogen production, re-electrification and storage. The characteristics of electrolysers and fuel cells are demonstrated with experimental data and the deployments of hydrogen for energy storage, power-to-gas, co- and tri-generation and transportation are investigated using examples from worldwide projects. The current techno-economic status of these technologies and applications is presented, in which cost, efficiency and durability are identified as the main critical aspects. This is also confirmed by the results of a statistical analysis of the literature. Finally, conclusions show that continuous efforts on performance improvements, scale ramp-up, technical prospects and political support are required to enable a cost-competitive hydrogen economy.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-05-03",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.rser.2021.111180",
+              "id": "https://openalex.org/W3159296886",
+              "provider": "openalex",
+              "title": "Hydrogen energy systems: A critical review of technologies, applications, trends and challenges"
+            },
+            {
+              "abstract": "Pore-scale imaging and modelling – digital core analysis – is becoming a routine service in the oil and gas industry, and has potential applications in contaminant transport and carbon dioxide storage. This paper briefly describes the underlying technology, namely imaging of the pore space of rocks from the nanometre scale upwards, coupled with a suite of different numerical techniques for simulating single and multiphase flow and transport through these images. Three example applications are then described, illustrating the range of scientific problems that can be tackled: dispersion in different rock samples that predicts the anomalous transport behaviour characteristic of highly heterogeneous carbonates; imaging of super-critical carbon dioxide in sandstone to demonstrate the possibility of capillary trapping in geological carbon storage; and the computation of relative permeability for mixed-wet carbonates and implications for oilfield waterflood recovery. The paper concludes by discussing limitations and challenges, including finding representative samples, imaging and simulating flow and transport in pore spaces over many orders of magnitude in size, the determination of wettability, and upscaling to the field scale. We conclude that pore-scale modelling is likely to become more widely applied in the oil industry including assessment of unconventional oil and gas resources. It has the potential to transform our understanding of multiphase flow processes, facilitating more efficient oil and gas recovery, effective contaminant removal and safe carbon dioxide storage.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2012-04-04",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.advwatres.2012.03.003",
+              "id": "https://openalex.org/W2026632831",
+              "provider": "openalex",
+              "title": "Pore-scale imaging and modelling"
+            },
+            {
+              "abstract": "This paper introduces AntNet, a novel approach to the adaptive learning of routing tables in communications networks. AntNet is a distributed, mobile agents based Monte Carlo system that was inspired by recent work on the ant colony metaphor for solving optimization problems. AntNet's agents concurrently explore the network and exchange collected information. The communication among the agents is indirect and asynchronous, mediated by the network itself. This form of communication is typical of social insects and is called stigmergy. We compare our algorithm with six state-of-the-art routing algorithms coming from the telecommunications and machine learning fields. The algorithms' performance is evaluated over a set of realistic testbeds. We run many experiments over real and artificial IP datagram networks with increasing number of nodes and under several paradigmatic spatial and temporal traffic distributions. Results are very encouraging. AntNet showed superior performance under all the experimental conditions with respect to its competitors. We analyze the main characteristics of the algorithm and try to explain the reasons for its superiority.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1998-12-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1613/jair.530",
+              "id": "https://openalex.org/W1664011265",
+              "provider": "openalex",
+              "title": "AntNet: Distributed Stigmergetic Control for Communications Networks"
+            },
+            {
+              "abstract": "Functional magnetic resonance imaging (fMRI) techniques have contributed significantly to our understanding of brain function. Current methods are based on the analysis of gradual and continuous changes in the brain blood oxygenated level dependent (BOLD) signal. Departing from that approach, recent work has shown that equivalent results can be obtained by inspecting only the relatively large amplitude BOLD signal peaks, suggesting that relevant information can be condensed in discrete events. This idea is further explored here to demonstrate how brain dynamics at resting state can be captured just by the timing and location of such events, i.e., in terms of a spatiotemporal point process. The method allows, for the first time, to define a theoretical framework in terms of an order and control parameter derived from fMRI data, where the dynamical regime can be interpreted as one corresponding to a system close to the critical point of a second order phase transition. The analysis demonstrates that the resting brain spends most of the time near the critical point of such transition and exhibits avalanches of activity ruled by the same dynamical and statistical properties described previously for neuronal events at smaller scales. Given the demonstrated functional relevance of the resting state brain dynamics, its representation as a discrete process might facilitate large-scale analysis of brain function both in health and disease.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2012-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3389/fphys.2012.00015",
+              "id": "https://openalex.org/W2149013149",
+              "provider": "openalex",
+              "title": "Criticality in Large-Scale Brain fMRI Dynamics Unveiled by a Novel Point Process Analysis"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-11-02",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.physrep.2018.10.005",
+              "id": "https://openalex.org/W2899125647",
+              "provider": "openalex",
+              "title": "Complex network approaches to nonlinear time series analysis"
+            },
+            {
+              "abstract": "We numerically investigate jamming transitions in complex heterogeneous networks. Inspired by Internet routing protocols, we study a general model that incorporates local traffic information through a tunable parameter. The results show that whether the transition from a low-traffic regime to a congested phase is of first- or second-order type is determined by the protocol at work. The microscopic dynamics reveals that these two radically different behaviors are due to the way in which traffic jams propagate through the network. Our results are discussed in the context of Internet dynamics and other transport processes that take place on complex networks and provide insights for the design of routing policies based on traffic awareness in communication systems.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2005-06-16",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1209/epl/i2005-10080-8",
+              "id": "https://openalex.org/W1994134387",
+              "provider": "openalex",
+              "title": "Dynamics of jamming transitions in complex networks"
+            },
+            {
+              "abstract": "Fast neuronal oscillations (gamma, 20-80 Hz) have been observed in the neocortex and hippocampus during behavioral arousal. Using computer simulations, we investigated the hypothesis that such rhythmic activity can emerge in a random network of interconnected GABAergic fast-spiking interneurons. Specific conditions for the population synchronization, on properties of single cells and the circuit, were identified. These include the following: (1) that the amplitude of spike afterhyperpolarization be above the GABAA synaptic reversal potential; (2) that the ratio between the synaptic decay time constant and the oscillation period be sufficiently large; (3) that the effects of heterogeneities be modest because of a steep frequency-current relationship of fast-spiking neurons. Furthermore, using a population coherence measure, based on coincident firings of neural pairs, it is demonstrated that large-scale network synchronization requires a critical (minimal) average number of synaptic contacts per cell, which is not sensitive to the network size. By changing the GABAA synaptic maximal conductance, synaptic decay time constant, or the mean external excitatory drive to the network, the neuronal firing frequencies were gradually and monotonically varied. By contrast, the network synchronization was found to be high only within a frequency band coinciding with the gamma (20-80 Hz) range. We conclude that the GABAA synaptic transmission provides a suitable mechanism for synchronized gamma oscillations in a sparsely connected network of fast-spiking interneurons. In turn, the intern",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1996-10-15",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1523/jneurosci.16-20-06402.1996",
+              "id": "https://openalex.org/W1501360999",
+              "provider": "openalex",
+              "title": "Gamma Oscillation by Synaptic Inhibition in a Hippocampal Interneuronal Network Model"
+            },
+            {
+              "abstract": "The emergence of large-scale connectivity and synchronization are crucial to the structure, function and failure of many complex socio-technical networks. Thus, there is great interest in analyzing phase transitions to large-scale connectivity and to global synchronization, including how to enhance or delay the onset. These phenomena are traditionally studied as second-order phase transitions where, at the critical threshold, the order parameter increases rapidly but continuously. In 2009, an extremely abrupt transition was found for a network growth process where links compete for addition in an attempt to delay percolation. This observation of ‘explosive percolation’ was ultimately revealed to be a continuous transition in the thermodynamic limit, yet with very atypical finite-size scaling, and it started a surge of work on explosive phenomena and their consequences. Many related models are now shown to yield discontinuous percolation transitions and even hybrid transitions. Explosive percolation enables many other features such as multiple giant components, modular structures, discrete scale invariance and non-self-averaging, relating to properties found in many real phenomena such as explosive epidemics, electric breakdowns and the emergence of molecular life. Models of explosive synchronization provide an analytic framework for the dynamics of abrupt transitions and reveal the interplay between the distribution in natural frequencies and the network structure, with applications ranging from epileptic seizures to waking from anesthesia. Here we review the vast literature on explosive phenomena in networked systems and synthesize the fundamental connections between models and survey the application areas. We attempt to classify explosive phenomena based on underlying mechanisms and to provide a coherent overview and perspective for future research to address the many vital questions that remained unanswered.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-07-03",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1080/00018732.2019.1650450",
+              "id": "S2:50d5c11374c80fe642efeb8ceb0e0434171725f3",
+              "provider": "semantic_scholar",
+              "title": "Explosive phenomena in complex networks",
+              "url": "https://www.semanticscholar.org/paper/50d5c11374c80fe642efeb8ceb0e0434171725f3?utm_source=api"
+            },
+            {
+              "abstract": "Within the conventional statistical physics framework, we study critical phenomena in configuration network models with hidden variables controlling links between pairs of nodes. We obtain analytical expressions for the average node degree, the expected number of edges in the graph, and the Landau and Helmholtz free energies. We demonstrate that the network’s temperature controls the average node degree in the whole network. We also show that phase transition in an asymptotically sparse network leads to fundamental structural changes in the network topology. Below the critical temperature, the graph is completely disconnected; above the critical temperature, the graph becomes connected, and a giant component appears. Increasing temperature changes the degree distribution from power-degree for lower temperatures to a Poisson-like distribution for high temperatures. Our findings suggest that temperature might be an inalienable property of real networks.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-08-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1140/epjb/s10051-023-00612-0",
+              "id": "S2:60179891776f72535f159a7dd1a2e133db18de38",
+              "provider": "semantic_scholar",
+              "title": "Critical phenomena in complex networks: from scale-free to random networks",
+              "url": "https://www.semanticscholar.org/paper/60179891776f72535f159a7dd1a2e133db18de38?utm_source=api"
+            },
+            {
+              "abstract": "We investigate transition to synchronization in the Sakaguchi-Kuramoto (SK) model on complex networks analytically as well as numerically. Natural frequencies of a percentage (f) of higher degree nodes of the network are assumed to be correlated with their degrees and that of the remaining nodes are drawn from some standard distribution, namely, Lorentz distribution. The effects of variation of f and phase frustration parameter α on transition to synchronization are investigated in detail. Self-consistent equations involving critical coupling strength (λc) and group angular velocity (Ωc) at the onset of synchronization have been derived analytically in the thermodynamic limit. For the detailed investigation, we considered the SK model on scale-free (SF) as well as Erdős-Rényi (ER) networks. Interestingly, explosive synchronization (ES) has been observed in both networks for different ranges of values of α and f. For SF networks, as the value of f is set within 10%≤f≤70%, the range of the values of α for existence of the ES is greatly enhanced compared to the fully degree-frequency correlated case when scaling exponent γ<3. ES is also observed in SF networks with γ>3, which is never observed in fully degree-frequency correlated environment. On the other hand, for random networks, ES observed is in a narrow window of α when the value of f is taken within 30%≤f≤50%. In all the cases, critical coupling strengths for transition to synchronization computed from the analytically derived self-consistent equations show a very good agreement with the numerical results. Finally, we observe ES in the metabolic network of the roundworm Caenorhabditis elegans in partially degree-frequency correlated environment.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-01-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1063/1.5045836",
+              "id": "S2:9a46619ebed620e0dc6218e2e985c4c8ae114ca5",
+              "provider": "semantic_scholar",
+              "title": "Synchronization transition in Sakaguchi-Kuramoto model on complex networks with partial degree-frequency correlation.",
+              "url": "https://www.semanticscholar.org/paper/9a46619ebed620e0dc6218e2e985c4c8ae114ca5?utm_source=api"
+            },
+            {
+              "abstract": "Dynamical processes exhibiting absorbing states are essential in the modeling of a large variety of situations from material science to epidemiology and social sciences. Such processes exhibit the possibility of avalanching behavior upon slow driving. Here, we study the distribution of sizes and durations of avalanches for well-known dynamical processes on complex networks. We find that all analyzed models display a similar critical behavior, characterized by the presence of two distinct regimes. At small scales, sizes and durations of avalanches exhibit distributions that are dependent on the network topology and the model dynamics. At asymptotically large scales instead -- irrespective of the type of dynamics and of the topology of the underlying network -- sizes and durations of avalanches are characterized by power-law distributions with the exponents of the standard mean-field critical branching process.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-02-26",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PHYSREVRESEARCH.2.033171",
+              "id": "S2:8ebbe3995fc67378e8e3642ad3aa04768341f76d",
+              "provider": "semantic_scholar",
+              "title": "Classes of critical avalanche dynamics in complex networks",
+              "url": "https://www.semanticscholar.org/paper/8ebbe3995fc67378e8e3642ad3aa04768341f76d?utm_source=api"
+            },
+            {
+              "abstract": "Majority-vote model with independence is investigated on complex scale-free networks with degree distribution p k ∝ k ˜ γ . In the simplest version of the majority-vote model, the agents assume, with probability 1 − q ( 0 < q < 1 / 2 ), the opinion in agreement with that of the majority of their neighbors. In the majority-vote model with independence, the agents obey the above-mentioned update rule with probability 1 − ˜ p ( 0 < ˜ p < 1 ), while with probability ˜ p , they make decision randomly. It is shown that the parameters q and p = ˜ p/ 2 are equivalent, and as one of them is decreased, with the other ﬁxed, for ˜ γ > 5 / 2 , the model can exhibit transition to the ferromagnetic state at a critical value q c or p c which depends on the degree distribution. Critical behavior of the magnetization is determined in the heterogeneous mean-ﬁeld approximation. For 5 / 2 < ˜ γ < 7 / 2 , this behavior is non-universal, with the magnetization scaling as M ∝ ( q c − q ) β or M ∝ ( p c − p ) β with β = 1 / [2(˜ γ − 5 / 2)] , and for ˜ γ ≥ 7 / 2 , it becomes universal with β = 1 / 2 . These results are conﬁrmed by Monte Carlo simulations and ﬁnite size scaling analysis.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-01-01",
+              "date_precision": "year",
+              "doi": "https://doi.org/10.5506/APHYSPOLBSUPP.12.91",
+              "id": "S2:f9924fa15b00e901f94605f43866732bf210f858",
+              "provider": "semantic_scholar",
+              "title": "Majority-vote Model with Independent Agents on Complex Networks",
+              "url": "https://www.semanticscholar.org/paper/f9924fa15b00e901f94605f43866732bf210f858?utm_source=api"
+            },
+            {
+              "abstract": "Complex networks have been mostly characterized from the point of view of the degree distribution of their nodes and a few other motifs (or modules), with a special attention to triangles and cliques. The most exotic phenomena have been observed when the exponent γ of the associated power-law degree distribution is sufficiently small. In particular, a zero percolation threshold takes place for , and an anomalous critical behavior sets in for . In this letter we prove that in sparse scale-free networks characterized by a cut-off scaling with the sistem size N, relative fluctuations are actually never negligible: given a motif Γ, we analyze the relative fluctuations of the associated density of Γ, and we show that there exists an interval in γ, , where does not go to zero in the thermodynamic limit, where and , and being the smallest and the largest degree of Γ, respectively. Remarkably, in diverges, implying the instability of Γ to small perturbations.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2013-06-24",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1209/0295-5075/105/28005",
+              "id": "S2:8645153ae103771808fd5090fd9d0661f581ee1d",
+              "provider": "semantic_scholar",
+              "title": "Fluctuations of motifs and non–self-averaging in complex networks: A self- vs. non–self-averaging phase transition scenario",
+              "url": "https://www.semanticscholar.org/paper/8645153ae103771808fd5090fd9d0661f581ee1d?utm_source=api"
+            },
+            {
+              "abstract": "The majority-vote model with noise is one of the simplest nonequilibrium statistical model that has been extensively studied in the context of complex networks. However, the relationship between the critical noise where the order-disorder phase transition takes place and the topology of the underlying networks is still lacking. In this paper, we use the heterogeneous mean-field theory to derive the rate equation for governing the model's dynamics that can analytically determine the critical noise f(c) in the limit of infinite network size N→∞. The result shows that f(c) depends on the ratio of 〈k〉 to 〈k(3/2)〉, where 〈k〉 and 〈k(3/2)〉 are the average degree and the 3/2 order moment of degree distribution, respectively. Furthermore, we consider the finite-size effect where the stochastic fluctuation should be involved. To the end, we derive the Langevin equation and obtain the potential of the corresponding Fokker-Planck equation. This allows us to calculate the effective critical noise f(c)(N) at which the susceptibility is maximal in finite-size networks. We find that the f(c)-f(c)(N) decays with N in a power-law way and vanishes for N→∞. All the theoretical results are confirmed by performing the extensive Monte Carlo simulations in random k-regular networks, Erdös-Rényi random networks, and scale-free networks.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-02-24",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PhysRevE.91.022816",
+              "id": "S2:961fd04c1861d1e23778e8829308b4ab7a0a73ae",
+              "provider": "semantic_scholar",
+              "title": "Critical noise of majority-vote model on complex networks.",
+              "url": "https://www.semanticscholar.org/paper/961fd04c1861d1e23778e8829308b4ab7a0a73ae?utm_source=api"
+            },
+            {
+              "abstract": "In this work we consider a superradiant phase transition problem for the Dicke-Ising model, which generalizes the Dicke and Ising models for annealed complex networks presuming spin-spin interaction. The model accounts for the interaction between a spin-1/2 (two-level) system and external classical (magnetic) and quantized (transverse) fields. We examine regular, random, and scale-free network structures characterized by the δ function, random (Poisson), and power-law exponent [p(k)∝k^{-γ}] degree distributions, respectively. To describe paramagnetic (PM)-ferromagrenic (FM) and superradiant (SR) phase transitions we introduce two order parameters: the total weighted spin z component and the normalized transverse field amplitude, which correspond to the spontaneous magnetization in z and x directions, respectively. For the regular networks and vanishing external field we demonstrate that these phase transitions generally represent prerequisites for the crossover from a disordered spin state to the ordered one inherent to the FM and/or SR phase. Due to the interplay between the spin interaction and the finite-size effects in networks we elucidate novel features of the SR state in the presence of the PM-FM phase transition. In particular, we show that the critical temperature may be high enough and essentially depends on parameters which characterize statistical properties of the network structure. For the scale-free networks we demonstrate that the network architecture, characterized by the particular value of γ, plays a key role in the SR phase transition problem. Within the anomalous regime scale-free networks possess a strong effective spin-spin interaction supporting fully ordered FM state, which is practically nonsensitive to variations of the quantum transverse field or moderate classical magnetic field. In a scale-free regime the networks exhibit vanishing of the collective spin component in z direction with increasing γ accompanied by establishing spontaneous magnetization in the transverse field. The SR phase transition occurs in the presence of some FM state. We establish the conditions for the network parameters, classical and quantum field features to obtain a quantum phase transition in the spin system when the critical temperature approaches zero.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-12-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PhysRevE.103.062309",
+              "id": "S2:09065523039c58560969933e1b160a649c1a34b9",
+              "provider": "semantic_scholar",
+              "title": "Mean-field theory of superradiant phase transition in complex networks.",
+              "url": "https://www.semanticscholar.org/paper/09065523039c58560969933e1b160a649c1a34b9?utm_source=api"
+            },
+            {
+              "abstract": "We investigate the combined effects of distributed delay and the balance between excitatory and inhibitory nodes on the stability of synchronous oscillations in a network of coupled Stuart-Landau oscillators. To this end a symmetric network model is proposed for which the stability can be investigated analytically. It is found that beyond a critical inhibition ratio, synchronization tends to be unstable. However, increasing distributional widths can counteract this trend, leading to multiple resynchronization transitions at relatively high inhibition ratios. The extended applicability of the results is confirmed by numerical studies on asymmetrically perturbed network topologies. All investigations are performed on two distribution types, a uniform distribution and a Γ distribution.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2014-06-12",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PhysRevE.90.032908",
+              "id": "S2:445e4774424a141b9105ecc281c9c8eb14f1f374",
+              "provider": "semantic_scholar",
+              "title": "Synchronization-desynchronization transitions in complex networks: an interplay of distributed time delay and inhibitory nodes.",
+              "url": "https://www.semanticscholar.org/paper/445e4774424a141b9105ecc281c9c8eb14f1f374?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2023-09-24",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 114443,
+              "query": "critical slowing delay distribution scaling complex networks transition",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8340",
+                "reset_seconds": "47091"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2023-09-24",
+                  "per_page": "10",
+                  "search": "critical slowing delay distribution scaling complex networks transition",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2023-09-25"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2023-09-24",
+              "attempts": 2,
+              "locally_excluded_uncertain_or_not_strictly_before": 1,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 526,
+              "query": "critical slowing delay distribution scaling complex networks transition",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "critical slowing delay distribution scaling complex networks transition",
+                  "year": "1900-2023"
+                }
+              },
+              "strict_before": "2023-09-25"
+            }
+          },
+          "query": "critical slowing delay distribution scaling complex networks transition",
+          "strict_before": "2023-09-25"
+        },
+        {
+          "api_cutoff": "2023-09-24",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "Fractional dynamics has experienced a firm upswing during the past few years, having been forged into a mature framework in the theory of stochastic processes. A large number of research papers developing fractional dynamics further, or applying it to various systems have appeared since our first review article on the fractional Fokker–Planck equation (Metzler R and Klafter J 2000a, Phys. Rep. 339 1–77). It therefore appears timely to put these new works in a cohesive perspective. In this review we cover both the theoretical modelling of sub- and superdiffusive processes, placing emphasis on superdiffusion, and the discussion of applications such as the correct formulation of boundary value problems to obtain the first passage time density function. We also discuss extensively the occurrence of anomalous dynamics in various fields ranging from nanoscale over biological to geophysical and environmental systems.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2004-07-22",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/0305-4470/37/31/r01",
+              "id": "https://openalex.org/W1977360274",
+              "provider": "openalex",
+              "title": "The restaurant at the end of the random walk: recent developments in the description of anomalous transport by fractional dynamics"
+            },
+            {
+              "abstract": "Humans and animals have the ability to continually acquire, fine-tune, and transfer knowledge and skills throughout their lifespan. This ability, referred to as lifelong learning, is mediated by a rich set of neurocognitive mechanisms that together contribute to the development and specialization of our sensorimotor skills as well as to long-term memory consolidation and retrieval. Consequently, lifelong learning capabilities are crucial for computational learning systems and autonomous agents interacting in the real world and processing continuous streams of information. However, lifelong learning remains a long-standing challenge for machine learning and neural network models since the continual acquisition of incrementally available information from non-stationary data distributions generally leads to catastrophic forgetting or interference. This limitation represents a major drawback for state-of-the-art deep neural network models that typically learn representations from stationary batches of training data, thus without accounting for situations in which information becomes incrementally available over time. In this review, we critically summarize the main challenges linked to lifelong learning for artificial learning systems and compare existing neural network approaches that alleviate, to different extents, catastrophic forgetting. Although significant advances have been made in domain-specific learning with neural networks, extensive research efforts are required for the development of robust lifelong learning on autonomous agents and robots. We discuss well-establi",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-02-10",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.neunet.2019.01.012",
+              "id": "https://openalex.org/W2788388592",
+              "provider": "openalex",
+              "title": "Continual lifelong learning with neural networks: A review"
+            },
+            {
+              "abstract": "Machine Learning (ML) has been enjoying an unprecedented surge in applications that solve problems and enable automation in diverse domains. Primarily, this is due to the explosion in the availability of data, significant improvements in ML techniques, and advancement in computing capabilities. Undoubtedly, ML has been applied to various mundane and complex problems arising in network operation and management. There are various surveys on ML for specific areas in networking or for specific network technologies. This survey is original, since it jointly presents the application of diverse ML techniques in various key areas of networking across different network technologies. In this way, readers will benefit from a comprehensive discussion on the different learning paradigms and ML techniques applied to fundamental problems in networking, including traffic prediction, routing and classification, congestion control, resource and fault management, QoS and QoE management, and network security. Furthermore, this survey delineates the limitations, give insights, research challenges and future opportunities to advance ML in networking. Therefore, this is a timely contribution of the implications of ML for networking, that is pushing the barriers of autonomic network operation and management.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-06-21",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1186/s13174-018-0087-2",
+              "id": "https://openalex.org/W2809684781",
+              "provider": "openalex",
+              "title": "A comprehensive survey on machine learning for networking: evolution, applications and research opportunities"
+            },
+            {
+              "abstract": "Emerging mega-trends (e.g., mobile, social, cloud, and big data) in information and communication technologies (ICT) are commanding new challenges to future Internet, for which ubiquitous accessibility, high bandwidth, and dynamic management are crucial. However, traditional approaches based on manual configuration of proprietary devices are cumbersome and error-prone, and they cannot fully utilize the capability of physical network infrastructure. Recently, software-defined networking (SDN) has been touted as one of the most promising solutions for future Internet. SDN is characterized by its two distinguished features, including decoupling the control plane from the data plane and providing programmability for network application development. As a result, SDN is positioned to provide more efficient configuration, better performance, and higher flexibility to accommodate innovative network designs. This paper surveys latest developments in this active research area of SDN. We first present a generally accepted definition for SDN with the aforementioned two characteristic features and potential benefits of SDN. We then dwell on its three-layer architecture, including an infrastructure layer, a control layer, and an application layer, and substantiate each layer with existing research efforts and its related research areas. We follow that with an overview of the de facto SDN implementation (i.e., OpenFlow). Finally, we conclude this survey paper with some suggested open research challenges.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2014-06-19",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/comst.2014.2330903",
+              "id": "https://openalex.org/W2067453331",
+              "provider": "openalex",
+              "title": "A Survey on Software-Defined Networking"
+            },
+            {
+              "abstract": "Abstract This research draws on longitudinal network data from an online community to examine patterns of users' behavior and social interaction, and infer the processes underpinning dynamics of system use. The online community represents a prototypical example of a complex evolving social network in which connections between users are established over time by online messages. We study the evolution of a variety of properties since the inception of the system, including how users create, reciprocate, and deepen relationships with one another, variations in users' gregariousness and popularity, reachability and typical distances among users, and the degree of local redundancy in the system. Results indicate that the system is a “small world” characterized by the emergence, in its early stages, of a hub‐dominated structure with heterogeneity in users' behavior. We investigate whether hubs are responsible for holding the system together and facilitating information flow, examine first‐mover advantages underpinning users' ability to rise to system prominence, and uncover gender differences in users' gregariousness, popularity, and local redundancy. We discuss the implications of the results for research on system use and evolving social networks, and for a host of applications, including information diffusion, communities of practice, and the security and robustness of information systems.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2009-02-02",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/asi.21015",
+              "id": "https://openalex.org/W4246941204",
+              "provider": "openalex",
+              "title": "Patterns and dynamics of users' behavior and interaction: Network analysis of an online community"
+            },
+            {
+              "abstract": "Investigating the dynamics of a network of oscillatory systems is a timely and urgent topic. Phase synchronization has proven paradigmatic to study emergent collective behavior within a network. Defining the phase dynamics, however, is not a trivial task. The literature provides an arsenal of solutions, but results are scattered and their formulation is far from standardized. Here, we present, in a unified language, a catalogue of popular techniques for deriving the phase dynamics of coupled oscillators. Traditionally, approaches to phase reduction address the (weakly) perturbed dynamics of an oscillator. They fall into three classes. (i) Many phase reduction techniques start off with a Hopf normal form description, thereby providing mathematical rigor. There, the caveat is to first derive the proper normal form. We explicate several ways to do that, both analytically and (semi-)numerically. (ii) Other analytic techniques capitalize on time scale separation and/or averaging over cyclic variables. While appealing for their more intuitive implementation, they often lack accuracy. (iii) Direct numerical approaches help to identify oscillatory behavior but may limit an overarching view how the reduced phase dynamics depends on model parameters. After illustrating and reviewing the necessary mathematical details for single oscillators, we turn to networks of coupled oscillators as the central issue of this report. We show in detail how the concepts of phase reduction for single oscillators can be extended and applied to oscillator networks. Again, we distinguish between numerica",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-06-25",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.physrep.2019.06.001",
+              "id": "https://openalex.org/W2955153581",
+              "provider": "openalex",
+              "title": "Network dynamics of coupled oscillators and phase reduction techniques"
+            },
+            {
+              "abstract": "Abstract In many experiments, neuroscientists tightly control behavior, record many trials, and obtain trial-averaged firing rates from hundreds of neurons in circuits containing billions of behaviorally relevant neurons. Di-mensionality reduction methods reveal a striking simplicity underlying such multi-neuronal data: they can be reduced to a low-dimensional space, and the resulting neural trajectories in this space yield a remarkably insightful dynamical portrait of circuit computation. This simplicity raises profound and timely conceptual questions. What are its origins and its implications for the complexity of neural dynamics? How would the situation change if we recorded more neurons? When, if at all, can we trust dynamical portraits obtained from measuring an infinitesimal fraction of task relevant neurons? We present a theory that answers these questions, and test it using physiological recordings from reaching monkeys. This theory reveals conceptual insights into how task complexity governs both neural dimensionality and accurate recovery of dynamic portraits, thereby providing quantitative guidelines for future large-scale experimental design.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-11-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1101/214262",
+              "id": "https://openalex.org/W2766284800",
+              "provider": "openalex",
+              "title": "A theory of multineuronal dimensionality, dynamics and measurement"
+            },
+            {
+              "abstract": "Visual sensor networks have emerged as an important class of sensor-based distributed intelligent systems, with unique performance, complexity, and quality of service challenges. Consisting of a large number of low-power camera nodes, visual sensor networks support a great number of novel vision-based applications. The camera nodes provide information from a monitored site, performing distributed and collaborative processing of their collected data. Using multiple cameras in the network provides different views of the scene, which enhances the reliability of the captured events. However, the large amount of image data produced by the cameras combined with the network's resource constraints require exploring new means for data processing, communication, and sensor management. Meeting these challenges of visual sensor networks requires interdisciplinary approaches, utilizing vision processing, communications and networking, and embedded processing. In this paper, we provide an overview of the current state-of-the-art in the field of visual sensor networks, by exploring several relevant research directions. Our goal is to provide a better understanding of current research problems in the different research fields of visual sensor networks, and to show how these different research fields should interact to solve the many challenges of visual sensor networks.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2009-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1155/2009/640386",
+              "id": "https://openalex.org/W2171117352",
+              "provider": "openalex",
+              "title": "A Survey of Visual Sensor Networks"
+            },
+            {
+              "abstract": "The integration of communications with different scales, diverse radio access technologies, and various network resources renders next-generation wireless networks (NGWNs) highly heterogeneous and dynamic. Emerging use cases and applications, such as machine to machine communications, autonomous driving, and factory automation, have stringent requirements in terms of reliability, latency, throughput, and so on. Such requirements pose new challenges to architecture design, network management, and resource orchestration in NGWNs. Starting from illustrating these challenges, this paper aims at providing a good understanding of the overall architecture of NGWNs and three specific research problems under this architecture. First, we introduce a network-slicing based architecture and explain why and where artificial intelligence (AI) should be incorporated into this architecture. Second, the motivation, research challenges, existing works, and potential future directions related to applying AI-based approaches in three research problems are described in detail, i.e., flexible radio access network slicing, automated radio access technology selection, and mobile edge caching and content delivery. In summary, this paper highlights the benefits and potentials of AI-based approaches in the research of NGWNs.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/ojvt.2020.2965100",
+              "id": "https://openalex.org/W2999562137",
+              "provider": "openalex",
+              "title": "AI-Assisted Network-Slicing Based Next-Generation Wireless Networks"
+            },
+            {
+              "abstract": "Connectivity conservation is essential for managing healthy ecosystems, conserving biodiversity and adapting to climate change across all biomes and spatial scales. Well-connected ecosystems support a diversity of ecological functions such as migration, hydrology, nutrient cycling, pollination, seed dispersal, food security, climate resilience and disease resistance. These Guidelines are based on the best available science and practice for maintaining, enhancing and restoring ecological connectivity among and between protected areas, other effective areas based conservation measures (OECMs) and other intact ecosystems. For the first time, this publication introduces a common definition and recommends formal recognition of ecological corridors to serve as critical building blocks of ecological networks in conjunction with protected areas and OECMs. Furthermore, these Guidelines also include 25 case studies that demonstrate current approaches to conserving ecological connectivity and ecological networks for different ecosystems and species, and at different spatial and temporal scales.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-07-07",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.2305/iucn.ch.2020.pag.30.en",
+              "id": "https://openalex.org/W3040304437",
+              "provider": "openalex",
+              "title": "Guidelines for conserving connectivity through ecological networks and corridors"
+            },
+            {
+              "abstract": "The idealisation of neuronal pulses as δ-spikes is a convenient approach in neuroscience but can sometimes lead to erroneous conclusions. We investigate the effect of a finite pulse-width on the dynamics of balanced neuronal networks. In particular, we study two populations of identical excitatory and inhibitory neurons in a random network of phase oscillators coupled through exponential pulses with different widths. We consider three coupling functions, inspired by leaky integrate-and-fire neurons with delay and type-I phase-response curves. By exploring the role of the pulse-widths for different coupling strengths we find a robust collective irregular dynamics, which collapses onto a fully synchronous regime if the inhibitory pulses are sufficiently wider than the excitatory ones. The transition to synchrony is accompanied by hysteretic phenomena (i.e. the co-existence of collective irregular and synchronous dynamics). Our numerical results are supported by a detailed scaling and stability analysis of the fully synchronous solution. A conjectured first-order phase transition emerging for δ-spikes is smoothed out for finite-width pulses.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-02-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1063/5.0046691",
+              "id": "S2:0ba38765a5a61ee20f034650ae913aa321e7dd6d",
+              "provider": "semantic_scholar",
+              "title": "Collective dynamics in the presence of finite-width pulses",
+              "url": "https://www.semanticscholar.org/paper/0ba38765a5a61ee20f034650ae913aa321e7dd6d?utm_source=api"
+            },
+            {
+              "abstract": "Neural population equations such as neural mass or field models are widely used to study brain activity on a large scale. However, the relation of these models to the properties of single neurons is unclear. Here we derive an equation for several interacting populations at the mesoscopic scale starting from a microscopic model of randomly connected generalized integrate-and-fire neuron models. Each population consists of 50–2000 neurons of the same type but different populations account for different neuron types. The stochastic population equations that we find reveal how spike-history effects in single-neuron dynamics such as refractoriness and adaptation interact with finite-size fluctuations on the population level. Efficient integration of the stochastic mesoscopic equations reproduces the statistical behavior of the population activities obtained from microscopic simulations of a full spiking neural network model. The theory describes nonlinear emergent dynamics such as finite-size-induced stochastic transitions in multistable networks and synchronization in balanced networks of excitatory and inhibitory neurons. The mesoscopic equations are employed to rapidly integrate a model of a cortical microcircuit consisting of eight neuron types, which allows us to predict spontaneous population activities as well as evoked responses to thalamic input. Our theory establishes a general framework for modeling finite-size neural population dynamics based on single cell and synapse parameters and offers an efficient approach to analyzing cortical circuits and computations.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-11-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1371/journal.pcbi.1005507",
+              "id": "S2:5f07eb49ddca61f133ba73125d2e352d983c6191",
+              "provider": "semantic_scholar",
+              "title": "Towards a theory of cortical columns: From spiking neurons to interacting neural populations of finite size",
+              "url": "https://www.semanticscholar.org/paper/5f07eb49ddca61f133ba73125d2e352d983c6191?utm_source=api"
+            },
+            {
+              "abstract": "Abstract As the steel towers in the power system are vulnerable to intensive wind loads, it is essential to understand their dynamics response to estimate its potential failure. Conventional structural analysis methods like the finite element analysis or the field test are either computational heavy or cost expensive. Thus, this paper proposes a machine learning approach based on convolutional neural network (CNN) to predict the time history response of the transmission tower during the complex wind input. By preprocessing the time history of wind load and the tower’s dynamic response, a well-developed CNN can capture the time and spatial correlation of the wind load successfully and provide high accuracy results. CNN configuration, window size selection, and training data scale are carefully discussed to optimize the CNN design to maximize the prediction accuracy as well as minimize its computational time. Finally, to evaluate the performance of the surrogate model, the accuracy of the optimal CNN is tested in predicting the time history response of the transmission tower under 15 m/s to 70 m/s wind speed. The effectiveness of the CNN surrogate model is validated through a fragility model development, and its robustness is investigated using two wind inputs generated from a random wind profile and a random wind spectrum.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-04-15",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/J.ENGSTRUCT.2021.111859",
+              "id": "S2:6edbf1454c52761ddd59e727eebc3234110970fc",
+              "provider": "semantic_scholar",
+              "title": "Predicting single freestanding transmission tower time history response during complex wind input through a convolutional neural network based surrogate model",
+              "url": "https://www.semanticscholar.org/paper/6edbf1454c52761ddd59e727eebc3234110970fc?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2004-11-23",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PHYSREVE.70.052903",
+              "id": "S2:0ce0f4d1a205e163fcc4e3ab5ad0b998fed965a8",
+              "provider": "semantic_scholar",
+              "title": "Finite-size dynamics of inhibitory and excitatory interacting spiking neurons.",
+              "url": "https://www.semanticscholar.org/paper/0ce0f4d1a205e163fcc4e3ab5ad0b998fed965a8?utm_source=api"
+            },
+            {
+              "abstract": "Critical brain hypothesis has been intensively studied both in experimental and theoretical neuroscience over the past two decades. However, some important questions still remain: (i) What is the critical point the brain operates at? (ii) What is the regulatory mechanism that brings about and maintains such a critical state? (iii) The critical state is characterized by scale-invariant behavior which is seemingly at odds with definitive brain oscillations? In this work we consider a biologically motivated model of Izhikevich neuronal network with chemical synapses interacting via spike-timing-dependent plasticity (STDP) as well as axonal time delay. Under generic and physiologically relevant conditions we show that the system is organized and maintained around a synchronization transition point as opposed to an activity transition point associated with an absorbing state phase transition. However, such a state exhibits experimentally relevant signs of critical dynamics including scale-free avalanches with finite-size scaling as well as critical branching ratios. While the system displays stochastic oscillations with highly correlated fluctuations, it also displays dominant frequency modes seen as sharp peaks in the power spectrum. The role of STDP as well as time delay is crucial in achieving and maintaining such critical dynamics, while the role of inhibition is not as crucial. In this way we provide possible answers to all three questions posed above. We also show that one can achieve supercritical or subcritical dynamics if one changes the average time delay associated with axonal conduction.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-07-22",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3389/fnsys.2019.00073",
+              "id": "S2:5df323410ec4f920b2e6b090ada407383984179f",
+              "provider": "semantic_scholar",
+              "title": "Spike-Timing-Dependent Plasticity With Axonal Delay Tunes Networks of Izhikevich Neurons to the Edge of Synchronization Transition With Scale-Free Avalanches",
+              "url": "https://www.semanticscholar.org/paper/5df323410ec4f920b2e6b090ada407383984179f?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2008-10-06",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/anie.200802630",
+              "id": "S2:519f53c6eead46df36d9575393910d5a26149793",
+              "provider": "semantic_scholar",
+              "title": "Finite size effects on hydrogen bonds in confined water.",
+              "url": "https://www.semanticscholar.org/paper/519f53c6eead46df36d9575393910d5a26149793?utm_source=api"
+            },
+            {
+              "abstract": "The emergence of large-scale connectivity and synchronization are crucial to the structure, function and failure of many complex socio-technical networks. Thus, there is great interest in analyzing phase transitions to large-scale connectivity and to global synchronization, including how to enhance or delay the onset. These phenomena are traditionally studied as second-order phase transitions where, at the critical threshold, the order parameter increases rapidly but continuously. In 2009, an extremely abrupt transition was found for a network growth process where links compete for addition in an attempt to delay percolation. This observation of ‘explosive percolation’ was ultimately revealed to be a continuous transition in the thermodynamic limit, yet with very atypical finite-size scaling, and it started a surge of work on explosive phenomena and their consequences. Many related models are now shown to yield discontinuous percolation transitions and even hybrid transitions. Explosive percolation enables many other features such as multiple giant components, modular structures, discrete scale invariance and non-self-averaging, relating to properties found in many real phenomena such as explosive epidemics, electric breakdowns and the emergence of molecular life. Models of explosive synchronization provide an analytic framework for the dynamics of abrupt transitions and reveal the interplay between the distribution in natural frequencies and the network structure, with applications ranging from epileptic seizures to waking from anesthesia. Here we review the vast literature on explosive phenomena in networked systems and synthesize the fundamental connections between models and survey the application areas. We attempt to classify explosive phenomena based on underlying mechanisms and to provide a coherent overview and perspective for future research to address the many vital questions that remained unanswered.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-07-03",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1080/00018732.2019.1650450",
+              "id": "S2:50d5c11374c80fe642efeb8ceb0e0434171725f3",
+              "provider": "semantic_scholar",
+              "title": "Explosive phenomena in complex networks",
+              "url": "https://www.semanticscholar.org/paper/50d5c11374c80fe642efeb8ceb0e0434171725f3?utm_source=api"
+            },
+            {
+              "abstract": "Finite-sized populations of spiking neurons are fundamental to brain function. Here we present a theory of the dynamics of finite-sized populations of neurons, based on a quasi-renewal description of neurons with adaptation. We derive an integral equation with colored noise that governs the stochastic dynamics of the population activity in response to time-dependent stimulation and calculate the spectral density in the stationary state. The theory is applicable to fully as well as randomly connected networks, and to leaky integrate-and-fire as well as to generalized spiking neurons with adaptation on multiple time scales.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2013-11-17",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PHYSREVE.90.062704",
+              "id": "S2:2bd5684f6c380d57490b2450798ed068437778cd",
+              "provider": "semantic_scholar",
+              "title": "Dynamics of interacting finite-sized networks of spiking neurons with adaptation",
+              "url": "https://www.semanticscholar.org/paper/2bd5684f6c380d57490b2450798ed068437778cd?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2010-04-15",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PHYSREVE.81.041115",
+              "id": "S2:313decfac0fa96f7adc97631b422e9d9bf7282b8",
+              "provider": "semantic_scholar",
+              "title": "One-body theory for amplified signal response in a scale-free network.",
+              "url": "https://www.semanticscholar.org/paper/313decfac0fa96f7adc97631b422e9d9bf7282b8?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:67af897f7f669f8a88e17aa06cf074594540ff0e",
+              "provider": "semantic_scholar",
+              "title": "The effect of pulse width on the dynamics of pulse-coupled oscillators",
+              "url": "https://www.semanticscholar.org/paper/67af897f7f669f8a88e17aa06cf074594540ff0e?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2023-09-24",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 6499,
+              "query": "finite size scaling timeliness response delay network dynamics",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8330",
+                "reset_seconds": "47081"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2023-09-24",
+                  "per_page": "10",
+                  "search": "finite size scaling timeliness response delay network dynamics",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2023-09-25"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2023-09-24",
+              "attempts": 2,
+              "locally_excluded_uncertain_or_not_strictly_before": 0,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 150,
+              "query": "finite size scaling timeliness response delay network dynamics",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "finite size scaling timeliness response delay network dynamics",
+                  "year": "1900-2023"
+                }
+              },
+              "strict_before": "2023-09-25"
+            }
+          },
+          "query": "finite size scaling timeliness response delay network dynamics",
+          "strict_before": "2023-09-25"
+        }
+      ]
+    }
+  },
+  "generated_at": "2026-08-13T10:55:25.862553+00:00",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "489ab10c3d7f661eb09b26e2ab362333311f7f2d03dee80eff78b3e0e1857907",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Migrated without changing the frozen pre-t0 query results; non-detection is scoped, not universal priority.",
+  "strict_before": "2023-09-25",
+  "task_id": "Physics_05_temporal_delay_transition",
+  "release": "V1.0"
+}

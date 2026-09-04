@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Neuro_01_self_organization_prediction",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/method_median.py",
+      "script_sha256": "40872c5de11ed502b6c34a1bfdd1de724ac746ba7d26397998a8ac55ec8b6d21"
+    },
+    {
+      "script": "verification/perturb/A/sample_leave_one_out.py",
+      "script_sha256": "34e069e8ec16354d10eb51d843521a496a5f0fd1fbe08c635238d9fb5d984fc9"
+    },
+    {
+      "script": "verification/perturb/A/window_initial_8.py",
+      "script_sha256": "151e40fae8d023b39586f4fc0e727df772effdb38555f4cd2d052b6a9cad1955"
+    },
+    {
+      "script": "verification/perturb/B/method_median.py",
+      "script_sha256": "9f865902949089b9b8ff650f88cdbe66100ca4b1ce6560c7ef0190dd44192ccd"
+    },
+    {
+      "script": "verification/perturb/B/sample_leave_one_out.py",
+      "script_sha256": "605fbc0428d0fdbb78f86b469f3181c95f4e94fea8ebc83e22e63dc8197afec9"
+    },
+    {
+      "script": "verification/perturb/B/window_initial_8.py",
+      "script_sha256": "d871799baad3e102bbf8251efe8ccde959c14e6a8e0ce56c54d79e32021f9420"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "0123cddc5b7b732be4825a71297cd218da43891a535f915b47d05466955f36c9"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "9e5dbab63d5bab896327394fe49a74aea511a7945f79cb4400d5b3c49799e758"
+    }
+  ],
+  "verification_tree_sha256": "b7185c2ecaec72d0a478e581c959f34b222d5532f48d29f1b1eab1ccac2dfb29",
+  "verification_file_count": 9,
+  "shared_runtime_tree_sha256": "d8710168f8a9c9ce1fd4946fdcfa0a279806376236feda46a5384b7f302428e9",
+  "shared_runtime_file_count": 4
+}

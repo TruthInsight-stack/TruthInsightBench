@@ -1,0 +1,997 @@
+{
+  "schema": "truthinsightbench-data-manifest",
+  "task_id": "Chemistry_07_photoionization_delay",
+  "title": "Energy- and Angle-Dependent Molecular Photoionization Dynamics",
+  "domain": "chemistry",
+  "t0": "2021-01-01",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "scientific_scope": "Complete deterministic long-format TSV projections of all datasets in the four frozen HDF5 scientific files, covering experimental and theoretical energy-angle observations, dipole-matrix elements, angular coefficients, and phase/delay curves.",
+  "analysis_unit": "One measured dipole-matrix energy block or one complete theory calculation block. The dense experiment-like phase/delay grid is a spline-derived representation of 13 measured energy blocks, so its cells are correlated derived values rather than independent observations.",
+  "missingness": "No curator-imposed row deletion, random subsampling, or imputation is applied within the frozen task boundary.",
+  "license_boundary": "Zenodo scientific data: CC BY 4.0. Bundled TSV files are deterministic projections of the cited source files.",
+  "warnings": [
+    "Interpolation between experimental and theoretical energy grids must be declared and perturbed.",
+    "Large angular variation near a local energy region is not by itself evidence for a unique microscopic mechanism.",
+    "The public coordinate metadata defines emission angle and phase-to-delay conversion; dense derived grid cells must not be counted as experimental replicates."
+  ],
+  "variable_dictionary": {
+    "angle_energy_observations_datasets.tsv": [
+      "dataset_path",
+      "index_0",
+      "index_1",
+      "value"
+    ],
+    "angular_coefficients_datasets.tsv": [
+      "dataset_path",
+      "index_0",
+      "index_1",
+      "value"
+    ],
+    "coordinate_definitions.json": [
+      "schema: \"truthinsightbench-coordinate-definitions-v1\"",
+      "task_id: \"Chemistry_07_photoionization_delay\"",
+      "angle_coordinate: {\"dataset_axis\": \"index_1 for energy-angle phase, delay, and magnitude arrays\", \"definition\": \"emission_angle_deg = index_1\", \"range_deg\": [0, 180], \"step_deg\": 1}",
+      "phase_delay_conversion: {\"formula\": \"delay_as = d(unwrapped_phase_rad)/d(photon_energy_eV) * hbar_as_eV\", \"hbar_as_eV\": 658.2119569}",
+      "experimental_grid_provenance: {\"dense_phase_delay_grid_status\": \"derived_spline_grid\", \"independence_warning\": \"Dense derived grid cells are not independent experimental measurements.\", \"measured_dipole_matrix_energy_blocks\": 13, \"measured_energy_values_eV\": [22.5, 23.25, 24.8, 26.35, 27.9, 29.45, 31.0, 32.55, 34.1, 35.65, 37.2, 38.75, 48.4]}"
+    ],
+    "dipole_matrix_elements_datasets.tsv": [
+      "dataset_path",
+      "index_0",
+      "index_1",
+      "value"
+    ],
+    "phase_and_delay_curves_datasets.tsv": [
+      "dataset_path",
+      "index_0",
+      "index_1",
+      "value"
+    ]
+  },
+  "source_projection_inventory": [
+    {
+      "public_file": "angle_energy_observations_datasets.tsv",
+      "source_format": "HDF5",
+      "projection_columns": [
+        "dataset_path",
+        "index_0",
+        "index_1",
+        "value"
+      ],
+      "numeric_values_exactly_roundtripped": true,
+      "datasets": [
+        {
+          "dataset_path": "experiment/delay",
+          "shape": [
+            275,
+            181
+          ],
+          "dtype": "float64",
+          "value_count": 49775,
+          "finite_value_count": 49775,
+          "nonfinite_value_count": 0,
+          "attributes": {},
+          "float64_value_stream_sha256": "6c1c1b53dafd16cb1e4157384db2cb008e0578a888ed8f47b122ea2c1e7fac87"
+        },
+        {
+          "dataset_path": "experiment/magnitude",
+          "shape": [
+            276,
+            181
+          ],
+          "dtype": "float64",
+          "value_count": 49956,
+          "finite_value_count": 49956,
+          "nonfinite_value_count": 0,
+          "attributes": {},
+          "float64_value_stream_sha256": "5ad322f15395c88af9386b1afeed1eebb548b461ffcc1ae5511cf07e7f7522a4"
+        },
+        {
+          "dataset_path": "experiment/phase",
+          "shape": [
+            276,
+            181
+          ],
+          "dtype": "float64",
+          "value_count": 49956,
+          "finite_value_count": 49956,
+          "nonfinite_value_count": 0,
+          "attributes": {},
+          "float64_value_stream_sha256": "ee883a357ac13c8dd82f29f67f410c6cc95a2ea639dc4985fc51ba80d359fa3e"
+        },
+        {
+          "dataset_path": "experiment/photon_energy_eV",
+          "shape": [
+            276
+          ],
+          "dtype": "float64",
+          "value_count": 276,
+          "finite_value_count": 276,
+          "nonfinite_value_count": 0,
+          "attributes": {},
+          "float64_value_stream_sha256": "f9434cba1d69491aeca95221ff8f13996d22161ba5dd1ea0110355e719a4e1a8"
+        },
+        {
+          "dataset_path": "experiment/photon_energy_eV_del",
+          "shape": [
+            275
+          ],
+          "dtype": "float64",
+          "value_count": 275,
+          "finite_value_count": 275,
+          "nonfinite_value_count": 0,
+          "attributes": {},
+          "float64_value_stream_sha256": "819c566f3bbfb0d20a110124c49a1c7b740c43a4e268bf5823abd7f0c4fe753d"
+        },
+        {
+          "dataset_path": "theory/delay",
+          "shape": [
+            98,
+            181
+          ],
+          "dtype": "float64",
+          "value_count": 17738,
+          "finite_value_count": 17738,
+          "nonfinite_value_count": 0,
+          "attributes": {},
+          "float64_value_stream_sha256": "d87986d1df452c28bfe80ccf3bb94bb6d8f47ea946ce289ecc610885835eebeb"
+        },
+        {
+          "dataset_path": "theory/magnitude",
+          "shape": [
+            99,
+            181
+          ],
+          "dtype": "float64",
+          "value_count": 17919,
+          "finite_value_count": 17919,
+          "nonfinite_value_count": 0,
+          "attributes": {},
+          "float64_value_stream_sha256": "3a7886789dc8a079268ac74f664bc76e264014329d20785e7cb7fedef927c14f"
+        },
+        {
+          "dataset_path": "theory/phase",
+          "shape": [
+            99,
+            181
+          ],
+          "dtype": "float64",
+          "value_count": 17919,
+          "finite_value_count": 17919,
+          "nonfinite_value_count": 0,
+          "attributes": {},
+          "float64_value_stream_sha256": "40fbba98f2e59f0810ce9f194d941b7690deee3280fc4c132e30bed1fb7966f0"
+        },
+        {
+          "dataset_path": "theory/photon_energy_eV",
+          "shape": [
+            99
+          ],
+          "dtype": "float64",
+          "value_count": 99,
+          "finite_value_count": 99,
+          "nonfinite_value_count": 0,
+          "attributes": {},
+          "float64_value_stream_sha256": "20f6d2a9758002b648f55b804e14f0786a16ef18a891447e8d67db505545c0f1"
+        },
+        {
+          "dataset_path": "theory/photon_energy_eV_del",
+          "shape": [
+            98
+          ],
+          "dtype": "float64",
+          "value_count": 98,
+          "finite_value_count": 98,
+          "nonfinite_value_count": 0,
+          "attributes": {},
+          "float64_value_stream_sha256": "805ced0528655d37a96ec6cecd450e37d832f1281b72f1e08f88d207b8b70f83"
+        }
+      ]
+    },
+    {
+      "public_file": "dipole_matrix_elements_datasets.tsv",
+      "source_format": "HDF5",
+      "projection_columns": [
+        "dataset_path",
+        "index_0",
+        "index_1",
+        "value"
+      ],
+      "numeric_values_exactly_roundtripped": true,
+      "datasets": [
+        {
+          "dataset_path": "experiment/DME_22.5eV",
+          "shape": [
+            7,
+            6
+          ],
+          "dtype": "float64",
+          "value_count": 42,
+          "finite_value_count": 42,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "l",
+              "m",
+              "Re",
+              "Im",
+              "errRe",
+              "errIm"
+            ]
+          },
+          "float64_value_stream_sha256": "d3e5f2d76018a0cb66346f0f310dc287a7cc9343e863796b0968957fd63d3fbf"
+        },
+        {
+          "dataset_path": "experiment/DME_23.25eV",
+          "shape": [
+            7,
+            6
+          ],
+          "dtype": "float64",
+          "value_count": 42,
+          "finite_value_count": 42,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "l",
+              "m",
+              "Re",
+              "Im",
+              "errRe",
+              "errIm"
+            ]
+          },
+          "float64_value_stream_sha256": "cac46bb8103e978c31622acc5ed51370967823caf686eb54e830d6c141a6086f"
+        },
+        {
+          "dataset_path": "experiment/DME_24.8eV",
+          "shape": [
+            7,
+            6
+          ],
+          "dtype": "float64",
+          "value_count": 42,
+          "finite_value_count": 42,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "l",
+              "m",
+              "Re",
+              "Im",
+              "errRe",
+              "errIm"
+            ]
+          },
+          "float64_value_stream_sha256": "f05680b692410deaacbda084574b71843508c04a4ced3d6c187abe92a23edf30"
+        },
+        {
+          "dataset_path": "experiment/DME_26.35eV",
+          "shape": [
+            7,
+            6
+          ],
+          "dtype": "float64",
+          "value_count": 42,
+          "finite_value_count": 42,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "l",
+              "m",
+              "Re",
+              "Im",
+              "errRe",
+              "errIm"
+            ]
+          },
+          "float64_value_stream_sha256": "a0bc9488519775ef80ed36619982d85ddb636c1e2cca7caec041eed6503d1947"
+        },
+        {
+          "dataset_path": "experiment/DME_27.9eV",
+          "shape": [
+            7,
+            6
+          ],
+          "dtype": "float64",
+          "value_count": 42,
+          "finite_value_count": 42,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "l",
+              "m",
+              "Re",
+              "Im",
+              "errRe",
+              "errIm"
+            ]
+          },
+          "float64_value_stream_sha256": "c3598b1089f481ea27b9468deecfbd544a96f781853e66119715985f1d86ecd7"
+        },
+        {
+          "dataset_path": "experiment/DME_29.45eV",
+          "shape": [
+            7,
+            6
+          ],
+          "dtype": "float64",
+          "value_count": 42,
+          "finite_value_count": 42,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "l",
+              "m",
+              "Re",
+              "Im",
+              "errRe",
+              "errIm"
+            ]
+          },
+          "float64_value_stream_sha256": "7ecd202e3e395c82ba7eb2200be5c79e4bbfc53955ebda1afb2db4f3ec6d451f"
+        },
+        {
+          "dataset_path": "experiment/DME_31.0eV",
+          "shape": [
+            7,
+            6
+          ],
+          "dtype": "float64",
+          "value_count": 42,
+          "finite_value_count": 42,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "l",
+              "m",
+              "Re",
+              "Im",
+              "errRe",
+              "errIm"
+            ]
+          },
+          "float64_value_stream_sha256": "d27dab27121ea2c15a68a3442d8256c2f2849d51e7f3ef80ea218b1e26cb7d5e"
+        },
+        {
+          "dataset_path": "experiment/DME_32.55eV",
+          "shape": [
+            7,
+            6
+          ],
+          "dtype": "float64",
+          "value_count": 42,
+          "finite_value_count": 42,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "l",
+              "m",
+              "Re",
+              "Im",
+              "errRe",
+              "errIm"
+            ]
+          },
+          "float64_value_stream_sha256": "310c1a812285c1da9ff6a28acf0b9be31201d49e0e73cd17f7e81cca5d201aeb"
+        },
+        {
+          "dataset_path": "experiment/DME_34.1eV",
+          "shape": [
+            7,
+            6
+          ],
+          "dtype": "float64",
+          "value_count": 42,
+          "finite_value_count": 42,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "l",
+              "m",
+              "Re",
+              "Im",
+              "errRe",
+              "errIm"
+            ]
+          },
+          "float64_value_stream_sha256": "a180a1e78ed3441659aad700535e529bced0c5364def949af4f3a7087b3d0faf"
+        },
+        {
+          "dataset_path": "experiment/DME_35.65eV",
+          "shape": [
+            7,
+            6
+          ],
+          "dtype": "float64",
+          "value_count": 42,
+          "finite_value_count": 42,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "l",
+              "m",
+              "Re",
+              "Im",
+              "errRe",
+              "errIm"
+            ]
+          },
+          "float64_value_stream_sha256": "0993fb86846a3c7dd924189b90fd7d1652f4e2d10f1850a2f46e459b7e7e3b18"
+        },
+        {
+          "dataset_path": "experiment/DME_37.2eV",
+          "shape": [
+            7,
+            6
+          ],
+          "dtype": "float64",
+          "value_count": 42,
+          "finite_value_count": 42,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "l",
+              "m",
+              "Re",
+              "Im",
+              "errRe",
+              "errIm"
+            ]
+          },
+          "float64_value_stream_sha256": "be1ace26d2b098942eb865fc95b4aa9c833b7a579545fa97f9ea74108da3d43b"
+        },
+        {
+          "dataset_path": "experiment/DME_38.75eV",
+          "shape": [
+            7,
+            6
+          ],
+          "dtype": "float64",
+          "value_count": 42,
+          "finite_value_count": 42,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "l",
+              "m",
+              "Re",
+              "Im",
+              "errRe",
+              "errIm"
+            ]
+          },
+          "float64_value_stream_sha256": "7a806bafffe9cea6bf5e03cd149c4288dfcb0183b6630356d97b1eccc0c27648"
+        },
+        {
+          "dataset_path": "experiment/DME_48.4eV",
+          "shape": [
+            7,
+            6
+          ],
+          "dtype": "float64",
+          "value_count": 42,
+          "finite_value_count": 42,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "l",
+              "m",
+              "Re",
+              "Im",
+              "errRe",
+              "errIm"
+            ]
+          },
+          "float64_value_stream_sha256": "482016f89c900c69937312986fce0614ada71f84bbf260337f7ee91cb87f3b8e"
+        },
+        {
+          "dataset_path": "theory/DMEs",
+          "shape": [
+            34056,
+            10
+          ],
+          "dtype": "float64",
+          "value_count": 340560,
+          "finite_value_count": 340560,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "m_ini state",
+              "m_final state",
+              "IE (a.u.)",
+              "T_kin (a.u.)",
+              "l",
+              "m",
+              "mu",
+              "length(1) or vel(2) gauge",
+              "Re",
+              "Im"
+            ]
+          },
+          "float64_value_stream_sha256": "c8fcfe7b423870d8af27ea5fec595e873a59396f6eadb26b43287c5714bcb6cc"
+        }
+      ]
+    },
+    {
+      "public_file": "angular_coefficients_datasets.tsv",
+      "source_format": "HDF5",
+      "projection_columns": [
+        "dataset_path",
+        "index_0",
+        "index_1",
+        "value"
+      ],
+      "numeric_values_exactly_roundtripped": true,
+      "datasets": [
+        {
+          "dataset_path": "CoefLeg_22.5eV",
+          "shape": [
+            9,
+            11
+          ],
+          "dtype": "float64",
+          "value_count": 99,
+          "finite_value_count": 99,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "order",
+              "F00",
+              "errF00",
+              "F20",
+              "errF20",
+              "F21",
+              "errF21",
+              "F22",
+              "errF22",
+              "F11",
+              "errF11"
+            ]
+          },
+          "float64_value_stream_sha256": "e934ab914d4cce2c47e91bbb7043ca801218a7a4664cb14a593bfd3e7fa19aa0"
+        },
+        {
+          "dataset_path": "CoefLeg_23.25eV",
+          "shape": [
+            9,
+            11
+          ],
+          "dtype": "float64",
+          "value_count": 99,
+          "finite_value_count": 99,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "order",
+              "F00",
+              "errF00",
+              "F20",
+              "errF20",
+              "F21",
+              "errF21",
+              "F22",
+              "errF22",
+              "F11",
+              "errF11"
+            ]
+          },
+          "float64_value_stream_sha256": "d831cb48bedca3760ea0abf9c3a051eceedbf269cc7a9543d0c5929c9c76d56c"
+        },
+        {
+          "dataset_path": "CoefLeg_24.8eV",
+          "shape": [
+            9,
+            11
+          ],
+          "dtype": "float64",
+          "value_count": 99,
+          "finite_value_count": 99,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "order",
+              "F00",
+              "errF00",
+              "F20",
+              "errF20",
+              "F21",
+              "errF21",
+              "F22",
+              "errF22",
+              "F11",
+              "errF11"
+            ]
+          },
+          "float64_value_stream_sha256": "f2daad54f9f185a710df7eecfa0fe7977a4f34b883e9dffd8933f3fb5dc9f008"
+        },
+        {
+          "dataset_path": "CoefLeg_26.35eV",
+          "shape": [
+            9,
+            11
+          ],
+          "dtype": "float64",
+          "value_count": 99,
+          "finite_value_count": 99,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "order",
+              "F00",
+              "errF00",
+              "F20",
+              "errF20",
+              "F21",
+              "errF21",
+              "F22",
+              "errF22",
+              "F11",
+              "errF11"
+            ]
+          },
+          "float64_value_stream_sha256": "65057ceb2f544c87d6e596e5502b504fee9efc370716f394850acccec4cd5318"
+        },
+        {
+          "dataset_path": "CoefLeg_27.9eV",
+          "shape": [
+            9,
+            11
+          ],
+          "dtype": "float64",
+          "value_count": 99,
+          "finite_value_count": 99,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "order",
+              "F00",
+              "errF00",
+              "F20",
+              "errF20",
+              "F21",
+              "errF21",
+              "F22",
+              "errF22",
+              "F11",
+              "errF11"
+            ]
+          },
+          "float64_value_stream_sha256": "fd5812f009b9db411aa2adfa63df2658519d0cf25378dcfb2044d186f25728f0"
+        },
+        {
+          "dataset_path": "CoefLeg_29.45eV",
+          "shape": [
+            9,
+            11
+          ],
+          "dtype": "float64",
+          "value_count": 99,
+          "finite_value_count": 99,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "order",
+              "F00",
+              "errF00",
+              "F20",
+              "errF20",
+              "F21",
+              "errF21",
+              "F22",
+              "errF22",
+              "F11",
+              "errF11"
+            ]
+          },
+          "float64_value_stream_sha256": "d58927e609255857984bb4b3c66d9fe0c052abfdedbd5be1d6960439dbf017f8"
+        },
+        {
+          "dataset_path": "CoefLeg_31.0eV",
+          "shape": [
+            9,
+            11
+          ],
+          "dtype": "float64",
+          "value_count": 99,
+          "finite_value_count": 99,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "order",
+              "F00",
+              "errF00",
+              "F20",
+              "errF20",
+              "F21",
+              "errF21",
+              "F22",
+              "errF22",
+              "F11",
+              "errF11"
+            ]
+          },
+          "float64_value_stream_sha256": "8248398f3fb1afcb3aca11cafe8f7fca8e7138e5f5a10a1dce34b9fac32dcfaf"
+        },
+        {
+          "dataset_path": "CoefLeg_32.55eV",
+          "shape": [
+            9,
+            11
+          ],
+          "dtype": "float64",
+          "value_count": 99,
+          "finite_value_count": 99,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "order",
+              "F00",
+              "errF00",
+              "F20",
+              "errF20",
+              "F21",
+              "errF21",
+              "F22",
+              "errF22",
+              "F11",
+              "errF11"
+            ]
+          },
+          "float64_value_stream_sha256": "f4d1d925f422b1589f32a03acdbd19120bffbec725a34a9e46975ce0cf41f269"
+        },
+        {
+          "dataset_path": "CoefLeg_34.1eV",
+          "shape": [
+            9,
+            11
+          ],
+          "dtype": "float64",
+          "value_count": 99,
+          "finite_value_count": 99,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "order",
+              "F00",
+              "errF00",
+              "F20",
+              "errF20",
+              "F21",
+              "errF21",
+              "F22",
+              "errF22",
+              "F11",
+              "errF11"
+            ]
+          },
+          "float64_value_stream_sha256": "624851c11af4276d330f252436891897918b17a351390b90117660469af961a8"
+        },
+        {
+          "dataset_path": "CoefLeg_35.65eV",
+          "shape": [
+            9,
+            11
+          ],
+          "dtype": "float64",
+          "value_count": 99,
+          "finite_value_count": 99,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "order",
+              "F00",
+              "errF00",
+              "F20",
+              "errF20",
+              "F21",
+              "errF21",
+              "F22",
+              "errF22",
+              "F11",
+              "errF11"
+            ]
+          },
+          "float64_value_stream_sha256": "d2e23ed7711c4c8505c9616d19f136ff3ae6f503dce3851408ca7761725df103"
+        },
+        {
+          "dataset_path": "CoefLeg_37.2eV",
+          "shape": [
+            9,
+            11
+          ],
+          "dtype": "float64",
+          "value_count": 99,
+          "finite_value_count": 99,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "order",
+              "F00",
+              "errF00",
+              "F20",
+              "errF20",
+              "F21",
+              "errF21",
+              "F22",
+              "errF22",
+              "F11",
+              "errF11"
+            ]
+          },
+          "float64_value_stream_sha256": "62a8a15030c5f7a9a1c1175e0078e178eed904636e22a3dc09ab0e061b350a7f"
+        },
+        {
+          "dataset_path": "CoefLeg_38.75eV",
+          "shape": [
+            9,
+            11
+          ],
+          "dtype": "float64",
+          "value_count": 99,
+          "finite_value_count": 99,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "order",
+              "F00",
+              "errF00",
+              "F20",
+              "errF20",
+              "F21",
+              "errF21",
+              "F22",
+              "errF22",
+              "F11",
+              "errF11"
+            ]
+          },
+          "float64_value_stream_sha256": "a28de05001291e6f0181dd3af061e7816477371f4e65538dcbc8397cbc19dd08"
+        },
+        {
+          "dataset_path": "CoefLeg_48.4eV",
+          "shape": [
+            9,
+            11
+          ],
+          "dtype": "float64",
+          "value_count": 99,
+          "finite_value_count": 99,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "order",
+              "F00",
+              "errF00",
+              "F20",
+              "errF20",
+              "F21",
+              "errF21",
+              "F22",
+              "errF22",
+              "F11",
+              "errF11"
+            ]
+          },
+          "float64_value_stream_sha256": "96b1275bb46369de2c8f130de363e6d9670e9c45f42ad56443681bc1ea70ad52"
+        }
+      ]
+    },
+    {
+      "public_file": "phase_and_delay_curves_datasets.tsv",
+      "source_format": "HDF5",
+      "projection_columns": [
+        "dataset_path",
+        "index_0",
+        "index_1",
+        "value"
+      ],
+      "numeric_values_exactly_roundtripped": true,
+      "datasets": [
+        {
+          "dataset_path": "0.5_Wigner_delay",
+          "shape": [
+            296,
+            2
+          ],
+          "dtype": "float64",
+          "value_count": 592,
+          "finite_value_count": 592,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "eKE (eV",
+              "Delay (as)"
+            ]
+          },
+          "float64_value_stream_sha256": "d1dba83e7306d1bce9a74182d8ecd80e873eabd563a8246650302138a34c4321"
+        },
+        {
+          "dataset_path": "angle_averaged_delay",
+          "shape": [
+            200,
+            2
+          ],
+          "dtype": "float64",
+          "value_count": 400,
+          "finite_value_count": 400,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "eKE (eV",
+              "Delay (as)"
+            ]
+          },
+          "float64_value_stream_sha256": "fbd5440396969c8a2be644f2592f711fd52c2746dd1403538198b18aba23ffc7"
+        },
+        {
+          "dataset_path": "eigenphase_sum",
+          "shape": [
+            50,
+            2
+          ],
+          "dtype": "float64",
+          "value_count": 100,
+          "finite_value_count": 100,
+          "nonfinite_value_count": 0,
+          "attributes": {
+            "columns": [
+              "eKE (eV",
+              "Eigenphase Sum (rad)"
+            ]
+          },
+          "float64_value_stream_sha256": "1614deb61e47480bf12baea5e6a209688a6c08e85cb2c47ba79b6d47254b77bd"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "angle_energy_observations_datasets.tsv",
+      "bytes": 8493010,
+      "sha256": "55a1d9621c0e386fb44a63764a97cf81491d2bd7af0209c74e212329172df396",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "angular_coefficients_datasets.tsv",
+      "bytes": 45556,
+      "sha256": "a47e1e06130ec2a0dc8e3a4b2b45233828b37e6ff31101dbefebfd8b9d0ac411",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "coordinate_definitions.json",
+      "bytes": 942,
+      "sha256": "9ededacdc91711d880570fb2a35c593a462b26c48366a91ff1f313c29c23df6b",
+      "role": "scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "dipole_matrix_elements_datasets.tsv",
+      "bytes": 9859272,
+      "sha256": "df51186c5de242e7b6d7aa51b30f2b75411bbea139507a3061273c23f2c01762",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "phase_and_delay_curves_datasets.tsv",
+      "bytes": 43302,
+      "sha256": "10b077ae335ce79515d03341dbf924a4143b78c310676c89dc8e56af5d6c044c",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

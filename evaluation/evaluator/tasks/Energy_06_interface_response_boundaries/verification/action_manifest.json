@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Energy_06_interface_response_boundaries",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition.py",
+      "script_sha256": "f703e8d04fa525f7b55fef0ea0c8c0828f7a6d4b0d896bf4406fe5c266ae4ff2"
+    },
+    {
+      "script": "verification/perturb/A/method.py",
+      "script_sha256": "b64a7f4283a9cf7fddb096843038eb4c18388515b084ac5e0a1928d7700e1652"
+    },
+    {
+      "script": "verification/perturb/A/sample.py",
+      "script_sha256": "667cd59095a1c47e27fce422eacb0fb38b972419e8f952293dfb5b0215dfbe46"
+    },
+    {
+      "script": "verification/perturb/B/definition.py",
+      "script_sha256": "992d72ed730f29ca94b57f7a458e99e7c8d6b6fcb733e2a962907f81631559f1"
+    },
+    {
+      "script": "verification/perturb/B/method.py",
+      "script_sha256": "e6fd7995d90265134140cde9d9b3809e066a02978403bdb184c71ed0d53aec22"
+    },
+    {
+      "script": "verification/perturb/B/sample.py",
+      "script_sha256": "20e5c88f52f60a38a3e159718a78ae91e8c4e97042f08f7053d74549d332975a"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "4f8cf9cb452b1ea9a723aaf57f44fe35e76a4808235d3fee695d38c3545d1bc8"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "0767044bed5b688ca391c6b7ebcc302be488798d9ea801891b765b80be359957"
+    }
+  ],
+  "verification_tree_sha256": "626f986c91ac882dc3fa7ca1abe8b0fc7f573fdc215623a37829e2579f2e6bd8",
+  "verification_file_count": 8,
+  "shared_runtime_tree_sha256": "d8710168f8a9c9ce1fd4946fdcfa0a279806376236feda46a5384b7f302428e9",
+  "shared_runtime_file_count": 4
+}

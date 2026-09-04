@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Astronomy_02_radio_burst_drift",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition_frozen.py",
+      "script_sha256": "7afb78625944bc6587008ff38bd160009b16d6ee4314f18c7e595d9897d8b836"
+    },
+    {
+      "script": "verification/perturb/A/method_frozen.py",
+      "script_sha256": "96f6ed17821cb138a0ab74ed12c899cbed2b45f79c6cd5f8191b37d1ddb96d6c"
+    },
+    {
+      "script": "verification/perturb/A/sample_frozen.py",
+      "script_sha256": "6bc0100e245cf98d73b91a53e2dc66d64a3f02fa8ed34f98f0793b00e9aa351d"
+    },
+    {
+      "script": "verification/perturb/B/definition_frozen.py",
+      "script_sha256": "8fb60a753c8391088fa74be9166b4e8caf92e2d8461d86e41ce38ba08f125c15"
+    },
+    {
+      "script": "verification/perturb/B/method_frozen.py",
+      "script_sha256": "6a156429555e2d013d96c7f58c73ad58554c0f07b452fc3db02f177a529e5a2e"
+    },
+    {
+      "script": "verification/perturb/B/sample_frozen.py",
+      "script_sha256": "07cbe35d8ec170bd76092ae4234d512d4f19cc5788911c60976b4d08004eff37"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "63054e2b7b19ab6dd34dc2df0dcf9be98e50499a86590ca49ebb30d2e03dcfa5"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "7d321f9f143597ffbd418c166a789a4f8dbf21e59831f3f2b568b72d478f84a3"
+    }
+  ],
+  "verification_tree_sha256": "73788227725eaead60ddedd62089354a63ae8691f8e706cbb1a0dc3d992cead6",
+  "verification_file_count": 9,
+  "shared_runtime_tree_sha256": "d8710168f8a9c9ce1fd4946fdcfa0a279806376236feda46a5384b7f302428e9",
+  "shared_runtime_file_count": 4
+}

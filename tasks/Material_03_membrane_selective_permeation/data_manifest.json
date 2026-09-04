@@ -1,0 +1,109 @@
+{
+  "schema": "truthinsightbench-data-manifest",
+  "task_id": "Material_03_membrane_selective_permeation",
+  "title": "Device-Scale and Local Transport Heterogeneity in Two-Dimensional Membranes",
+  "domain": "material_science",
+  "t0": "2023-01-01",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "scientific_scope": "All frozen device time responses, condition responses, bias-current curves, conductivity replicates, local current observations, and the complete spatial current map from the three archived source-data workbooks.",
+  "analysis_unit": "One device, one complete ordered bias-current curve, one conductivity specimen, or one contiguous spatial block. Each class-level local-current vector is a single source-provided descriptive distribution because no parent device/region identifier is available for its trace values.",
+  "missingness": "No curator-imposed row deletion, random subsampling, or imputation is applied within the frozen task boundary.",
+  "license_boundary": "All three archived source-data workbooks are CC BY 4.0 and every task-relevant numerical sheet is projected losslessly under anonymous labels.",
+  "warnings": [
+    "Spatial-map pixels require block-aware inference; unparented local-current trace values support descriptive sensitivity analysis only and cannot be bootstrapped as independent specimens.",
+    "Device-scale and local measurements may constrain one another but do not uniquely identify a microscopic transport path."
+  ],
+  "variable_dictionary": {
+    "bias_current_curves.tsv": [
+      "sample_class",
+      "bias_V",
+      "current_A"
+    ],
+    "condition_response.tsv": [
+      "test_condition",
+      "device_id",
+      "time_day",
+      "dimensionless_delta"
+    ],
+    "conductivity_replicates.tsv": [
+      "sample_class",
+      "replicate_id",
+      "proton_conductivity_mS_cm2"
+    ],
+    "device_time_response.tsv": [
+      "device_id",
+      "time_day",
+      "dimensionless_delta"
+    ],
+    "local_current_distributions.tsv": [
+      "sample_class",
+      "observation_id",
+      "current_pA"
+    ],
+    "spatial_current_map.tsv": [
+      "pixel_id",
+      "x_um",
+      "y_um",
+      "current_pA"
+    ]
+  },
+  "source_projection_inventory": [],
+  "files": [
+    {
+      "path": "bias_current_curves.tsv",
+      "bytes": 17673,
+      "sha256": "fabb98792b2bb452ee98723eb8c35bfd009b53411029e5f143236d58cc90cb45",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "condition_response.tsv",
+      "bytes": 992,
+      "sha256": "d0abf7a86c8919997aa6098eff7e2935e8646908ff62fdb3ab2b477e297d15db",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "conductivity_replicates.tsv",
+      "bytes": 432,
+      "sha256": "39e3c961e51aa1b8970bc820b59ae7eec0cf7c29b5598cdf391a01ad1d855db9",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "device_time_response.tsv",
+      "bytes": 756,
+      "sha256": "3df048b5897dc0ee502a0c63596103e99824c3369d66f330f2e3b2cfd0f61e7d",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "local_current_distributions.tsv",
+      "bytes": 50033,
+      "sha256": "00e05963d7987a3d4da46b07259c35dff6bd930d70314f9d938d92e918bab6d4",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "spatial_current_map.tsv",
+      "bytes": 31547,
+      "sha256": "9f2ba43a6cdafb9dd6ec58d7592b83701b3c8e1eeac0040a87645847f5833fe6",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

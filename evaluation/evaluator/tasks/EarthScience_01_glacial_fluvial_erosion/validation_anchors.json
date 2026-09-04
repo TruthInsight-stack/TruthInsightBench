@@ -1,0 +1,230 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "冰川侵蚀在全球特征尺度上系统性快于河流侵蚀，且远快于非河流地表侵蚀",
+      "independent_reconstruction_method": "Frozen evaluator recomputation: verification/recompute/A.py",
+      "non_exhaustive_validation_anchor": true,
+      "object": "全球冰川、河流和非河流地表侵蚀率编译",
+      "one_liner": "全球编译中冰川侵蚀对数均值为0.5057 mm/yr，河流为0.06664 mm/yr；冰川约为河流的7.589倍",
+      "perturbation_bindings": [
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition_median.py",
+          "script_sha256": "ee5aa7d0b5cdf1d20b981d31a278a1d0afa724173276870ec1582b6a245e24a9"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method_exclude_cosmogenic.py",
+          "script_sha256": "f408a53203e99dc720b8739155f3b769ff6b49aa614c831d84439032322b52b7"
+        },
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample_leave_one_compilation.py",
+          "script_sha256": "c356dada502ecc0e09b50a1cbb34c562bbdc7672f136c3863ba5ce2921f2df4c"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "measurement: \"一份独立更新的全球侵蚀率编译中，按同一正值筛选和对数均值合同计算冰川/河流速率比，并分别剔除宇宙成因方法\"; expected_range: [3.0, 15.0]; failure_criterion: \"冰川/河流比不高于1，或剔除宇宙成因方法后方向反转\""
+      },
+      "quantities": [
+        {
+          "key": "glacial_log_mean_mm_per_year",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "mm/year",
+          "value": 0.5057281113
+        },
+        {
+          "key": "fluvial_log_mean_mm_per_year",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "mm/year",
+          "value": 0.06664009152
+        },
+        {
+          "key": "subaerial_log_mean_mm_per_year",
+          "role": "supporting",
+          "tolerance_rel": 0.05,
+          "unit": "mm/year",
+          "value": 0.000323388331
+        },
+        {
+          "key": "glacial_to_fluvial_ratio",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "ratio",
+          "value": 7.58894683
+        },
+        {
+          "key": "glacial_n",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "record",
+          "value": 427
+        },
+        {
+          "key": "fluvial_n",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "record",
+          "value": 6064
+        },
+        {
+          "key": "subaerial_n",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "record",
+          "value": 64
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "values": [
+          {
+            "json_path": "values.glacial_log_mean_mm_per_year",
+            "quantity_key": "glacial_log_mean_mm_per_year"
+          },
+          {
+            "json_path": "values.fluvial_log_mean_mm_per_year",
+            "quantity_key": "fluvial_log_mean_mm_per_year"
+          },
+          {
+            "json_path": "values.subaerial_log_mean_mm_per_year",
+            "quantity_key": "subaerial_log_mean_mm_per_year"
+          },
+          {
+            "json_path": "values.glacial_to_fluvial_ratio",
+            "quantity_key": "glacial_to_fluvial_ratio"
+          },
+          {
+            "json_path": "values.glacial_n",
+            "quantity_key": "glacial_n"
+          },
+          {
+            "json_path": "values.fluvial_n",
+            "quantity_key": "fluvial_n"
+          },
+          {
+            "json_path": "values.subaerial_n",
+            "quantity_key": "subaerial_n"
+          }
+        ],
+        "script_sha256": "93f8097b60d6e422efe2a9aa14035096085b57545dc7ad8963865f8de5f02b23"
+      },
+      "scope": "427条冰川、6064条河流和64条非河流地表有效速率；只纳入速率和时间尺度均为正值的行",
+      "target_alignment": {
+        "paper_claim_paraphrase": "作者报告全球冰川、河流和非河流地表对数均值约0.51、0.067和0.00032 mm/yr，冰川近一个数量级更快",
+        "paper_location": "Results, Fig. 1B-C and Systematic trends in glacial and nonglacial erosion rates",
+        "rationale": "冻结验证器从两张完整主表按预先登记的正值筛选和对数均值定义重算",
+        "status": "reported_target_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "接近-1的强斜率是宇宙成因方法测量约固定厚度的数学结果，不是侵蚀系统普遍随时间变慢的直接证据",
+      "independent_reconstruction_method": "Frozen evaluator recomputation: verification/recompute/B.py",
+      "non_exhaustive_validation_anchor": true,
+      "object": "宇宙成因表面/碎屑、体积法及全球冰川—河流侵蚀率的测量方法比较",
+      "one_liner": "宇宙成因测量的侵蚀率—时间尺度斜率为-0.9781、对应几何平均厚度648.4 mm，说明强时间尺度关系主要是固定测量厚度效应而非全球侵蚀的普遍减速",
+      "perturbation_bindings": [
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition_cosmogenic_subtypes.py",
+          "script_sha256": "0714899d26397c07a6ec3eddfc471dd17b457e7feed58e4dc23555683691dde6"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method_cosmogenic_vs_volumetric.py",
+          "script_sha256": "472cc649310a2b816eed8274ad00fba6357db85e88c2d6b43bc6a96bc528861a"
+        },
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample_leave_one_compilation.py",
+          "script_sha256": "e9b080d092eda08060eee420b8bed6e4f7dd7ed78b7d862d118b1d557a3265be"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "measurement: \"独立侵蚀率数据库中分别按宇宙成因与体积法拟合log(rate)-log(time)，并计算rate×time所隐含的测量厚度\"; expected_range: [-1.1, -0.8]; failure_criterion: \"宇宙成因斜率明显偏离-1、隐含厚度不集中，或体积法同样稳定出现接近-1斜率\""
+      },
+      "quantities": [
+        {
+          "key": "cosmogenic_loglog_slope",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "log10_slope",
+          "value": -0.9781498144
+        },
+        {
+          "key": "cosmogenic_geometric_thickness_mm",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "mm",
+          "value": 648.4192586
+        },
+        {
+          "key": "glacial_loglog_slope",
+          "role": "supporting",
+          "tolerance_rel": 0.08,
+          "unit": "log10_slope",
+          "value": -0.05665968463
+        },
+        {
+          "key": "fluvial_loglog_slope",
+          "role": "supporting",
+          "tolerance_rel": 0.08,
+          "unit": "log10_slope",
+          "value": -0.01546115748
+        },
+        {
+          "key": "cosmogenic_n",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "record",
+          "value": 3642
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "values": [
+          {
+            "json_path": "values.cosmogenic_loglog_slope",
+            "quantity_key": "cosmogenic_loglog_slope"
+          },
+          {
+            "json_path": "values.cosmogenic_geometric_thickness_mm",
+            "quantity_key": "cosmogenic_geometric_thickness_mm"
+          },
+          {
+            "json_path": "values.glacial_loglog_slope",
+            "quantity_key": "glacial_loglog_slope"
+          },
+          {
+            "json_path": "values.fluvial_loglog_slope",
+            "quantity_key": "fluvial_loglog_slope"
+          },
+          {
+            "json_path": "values.cosmogenic_n",
+            "quantity_key": "cosmogenic_n"
+          }
+        ],
+        "script_sha256": "f20fe53493e0811d1d894a7a79c90768393215c0e8b8c05d7f04e1b11f953450"
+      },
+      "scope": "3642条宇宙成因有效记录，以及427条冰川和6064条河流有效记录；回归在log10(rate)-log10(time)空间执行",
+      "target_alignment": {
+        "paper_claim_paraphrase": "作者把宇宙成因数据接近-1的斜率和约600 mm厚度解释为测量厚度偏差，并指出其他方法缺少同样强的时间尺度偏差",
+        "paper_location": "Results, Fig. 3G-H; Discussion, The ternary Sadler effect",
+        "rationale": "冻结验证器按方法分层重算斜率、rate×time厚度及总体冰川/河流斜率",
+        "status": "reported_target_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "Two verified validation anchors for blind-rediscovery diagnostics; not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2024-10-17",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "EarthScience_01_glacial_fluvial_erosion",
+  "release": "V1.0"
+}

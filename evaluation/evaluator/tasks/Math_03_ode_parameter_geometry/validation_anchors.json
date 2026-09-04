@@ -1,0 +1,195 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "Nearly every parameter decreases, with a much larger median reduction for family 1 across complete parameter blocks.",
+      "independent_reconstruction_method": "Whole-parameter blocks, median/mean family summaries, and progress endpoint definitions.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "All 4,232 parameter trajectories at three progress settings in both solver families.",
+      "one_liner": "Both solver families reduce parameter distance, but solver family 1 reaches a final/initial ratio roughly seven times smaller than family 0.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample.py",
+          "script_sha256": "96095cda488a5c06814c016711bdcd986272d20f8c9d2a0e6c2d0d1f9de7dc34"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method.py",
+          "script_sha256": "9bb11aaa5ead51ce0f60a9d342b4b889eca27e7680b8f732eed59b1a207d0188"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition.py",
+          "script_sha256": "2f0e2a94b961d9b37ee144cdf7909ff15b0257d3a9e50d6797270fcd231b57eb"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A held-out parameter block supports the contrast if family 1 finishes below 0.15 and family 0 above 0.65 of initial median distance; either boundary failing rejects it."
+      },
+      "quantities": [
+        {
+          "key": "solver_0_final_to_initial_median_ratio",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "fraction",
+          "value": 0.7512430256708487
+        },
+        {
+          "key": "solver_1_final_to_initial_median_ratio",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "fraction",
+          "value": 0.10693574878819478
+        },
+        {
+          "key": "solver_0_parameter_decrease_fraction",
+          "role": "supporting",
+          "tolerance_rel": 0.01,
+          "unit": "fraction",
+          "value": 0.9924385633270322
+        },
+        {
+          "key": "solver_1_parameter_decrease_fraction",
+          "role": "supporting",
+          "tolerance_rel": 0.01,
+          "unit": "fraction",
+          "value": 0.9985822306238186
+        },
+        {
+          "key": "final_ratio_solver_1_over_solver_0",
+          "role": "core",
+          "tolerance_rel": 0.1,
+          "unit": "fraction",
+          "value": 0.1423450802657406
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "script_sha256": "e8aaccdb2bebea751cd8171126c9e99ebd1c9c59e1baeafcd870b0fb0cfe51a5",
+        "values": [
+          {
+            "json_path": "values.solver_0_final_to_initial_median_ratio",
+            "quantity_key": "solver_0_final_to_initial_median_ratio"
+          },
+          {
+            "json_path": "values.solver_1_final_to_initial_median_ratio",
+            "quantity_key": "solver_1_final_to_initial_median_ratio"
+          },
+          {
+            "json_path": "values.solver_0_parameter_decrease_fraction",
+            "quantity_key": "solver_0_parameter_decrease_fraction"
+          },
+          {
+            "json_path": "values.solver_1_parameter_decrease_fraction",
+            "quantity_key": "solver_1_parameter_decrease_fraction"
+          },
+          {
+            "json_path": "values.final_ratio_solver_1_over_solver_0",
+            "quantity_key": "final_ratio_solver_1_over_solver_0"
+          }
+        ]
+      },
+      "scope": "Optimization geometry; smaller distance does not alone prove structural identifiability.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports solver-dependent optimization efficiency for large-scale ODE fits.",
+        "paper_location": "ODE optimization and parameter-trajectory Results/source data.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "The spectrum is extremely broad, while paired values have positive correlation and subunit median absolute error.",
+      "independent_reconstruction_method": "Contiguous observation blocks, five-percent error trimming, and spectrum quantile spans.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "The complete singular spectrum and all 13,000 paired measurement-simulation values.",
+      "one_liner": "The singular spectrum spans over 80 log units while measurement-simulation agreement remains positive but imperfect, separating fit quality from identifiability.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample.py",
+          "script_sha256": "56e3d0d058aa87e8a9f05748865efd026fc0b71995a6d034cb642c1cdaab141a"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method.py",
+          "script_sha256": "39f618c39ed2540f4c7fa7f765e18ea09a96db44e1d60cae60a351b8883b5020"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition.py",
+          "script_sha256": "f362a1440cd7ef43dc0edec52c751f5a3038f23e10059d2155d898cfea5ced9d"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A new fit supports the dissociation if every observation block has positive correlation above 0.35 while the 5–95% log-spectrum span exceeds 15; otherwise it fails."
+      },
+      "quantities": [
+        {
+          "key": "log_singular_value_full_span",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "log_units",
+          "value": 83.63285293553
+        },
+        {
+          "key": "measurement_simulation_pearson",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "fraction",
+          "value": 0.7648078903065624
+        },
+        {
+          "key": "measurement_simulation_spearman",
+          "role": "supporting",
+          "tolerance_rel": 0.05,
+          "unit": "fraction",
+          "value": 0.6331617395341695
+        },
+        {
+          "key": "measurement_simulation_median_absolute_error",
+          "role": "supporting",
+          "tolerance_rel": 0.1,
+          "unit": "value_units",
+          "value": 0.0897515474875678
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "script_sha256": "a5c01451bff5e5d6151ef9d00ad5b95a9a833ac3d7fff25b668ab440942e870d",
+        "values": [
+          {
+            "json_path": "values.log_singular_value_full_span",
+            "quantity_key": "log_singular_value_full_span"
+          },
+          {
+            "json_path": "values.measurement_simulation_pearson",
+            "quantity_key": "measurement_simulation_pearson"
+          },
+          {
+            "json_path": "values.measurement_simulation_spearman",
+            "quantity_key": "measurement_simulation_spearman"
+          },
+          {
+            "json_path": "values.measurement_simulation_median_absolute_error",
+            "quantity_key": "measurement_simulation_median_absolute_error"
+          }
+        ]
+      },
+      "scope": "A geometry/prediction dissociation; moderate agreement does not prove every parameter is identifiable.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source distinguishes predictive fit from sloppy or weakly identifiable ODE parameter geometry.",
+        "paper_location": "Singular-spectrum and measurement-simulation Results/source-data panels.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "These two cards are verified reference discoveries for blind-rediscovery diagnostics and are not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2022-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Math_03_ode_parameter_geometry",
+  "release": "V1.0"
+}

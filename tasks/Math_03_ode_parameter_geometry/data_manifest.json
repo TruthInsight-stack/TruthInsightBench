@@ -1,0 +1,68 @@
+{
+  "schema": "truthinsightbench-data-manifest",
+  "task_id": "Math_03_ode_parameter_geometry",
+  "title": "Parameter Geometry and Identifiability Boundaries in ODE Fits",
+  "domain": "computational_mathematics",
+  "t0": "2022-01-01",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "scientific_scope": "All frozen parameter trajectories, singular-value spectra, and paired measurement-simulation values across solver families and progress settings.",
+  "analysis_unit": "One complete parameter trajectory, solver family, spectrum, or paired observation series; progress points within a run are correlated.",
+  "missingness": "No curator-imposed row deletion, random subsampling, or imputation is applied within the frozen task boundary.",
+  "license_boundary": "The complete selected source-data archive is CC BY and is bundled under neutral parameter and solver identifiers.",
+  "warnings": [
+    "Small measurement-simulation error does not prove parameter identifiability.",
+    "Whole-trajectory and solver-family holdouts are required to avoid progress-point leakage."
+  ],
+  "variable_dictionary": {
+    "parameter_trajectories.tsv": [
+      "parameter_index",
+      "solver_family_id",
+      "progress_index",
+      "normalised_distance_like_value"
+    ],
+    "singular_value_spectrum.tsv": [
+      "mode_index",
+      "log_singular_value"
+    ],
+    "measurement_simulation_pairs.tsv": [
+      "observation_index",
+      "measurement_like_value",
+      "simulation_like_value"
+    ]
+  },
+  "source_projection_inventory": [],
+  "files": [
+    {
+      "path": "parameter_trajectories.tsv",
+      "bytes": 742741,
+      "sha256": "77c0f3d50df1ae93b36149fbef3e7e4b944a92b40cf9ad31538af7d82ba7f5dc",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "singular_value_spectrum.tsv",
+      "bytes": 106486,
+      "sha256": "80110c95be6c72240f40a302fb65cdad17b5dd5e992a19ef1c5c892c309265ed",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "measurement_simulation_pairs.tsv",
+      "bytes": 415497,
+      "sha256": "8e57c32a1db66867781f2e0c2f1e3868d2f32683fec5864a1275fdbd4e9ed5c5",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

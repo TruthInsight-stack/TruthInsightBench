@@ -1,0 +1,8 @@
+{
+  "schema": "truthinsightbench-source-attribution",
+  "release": "V1.0",
+  "task_id": "EarthScience_01_glacial_fluvial_erosion",
+  "title": "Limits to timescale dependence in erosion rates: Quantifying glacial and fluvial erosion across timescales",
+  "doi": "10.1126/sciadv.adr2009",
+  "first_publication_date": "2024-12-20"
+}

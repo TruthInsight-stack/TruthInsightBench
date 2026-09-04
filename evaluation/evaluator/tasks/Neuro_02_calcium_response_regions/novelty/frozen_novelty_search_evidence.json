@@ -1,0 +1,427 @@
+{
+  "all_queries_completed": true,
+  "api_cutoff": "2019-12-31",
+  "cards": {
+    "A": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0006-8993(96)00185-0",
+              "id": "https://doi.org/10.1016/0006-8993(96)00185-0",
+              "landing_page_url": "https://doi.org/10.1016/0006-8993(96)00185-0",
+              "publication_date": "1996-07-01",
+              "publication_year": 1996,
+              "source_name": "Brain Research",
+              "title": "Chronic alcohol reduces calcium signaling elicited by glutamate receptor stimulation in developing cerebellar neurons",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/s0006-8993(98)00430-2",
+              "id": "https://doi.org/10.1016/s0006-8993(98)00430-2",
+              "landing_page_url": "https://doi.org/10.1016/s0006-8993(98)00430-2",
+              "publication_date": "1998-07-01",
+              "publication_year": 1998,
+              "source_name": "Brain Research",
+              "title": "Adenosine receptor mediated stimulation of intracellular calcium in acutely isolated astrocytes",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.brs.2017.04.066",
+              "id": "https://doi.org/10.1016/j.brs.2017.04.066",
+              "landing_page_url": "https://doi.org/10.1016/j.brs.2017.04.066",
+              "publication_date": "2017-07-01",
+              "publication_year": 2017,
+              "source_name": "Brain Stimulation",
+              "title": "The influence of sulcus width on accuracy of tCS simulation",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/s0006-8993(96)00185-0",
+              "id": "https://doi.org/10.1016/s0006-8993(96)00185-0",
+              "landing_page_url": "https://doi.org/10.1016/s0006-8993(96)00185-0",
+              "publication_date": "1996-07-01",
+              "publication_year": 1996,
+              "source_name": "Brain Research",
+              "title": "Chronic alcohol reduces calcium signaling elicited by glutamate receptor stimulation in developing cerebellar neurons",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.brs.2016.09.007",
+              "id": "https://doi.org/10.1016/j.brs.2016.09.007",
+              "landing_page_url": "https://doi.org/10.1016/j.brs.2016.09.007",
+              "publication_date": "2017-01-01",
+              "publication_year": 2017,
+              "source_name": "Brain Stimulation",
+              "title": "Pulse Width Affects Scalp Sensation of Transcranial Magnetic Stimulation",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.brs.2014.11.017",
+              "id": "https://doi.org/10.1016/j.brs.2014.11.017",
+              "landing_page_url": "https://doi.org/10.1016/j.brs.2014.11.017",
+              "publication_date": "2015-05-01",
+              "publication_year": 2015,
+              "source_name": "Brain Stimulation",
+              "title": "Enhancement of Neurotrophic Factors in Astrocyte for Neuroprotective Effects in Brain Disorders Using Low-intensity Pulsed Ultrasound Stimulation",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.brs.2017.04.009",
+              "id": "https://doi.org/10.1016/j.brs.2017.04.009",
+              "landing_page_url": "https://doi.org/10.1016/j.brs.2017.04.009",
+              "publication_date": "2017-07-01",
+              "publication_year": 2017,
+              "source_name": "Brain Stimulation",
+              "title": "tDCS metaplasticity and astrocytic calcium in mice",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.brs.2018.12.956",
+              "id": "https://doi.org/10.1016/j.brs.2018.12.956",
+              "landing_page_url": "https://doi.org/10.1016/j.brs.2018.12.956",
+              "publication_date": "2019-03-01",
+              "publication_year": 2019,
+              "source_name": "Brain Stimulation",
+              "title": "Effects of pulse width on responses to single, double and repetitive TMS of motor cortex",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "astrocyte calcium peak width receptor stimulation brain region",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=astrocyte+calcium+peak+width+receptor+stimulation+brain+region&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        },
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "Abstract Glial fibrillary acidic protein (GFAP) is the major intermediate filament protein in astrocytes, one of the most abundant cell types in the vertebrate central nervous system (CNS). Transcriptional regulation of GFAP is of interest because of its astrocyte‐specificity and its upregulation during development and CNS injury. A 2.2 kb human GFAP promoter, gfa2, has been found to express in astrocytes throughout the CNS. In contrast, we recently found that the 448 bp gfa28 promoter expresses in only restricted CNS regions, and is active in neurons as well as astrocytes. In the present study we have used transgenic mice to investigate which DNA regions deleted from gfa2 in the formation of gfa28 are responsible for these differences. We have found that a 55 bp segment spanning bp −1488 to −1434 with respect to the RNA start site contains region‐specific elements and that a 45 bp sequence spanning bp −1443 to −1399 is required for silencing expression in neurons. These data also further confirm the heterogeneity of astrocytes and neurons in the activation and repression of the GFAP gene, respectively. These studies also generated a novel 681 bp GFAP promoter, gfaABC 1 D, that has essentially the same expression pattern as the 2210 bp gfa2 promoter, and about twofold greater activity, recommending it for gene targeting applications in which size matters. In addition, a 681 bp gfaABC 1 (mC 1.1 )D variant was generated that could limit expression of transgenes to astrocytes in the dorsal and caudal cortex, hippocampus and caudal vermis of the cerebellum. © 2008 Wiley‐Liss, Inc.",
+              "doi": "https://doi.org/10.1002/glia.20622",
+              "id": "https://doi.org/10.1002/glia.20622",
+              "landing_page_url": "https://doi.org/10.1002/glia.20622",
+              "publication_date": "2008-01-31",
+              "publication_year": 2008,
+              "source_name": "Glia",
+              "title": "<i>GFAP</i> promoter elements required for region‐specific and astrocyte‐specific expression",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1097/00004872-199303001-00004",
+              "id": "https://doi.org/10.1097/00004872-199303001-00004",
+              "landing_page_url": "https://doi.org/10.1097/00004872-199303001-00004",
+              "publication_date": "1993-03-01",
+              "publication_year": 1993,
+              "source_name": "Journal of Hypertension",
+              "title": "Differences between calcium antagonists: duration of action and trough to peak ratio",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract Astrocytes are essential mediators of many aspects of synaptic transmission and neuroplasticity. Exercise has been demonstrated to induce neuroplasticity and synaptic remodeling, such as through mediating neurorehabilitation in animal models of neurodegeneration. However, the effects of exercise on astrocytic function, and how such changes may be relevant to neuroplasticity remain unclear. Here, we show that exercise remodels astrocytes in an exercise‐ and region‐dependent manner as measured by GFAP and SOX9 immunohistochemistry and morphological analysis in male mice. Additionally, qRT‐PCR analysis of reactive astrocyte gene expression showed an exercise‐induced elevation in brain regions known to be activated by exercise. Taken together, these data demonstrate that exercise actively modifies astrocyte morphology and drives changes in astrocyte gene expression and suggest that astrocytes may be a central component to exercise‐induced neuroplasticity and neurorehabilitation.",
+              "doi": "https://doi.org/10.1002/jnr.24430",
+              "id": "https://doi.org/10.1002/jnr.24430",
+              "landing_page_url": "https://doi.org/10.1002/jnr.24430",
+              "publication_date": "2019-06-07",
+              "publication_year": 2019,
+              "source_name": "Journal of Neuroscience Research",
+              "title": "Exercise induces region‐specific remodeling of astrocyte morphology and reactive astrocyte gene expression patterns in male mice",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/jnr.24634/v1/review1",
+              "id": "https://doi.org/10.1002/jnr.24634/v1/review1",
+              "landing_page_url": "https://doi.org/10.1002/jnr.24634/v1/review1",
+              "publication_date": "2019-12-04",
+              "publication_year": 2019,
+              "source_name": null,
+              "title": "Review for \"Parallel astrocyte calcium signaling modulates olfactory bulb responses\"",
+              "type": "peer-review"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/jnr.24634/v1/review2",
+              "id": "https://doi.org/10.1002/jnr.24634/v1/review2",
+              "landing_page_url": "https://doi.org/10.1002/jnr.24634/v1/review2",
+              "publication_date": "2019-12-17",
+              "publication_year": 2019,
+              "source_name": null,
+              "title": "Review for \"Parallel astrocyte calcium signaling modulates olfactory bulb responses\"",
+              "type": "peer-review"
+            },
+            {
+              "abstract": "Abstract Fibroblast growth factor (FGF)‐2 is known to have important pleiotropic effects in neuronal and glial cells during various physiological and pathological events. To investigate the role of endogenous FGF‐2 in the differentiation of astrocytes, we studied the expression of glial fibrillary acidic protein (GFAP) in the hindbrain of the FGF‐2 null mouse. GFAP was drastically decreased in a region‐specific manner in the hindbrain of the adult and developing FGF‐2 null mouse without an associated change in the expression of alternate markers for astrocytes. The deficit was evident in the astrocytes of pontine and medullary gray matter but not in the white matter. The astrocytes of the gray and white matter were seen to express FGF‐2 and FGF receptors in a distinct pattern. The methylation of histone H3 at lysine 4 residue (H3K4me2) associated with the STAT (signal transducer and activator of transcription)‐binding site of the GFAP promoter was significantly decreased in the gray matter of the FGF‐2 null mouse, suggesting a role for FGF‐2 in the epigenetic regulation of astrocyte differentiation in vivo . These observations underscore the importance of FGF‐2 in astroglial differentiation in the hindbrain and the heterogeneity of astrocytes in their requirement for FGF‐2 as a differentiation inducing signal.© 2011 Wiley‐Liss, Inc.",
+              "doi": "https://doi.org/10.1002/glia.21141",
+              "id": "https://doi.org/10.1002/glia.21141",
+              "landing_page_url": "https://doi.org/10.1002/glia.21141",
+              "publication_date": "2011-02-14",
+              "publication_year": 2011,
+              "source_name": "Glia",
+              "title": "Fibroblast growth factor 2 regulates astrocyte differentiation in a region‐specific manner in the hindbrain",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/b978-008045046-9.00997-9",
+              "id": "https://doi.org/10.1016/b978-008045046-9.00997-9",
+              "landing_page_url": "https://doi.org/10.1016/b978-008045046-9.00997-9",
+              "publication_date": "2009-01-01",
+              "publication_year": 2009,
+              "source_name": "Encyclopedia of Neuroscience",
+              "title": "Astrocyte: Calcium Signaling",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "Abstract Astrocytes organize in complex networks through connections by gap junction channels that are regulated by extra‐ and intracellular signals. Calcium signals generated in individual cells, can propagate across these networks in the form of intercellular calcium waves, mediated by diffusion of second messengers molecules such as inositol 1,4,5-trisphosphate. The mechanisms underpinning the large variety of spatiotemporal patterns of propagation of astrocytic calcium waves however remain a matter of investigation. In the last decade, awareness has grown on the morphological diversity of astrocytes as well as their connections in networks, which seem dependent on the brain area, developmental stage, and the ultrastructure of the associated neuropile. It is speculated that this diversity underpins an equal functional variety but the current experimental techniques are limited in supporting this hypothesis because they do not allow to resolve the exact connectivity of astrocyte networks in the brain. With this aim we present a general framework to model intercellular calcium wave propagation in astrocyte networks and use it to specifically investigate how different network topologies could influence shape, frequency and propagation of these waves.",
+              "doi": "https://doi.org/10.1101/248989",
+              "id": "https://doi.org/10.1101/248989",
+              "landing_page_url": "https://doi.org/10.1101/248989",
+              "publication_date": "2018-01-17",
+              "publication_year": 2018,
+              "source_name": null,
+              "title": "Astrocyte networks and intercellular calcium propagation",
+              "type": "posted-content"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "region specific astrocyte calcium response peak duration",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=region+specific+astrocyte+calcium+response+peak+duration&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        }
+      ],
+      "search_completed": true
+    },
+    "B": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/jnr.24634/v1/review1",
+              "id": "https://doi.org/10.1002/jnr.24634/v1/review1",
+              "landing_page_url": "https://doi.org/10.1002/jnr.24634/v1/review1",
+              "publication_date": "2019-12-04",
+              "publication_year": 2019,
+              "source_name": null,
+              "title": "Review for \"Parallel astrocyte calcium signaling modulates olfactory bulb responses\"",
+              "type": "peer-review"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1093/acprof:oso/9780199672073.003.0014",
+              "id": "https://doi.org/10.1093/acprof:oso/9780199672073.003.0014",
+              "landing_page_url": "https://doi.org/10.1093/acprof:oso/9780199672073.003.0014",
+              "publication_date": "2014-12-18",
+              "publication_year": 2014,
+              "source_name": "Causation in Grammatical Structures",
+              "title": "Event-structural prominence and forces in verb meaning shifts",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/jnr.24634/v1/review2",
+              "id": "https://doi.org/10.1002/jnr.24634/v1/review2",
+              "landing_page_url": "https://doi.org/10.1002/jnr.24634/v1/review2",
+              "publication_date": "2019-12-17",
+              "publication_year": 2019,
+              "source_name": null,
+              "title": "Review for \"Parallel astrocyte calcium signaling modulates olfactory bulb responses\"",
+              "type": "peer-review"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/b978-008045046-9.00997-9",
+              "id": "https://doi.org/10.1016/b978-008045046-9.00997-9",
+              "landing_page_url": "https://doi.org/10.1016/b978-008045046-9.00997-9",
+              "publication_date": "2009-01-01",
+              "publication_year": 2009,
+              "source_name": "Encyclopedia of Neuroscience",
+              "title": "Astrocyte: Calcium Signaling",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "Abstract Astrocytes organize in complex networks through connections by gap junction channels that are regulated by extra‐ and intracellular signals. Calcium signals generated in individual cells, can propagate across these networks in the form of intercellular calcium waves, mediated by diffusion of second messengers molecules such as inositol 1,4,5-trisphosphate. The mechanisms underpinning the large variety of spatiotemporal patterns of propagation of astrocytic calcium waves however remain a matter of investigation. In the last decade, awareness has grown on the morphological diversity of astrocytes as well as their connections in networks, which seem dependent on the brain area, developmental stage, and the ultrastructure of the associated neuropile. It is speculated that this diversity underpins an equal functional variety but the current experimental techniques are limited in supporting this hypothesis because they do not allow to resolve the exact connectivity of astrocyte networks in the brain. With this aim we present a general framework to model intercellular calcium wave propagation in astrocyte networks and use it to specifically investigate how different network topologies could influence shape, frequency and propagation of these waves.",
+              "doi": "https://doi.org/10.1101/248989",
+              "id": "https://doi.org/10.1101/248989",
+              "landing_page_url": "https://doi.org/10.1101/248989",
+              "publication_date": "2018-01-17",
+              "publication_year": 2018,
+              "source_name": null,
+              "title": "Astrocyte networks and intercellular calcium propagation",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1089/neu.2000.17.345",
+              "id": "https://doi.org/10.1089/neu.2000.17.345",
+              "landing_page_url": "https://doi.org/10.1089/neu.2000.17.345",
+              "publication_date": "2000-04-01",
+              "publication_year": 2000,
+              "source_name": "Journal of Neurotrauma",
+              "title": "ATP-Dependent Astrocyte-Endothelial Calcium Signaling Following Mechanical Damage to a Single Astrocyte in Astrocyte-Endothelial Co-Cultures",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/jnr.24634/v1/decision1",
+              "id": "https://doi.org/10.1002/jnr.24634/v1/decision1",
+              "landing_page_url": "https://doi.org/10.1002/jnr.24634/v1/decision1",
+              "publication_date": "2019-12-18",
+              "publication_year": 2019,
+              "source_name": null,
+              "title": "Decision letter for \"Parallel astrocyte calcium signaling modulates olfactory bulb responses\"",
+              "type": "peer-review"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.4103/2349-0977.168252",
+              "id": "https://doi.org/10.4103/2349-0977.168252",
+              "landing_page_url": "https://doi.org/10.4103/2349-0977.168252",
+              "publication_date": "2015-01-01",
+              "publication_year": 2015,
+              "source_name": "Astrocyte",
+              "title": "Comparison of ropivacaine and lignocaine intravenous regional anesthesia in upper limb surgeries",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "astrocyte calcium event frequency prominence regional subtype",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=astrocyte+calcium+event+frequency+prominence+regional+subtype&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        },
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.15760/etd.6909",
+              "id": "https://doi.org/10.15760/etd.6909",
+              "landing_page_url": "https://doi.org/10.15760/etd.6909",
+              "publication_date": "2000-01-01",
+              "publication_year": 2000,
+              "source_name": null,
+              "title": "Aggregation of Electric Water Heaters for Peak Shifting and Frequency Response Services",
+              "type": "report"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/tencon.2018.8650245",
+              "id": "https://doi.org/10.1109/tencon.2018.8650245",
+              "landing_page_url": "https://doi.org/10.1109/tencon.2018.8650245",
+              "publication_date": "2018-10-01",
+              "publication_year": 2018,
+              "source_name": "TENCON 2018 - 2018 IEEE Region 10 Conference",
+              "title": "Frequency Profile Improvement of a Microgrid through Aggregated Demand Response",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3724/sp.j.1011.2013.01225",
+              "id": "https://doi.org/10.3724/sp.j.1011.2013.01225",
+              "landing_page_url": "https://doi.org/10.3724/sp.j.1011.2013.01225",
+              "publication_date": "2013-11-12",
+              "publication_year": 2013,
+              "source_name": "Chinese Journal of Eco-Agriculture",
+              "title": "Dynamics of soil profile water content in peak-cluster depression areas in karst region",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3133/twri03a4",
+              "id": "https://doi.org/10.3133/twri03a4",
+              "landing_page_url": "https://doi.org/10.3133/twri03a4",
+              "publication_date": "1967-01-01",
+              "publication_year": 1967,
+              "source_name": null,
+              "title": "Measurement of peak discharge at width contractions by indirect methods",
+              "type": "report"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3133/wri874121",
+              "id": "https://doi.org/10.3133/wri874121",
+              "landing_page_url": "https://doi.org/10.3133/wri874121",
+              "publication_date": "1987-01-01",
+              "publication_year": 1987,
+              "source_name": null,
+              "title": "Revised techniques for estimating peak discharges from channel width in Montana",
+              "type": "report"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1097/00004872-199412001-00019",
+              "id": "https://doi.org/10.1097/00004872-199412001-00019",
+              "landing_page_url": "https://doi.org/10.1097/00004872-199412001-00019",
+              "publication_date": "1994-01-01",
+              "publication_year": 1994,
+              "source_name": "Journal of Hypertension",
+              "title": "Trough",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3724/sp.j.1123.2015.01013",
+              "id": "https://doi.org/10.3724/sp.j.1123.2015.01013",
+              "landing_page_url": "https://doi.org/10.3724/sp.j.1123.2015.01013",
+              "publication_date": "2015-01-01",
+              "publication_year": 2015,
+              "source_name": "Chinese Journal of Chromatography",
+              "title": "Influence of the distortion of gradient profile on peak width in gradient liquid chromatography",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3888/tmj.21-1",
+              "id": "https://doi.org/10.3888/tmj.21-1",
+              "landing_page_url": "https://doi.org/10.3888/tmj.21-1",
+              "publication_date": "2019-01-01",
+              "publication_year": 2019,
+              "source_name": "The Mathematica Journal",
+              "title": "Peak Response of Single-Degree-of-Freedom Systems to Swept-Frequency Excitation",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "calcium imaging region response profile peak width frequency",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=calcium+imaging+region+response+profile+peak+width+frequency&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        }
+      ],
+      "search_completed": true
+    }
+  },
+  "generated_at": "2026-08-22",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "6227fbf4ff7290199fe74d999a7b922edd84fd73a459cea7e9d9892b851aa39e",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Searches are frozen reproducible retrieval evidence within the declared provider, queries, cutoff, and result depth. They do not certify absence from all literature.",
+  "strict_before": "2020-01-01",
+  "target_doi_excluded": "10.1038/s41467-019-14198-8",
+  "task_id": "Neuro_02_calcium_response_regions",
+  "release": "V1.0"
+}

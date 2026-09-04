@@ -1,0 +1,25 @@
+{
+  "schema": "truthinsightbench-source-attribution",
+  "release": "V1.0",
+  "task_id": "Physics_05_temporal_delay_transition",
+  "title": "Timeliness criticality in complex systems",
+  "doi": "10.1038/s41567-024-02525-w",
+  "first_publication_date": "2024-06-19",
+  "raw_data_records": [
+    {
+      "source": "jose-moran/timeliness_criticality",
+      "url": "https://github.com/jose-moran/timeliness_criticality/tree/d6c89473b8d1d8ed3db21d76e85d29063c3aa0e1/figures",
+      "license": "GPL-3.0-only"
+    },
+    {
+      "source": "SocioPatterns Workplace15",
+      "url": "https://sociopatterns.org/datasets/contacts-in-a-workplace/",
+      "license": "CC0-1.0"
+    },
+    {
+      "source": "SocioPatterns Thiers13",
+      "url": "https://sociopatterns.org/datasets/high-school-contact-and-friendship-networks/",
+      "license": "CC-BY-NC-SA-3.0"
+    }
+  ]
+}

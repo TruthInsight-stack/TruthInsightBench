@@ -1,0 +1,156 @@
+{
+  "analysis_unit": "One node count N, one arc count L, and one directed graph construction.",
+  "domain": "information",
+  "files": [
+    {
+      "bundled": true,
+      "bytes": 6762,
+      "materialization_required": false,
+      "path": "source_data/Examples/Data/Dir_Cat.net",
+      "role": "network_data",
+      "sha256": "4180c5fb8dd3dfd834cb4e8ef5697a5f4ef4c042ab9e9fe0ce17349ceda29c4d"
+    },
+    {
+      "bundled": true,
+      "bytes": 29931,
+      "materialization_required": false,
+      "path": "source_data/Examples/Data/Dir_Elegans.net",
+      "role": "network_data",
+      "sha256": "79f0a2bce154c4d35e7b4a1bdde0472cd6f53348470d884fed234ac46a96d311"
+    },
+    {
+      "bundled": true,
+      "bytes": 1062,
+      "materialization_required": false,
+      "path": "source_data/Examples/Data/Dir_Prison.net",
+      "role": "network_data",
+      "sha256": "5c9c1def53fff96d478b21c35f64cdf8d61c897a4c46ddf7fa3f9abd565a9ed0"
+    },
+    {
+      "bundled": true,
+      "bytes": 9746,
+      "materialization_required": false,
+      "path": "source_data/Examples/Data/Und_Chicago.net",
+      "role": "network_data",
+      "sha256": "b95af470679fc0a4b542ae4b04be84e5e6bae9e6bfe3043512cbb79ec44e46b9"
+    },
+    {
+      "bundled": true,
+      "bytes": 1800,
+      "materialization_required": false,
+      "path": "source_data/Examples/Data/Und_Dolphins.net",
+      "role": "network_data",
+      "sha256": "0e5dbb8fe2457da0a750d6dca788e358f2d57fdcb772bd2869b66749e3697e09"
+    },
+    {
+      "bundled": true,
+      "bytes": 3431,
+      "materialization_required": false,
+      "path": "source_data/Examples/Data/Und_Human.net",
+      "role": "network_data",
+      "sha256": "e27528879b697f6cf14f944dd76475c4c4a2d030e8f7b910553e7ac8396590d5"
+    },
+    {
+      "bundled": true,
+      "bytes": 145596,
+      "materialization_required": false,
+      "path": "source_data/Examples/Data/Und_Jazz.net",
+      "role": "network_data",
+      "sha256": "6f64a9734494e940b91731988ba6253e3fbb3e11ffc31510dd9e08d96230f5c5"
+    },
+    {
+      "bundled": true,
+      "bytes": 9317,
+      "materialization_required": false,
+      "path": "source_data/Examples/Data/Und_London.net",
+      "role": "network_data",
+      "sha256": "c5ec1f57d088bb18e6d064d99751e032ba7194f24f16b1c8c2b8043f9fa864e7"
+    },
+    {
+      "bundled": true,
+      "bytes": 1484,
+      "materialization_required": false,
+      "path": "source_data/Examples/Data/Und_Zachary.net",
+      "role": "network_data",
+      "sha256": "6ac231f744bc17dc36da82af0ad8296e5561946d0985802a04d52648da02b075"
+    },
+    {
+      "bundled": true,
+      "bytes": 63,
+      "materialization_required": false,
+      "path": "source_data/Figs/USgraph_Rand.net",
+      "role": "network_data",
+      "sha256": "4c5a8741924caa70971d2248a3d11d6121923498f633f42d64f9aa8815da6ad5"
+    },
+    {
+      "bundled": true,
+      "bytes": 62,
+      "materialization_required": false,
+      "path": "source_data/Figs/directed_sparse_reference.net",
+      "role": "network_data",
+      "sha256": "0a90ac0021c168f570dfcb13da518347d44e06fa84ae28aca43fe0fa0aa741cd"
+    },
+    {
+      "bundled": true,
+      "bytes": 140774,
+      "materialization_required": false,
+      "path": "source_data/computational_observations.json",
+      "role": "structured_scientific_data",
+      "sha256": "82884213f761a330812ec110304f24e2eac0b458330648f20a2380997395791a"
+    }
+  ],
+  "freeze_status": "frozen",
+  "license_boundary": "Pinned author code: Apache-2.0. Open article and supplementary-material boundary: CC BY 4.0 with attribution.",
+  "missingness": "The complete frozen source boundary is bundled.",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "schema": "truthinsightbench-data-manifest",
+  "scientific_scope": "All reference networks, example networks, deterministic observations, and generator inputs in the complete frozen source boundary.",
+  "t0": "2018-10-29",
+  "task_id": "Information_02_network_path_boundaries",
+  "title": "Path-Length and Efficiency Boundaries in Directed Networks",
+  "variable_dictionary": [
+    {
+      "file_or_pattern": "source_data/Figs/directed_sparse_reference.net",
+      "measures": [
+        "sparse_directed_reference_graph"
+      ]
+    },
+    {
+      "file_or_pattern": "source_data/Examples/Data/Dir_*.net",
+      "measures": [
+        "author_supplied_directed_network_examples"
+      ]
+    },
+    {
+      "file_or_pattern": "source_data/computational_observations.json",
+      "measures": [
+        "node_count",
+        "arc_count",
+        "average_path_length",
+        "global_efficiency",
+        "diameter",
+        "density",
+        "structural_checks"
+      ]
+    },
+    {
+      "file_or_pattern": "source_data/**",
+      "measures": [
+        "complete generator and reference-network source boundary"
+      ]
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "warnings": [
+    "The task material first appeared after T0; do not search for the hidden target identity.",
+    "Same-source blind rediscovery is not independent-data replication.",
+    "State connectivity assumptions explicitly; path length and efficiency have different behavior for unreachable pairs."
+  ],
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Neuro_02_calcium_response_regions",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition.py",
+      "script_sha256": "09e91978a4d1c03c118fa9b1db17beb1d08f648766a7aa3f943b0e4c22b1506d"
+    },
+    {
+      "script": "verification/perturb/A/method.py",
+      "script_sha256": "f8273aeeefc8bdf47d4dd7ea6d8b66a30e3f5fc44d9075d873971e6c01ceb4fd"
+    },
+    {
+      "script": "verification/perturb/A/sample.py",
+      "script_sha256": "f9a2df4a0df35f96031a5c950afc0bc31fc314373b2496c0b7a6c43120d85b25"
+    },
+    {
+      "script": "verification/perturb/B/definition.py",
+      "script_sha256": "272db942f08a107fbcd45fb78ea570177db6ba77831f1aca61844b03ba596b77"
+    },
+    {
+      "script": "verification/perturb/B/method.py",
+      "script_sha256": "649a225f084951e78666af44b4cca6e2c3ce544c181c272355009990dadfdb3e"
+    },
+    {
+      "script": "verification/perturb/B/sample.py",
+      "script_sha256": "973ff4e95da029f53e8b73a8b7763b9e276fd5cb1b391ac7f90ebc8e2c4f536a"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "063cb6c8020b1cc9f0a13959c2e213a8c286001c6da144f5a2c8c6cca03ff692"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "d9352472deb6165b64149e352e17431decd3b6e88a5279184b27ff85d8e662be"
+    }
+  ],
+  "verification_tree_sha256": "428602d803a8247fb2e5ef1855d6fdb6bca5b2711a7da12ab2b9feb4ce94dbdb",
+  "verification_file_count": 8,
+  "shared_runtime_tree_sha256": "d8710168f8a9c9ce1fd4946fdcfa0a279806376236feda46a5384b7f302428e9",
+  "shared_runtime_file_count": 4
+}

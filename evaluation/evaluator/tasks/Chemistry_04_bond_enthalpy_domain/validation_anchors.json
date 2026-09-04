@@ -1,0 +1,197 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "数据规模远大于分子数且明显由C–H键主导，模型总体水位必须与结构域覆盖分开报告",
+      "independent_reconstruction_method": "Frozen evaluator recomputation: verification/recompute/A.py",
+      "non_exhaustive_validation_anchor": true,
+      "object": "小有机分子的完整均裂键解离焓数据库",
+      "one_liner": "完整明细含484907行、42577个分子和290664个唯一分子—碎片对；C–H占比为0.6639，是绝对多数结构域。",
+      "perturbation_bindings": [
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition_frozen.py",
+          "script_sha256": "7afb78625944bc6587008ff38bd160009b16d6ee4314f18c7e595d9897d8b836"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method_frozen.py",
+          "script_sha256": "96f6ed17821cb138a0ab74ed12c899cbed2b45f79c6cd5f8191b37d1ddb96d6c"
+        },
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample_frozen.py",
+          "script_sha256": "6bc0100e245cf98d73b91a53e2dc66d64a3f02fa8ed34f98f0793b00e9aa351d"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "measurement: \"新增一批按同一生成规则但不与现有分子重复的分子—键集合，并统计键类构成\"; expected_range: [0.6, 0.72]; failure_criterion: \"新增完整集合中C–H占比低于0.50，或去重后结构域排序不再以C–H为首\""
+      },
+      "quantities": [
+        {
+          "key": "row_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "row",
+          "value": 484907
+        },
+        {
+          "key": "molecule_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "molecule",
+          "value": 42577
+        },
+        {
+          "key": "unique_bde_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "unique_bde",
+          "value": 290664
+        },
+        {
+          "key": "c_h_share",
+          "role": "core",
+          "tolerance_rel": 0.01,
+          "unit": "fraction",
+          "value": 0.6639396833
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "values": [
+          {
+            "json_path": "values.row_count",
+            "quantity_key": "row_count"
+          },
+          {
+            "json_path": "values.molecule_count",
+            "quantity_key": "molecule_count"
+          },
+          {
+            "json_path": "values.unique_bde_count",
+            "quantity_key": "unique_bde_count"
+          },
+          {
+            "json_path": "values.c_h_share",
+            "quantity_key": "c_h_share"
+          }
+        ],
+        "script_sha256": "63054e2b7b19ab6dd34dc2df0dcf9be98e50499a86590ca49ebb30d2e03dcfa5"
+      },
+      "scope": "全部484907条明细；按分子和有序碎片对去重，并按bond_type统计",
+      "target_alignment": {
+        "paper_claim_paraphrase": "目标论文报告对42577个小有机分子自动计算得到290664个BDE，并公开完整数据库。",
+        "paper_location": "Abstract, Methods and Data availability",
+        "rationale": "冻结复算器从完整压缩数据库逐行重算分子数、唯一BDE和键类构成。",
+        "status": "reported_target_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "学习估计接近量子通道，并将传统参考误差降低一半以上，但仍未达到实验不确定性的所有范围",
+      "independent_reconstruction_method": "Frozen evaluator recomputation: verification/recompute/B.py",
+      "non_exhaustive_validation_anchor": true,
+      "object": "同一实验键解离焓观测上的量子、学习和参考估计",
+      "one_liner": "在543条同一实验观测上，量子、学习和参考估计MAE分别为2.098、2.411和5.486 kcal/mol；学习估计落在预设误差带内的比例为0.7274。",
+      "perturbation_bindings": [
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition_frozen.py",
+          "script_sha256": "8fb60a753c8391088fa74be9166b4e8caf92e2d8461d86e41ce38ba08f125c15"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method_frozen.py",
+          "script_sha256": "6a156429555e2d013d96c7f58c73ad58554c0f07b452fc3db02f177a529e5a2e"
+        },
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample_frozen.py",
+          "script_sha256": "07cbe35d8ec170bd76092ae4234d512d4f19cc5788911c60976b4d08004eff37"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "measurement: \"在预注册的新实验BDE集合上同时运行三种估计，并按同一单位计算MAE与±3 kcal/mol覆盖率\"; expected_range: [0.65, 0.82]; failure_criterion: \"学习估计MAE不再低于参考估计的一半，或±3 kcal/mol覆盖率低于0.60\""
+      },
+      "quantities": [
+        {
+          "key": "quantum_mae_kcal_mol",
+          "role": "core",
+          "tolerance_rel": 0.03,
+          "unit": "kcal_per_mol",
+          "value": 2.0978084715
+        },
+        {
+          "key": "learned_mae_kcal_mol",
+          "role": "core",
+          "tolerance_rel": 0.03,
+          "unit": "kcal_per_mol",
+          "value": 2.4106998158
+        },
+        {
+          "key": "reference_mae_kcal_mol",
+          "role": "core",
+          "tolerance_rel": 0.03,
+          "unit": "kcal_per_mol",
+          "value": 5.4859668508
+        },
+        {
+          "key": "learned_within_3_kcal_mol_fraction",
+          "role": "core",
+          "tolerance_rel": 0.03,
+          "unit": "fraction",
+          "value": 0.7274401473
+        },
+        {
+          "key": "benchmark_observation_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "observation",
+          "value": 543
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "values": [
+          {
+            "json_path": "values.quantum_mae_kcal_mol",
+            "quantity_key": "quantum_mae_kcal_mol"
+          },
+          {
+            "json_path": "values.learned_mae_kcal_mol",
+            "quantity_key": "learned_mae_kcal_mol"
+          },
+          {
+            "json_path": "values.reference_mae_kcal_mol",
+            "quantity_key": "reference_mae_kcal_mol"
+          },
+          {
+            "json_path": "values.learned_within_3_kcal_mol_fraction",
+            "quantity_key": "learned_within_3_kcal_mol_fraction"
+          },
+          {
+            "json_path": "values.benchmark_observation_count",
+            "quantity_key": "benchmark_observation_count"
+          }
+        ],
+        "script_sha256": "7d321f9f143597ffbd418c166a789a4f8dbf21e59831f3f2b568b72d478f84a3"
+      },
+      "scope": "543条完整实验基准；统一使用绝对误差和不插补的有效行",
+      "target_alignment": {
+        "paper_claim_paraphrase": "目标论文报告学习模型以低计算成本接近量子计算精度，并在实验BDE对照上优于既有参考值。",
+        "paper_location": "Results and supplementary experimental benchmark",
+        "rationale": "冻结验证器只在同一543条实验记录上计算三个通道，不混用训练误差或目标论文摘要数字。",
+        "status": "reported_target_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "Two verified validation anchors for blind-rediscovery diagnostics; not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2019-10-18",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Chemistry_04_bond_enthalpy_domain",
+  "release": "V1.0"
+}

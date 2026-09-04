@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Material_02_temperature_response_boundaries",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition.py",
+      "script_sha256": "136f47737825e20a3de50887b8b8b1c9dc77864e435519e1305a1fd04b4493b1"
+    },
+    {
+      "script": "verification/perturb/A/method.py",
+      "script_sha256": "1364a738c4b497febee6bad1598ebf6eb28613cb9c3c344ff922cf5dfc3e3197"
+    },
+    {
+      "script": "verification/perturb/A/sample.py",
+      "script_sha256": "f0ca51c2a04be339f7559b337c38f041461d1fe86f8dc9b459aa59176bb63bd4"
+    },
+    {
+      "script": "verification/perturb/B/definition.py",
+      "script_sha256": "f47b39913ba13fb51c875d7d1cdf3ac47a524f46345485e42e773cd74777be9c"
+    },
+    {
+      "script": "verification/perturb/B/method.py",
+      "script_sha256": "a284bdd8779caf113d2c828dcca1774c57ba274d475cd5aee8151d156fa36461"
+    },
+    {
+      "script": "verification/perturb/B/sample.py",
+      "script_sha256": "04f5849b0c9dbad26b023b5e96290f0d06ba05220baa577795adb69e4ef0bba3"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "2d375fbe70f5f39cb45b073fd7f5d108bd1bdc2e925e51a0bc29c57207f11b9c"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "05c4902d3fc4dc79f98e25b6b63d1ebd618250d38390b84c3dbe1509b7e28809"
+    }
+  ],
+  "verification_tree_sha256": "593a639bc09f17b17350fa01d0a35ff0fbb2b75bcc46184e0e09d02b3323b714",
+  "verification_file_count": 8,
+  "shared_runtime_tree_sha256": "d8710168f8a9c9ce1fd4946fdcfa0a279806376236feda46a5384b7f302428e9",
+  "shared_runtime_file_count": 4
+}

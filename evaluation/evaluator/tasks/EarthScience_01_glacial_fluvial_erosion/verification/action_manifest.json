@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "EarthScience_01_glacial_fluvial_erosion",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition_median.py",
+      "script_sha256": "ee5aa7d0b5cdf1d20b981d31a278a1d0afa724173276870ec1582b6a245e24a9"
+    },
+    {
+      "script": "verification/perturb/A/method_exclude_cosmogenic.py",
+      "script_sha256": "f408a53203e99dc720b8739155f3b769ff6b49aa614c831d84439032322b52b7"
+    },
+    {
+      "script": "verification/perturb/A/sample_leave_one_compilation.py",
+      "script_sha256": "c356dada502ecc0e09b50a1cbb34c562bbdc7672f136c3863ba5ce2921f2df4c"
+    },
+    {
+      "script": "verification/perturb/B/definition_cosmogenic_subtypes.py",
+      "script_sha256": "0714899d26397c07a6ec3eddfc471dd17b457e7feed58e4dc23555683691dde6"
+    },
+    {
+      "script": "verification/perturb/B/method_cosmogenic_vs_volumetric.py",
+      "script_sha256": "472cc649310a2b816eed8274ad00fba6357db85e88c2d6b43bc6a96bc528861a"
+    },
+    {
+      "script": "verification/perturb/B/sample_leave_one_compilation.py",
+      "script_sha256": "e9b080d092eda08060eee420b8bed6e4f7dd7ed78b7d862d118b1d557a3265be"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "93f8097b60d6e422efe2a9aa14035096085b57545dc7ad8963865f8de5f02b23"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "f20fe53493e0811d1d894a7a79c90768393215c0e8b8c05d7f04e1b11f953450"
+    }
+  ],
+  "verification_tree_sha256": "9790aa4618d17ed239c97cb775c530046774c75d6bd98dcef4477ac31a743faf",
+  "verification_file_count": 9,
+  "shared_runtime_tree_sha256": "d8710168f8a9c9ce1fd4946fdcfa0a279806376236feda46a5384b7f302428e9",
+  "shared_runtime_file_count": 4
+}

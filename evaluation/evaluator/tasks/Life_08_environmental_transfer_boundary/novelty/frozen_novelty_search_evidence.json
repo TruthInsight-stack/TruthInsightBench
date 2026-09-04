@@ -1,0 +1,416 @@
+{
+  "all_queries_completed": true,
+  "api_cutoff": "2019-12-31",
+  "cards": {
+    "A": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/b978-1-4377-7881-6.00003-x",
+              "id": "https://doi.org/10.1016/b978-1-4377-7881-6.00003-x",
+              "landing_page_url": "https://doi.org/10.1016/b978-1-4377-7881-6.00003-x",
+              "publication_date": "2013-01-01",
+              "publication_year": 2013,
+              "source_name": "Developments in Surface Contamination and Cleaning",
+              "title": "Clean Room Wipers for Removal of Surface Contamination",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/b978-0-08-011918-2.50049-4",
+              "id": "https://doi.org/10.1016/b978-0-08-011918-2.50049-4",
+              "landing_page_url": "https://doi.org/10.1016/b978-0-08-011918-2.50049-4",
+              "publication_date": "1967-01-01",
+              "publication_year": 1967,
+              "source_name": "Surface Contamination",
+              "title": "A PRELIMINARY INVESTIGATION OF MICROBIAL SURFACE CONTAMINATION IN VARIOUS CLEAN ROOM ENVIRONMENTS",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/b978-0-08-011918-2.50036-6",
+              "id": "https://doi.org/10.1016/b978-0-08-011918-2.50036-6",
+              "landing_page_url": "https://doi.org/10.1016/b978-0-08-011918-2.50036-6",
+              "publication_date": "1967-01-01",
+              "publication_year": 1967,
+              "source_name": "Surface Contamination",
+              "title": "AUTONETICS CLEAN ROOM TRAINING PROGRAMS",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.26226/morressier.58fa1768d462b80290b51773",
+              "id": "https://doi.org/10.26226/morressier.58fa1768d462b80290b51773",
+              "landing_page_url": "https://doi.org/10.26226/morressier.58fa1768d462b80290b51773",
+              "publication_date": "2017-05-10",
+              "publication_year": 2017,
+              "source_name": null,
+              "title": "IMPACT OF PCR CYCLE THRESHOLD CLOSTRIDIUM DIFFICILE FECAL FREE TOXINS PREDICTION ON THE MANAGEMENT OF PEDIATRIC C. DIFFICILE INFECTION",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1093/annhyg/mei042",
+              "id": "https://doi.org/10.1093/annhyg/mei042",
+              "landing_page_url": "https://doi.org/10.1093/annhyg/mei042",
+              "publication_date": "2005-08-26",
+              "publication_year": 2005,
+              "source_name": "The Annals of Occupational Hygiene",
+              "title": "Surface Contamination of Cyclophosphamide Packaging and Surface Contamination with Antineoplastic Drugs in a Hospital Pharmacy in Sweden",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.26226/morressier.56d6be6fd462b80296c96d9a",
+              "id": "https://doi.org/10.26226/morressier.56d6be6fd462b80296c96d9a",
+              "landing_page_url": "https://doi.org/10.26226/morressier.56d6be6fd462b80296c96d9a",
+              "publication_date": "2016-03-22",
+              "publication_year": 2016,
+              "source_name": null,
+              "title": "Performance improvement of influenza A/H1N1pdm09 complete genome massive sequencing by setting a cycle threshold cut-off in monoplex PCR",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-3-642-18840-4_20",
+              "id": "https://doi.org/10.1007/978-3-642-18840-4_20",
+              "landing_page_url": "https://doi.org/10.1007/978-3-642-18840-4_20",
+              "publication_date": "2004-01-01",
+              "publication_year": 2004,
+              "source_name": "Rapid Cycle Real-Time PCR — Methods and Applications",
+              "title": "Detection of SARS-Coronavirus in the LightCycler by 5′-Nuclease Real-Time RT-PCR",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "Abstract: Today, little is known about the bacteriological environment of the autopsy room and its potential interest for medico‐legal practices. Seven hundred fifty microbiological samples were taken from surface ( n = 660), air ( n = 48), and water ( n = 42) to evaluate it in a French University Forensic Department. Median bacterial counts were compared before and during autopsy for air samples, and before and after autopsy for surface samples, using Wilcoxon matched pairs signed ranks test. Bacterial identification relied on traditional phenotypic methods. Bacterial counts in the air were low before autopsy, increased significantly during procedure, and seemed more linked to the number of people in the room than to an important production of aerosol‐containing bacteria. Despite cleaning, human fecal flora was omnipresent on surfaces, which revealed insufficient disinfection. Bacteriological sampling is an easy way to monitor cleaning practices in postmortem rooms, but chiefly a way to improve the reliability of medico‐legal proofs of infectious deaths.",
+              "doi": "https://doi.org/10.1111/j.1556-4029.2012.02054.x",
+              "id": "https://doi.org/10.1111/j.1556-4029.2012.02054.x",
+              "landing_page_url": "https://doi.org/10.1111/j.1556-4029.2012.02054.x",
+              "publication_date": "2012-02-06",
+              "publication_year": 2012,
+              "source_name": "Journal of Forensic Sciences",
+              "title": "Air, Water, and Surface Bacterial Contamination in a University‐Hospital Autopsy Room*",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "SARS-CoV-2 hospital room surface contamination PCR cycle threshold",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=SARS-CoV-2+hospital+room+surface+contamination+PCR+cycle+threshold&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        },
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1089/apc.1996.10.306",
+              "id": "https://doi.org/10.1089/apc.1996.10.306",
+              "landing_page_url": "https://doi.org/10.1089/apc.1996.10.306",
+              "publication_date": "1996-10-01",
+              "publication_year": 1996,
+              "source_name": "AIDS Patient Care and STDs",
+              "title": "Predicting Survival: Viral Load vs. T Cell Count",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/hep.26900",
+              "id": "https://doi.org/10.1002/hep.26900",
+              "landing_page_url": "https://doi.org/10.1002/hep.26900",
+              "publication_date": "2014-06-01",
+              "publication_year": 2014,
+              "source_name": "Hepatology",
+              "title": "Higher viral load, higher hepatitis B surface antigen clearance?",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1089/apc.2007.0186",
+              "id": "https://doi.org/10.1089/apc.2007.0186",
+              "landing_page_url": "https://doi.org/10.1089/apc.2007.0186",
+              "publication_date": "2008-07-01",
+              "publication_year": 2008,
+              "source_name": "AIDS Patient Care and STDs",
+              "title": "High-Density Lipoprotein Cholesterol in HIV-Infected Patients: Evidence for an Association with HIV-1 Viral Load, Antiretroviral Therapy Status, and Regimen Composition",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Hepatitis C virus (HCV) causes chronic infections that mainly affect the liver leading to hepatic fibrosis followed by development of cirrhosis and hepatocellular carcinoma (HCC). Several factors including HCV genotype have been proposed to associate with the clinical outcome of HCV infection.This study was aimed to determine whetherthere is any significant differencein HCV viral load and Alanine Aminotransferase (ALT) in relation to genotypesin HCV infected Bangladeshi patients.After quantification of HCV viral load, 36 samples were randomly selected for HCV genotyping and ALT measurement.Themean HCV viral load of genotype 1 infected patients was 14.11±6.77[log10 (copies/ml)] while it was 12.80±2.05[log10 (copies/ml)] for genotype 3 infected patients. The mean ALT level of genotype 1 and genotype 3 infected patients were 51.2±34.4 U/L and 89.6±86.6U/L respectively. There was no significant statistical difference in serum ALT or plasma viral load between genotype 1 and genotype 3 infected patients.In HCV infection, genotype may have no relation to viral load and serum ALT level among Bangladeshi patients.&#x0D; Bangladesh J Med Microbiol 2017; 11 (1): 14-18",
+              "doi": "https://doi.org/10.3329/bjmm.v11i1.51948",
+              "id": "https://doi.org/10.3329/bjmm.v11i1.51948",
+              "landing_page_url": "https://doi.org/10.3329/bjmm.v11i1.51948",
+              "publication_date": "2017-01-26",
+              "publication_year": 2017,
+              "source_name": "Bangladesh Journal of Medical Microbiology",
+              "title": "Association of viral load and ALT level among HCV-infected Bangladeshi patient with different genotypes",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1503/cmaj.1040398",
+              "id": "https://doi.org/10.1503/cmaj.1040398",
+              "landing_page_url": "https://doi.org/10.1503/cmaj.1040398",
+              "publication_date": "2004-11-23",
+              "publication_year": 2004,
+              "source_name": "Canadian Medical Association Journal",
+              "title": "Initial viral load and the outcomes of SARS",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1089/vim.2012.0042",
+              "id": "https://doi.org/10.1089/vim.2012.0042",
+              "landing_page_url": "https://doi.org/10.1089/vim.2012.0042",
+              "publication_date": "2012-12-01",
+              "publication_year": 2012,
+              "source_name": "Viral Immunology",
+              "title": "Dual Positivity of Hepatitis B Surface Antigen and Anti-Hepatitis C Virus Antibody and Associated Factors Among Apparently Healthy Patients of Ekiti State, Nigeria",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract Quantitative human immunodeficiency virus (HIV) type 1 RNA tests have been essential tools in increasing our understanding of HIV pathogenesis and antiretroviral therapy. The plasma HIV RNA level is among the most powerful predictive tests in modern medicine for disease progression and has rapidly become the standard of practice for guiding clinicians in initiating, monitoring, and changing antiretroviral therapy. In this article the scientific rationale and clinical indications for viral load testing in HIV infection are reviewed.",
+              "doi": "https://doi.org/10.5858/1999-123-1011-iovlto",
+              "id": "https://doi.org/10.5858/1999-123-1011-iovlto",
+              "landing_page_url": "https://doi.org/10.5858/1999-123-1011-iovlto",
+              "publication_date": "1999-11-01",
+              "publication_year": 1999,
+              "source_name": "Archives of Pathology &amp; Laboratory Medicine",
+              "title": "Impact of Viral Load Testing on Patient Care",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1089/108729104322802506",
+              "id": "https://doi.org/10.1089/108729104322802506",
+              "landing_page_url": "https://doi.org/10.1089/108729104322802506",
+              "publication_date": "2004-02-01",
+              "publication_year": 2004,
+              "source_name": "AIDS Patient Care and STDs",
+              "title": "Molecular-Based Methods for Quantifying HIV Viral Load",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "patient viral load environmental surface positivity association",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=patient+viral+load+environmental+surface+positivity+association&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        }
+      ],
+      "search_completed": true
+    },
+    "B": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1093/annhyg/mei042",
+              "id": "https://doi.org/10.1093/annhyg/mei042",
+              "landing_page_url": "https://doi.org/10.1093/annhyg/mei042",
+              "publication_date": "2005-08-26",
+              "publication_year": 2005,
+              "source_name": "The Annals of Occupational Hygiene",
+              "title": "Surface Contamination of Cyclophosphamide Packaging and Surface Contamination with Antineoplastic Drugs in a Hospital Pharmacy in Sweden",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.2172/10166938",
+              "id": "https://doi.org/10.2172/10166938",
+              "landing_page_url": "https://doi.org/10.2172/10166938",
+              "publication_date": "1993-04-01",
+              "publication_year": 1993,
+              "source_name": null,
+              "title": "Hanford Site surface soil radioactive contamination control plan, March 1993",
+              "type": "report"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0039-6028(75)90376-3",
+              "id": "https://doi.org/10.1016/0039-6028(75)90376-3",
+              "landing_page_url": "https://doi.org/10.1016/0039-6028(75)90376-3",
+              "publication_date": "1975-04-01",
+              "publication_year": 1975,
+              "source_name": "Surface Science",
+              "title": "Work function changes produced by chemisorption due to site heterogeneity",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1186/2047-2994-2-s1-p373",
+              "id": "https://doi.org/10.1186/2047-2994-2-s1-p373",
+              "landing_page_url": "https://doi.org/10.1186/2047-2994-2-s1-p373",
+              "publication_date": "2013-06-20",
+              "publication_year": 2013,
+              "source_name": "Antimicrobial Resistance and Infection Control",
+              "title": "P373: Contamination and cross contamination on hospital surfaces (near touch site)",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-94-007-5745-5_5",
+              "id": "https://doi.org/10.1007/978-94-007-5745-5_5",
+              "landing_page_url": "https://doi.org/10.1007/978-94-007-5745-5_5",
+              "publication_date": "2012-10-04",
+              "publication_year": 2012,
+              "source_name": "Global Approaches to Site Contamination Law",
+              "title": "Responsibility for Site Contamination",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-94-007-5745-5_4",
+              "id": "https://doi.org/10.1007/978-94-007-5745-5_4",
+              "landing_page_url": "https://doi.org/10.1007/978-94-007-5745-5_4",
+              "publication_date": "2012-10-04",
+              "publication_year": 2012,
+              "source_name": "Global Approaches to Site Contamination Law",
+              "title": "National Site Contamination Law",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.2172/10151481",
+              "id": "https://doi.org/10.2172/10151481",
+              "landing_page_url": "https://doi.org/10.2172/10151481",
+              "publication_date": "1993-04-01",
+              "publication_year": 1993,
+              "source_name": null,
+              "title": "Surface and subsurface characterization of uranium contamination at the Fernald environmental management site",
+              "type": "report"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-94-007-5745-5_7",
+              "id": "https://doi.org/10.1007/978-94-007-5745-5_7",
+              "landing_page_url": "https://doi.org/10.1007/978-94-007-5745-5_7",
+              "publication_date": "2012-10-04",
+              "publication_year": 2012,
+              "source_name": "Global Approaches to Site Contamination Law",
+              "title": "An International Response to Site Contamination",
+              "type": "book-chapter"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "hospital surface contamination site heterogeneity symptoms",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=hospital+surface+contamination+site+heterogeneity+symptoms&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        },
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 7,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.2210/pdb2z3d/pdb",
+              "id": "https://doi.org/10.2210/pdb2z3d/pdb",
+              "landing_page_url": "https://doi.org/10.2210/pdb2z3d/pdb",
+              "publication_date": "2007-07-03",
+              "publication_year": 2007,
+              "source_name": null,
+              "title": "A Mechanistic view of Enzyme Inhibition and Peptide Hydrolysis in the Active Site of the SARS-CoV 3C-Like peptidase",
+              "type": "component"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.2172/4650514",
+              "id": "https://doi.org/10.2172/4650514",
+              "landing_page_url": "https://doi.org/10.2172/4650514",
+              "publication_date": "1963-10-31",
+              "publication_year": 1963,
+              "source_name": null,
+              "title": "OFF-SITE ENVIRONMENTAL CONTAMINATION FROM NUCLEAR EXPLOSIVES AT THE NEVADA TEST SITE, SEPTEMBER 15, 1961-SEPTEMBER 15, 1962",
+              "type": "report"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.2307/3433643",
+              "id": "https://doi.org/10.2307/3433643",
+              "landing_page_url": "https://doi.org/10.2307/3433643",
+              "publication_date": "1997-12-01",
+              "publication_year": 1997,
+              "source_name": "Environmental Health Perspectives",
+              "title": "Room-Temperature Semiconductor Detectors for in Vivo Monitoring of Internal Contamination",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/s001289900328",
+              "id": "https://doi.org/10.1007/s001289900328",
+              "landing_page_url": "https://doi.org/10.1007/s001289900328",
+              "publication_date": "1997-02-01",
+              "publication_year": 1997,
+              "source_name": "Bulletin of Environmental Contamination and Toxicology",
+              "title": "PCB and Heavy Metal Contamination and Effects in European Starlings ( Sturnus vulgaris ) at a Superfund Site",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1017/9781108574273.012",
+              "id": "https://doi.org/10.1017/9781108574273.012",
+              "landing_page_url": "https://doi.org/10.1017/9781108574273.012",
+              "publication_date": "2019-08-15",
+              "publication_year": 2019,
+              "source_name": "Environmental Contamination from the Fukushima Nuclear Disaster",
+              "title": "Off-Site Decontamination",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.2210/pdb2z3e/pdb",
+              "id": "https://doi.org/10.2210/pdb2z3e/pdb",
+              "landing_page_url": "https://doi.org/10.2210/pdb2z3e/pdb",
+              "publication_date": "2007-07-03",
+              "publication_year": 2007,
+              "source_name": "Worldwide Protein Data Bank",
+              "title": "A Mechanistic view of Enzyme Inhibition and Peptide Hydrolysis in the Active Site of the SARS-CoV 3C-Like peptidase",
+              "type": "dataset"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.2210/pdb2z3c/pdb",
+              "id": "https://doi.org/10.2210/pdb2z3c/pdb",
+              "landing_page_url": "https://doi.org/10.2210/pdb2z3c/pdb",
+              "publication_date": "2007-07-03",
+              "publication_year": 2007,
+              "source_name": "Worldwide Protein Data Bank",
+              "title": "A Mechanistic view of Enzyme Inhibition and Peptide Hydrolysis in the Active Site of the SARS-CoV 3C-Like peptidase",
+              "type": "dataset"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "SARS CoV 2 environmental contamination room site positivity",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=SARS+CoV+2+environmental+contamination+room+site+positivity&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        }
+      ],
+      "search_completed": true
+    }
+  },
+  "generated_at": "2026-08-22",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "c1706707489811273a04202f1279b4edc701c16c1dc3270e2472ca9c54195b08",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Searches are frozen reproducible retrieval evidence within the declared provider, queries, cutoff, and result depth. They do not certify absence from all literature.",
+  "strict_before": "2020-01-01",
+  "target_doi_excluded": "10.1038/s41467-020-16670-2",
+  "task_id": "Life_08_environmental_transfer_boundary",
+  "release": "V1.0"
+}

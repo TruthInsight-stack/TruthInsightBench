@@ -1,0 +1,197 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "chi下降时，低能双层从六方有序变为方形有序，并向界面靠近",
+      "independent_reconstruction_method": "Frozen evaluator recomputation: verification/recompute/A.py",
+      "non_exhaustive_validation_anchor": true,
+      "object": "R1=R2=3σ的等大二元纳米粒子最低能构型中，两类粒子层中心到界面的平均绝对z距离",
+      "one_liner": "指定的高chi低能构型是平均|z|=2.491σ的六方双层，而低chi低能构型是平均|z|=2.098σ的方形双层",
+      "perturbation_bindings": [
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition_sign_layers.py",
+          "script_sha256": "c5b5d8b7a90458706e8824fdc3ea594dc72996cd3978f3c7fa2956264ebef9ce"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method_median.py",
+          "script_sha256": "e78e4fc4f1a40969f700a3601ceb199a114dc22a1bcddbb49975a487682e08a6"
+        },
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample_trim_one.py",
+          "script_sha256": "de1d12684b316ec2b035d765f9d73330e77f90d6a81b619997679998a13fcc59"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "measurement: \"在未用于本分析的更大粒子数全局优化中，同参数六方与方形双层的平均|z|\"; expected_range: [1.9, 2.7]; failure_criterion: \"chi=0.8构型的平均|z|不高于chi=0.6构型，或两者任一偏离对应金标超过0.25σ\""
+      },
+      "quantities": [
+        {
+          "key": "hex_abs_z_sigma",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "sigma",
+          "value": 2.491232
+        },
+        {
+          "key": "square_abs_z_sigma",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "sigma",
+          "value": 2.097741
+        },
+        {
+          "key": "hex_preferred_z_sigma",
+          "role": "supporting",
+          "tolerance_rel": 0.05,
+          "unit": "sigma",
+          "value": 2.4
+        },
+        {
+          "key": "square_preferred_z_sigma",
+          "role": "supporting",
+          "tolerance_rel": 0.05,
+          "unit": "sigma",
+          "value": 1.8
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "values": [
+          {
+            "json_path": "values.hex_abs_z_sigma",
+            "quantity_key": "hex_abs_z_sigma"
+          },
+          {
+            "json_path": "values.square_abs_z_sigma",
+            "quantity_key": "square_abs_z_sigma"
+          },
+          {
+            "json_path": "values.hex_preferred_z_sigma",
+            "quantity_key": "hex_preferred_z_sigma"
+          },
+          {
+            "json_path": "values.square_preferred_z_sigma",
+            "quantity_key": "square_preferred_z_sigma"
+          }
+        ],
+        "script_sha256": "42c6fb2dbe07af1538707eeb2728588a758b9d48987250e324021c6b641d4667"
+      },
+      "scope": "六方构型chi=0.8、epsilon=0.04；方形构型chi=0.6、epsilon=0.08；均为源数据中完整全局低能XYZ",
+      "target_alignment": {
+        "paper_claim_paraphrase": "作者报告在chi=0.8时为六方双层且平均|z|约2.50σ，在chi=0.6时为方形双层且平均|z|约2.16σ",
+        "paper_location": "Results, Fig. 2c–d and the paragraph containing the reported square and hexagonal bilayer positions; Methods analytical model paragraph",
+        "rationale": "直接从有限XYZ重算得六方2.491σ、方形2.098σ；前者与原文一致，后者比原文2.16σ低2.9%。两者是同一结构关系，在5%有限源构型容差内，但该差异在审计中永久披露",
+        "status": "reported_target_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "小粒子构成Kagome网络，其孔隙由六方排列的大粒子填充，两类粒子位于界面两侧",
+      "independent_reconstruction_method": "Frozen evaluator recomputation: verification/recompute/B.py",
+      "non_exhaustive_validation_anchor": true,
+      "object": "小粒子Kagome子格与大粒子六方子格组成的二元界面单层构型",
+      "one_liner": "在目标尺寸比与界面参数条件下出现Kagome–六方二元单层，两类粒子平均层间距为2.292σ",
+      "perturbation_bindings": [
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition_ideal_gap.py",
+          "script_sha256": "dff917324bf1e82b8d9f3a84fe73c83d1ee5027bb662aa2edc5402b66eb569c1"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method_cutoff_1025.py",
+          "script_sha256": "1b71344971c35e2ff075616fa0d199ad19e35014e65b022706b6840e2345e463"
+        },
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample_boundary_interior.py",
+          "script_sha256": "1e987a5e065fa9da16490741c652bcf0dad714bfd4242a7eab47d920019cbd35"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "measurement: \"在未用于本分析的更大周期全局优化中，同参数下两类粒子的平均层间距与子格几何\"; expected_range: [2.15, 2.45]; failure_criterion: \"新构型层间距落在2.15–2.45σ之外，或不再同时出现Kagome小粒子与六方大粒子子格\""
+      },
+      "quantities": [
+        {
+          "key": "mean_layer_separation_sigma",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "sigma",
+          "value": 2.2919998
+        },
+        {
+          "key": "geometric_ideal_separation_sigma",
+          "role": "supporting",
+          "tolerance_rel": 0.05,
+          "unit": "sigma",
+          "value": 2.2
+        },
+        {
+          "key": "large_to_small_contact_degree_median",
+          "role": "supporting",
+          "tolerance_rel": 0.2,
+          "unit": "contact",
+          "value": 5.0
+        },
+        {
+          "key": "large_particle_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "particle",
+          "value": 4
+        },
+        {
+          "key": "small_particle_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "particle",
+          "value": 15
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "values": [
+          {
+            "json_path": "values.mean_layer_separation_sigma",
+            "quantity_key": "mean_layer_separation_sigma"
+          },
+          {
+            "json_path": "values.geometric_ideal_separation_sigma",
+            "quantity_key": "geometric_ideal_separation_sigma"
+          },
+          {
+            "json_path": "values.large_to_small_contact_degree_median",
+            "quantity_key": "large_to_small_contact_degree_median"
+          },
+          {
+            "json_path": "values.large_particle_count",
+            "quantity_key": "large_particle_count"
+          },
+          {
+            "json_path": "values.small_particle_count",
+            "quantity_key": "small_particle_count"
+          }
+        ],
+        "script_sha256": "cb60c93cb5b9f3f9d42c3d29d57b367863eb152c9a7739aa13d506cccc71ac73"
+      },
+      "scope": "R1=3σ、R2=2.5σ（尺寸比5/6）、chi=0.4、epsilon=0.08的全局低能有限周期构型",
+      "target_alignment": {
+        "paper_claim_paraphrase": "作者报告小粒子形成Kagome子格、大粒子形成六方子格，几何所需层间距为2.29σ，并将其识别为AB3型单层超晶格",
+        "paper_location": "Results, Fig. 4a and the paragraph beginning 'At chi = 0.4 and epsilon = 0.08'",
+        "rationale": "有限源构型重算层间距2.2919998σ，精确命中原文2.29σ。有限构型中4:15的边界粒子比不冒充无限晶格AB3的精确化学计量",
+        "status": "reported_target_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "Two verified validation anchors for blind-rediscovery diagnostics; not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2022-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Material_01_binary_superlattice",
+  "release": "V1.0"
+}

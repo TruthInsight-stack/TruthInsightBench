@@ -1,0 +1,427 @@
+{
+  "all_queries_completed": true,
+  "api_cutoff": "2022-12-31",
+  "cards": {
+    "A": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2022-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/s11120-019-00703-z",
+              "id": "https://doi.org/10.1007/s11120-019-00703-z",
+              "landing_page_url": "https://doi.org/10.1007/s11120-019-00703-z",
+              "publication_date": "2020-01-23",
+              "publication_year": 2020,
+              "source_name": "Photosynthesis Research",
+              "title": "Preface to the special issue: photosynthesis-inspired biohybrid and biomimetic systems",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-3-319-48873-8_18",
+              "id": "https://doi.org/10.1007/978-3-319-48873-8_18",
+              "landing_page_url": "https://doi.org/10.1007/978-3-319-48873-8_18",
+              "publication_date": "2017-05-18",
+              "publication_year": 2017,
+              "source_name": "Photosynthesis: Structures, Mechanisms, and Applications",
+              "title": "Time-Resolved EPR in Artificial Photosynthesis",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.5772/39061",
+              "id": "https://doi.org/10.5772/39061",
+              "landing_page_url": "https://doi.org/10.5772/39061",
+              "publication_date": "2012-02-24",
+              "publication_year": 2012,
+              "source_name": "Artificial Photosynthesis",
+              "title": "Gathering Light: Artificial Photosynthesis",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/bs.abr.2016.04.001",
+              "id": "https://doi.org/10.1016/bs.abr.2016.04.001",
+              "landing_page_url": "https://doi.org/10.1016/bs.abr.2016.04.001",
+              "publication_date": "2016-01-01",
+              "publication_year": 2016,
+              "source_name": "Advances in Botanical Research",
+              "title": "Artificial Photosynthesis",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.5772/26016",
+              "id": "https://doi.org/10.5772/26016",
+              "landing_page_url": "https://doi.org/10.5772/26016",
+              "publication_date": "2012-02-24",
+              "publication_year": 2012,
+              "source_name": "Artificial Photosynthesis",
+              "title": "Manganese Compounds as Water Oxidizing Catalysts in Artificial Photosynthesis",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.5772/26909",
+              "id": "https://doi.org/10.5772/26909",
+              "landing_page_url": "https://doi.org/10.5772/26909",
+              "publication_date": "2012-02-24",
+              "publication_year": 2012,
+              "source_name": "Artificial Photosynthesis",
+              "title": "Artificial Photosynthesis from a Chemical Engineering Perspective",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/bs.abr.2016.04.002",
+              "id": "https://doi.org/10.1016/bs.abr.2016.04.002",
+              "landing_page_url": "https://doi.org/10.1016/bs.abr.2016.04.002",
+              "publication_date": "2016-01-01",
+              "publication_year": 2016,
+              "source_name": "Advances in Botanical Research",
+              "title": "Artificial Photosynthesis – An Inorganic Approach",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/bs.abr.2016.02.004",
+              "id": "https://doi.org/10.1016/bs.abr.2016.02.004",
+              "landing_page_url": "https://doi.org/10.1016/bs.abr.2016.02.004",
+              "publication_date": "2016-01-01",
+              "publication_year": 2016,
+              "source_name": "Advances in Botanical Research",
+              "title": "An Illustrative History of Artificial Photosynthesis",
+              "type": "book-chapter"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "artificial photosynthesis biohybrid response decline time perturbation",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=artificial+photosynthesis+biohybrid+response+decline+time+perturbation&filter=until-pub-date%3A2022-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2023-01-01"
+        },
+        {
+          "api_cutoff": "2022-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.scitotenv.2021.148288",
+              "id": "https://doi.org/10.1016/j.scitotenv.2021.148288",
+              "landing_page_url": "https://doi.org/10.1016/j.scitotenv.2021.148288",
+              "publication_date": "2021-10-01",
+              "publication_year": 2021,
+              "source_name": "Science of The Total Environment",
+              "title": "Abiotic-biotic hybrid for CO2 biomethanation: From electrochemical to photochemical process",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/nano.2006.247590",
+              "id": "https://doi.org/10.1109/nano.2006.247590",
+              "landing_page_url": "https://doi.org/10.1109/nano.2006.247590",
+              "publication_date": "2006-01-01",
+              "publication_year": 2006,
+              "source_name": "2006 Sixth IEEE Conference on Nanotechnology",
+              "title": "Engineering and Fabricating a Hybrid Biotic/Abiotic Biological Computer",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/b978-0-12-801536-0.00003-7",
+              "id": "https://doi.org/10.1016/b978-0-12-801536-0.00003-7",
+              "landing_page_url": "https://doi.org/10.1016/b978-0-12-801536-0.00003-7",
+              "publication_date": "2016-01-01",
+              "publication_year": 2016,
+              "source_name": "Abiotic and Biotic Stresses in Soybean Production",
+              "title": "Enhancing soybean response to biotic and abiotic stresses",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.5772/intechopen.78296",
+              "id": "https://doi.org/10.5772/intechopen.78296",
+              "landing_page_url": "https://doi.org/10.5772/intechopen.78296",
+              "publication_date": "2018-08-01",
+              "publication_year": 2018,
+              "source_name": "Marine Ecology - Biotic and Abiotic Interactions",
+              "title": "Introductory Chapter: Marine Ecology—Biotic and Abiotic Interactions",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1201/9781003281986-1",
+              "id": "https://doi.org/10.1201/9781003281986-1",
+              "landing_page_url": "https://doi.org/10.1201/9781003281986-1",
+              "publication_date": "2022-02-15",
+              "publication_year": 2022,
+              "source_name": "Abiotic &amp; Biotic Stress Management in Plants",
+              "title": "Cell Signaling in Plants During Abiotic and Biotic Stress",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/mhs.2006.320312",
+              "id": "https://doi.org/10.1109/mhs.2006.320312",
+              "landing_page_url": "https://doi.org/10.1109/mhs.2006.320312",
+              "publication_date": "2006-01-01",
+              "publication_year": 2006,
+              "source_name": "2006 IEEE International Symposium on MicroNanoMechanical and Human Science",
+              "title": "Engineering and Fabricating a Hybrid Biotic/Abiotic Biological Computer",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.5772/62159",
+              "id": "https://doi.org/10.5772/62159",
+              "landing_page_url": "https://doi.org/10.5772/62159",
+              "publication_date": "2016-02-17",
+              "publication_year": 2016,
+              "source_name": "Abiotic and Biotic Stress in Plants - Recent Advances and Future Perspectives",
+              "title": "Sunflower Breeding for Resistance to Abiotic and Biotic Stresses",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.5772/intechopen.85832",
+              "id": "https://doi.org/10.5772/intechopen.85832",
+              "landing_page_url": "https://doi.org/10.5772/intechopen.85832",
+              "publication_date": "2019-10-23",
+              "publication_year": 2019,
+              "source_name": "Abiotic and Biotic Stress in Plants",
+              "title": "Biotic and Abiotic Stresses in Plants",
+              "type": "book-chapter"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "biotic abiotic hybrid CO2 conversion time stability",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=biotic+abiotic+hybrid+CO2+conversion+time+stability&filter=until-pub-date%3A2022-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2023-01-01"
+        }
+      ],
+      "search_completed": true
+    },
+    "B": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2022-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/bf03318127",
+              "id": "https://doi.org/10.1007/bf03318127",
+              "landing_page_url": "https://doi.org/10.1007/bf03318127",
+              "publication_date": "2013-02-21",
+              "publication_year": 2013,
+              "source_name": "InPharma",
+              "title": "DOSE-RESPONSE STUDIES: FINDING THE OPTIMUM DOSE",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/s11120-019-00703-z",
+              "id": "https://doi.org/10.1007/s11120-019-00703-z",
+              "landing_page_url": "https://doi.org/10.1007/s11120-019-00703-z",
+              "publication_date": "2020-01-23",
+              "publication_year": 2020,
+              "source_name": "Photosynthesis Research",
+              "title": "Preface to the special issue: photosynthesis-inspired biohybrid and biomimetic systems",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.5772/39061",
+              "id": "https://doi.org/10.5772/39061",
+              "landing_page_url": "https://doi.org/10.5772/39061",
+              "publication_date": "2012-02-24",
+              "publication_year": 2012,
+              "source_name": "Artificial Photosynthesis",
+              "title": "Gathering Light: Artificial Photosynthesis",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/bs.abr.2016.04.001",
+              "id": "https://doi.org/10.1016/bs.abr.2016.04.001",
+              "landing_page_url": "https://doi.org/10.1016/bs.abr.2016.04.001",
+              "publication_date": "2016-01-01",
+              "publication_year": 2016,
+              "source_name": "Advances in Botanical Research",
+              "title": "Artificial Photosynthesis",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.5772/26016",
+              "id": "https://doi.org/10.5772/26016",
+              "landing_page_url": "https://doi.org/10.5772/26016",
+              "publication_date": "2012-02-24",
+              "publication_year": 2012,
+              "source_name": "Artificial Photosynthesis",
+              "title": "Manganese Compounds as Water Oxidizing Catalysts in Artificial Photosynthesis",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.5772/26909",
+              "id": "https://doi.org/10.5772/26909",
+              "landing_page_url": "https://doi.org/10.5772/26909",
+              "publication_date": "2012-02-24",
+              "publication_year": 2012,
+              "source_name": "Artificial Photosynthesis",
+              "title": "Artificial Photosynthesis from a Chemical Engineering Perspective",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/bs.abr.2016.04.002",
+              "id": "https://doi.org/10.1016/bs.abr.2016.04.002",
+              "landing_page_url": "https://doi.org/10.1016/bs.abr.2016.04.002",
+              "publication_date": "2016-01-01",
+              "publication_year": 2016,
+              "source_name": "Advances in Botanical Research",
+              "title": "Artificial Photosynthesis – An Inorganic Approach",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-3-319-13800-8_2",
+              "id": "https://doi.org/10.1007/978-3-319-13800-8_2",
+              "landing_page_url": "https://doi.org/10.1007/978-3-319-13800-8_2",
+              "publication_date": "2015-01-01",
+              "publication_year": 2015,
+              "source_name": "From Molecules to Materials",
+              "title": "Artificial Photosynthesis Producing Solar Fuels: Natural Tactics of Photosynthesis",
+              "type": "book-chapter"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "artificial photosynthesis dose response optimum biohybrid",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=artificial+photosynthesis+dose+response+optimum+biohybrid&filter=until-pub-date%3A2022-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2023-01-01"
+        },
+        {
+          "api_cutoff": "2022-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/pedes56012.2022.10080442",
+              "id": "https://doi.org/10.1109/pedes56012.2022.10080442",
+              "landing_page_url": "https://doi.org/10.1109/pedes56012.2022.10080442",
+              "publication_date": "2022-12-14",
+              "publication_year": 2022,
+              "source_name": "2022 IEEE International Conference on Power Electronics, Drives and Energy Systems (PEDES)",
+              "title": "A Novel Three-Phase 13-Level Cascaded Hybrid-Module Based Multilevel Inverter with Level-Shifted PWM",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "To understand the potential impact on risk from exposure to low-level ionizing radiation, we have investigated the modulation of gene expression, induction of DNA damage and of neoplastic transformation in human or rodent cells derived from cultures exposed in vitro to low dose γ-rays (a low linear energy transfer radiation) or very low fluences of a-particles (a high linear energy transfer radiation). Pre-exposure of cells to a low γ-ray dose protected cells from the DNA damaging and killing effects induced by a subsequent acute challenge exposure to γ-rays. Furthermore, a low dose chronic exposure to γ-rays decreased the frequency of micronucleus formation and neoplastic transformation to a level below the spontaneous rate in human and rodent cells respectively. In contrast, when cell cultures were exposed to low fluences of a-particles, wherein a small fraction of cells were irradiated, stressful effects were transmitted from the irradiated to adjoining non-irradiated bystander cells. The mechanisms underlying these effects and their relative contribution to the overall risk to ionizing radiation is discussed.",
+              "doi": "https://doi.org/10.2203/dose-response.06-103.detoledo",
+              "id": "https://doi.org/10.2203/dose-response.06-103.detoledo",
+              "landing_page_url": "https://doi.org/10.2203/dose-response.06-103.detoledo",
+              "publication_date": "2006-10-01",
+              "publication_year": 2006,
+              "source_name": "Dose-Response",
+              "title": "Adaptive and Bystander Responses in Human and Rodent Cell Cultures Exposed to Low Level Ionizing Radiation: The Impact of Linear Energy Transfer",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/b978-0-12-409548-9.09092-8",
+              "id": "https://doi.org/10.1016/b978-0-12-409548-9.09092-8",
+              "landing_page_url": "https://doi.org/10.1016/b978-0-12-409548-9.09092-8",
+              "publication_date": "2014-01-01",
+              "publication_year": 2014,
+              "source_name": "Reference Module in Earth Systems and Environmental Sciences",
+              "title": "Dose–Response",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.2203/dose-response.09-046.cohen",
+              "id": "https://doi.org/10.2203/dose-response.09-046.cohen",
+              "landing_page_url": "https://doi.org/10.2203/dose-response.09-046.cohen",
+              "publication_date": "2010-02-25",
+              "publication_year": 2010,
+              "source_name": "Dose-Response",
+              "title": "Response to EPA Position on Cancer Risk from Low Level Radiation",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/b978-0-12-801238-3.11442-4",
+              "id": "https://doi.org/10.1016/b978-0-12-801238-3.11442-4",
+              "landing_page_url": "https://doi.org/10.1016/b978-0-12-801238-3.11442-4",
+              "publication_date": "2019-01-01",
+              "publication_year": 2019,
+              "source_name": "Reference Module in Biomedical Sciences",
+              "title": "Dose-Response Revolution: How Hormesis Became Significant",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "The use of low levels of visible or near infrared light for reducing pain, inflammation and edema, promoting healing of wounds, deeper tissues and nerves, and preventing cell death and tissue damage has been known for over forty years since the invention of lasers. Despite many reports of positive findings from experiments conducted in vitro, in animal models and in randomized controlled clinical trials, LLLT remains controversial in mainstream medicine. The biochemical mechanisms underlying the positive effects are incompletely understood, and the complexity of rationally choosing amongst a large number of illumination parameters such as wavelength, fluence, power density, pulse structure and treatment timing has led to the publication of a number of negative studies as well as many positive ones. A biphasic dose response has been frequently observed where low levels of light have a much better effect on stimulating and repairing tissues than higher levels of light. The so-called Arndt-Schulz curve is frequently used to describe this biphasic dose response. This review will cover the molecular and cellular mechanisms in LLLT, and describe some of our recent results in vitro and in vivo that provide scientific explanations for this biphasic dose response.",
+              "doi": "https://doi.org/10.2203/dose-response.09-027.hamblin",
+              "id": "https://doi.org/10.2203/dose-response.09-027.hamblin",
+              "landing_page_url": "https://doi.org/10.2203/dose-response.09-027.hamblin",
+              "publication_date": "2009-09-01",
+              "publication_year": 2009,
+              "source_name": "Dose-Response",
+              "title": "Biphasic Dose Response in Low Level Light Therapy",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "This commentary reviews the international radiation protection policy that resulted in the evacuation of more than 90,000 residents from areas near the Fukushima Daiichi NPS and the enormous expenditures to protect them against a hypothetical risk of cancer. The basis for the precautionary measures is shown to be invalid; the radiation level chosen for evacuation is not conservative. The actions caused unnecessary fear and suffering. An appropriate level for evacuation is recommended. Radical changes to the ICRP recommendations are long overdue.",
+              "doi": "https://doi.org/10.2203/dose-response.12-013.cuttler",
+              "id": "https://doi.org/10.2203/dose-response.12-013.cuttler",
+              "landing_page_url": "https://doi.org/10.2203/dose-response.12-013.cuttler",
+              "publication_date": "2012-03-19",
+              "publication_year": 2012,
+              "source_name": "Dose-Response",
+              "title": "Commentary on the Appropriate Radiation Level for Evacuations",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Low-level laser (light) therapy (LLLT) has been known since 1967 but still remains controversial due to incomplete understanding of the basic mechanisms and the selection of inappropriate dosimetric parameters that led to negative studies. The biphasic dose-response or Arndt-Schulz curve in LLLT has been shown both in vitro studies and in animal experiments. This review will provide an update to our previous ( Huang et al. 2009 ) coverage of this topic. In vitro mediators of LLLT such as adenosine triphosphate (ATP) and mitochondrial membrane potential show biphasic patterns, while others such as mitochondrial reactive oxygen species show a triphasic dose-response with two distinct peaks. The Janus nature of reactive oxygen species (ROS) that may act as a beneficial signaling molecule at low concentrations and a harmful cytotoxic agent at high concentrations, may partly explain the observed responses in vivo. Transcranial LLLT for traumatic brain injury (TBI) in mice shows a distinct biphasic pattern with peaks in beneficial neurological effects observed when the number of treatments is varied, and when the energy density of an individual treatment is varied. Further understanding of the extent to which biphasic dose responses apply in LLLT will be necessary to optimize clinical treatments.",
+              "doi": "https://doi.org/10.2203/dose-response.11-009.hamblin",
+              "id": "https://doi.org/10.2203/dose-response.11-009.hamblin",
+              "landing_page_url": "https://doi.org/10.2203/dose-response.11-009.hamblin",
+              "publication_date": "2011-09-02",
+              "publication_year": 2011,
+              "source_name": "Dose-Response",
+              "title": "Biphasic Dose Response in Low Level Light Therapy – an Update",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "biohybrid energy module dose response three level",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=biohybrid+energy+module+dose+response+three+level&filter=until-pub-date%3A2022-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2023-01-01"
+        }
+      ],
+      "search_completed": true
+    }
+  },
+  "generated_at": "2026-08-22",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "aebea8794b2133d0a5d646478917bd3a54d8a56574a8bdea5087d4629994f85e",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Searches are frozen reproducible retrieval evidence within the declared provider, queries, cutoff, and result depth. They do not certify absence from all literature.",
+  "strict_before": "2023-01-01",
+  "target_doi_excluded": "10.1038/s41467-023-42591-x",
+  "task_id": "Energy_07_biohybrid_operating_tradeoffs",
+  "release": "V1.0"
+}

@@ -1,0 +1,427 @@
+{
+  "all_queries_completed": true,
+  "api_cutoff": "2021-12-31",
+  "cards": {
+    "A": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "Organic solids such as covalent organic frameworks (COFs), porous polymers and carbon nitrides have garnered attention as a new generation of photocatalysts that offer tunability of their optoelectronic properties both at the molecular level and at the nanoscale. Owing to their inherent porosity and well-ordered nanoscale architectures, COFs are an especially attractive platform for the rational design of new photocatalysts for light-induced hydrogen evolution. In this report, our previous design strategy of altering the nitrogen content in an azine-linked COF platform to tune photocatalytic hydrogen evolution is extended to a pyridine-based photocatalytically active framework, where nitrogen substitution in the peripheral aryl rings reverses the polarity compared to the previously studied materials. We demonstrate how simple changes at the molecular level translate into significant differences in atomic-scale structure, nanoscale morphology and optoelectronic properties, which greatly affect the photocatalytic hydrogen evolution efficiency. In an effort to understand the complex interplay of such factors, we carve out the conformational flexibility of the PTP-COF precursor and the vertical radical anion stabilization energy as important descriptors to understand the performance of the COF photocatalysts.",
+              "doi": "https://doi.org/10.1039/c7fd00051k",
+              "id": "https://doi.org/10.1039/c7fd00051k",
+              "landing_page_url": "https://doi.org/10.1039/c7fd00051k",
+              "publication_date": "2017-01-01",
+              "publication_year": 2017,
+              "source_name": "Faraday Discussions",
+              "title": "Structure–property–activity relationships in a pyridine containing azine-linked covalent organic framework for photocatalytic hydrogen evolution",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.apsusc.2020.148082",
+              "id": "https://doi.org/10.1016/j.apsusc.2020.148082",
+              "landing_page_url": "https://doi.org/10.1016/j.apsusc.2020.148082",
+              "publication_date": "2021-01-01",
+              "publication_year": 2021,
+              "source_name": "Applied Surface Science",
+              "title": "A highly fluorine-functionalized 2D covalent organic framework for promoting photocatalytic hydrogen evolution",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract Compared with inorganic semiconductors, the difficulty of exciton dissociation is one of the main reasons for the lower photocatalytic activity of organic semiconductors. In this work, we report that the charge carrier lifetime is dramatically prolonged by incorporating a suitable donor-acceptor (β-ketene-CN) pair to a covalent organic framework nanosheet (CN-CON). CN-CON showed remarkably high apparent quantum efficiency up to 82.6% at 450 nm in photocatalytic H 2 evolution, superior to all the COFs reported so far. The charge carrier kinetic analysis and femtosecond transient absorption spectroscopy characterizations verified that CN-CON had intrinsically lower exciton binding energies and hence longer-lived charge carriers than the corresponding CON without CN unit. This work provides an excellent model for gaining insight into the nature of ultrashort-lived active species in polymeric organic photocatalysts.",
+              "doi": "https://doi.org/10.21203/rs.3.rs-1020038/v1",
+              "id": "https://doi.org/10.21203/rs.3.rs-1020038/v1",
+              "landing_page_url": "https://doi.org/10.21203/rs.3.rs-1020038/v1",
+              "publication_date": "2021-11-01",
+              "publication_year": 2021,
+              "source_name": null,
+              "title": "Covalent organic frameworks with high quantum efficiency in photocatalytic hydrogen evolution: mediating charge separation",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "A structurally diverse family of 39 covalent triazine-based framework materials (CTFs) is synthesized by Suzuki-Miyaura polycondensation and tested as hydrogen evolution photocatalysts using a high-throughput workflow. The two best-performing CTFs are based on benzonitrile and dibenzo[ b , d ]thiophene sulfone linkers, respectively, with catalytic activities that are among the highest for this material class. The activities of the different CTFs are rationalized in terms of four variables: the predicted electron affinity, the predicted ionization potential, the optical gap, and the dispersibility of the CTFs particles in solution, as measured by optical transmittance. The electron affinity and dispersibility in solution are the best predictors of photocatalytic hydrogen evolution activity.",
+              "doi": "https://doi.org/10.26434/chemrxiv.8938211.v1",
+              "id": "https://doi.org/10.26434/chemrxiv.8938211.v1",
+              "landing_page_url": "https://doi.org/10.26434/chemrxiv.8938211.v1",
+              "publication_date": "2019-07-17",
+              "publication_year": 2019,
+              "source_name": null,
+              "title": "Structurally Diverse Covalent Triazine-based Framework Materials for Photocatalytic Hydrogen Evolution from Water",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1021/acscatal.1c03441",
+              "id": "https://doi.org/10.1021/acscatal.1c03441",
+              "landing_page_url": "https://doi.org/10.1021/acscatal.1c03441",
+              "publication_date": "2021-10-18",
+              "publication_year": 2021,
+              "source_name": "ACS Catalysis",
+              "title": "Platinum Single Atoms Anchored on a Covalent Organic Framework: Boosting Active Sites for Photocatalytic Hydrogen Evolution",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1039/c4sc00016a",
+              "id": "https://doi.org/10.1039/c4sc00016a",
+              "landing_page_url": "https://doi.org/10.1039/c4sc00016a",
+              "publication_date": "2014-03-17",
+              "publication_year": 2014,
+              "source_name": "Chem. Sci.",
+              "title": "A hydrazone-based covalent organic framework for photocatalytic hydrogen production",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1021/acsaem.0c02102",
+              "id": "https://doi.org/10.1021/acsaem.0c02102",
+              "landing_page_url": "https://doi.org/10.1021/acsaem.0c02102",
+              "publication_date": "2020-11-23",
+              "publication_year": 2020,
+              "source_name": "ACS Applied Energy Materials",
+              "title": "2D–2D Heterojunctions of a Covalent Triazine Framework with a Triphenylphosphine-Based Covalent Organic Framework for Efficient Photocatalytic Hydrogen Evolution",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1021/jacs.0c02155",
+              "id": "https://doi.org/10.1021/jacs.0c02155",
+              "landing_page_url": "https://doi.org/10.1021/jacs.0c02155",
+              "publication_date": "2020-06-20",
+              "publication_year": 2020,
+              "source_name": "Journal of the American Chemical Society",
+              "title": "Rational Design of Covalent Cobaloxime–Covalent Organic Framework Hybrids for Enhanced Photocatalytic Hydrogen Evolution",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "covalent organic framework photocatalytic hydrogen evolution formulation activity",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=covalent+organic+framework+photocatalytic+hydrogen+evolution+formulation+activity&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        },
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-1-4615-8825-2_2",
+              "id": "https://doi.org/10.1007/978-1-4615-8825-2_2",
+              "landing_page_url": "https://doi.org/10.1007/978-1-4615-8825-2_2",
+              "publication_date": "1978-01-01",
+              "publication_year": 1978,
+              "source_name": "The Donor-Acceptor Approach to Molecular Interactions",
+              "title": "Empirical Parameters for Donor and Acceptor Properties",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1042/bj2100967",
+              "id": "https://doi.org/10.1042/bj2100967",
+              "landing_page_url": "https://doi.org/10.1042/bj2100967",
+              "publication_date": "1983-03-15",
+              "publication_year": 1983,
+              "source_name": "Biochemical Journal",
+              "title": "The polyenic system of retinyl phosphate is required for its mannosyl donor activity but not for acceptor activity",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1364/oe.19.003619",
+              "id": "https://doi.org/10.1364/oe.19.003619",
+              "landing_page_url": "https://doi.org/10.1364/oe.19.003619",
+              "publication_date": "2011-02-10",
+              "publication_year": 2011,
+              "source_name": "Optics Express",
+              "title": "Efficient NIR emission from organic light-emitting devices based on acceptor-donor-acceptor (A-D-A) and donor-acceptor-donor (D-A-D) oligomers",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "An effective photocatalyst for dye degradation based on two-dimensional confined electron donor–acceptor co-assembled layered double hydroxide nanocomposites was developed.",
+              "doi": "https://doi.org/10.1039/c6ra25534e",
+              "id": "https://doi.org/10.1039/c6ra25534e",
+              "landing_page_url": "https://doi.org/10.1039/c6ra25534e",
+              "publication_date": "2017-01-01",
+              "publication_year": 2017,
+              "source_name": "RSC Advances",
+              "title": "Two-dimensional confined electron donor–acceptor co-intercalated inorganic/organic nanocomposites: an effective photocatalyst for dye degradation",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract The development of disilane‐bridged donor–acceptor–donor (D‐Si‐Si‐A‐Si‐Si‐D) and acceptor–donor–acceptor (A‐Si‐Si‐D‐Si‐Si‐A) compounds is described. Both types of compound showed strong emission ( λ em =ca. 500 and ca. 400 nm, respectively) in the solid state with high quantum yields ( Φ : up to 0.85). Compound 4 exhibited aggregation‐induced emission enhancement in solution. X‐ray diffraction revealed that the crystal structures of 2 , 4 , and 12 had no intermolecular π–π interactions to suppress the nonradiative transition in the solid state.",
+              "doi": "https://doi.org/10.1002/ange.201509380",
+              "id": "https://doi.org/10.1002/ange.201509380",
+              "landing_page_url": "https://doi.org/10.1002/ange.201509380",
+              "publication_date": "2016-01-28",
+              "publication_year": 2016,
+              "source_name": "Angewandte Chemie",
+              "title": "Bright Solid‐State Emission of Disilane‐Bridged Donor–Acceptor–Donor and Acceptor–Donor–Acceptor Chromophores",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jmb.2003.09.017",
+              "id": "https://doi.org/10.1016/j.jmb.2003.09.017",
+              "landing_page_url": "https://doi.org/10.1016/j.jmb.2003.09.017",
+              "publication_date": "2003-11-01",
+              "publication_year": 2003,
+              "source_name": "Journal of Molecular Biology",
+              "title": "“Acceptor–Donor–Acceptor” Motifs Recognize the Watson–Crick, Hoogsteen and Sugar “Donor–Acceptor–Donor” Edges of Adenine and Adenosine-containing Ligands",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract The development of disilane‐bridged donor–acceptor–donor (D‐Si‐Si‐A‐Si‐Si‐D) and acceptor–donor–acceptor (A‐Si‐Si‐D‐Si‐Si‐A) compounds is described. Both types of compound showed strong emission ( λ em =ca. 500 and ca. 400 nm, respectively) in the solid state with high quantum yields ( Φ : up to 0.85). Compound 4 exhibited aggregation‐induced emission enhancement in solution. X‐ray diffraction revealed that the crystal structures of 2 , 4 , and 12 had no intermolecular π–π interactions to suppress the nonradiative transition in the solid state.",
+              "doi": "https://doi.org/10.1002/anie.201509380",
+              "id": "https://doi.org/10.1002/anie.201509380",
+              "landing_page_url": "https://doi.org/10.1002/anie.201509380",
+              "publication_date": "2016-01-28",
+              "publication_year": 2016,
+              "source_name": "Angewandte Chemie International Edition",
+              "title": "Bright Solid‐State Emission of Disilane‐Bridged Donor–Acceptor–Donor and Acceptor–Donor–Acceptor Chromophores",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract The ZnTiO 3 ‐catalyzed multicomponent reaction of ketones (I) with aldehydes (II) and malononitrile (III) under reflux leads to aromatic dinitriles (IV), whilst the reaction at room temperature affords trinitriles (V).",
+              "doi": "https://doi.org/10.1002/chin.201239045",
+              "id": "https://doi.org/10.1002/chin.201239045",
+              "landing_page_url": "https://doi.org/10.1002/chin.201239045",
+              "publication_date": "2012-08-30",
+              "publication_year": 2012,
+              "source_name": "ChemInform",
+              "title": "ChemInform Abstract: Zinc Titanate Nanopowder: An Advanced Nanotechnology Based Recyclable Heterogeneous Catalyst for the One‐Pot Selective Synthesis of Self‐Aggregated Low‐Molecular Mass Acceptor—Donor—Acceptor—Acceptor Systems and Acceptor—Donor—Acceptor Triads.",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "donor acceptor COF photocatalyst activity hierarchy",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=donor+acceptor+COF+photocatalyst+activity+hierarchy&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        }
+      ],
+      "search_completed": true
+    },
+    "B": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-94-009-4774-0_17",
+              "id": "https://doi.org/10.1007/978-94-009-4774-0_17",
+              "landing_page_url": "https://doi.org/10.1007/978-94-009-4774-0_17",
+              "publication_date": "1987-01-01",
+              "publication_year": 1987,
+              "source_name": "Astrochemistry",
+              "title": "Absorption Spectrum of Atomic Chlorine 95.0 nm to 61.0 nm",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1038/221432a0",
+              "id": "https://doi.org/10.1038/221432a0",
+              "landing_page_url": "https://doi.org/10.1038/221432a0",
+              "publication_date": "1969-02-01",
+              "publication_year": 1969,
+              "source_name": "Nature",
+              "title": "Absorption Spectrum of Rhodopsin: 500 nm Absorption Band",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1038/221435a0",
+              "id": "https://doi.org/10.1038/221435a0",
+              "landing_page_url": "https://doi.org/10.1038/221435a0",
+              "publication_date": "1969-02-01",
+              "publication_year": 1969,
+              "source_name": "Nature",
+              "title": "Absorption Spectrum of Rhodopsin : 280 nm Absorption Band",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/isie.2005.1529088",
+              "id": "https://doi.org/10.1109/isie.2005.1529088",
+              "landing_page_url": "https://doi.org/10.1109/isie.2005.1529088",
+              "publication_date": "2005-01-01",
+              "publication_year": 2005,
+              "source_name": "Proceedings of the IEEE International Symposium on Industrial Electronics, 2005. ISIE 2005.",
+              "title": "Three terminal n/sup +/ppn silicon CMOS light emitting devices (450 nm - 750 nm) with three order increase in quantum efficiency",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0009-2614(77)80451-x",
+              "id": "https://doi.org/10.1016/0009-2614(77)80451-x",
+              "landing_page_url": "https://doi.org/10.1016/0009-2614(77)80451-x",
+              "publication_date": "1977-07-01",
+              "publication_year": 1977,
+              "source_name": "Chemical Physics Letters",
+              "title": "Quantum-chemical interpretation of the unusual absorption spectrum of the cytochrome P-450CO complex",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.2172/1111155",
+              "id": "https://doi.org/10.2172/1111155",
+              "landing_page_url": "https://doi.org/10.2172/1111155",
+              "publication_date": "2009-08-31",
+              "publication_year": 2009,
+              "source_name": null,
+              "title": "Two-photon Absorption In Quantum Dots, quantum Dashes And Related Materials",
+              "type": "report"
+            },
+            {
+              "abstract": "The experimental study of atomic chlorine absorption spectra using a flash-pyrolysis system and a 2-m normal incidence spectrograph in the wavelength region 95 nm to 61 nm has produced photoabsorption cross sections, wavelength measurements, and line series identification involving the 3 P, 1 D and 1 S limits. Absorption spectra originating from both levels ( and ) of the ground state have been produced by this method.",
+              "doi": "https://doi.org/10.1017/s0074180900153860",
+              "id": "https://doi.org/10.1017/s0074180900153860",
+              "landing_page_url": "https://doi.org/10.1017/s0074180900153860",
+              "publication_date": "2017-08-04",
+              "publication_year": 2017,
+              "source_name": "Symposium - International Astronomical Union",
+              "title": "Absorption Spectrum of Atomic Chlorine 95.0 nm to 61.0 nm",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "The photochemistry of Cl2O (dichlorine monoxide) was studied using measurements of its UV/vis absorption spectrum temperature dependence and the O(3P) atom quantum yield, $\\Phi _{{\\rm Cl}_{\\rm 2} {\\rm O}}^{\\rm O} (\\lambda)$Φ Cl 2OO(λ), in its photolysis at 193 and 248 nm. The Cl2O UV/vis absorption spectrum was measured over the temperature range 201–296 K between 200 and 500 nm using diode array spectroscopy. Cl2O absorption cross sections, $\\sigma _{{\\rm Cl}_{\\rm 2} {\\rm O}} (\\lambda {\\rm, T})$σ Cl 2O(λ,T), at temperatures &amp;lt;296 K were determined relative to its well established room temperature values. A wavelength and temperature dependent parameterization of the Cl2O spectrum using the sum of six Gaussian functions, which empirically represent transitions from the ground 1A1 electronic state to excited states, is presented. The Gaussian functions are found to correlate well with published theoretically calculated vertical excitation energies. O(3P) quantum yields in the photolysis of Cl2O at 193 and 248 nm were measured using pulsed laser photolysis combined with atomic resonance fluorescence detection of O(3P) atoms. O(3P) quantum yields were measured to be 0.85 ± 0.15 for 193 nm photolysis at 296 K and 0.20 ± 0.03 at 248 nm, which was also found to be independent of temperature (220–352 K) and pressure (17 and 28 Torr, N2). The quoted uncertainties are at the 2σ (95% confidence) level and include estimated systematic errors. ClO radical temporal profiles obtained following the photolysis of Cl2O at 248 nm, as reported previously in Feierabend et al. [J. Phys. Chem. A 114, 12052, (2010)], were interpreted to establish a &amp;lt;5% upper-limit for the O + Cl2 photodissociation channel, which indicates that O(3P) is primarily formed in the three-body, O + 2Cl, photodissociation channel at 248 nm. The analysis also indirectly provided a Cl atom quantum yield of 1.2 ± 0.1 at 248 nm. The results from this work are compared with previous studies where possible.",
+              "doi": "https://doi.org/10.1063/1.3592662",
+              "id": "https://doi.org/10.1063/1.3592662",
+              "landing_page_url": "https://doi.org/10.1063/1.3592662",
+              "publication_date": "2011-05-26",
+              "publication_year": 2011,
+              "source_name": "The Journal of Chemical Physics",
+              "title": "Cl2O photochemistry: Ultraviolet/vis absorption spectrum temperature dependence and O(3P) quantum yield at 193 and 248 nm",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "photocatalyst action spectrum absorption quantum efficiency 450 nm",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=photocatalyst+action+spectrum+absorption+quantum+efficiency+450+nm&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        },
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1021/bi00551a024",
+              "id": "https://doi.org/10.1021/bi00551a024",
+              "landing_page_url": "https://doi.org/10.1021/bi00551a024",
+              "publication_date": "2002-05-01",
+              "publication_year": 2002,
+              "source_name": "Biochemistry",
+              "title": "Action spectrum and quantum efficiency for proton pumping in Halobacterium halobium",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0379-6787(90)90013-u",
+              "id": "https://doi.org/10.1016/0379-6787(90)90013-u",
+              "landing_page_url": "https://doi.org/10.1016/0379-6787(90)90013-u",
+              "publication_date": "1990-06-01",
+              "publication_year": 1990,
+              "source_name": "Solar Cells",
+              "title": "Analysis of apparent quantum efficiency",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.53053/wsyh3045",
+              "id": "https://doi.org/10.53053/wsyh3045",
+              "landing_page_url": "https://doi.org/10.53053/wsyh3045",
+              "publication_date": "2021-01-01",
+              "publication_year": 2021,
+              "source_name": "Spectrum",
+              "title": "Autism by the numbers: Explaining its apparent rise",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Quantum efficiency measurements of n-CdS/p-CdTe solar cells performed under nonstandard illumination, voltage bias, or both can be severely distorted by photogeneration and contact-barrier effects. In this work we will discuss the effects that are typically observed, the requirements needed to reproduce these effects with modeling tools, and the potential applications of apparent quantum efficiency analysis. Recently published experimental results are interpreted and reproduced using numerical simulation tools. The suggested model explains large negative apparent quantum efficiencies (≫100%) seen in the spectral range of 350–550 nm, modestly large negative apparent quantum efficiencies (&amp;gt;100%) in the spectral range of 800–850 nm, enhanced positive or negative response observed under red, blue, and white light bias, and photocurrent gain significantly different from unity. Some of these effects originate from the photogeneration in the highly compensated CdS window layer, some from photogeneration within the CdTe, and some are further modified by the height of the CdTe back-contact barrier.",
+              "doi": "https://doi.org/10.1063/1.1667605",
+              "id": "https://doi.org/10.1063/1.1667605",
+              "landing_page_url": "https://doi.org/10.1063/1.1667605",
+              "publication_date": "2004-04-15",
+              "publication_year": 2004,
+              "source_name": "Journal of Applied Physics",
+              "title": "Apparent quantum efficiency effects in CdTe solar cells",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/s0006-3495(89)82740-7",
+              "id": "https://doi.org/10.1016/s0006-3495(89)82740-7",
+              "landing_page_url": "https://doi.org/10.1016/s0006-3495(89)82740-7",
+              "publication_date": "1989-11-01",
+              "publication_year": 1989,
+              "source_name": "Biophysical Journal",
+              "title": "Changes in the apparent quantum efficiency for photolysis of Hb(CO)1",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.2514/6.2006-4139",
+              "id": "https://doi.org/10.2514/6.2006-4139",
+              "landing_page_url": "https://doi.org/10.2514/6.2006-4139",
+              "publication_date": "2006-06-18",
+              "publication_year": 2006,
+              "source_name": "4th International Energy Conversion Engineering Conference and Exhibit (IECEC)",
+              "title": "Quantum Dot Spectrum Converter Coverglass for Enhanced High Efficiency Photovoltaics",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3389/fmars.2016.00235",
+              "id": "https://doi.org/10.3389/fmars.2016.00235",
+              "landing_page_url": "https://doi.org/10.3389/fmars.2016.00235",
+              "publication_date": "2016-11-18",
+              "publication_year": 2016,
+              "source_name": "Frontiers in Marine Science",
+              "title": "Apparent Quantum Efficiency Spectra for Superoxide Photoproduction and Its Formation of Hydrogen Peroxide in Natural Waters",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0002-1571(71)90022-7",
+              "id": "https://doi.org/10.1016/0002-1571(71)90022-7",
+              "landing_page_url": "https://doi.org/10.1016/0002-1571(71)90022-7",
+              "publication_date": "1971-01-01",
+              "publication_year": 1971,
+              "source_name": "Agricultural Meteorology",
+              "title": "The action spectrum, absorptance and quantum yield of photosynthesis in crop plants",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "COF apparent quantum efficiency action spectrum",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=COF+apparent+quantum+efficiency+action+spectrum&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        }
+      ],
+      "search_completed": true
+    }
+  },
+  "generated_at": "2026-08-22",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "333fa950b350304e5453d6e7f5cca87dc80e5bb13b02eb8eab507956c97f5af5",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Searches are frozen reproducible retrieval evidence within the declared provider, queries, cutoff, and result depth. They do not certify absence from all literature.",
+  "strict_before": "2022-01-01",
+  "target_doi_excluded": "10.1038/s41467-022-30035-x",
+  "task_id": "Energy_01_photocatalytic_tradeoffs",
+  "release": "V1.0"
+}

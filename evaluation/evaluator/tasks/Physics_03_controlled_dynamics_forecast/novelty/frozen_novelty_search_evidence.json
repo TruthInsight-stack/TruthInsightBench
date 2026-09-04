@@ -1,0 +1,681 @@
+{
+  "all_queries_completed": true,
+  "cards": {
+    "A": {
+      "queries": [
+        {
+          "api_cutoff": "2021-03-31",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "Reservoir computing is a computational framework suited for temporal/sequential data processing. It is derived from several recurrent neural network models, including echo state networks and liquid state machines. A reservoir computing system consists of a reservoir for mapping inputs into a high-dimensional space and a readout for pattern analysis from the high-dimensional states in the reservoir. The reservoir is fixed and only the readout is trained with a simple method such as linear regression and classification. Thus, the major advantage of reservoir computing compared to other recurrent neural networks is fast learning, resulting in low training cost. Another advantage is that the reservoir without adaptive updating is amenable to hardware implementation using a variety of physical systems, substrates, and devices. In fact, such physical reservoir computing has attracted increasing attention in diverse fields of research. The purpose of this review is to provide an overview of recent advances in physical reservoir computing by classifying them according to the type of the reservoir. We discuss the current issues and perspectives related to physical reservoir computing, in order to further expand its practical applications and develop next-generation machine learning systems.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-03-20",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.neunet.2019.03.005",
+              "id": "https://openalex.org/W2887258823",
+              "provider": "openalex",
+              "title": "Recent advances in physical reservoir computing: A review"
+            },
+            {
+              "abstract": "The cortex is a complex system, characterized by its dynamics and architecture, which underlie many functions such as action, perception, learning, language, and cognition. Its structural architecture has been studied for more than a hundred years; however, its dynamics have been addressed much less thoroughly. In this paper, we review and integrate, in a unifying framework, a variety of computational approaches that have been used to characterize the dynamics of the cortex, as evidenced at different levels of measurement. Computational models at different space-time scales help us understand the fundamental mechanisms that underpin neural processes and relate these processes to neuroscience data. Modeling at the single neuron level is necessary because this is the level at which information is exchanged between the computing elements of the brain; the neurons. Mesoscopic models tell us how neural elements interact to yield emergent behavior at the level of microcolumns and cortical columns. Macroscopic models can inform us about whole brain dynamics and interactions between large-scale neural systems such as cortical regions, the thalamus, and brain stem. Each level of description relates uniquely to neuroscience data, from single-unit recordings, through local field potentials to functional magnetic resonance imaging (fMRI), electroencephalogram (EEG), and magnetoencephalogram (MEG). Models of the cortex can establish which types of large-scale neuronal networks can perform computations and characterize their emergent properties. Mean-field and related formulations of dyn",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2008-08-28",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1371/journal.pcbi.1000092",
+              "id": "https://openalex.org/W1985983039",
+              "provider": "openalex",
+              "title": "The Dynamic Brain: From Spiking Neurons to Neural Masses and Cortical Fields"
+            },
+            {
+              "abstract": "We survey recent analytical approaches to studying the spatiotemporal dynamics of continuum neural fields.Neural fields model the large-scale dynamics of spatially structured biological neural networks in terms of nonlinear integrodifferential equations whose associated integral kernels represent the spatial distribution of neuronal synaptic connections.They provide an important example of spatially extended excitable systems with nonlocal interactions and exhibit a wide range of spatially coherent dynamics including traveling waves oscillations and Turing-like patterns.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2011-12-14",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/1751-8113/45/3/033001",
+              "id": "https://openalex.org/W2032407678",
+              "provider": "openalex",
+              "title": "Spatiotemporal dynamics of continuum neural fields"
+            },
+            {
+              "abstract": "Previous article Next article On the Construction and Comparison of Difference SchemesGilbert StrangGilbert Stranghttps://doi.org/10.1137/0705041PDFBibTexSections ToolsAdd to favoritesExport CitationTrack CitationsEmail SectionsAbout[1] J. Barkley Rosser, A Runge-Kutta for all seasons, SIAM Rev., 9 (1967), 417–452 10.1137/1009069 MR0219242 0243.65041 LinkISIGoogle Scholar[2] Robert D. Richtmyer and , K. W. Morton, Difference methods for initial-value problems, Second edition. Interscience Tracts in Pure and Applied Mathematics, No. 4, Interscience Publishers John Wiley & Sons, Inc., New York-London-Sydney, 1967xiv+405 MR0220455 0155.47502 Google Scholar[3] Peter D. Lax and , Burton Wendroff, Difference schemes for hyperbolic equations with high order of accuracy, Comm. Pure Appl. Math., 17 (1964), 381–398 MR0170484 0233.65050 CrossrefISIGoogle Scholar[4] Samuel Z. Burstein, Numerical methods in multidimensional shocked flows, AIAA J., 2 (1964), 2111–2117 MR0180067 CrossrefGoogle Scholar[5] S. Z. Burstein, Finite-difference calculations for hydrodynamic flows containing discontinuities, J. Comp. Phys., 2 (1967), 198–222 0166.22103 Google Scholar[6] C. Berger, On the numerical range of powers of an operator, to appear Google Scholar[7] W. P. Crowley, Second-order numerical advection, J. Comp. Phys., 1 (1967), 471–484 10.1016/0021-9991(67)90053-8 0149.44403 CrossrefGoogle Scholar[8] Gilbert Strang, Accurate partial difference methods. I. Linear Cauchy problems, Arch. Rational Mech. Anal., 12 (1963), 392–402 MR0146970 0113.32303 CrossrefISIGoogle Scholar[9] A. R. Gourlay and , ",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1968-09-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1137/0705041",
+              "id": "https://openalex.org/W2049161806",
+              "provider": "openalex",
+              "title": "On the Construction and Comparison of Difference Schemes"
+            },
+            {
+              "abstract": "Lots of learning tasks require dealing with graph data which contains rich relation information among elements. Modeling physics systems, learning molecular fingerprints, predicting protein interface, and classifying diseases demand a model to learn from graph inputs. In other domains such as learning from non-structural data like texts and images, reasoning on extracted structures (like the dependency trees of sentences and the scene graphs of images) is an important research topic which also needs graph reasoning models. Graph neural networks (GNNs) are neural models that capture the dependence of graphs via message passing between the nodes of graphs. In recent years, variants of GNNs such as graph convolutional network (GCN), graph attention network (GAT), graph recurrent network (GRN) have demonstrated ground-breaking performances on many deep learning tasks. In this survey, we propose a general design pipeline for GNN models and discuss the variants of each component, systematically categorize the applications, and propose four open problems for future research.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-12-20",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.48550/arxiv.1812.08434",
+              "id": "https://openalex.org/W2905224888",
+              "provider": "openalex",
+              "title": "Graph Neural Networks: A Review of Methods and Applications"
+            },
+            {
+              "abstract": "The complexity of many biological, social and technological systems stems from the richness of the interactions among their units. Over the past decades, a variety of complex systems has been successfully described as networks whose interacting pairs of nodes are connected by links. Yet, from human communications to chemical reactions and ecological systems, interactions can often occur in groups of three or more nodes and cannot be described simply in terms of dyads. Until recently little attention has been devoted to the higher-order architecture of real complex systems. However, a mounting body of evidence is showing that taking the higher-order structure of these systems into account can enhance our modeling capacities and help us understand and predict their dynamical behavior. Here we present a complete overview of the emerging field of networks beyond pairwise interactions. We discuss how to represent higher-order interactions and introduce the different frameworks used to describe higher-order systems, highlighting the links between the existing concepts and representations. We review the measures designed to characterize the structure of these systems and the models proposed to generate synthetic structures, such as random and growing bipartite graphs, hypergraphs and simplicial complexes. We introduce the rapidly growing research on higher-order dynamical systems and dynamical topology, discussing the relations between higher-order interactions and collective behavior. We focus in particular on new emergent phenomena characterizing dynamical processes, such as dif",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-06-13",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.physrep.2020.05.004",
+              "id": "https://openalex.org/W3033513666",
+              "provider": "openalex",
+              "title": "Networks beyond pairwise interactions: Structure and dynamics"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2021-03-31",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 4395,
+              "query": "neural ordinary differential equation physical dynamics frequency prediction",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "7970",
+                "reset_seconds": "26642"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2021-03-31",
+                  "per_page": "6",
+                  "search": "neural ordinary differential equation physical dynamics frequency prediction",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2021-04-01"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2021-03-31",
+              "attempts": 3,
+              "error": "HTTP 429 | HTTP 429 | HTTP 429",
+              "ok": false,
+              "provider": "semantic_scholar",
+              "query": "neural ordinary differential equation physical dynamics frequency prediction",
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "6",
+                  "query": "neural ordinary differential equation physical dynamics frequency prediction",
+                  "year": "1900-2021"
+                }
+              },
+              "strict_before": "2021-04-01"
+            }
+          },
+          "query": "neural ordinary differential equation physical dynamics frequency prediction",
+          "strict_before": "2021-04-01"
+        },
+        {
+          "api_cutoff": "2021-03-31",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "Reservoir computing is a computational framework suited for temporal/sequential data processing. It is derived from several recurrent neural network models, including echo state networks and liquid state machines. A reservoir computing system consists of a reservoir for mapping inputs into a high-dimensional space and a readout for pattern analysis from the high-dimensional states in the reservoir. The reservoir is fixed and only the readout is trained with a simple method such as linear regression and classification. Thus, the major advantage of reservoir computing compared to other recurrent neural networks is fast learning, resulting in low training cost. Another advantage is that the reservoir without adaptive updating is amenable to hardware implementation using a variety of physical systems, substrates, and devices. In fact, such physical reservoir computing has attracted increasing attention in diverse fields of research. The purpose of this review is to provide an overview of recent advances in physical reservoir computing by classifying them according to the type of the reservoir. We discuss the current issues and perspectives related to physical reservoir computing, in order to further expand its practical applications and develop next-generation machine learning systems.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-03-20",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.neunet.2019.03.005",
+              "id": "https://openalex.org/W2887258823",
+              "provider": "openalex",
+              "title": "Recent advances in physical reservoir computing: A review"
+            },
+            {
+              "abstract": "We introduce a data-driven forecasting method for high-dimensional chaotic systems using long short-term memory (LSTM) recurrent neural networks. The proposed LSTM neural networks perform inference of high-dimensional dynamical systems in their reduced order space and are shown to be an effective set of nonlinear approximators of their attractor. We demonstrate the forecasting performance of the LSTM and compare it with Gaussian processes (GPs) in time series obtained from the Lorenz 96 system, the Kuramoto-Sivashinsky equation and a prototype climate model. The LSTM networks outperform the GPs in short-term forecasting accuracy in all applications considered. A hybrid architecture, extending the LSTM with a mean stochastic model (MSM-LSTM), is proposed to ensure convergence to the invariant measure. This novel hybrid method is fully data-driven and extends the forecasting capabilities of LSTM networks.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-05-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1098/rspa.2017.0844",
+              "id": "https://openalex.org/W2788403524",
+              "provider": "openalex",
+              "title": "Data-driven forecasting of high-dimensional chaotic systems with long short-term memory networks"
+            },
+            {
+              "abstract": "The modern power system is progressing from a synchronous machine-based system towards an inverter-dominated system, with large-scale penetration of renewable energy sources (RESs) like wind and photovoltaics. RES units today represent a major share of the generation, and the traditional approach of integrating them as grid following units can lead to frequency instability. Many researchers have pointed towards using inverters with virtual inertia control algorithms so that they appear as synchronous generators to the grid, maintaining and enhancing system stability. This paper presents a literature review of the current state-of-the-art of virtual inertia implementation techniques, and explores potential research directions and challenges. The major virtual inertia topologies are compared and classified. Through literature review and simulations of some selected topologies it has been shown that similar inertial response can be achieved by relating the parameters of these topologies through time constants and inertia constants, although the exact frequency dynamics may vary slightly. The suitability of a topology depends on system control architecture and desired level of detail in replication of the dynamics of synchronous generators. A discussion on the challenges and research directions points out several research needs, especially for systems level integration of virtual inertia systems.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-06-26",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3390/app7070654",
+              "id": "https://openalex.org/W2639428679",
+              "provider": "openalex",
+              "title": "Virtual Inertia: Current Trends and Future Directions"
+            },
+            {
+              "abstract": "Forecasting mineral commodity (MC) prices has been an important and difficult task traditionally addressed by econometric, stochastic-Gaussian and time series techniques. None of these techniques has proved suitable to represent the dynamic behavior and time related nature of MC markets. Chaos theory (CT) and machine learning (ML) techniques are able to represent the temporal relationships of variables and their evolution has been used separately to better understand and represent MC markets. CT can determine a system’s dynamics in the form of time delay and embedding dimension. However, this information has often been solely used to describe the system’s behavior and not for forecasting. Compared to traditional techniques, ML has better performance for forecasting MC prices, due to its capacity for finding patterns governing the system’s dynamics. However, the rational nature of economic problems increases concerns regarding the use of hidden patterns for forecasting. Therefore, it is uncertain if variables selected and hidden patterns found by ML can represent the economic rationality. Despite their refined features for representing system dynamics, the separate use of either CT or ML does not provide the expected realistic accuracy. By itself, neither CT nor ML are able to identify the main variables affecting systems, recognize the relation and influence of variables though time, and discover hidden patterns governing systems evolution simultaneously. This paper discusses the necessity to adapt and combine CT and ML to obtain a more realistic representation of MC market",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-09-21",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.ijmst.2017.09.001",
+              "id": "https://openalex.org/W2759989314",
+              "provider": "openalex",
+              "title": "Alternative techniques for forecasting mineral commodity prices"
+            },
+            {
+              "abstract": "Abstract Lagrangian ocean drifters provide highly accurate approximations of ocean surface currents but are sparsely located across the globe. As drifters passively follow ocean currents, there is minimal control on where they will be making measurements, providing limited temporal coverage for a given region. Complementary Eulerian velocity data are available with global coverage but are themselveslimited by the spatial and temporal resolution possible with satellite altimetry measurements. In addition, altimetry measurements approximate geostrophic components of ocean currents but neglect smaller submesoscale motions and require smoothing and interpolation from raw satellite track measurements. In an effort to harness the rich dynamics available in ocean drifter datasets, we have trained a recurrent neural network on the time history of drifter motion to minimize the error in a reduced-order Maxey–Riley drifter model. This approach relies on a slow-manifold approximation to determine the most mathematically relevant variables with which to train, subsequently improving the temporal and spatial resolution of the underlying velocity field. By adding this neural-network component, we also correct drifter trajectories near submesoscale features missed by deterministic models using only satellite and wind reanalysis data. The effect of varying similarity between training and testing trajectory datasets for the blended model was evaluated, as was the effect of seasonality in the Gulf of Mexico.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-03-12",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1175/jpo-d-19-0238.1",
+              "id": "https://openalex.org/W3012326421",
+              "provider": "openalex",
+              "title": "Machine-Learning Mesoscale and Submesoscale Surface Dynamics from Lagrangian Ocean Drifter Trajectories"
+            },
+            {
+              "abstract": "This paper summarizes the forecast methods, outputs and skill offered by twelve agencies for seasonal tropical cyclone (TC) activity around the world. These agencies use a variety of techniques ranging from statistical models to dynamical models to predict basinwide activity and regional activity. In addition, several dynamical and hybrid statistical/dynamical models now predict TC track density as well as landfall likelihood. Realtime Atlantic seasonal hurricane forecasts have shown low skill in April, modest skill in June and good skill in August at predicting basinwide TC activity when evaluated over 2003-2018. Real-time western North Pacific seasonal TC forecasts have shown good skill by July for basinwide intense typhoon numbers and the ACE index when evaluated for 2003-2018. Both hindcasts and real-time forecasts have shown skill for other TC basins. A summary of recent research into forecasting TC activity beyond seasonal (e.g., multi-year) timescales is included. Recommendations for future areas of research are also discussed.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-09-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.tcrr.2019.10.003",
+              "id": "https://openalex.org/W2990562562",
+              "provider": "openalex",
+              "title": "Seasonal Tropical Cyclone Forecasting"
+            },
+            {
+              "abstract": "This paper combines the discrete wavelet transform with support vector regression for forecasting gold-price dynamics. The advantages of this approach are investigated using a relatively small set of economic and financial predictors. I measure model performance by differentiating between a statistically-motivated out-of-sample forecasting exercise and an economically-motivated trading strategy. Disentangling the predictors with respect to their time and frequency domains leads to improved forecasting performance. The results are robust compared to alternative forecasting approaches. My findings on the relative importances of such wavelet decompositions suggest that the influences of short-term and long-term trends are not stable over the full evaluation period.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-04-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/J.IJFORECAST.2018.11.008",
+              "id": "S2:7a5ca254eac606bc7fa7bb49ae591744d371ff47",
+              "provider": "semantic_scholar",
+              "title": "Combining wavelet decomposition with machine learning to forecast gold returns",
+              "url": "https://www.semanticscholar.org/paper/7a5ca254eac606bc7fa7bb49ae591744d371ff47?utm_source=api"
+            },
+            {
+              "abstract": "El Niño–Southern Oscillation (ENSO) has global effects on the hydrological cycle, agriculture, ecosystems, health, and society. We present a novel nonhomogeneous hidden Markov model (NHMM) for studying the underlying dynamics of sea surface temperature anomalies (SSTA) over the region 15°N–15°S, 150°E–80°W from January 1856 to December 2019, using the monthly SSTA data from the Kaplan extended SST v2 product. This nonparametric machine learning scheme dynamically simulates and predicts the spatiotemporal evolution of ENSO patterns, including their asymmetry, long-term trends, persistence, and seasonal evolution. The model identifies five hidden states whose spatial SSTA patterns are similar to the so-called ENSO flavors in the literature. From the fitted NHMM, the model shows that there are systematic trends in the frequency and persistence of the regimes over the last 160 years that may be related to changes in the mean state of basin temperature and/or global warming. We evaluated the ability of NHMM to make out-of-sample probabilistic predictions of the spatial structure of temperature anomalies for the period 1995–2016 using a training period from January 1856 to December 1994. The results show that NHMMs can simulate the behavior of the Niño-3.4 and Niño-1.2 regions quite well. The NHMM results over this period are comparable or superior to the commonly available ENSO prediction models, with the additional advantage of directly providing insights as to the space patterns, seasonal, and longer-term trends of the SSTA in the equatorial Pacific region.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-10-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1175/waf-d-20-0031.1",
+              "id": "S2:56c37598c496c2257c879f137043242579dcbedf",
+              "provider": "semantic_scholar",
+              "title": "ENSO Dynamics, Trends, and Prediction Using Machine Learning",
+              "url": "https://www.semanticscholar.org/paper/56c37598c496c2257c879f137043242579dcbedf?utm_source=api"
+            },
+            {
+              "abstract": "The present study compares the cortical local field potentials (LFPs) in the primary motor cortex (M1) and the supplementary motor area (SMA) of non-human primates rendered Parkinsonian with administration of dopaminergic neurotoxin, 1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine. The dynamic of the LFPs was investigated under several mathematical frameworks and machine learning was used to discriminate the recordings based on these features between healthy, parkinsonian with off-medication and parkinsonian with on-medication states. The importance of each feature in the discrimination process was further investigated. The dynamic of the LFPs in M1 and SMA was affected regarding its variability (time domain analysis), oscillatory activities (frequency domain analysis) and complex patterns (non-linear domain analysis). Machine learning algorithms achieved accuracy near 0.90 for comparisons between conditions. The TreeBagger algorithm provided best accuracy. The relative importance of these features differed with the cortical location, condition and treatment. Overall, the most important features included beta oscillation, fractal dimension, gamma oscillation, entropy and asymmetry of amplitude fluctuation. The importance of features in discriminating between normal and pathological states, and on- or off-medication states depends on the pair-comparison and it is region-specific. These findings are discussed regarding the refinement of current models for movement disorders and the development of on-demand therapies.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-01-25",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.neures.2020.01.012",
+              "id": "S2:bf39f59d68513a78b67656edfd7ab284ff886cbe",
+              "provider": "semantic_scholar",
+              "title": "Local field potential dynamics in the primate cortex in relation to parkinsonism reveled by machine learning: A comparison between the primary motor cortex and the supplementary area.",
+              "url": "https://www.semanticscholar.org/paper/bf39f59d68513a78b67656edfd7ab284ff886cbe?utm_source=api"
+            },
+            {
+              "abstract": "Uncertainty is a fundamental property of neural computation that becomes amplified when sensory information does not match a person’s expectations of the world. Uncertainty and hesitation are often early indicators of potential disruption, and the ability to rapidly measure uncertainty would have implications for future educational and training efforts by targeting reflective discussions about past actions, supporting in-progress corrections, and generating forecasts about future disruptions. An approach is described combining neurodynamics and machine learning to provide quantitative measures of uncertainty. Models of neurodynamic information derived from electroencephalogram (EEG) brainwaves have provided detailed neurodynamic histories of US Navy submarine navigation team members. Persistent periods (25–30 s) of neurodynamic information were seen as discrete peaks when establishing the submarine’s position and were identified as periods of uncertainty by an artificial intelligence (AI) system previously trained to recognize the frequency, magnitude, and duration of different patterns of uncertainty in healthcare and student teams. Transition matrices of neural network states closely predicted the future uncertainty of the navigation team during the three minutes prior to a grounding event. These studies suggest that the dynamics of uncertainty may have common characteristics across teams and tasks and that forecasts of their short-term evolution can be estimated.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-03-28",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1177/1548512921999112",
+              "id": "S2:87a93111b0b96212fd7997787ea9cdef602cdc1b",
+              "provider": "semantic_scholar",
+              "title": "Can machine learning be used to forecast the future uncertainty of military teams?",
+              "url": "https://www.semanticscholar.org/paper/87a93111b0b96212fd7997787ea9cdef602cdc1b?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2021-03-31",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 468,
+              "query": "machine learning forecast spin dynamics oscillation frequency",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "7960",
+                "reset_seconds": "26618"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2021-03-31",
+                  "per_page": "6",
+                  "search": "machine learning forecast spin dynamics oscillation frequency",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2021-04-01"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2021-03-31",
+              "attempts": 1,
+              "locally_excluded_uncertain_or_not_strictly_before": 2,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 148,
+              "query": "machine learning forecast spin dynamics oscillation frequency",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "6",
+                  "query": "machine learning forecast spin dynamics oscillation frequency",
+                  "year": "1900-2021"
+                }
+              },
+              "strict_before": "2021-04-01"
+            }
+          },
+          "query": "machine learning forecast spin dynamics oscillation frequency",
+          "strict_before": "2021-04-01"
+        }
+      ]
+    },
+    "B": {
+      "queries": [
+        {
+          "api_cutoff": "2021-03-31",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "We present and discuss a framework for computer-aided multiscale analysis, which enables models at a fine (microscopic/stochastic) level of description to perform modeling tasks at a coarse (macroscopic, systems) level. These macroscopic modeling tasks, yielding information over long time and large space scales, are accomplished through appropriately initialized calls to the microscopic simulator for only short times and small spatial domains. Traditional modeling approaches first involve the derivation of macroscopic evolution equations (balances closed through constitutive relations). An arsenal of analytical and numerical techniques for the efficient solution of such evolution equations (usually Partial Differential Equations, PDEs) is then brought to bear on the problem. Our equation-free (EF) approach, introduced in [1], when successful, can bypass the derivation of the macroscopic evolution equations when these equations conceptually exist but are not available in closed form. We discuss how the mathematics-assisted development of a computational superstructure may enable alternative descriptions of the problem physics (e.g. Lattice Boltzmann (LB), kinetic Monte Carlo (KMC) or Molecular Dynamics (MD) microscopic simulators, executed over relatively short time and space scales) to perform systems level tasks (integration over relatively large time and space scales,\"coarse\" bifurcation analysis, optimization, and control) directly. In effect, the procedure constitutes a system identification based, \"closure-on-demand\" computational toolkit, bridging microscopic/stochast",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2003-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.4310/cms.2003.v1.n4.a5",
+              "id": "https://openalex.org/W2070460788",
+              "provider": "openalex",
+              "title": "Equation-Free, Coarse-Grained Multiscale Computation: Enabling Mocroscopic Simulators to Perform System-Level Analysis"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1995-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/c2009-0-21189-5",
+              "id": "https://openalex.org/W2139452320",
+              "provider": "openalex",
+              "title": "Neural Networks in Bioprocessing and Chemical Engineering"
+            },
+            {
+              "abstract": "The existing Neural ODE formulation relies on an explicit knowledge of the termination time. We extend Neural ODEs to implicitly defined termination criteria modeled by neural event functions, which can be chained together and differentiated through. Neural Event ODEs are capable of modeling discrete and instantaneous changes in a continuous-time system, without prior knowledge of when these changes should occur or how many such changes should exist. We test our approach in modeling hybrid discrete- and continuous- systems such as switching dynamical systems and collision in multi-body systems, and we propose simulation-based training of point processes with applications in discrete control.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-11-08",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.48550/arxiv.2011.03902",
+              "id": "https://openalex.org/W3102864525",
+              "provider": "openalex",
+              "title": "Learning Neural Event Functions for Ordinary Differential Equations"
+            },
+            {
+              "abstract": "BACKGROUND: Dynamic modelling provides a systematic framework to understand function in biological systems. Parameter estimation in nonlinear dynamic models remains a very challenging inverse problem due to its nonconvexity and ill-conditioning. Associated issues like overfitting and local solutions are usually not properly addressed in the systems biology literature despite their importance. Here we present a method for robust and efficient parameter estimation which uses two main strategies to surmount the aforementioned difficulties: (i) efficient global optimization to deal with nonconvexity, and (ii) proper regularization methods to handle ill-conditioning. In the case of regularization, we present a detailed critical comparison of methods and guidelines for properly tuning them. Further, we show how regularized estimations ensure the best trade-offs between bias and variance, reducing overfitting, and allowing the incorporation of prior knowledge in a systematic way. RESULTS: We illustrate the performance of the presented method with seven case studies of different nature and increasing complexity, considering several scenarios of data availability, measurement noise and prior knowledge. We show how our method ensures improved estimations with faster and more stable convergence. We also show how the calibrated models are more generalizable. Finally, we give a set of simple guidelines to apply this strategy to a wide variety of calibration problems. CONCLUSIONS: Here we provide a parameter estimation strategy which combines efficient global optimization with a regulari",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-10-29",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1186/s12918-015-0219-2",
+              "id": "https://openalex.org/W1847315806",
+              "provider": "openalex",
+              "title": "Robust and efficient parameter estimation in dynamic models of biological systems"
+            },
+            {
+              "abstract": "In the context of science, the well-known adage \"a picture is worth a thousand words\" might well be \"a model is worth a thousand datasets.\" In this manuscript we introduce the SciML software ecosystem as a tool for mixing the information of physical laws and scientific models with data-driven machine learning approaches. We describe a mathematical object, which we denote universal differential equations (UDEs), as the unifying framework connecting the ecosystem. We show how a wide variety of applications, from automatically discovering biological mechanisms to solving high-dimensional Hamilton-Jacobi-Bellman equations, can be phrased and efficiently handled through the UDE formalism and its tooling. We demonstrate the generality of the software tooling to handle stochasticity, delays, and implicit constraints. This funnels the wide variety of SciML applications into a core set of training mechanisms which are highly optimized, stabilized for stiff equations, and compatible with distributed parallelism and GPU accelerators.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-01-13",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.48550/arxiv.2001.04385",
+              "id": "https://openalex.org/W4287904729",
+              "provider": "openalex",
+              "title": "Universal Differential Equations for Scientific Machine Learning"
+            },
+            {
+              "abstract": "The field of fluid mechanics is rapidly advancing, driven by unprecedented volumes of data from experiments, field measurements, and large-scale simulations at multiple spatiotemporal scales. Machine learning (ML) offers a wealth of techniques to extract information from data that can be translated into knowledge about the underlying fluid mechanics. Moreover, ML algorithms can augment domain knowledge and automate tasks related to flow control and optimization. This article presents an overview of past history, current developments, and emerging opportunities of ML for fluid mechanics. We outline fundamental ML methodologies and discuss their uses for understanding, modeling, optimizing, and controlling fluid flows. The strengths and limitations of these methods are addressed from the perspective of scientific inquiry that considers data as an inherent part of modeling, experiments, and simulations. ML provides a powerful information-processing framework that can augment, and possibly even transform, current lines of fluid mechanics research and industrial applications.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-09-12",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1146/annurev-fluid-010719-060214",
+              "id": "https://openalex.org/W2973119841",
+              "provider": "openalex",
+              "title": "Machine Learning for Fluid Mechanics"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:8f957ab11656f7c2a489ccf543be24d347508e30",
+              "provider": "semantic_scholar",
+              "title": "Modelling Dynamical Systems Using Neural Ordinary Differential Equations",
+              "url": "https://www.semanticscholar.org/paper/8f957ab11656f7c2a489ccf543be24d347508e30?utm_source=api"
+            },
+            {
+              "abstract": "We study the ability of neural networks to calculate feedback control signals that steer trajectories of continuous time non-linear dynamical systems on graphs, which we represent with neural ordinary differential equations (neural ODEs). To do so, we present a neural-ODE control (NODEC) framework and find that it can learn feedback control signals that drive graph dynamical systems into desired target states. While we use loss functions that do not constrain the control energy, our results show, in accordance with related work, that NODEC produces low energy control signals. Finally, we evaluate the performance and versatility of NODEC against well-known feedback controllers and deep reinforcement learning. We use NODEC to generate feedback controls for systems of more than one thousand coupled, non-linear ODEs that represent epidemic processes and coupled oscillators.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-06-17",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PhysRevResearch.4.013221",
+              "id": "S2:9c3b4e4df0d27f65b09fcb86bef1a04fc759fa97",
+              "provider": "semantic_scholar",
+              "title": "Neural ordinary differential equation control of dynamics on graphs",
+              "url": "https://www.semanticscholar.org/paper/9c3b4e4df0d27f65b09fcb86bef1a04fc759fa97?utm_source=api"
+            },
+            {
+              "abstract": "Abstract. Recent progress in machine learning has shown how to forecast and, to some extent, learn the dynamics of a model from its output, resorting in particular to neural networks and deep learning techniques. We will show how the same goal can be directly achieved using data assimilation techniques without leveraging on machine learning software libraries, with a view to high-dimensional models. The dynamics of a model are learned from its observation and an ordinary differential equation (ODE) representation of this model is inferred using a recursive nonlinear regression. Because the method is embedded in a Bayesian data assimilation framework, it can learn from partial and noisy observations of a state trajectory of the physical model. Moreover, a space-wise local representation of the ODE system is introduced and is key to coping with high-dimensional models. It has recently been suggested that neural network architectures could be interpreted as dynamical systems. Reciprocally, we show that our ODE representations are reminiscent of deep learning architectures. Furthermore, numerical analysis considerations of stability shed light on the assets and limitations of the method. The method is illustrated on several chaotic discrete and continuous models of various dimensions, with or without noisy observations, with the goal of identifying or improving the model dynamics, building a surrogate or reduced model, or producing forecasts solely from observations of the physical model.\n",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-07-10",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.5194/NPG-26-143-2019",
+              "id": "S2:5e14cbe4006dc1dd881d25241d5cc5dec8c741c0",
+              "provider": "semantic_scholar",
+              "title": "Data assimilation as a learning tool to infer ordinary differential equation representations of dynamical models",
+              "url": "https://www.semanticscholar.org/paper/5e14cbe4006dc1dd881d25241d5cc5dec8c741c0?utm_source=api"
+            },
+            {
+              "abstract": "Reduced order models play an important role in the design, optimization and control of dynamical systems. In recent years, there has been an increasing interest in the application of data-driven techniques for model reduction that can decrease the computational burden of numerical solutions, while preserving the most important features of complex physical problems. In this paper, we use the proper orthogonal decomposition to reduce the dimensionality of the model and introduce a novel generative neural ODE (NODE) architecture to forecast the behavior of the temporal coefficients. With this methodology, we replace the classical Galerkin projection with an architecture characterized by the use of a continuous latent space. We exemplify the methodology on the dynamics of the Von Karman vortex street of the flow past a cylinder generated by a Large-eddy Simulation (LES)-based code. We compare the NODE methodology with an LSTM baseline to assess the extrapolation capabilities of the generative model and present some qualitative evaluations of the flow reconstructions.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-02-03",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:591d9be98a5c8791666b9bf572350fe0778d17e4",
+              "provider": "semantic_scholar",
+              "title": "Reduced-order Model for Fluid Flows via Neural Ordinary Differential Equations",
+              "url": "https://www.semanticscholar.org/paper/591d9be98a5c8791666b9bf572350fe0778d17e4?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2021-03-31",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 818,
+              "query": "neural ordinary differential equation extrapolation failure dynamical systems",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "7950",
+                "reset_seconds": "26614"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2021-03-31",
+                  "per_page": "6",
+                  "search": "neural ordinary differential equation extrapolation failure dynamical systems",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2021-04-01"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2021-03-31",
+              "attempts": 2,
+              "locally_excluded_uncertain_or_not_strictly_before": 2,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 503,
+              "query": "neural ordinary differential equation extrapolation failure dynamical systems",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "6",
+                  "query": "neural ordinary differential equation extrapolation failure dynamical systems",
+                  "year": "1900-2021"
+                }
+              },
+              "strict_before": "2021-04-01"
+            }
+          },
+          "query": "neural ordinary differential equation extrapolation failure dynamical systems",
+          "strict_before": "2021-04-01"
+        },
+        {
+          "api_cutoff": "2021-03-31",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "The screening of novel materials with good performance and the modelling of quantitative structure-activity relationships (QSARs), among other issues, are hot topics in the field of materials science. Traditional experiments and computational modelling often consume tremendous time and resources and are limited by their experimental conditions and theoretical foundations. Thus, it is imperative to develop a new method of accelerating the discovery and design process for novel materials. Recently, materials discovery and design using machine learning have been receiving increasing attention and have achieved great improvements in both time efficiency and prediction accuracy. In this review, we first outline the typical mode of and basic procedures for applying machine learning in materials science, and we classify and compare the main algorithms. Then, the current research status is reviewed with regard to applications of machine learning in material property prediction, in new materials discovery and for other purposes. Finally, we discuss problems related to machine learning in materials science, propose possible solutions, and forecast potential directions of future research. By directly combining computational studies with experiments, we hope to provide insight into the parameters that affect the properties of materials, thereby enabling more efficient and target-oriented research on materials discovery and design. Machine learning provides a new means of screening novel materials with good performance, developing quantitative structure-activity relationships (QSARs) an",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-08-08",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.jmat.2017.08.002",
+              "id": "https://openalex.org/W2742835787",
+              "provider": "openalex",
+              "title": "Materials discovery and design using machine learning"
+            },
+            {
+              "abstract": "Machine learning methods have been remarkably successful for a wide range of application areas in the extraction of essential information from data. An exciting and relatively recent development is the uptake of machine learning in the natural sciences, where the major goal is to obtain novel scientific insights and discoveries from observational or simulated data. A prerequisite for obtaining a scientific outcome is domain knowledge, which is needed to gain explainability, but also to enhance scientific consistency. In this article, we review explainable machine learning in view of applications in the natural sciences and discuss three core elements that we identified as relevant in this context: transparency, interpretability, and explainability. With respect to these core elements, we provide a survey of recent scientific works that incorporate machine learning and the way that explainable machine learning is used in combination with domain knowledge from the application areas.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/access.2020.2976199",
+              "id": "https://openalex.org/W2945526235",
+              "provider": "openalex",
+              "title": "Explainable Machine Learning for Scientific Insights and Discoveries"
+            },
+            {
+              "abstract": "CP2K is an open source electronic structure and molecular dynamics software package to perform atomistic simulations of solid-state, liquid, molecular, and biological systems. It is especially aimed at massively parallel and linear-scaling electronic structure methods and state-of-the-art ab initio molecular dynamics simulations. Excellent performance for electronic structure calculations is achieved using novel algorithms implemented for modern high-performance computing systems. This review revisits the main capabilities of CP2K to perform efficient and accurate electronic structure simulations. The emphasis is put on density functional theory and multiple post-Hartree-Fock methods using the Gaussian and plane wave approach and its augmented all-electron extension.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-05-19",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1063/5.0007045",
+              "id": "https://openalex.org/W3027308092",
+              "provider": "openalex",
+              "title": "CP2K: An electronic structure and molecular dynamics software package - Quickstep: Efficient and accurate electronic structure calculations"
+            },
+            {
+              "abstract": "Recent years have seen an increasing interest in Demand Response (DR) as a means to provide flexibility, and hence improve the reliability of energy systems in a cost-effective way. Yet, the high complexity of the tasks associated with DR, combined with their use of large-scale data and the frequent need for near real-time decisions, means that Artificial Intelligence (AI) and Machine Learning (ML) — a branch of AI — have recently emerged as key technologies for enabling demand-side response. AI methods can be used to tackle various challenges, ranging from selecting the optimal set of consumers to respond, learning their attributes and preferences, dynamic pricing, scheduling and control of devices, learning how to incentivise participants in the DR schemes and how to reward them in a fair and economically efficient way. This work provides an overview of AI methods utilised for DR applications, based on a systematic review of over 160 papers, 40 companies and commercial initiatives, and 21 large-scale projects. The papers are classified with regards to both the AI/ML algorithm(s) used and the application area in energy DR. Next, commercial initiatives are presented (including both start-ups and established companies) and large-scale innovation projects, where AI methods have been used for energy DR. The paper concludes with a discussion of advantages and potential limitations of reviewed AI techniques for different DR tasks, and outlines directions for future research in this fast-growing area.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-06-10",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.rser.2020.109899",
+              "id": "https://openalex.org/W3034272367",
+              "provider": "openalex",
+              "title": "Artificial intelligence and machine learning approaches to energy demand-side response: A systematic review"
+            },
+            {
+              "abstract": "Machine learning encompasses a set of tools and algorithms which are now\\nbecoming popular in almost all scientific and technological fields. This is\\ntrue for molecular dynamics as well, where machine learning offers promises of\\nextracting valuable information from the enormous amounts of data generated by\\nsimulation of complex systems. We provide here a review of our current\\nunderstanding of goals, benefits, and limitations of machine learning\\ntechniques for computational studies on atomistic systems, focusing on the\\nconstruction of empirical force fields from ab-initio databases and the\\ndetermination of reaction coordinates for free energy computation and enhanced\\nsampling.\\n",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-04-15",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.48550/arxiv.2004.06950",
+              "id": "https://openalex.org/W3036877262",
+              "provider": "openalex",
+              "title": "Machine learning force fields and coarse-grained variables in molecular\\n dynamics: application to materials and biological systems"
+            },
+            {
+              "abstract": "The recent striking success of deep neural networks in machine learning raises profound questions about the theoretical principles underlying their success. For example, what can such deep networks compute? How can we train them? How does information propagate through them? Why can they generalize? And how can we teach them to imagine? We review recent work in which methods of physical analysis rooted in statistical mechanics have begun to provide conceptual insights into these questions. These insights yield connections between deep learning and diverse physical and mathematical topics, including random landscapes, spin glasses, jamming, dynamical phase transitions, chaos, Riemannian geometry, random matrix theory, free probability, and nonequilibrium statistical mechanics. Indeed, the fields of statistical mechanics and machine learning have long enjoyed a rich history of strongly coupled interactions, and recent advances at the intersection of statistical mechanics and deep learning suggest these interactions will only deepen going forward.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-12-09",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1146/annurev-conmatphys-031119-050745",
+              "id": "https://openalex.org/W2996141621",
+              "provider": "openalex",
+              "title": "Statistical Mechanics of Deep Learning"
+            },
+            {
+              "abstract": "Thermodynamic uncertainty relations (TURs) are the inequalities which give lower bounds on the entropy production rate using only the mean and the variance of fluctuating currents. Since the TURs do not refer to the full details of the stochastic dynamics, it would be promising to apply the TURs for estimating the entropy production rate from a limited set of trajectory data corresponding to the dynamics. Here we investigate a theoretical framework for estimation of the entropy production rate using the TURs along with machine learning techniques without prior knowledge of the parameters of the stochastic dynamics. Specifically, we derive a TUR for the short-time region and prove that it can provide the exact value, not only a lower bound, of the entropy production rate for Langevin dynamics, if the observed current is optimally chosen. This formulation naturally includes a generalization of the TURs with the partial entropy production of subsystems under autonomous interaction, which reveals the hierarchical structure of the estimation. We then construct estimators on the basis of the short-time TUR and machine learning techniques such as the gradient ascent. By performing numerical experiments, we demonstrate that our learning protocol performs well even in nonlinear Langevin dynamics. We also discuss the case of Markov jump processes, where the exact estimation is shown to be impossible in general. Our result provides a platform that can be applied to a broad class of stochastic dynamics out of equilibrium, including biological systems.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-01-21",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PHYSREVE.101.062106",
+              "id": "S2:6b6d525f996bdb15b43decd6068374cedf91d21a",
+              "provider": "semantic_scholar",
+              "title": "Estimating entropy production by machine learning of short-time fluctuating currents.",
+              "url": "https://www.semanticscholar.org/paper/6b6d525f996bdb15b43decd6068374cedf91d21a?utm_source=api"
+            },
+            {
+              "abstract": "Significance A machine learning method is used to analyze the atomic structures that rearrange within the grain boundaries of polycrystals. The method readily separates the atomic structures into those that rarely rearrange and those that often rearrange. The likelihood of an atom rearranging under a thermal fluctuation is correlated with free volume and potential energy but is not entirely attributable to those quantities. A machine-learned quantity allows estimation of the energy barrier to rearrangement for particular atoms. The grain boundary atoms that rearrange most have more possible rearrangement trajectories rather than much-reduced energy barriers, as in bulk glasses. The work suggests that polycrystal plasticity can be studied in part from the local atomic structural environments without traditional classification of microstructure. In polycrystalline materials, grain boundaries are sites of enhanced atomic motion, but the complexity of the atomic structures within a grain boundary network makes it difficult to link the structure and atomic dynamics. Here, we use a machine learning technique to establish a connection between local structure and dynamics of these materials. Following previous work on bulk glassy materials, we define a purely structural quantity (softness) that captures the propensity of an atom to rearrange. This approach correctly identifies crystalline regions, stacking faults, and twin boundaries as having low likelihood of atomic rearrangements while finding a large variability within high-energy grain boundaries. As has been found in glasses, the probability that atoms of a given softness will rearrange is nearly Arrhenius. This indicates a well-defined energy barrier as well as a well-defined prefactor for the Arrhenius form for atoms of a given softness. The decrease in the prefactor for low-softness atoms indicates that variations in entropy exhibit a dominant influence on the atomic dynamics in grain boundaries.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-03-04",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1073/pnas.1807176115",
+              "id": "S2:9258260d70ae090cef96386dfd5c3ea8f6ce49fa",
+              "provider": "semantic_scholar",
+              "title": "Machine learning determination of atomic dynamics at grain boundaries",
+              "url": "https://www.semanticscholar.org/paper/9258260d70ae090cef96386dfd5c3ea8f6ce49fa?utm_source=api"
+            },
+            {
+              "abstract": "In this work, our prime objective is to study the phenomena of quantum chaos and complexity in the machine learning dynamics of Quantum Neural Network (QNN). A Parameterized Quantum Circuits (PQCs) in the hybrid quantum-classical framework is introduced as a universal function approximator to perform optimization with Stochastic Gradient Descent (SGD). We employ a statistical and differential geometric approach to study the learning theory of QNN. The evolution of parametrized unitary operators is correlated with the trajectory of parameters in the Diffusion metric. We establish the parametrized version of Quantum Complexity and Quantum Chaos in terms of physically relevant quantities, which are not only essential in determining the stability, but also essential in providing a very significant lower bound to the generalization capability of QNN. We explicitly prove that when the system executes limit cycles or oscillations in the phase space, the generalization capability of QNN is maximized. Finally, we have determined the generalization capability bound on the variance of parameters of the QNN in a steady state condition using Cauchy Schwartz Inequality.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-11-16",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/JHEP04(2021)138",
+              "id": "S2:4eba5f84209bad28884ba3f0f4bd8c88f16af73f",
+              "provider": "semantic_scholar",
+              "title": "Chaos and complexity from quantum neural network. A study with diffusion metric in machine learning",
+              "url": "https://www.semanticscholar.org/paper/4eba5f84209bad28884ba3f0f4bd8c88f16af73f?utm_source=api"
+            },
+            {
+              "abstract": "A precise understanding of the influence of a quantum system's environment on its dynamics, which is at the heart of the theory of open quantum systems, is crucial for further progress in the development of controllable large-scale quantum systems. However, existing approaches to account for complex system-environment interaction in the presence of memory effects are either based on heuristic and oversimplified principles or give rise to computational difficulties. In practice, one can leverage on available experimental data and replace first-principles simulations with a data-driven analysis that is often much simpler. Inspired by recent advances in data analysis and machine learning, we propose a data-driven approach to the analysis of the non-Markovian dynamics of open quantum systems. Our method allows, on the one hand, capturing the most important characteristics of open quantum systems such as the effective dimension of the environment and the spectrum of the joint system-environment quantum dynamics, and, on the other hand, reconstructing a predictive model of non-Markovian quantum dynamics, and denoising the measured quantum trajectories. We demonstrate the performance of the proposed approach with various models of open quantum systems, including a qubit coupled with a finite environment, a spin-boson model, and the damped Jaynes-Cummings model.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-03-26",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PhysRevResearch.4.043002",
+              "id": "S2:04b69707f4a26eef25970a6b8de466401bcad966",
+              "provider": "semantic_scholar",
+              "title": "Probing non-Markovian quantum dynamics with data-driven analysis: Beyond “black-box” machine-learning models",
+              "url": "https://www.semanticscholar.org/paper/04b69707f4a26eef25970a6b8de466401bcad966?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2021-03-31",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 1067,
+              "query": "machine learning spin dynamics trajectory generalization boundary",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "7940",
+                "reset_seconds": "26607"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2021-03-31",
+                  "per_page": "6",
+                  "search": "machine learning spin dynamics trajectory generalization boundary",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2021-04-01"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2021-03-31",
+              "attempts": 3,
+              "locally_excluded_uncertain_or_not_strictly_before": 2,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 82,
+              "query": "machine learning spin dynamics trajectory generalization boundary",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "6",
+                  "query": "machine learning spin dynamics trajectory generalization boundary",
+                  "year": "1900-2021"
+                }
+              },
+              "strict_before": "2021-04-01"
+            }
+          },
+          "query": "machine learning spin dynamics trajectory generalization boundary",
+          "strict_before": "2021-04-01"
+        }
+      ]
+    }
+  },
+  "generated_at": "2026-08-12T16:36:56.980541+00:00",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "945441dd8e7709f590368098f26f8ff802dce7596a95959edced3eb9ffedda84",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Migrated without changing the frozen pre-t0 query results; non-detection is scoped, not universal priority.",
+  "strict_before": "2021-04-01",
+  "task_id": "Physics_03_controlled_dynamics_forecast",
+  "release": "V1.0"
+}

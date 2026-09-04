@@ -1,0 +1,773 @@
+{
+  "all_queries_completed": true,
+  "cards": {
+    "A": {
+      "queries": [
+        {
+          "api_cutoff": "2022-10-12",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "The Jovian Auroral Distributions Experiment (JADE) on Juno provides the critical in situ measurements of electrons and ions needed to understand the plasma energy particles and processes that fill the Jovian magnetosphere and ultimately produce its strong aurora. JADE is an instrument suite that includes three essentially identical electron sensors (JADE-Es), a single ion sensor (JADE-I), and a highly capable Electronics Box (EBox) that resides in the Juno Radiation Vault and provides all necessary control, low and high voltages, and computing support for the four sensors. The three JADE-Es are arrayed 120 ∘ apart around the Juno spacecraft to measure complete electron distributions from ∼0.1 to 100 keV and provide detailed electron pitch-angle distributions at a 1 s cadence, independent of spacecraft spin phase. JADE-I measures ions from ∼5 eV to ∼50 keV over an instantaneous field of view of 270 ∘ ×90 ∘ in 4 s and makes observations over all directions in space each 30 s rotation of the Juno spacecraft. JADE-I also provides ion composition measurements from 1 to 50 amu with m /Δ m ∼2.5, which is sufficient to separate the heavy and light ions, as well as O+ vs S+, in the Jovian magnetosphere. All four sensors were extensively tested and calibrated in specialized facilities, ensuring excellent on-orbit observations at Jupiter. This paper documents the JADE design, construction, calibration, and planned science operations, data processing, and data products. Finally, the Appendix describes the Southwest Research Institute [SwRI] electron calibration facility, which was deve",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2013-05-24",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s11214-013-9990-9",
+              "id": "https://openalex.org/W2027391865",
+              "provider": "openalex",
+              "title": "The Jovian Auroral Distributions Experiment (JADE) on the Juno Mission to Jupiter"
+            },
+            {
+              "abstract": "Context. Since the first extra-solar planet discovery in 1995, several hundreds of these planets have been discovered. Most are hot Jupiters, i.e. massive planets orbiting close to their star. These planets may be powerful radio emitters.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2011-05-02",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1051/0004-6361/201116510",
+              "id": "https://openalex.org/W2159529540",
+              "provider": "openalex",
+              "title": "Modeling the radio signature of the orbital parameters, rotation, and magnetic field of exoplanets"
+            },
+            {
+              "abstract": "The Juno Magnetic Field investigation (MAG) characterizes Jupiter’s planetary magnetic field and magnetosphere, providing the first globally distributed and proximate measurements of the magnetic field of Jupiter. The magnetic field instrumentation consists of two independent magnetometer sensor suites, each consisting of a tri-axial Fluxgate Magnetometer (FGM) sensor and a pair of co-located imaging sensors mounted on an ultra-stable optical bench. The imaging system sensors are part of a subsystem that provides accurate attitude information (to ∼20 arcsec on a spinning spacecraft) near the point of measurement of the magnetic field. The two sensor suites are accommodated at 10 and 12 m from the body of the spacecraft on a 4 m long magnetometer boom affixed to the outer end of one of ’s three solar array assemblies. The magnetometer sensors are controlled by independent and functionally identical electronics boards within the magnetometer electronics package mounted inside Juno’s massive radiation shielded vault. The imaging sensors are controlled by a fully hardware redundant electronics package also mounted within the radiation vault. Each magnetometer sensor measures the vector magnetic field with 100 ppm absolute vector accuracy over a wide dynamic range (to 16 Gauss = 1.6 × 10 6 nT $1.6 \\times 10^{6}\\mbox{ nT}$ per axis) with a resolution of ∼0.05 nT in the most sensitive dynamic range (±1600 nT per axis). Both magnetometers sample the magnetic field simultaneously at an intrinsic sample rate of 64 vector samples per second. The magnetic field instrumentation may be r",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-02-14",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s11214-017-0334-z",
+              "id": "https://openalex.org/W2588672827",
+              "provider": "openalex",
+              "title": "The Juno Magnetic Field Investigation"
+            },
+            {
+              "abstract": "Abstract We investigate the beaming of 11 Io‐Jupiter decametric (Io‐DAM) emissions observed by Juno/Waves, the Nançay Decameter Array, and NenuFAR. Using an up‐to‐date magnetic field model and three methods to position the active Io Flux Tube (IFT), we accurately locate the radiosources and determine their emission angle θ from the local magnetic field vector. These methods use (a) updated models of the IFT equatorial lead angle, (b) ultraviolet (UV) images of Jupiter's aurorae, and (c) multi‐point radio measurements. The kinetic energy E e − of source electrons is then inferred from θ in the framework of the Cyclotron Maser Instability. The precise position of the active IFT achieved from methods (b and c) can be used to test the effective plasma density of the Io torus. Simultaneous radio/UV observations reveal that multiple Io‐DAM arcs are associated with multiple UV spots and provide the first direct evidence of an Io‐DAM arc associated with a trans‐hemispheric beam UV spot. Multi‐point radio observations probe the Io‐DAM sources at various altitudes, times and hemispheres. Overall, θ varies a function of frequency (altitude), by decreasing from 75°−80° to 70°−75° over 10−40 MHz with slightly larger values in the northern hemisphere, and independently varies as a function of time (or longitude of Io). Its uncertainty of a few degrees is dominated by the error on the longitude of the active IFT. The inferred values of E e − also vary as a function of altitude and time. For the 11 investigated cases, they range from 3 to 16 keV, with a 6.6 ± 2.7 keV average.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-03-25",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1029/2021ja030160",
+              "id": "https://openalex.org/W4221104664",
+              "provider": "openalex",
+              "title": "Determining the Beaming of Io Decametric Emissions: A Remote Diagnostic to Probe the Io‐Jupiter Interaction"
+            },
+            {
+              "abstract": "An extended series of FUV images obtained on 7 days during winter 2000–2001, with fixed pointing, yielded highly accurate tracking of emisson features as Jupiter rotated. They provided newly detailed measurements of the degree of corotation of auroral emissions and their variations with changing central meridian longitude. This 2‐month data set provides a statistical average location of the auroral emission and leads to the definition of new “reference ovals.” The overall auroral morphology pattern is shown to be fixed in System‐III longitude and unchanged over a 5‐year period. When arranged in central meridian longitude ranges, the images show a significant contraction of the northern main oval as the central meridian longitude increases from 115 to 255°. The main auroral oval brightness is globally very stable in comparison with its terrestrial counterpart. It is shown to vary with magnetic local time, increasing from noon to dusk and then decreasing again in the magnetic evening. Hectometric emissions observed simultaneously with Galileo and Cassini reveal interplanetary shocks propagating outward from the Sun which may be related to the contraction of the main auroral oval observed in the HST images taken on 14 December 2000. In addition, we find that a brightening and a significant contraction of the main oval observed on 13 January 2001 corresponded to a time of increased solar wind dynamic pressure.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2003-11-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1029/2003ja009921",
+              "id": "https://openalex.org/W1987984923",
+              "provider": "openalex",
+              "title": "Jupiter's main auroral oval observed with HST‐STIS"
+            },
+            {
+              "abstract": "The Io tail aurora extends for approximately 100 degrees downstream in longitude from the Io footprint aurora. Observations indicate that the brightness of the Io tail aurora continuously decreases along the footpath while its peak altitude remains constant. According to the quasi‐steady theoretical frame, this suggests that the field‐aligned voltage is constant while the parallel current density decreases in the downstream direction. The mechanism that realizes the current‐voltage relationship of the Io tail aurora remains unresolved. In this paper, we apply a new multimagnetofluid code to the Io‐Jupiter system to clarify the origin of the current‐voltage relationship. The code solves a set of equations that includes the electron convection term in Ohm's law, which enables us to simulate the current‐driven ion acoustic instability in the fluid frame. The instability forms a transition layer at a high altitude, which accelerates the magnetospheric electrons and blocks the magnetospheric ions, leading to the formation of a density depleted region called an auroral cavity. We find that if the ionospheric proton density decreases at the same rate as the parallel current density, the timescale on which the transition layer disappears is consistent with the longitudinal extent of the tail aurora, and the potential gap is constant all along the tail. We discuss the possibility that the fringe, wideband repetitive bursts of the Io‐related Jovian decametric radiation, is excited in the auroral cavity.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2012-09-11",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1029/2012ja017790",
+              "id": "https://openalex.org/W2044949312",
+              "provider": "openalex",
+              "title": "A simulation study of the current‐voltage relationship of the Io tail aurora"
+            },
+            {
+              "abstract": "We have discovered 21 Rotating Radio Transients (RRATs) in data from the Green Bank Telescope (GBT) 350 MHz Drift-scan and the Green Bank North Celestial Cap pulsar surveys using a new candidate sifting algorithm. RRATs are pulsars with sporadic emission that are detected through their bright single pulses rather than Fourier domain searches. We have developed RRATtrap, a single-pulse sifting algorithm that can be integrated into pulsar survey data analysis pipelines in order to find RRATs and Fast Radio Bursts. We have conducted follow-up observations of our newly discovered sources at several radio frequencies using the GBT and Low Frequency Array, yielding improved positions and measurements of their periods, dispersion measures (DMs), and burst rates, as well as phase-coherent timing solutions for four of them. The new RRATs have DMs ranging from 15 to 97 pc cm − 3 ?> , periods of 240 ms to 3.4 s, and estimated burst rates of 20 to 400 pulses hr−1 at 350 MHz. We use this new sample of RRATs to perform statistical comparisons between RRATs and canonical pulsars in order to shed light on the relationship between the two populations. We find that the DM and spatial distributions of the RRATs agree with those of the pulsars found in the same survey. We find evidence that slower pulsars (i.e., P > 200 ?> ms) are preferentially more likely to emit bright single pulses than are faster pulsars ( P < 200 ?> ms), although this conclusion is tentative. Our results are consistent with the proposed link between RRATs, transient pulsars, and canonical pulsars as sources in various parts of the pulse activity spectrum.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-03-17",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/0004-637X/809/1/67",
+              "id": "S2:1ae9d4e71ed1190caca2318f768d3f1b429b0d62",
+              "provider": "semantic_scholar",
+              "title": "DISCOVERY AND FOLLOW-UP OF ROTATING RADIO TRANSIENTS WITH THE GREEN BANK AND LOFAR TELESCOPES",
+              "url": "https://www.semanticscholar.org/paper/1ae9d4e71ed1190caca2318f768d3f1b429b0d62?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2009-07-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1029/2009GL039084",
+              "id": "S2:d7ea684e6002672593ea82255d51a2d2d0ec57fd",
+              "provider": "semantic_scholar",
+              "title": "Effect of electric potential structures on Jovian S‐burst morphology",
+              "url": "https://www.semanticscholar.org/paper/d7ea684e6002672593ea82255d51a2d2d0ec57fd?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1985-02-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/BF00152411",
+              "id": "S2:8573164cc6c44d5652b4c7cf4d4672d4a12a490d",
+              "provider": "semantic_scholar",
+              "title": "Velocities of type II solar radio events",
+              "url": "https://www.semanticscholar.org/paper/8573164cc6c44d5652b4c7cf4d4672d4a12a490d?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:2a09934d050fb0b05b5ad229d5a6cb28e98cf699",
+              "provider": "semantic_scholar",
+              "title": "UvA-DARE (Digital Academic Repository) Discovery and Follow-up of Rotating Radio Transients with the Green Bank and LOFAR Telescopes Karako-Argaman,",
+              "url": "https://www.semanticscholar.org/paper/2a09934d050fb0b05b5ad229d5a6cb28e98cf699?utm_source=api"
+            },
+            {
+              "abstract": "Lightning storms in Saturn’s atmosphere can last for a few days up to several months. In this paper we analyze a lightning storm that raged for seven and a half months at a planetocentric latitude of 35° south from the end of November 2007 until mid-July 2008. Thunderstorms observed by the Cassini spacecraft before this time were characterized by a single convective storm region of ~2000 km in size, but this storm developed two distinct convective storm cells at the same latitude separated by ~25° in longitude. The second storm cell developed in March 2008, and the entire two-cell convective system was moving with a westward drift velocity of about 0.35 deg per day, which differs from the zonal wind speed. An exhaustive data analysis shows that the storm system produced ~277000 lightning events termed Saturn electrostatic discharges (SEDs) that were detected by Cassini’s Radio and Plasma Wave Science (RPWS) instrument, and they occurred in 439 storm episodes. We analyzed the SED intensity distributions, the SED polarization, the burst rates, and the burst and episode durations.\nDuring this storm Cassini made several orbits around Saturn and observed the SEDs from all local times. A comparison with optical observations shows that SEDs can be detected when the storm is still beyond the visible horizon. We qualitatively describe this so-called over-the-horizon effect which is thought to be due to a temporary trapping of SED radio waves below Saturn’s ionosphere. We also describe the first occurrence of so-called SED pre- and post-episodes, which occur in a limited frequency range around 4 MHz separated from the main episode. Pre- and post-episodes were mostly observed by Cassini located at local noon, and should be a manifestation of an extreme over-the-horizon effect. Combined radio and imaging observations suggest that some decreases in SED activity are caused by splitting of the thunderstorm into a bright cloud and a dark oval.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1051/0004-6361/201833014",
+              "id": "S2:bd0d98c164dcdd64b64de1d4f30eb14a5e9fe8a9",
+              "provider": "semantic_scholar",
+              "title": "Analysis of a long-lived, two-cell lightning storm on Saturn",
+              "url": "https://www.semanticscholar.org/paper/bd0d98c164dcdd64b64de1d4f30eb14a5e9fe8a9?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2007-09-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1029/2007JA012607",
+              "id": "S2:0727a4601e438a29d5dad5e2b992739bf063427c",
+              "provider": "semantic_scholar",
+              "title": "Jupiter S‐bursts: Narrow‐band origin of microsecond subpulses",
+              "url": "https://www.semanticscholar.org/paper/0727a4601e438a29d5dad5e2b992739bf063427c?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2022-10-12",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 53,
+              "query": "Io Ganymede radio burst drift rate distribution comparison",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "7890",
+                "reset_seconds": "25478"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2022-10-12",
+                  "per_page": "6",
+                  "search": "Io Ganymede radio burst drift rate distribution comparison",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2022-10-13"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2022-10-12",
+              "attempts": 2,
+              "locally_excluded_uncertain_or_not_strictly_before": 0,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 11,
+              "query": "Io Ganymede radio burst drift rate distribution comparison",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "6",
+                  "query": "Io Ganymede radio burst drift rate distribution comparison",
+                  "year": "1900-2022"
+                }
+              },
+              "strict_before": "2022-10-13"
+            }
+          },
+          "query": "Io Ganymede radio burst drift rate distribution comparison",
+          "strict_before": "2022-10-13"
+        },
+        {
+          "api_cutoff": "2022-10-12",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "The Jovian Auroral Distributions Experiment (JADE) on Juno provides the critical in situ measurements of electrons and ions needed to understand the plasma energy particles and processes that fill the Jovian magnetosphere and ultimately produce its strong aurora. JADE is an instrument suite that includes three essentially identical electron sensors (JADE-Es), a single ion sensor (JADE-I), and a highly capable Electronics Box (EBox) that resides in the Juno Radiation Vault and provides all necessary control, low and high voltages, and computing support for the four sensors. The three JADE-Es are arrayed 120 ∘ apart around the Juno spacecraft to measure complete electron distributions from ∼0.1 to 100 keV and provide detailed electron pitch-angle distributions at a 1 s cadence, independent of spacecraft spin phase. JADE-I measures ions from ∼5 eV to ∼50 keV over an instantaneous field of view of 270 ∘ ×90 ∘ in 4 s and makes observations over all directions in space each 30 s rotation of the Juno spacecraft. JADE-I also provides ion composition measurements from 1 to 50 amu with m /Δ m ∼2.5, which is sufficient to separate the heavy and light ions, as well as O+ vs S+, in the Jovian magnetosphere. All four sensors were extensively tested and calibrated in specialized facilities, ensuring excellent on-orbit observations at Jupiter. This paper documents the JADE design, construction, calibration, and planned science operations, data processing, and data products. Finally, the Appendix describes the Southwest Research Institute [SwRI] electron calibration facility, which was deve",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2013-05-24",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s11214-013-9990-9",
+              "id": "https://openalex.org/W2027391865",
+              "provider": "openalex",
+              "title": "The Jovian Auroral Distributions Experiment (JADE) on the Juno Mission to Jupiter"
+            },
+            {
+              "abstract": "Abstract The intense inner radiation belt at Jupiter (&gt;50 MeV at 1.5 R J ) is generally accepted to be created by radial diffusion of electrons from further away from the planet. However, this requires a source with energies that exceed 1 MeV outside the orbit of the moon Io at 5.9 R J , which has never been explained satisfactorily. Here we test the hypothesis that this source population could be formed from a very soft energy spectrum, by particle injection processes and resonant electron acceleration via whistler mode chorus waves. We use the British Antarctic Survey Radiation Belt Model to calculate the change in the electron flux between 6.5 and 15 R J ; these are the first simulations at Jupiter combining wave particle interactions and radial diffusion. The resulting electron flux at 100 keV and 1 MeV lies very close to the Galileo Interim Radiation Electron model spectrum after 1 and 10 days, respectively. The primary driver for the increase in the flux is cyclotron resonant acceleration by chorus waves. A peak in phase space density forms such that inside L ≈9 radial diffusion transports electrons toward Jupiter, but outside L ≈9 radial diffusion acts away from the planet. The results are insensitive to the softness of the initial energy spectrum but do depend on the value of the flux at the minimum energy boundary. We conclude by suggesting that the source population for the inner radiation belt at Jupiter could indeed be formed by wave‐particle interactions.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2014-04-24",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/2014ja019891",
+              "id": "https://openalex.org/W2147264344",
+              "provider": "openalex",
+              "title": "The origin of Jupiter's outer radiation belt"
+            },
+            {
+              "abstract": "In this paper, we review the scientific aspects of planetary space weather at different regions of our Solar System, performing a comparative planetology analysis that includes a direct reference to the circum-terrestrial case. Through an interdisciplinary analysis of existing results based both on observational data and theoretical models, we review the nature of the interactions between the environment of a Solar System body other than the Earth and the impinging plasma/radiation, and we offer some considerations related to the planning of future space observations. We highlight the importance of such comparative studies for data interpretations in the context of future space missions (e.g. ESA JUICE; ESA/JAXA BEPI COLOMBO). Moreover, we discuss how the study of planetary space weather can provide feedback for better understanding the traditional circum-terrestrial space weather. Finally, a strategy for future global investigations related to this thematic is proposed.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1051/swsc/2016024",
+              "id": "https://openalex.org/W2476559113",
+              "provider": "openalex",
+              "title": "Planetary space weather: scientific aspects and future perspectives"
+            },
+            {
+              "abstract": "The rapid rotation of the gas giant planets, Jupiter and Saturn, leads to the formation of magnetodisc regions in their magnetospheric environments. In these regions, relatively cold plasma is confined towards the equatorial regions, and the magnetic field generated by the azimuthal (ring) current adds to the planetary dipole, forming radially distended field lines near the equatorial plane. The ensuing force balance in the equatorial magnetodisc is strongly influenced by centrifugal stress and by the thermal pressure of hot ion populations, whose thermal energy is large compared to the magnitude of their centrifugal potential energy. The sources of plasma for the Jovian and Kronian magnetospheres are the respective satellites Io (a volcanic moon) and Enceladus (an icy moon). The plasma produced by these sources is globally transported outwards through the respective magnetosphere, and ultimately lost from the system. One of the most studied mechanisms for this transport is flux tube interchange, a plasma instability which displaces mass but does not displace magnetic flux—an important observational constraint for any transport process. Pressure anisotropy is likely to play a role in the loss of plasma from these magnetospheres. This is especially the case for the Jovian system, which can harbour strong parallel pressures at the equatorial segments of rotating, expanding flux tubes, leading to these regions becoming unstable, blowing open and releasing their plasma. Plasma mass loss is also associated with magnetic reconnection events in the magnetotail regions. In this ove",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2014-10-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s11214-014-0086-y",
+              "id": "https://openalex.org/W2029888241",
+              "provider": "openalex",
+              "title": "1. Transport of Mass, Momentum and Energy in Planetary Magnetodisc Regions"
+            },
+            {
+              "abstract": "Abstract We investigate the beaming of 11 Io‐Jupiter decametric (Io‐DAM) emissions observed by Juno/Waves, the Nançay Decameter Array, and NenuFAR. Using an up‐to‐date magnetic field model and three methods to position the active Io Flux Tube (IFT), we accurately locate the radiosources and determine their emission angle θ from the local magnetic field vector. These methods use (a) updated models of the IFT equatorial lead angle, (b) ultraviolet (UV) images of Jupiter's aurorae, and (c) multi‐point radio measurements. The kinetic energy E e − of source electrons is then inferred from θ in the framework of the Cyclotron Maser Instability. The precise position of the active IFT achieved from methods (b and c) can be used to test the effective plasma density of the Io torus. Simultaneous radio/UV observations reveal that multiple Io‐DAM arcs are associated with multiple UV spots and provide the first direct evidence of an Io‐DAM arc associated with a trans‐hemispheric beam UV spot. Multi‐point radio observations probe the Io‐DAM sources at various altitudes, times and hemispheres. Overall, θ varies a function of frequency (altitude), by decreasing from 75°−80° to 70°−75° over 10−40 MHz with slightly larger values in the northern hemisphere, and independently varies as a function of time (or longitude of Io). Its uncertainty of a few degrees is dominated by the error on the longitude of the active IFT. The inferred values of E e − also vary as a function of altitude and time. For the 11 investigated cases, they range from 3 to 16 keV, with a 6.6 ± 2.7 keV average.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-03-25",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1029/2021ja030160",
+              "id": "https://openalex.org/W4221104664",
+              "provider": "openalex",
+              "title": "Determining the Beaming of Io Decametric Emissions: A Remote Diagnostic to Probe the Io‐Jupiter Interaction"
+            },
+            {
+              "abstract": "Abstract The process of magnetosphere-ionosphere coupling involves the transport of vast quantities of energy and momentum between a magnetized planet and its space environment, or magnetosphere. This transport involves extended, global sheets of electrical current, which flows along magnetic field lines. Some of the charged particles, which carry this current rain down onto the planet’s upper atmosphere and excite aurorae–beautiful displays of light close to the magnetic poles, which are an important signature of the physics of the coupling process. The Earth, Jupiter, and Saturn all have magnetospheres, but the detailed physical origin of their auroral emissions differs from planet to planet. The Earth’s aurora is principally driven by the interaction of its magnetosphere with the upstream solar wind—a flow of plasma continually emanating from the Sun. This interaction imposes a particular pattern of flow on the plasma within the magnetosphere, which in turn determines the morphology and intensity of the currents and aurorae. Jupiter, on the other hand, is a giant rapid rotator, whose main auroral oval is thought to arise from the transport of angular momentum between the upper atmosphere and the rotating, disc-like plasma in the magnetosphere. Saturn exhibits auroral behavior consistent with a solar wind–related mechanism, but there is also regular variability in Saturn’s auroral emissions, which is consistent with rotating current systems that transport energy between the magnetospheric plasma and localized vortices of flow in the upper atmosphere/ionosphere.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-08-30",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1093/acrefore/9780190647926.013.227",
+              "id": "https://openalex.org/W3198204358",
+              "provider": "openalex",
+              "title": "Magnetosphere–Ionosphere Coupling"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1959-09-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/0032-0633(59)90037-6",
+              "id": "S2:ea581e40c538b66f96c7d2c786d05d96c90b0237",
+              "provider": "semantic_scholar",
+              "title": "The association of solar radio bursts with auroral streams",
+              "url": "https://www.semanticscholar.org/paper/ea581e40c538b66f96c7d2c786d05d96c90b0237?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2022-10-12",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 25,
+              "query": "Ganymede auroral radio burst slow drift population occurrence",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "7880",
+                "reset_seconds": "25470"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2022-10-12",
+                  "per_page": "6",
+                  "search": "Ganymede auroral radio burst slow drift population occurrence",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2022-10-13"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2022-10-12",
+              "attempts": 2,
+              "locally_excluded_uncertain_or_not_strictly_before": 0,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 1,
+              "query": "Ganymede auroral radio burst slow drift population occurrence",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "6",
+                  "query": "Ganymede auroral radio burst slow drift population occurrence",
+                  "year": "1900-2022"
+                }
+              },
+              "strict_before": "2022-10-13"
+            }
+          },
+          "query": "Ganymede auroral radio burst slow drift population occurrence",
+          "strict_before": "2022-10-13"
+        }
+      ]
+    },
+    "B": {
+      "queries": [
+        {
+          "api_cutoff": "2022-10-12",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "We present an analysis of several Jovian Io-related decametric radio storms recorded in 2004−2012 at the Ukrainian array UTR-2 using the new generation of baseband digital receivers. Continuous baseband sampling within sessions lasting for several hours enabled us to study the evolution of multiscale spectral patterns during the whole storm at varying time and frequency resolutions and trace the temporal transformation of burst structures in unprecedented detail. In addition to the well-known frequency drifting millisecond patterns known as S bursts we detected two other classes of events that often look like S bursts at low resolution but reveal a more complicated structure in high resolution dynamic spectra. The emissions of the first type (LS bursts, superposition of L and S type emissions) have a much lower frequency drift rate than the usual quasi linearly drifting S bursts (QS) and often occur within a frequency band where L emission is simultaneously present, suggesting that both LS and at least part of L emissions may come from the same source. The bursts of the second type (modulated S bursts called MS) are formed by a wideband frequency-modulated envelope that can mimic S bursts with very steep negative (or even positive) drift rates. Observed with insufficient time-frequency resolution, MS look like S bursts with complex shapes and varying drifts; MS patterns often occur in association with (i) narrowband emission; (ii) S burst trains; or (iii) sequences of fast drift shadow events. We propose a phenomenological description for various types of S emissions, that ",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2014-06-27",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1051/0004-6361/201423927",
+              "id": "https://openalex.org/W2033747300",
+              "provider": "openalex",
+              "title": "Fast and slow frequency-drifting millisecond bursts in Jovian decametric radio emissions"
+            },
+            {
+              "abstract": "Planetary radio astronomy measurements obtained by Voyager 2 near Saturn have added further evidence that Saturnian kilometric radiation is emitted by a strong dayside source at auroral latitudes in the northern hemisphere and by a weaker source at complementary latitudes in the southern hemisphere. These emissions are variable because of Saturn's rotation and, on longer time scales, probably because of influences of the solar wind and Dione. The electrostatic discharge bursts first discovered by Voyager 1 and attributed to emissions from the B ring were again observed with the same broadband spectral properties and an episodic recurrence period of about 10 hours, but their occurrence frequency was only about 30 percent of that detected by Voyager 1. While crossing the ring plane at a distance of 2.88 Saturn radii, the spacecraft detected an intense noise event extending to above 1 megahertz and lasting about 150 seconds. The event is interpreted to be a consequence of the impact, vaporization, and ionization of charged, micrometer-size G ring particles distributed over a vertical thickness of about 1500 kilometers.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1982-01-29",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1126/science.215.4532.582",
+              "id": "https://openalex.org/W1987858107",
+              "provider": "openalex",
+              "title": "Planetary Radio Astronomy Observations from Voyager 2 Near Saturn"
+            },
+            {
+              "abstract": "Radio bursts are sensitive tracers of non-thermal electron populations in the solar corona. They are produced by electron beams and shock waves propagating through the corona and the heliosphere, and by trapped electron populations in coronal mass ejections (CMEs) and in quiescent active regions. Combining space-borne and ground-based radio spectrographs allows one to track disturbances between the low corona, near or at the sites of particle acceleration, and the spacecraft. Radio observations are, therefore, a significant tool in probing the solar origin of heliospheric disturbances, which is a central research topic as witnessed by the Parker Solar Probe and Solar Orbiter missions. The full scientific return of these projects needs vigorous ground-based support, which at radio wavelengths covers altitudes up to about a solar radius above the photosphere. Besides research in solar and heliospheric physics, monitoring solar radio bursts also supports space weather services. On occasion, radio bursts can themselves be a space weather hazard. The Nançay radio astronomy station in central France has a long tradition of monitoring radio emission at decimetre-to-meter wavelengths. This article describes the radio spectrograph ORFEES ( Observations Radiospectrographiques pour FEDOME et l’Etude des Eruptions Solaires ). It observes the whole-Sun flux density between 144 and 1004 MHz, pertaining to regions between the low corona and about half a solar radius above the photosphere. ORFEES results from a partnership between Observatoire de Paris and the French Air Force, which opera",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1051/swsc/2021039",
+              "id": "https://openalex.org/W3206722155",
+              "provider": "openalex",
+              "title": "ORFEES – a radio spectrograph for the study of solar radio bursts and space weather applications"
+            },
+            {
+              "abstract": "Aims. The wide-band dynamic spectra of Jovian decameter emission obtained over the last decade with high-frequency and high time resolution equipment on the largest decameter band antenna array, the Ukrainian T-shape Radio telescope (UTR-2), are presented.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2008-11-20",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1051/0004-6361:200809676",
+              "id": "https://openalex.org/W1981798496",
+              "provider": "openalex",
+              "title": "Modulation structures in the dynamic spectra of Jovian radio emission obtained with high time-frequency resolution"
+            },
+            {
+              "abstract": "Context. Since the first extra-solar planet discovery in 1995, several hundreds of these planets have been discovered. Most are hot Jupiters, i.e. massive planets orbiting close to their star. These planets may be powerful radio emitters.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2011-05-02",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1051/0004-6361/201116510",
+              "id": "https://openalex.org/W2159529540",
+              "provider": "openalex",
+              "title": "Modeling the radio signature of the orbital parameters, rotation, and magnetic field of exoplanets"
+            },
+            {
+              "abstract": "Abstract Upward‐moving energetic electrons with energies of 1 MeV and above were observed over the entire Jovian polar region. The electrons were found to be associated with intense broadband whistler mode waves, similar to terrestrial whistler mode auroral hiss. Upward‐propagating whistler mode hiss at Earth is known to be generated by upward‐moving, magnetic field‐aligned electron beams (from electric field‐aligned potentials), by a beam‐plasma instability at the Landau resonance. Assuming this process at Jupiter, we present a linear stability analysis, showing the electron distribution functions (based on inverted‐V observations made by the Juno Jovian Auroral Distributions Experiment, JADE‐E, instrument) are unstable. The polarization of the modeled waves is consistent with whistler mode hiss (right‐hand circularly polarized). From the results of the linear stability analysis, we find that the calculated growth rates are sufficient to produce the observed whistler mode waves.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-05-16",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1029/2020ja027868",
+              "id": "https://openalex.org/W3024578085",
+              "provider": "openalex",
+              "title": "The Generation of Upward‐Propagating Whistler Mode Waves by Electron Beams in the Jovian Polar Regions"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-03-10",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:55c7c4bbddcab93810aca9d7f8f943c94be117aa",
+              "provider": "semantic_scholar",
+              "title": "Comparison between Polarization and Spectral Characteristics of Zebra Pattern in Solar Radio Bursts",
+              "url": "https://www.semanticscholar.org/paper/55c7c4bbddcab93810aca9d7f8f943c94be117aa?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-03-10",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:966efc5d48fcb7e167a00b4c2859c07c2382a6d0",
+              "provider": "semantic_scholar",
+              "title": "Development of portable Jovian radio wave receiver system for application in high school science education",
+              "url": "https://www.semanticscholar.org/paper/966efc5d48fcb7e167a00b4c2859c07c2382a6d0?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1992-06-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1029/92JA00611",
+              "id": "S2:3a48ab637c21af2996d7b022341d84a5e68c641d",
+              "provider": "semantic_scholar",
+              "title": "Polarization of the Io-C radio emission from Jupiter",
+              "url": "https://www.semanticscholar.org/paper/3a48ab637c21af2996d7b022341d84a5e68c641d?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2008-04-01",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:b35112bd0394a91a83e0206971120c3d48c05870",
+              "provider": "semantic_scholar",
+              "title": "Jovian decametric radio emissions: An overview of the planetary radio astronomical observations",
+              "url": "https://www.semanticscholar.org/paper/b35112bd0394a91a83e0206971120c3d48c05870?utm_source=api"
+            },
+            {
+              "abstract": "New observations of Jupiter's decametric radio emissions have been made with the Long Wavelength Array Station 1 (LWA1), which is capable of making high‐quality observations as low as 11 MHz. Full Stokes parameters were determined for bandwidths of 16 MHz. Here we present the first LWA1 results for the study of six Io‐related events at temporal resolutions as fine as 0.25 ms. LWA1 data show excellent spectral detail in Jovian DAM such as simultaneous left‐hand circular (LHC) and right‐hand circular (RHC) polarized Io‐related arcs and source envelopes, modulation lane features, S‐burst structures, narrow band N events, and interactions between S bursts and N events. The sensitivity of the LWA1 combined with the low‐radio‐frequency interference environment allow us to trace the start of the LHC Io‐C source region to much earlier CMLIII than typically found in the literature. We find that the Io‐C starts as early as CMLIII = 230° at frequencies near 11 MHz. This early start of the Io‐C emission may be valuable for refining models of the emission mechanism. We also detect modulation lane structures that appear continuous across LHC and RHC emissions, suggesting that both polarizations may originate from the same hemisphere of Jupiter. We present a study of rare S bursts detected during an Io‐D event and show that drift rates are consistent with those from other Io‐related sources. Finally, S‐N burst events are seen in high spectral and temporal resolution and our data strongly support the cospatial origins of these events.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2014-12-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/2014JA020289",
+              "id": "S2:b6666dfa4a9aa84a28b035e53b9f9c928f238e0a",
+              "provider": "semantic_scholar",
+              "title": "Probing Jovian decametric emission with the long wavelength array station 1",
+              "url": "https://www.semanticscholar.org/paper/b6666dfa4a9aa84a28b035e53b9f9c928f238e0a?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2008-08-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1029/2007JA012896",
+              "id": "S2:42be200edddf59deafad3c1cd2410339c9732120",
+              "provider": "semantic_scholar",
+              "title": "Short-burst auroral radiations in Alfvénic acceleration regions: FAST observations",
+              "url": "https://www.semanticscholar.org/paper/42be200edddf59deafad3c1cd2410339c9732120?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2022-10-12",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 110,
+              "query": "Jovian satellite radio burst drift polarization source comparison",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "7870",
+                "reset_seconds": "25463"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2022-10-12",
+                  "per_page": "6",
+                  "search": "Jovian satellite radio burst drift polarization source comparison",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2022-10-13"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2022-10-12",
+              "attempts": 2,
+              "locally_excluded_uncertain_or_not_strictly_before": 0,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 13,
+              "query": "Jovian satellite radio burst drift polarization source comparison",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "6",
+                  "query": "Jovian satellite radio burst drift polarization source comparison",
+                  "year": "1900-2022"
+                }
+              },
+              "strict_before": "2022-10-13"
+            }
+          },
+          "query": "Jovian satellite radio burst drift polarization source comparison",
+          "strict_before": "2022-10-13"
+        },
+        {
+          "api_cutoff": "2022-10-12",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "The discovery of radio pulsars over a half century ago was a seminal moment in astronomy. It demonstrated the existence of neutron stars, gave a powerful observational tool to study them, and has allowed us to probe strong gravity, dense matter, and the interstellar medium. More recently, pulsar surveys have led to the serendipitous discovery of fast radio bursts (FRBs). While FRBs appear similar to the individual pulses from pulsars, their large dispersive delays suggest that they originate from far outside the Milky Way and hence are many orders-of-magnitude more luminous. While most FRBs appear to be one-off, perhaps cataclysmic events, two sources are now known to repeat and thus clearly have a longer lived central engine. Beyond understanding how they are created, there is also the prospect of using FRBs-as with pulsars-to probe the extremes of the Universe as well as the otherwise invisible intervening medium. Such studies will be aided by the high-implied all-sky event rate: there is a detectable FRB roughly once every minute occurring somewhere on the sky. The fact that less than a hundred FRB sources have been discovered in the last decade is largely due to the small fields-of-view of current radio telescopes. A new generation of wide-field instruments is now coming online, however, and these will be capable of detecting multiple FRBs per day. We are thus on the brink of further breakthroughs in the short-duration radio transient phase space, which will be critical for differentiating between the many proposed theories for the origin of FRBs. In this review, we giv",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-05-24",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s00159-019-0116-6",
+              "id": "https://openalex.org/W2754224307",
+              "provider": "openalex",
+              "title": "Fast radio bursts"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2007-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s10712-007-9017-8",
+              "id": "https://openalex.org/W2160811494",
+              "provider": "openalex",
+              "title": "A decade of the Super Dual Auroral Radar Network (SuperDARN): scientific achievements, new techniques and future directions"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2009-04-20",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.pss.2009.04.002",
+              "id": "https://openalex.org/W2161457988",
+              "provider": "openalex",
+              "title": "Recurrent energization of plasma in the midnight-to-dawn quadrant of Saturn's magnetosphere, and its relationship to auroral UV and radio emissions"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2014-05-23",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s11214-014-0052-8",
+              "id": "https://openalex.org/W2042926678",
+              "provider": "openalex",
+              "title": "A Brief Review of Ultraviolet Auroral Emissions on Giant Planets"
+            },
+            {
+              "abstract": "The Jovian Auroral Distributions Experiment (JADE) on Juno provides the critical in situ measurements of electrons and ions needed to understand the plasma energy particles and processes that fill the Jovian magnetosphere and ultimately produce its strong aurora. JADE is an instrument suite that includes three essentially identical electron sensors (JADE-Es), a single ion sensor (JADE-I), and a highly capable Electronics Box (EBox) that resides in the Juno Radiation Vault and provides all necessary control, low and high voltages, and computing support for the four sensors. The three JADE-Es are arrayed 120 ∘ apart around the Juno spacecraft to measure complete electron distributions from ∼0.1 to 100 keV and provide detailed electron pitch-angle distributions at a 1 s cadence, independent of spacecraft spin phase. JADE-I measures ions from ∼5 eV to ∼50 keV over an instantaneous field of view of 270 ∘ ×90 ∘ in 4 s and makes observations over all directions in space each 30 s rotation of the Juno spacecraft. JADE-I also provides ion composition measurements from 1 to 50 amu with m /Δ m ∼2.5, which is sufficient to separate the heavy and light ions, as well as O+ vs S+, in the Jovian magnetosphere. All four sensors were extensively tested and calibrated in specialized facilities, ensuring excellent on-orbit observations at Jupiter. This paper documents the JADE design, construction, calibration, and planned science operations, data processing, and data products. Finally, the Appendix describes the Southwest Research Institute [SwRI] electron calibration facility, which was deve",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2013-05-24",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s11214-013-9990-9",
+              "id": "https://openalex.org/W2027391865",
+              "provider": "openalex",
+              "title": "The Jovian Auroral Distributions Experiment (JADE) on the Juno Mission to Jupiter"
+            },
+            {
+              "abstract": "Abstract. We consider the flows and currents in Saturn's polar ionosphere which are implied by a three-component picture of large-scale magnetospheric flow driven both by planetary rotation and the solar wind interaction. With increasing radial distance in the equatorial plane, these components consist of a region dominated by planetary rotation where planetary plasma sub-corotates on closed field lines, a surrounding region where planetary plasma is lost down the dusk tail by the stretching out of closed field lines followed by plasmoid formation and pinch-off, as first described for Jupiter by Vasyliunas, and an outer region driven by the interaction with the solar wind, specifically by reconnection at the dayside magnetopause and in the dawn tail, first discussed for Earth by Dungey. The sub-corotating flow on closed field lines in the dayside magnetosphere is constrained by Voyager plasma observations, showing that the plasma angular velocity falls to around half of rigid corotation in the outer magnetosphere, possibly increasing somewhat near the dayside magnetopause, while here we provide theoretical arguments which indicate that the flow should drop to considerably smaller values on open field lines in the polar cap. The implied ionospheric current system requires a four-ring pattern of field-aligned currents, with distributed downward currents on open field lines in the polar cap, a narrow ring of upward current near the boundary of open and closed field lines, and regions of distributed downward and upward current on closed field lines at lower latitudes associated",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2004-04-02",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.5194/angeo-22-1379-2004",
+              "id": "https://openalex.org/W2117107061",
+              "provider": "openalex",
+              "title": "Saturn's polar ionospheric flows and their relation to the main auroral oval"
+            },
+            {
+              "abstract": "Low-frequency (ν ≲ 150 MHz) stellar radio emission is expected to originate in the outer corona at heights comparable to and larger than the stellar radius. Such emission from the Sun has been used to study coronal structure, mass ejections and space-weather conditions around the planets1. Searches for low-frequency emission from other stars have detected only a single active flare star2 that is not representative of the wider stellar population. Here we report the detection of low-frequency radio emission from a quiescent star, GJ 1151—a member of the most common stellar type (red dwarf or spectral class M) in the Galaxy. The characteristics of the emission are similar to those of planetary auroral emissions3 (for example, Jupiter’s decametric emission), suggesting a coronal structure dominated by a global magnetosphere with low plasma density. Our results show that large-scale currents that power radio aurorae operate over a vast range of mass and atmospheric composition, ranging from terrestrial planets to main-sequence stars. The Poynting flux required to produce the observed radio emission cannot be generated by GJ 1151’s slow rotation, but can originate in a sub-Alfvénic interaction of its magnetospheric plasma with a short-period exoplanet. The emission properties are consistent with theoretical expectations4–7 for interaction with an Earth-size planet in an approximately one- to five-day-long orbit. Low-frequency radio emission from a normally quiescent M dwarf star suggests a radio aurora generated by the interaction between the stellar corona and an undetected Earth-sized planet.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-02-17",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41550-020-1011-9",
+              "id": "S2:e6c5d846eb660a1712b53717cbacb1c191be707d",
+              "provider": "semantic_scholar",
+              "title": "Coherent radio emission from a quiescent red dwarf indicative of star–planet interaction",
+              "url": "https://www.semanticscholar.org/paper/e6c5d846eb660a1712b53717cbacb1c191be707d?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2012-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:44206ba3b9604a2067f6951cb7f2533231eb9da7",
+              "provider": "semantic_scholar",
+              "title": "The ﬁrst observation of the altitude distribution of Jovian near-IR auroral emission using SUBARU/IRCS with Adaptive Op",
+              "url": "https://www.semanticscholar.org/paper/44206ba3b9604a2067f6951cb7f2533231eb9da7?utm_source=api"
+            },
+            {
+              "abstract": "We present the results of a series of short radio observations of six ultracool dwarfs made using the upgraded Very Large Array in S (2–4GHz) and C (4–7GHz) bands. LSR J1835+3259 exhibits a 100 per cent right-hand circularly polarized burst that shows intense narrow-band features with a fast negative frequency drift of about −30 MHz s−1. They are superimposed on a fainter broad-band emission feature with a total duration of about 20 min, bandwidth of about 1 GHz, centred at about 3.5 GHz, and a slow positive frequency drift of about 1 MHz s−1. This makes it the first such event detected below 4 GHz and the first one exhibiting both positive and negative frequency drifts. Polarized radio emission is also seen in 2MASS J00361617+1821104 and NLTT 33370, while LP 349-25 and TVLM 513-46546 have unpolarized emission and BRI B0021-0214 was not detected. We can reproduce the main characteristics of the burst from LSR J1835+3259 using a model describing the magnetic field of the dwarf as a tilted dipole. We also analyse the origins of the quiescent radio emission and estimate the required parameters of the magnetic field and energetic electrons. Although our results are non-unique, we find a set of models that agree well with the observations.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-10-10",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1093/mnras/stw2597",
+              "id": "S2:b207ae2ffa3ca992d65ebdd4cad6e94a7e02582a",
+              "provider": "semantic_scholar",
+              "title": "Modelling the environment around five ultracool dwarfs via the radio domain",
+              "url": "https://www.semanticscholar.org/paper/b207ae2ffa3ca992d65ebdd4cad6e94a7e02582a?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-04-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/2016JA023281",
+              "id": "S2:4991c7692709eb9957d531a4f3cc1265f7422b07",
+              "provider": "semantic_scholar",
+              "title": "Rotational modulation of Saturn's radio emissions after equinox",
+              "url": "https://www.semanticscholar.org/paper/4991c7692709eb9957d531a4f3cc1265f7422b07?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2004-12-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/J.PSS.2004.09.017",
+              "id": "S2:71c288f53d9a0fcf36c3316c11d43bc84c10d937",
+              "provider": "semantic_scholar",
+              "title": "Fast radio imaging of Jupiter's magnetosphere at low-frequencies with LOFAR",
+              "url": "https://www.semanticscholar.org/paper/71c288f53d9a0fcf36c3316c11d43bc84c10d937?utm_source=api"
+            },
+            {
+              "abstract": "We have discovered 21 Rotating Radio Transients (RRATs) in data from the Green Bank Telescope (GBT) 350 MHz Drift-scan and the Green Bank North Celestial Cap pulsar surveys using a new candidate sifting algorithm. RRATs are pulsars with sporadic emission that are detected through their bright single pulses rather than Fourier domain searches. We have developed RRATtrap, a single-pulse sifting algorithm that can be integrated into pulsar survey data analysis pipelines in order to find RRATs and Fast Radio Bursts. We have conducted follow-up observations of our newly discovered sources at several radio frequencies using the GBT and Low Frequency Array, yielding improved positions and measurements of their periods, dispersion measures (DMs), and burst rates, as well as phase-coherent timing solutions for four of them. The new RRATs have DMs ranging from 15 to 97 pc cm − 3 ?> , periods of 240 ms to 3.4 s, and estimated burst rates of 20 to 400 pulses hr−1 at 350 MHz. We use this new sample of RRATs to perform statistical comparisons between RRATs and canonical pulsars in order to shed light on the relationship between the two populations. We find that the DM and spatial distributions of the RRATs agree with those of the pulsars found in the same survey. We find evidence that slower pulsars (i.e., P > 200 ?> ms) are preferentially more likely to emit bright single pulses than are faster pulsars ( P < 200 ?> ms), although this conclusion is tentative. Our results are consistent with the proposed link between RRATs, transient pulsars, and canonical pulsars as sources in various parts of the pulse activity spectrum.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-03-17",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/0004-637X/809/1/67",
+              "id": "S2:1ae9d4e71ed1190caca2318f768d3f1b429b0d62",
+              "provider": "semantic_scholar",
+              "title": "DISCOVERY AND FOLLOW-UP OF ROTATING RADIO TRANSIENTS WITH THE GREEN BANK AND LOFAR TELESCOPES",
+              "url": "https://www.semanticscholar.org/paper/1ae9d4e71ed1190caca2318f768d3f1b429b0d62?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2022-10-12",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 476,
+              "query": "main auroral radio emission slow fast drift population",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "7860",
+                "reset_seconds": "25455"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2022-10-12",
+                  "per_page": "6",
+                  "search": "main auroral radio emission slow fast drift population",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2022-10-13"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2022-10-12",
+              "attempts": 3,
+              "locally_excluded_uncertain_or_not_strictly_before": 0,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 24,
+              "query": "main auroral radio emission slow fast drift population",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "6",
+                  "query": "main auroral radio emission slow fast drift population",
+                  "year": "1900-2022"
+                }
+              },
+              "strict_before": "2022-10-13"
+            }
+          },
+          "query": "main auroral radio emission slow fast drift population",
+          "strict_before": "2022-10-13"
+        }
+      ]
+    }
+  },
+  "generated_at": "2026-08-12T16:56:08.683337+00:00",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "16b46ffb9c66c2bb49060d27d9769332cd42bb2c33f99c38fa8a9c78c162cb48",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Migrated without changing the frozen pre-t0 query results; non-detection is scoped, not universal priority.",
+  "strict_before": "2022-10-13",
+  "task_id": "Astronomy_02_radio_burst_drift",
+  "release": "V1.0"
+}

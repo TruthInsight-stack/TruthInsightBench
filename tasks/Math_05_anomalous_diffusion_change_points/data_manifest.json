@@ -1,0 +1,41 @@
+{
+  "schema": "truthinsightbench-data-manifest",
+  "task_id": "Math_05_anomalous_diffusion_change_points",
+  "title": "Change-Point and Regime Structure in Anonymous Trajectories",
+  "domain": "computational_mathematics",
+  "t0": "2021-01-01",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "scientific_scope": "All 240 frozen length-128 anonymous trajectories and their complete ordered time index.",
+  "analysis_unit": "One complete trajectory; time points within a trajectory are serially correlated and trajectories are the resampling unit.",
+  "missingness": "No curator-imposed row deletion, random subsampling, or imputation is applied within the frozen task boundary.",
+  "license_boundary": "The article-linked trajectory generator is MIT licensed; fixed-seed scientific trajectories are bundled with latent labels withheld.",
+  "warnings": [
+    "The frozen trajectories are model-generated and do not alone establish a physical mechanism in real systems.",
+    "Latent labels are intentionally absent; validation must use complete trajectories and contiguous time blocks."
+  ],
+  "variable_dictionary": {
+    "anonymous_trajectories.npz": [
+      "trajectories shape=[240, 128] dtype=float64",
+      "time_index shape=[128] dtype=int64"
+    ]
+  },
+  "source_projection_inventory": [],
+  "files": [
+    {
+      "path": "anonymous_trajectories.npz",
+      "bytes": 184564,
+      "sha256": "fa71ba4fb2d29728e6d5054817c30dd1047a829747decb0e8fbfee5011b8a3bc",
+      "role": "structured_binary_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

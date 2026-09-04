@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "EarthScience_05_ocean_thermal_coupling",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition.py",
+      "script_sha256": "4904c3600966b7b321ee4075bc4325ef1f6bb6fffcdc8e5f040b97a2755a725a"
+    },
+    {
+      "script": "verification/perturb/A/method.py",
+      "script_sha256": "6c9e82d8496e8e0cfe92db9587cdc089ec6b94b082d4fc04b199ab3552bb1e93"
+    },
+    {
+      "script": "verification/perturb/A/sample.py",
+      "script_sha256": "cf51f417c991741ad65348e6f431e9fb93c35c2b77034ad9fc17a8374b02ba00"
+    },
+    {
+      "script": "verification/perturb/B/definition.py",
+      "script_sha256": "8c0626151ac01971a227d470431e052a6b5782bbe7a8d7d1cb48480adb5b7674"
+    },
+    {
+      "script": "verification/perturb/B/method.py",
+      "script_sha256": "b6172097ebfade549009d460293ce63c5c8d57c024e231d2f90da8e59674a801"
+    },
+    {
+      "script": "verification/perturb/B/sample.py",
+      "script_sha256": "96e3e8543e2cde3c936abe527b23aaa6d839616ab537fc7cc04719ee80fed377"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "cc3544d22c9dd254e4db0d204b3a0a05e6d2edf66d8a09d733fe4c9e8d0d0288"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "23827985daf2de819ec523117b8117dffd0d8f74d6dc05e09c3bab1fe93c8461"
+    }
+  ],
+  "verification_tree_sha256": "bf132d19b57df5ad009b8817217121ec90fb0d36e84292ca80532ec80298ed85",
+  "verification_file_count": 8,
+  "shared_runtime_tree_sha256": "d8710168f8a9c9ce1fd4946fdcfa0a279806376236feda46a5384b7f302428e9",
+  "shared_runtime_file_count": 4
+}

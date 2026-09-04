@@ -1,0 +1,55 @@
+{
+  "schema": "truthinsightbench-data-manifest",
+  "task_id": "Energy_06_interface_response_boundaries",
+  "title": "Temperature-Dependent Response Boundaries in Interface Catalysis",
+  "domain": "energy",
+  "t0": "2022-01-01",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "scientific_scope": "All frozen anonymous condition-response curves and the independent condition-check curves across the temperature-like setting.",
+  "analysis_unit": "One complete condition curve; adjacent temperature settings are ordered scan points rather than independent systems.",
+  "missingness": "No curator-imposed row deletion, random subsampling, or imputation is applied within the frozen task boundary.",
+  "license_boundary": "The selected curves are from a CC BY article-linked source-data archive and are bundled under anonymous condition identifiers.",
+  "warnings": [
+    "The curves support operating relationships but not a unique microscopic interface mechanism.",
+    "Whole-condition and contiguous-setting holdouts are required; random curve-point splitting is invalid."
+  ],
+  "variable_dictionary": {
+    "anonymous_condition_response_curves.tsv": [
+      "condition_id",
+      "temperature_like_setting",
+      "rate_like_response"
+    ],
+    "independent_condition_check_curves.tsv": [
+      "condition_id",
+      "temperature_like_setting",
+      "rate_like_response"
+    ]
+  },
+  "source_projection_inventory": [],
+  "files": [
+    {
+      "path": "anonymous_condition_response_curves.tsv",
+      "bytes": 3077,
+      "sha256": "b3668160fac559700404181f686acec1394cfcdaf2ef34d38a75834556f89726",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "independent_condition_check_curves.tsv",
+      "bytes": 1565,
+      "sha256": "1a79f8b8bf11fe116930ddc9e4b3a50baefe441235f41cf0bd8a1f81ae335237",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

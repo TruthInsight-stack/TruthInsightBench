@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Information_04_connectome_assortative_structure",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition.py",
+      "script_sha256": "a116b8e50bd6a7dd2c7423abf8f3125cc0fbe01fcedffedaf9bdfc682724453a"
+    },
+    {
+      "script": "verification/perturb/A/method.py",
+      "script_sha256": "0a3861b315e2b72157250f020575df8e8cb10a46d2147565fcabdde3865f9a61"
+    },
+    {
+      "script": "verification/perturb/A/sample.py",
+      "script_sha256": "de1d15f6cfe3c5f2e5ad5a14f12fad89fe49ac70fbccfc5a26a2dfa360f5793e"
+    },
+    {
+      "script": "verification/perturb/B/definition.py",
+      "script_sha256": "e64f085afa3611386df12fee9dc883a770c0513143e7bd718dc623b4854f4e94"
+    },
+    {
+      "script": "verification/perturb/B/method.py",
+      "script_sha256": "2db8e851d9f1e3b6226015b32e5bbbf5b2a202f04653e10b4971e2ddaedfe1aa"
+    },
+    {
+      "script": "verification/perturb/B/sample.py",
+      "script_sha256": "e3af0cb7fb26176288f91d8c25201c0932f3252836686e1f55de72474abc9d9d"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "411c746f9a025c64dddfe989bbcae40feb1ec8051d8962d98cf3e402a63b4f3a"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "4e0e377e768d3e8b14b0a9d42ddbbe2bce2f6022ea37a11fa42a0b5281235ab4"
+    }
+  ],
+  "verification_tree_sha256": "2eab93131ec89a0bc3fdd0c01161abbbf3f3deef73b06d32c8c38daf308f3edb",
+  "verification_file_count": 8,
+  "shared_runtime_tree_sha256": "d8710168f8a9c9ce1fd4946fdcfa0a279806376236feda46a5384b7f302428e9",
+  "shared_runtime_file_count": 4
+}

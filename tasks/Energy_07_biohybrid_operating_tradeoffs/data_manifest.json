@@ -1,0 +1,76 @@
+{
+  "schema": "truthinsightbench-data-manifest",
+  "task_id": "Energy_07_biohybrid_operating_tradeoffs",
+  "title": "Dose, Time, and Operating Tradeoffs in a Biohybrid Energy System",
+  "domain": "energy",
+  "t0": "2023-01-01",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "scientific_scope": "All frozen time-response curves, perturbation summaries, and dose-response measurements within the selected operating boundary.",
+  "analysis_unit": "One complete condition-specific trajectory or one complete dose setting with its uncertainty; fitted columns are supporting representations, not independent observations.",
+  "missingness": "No curator-imposed row deletion, random subsampling, or imputation is applied within the frozen task boundary.",
+  "license_boundary": "The selected source-data measurements derive from a CC BY Nature Communications record and are bundled after identity-neutral projection.",
+  "warnings": [
+    "The dose scan contains few settings, so a universal optimum cannot be inferred.",
+    "Fitted and raw time-response columns share measurements and must not be double-counted as independent evidence."
+  ],
+  "variable_dictionary": {
+    "dose_response.tsv": [
+      "dose",
+      "response_mean",
+      "response_sd"
+    ],
+    "perturbation_time_response.tsv": [
+      "time",
+      "control_mean",
+      "control_sd",
+      "condition_a_mean",
+      "condition_a_sd",
+      "condition_b_mean",
+      "condition_b_sd"
+    ],
+    "time_response_curves.tsv": [
+      "time",
+      "promoter_like_signal",
+      "condition_a",
+      "condition_b",
+      "condition_c",
+      "fit_a",
+      "fit_b"
+    ]
+  },
+  "source_projection_inventory": [],
+  "files": [
+    {
+      "path": "dose_response.tsv",
+      "bytes": 83,
+      "sha256": "9b3b2857de0973e0fd0e6af27f47bfd68056841553addf54561aa650b8a8488e",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "perturbation_time_response.tsv",
+      "bytes": 285,
+      "sha256": "ce6bbd0b5c7ffc78d6669f96a5e228d75524ed3344d5c40aec7a93b3067cf43d",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "time_response_curves.tsv",
+      "bytes": 45747,
+      "sha256": "50c44917c225aba66a15569aa57be74b9242d1baee1c6afeb4c8bf8652dd622d",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

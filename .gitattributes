@@ -1,0 +1,3 @@
+# Preserve every distributed file byte-for-byte because task manifests are
+# defined over these exact repository bytes.
+* -text

@@ -1,0 +1,1137 @@
+{
+  "all_queries_completed": true,
+  "cards": {
+    "A": {
+      "queries": [
+        {
+          "api_cutoff": "2021-12-31",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "The development of safe and efficacious gene vectors has limited greatly the potential for therapeutic treatments based on messenger RNA (mRNA). Lipid nanoparticles (LNPs) formed by an ionizable cationic lipid (here DLin-MC3-DMA), helper lipids (distearoylphosphatidylcholine, DSPC, and cholesterol), and a poly(ethylene glycol) (PEG) lipid have been identified as very promising delivery vectors of short interfering RNA (siRNA) in different clinical phases; however, delivery of high-molecular weight RNA has been proven much more demanding. Herein we elucidate the structure of hEPO modified mRNA-containing LNPs of different sizes and show how structural differences affect transfection of human adipocytes and hepatocytes, two clinically relevant cell types. Employing small-angle scattering, we demonstrate that LNPs have a disordered inverse hexagonal internal structure with a characteristic distance around 6 nm in presence of mRNA, whereas LNPs containing no mRNA do not display this structure. Furthermore, using contrast variation small-angle neutron scattering, we show that one of the lipid components, DSPC, is localized mainly at the surface of mRNA-containing LNPs. By varying LNP size and surface composition we demonstrate that both size and structure have significant influence on intracellular protein production. As an example, in both human adipocytes and hepatocytes, protein expression levels for 130 nm LNPs can differ as much as 50-fold depending on their surface characteristics, likely due to a difference in the ability of LNP fusion with the early endosome membrane. We",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-03-27",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1073/pnas.1720542115",
+              "id": "https://openalex.org/W2794867971",
+              "provider": "openalex",
+              "title": "Successful reprogramming of cellular protein production through mRNA delivered by functionalized lipid nanoparticles"
+            },
+            {
+              "abstract": "Nanoparticle superlattices are periodic arrays of nanoscale inorganic building blocks including metal nanoparticles, quantum dots and magnetic nanoparticles. Such assemblies can exhibit exciting new collective properties different from those of individual nanoparticle or corresponding bulk materials. However, fabrication of nanoparticle superlattices is nontrivial because nanoparticles are notoriously difficult to manipulate due to complex nanoscale forces among them. An effective way to manipulate these nanoscale forces is to use soft ligands, which can prevent nanoparticles from disordered aggregation, fine-tune the interparticle potential as well as program lattice structures and interparticle distances - the two key parameters governing superlattice properties. This article aims to review the up-to-date advances of superlattices from the viewpoint of soft ligands. We first describe the theories and design principles of soft-ligand-based approach and then thoroughly cover experimental techniques developed from soft ligands such as molecules, polymer and DNA. Finally, we discuss the remaining challenges and future perspectives in nanoparticle superlattices.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-09-06",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/advs.201700179",
+              "id": "https://openalex.org/W2752684448",
+              "provider": "openalex",
+              "title": "Nanoparticle Superlattices: The Roles of Soft Ligands"
+            },
+            {
+              "abstract": "different synthetic routes, focusing on which MNP features have allowed unprecedented heating efficiency levels to be achieved in MHT and highlighting nanoplatforms that prevent magnetic heat loss in the intracellular environment. Moreover, we review the advances on MNP-based nanoplatforms that embrace the concept of multimodal therapy, which aims to combine MHT with chemotherapy, radiotherapy, immunotherapy, photodynamic or phototherapy. Next, for a better control of the therapeutic temperature at the tumor, we focus on the studies that have optimized MNPs to maintain gold-standard MHT performance and are also tackling MNP imaging with the aim to quantitatively assess the amount of nanoparticles accumulated at the tumor site and regulate the MHT field conditions. To conclude, future perspectives with guidance on how to advance MHT therapy will be provided.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1039/d1cs00427a",
+              "id": "https://openalex.org/W3196303006",
+              "provider": "openalex",
+              "title": "Magnetic nanoparticles and clusters for magnetic hyperthermia: optimizing their heat performance and developing combinatorial therapies to tackle cancer"
+            },
+            {
+              "abstract": "Polysarcosine (pSar) is a polypeptoid based on the endogenous amino acid sarcosine (N-methylated glycine), which has previously shown potent stealth properties. Here, lipid nanoparticles (LNPs) for therapeutic application of messenger RNA were assembled using pSarcosinylated lipids as a tool for particle engineering. Using pSar lipids with different polymeric chain lengths and molar fractions enabled the control of the physicochemical characteristics of the LNPs, such as particle size, morphology, and internal structure. In combination with a suited ionizable lipid, LNPs were assembled, which displayed high RNA transfection potency with an improved safety profile after intravenous injection. Notably, a higher protein secretion with a reduced immunostimulatory response was observed when compared to systems based on polyethylene glycol (PEG) lipids. pSarcosinylated nanocarriers showed a lower proinflammatory cytokine secretion and reduced complement activation compared to PEGylated LNPs. In summary, the described pSar-based LNPs enable safe and potent delivery of mRNA, thus signifying an excellent basis for the development of PEG-free RNA therapeutics.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-09-25",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/acsanm.0c01834",
+              "id": "https://openalex.org/W3088467904",
+              "provider": "openalex",
+              "title": "Polysarcosine-Functionalized Lipid Nanoparticles for Therapeutic mRNA Delivery"
+            },
+            {
+              "abstract": "Hybrid colloids consisting of noble metal cores and metal oxide shells have been under intense investigation for over two decades and have driven progress in diverse research lines including sensing, medicine, catalysis, and photovoltaics. Consequently, plasmonic core-shell particles have come to play a vital role in a plethora of applications. Here, an overview is provided of recent developments in the design and utilization of the most successful class of such hybrid materials, silica-coated plasmonic metal nanoparticles. Besides summarizing common simple approaches to silica shell growth, special emphasis is put on advanced synthesis routes that either overcome typical limitations of classical methods, such as stability issues and undefined silica porosity, or grant access to particularly sophisticated nanostructures. Hereby, a description is given, how different types of silica can be used to provide noble metal particles with specific functionalities. Finally, applications of such nanocomposites in ultrasensitive analyte detection, theranostics, catalysts, and thin-film solar cells are reviewed.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-05-07",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/adma.201707003",
+              "id": "https://openalex.org/W2799351818",
+              "provider": "openalex",
+              "title": "Silica‐Coated Plasmonic Metal Nanoparticles in Action"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2006-11-20",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.physrep.2006.07.006",
+              "id": "https://openalex.org/W2108600976",
+              "provider": "openalex",
+              "title": "Mesoscopic models of biological membranes"
+            },
+            {
+              "abstract": "BACKGROUND: Lipid-based liquid crystalline nanoparticles (LCNPs) have attracted growing interest as novel drug-delivery systems for improving the bioavailability of both hydrophilic and hydrophobic drugs. However, their cellular interaction and in vivo behavior have not been fully developed and characterized. METHODS: In this study, self-assembled LCNPs prepared from soy phosphatidylcholine and glycerol dioleate were developed as a platform for oral delivery of paclitaxel. The particle size of empty LCNPs and paclitaxel-loaded LCNPs was around 80 nm. The phase behavior of the liquid crystalline matrix was characterized using crossed polarized light microscopy and small-angle X-ray scattering, and showed both reversed cubic and hexagonal phase in the liquid crystalline matrix. Transmission electron microscopy and cryofield emission scanning electron microscopy analysis revealed an inner winding water channel in LCNPs and a \" ball-like\"/\"hexagonal\" morphology. RESULTS: Cellular uptake of LCNPs in Caco-2 cells was found to be concentration-dependent and time-dependent, with involvement of both clathrin and caveolae/lipid raft-mediated endocytosis. Under confocal laser scanning microscopy, soy phosphatidylcholine was observed to segregate from the internalized LCNPs and to fuse with the cell membrane. An in vivo pharmacokinetic study showed that the oral bioavailability of paclitaxel-loaded LCNPs (13.16%) was 2.1 times that of Taxol(®) (the commercial formulation of paclitaxel, 6.39%). CONCLUSION: The findings of this study suggest that this LCNP delivery system may be a promis",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2012-07-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.2147/ijn.s32599",
+              "id": "https://openalex.org/W2032668207",
+              "provider": "openalex",
+              "title": "Lipid-based liquid crystalline nanoparticles as oral drug delivery vehicles for poorly water-soluble drugs: cellular interaction and in vivo absorption"
+            },
+            {
+              "abstract": "Dioctadecyldimethylammonium bromide (DODAB), a potential candidate for applications in drug transport or DNA transfection, forms bilayer in aqueous media exhibiting a rich phase behavior. Here, we report the detailed dynamical features of DODAB bilayer in their different phases (coagel, gel and fluid) as studied by neutron scattering techniques. Elastic intensity scans show dynamical transitions at 327 K in the heating and at 311 K and 299 K during cooling cycle. These results are consistent with calorimetric studies, identified as coagel-fluid phase transition during heating, and fluid-gel and gel-coagel phase transitions during cooling. Quasielastic Neutron Scattering (QENS) data analysis showed presence of only localized internal motion in the coagel phase. However, in the gel and fluid phases, two distinct motions appear, namely lateral motion of the DODAB monomers and a faster localized internal motion of the monomers. The lateral motion of the DODAB molecule is described by a continuous diffusion model and is found to be about an order of magnitude slower in the gel phase than in the fluid phase. To gain molecular insights, molecular dynamics simulations of DODAB bilayer have also been carried out and the results are found to be in agreement with the experiment.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-01-24",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41598-018-19899-6",
+              "id": "https://openalex.org/W2807356106",
+              "provider": "openalex",
+              "title": "Dynamical Transitions and Diffusion Mechanism in DODAB Bilayer"
+            },
+            {
+              "abstract": "This study investigates the deposition by ionic self-assembly of alternating silica nanoparticle and poly(allyamine hydrochloride) layers with the goal to create a single-material antireflection coating. The condition that the optical thickness of the film be equal to λ∕4 can be satisfied by depositing the requisite number of bilayers to obtain minimum reflectivity at the chosen wavelength. The second condition for antireflection, that the index of refraction of the film be equal to nc=n1n2, where n1 and n2 are the refractive indices of the media on each side of the film, requires that nc=1.22 for a film with air on one surface and glass (assuming n=1.50) on the other. Such a low index of refraction can be created in films consisting of nanoparticles if the proper volume fraction of void space exists in the film. In the wavelength range λ=350–700nm, minimum reflectivities of ⩾2.0%, ⩽0.2%, and ⩽0.2% were obtained with films created on both sides of a glass slide using 15, 45, and 85nm average diameter silica nanoparticles, respectively. The maximum transmittances for the corresponding films were 97%, ⩾98%, and ⩾97%. The minimum reflectance of films prepared with 15nm average diameter silica nanoparticles was limited by insufficient void volume in the films. The maximum transmittances of films prepared with 45 and 85nm average diameter silica nanoparticles were limited by diffuse scattering arising from the inhomogeneous morphology of the films. The extinction of normal incident light (=1−R−T, where R and T are the reflectance and transmittance, respectively) provides a measu",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2006-02-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1063/1.2171784",
+              "id": "https://openalex.org/W2080392039",
+              "provider": "openalex",
+              "title": "The influence of void space on antireflection coatings of silica nanoparticle self-assembled films"
+            },
+            {
+              "abstract": "The interaction between a biological membrane and its environment is a complex process, as it involves multivalent binding between ligand/receptor pairs, which can self-organize in patches. Any description of the specific binding of biomolecules to membranes must account for the key characteristics of multivalent binding, namely, its unique ability to discriminate sharply between high and low receptor densities (superselectivity), but also for the effect of the lateral mobility of membrane-bound receptors to cluster upon binding. Here we present an experimental model system that allows us to compare systematically the effects of multivalent interactions on fluid and immobile surfaces. A crucial feature of our model system is that it allows us to control the membrane surface chemistry, the properties of the multivalent binder, and the binding affinity. We find that multivalent probes retain their superselective binding behavior at fluid interfaces. Supported by numerical simulations, we demonstrate that, as a consequence of receptor clustering, superselective binding is enhanced and shifted to lower receptor densities at fluid interfaces. To translate our findings into a simple, predictive tool, we propose an analytical model that enables rapid predictions of how the superselective binding behavior is affected by the lateral receptor mobility as a function of the physicochemical characteristics of the multivalent probe. We believe that our model, which captures the key physical mechanisms underpinning multivalent binding to biological membranes, will greatly facilitate the r",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-01-24",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/jacs.8b12553",
+              "id": "https://openalex.org/W2912161672",
+              "provider": "openalex",
+              "title": "Multivalent Recognition at Fluid Surfaces: The Interplay of Receptor Clustering and Superselectivity"
+            },
+            {
+              "abstract": "We propose a strategy for assembling spherical nanoparticles (NPs) into anisotropic architectures in a polymer matrix. The approach takes advantage of the interfacial tension between two mutually immiscible polymers forming a bilayer and differences in the compatibility of the two polymer layers with polymer grafts on particles to trap NPs within two-dimensional planes parallel to the interface. The ability to precisely tune the location of the entrapment planes via the NP grafting density, and to trap multiple interacting particles within distinct planes, can then be used to assemble NPs into unconventional arrangements near the interface. We carry out molecular dynamics simulations of polymer-grafted NPs in a polymer bilayer to demonstrate the viability of the proposed approach in both trapping NPs at tunable distances from the interface and assembling them into a variety of unusual nanostructures. We illustrate the assembly of NP clusters, such as dimers with tunable tilt relative to the interface and trimers with tunable bending angle, as well as anisotropic macroscopic phases, including serpentine and branched structures, ridged hexagonal monolayers, and square-ordered bilayers. We also develop a theoretical model to predict the preferred positions and free energies of NPs trapped at or near the interface that could help guide the design of polymer-grafted NPs for achieving target NP architectures. Overall, this work suggests that interfacial assembly of NPs could be a promising approach for fabricating next-generation polymer nanocomposites with potential applications in plasmonics, electronics, optics, and catalysis where precise arrangement of polymer-embedded NPs is required for function.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-03-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/acsnano.8b08733",
+              "id": "S2:7be0008293f27da1f3628bd167245bf29a75b75c",
+              "provider": "semantic_scholar",
+              "title": "Interfacial Assembly of Tunable Anisotropic Nanoparticle Architectures.",
+              "url": "https://www.semanticscholar.org/paper/7be0008293f27da1f3628bd167245bf29a75b75c?utm_source=api"
+            },
+            {
+              "abstract": "We present a supported membrane platform consisting of a fluid lipid bilayer membrane embedded with a fixed array of gold nanoparticles. The system is realized by preforming a hexagonal array of gold nanoparticles (∼5–7 nm) with controlled spacing (∼50–150 nm) fixed to a silica or glass substrate by block copolymer lithography. Subsequently, a supported membrane is assembled over the intervening bare substrate. Proteins or other ligands can be associated with the fluid lipid component, the fixed nanoparticle component, or both, providing a hybrid interface consisting of mobile and immobile components with controlled geometry. We test different biochemical coupling strategies to bind individual proteins to the particles surrounded by a fluid lipid membrane. The coupling efficiency to nanoparticles and the influence of nanoparticle arrays on the surrounding membrane integrity are characterized by fluorescence imaging, correlation spectroscopy, and super-resolution fluorescence microscopy. Finally, the functionality of this system for live cell experiments is tested using the ephrin-A1–EphA2 juxtacrine signaling interaction in human breast epithelial cells.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2011-10-04",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/nl202847t",
+              "id": "S2:ec9ed41ea074cf31cda803456ca64df36763cb88",
+              "provider": "semantic_scholar",
+              "title": "Supported Membranes Embedded with Fixed Arrays of Gold Nanoparticles",
+              "url": "https://www.semanticscholar.org/paper/ec9ed41ea074cf31cda803456ca64df36763cb88?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-08-21",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/jacs.7b06572",
+              "id": "S2:644a6ebbdacccd0c31620426721123124c80147e",
+              "provider": "semantic_scholar",
+              "title": "Long-Range Ordering of Blunt-Ended DNA Tiles on Supported Lipid Bilayers.",
+              "url": "https://www.semanticscholar.org/paper/644a6ebbdacccd0c31620426721123124c80147e?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1990-06-11",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/0005-2736(90)90192-Q",
+              "id": "S2:013261ce45e4db1bed3618777ef0b3b1bae31cdf",
+              "provider": "semantic_scholar",
+              "title": "Phase transition from a gel to a fluid phase of cubic symmetry in dimyristoylphosphatidylcholine/myristic acid (1:2, mol/mol) bilayers.",
+              "url": "https://www.semanticscholar.org/paper/013261ce45e4db1bed3618777ef0b3b1bae31cdf?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1996-11-15",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/S0969-2126(96)00140-2",
+              "id": "S2:76b1b32a940ad19f5acb44e5b562bb231b15fe95",
+              "provider": "semantic_scholar",
+              "title": "Refined solution structure of type III antifreeze protein: hydrophobic groups may be involved in the energetics of the protein-ice interaction.",
+              "url": "https://www.semanticscholar.org/paper/76b1b32a940ad19f5acb44e5b562bb231b15fe95?utm_source=api"
+            },
+            {
+              "abstract": "Platinum (Pt) nanoparticles (NPs) are important nano-material components in various catalytic, photonic and electronic applications, yet face challenges in the fabrication of desired morphology and uniformity with the conventional solid-state dewetting approach. Specifically, the necessity of high annealing temperatures, typically above 800 °C due to the low diffusivity of Pt atoms, limits the morphological and functional tunability of Pt NPs. In this work, the fabrication of Pt NPs with an improved configuration, spacing and uniformity is demonstrated through the enhancement of solid state dewetting by using a sacrificial indium (In) layer on sapphire (0001). The well-defined Pt NPs demonstrate the dynamic localized surface plasmon (LSPR) bands in the visible range between ∼400 and 700 nm depending on the size and spacing of NPs. The LSPR peak intensity and width are also varied depending on the uniformity of Pt NPs. The overall dewetting magnitude is significantly enhanced through the inter-mixing of In and Pt atoms at the In/Pt interface that eventually results in the formation of an In–Pt alloy. During the dewetting process the In atoms desorb from the NP matrix by atomic sublimation, which gives rise to pure Pt NP fabrication. In sharp contrast to the pure Pt film dewetting, the Pt NPs in this approach demonstrate significantly improved spatial arrangement with well-defined configuration and uniformity. In addition, the ratio of In can be readily controlled along with the thickness of the Pt layer to alter the dewetting kinetics and thereby the surface morphology of Pt NPs. Specifically, large hexagonal, semi-spherical and small hexagonal Pt NPs are obtained through the dewetting of In75 nm/Pt25 nm, In20 nm/Pt20 nm and In2.5 nm/Pt7.5 nm bilayers respectively.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-01-14",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1039/c8ra09049a",
+              "id": "S2:712466532432dbd91398c823a19237c11b9015c6",
+              "provider": "semantic_scholar",
+              "title": "Improved control on the morphology and LSPR properties of plasmonic Pt NPs through enhanced solid state dewetting by using a sacrificial indium layer",
+              "url": "https://www.semanticscholar.org/paper/712466532432dbd91398c823a19237c11b9015c6?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2007-03-08",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1063/1.2714200",
+              "id": "S2:168b4e43519721510b87fe673ca44fc4cfc19175",
+              "provider": "semantic_scholar",
+              "title": "Array formation and size effects in chemically synthesized FePt nanoparticles",
+              "url": "https://www.semanticscholar.org/paper/168b4e43519721510b87fe673ca44fc4cfc19175?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-08-02",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1039/c6sm00903d",
+              "id": "S2:3011630b91fdd7238507abd86cef58d16b9b0530",
+              "provider": "semantic_scholar",
+              "title": "Hydrogel-colloid interfacial interactions: a study of tailored adhesion using optical tweezers.",
+              "url": "https://www.semanticscholar.org/paper/3011630b91fdd7238507abd86cef58d16b9b0530?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2009-06-10",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/0953-8984/21/26/260302",
+              "id": "S2:2743001fd9aca62482b6cc437f3b01a32b404c2b",
+              "provider": "semantic_scholar",
+              "title": "Nanofluids on solid substrates",
+              "url": "https://www.semanticscholar.org/paper/2743001fd9aca62482b6cc437f3b01a32b404c2b?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2010-01-01",
+              "date_precision": "year",
+              "doi": "https://doi.org/10.1016/J.BPJ.2009.12.1562",
+              "id": "S2:81d38e0a00f4907b0f988903e32d329152297dc7",
+              "provider": "semantic_scholar",
+              "title": "Observation of Intermediates in Lamellar to Cubic Phase Transformations of Lipid Nanoparticles",
+              "url": "https://www.semanticscholar.org/paper/81d38e0a00f4907b0f988903e32d329152297dc7?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2021-12-31",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 608,
+              "query": "nanoparticle fluid interface square hexagonal bilayer spacing",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8709",
+                "reset_seconds": "51880"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2021-12-31",
+                  "per_page": "10",
+                  "search": "nanoparticle fluid interface square hexagonal bilayer spacing",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2022-01-01"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2021-12-31",
+              "attempts": 1,
+              "locally_excluded_uncertain_or_not_strictly_before": 0,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 11,
+              "query": "nanoparticle fluid interface square hexagonal bilayer spacing",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "nanoparticle fluid interface square hexagonal bilayer spacing",
+                  "year": "1900-2021"
+                }
+              },
+              "strict_before": "2022-01-01"
+            }
+          },
+          "query": "nanoparticle fluid interface square hexagonal bilayer spacing",
+          "strict_before": "2022-01-01"
+        },
+        {
+          "api_cutoff": "2021-12-31",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-10-24",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.progpolymsci.2015.10.002",
+              "id": "https://openalex.org/W2205331003",
+              "provider": "openalex",
+              "title": "Polymerization-induced self-assembly of block copolymer nanoparticles via RAFT non-aqueous dispersion polymerization"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-05-20",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s42452-019-0592-3",
+              "id": "https://openalex.org/W2944906172",
+              "provider": "openalex",
+              "title": "Metal oxide nanoparticles and their applications in nanotechnology"
+            },
+            {
+              "abstract": "After a brief history that positions polymerization-induced self-assembly (PISA) in the field of polymer chemistry, this Review will cover the fundamentals of the PISA mechanism. Furthermore, this Review will also give an overview of some of the features and limitations of RAFT-mediated PISA in terms of the choice of the components involved, the nature of the nanoobjects that can be obtained and how the syntheses can be controlled, as well as some potential applications.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-10-04",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/anie.201911758",
+              "id": "https://openalex.org/W2977328892",
+              "provider": "openalex",
+              "title": "RAFT‐Mediated Polymerization‐Induced Self‐Assembly"
+            },
+            {
+              "abstract": "This Perspective outlines recent advances concerning the formation and potential uses of block copolymer micelles, a class of soft-matter-based nanoparticles of growing importance. As a result of rapidly expanding interest since the mid-1990s, substantial advances have been reported in terms of the development of morphological diversity, structural complexity, control over micelle dimensions, scale-up, and applications in a range of areas from nanocomposites to nanomedicine.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-04-28",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/acs.macromol.6b02767",
+              "id": "https://openalex.org/W2608601148",
+              "provider": "openalex",
+              "title": "<i>50th Anniversary Perspective</i>: Functional Nanoparticles from the Solution Self-Assembly of Block Copolymers"
+            },
+            {
+              "abstract": "In this tutorial review we highlight fundamental aspects of the physics underpinning the science of photonic crystals, provide insight into building-block assembly routes to the fabrication of different photonic crystal structures and compositions, discuss their properties and describe how these relate to function, and finally take a glimpse into future applications.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2012-11-02",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1039/c2cs35309a",
+              "id": "https://openalex.org/W2005927954",
+              "provider": "openalex",
+              "title": "Bottom-up assembly of photonic crystals"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-02-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41557-019-0210-4",
+              "id": "https://openalex.org/W2913622111",
+              "provider": "openalex",
+              "title": "Liquid–liquid phase separation during amphiphilic self-assembly"
+            },
+            {
+              "abstract": "Organic solar cells (OSCs) have shown great promise as low-cost photovoltaic devices for solar energy conversion over the past decade. Interfacial engineering provides a powerful strategy to enhance efficiency and stability of OSCs. With the rapid advances of interface layer materials and active layer materials, power conversion efficiencies (PCEs) of both single-junction and tandem OSCs have exceeded a landmark value of 10%. This review summarizes the latest advances in interfacial layers for single-junction and tandem OSCs. Electron or hole transporting materials, including metal oxides, polymers/small-molecules, metals and metal salts/complexes, carbon-based materials, organic-inorganic hybrids/composites, and other emerging materials, are systemically presented as cathode and anode interface layers for high performance OSCs. Meanwhile, incorporating these electron-transporting and hole-transporting layer materials as building blocks, a variety of interconnecting layers for conventional or inverted tandem OSCs are comprehensively discussed, along with their functions to bridge the difference between adjacent subcells. By analyzing the structure-property relationships of various interfacial materials, the important design rules for such materials towards high efficiency and stable OSCs are highlighted. Finally, we present a brief summary as well as some perspectives to help researchers understand the current challenges and opportunities in this emerging area of research.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-02-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/advs.201500362",
+              "id": "https://openalex.org/W2281370366",
+              "provider": "openalex",
+              "title": "Interfacial Materials for Organic Solar Cells: Recent Advances and Perspectives"
+            },
+            {
+              "abstract": "Lignin nanomaterials have emerged as a promising alternative to fossil-based chemicals and products for some potential added-value applications, which benefits from their structural diversity and biodegradability. This review elucidates a perspective in recent research on nanolignins and their nanocomposites. It summarizes the different nanolignin preparation methods, emphasizing anti-solvent precipitation, self-assembly and interfacial crosslinking. Also described are the preparation of various nanocomposites by the chemical modification of nanolignin and compounds with inorganic materials or polymers. Additionally, advances in numerous potential high-value applications, such as use in food packaging, biomedical, chemical engineering and biorefineries, are described.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-05-19",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3390/nano11051336",
+              "id": "https://openalex.org/W3162169585",
+              "provider": "openalex",
+              "title": "Lignin Nanoparticles and Their Nanocomposites"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2010-01-22",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/nmat2614",
+              "id": "https://openalex.org/W2141947008",
+              "provider": "openalex",
+              "title": "Emerging applications of stimuli-responsive polymer materials"
+            },
+            {
+              "abstract": "Block copolymer self-assembly provides a platform for fabricating dense, ordered nanostructures by encoding information in the chemical architecture of multicomponent macromolecules. Depending on the volume fraction of the components and chain topology, these macromolecules form a variety of spatially periodic microphases in thermodynamic equilibrium. The kinetics of self-assembly, however, often results in initial morphologies with defects, and the subsequent ordering is protracted. Different strategies have been devised to direct the self-assembly of copolymer materials by external fields to align and perfect the self-assembled nanostructures. Understanding and controlling the thermodynamics of defects, their response to external fields, and their dynamics is important because applications in microelectronics either require extremely low defect densities or aim at generating specific defects at predetermined locations to fabricate irregular device-oriented structures for integrated circuits. In this review, we discuss defect morphologies of block copolymers in the bulk and thin films, highlighting (a) analogies to and differences from defects in other crystalline materials, (b) the stability of defects and their dynamics, and (c) the influence of external fields.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-05-04",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1146/annurev-chembioeng-061114-123209",
+              "id": "https://openalex.org/W2099034860",
+              "provider": "openalex",
+              "title": "Defects in the Self-Assembly of Block Copolymers and Their Relevance for Directed Self-Assembly"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2013-02-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/nl304253y",
+              "id": "S2:04b748d872e2029f9503356bc376e8c6cb344039",
+              "provider": "semantic_scholar",
+              "title": "Revealing the interfacial self-assembly pathway of large-scale, highly-ordered, nanoparticle/polymer monolayer arrays at an air/water interface.",
+              "url": "https://www.semanticscholar.org/paper/04b748d872e2029f9503356bc376e8c6cb344039?utm_source=api"
+            },
+            {
+              "abstract": "Instant interfacial self-assembly of nanoparticle monolayer advances the thin film technology in a “lift-on” and conformal manner.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-12-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1126/sciadv.abk2852",
+              "id": "S2:77a291efda4d13b342300bef1ba295e5d13924a7",
+              "provider": "semantic_scholar",
+              "title": "Instant interfacial self-assembly for homogeneous nanoparticle monolayer enabled conformal “lift-on” thin film technology",
+              "url": "https://www.semanticscholar.org/paper/77a291efda4d13b342300bef1ba295e5d13924a7?utm_source=api"
+            },
+            {
+              "abstract": "HYPOTHESIS\nGeneration of long-range ordering of colloidal particles through anisotropic interactions is of growing interest in material designing. At submicron-scale, routine works use synthetic spheres or rods but the knowledge pertaining to assembly of binary combination of particles is severely restricted. Improved understanding of the fundamental aspects that drive self-assembly, can lead to robust strategies for fabrication of topographically oriented films.\n\n\nEXPERIMENT\nThe fluidical geometry of a liquid crystalline (LC) solution of polysaccharide consisting of micron-sized rod and platelet units was explored. The solutions, characterized for their rheological behavior, were evaporated from a rectangular cavity. The assembly and orientation of the units was monitored by polarizing microscopy and the interparticle capillary forces approximated mathematically.\n\n\nFINDINGS\nThe units deposited into an uninterrupted membrane upon interfacial evaporation, forming a bridge along the 8 mm gap, linking the substrates. The membrane, composed of a lamellar structure, was uniaxially oriented along the direction of the gap. The rheological estimations corroborated an extremely high value of viscosity with the presence of crosslinking junctions in this solution when compared to a solution with only rod units, capable of bridging a maximum of 1 mm. It has been demonstrated for the very first time that the presence of platelet-units contributes lateral capillary interactions and assist rod-units towards a wider, self-assembled structure.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-02-08",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.jcis.2021.02.017",
+              "id": "S2:20d0db5cf6dde44110061d185ea12dd60fac1d3e",
+              "provider": "semantic_scholar",
+              "title": "Interfacial self-assembly of polysaccharide rods and platelets bridging over capillary lengths.",
+              "url": "https://www.semanticscholar.org/paper/20d0db5cf6dde44110061d185ea12dd60fac1d3e?utm_source=api"
+            },
+            {
+              "abstract": "Energetic co-crystallization has been extensively explored as an effective strategy to balance the energy and sensitivity of energetic materials. In the present study, CL-20/HMX co-crystals with high purity, uniform morphology, well-proportioned size distribution, compact internal structure and reduced sensitivity were fabricated by a solvent-induced self-assembling approach using corresponding nanoparticles as the basic units. Such a CL-20/HMX co-crystal based on the self-assembly of a nano-explosive has been reported for the first time, providing a novel, high-yield, general and easily scaled-up method for the fabrication of energetic co-crystals. Notably, the formation processes of the as-synthesized co-crystals were determined as interfacial self-assembly at nanoparticle scale instead of the complete dissolution and nucleation process at the molecular level as observed with the traditional recrystallization technique. The completely formed CL-20/HMX co-crystal structure with few separate-assembled CL-20 or HMX crystals was charecterized by PXRD, TG-DSC, Raman, FT-IR, DG and SCXRD analyses. Additionally, the formation of intermolecular hydrogen bonds was confirmed by Terahertz (THz) analysis. The typical Avrami equation was constructed for modeling the kinetics of the assembly of CL-20/HMX co-crystals, and the self-assembly process can be generally summarized as the induction of nano-particles, oriented aggregation, surface integration and single co-crystal formation.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-01-01",
+              "date_precision": "year",
+              "doi": "https://doi.org/10.1039/c9ce01447k",
+              "id": "S2:6047a386a4244dd97aafaee45b2261ef1c051f17",
+              "provider": "semantic_scholar",
+              "title": "Seeking a novel energetic co-crystal strategy through the interfacial self-assembly of CL-20 and HMX nanocrystals",
+              "url": "https://www.semanticscholar.org/paper/6047a386a4244dd97aafaee45b2261ef1c051f17?utm_source=api"
+            },
+            {
+              "abstract": "Abstract Both porphyrins and nanoscale ZnO semiconductors (nanoZnO) are important eco-friendly light-sensitizers and photocatalysts in academic researches and industrial applications. Here, ultrathin films of multiporphyrin arrays were constructed on the surface of nanoZnO to produce binary hybrids based on the coordination reaction of Pd(II) ions and tetrapyridylporphyrin (TPyP). The hybrids of nanoZnO@(Pd–TPyP)n as-produced displayed an improved absorption ability from 200 to 700 nm and an effective energy transfer between the multiporphyrin arrays and nanoZnO cores. Benefit from such a synergistic effect, their photocatalytic performance was largely improved as compared with that of the original porphyrins and nanoZnO particles. Particularly, under only visible light radiation, the photocurrent density of nanoZnO@(Pd–TPyP)n hybrids was approximately 25 times stronger and the photocatalytic efficiency on the degradation of Rhodamine B was over 10 times higher as compared with that of the original nanoZnO particles. Finally, because the multiporphyrin arrays were anchored on the nanoZnO’s surfaces via the covalent and coordinative bonding, the present nano-hybrids displayed not only structural controllability at the molecular level but also well stability, reusability, and recyclability as the heterogeneous photocatalysts.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-08-15",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.apsusc.2020.146465",
+              "id": "S2:2d19b10a819298d4ea96396e285f1e353ad1fbd9",
+              "provider": "semantic_scholar",
+              "title": "Interfacial self-assembly of nanoZnO@multiporphyrin array hybrids as binary light-sensitizers for photocurrent generation and photocatalytic degradation of organic pollutants",
+              "url": "https://www.semanticscholar.org/paper/2d19b10a819298d4ea96396e285f1e353ad1fbd9?utm_source=api"
+            },
+            {
+              "abstract": "A high throughput way to generate gold nanoparticle-based microcapsules was demonstrated based on the interfacial assembly in a water and 2-ethyl-1-hexanol two phase system. The obtained gold microcapsules exhibit superior stability, good flexibility, ductility, and a significant enhancement (about 10-fold) in the biphasic catalytic reaction rate upon near-infrared light irradiation.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-09-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1039/c9cc05326c",
+              "id": "S2:54bd0f92b2ebb84cf881fa368d0698eaa1f1517c",
+              "provider": "semantic_scholar",
+              "title": "Interfacial self-assembly of gold nanoparticle-polymer nanoconjugates into microcapsules with near-infrared light modulated biphasic catalysis efficiency.",
+              "url": "https://www.semanticscholar.org/paper/54bd0f92b2ebb84cf881fa368d0698eaa1f1517c?utm_source=api"
+            },
+            {
+              "abstract": "Light-sensitizer functionalized organic-inorganic hybrid materials have attracted much attention due to their potential applications in the fields of optoelectronics, heterogeneous catalysis, sensors and nanotechnology. Here, we reported an interfacial self-assembly of zero-dimensional (0D) silica@multiporphyrin array nano-hybrids and their 3D Langmuir-Blodgett (LB) films. Photoactive tetrapyridylporphyrin (TPyP) was firstly assembled on the silica nanoparticles' surfaces via silane, substitution and coordination reactions to produce nanoSiO2@(Pd-TPyP)n hybrids. Then, the Cd2+-nanoSiO2@(Pd-TPyP)n monolayers and LB films were constructed on the CdCl2 subphase surface. These monolayers and LB films displayed stronger stability, more uniform and closely packed nanoparticles' arrays as compared with those prepared on the pure water surface, due to the formation of strong network-like Pd- and Cd-TPyP coordination units that largely enhanced the nanoparticles' interaction. Further, as compared with that of the 0D nanoSiO2@(Pd-TPyP)n hybrids, the degradation efficiency was nearly 20 times higher when the hybrids' LB films were used as the light-sensitizers for the photocatalytic degradation of RhB. Finally, the flexible photochromic devices were constructed by using the LB films sandwiched between two electrodes, which displayed a well reversible photo-induced redox reaction of viologen together with a color change process. Because TPyP was strongly immobilized on the nanoparticles' surfaces and the particles were connected through the Py-Pd2+-Py and Py-Cd2+-Py coordination units with the 3D network-like architecture, the present nano-hybrids and LB films had good stability and reusability.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-09-02",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/asia.201900803",
+              "id": "S2:06f80e03d62b7d241031a9f0f24450571d470207",
+              "provider": "semantic_scholar",
+              "title": "Interfacial Self-Assembly of Closely-Packed Nanoparticle Arrays of Silica@Multiporphyrin Hybrids as Light-Sensitizers for Dye Degradation and Viologen Photochromism.",
+              "url": "https://www.semanticscholar.org/paper/06f80e03d62b7d241031a9f0f24450571d470207?utm_source=api"
+            },
+            {
+              "abstract": "HYPOTHESIS\nSelf-assembly of two types of particles into the binary colloidal crystals (BCCs) leads to the peculiar features which the monocomponent colloidal crystals do not possess. However, the self-assembly methods of the BCCs are still limited.\n\n\nEXPERIMENTS\nA facile, cost-effective and controllable approach was presented to fabricate the BCCs by directly dripping silica particle suspensions containing water and ethanol into the monodisperse polytetrafluoroethylene (PTFE) colloidal solutions. The BCCs composed of the silica and PTFE particles were formed at the air-liquid interface and picked up using the target substrates, followed by the corrosion of silica particles. Using this strategy, various ordered porous PTFE films including homo-pore-size mono/multilayer and hetero-pore-size bilayer films were prepared. The chemical composition of the porous films was well controlled.\n\n\nFINDINGS\nThe dissolution of ethanol resulted in the interfacial tension gradient, and thus the Marangoni convection and the relative movement of the liquid and the particles emerged. The silica particles were trapped at the air-liquid interface and the PTFE particles filled the interstitial spaces between the silica particles. After the porous films were sintered at temperatures above the melting point of PTFE, the PTFE particles were transformed into nanofibers, leading to the transferability, excellent superhydrophobicity and environmental durability.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-07-15",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.jcis.2019.04.039",
+              "id": "S2:c07f33999381159e6f7cd61342669b2734ec7920",
+              "provider": "semantic_scholar",
+              "title": "Interfacial tension gradient driven self-assembly of binary colloidal particles for fabrication of superhydrophobic porous films.",
+              "url": "https://www.semanticscholar.org/paper/c07f33999381159e6f7cd61342669b2734ec7920?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-09-28",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/ACS.JPCC.7B07242",
+              "id": "S2:68a2d19cae46476439d0c30ef9ff1ccb1a27d555",
+              "provider": "semantic_scholar",
+              "title": "CoFe2O4 Nanoparticle-Integrated Spin-Valve Thin Films Prepared by Interfacial Self-Assembly",
+              "url": "https://www.semanticscholar.org/paper/68a2d19cae46476439d0c30ef9ff1ccb1a27d555?utm_source=api"
+            },
+            {
+              "abstract": "Fabricating of solid-supported hybrid nanostructures remains a challenging problem because it is difficult to control all interfacial interactions influencing the structure and stability of these systems. The most widely used approach to solving this problem is a bottom-up assembly on the surface templates such as self-assembled monolayers (SAMs). Herein we suggest an alternative approach to tailoring solid surfaces by a formation of an interlayer anchoring the nanostructured film to the solid substrate. We formed a multifunctional bilayer template (MBT), comprising an adhesive monolayer of graphene oxide and a functional ordered monolayer of metal organic compound (Zinc-tetra(4-pyridyl)porphyrin) directing further bottom-up growth of the nanostructures. The one-step assembly of MBT proceeded spontaneously at the air/water interface and was monitored by an in-situ fiber optic absorption and fluorescence spectroscopy in a Langmuir trough. Dilatation surface rheology was applied to study the evolution of molecular organization of the monolayers upon adding the zinc ions, GO and their mixture into the subphase. The MBT templates were used for the assembly of porphyrin-based SURMOFs with two different structures. Our strategy makes it possible to assemble surface-anchored nanostructures avoiding the use of SAMs and it can be extended to other types of ultrathin hybrid systems.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-11-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.jcis.2018.06.086",
+              "id": "S2:4eb802b5f8ab8f93203de2af79c2dbd16082f1d5",
+              "provider": "semantic_scholar",
+              "title": "Interfacial self-assembly of functional bilayer templates comprising porphyrin arrays and graphene oxide.",
+              "url": "https://www.semanticscholar.org/paper/4eb802b5f8ab8f93203de2af79c2dbd16082f1d5?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2021-12-31",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 1842,
+              "query": "binary nanoparticle bilayer interfacial self assembly",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8699",
+                "reset_seconds": "51876"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2021-12-31",
+                  "per_page": "10",
+                  "search": "binary nanoparticle bilayer interfacial self assembly",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2022-01-01"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2021-12-31",
+              "attempts": 3,
+              "locally_excluded_uncertain_or_not_strictly_before": 0,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 1721,
+              "query": "binary nanoparticle bilayer interfacial self assembly",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "binary nanoparticle bilayer interfacial self assembly",
+                  "year": "1900-2021"
+                }
+              },
+              "strict_before": "2022-01-01"
+            }
+          },
+          "query": "binary nanoparticle bilayer interfacial self assembly",
+          "strict_before": "2022-01-01"
+        }
+      ]
+    },
+    "B": {
+      "queries": [
+        {
+          "api_cutoff": "2021-12-31",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2011-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/nature09713",
+              "id": "https://openalex.org/W2058345890",
+              "provider": "openalex",
+              "title": "Directed self-assembly of a colloidal kagome lattice"
+            },
+            {
+              "abstract": "Abstract Synthesis of binary nanoparticle superlattices has attracted attention for a broad spectrum of potential applications. However, this has remained challenging for one-dimensional nanoparticle systems. In this study, we investigate the packing behavior of one-dimensional nanoparticles of different diameters into a hexagonally packed cylindrical micellar system and demonstrate that binary one-dimensional nanoparticle superlattices of two different symmetries can be obtained by tuning particle diameter and mixing ratios. The hexagonal arrays of one-dimensional nanoparticles are embedded in the honeycomb lattices (for AB 2 type) or kagome lattices (for AB 3 type) of micellar cylinders. The maximization of free volume entropy is considered as the main driving force for the formation of superlattices, which is well supported by our theoretical free energy calculations. Our approach provides a route for fabricating binary one-dimensional nanoparticle superlattices and may be applicable for inorganic one-dimensional nanoparticle systems.",
+              "also_returned_by": [
+                "semantic_scholar"
+              ],
+              "alternate_ids": [
+                "S2:e75b18584a62c2eacc7dcd9b74701ef8c2c3de8c"
+              ],
+              "date": "2017-08-21",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41467-017-00512-9",
+              "id": "https://openalex.org/W2747346357",
+              "provider": "openalex",
+              "title": "Hierarchically self-assembled hexagonal honeycomb and kagome superlattices of binary 1D colloids"
+            },
+            {
+              "abstract": "Organization of spherical particles into lattices is typically driven by packing considerations. Although the addition of directional binding can significantly broaden structural diversity, nanoscale implementation remains challenging. Here we investigate the assembly of clusters and lattices in which anisotropic polyhedral blocks coordinate isotropic spherical nanoparticles via shape-induced directional interactions facilitated by DNA recognition. We show that these polyhedral blocks--cubes and octahedrons--when mixed with spheres, promote the assembly of clusters with architecture determined by polyhedron symmetry. Moreover, three-dimensional binary superlattices are formed when DNA shells accommodate the shape disparity between nanoparticle interfaces. The crystallographic symmetry of assembled lattices is determined by the spatial symmetry of the block's facets, while structural order depends on DNA-tuned interactions and particle size ratio. The presented lattice assembly strategy, exploiting shape for defining the global structure and DNA-mediation locally, opens novel possibilities for by-design fabrication of binary lattices.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-04-23",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/ncomms7912",
+              "id": "https://openalex.org/W2004220723",
+              "provider": "openalex",
+              "title": "Superlattices assembled through shape-induced directional binding"
+            },
+            {
+              "abstract": "A major challenge in nanoparticle self-assembly is programming the large-area organization of a single type of anisotropic nanoparticle into distinct superlattices with tunable packing efficiencies. Here we utilize nanoscale surface chemistry to direct the self-assembly of silver octahedra into three distinct two-dimensional plasmonic superlattices at a liquid/liquid interface. Systematically tuning the surface wettability of silver octahedra leads to a continuous superlattice structural evolution, from close-packed to progressively open structures. Notably, silver octahedra standing on vertices arranged in a square lattice is observed using hydrophobic particles. Simulations reveal that this structural evolution arises from competing interfacial forces between the particles and both liquid phases. Structure-to-function characterizations reveal that the standing octahedra array generates plasmonic 'hotstrips', leading to nearly 10-fold more efficient surface-enhanced Raman scattering compared with the other more densely packed configurations. The ability to assemble these superlattices on the wafer scale over various platforms further widens their potential applications.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-04-29",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/ncomms7990",
+              "id": "https://openalex.org/W2060310961",
+              "provider": "openalex",
+              "title": "Nanoscale surface chemistry directs the tunable assembly of silver octahedra into three two-dimensional plasmonic superlattices"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-06-13",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/nchem.2540",
+              "id": "https://openalex.org/W2442878865",
+              "provider": "openalex",
+              "title": "Self-organized architectures from assorted DNA-framed nanoparticles"
+            },
+            {
+              "abstract": "Material properties depend critically on the packing and order of constituent units throughout length scales. Beyond classically explored molecular self-assembly, structure formation in the nanoparticle and colloidal length scales have recently been actively explored for new functions. Structure of colloidal assemblies depends strongly on the assembly process, and higher structural control can be reliably achieved only if the process is deterministic. Here we show that self-assembly of cationic spherical metal nanoparticles and anionic rod-like viruses yields well-defined binary superlattice wires. The superlattice structures are explained by a cooperative assembly pathway that proceeds in a zipper-like manner after nucleation. Curiously, the formed superstructure shows right-handed helical twisting due to the right-handed structure of the virus. This leads to structure-dependent chiral plasmonic function of the material. The work highlights the importance of well-defined colloidal units when pursuing unforeseen and complex assemblies.Colloidal self-assembly is a unique method to produce three-dimensional materials with well-defined hierarchical structures and functionalities. Liljeström et al. show controlled preparation of macroscopic chiral wires with helical plasmonic superlattice structure composed of metal nanoparticles and viruses.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-09-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41467-017-00697-z",
+              "id": "https://openalex.org/W2754198449",
+              "provider": "openalex",
+              "title": "Cooperative colloidal self-assembly of metal-protein superlattice wires"
+            },
+            {
+              "abstract": "Most binary superlattices created using DNA functionalization rely on particle size differences to achieve compositional order and structural diversity. Here we study two-dimensional (2D) assembly of DNA-functionalized micron-sized particles (DFPs), and employ a strategy that leverages the tunable disparity in interparticle interactions, and thus enthalpic driving forces, to open new avenues for design of binary superlattices that do not rely on the ability to tune particle size (i.e., entropic driving forces). Our strategy employs tailored blends of complementary strands of ssDNA to control interparticle interactions between micron-sized silica particles in a binary mixture to create compositionally diverse 2D lattices. We show that the particle arrangement can be further controlled by changing the stoichiometry of the binary mixture in certain cases. With this approach, we demonstrate the ability to program the particle assembly into square, pentagonal, and hexagonal lattices. In addition, different particle types can be compositionally ordered in square checkerboard and hexagonal-alternating string, honeycomb, and Kagome arrangements.",
+              "also_returned_by": [
+                "semantic_scholar"
+              ],
+              "alternate_ids": [
+                "S2:8d0b1360193b316a366db224b1c9d01224bae2bd"
+              ],
+              "date": "2017-11-07",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/acs.langmuir.7b02835",
+              "id": "https://openalex.org/W2604576320",
+              "provider": "openalex",
+              "title": "Binary Superlattice Design by Controlling DNA-Mediated Interactions"
+            },
+            {
+              "abstract": "Binary superlattices constructed from nano- or micron-sized colloidal particles have a wide variety of applications, including the design of advanced materials. Self-assembly of such crystals from their constituent colloids can be achieved in practice by, among other means, the functionalization of colloid surfaces with single-stranded DNA sequences. However, when driven by DNA, this assembly is traditionally premised on the pairwise interaction between a single DNA sequence and its complement, and often relies on particle size asymmetry to entropically control the crystalline arrangement of its constituents. The recently proposed \"multi-flavoring\" motif for DNA functionalization, wherein multiple distinct strands of DNA are grafted in different ratios to different colloids, can be used to experimentally realize a binary mixture in which all pairwise interactions are independently controllable. In this work, we use various computational methods, including molecular dynamics and Wang-Landau Monte Carlo simulations, to study a multi-flavored binary system of micron-sized DNA-functionalized particles modeled implicitly by Fermi-Jagla pairwise interactions. We show how self-assembly of such systems can be controlled in a purely enthalpic manner, and by tuning only the interactions between like particles, demonstrate assembly into various morphologies. Although polymorphism is present over a wide range of pairwise interaction strengths, we show that careful selection of interactions can lead to the generation of pure compositionally ordered crystals. Additionally, we show how th",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1039/c8sm00989a",
+              "id": "https://openalex.org/W2863773377",
+              "provider": "openalex",
+              "title": "Assembly of three-dimensional binary superlattices from multi-flavored particles"
+            },
+            {
+              "abstract": "The robustness of the integer quantum Hall effect of electron systems is due to the existence of a topological invariant that characterizes the variation of the electron wave function over the Brillouin zone. Topological phenomena are generic features of waves in periodic media, and this article reviews how photonic systems such as waveguide arrays and photonic metamaterials allow exploration and application of topological effects in new physical regimes and in new devices.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-03-25",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/revmodphys.91.015006",
+              "id": "https://openalex.org/W4211161891",
+              "provider": "openalex",
+              "title": "Topological photonics"
+            },
+            {
+              "abstract": "Quantum strongly correlated systems that exhibit interesting features in condensed matter physics often need an unachievable temperature or pressure range in classical materials. One solution is to introduce a scaling factor, namely, the lattice parameter. Synthetic heterostructures named superlattices or supracrystals are synthesized by the assembling of colloidal atoms. These include semiconductors, metals, and insulators for the exploitation of their unique properties. Most of them are currently limited to dense packing. However, some of desired properties need to adjust the colloidal atoms neighboring number. Here, the current state of research in nondense packing is summarized, discussing the benefits, outlining possible scenarios and methodologies, describing examples reported in the literature, briefly discussing the challenges, and offering preliminary conclusions. Penetrating such new and intriguing research fields demands a multidisciplinary approach accounting for the coupling of statistic physics, solid state and quantum physics, chemistry, computational science, and mathematics. Standard interactions between colloidal atoms and emerging fields, such as the use of Casimir forces, are reported. In particular, the focus is on the novelty of patchy colloidal atoms to meet this challenge.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-05-08",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/adma.201706558",
+              "id": "https://openalex.org/W2801828929",
+              "provider": "openalex",
+              "title": "Nonisotropic Self‐Assembly of Nanoparticles: From Compact Packing to Functional Aggregates"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2006-02-24",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/JA0564261",
+              "id": "S2:9ecb16df50f854741e03bbf7faa214a8d913cf96",
+              "provider": "semantic_scholar",
+              "title": "Structural characterization of self-assembled multifunctional binary nanoparticle superlattices.",
+              "url": "https://www.semanticscholar.org/paper/9ecb16df50f854741e03bbf7faa214a8d913cf96?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-08-17",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/jacs.5b06306",
+              "id": "S2:8e46fcea768776eac8b5a6fee767d0e467fb5698",
+              "provider": "semantic_scholar",
+              "title": "Dendron-Mediated Engineering of Interparticle Separation and Self-Assembly in Dendronized Gold Nanoparticles Superlattices.",
+              "url": "https://www.semanticscholar.org/paper/8e46fcea768776eac8b5a6fee767d0e467fb5698?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2008-06-24",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/nn800065g",
+              "id": "S2:27489dac4715734348092168f5044f55d989e9c5",
+              "provider": "semantic_scholar",
+              "title": "Mapping nanostructure: a systematic enumeration of nanomaterials by assembling nanobuilding blocks at crystallographic positions.",
+              "url": "https://www.semanticscholar.org/paper/27489dac4715734348092168f5044f55d989e9c5?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2014-06-04",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:d14be0c4e423eb3b8c9fd49a85153075103f03c2",
+              "provider": "semantic_scholar",
+              "title": "Study of Two-Dimensional Materials with Honeycomb Geometry",
+              "url": "https://www.semanticscholar.org/paper/d14be0c4e423eb3b8c9fd49a85153075103f03c2?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2021-12-31",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 95,
+              "query": "binary nanoparticle Kagome hexagonal superlattice",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8689",
+                "reset_seconds": "51853"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2021-12-31",
+                  "per_page": "10",
+                  "search": "binary nanoparticle Kagome hexagonal superlattice",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2022-01-01"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2021-12-31",
+              "attempts": 1,
+              "locally_excluded_uncertain_or_not_strictly_before": 0,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 6,
+              "query": "binary nanoparticle Kagome hexagonal superlattice",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "binary nanoparticle Kagome hexagonal superlattice",
+                  "year": "1900-2021"
+                }
+              },
+              "strict_before": "2022-01-01"
+            }
+          },
+          "query": "binary nanoparticle Kagome hexagonal superlattice",
+          "strict_before": "2022-01-01"
+        },
+        {
+          "api_cutoff": "2021-12-31",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-08-23",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/nature19089",
+              "id": "https://openalex.org/W2512535536",
+              "provider": "openalex",
+              "title": "Surface patterning of nanoparticles with polymer patches"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-01-27",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/natrevmats.2015.11",
+              "id": "https://openalex.org/W2301443109",
+              "provider": "openalex",
+              "title": "Assembly and phase transitions of colloidal crystals"
+            },
+            {
+              "abstract": "This review describes some important physical characteristics of the pathways (i.e., dynamical processes) by which molecular, nanoscale, and micrometer-scale self-assembly occurs. We highlight the existence of features of self-assembly pathways that are common to a wide range of physical systems, even though those systems may differ with respect to their microscopic details. We summarize some existing theoretical descriptions of self-assembly pathways and highlight areas-notably, the description of self-assembly pathways that occur far from equilibrium-that are likely to become increasingly important.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2014-12-10",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1146/annurev-physchem-040214-121215",
+              "id": "https://openalex.org/W2121563903",
+              "provider": "openalex",
+              "title": "The Statistical Mechanics of Dynamic Pathways to Self-Assembly"
+            },
+            {
+              "abstract": "A major challenge in nanoparticle self-assembly is programming the large-area organization of a single type of anisotropic nanoparticle into distinct superlattices with tunable packing efficiencies. Here we utilize nanoscale surface chemistry to direct the self-assembly of silver octahedra into three distinct two-dimensional plasmonic superlattices at a liquid/liquid interface. Systematically tuning the surface wettability of silver octahedra leads to a continuous superlattice structural evolution, from close-packed to progressively open structures. Notably, silver octahedra standing on vertices arranged in a square lattice is observed using hydrophobic particles. Simulations reveal that this structural evolution arises from competing interfacial forces between the particles and both liquid phases. Structure-to-function characterizations reveal that the standing octahedra array generates plasmonic 'hotstrips', leading to nearly 10-fold more efficient surface-enhanced Raman scattering compared with the other more densely packed configurations. The ability to assemble these superlattices on the wafer scale over various platforms further widens their potential applications.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-04-29",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/ncomms7990",
+              "id": "https://openalex.org/W2060310961",
+              "provider": "openalex",
+              "title": "Nanoscale surface chemistry directs the tunable assembly of silver octahedra into three two-dimensional plasmonic superlattices"
+            },
+            {
+              "abstract": "The controlled patterning of polymeric surfaces at the micro- and nanoscale offers potential in the technological development of small-scale devices, particularly within the fields of photovoltaics, micro-optics and lab- and organ-on-chip, where the topological arrangement of the surface can influence a system's power generation, optical properties or biological function - such as, in the latter case, biomimicking surfaces or topological control of cellular differentiation. One of the most promising approaches in reducing manufacturing costs and complexity is by exploitation of the self-assembling properties of colloidal particles. Self-assembly techniques can be used to produce colloidal crystals onto surfaces, which can act as replicative masks, as has previously been demonstrated with colloidal lithography, or templates in mold-replication methods with resolutions dependent on particle size. Within this context, a particular emerging interest is focused on the use of self-assembled colloidal crystal surfaces in polymer replication methods such as soft lithography, hot and soft embossing and nano-imprint lithography, offering low-cost and high-resolution alternatives to conventional lithographic techniques. However, there are still challenges to overcome for this surface patterning approach to reach a manufacturing reliability and process robustness comparable to competitive technologies already available in the market, as self-assembly processes are not always 100% effective in organizing colloids within a structural pattern onto the surface. Defects often occur during t",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-11-08",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.cis.2017.10.007",
+              "id": "https://openalex.org/W2767348602",
+              "provider": "openalex",
+              "title": "Surface self-assembly of colloidal crystals for micro- and nano-patterning"
+            },
+            {
+              "abstract": "This review describes the latest advances in the synthesis and assembly of specific colloids such as the colloidal molecules as defined by van Blaaderen in 2003 and the patchy particles imagined a few years later. The two concepts are closely related because some may serve as precursors of others and vice versa. To best mimic the molecular structures, it is necessary to introduce the notions of directed binding and valence which result in the concept of patches arranged on the particle surface according to the conventional repulsion figures. The assembly of patchy particles has made it possible to reconstitute molecules and macromolecules of simple geometry. But the existence of extended assemblies of larger dimensions has been demonstrated mostly by simulation and it struggles experimentally with the purity of the batches of building blocks.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1039/c9cs00804g",
+              "id": "https://openalex.org/W3007704182",
+              "provider": "openalex",
+              "title": "Colloidal molecules and patchy particles: complementary concepts, synthesis and self-assembly"
+            },
+            {
+              "abstract": "Quantum strongly correlated systems that exhibit interesting features in condensed matter physics often need an unachievable temperature or pressure range in classical materials. One solution is to introduce a scaling factor, namely, the lattice parameter. Synthetic heterostructures named superlattices or supracrystals are synthesized by the assembling of colloidal atoms. These include semiconductors, metals, and insulators for the exploitation of their unique properties. Most of them are currently limited to dense packing. However, some of desired properties need to adjust the colloidal atoms neighboring number. Here, the current state of research in nondense packing is summarized, discussing the benefits, outlining possible scenarios and methodologies, describing examples reported in the literature, briefly discussing the challenges, and offering preliminary conclusions. Penetrating such new and intriguing research fields demands a multidisciplinary approach accounting for the coupling of statistic physics, solid state and quantum physics, chemistry, computational science, and mathematics. Standard interactions between colloidal atoms and emerging fields, such as the use of Casimir forces, are reported. In particular, the focus is on the novelty of patchy colloidal atoms to meet this challenge.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-05-08",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/adma.201706558",
+              "id": "https://openalex.org/W2801828929",
+              "provider": "openalex",
+              "title": "Nonisotropic Self‐Assembly of Nanoparticles: From Compact Packing to Functional Aggregates"
+            },
+            {
+              "abstract": "An increasing theoretical and experimental effort has been recently dedicated to the design and the fabrication of colloidal particles that may recognize each other and organize themselves via directional and specific interactions. These new colloidal particles exhibit a site-specific engineering of their surface and are commonly named patchy particles . In this article, we review the theoretical studies that describe the self-assembly of patchy colloids with an increasing number of patches and make the link with the experimental studies that have already allowed or might be used for the synthesis of the corresponding colloids.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.crci.2015.11.013",
+              "id": "https://openalex.org/W2279418076",
+              "provider": "openalex",
+              "title": "Patchy colloidal particles for programmed self-assembly"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2012-03-30",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.cap.2012.03.019",
+              "id": "https://openalex.org/W1969816870",
+              "provider": "openalex",
+              "title": "A new era for liquid crystal research: Applications of liquid crystals in soft matter nano-, bio- and microtechnology"
+            },
+            {
+              "abstract": "Characterization of the morphology, identification of patterns and quantification of order encountered in colloidal assemblies is essential for several reasons. First of all, it is useful to compare different self-assembly methods and assess the influence of different process parameters on the final colloidal pattern. In addition, casting light on the structures formed by colloidal particles can help to get better insight into colloidal interactions and understand phase transitions. Finally, the growing interest in colloidal assemblies in materials science for practical applications going from optoelectronics to biosensing imposes a thorough characterization of the morphology of colloidal assemblies because of the intimate relationship between morphology and physical properties (e.g. optical and mechanical) of a material. Several image analysis techniques developed to investigate images (acquired via scanning electron microscopy, digital video microscopy and other imaging methods) provide variegated and complementary information on the colloidal structures under scrutiny. However, understanding how to use such image analysis tools to get information on the characteristics of the colloidal assemblies may represent a non-trivial task, because it requires the combination of approaches drawn from diverse disciplines such as image processing, computational geometry and computational topology and their application to a primarily physico-chemical process. Moreover, the lack of a systematic description of such analysis tools makes it difficult to select the ones more suitable for t",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-09-06",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.cis.2020.102252",
+              "id": "https://openalex.org/W3083421372",
+              "provider": "openalex",
+              "title": "Pattern detection in colloidal assembly: A mosaic of analysis techniques"
+            },
+            {
+              "abstract": "We investigated the physicochemical and transport phenomena governing the self-assembly of colloidal nanoparticles at the interface of two immiscible fluids. By combining in-situ grazing incidence small-angle X-ray scattering (GISAXS) with a temporal resolution of 200 ms and electron microscopy measurements we gained new insights into the coupled effects of solvent spreading, nanoparticle assembly and recession of the vapor-liquid interface on the morphology of the self-assembled thin films. We focus on oleate-passivated PbSe nanoparticles dispersed across an ethylene glycol subphase as a model system and demonstrate how solvent parameters such as surface tension, nanoparticle solubility, aromaticity and polarity influence the mesoscale morphology of the nanoparticle superlattice. We discovered that a nanoparticle precursor monolayer film spreads in front of the bulk solution and influences the fluid spreading across the subphase. Improved understanding of the impact of kinetic phenomena (i.e., solvent spreading and evaporation) on superlattice morphology is important to describe the formation mechanism and ultimately enable assembly of high-quality superlattices with long range order.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-05-11",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/acs.langmuir.0c00524",
+              "id": "S2:00f529f353b850c13b84077e0510c2281e9ab5db",
+              "provider": "semantic_scholar",
+              "title": "The coupled dynamics of colloidal nanoparticle spreading and self-assembly at a fluid-fluid interface.",
+              "url": "https://www.semanticscholar.org/paper/00f529f353b850c13b84077e0510c2281e9ab5db?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2008-02-22",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/ja710994m",
+              "id": "S2:7c98cbfb9ba8b444255f0f241470a3816f325a94",
+              "provider": "semantic_scholar",
+              "title": "Free-standing, patternable nanoparticle/polymer monolayer arrays formed by evaporation induced self-assembly at a fluid interface.",
+              "url": "https://www.semanticscholar.org/paper/7c98cbfb9ba8b444255f0f241470a3816f325a94?utm_source=api"
+            },
+            {
+              "abstract": "Real-time optical reflection of incident p-polarized light near Brewster’s angle shows that after drop-casting iron oxide nanoparticles (NPs) in heptane on top of a diethylene glycol (DEG) liquid substrate, an iron oxide NP layer forms at the DEG/heptane interface, and it self-limits to a monolayer even when there are excess NPs dispersed in the upper heptane phase. Most modes of NP self-assembly do not self-limit growth after the formation of a single monolayer. Observations are compared to a reflection model incorporating the reflectances expected at each interface. An effective medium model of the dielectric constant is used to model the reflectance of the NP layer at the DEG/heptane interface.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-06-26",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1063/1.5099487",
+              "id": "S2:fbe4ea5b81f0fb5f8b2a1be63b26757944427c78",
+              "provider": "semantic_scholar",
+              "title": "Brewster angle optical reflection observation of self-limiting nanoparticle monolayer self-assembly at a liquid/liquid interface",
+              "url": "https://www.semanticscholar.org/paper/fbe4ea5b81f0fb5f8b2a1be63b26757944427c78?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:33dc5d1ef194b6f1b7122a704d999010f7d2e3bd",
+              "provider": "semantic_scholar",
+              "title": "Nanoparticle assembly at fluid/fluid interface",
+              "url": "https://www.semanticscholar.org/paper/33dc5d1ef194b6f1b7122a704d999010f7d2e3bd?utm_source=api"
+            },
+            {
+              "abstract": "Colloid-sized particles (10 nm–10 μm in characteristic size) adsorb onto fluid interfaces, where they minimize their interfacial energy by straddling the surface, immersing themselves partly in each phase bounding the interface. The energy minimum achieved by relocation to the surface can be orders of magnitude greater than the thermal energy, effectively trapping the particles into monolayers, allowing them freedom only to translate and rotate along the surface. Particles adsorbed at interfaces are models for the understanding of the dynamics and assembly of particles in two dimensions and have broad technological applications, importantly in foam and emulsion science and in the bottom-up fabrication of new materials based on their monolayer assemblies. In this review, the hydrodynamics of the colloid motion along the surface is examined from both continuum and molecular dynamics frameworks. The interfacial energies of adsorbed particles is discussed first, followed by the hydrodynamics, starting with isolated particles followed by pairwise and multiple particle interactions. The effect of particle shape is emphasized, and the role played by the immersion depth and the surface rheology is discussed; experiments illustrating the applicability of the hydrodynamic studies are also examined. Expected final online publication date for the Annual Review of Fluid Mechanics, Volume 54 is January 2022. Please see http://www.annualreviews.org/page/journal/pubdates for revised estimates.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-11-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1146/annurev-fluid-032621-043917",
+              "id": "S2:72a4421752dc7c4cfcf02b55e4789c3215df46a4",
+              "provider": "semantic_scholar",
+              "title": "Continuum and Molecular Dynamics Studies of the Hydrodynamics of Colloids Straddling a Fluid Interface",
+              "url": "https://www.semanticscholar.org/paper/72a4421752dc7c4cfcf02b55e4789c3215df46a4?utm_source=api"
+            },
+            {
+              "abstract": "Abstract The miscibility and surface tension gradient between the upper and subphase solvents were shown as key factors in the self-assembly of magnetic nanoparticles at the liquid-air interface. The drop-casting of magnetic nanoparticles suspended in hexane does not result in a long-range pattern on the surface of liquid subphases of lower surface tension gradient and higher miscibility with hexane. Instead, nanoparticles disperse into the mixture between upper and subphase solvents. By contrast, the low miscibility and high surface tension gradient between deionized water subphase and hexane lead to a long-range ordered monolayer. Interestingly, domains of hexagonal close-packed superlattices and honeycomb pattern are also obtained. According to this unique finding, a variety of two-dimensional ordered structures can be assembled at water-air interface.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-08-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/J.MATLET.2019.03.088",
+              "id": "S2:753562027707ccbb5faaffc5b05f5a9507b4582b",
+              "provider": "semantic_scholar",
+              "title": "Effect of subphase solvent on magnetic nanoparticle monolayer assembled at liquid-air interface",
+              "url": "https://www.semanticscholar.org/paper/753562027707ccbb5faaffc5b05f5a9507b4582b?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2013-02-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/nl304253y",
+              "id": "S2:04b748d872e2029f9503356bc376e8c6cb344039",
+              "provider": "semantic_scholar",
+              "title": "Revealing the interfacial self-assembly pathway of large-scale, highly-ordered, nanoparticle/polymer monolayer arrays at an air/water interface.",
+              "url": "https://www.semanticscholar.org/paper/04b748d872e2029f9503356bc376e8c6cb344039?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-05-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/admi.201600976",
+              "id": "S2:4ff47375e18676e835b4493ee7f0f789b1ede8f6",
+              "provider": "semantic_scholar",
+              "title": "Capillary Gradient‐Induced Self‐Assembly of Periodic Au Spherical Nanoparticle Arrays on an Ultralarge Scale via a Bisolvent System at Air/Water Interface",
+              "url": "https://www.semanticscholar.org/paper/4ff47375e18676e835b4493ee7f0f789b1ede8f6?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-02-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/J.FOODHYD.2016.09.010",
+              "id": "S2:a96e78a806b4b26582a0ff17d8f90308ca490c64",
+              "provider": "semantic_scholar",
+              "title": "Tunable assembly of hydrophobic protein nanoparticle at fluid interfaces with tannic acid",
+              "url": "https://www.semanticscholar.org/paper/a96e78a806b4b26582a0ff17d8f90308ca490c64?utm_source=api"
+            },
+            {
+              "abstract": "Ring-shaped deposits can be often found after a droplet evaporates on a substrate. If the fluid in the droplet is a pure liquid and its contact line remains pinned during the process, the mechanism behind such ring-shaped deposition is the well-known coffee-stain effect. However, adding small amounts of salt to such a droplet can change the internal flow dramatically and consequently change the deposition mechanism. Due to an increase of surface tension in the contact line region, a Marangoni flow arises which is directed from the apex of the droplet towards the contact line. As a result, particles arrive at the contact line following the liquid-air interface of the droplet. Interestingly, the deposit is also ring-shaped, as in the classical coffee-stain effect, but with a radically different morphology: particles form a monolayer along the liquid-air interface of the droplet, instead of a compact three-dimensional deposit. Using confocal microscopy, we study particle-per-particle how the assembly of the colloidal monolayer occurs during the evaporation of droplets for different initial concentration of sodium chloride and initial particle dilution. Our results are compared with classical diffusion-limited deposition models and open up an interesting scenario of deposits via interfacial particle assembly, which can easily yield homogeneous depositions by manipulating the initial salt and particle concentration in the droplet.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-04-15",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PHYSREVFLUIDS.5.083603",
+              "id": "S2:2ac2f87e68866eca5cfaea1c24fa2255d6a73f3f",
+              "provider": "semantic_scholar",
+              "title": "Particle monolayer assembly in evaporating salty colloidal droplets",
+              "url": "https://www.semanticscholar.org/paper/2ac2f87e68866eca5cfaea1c24fa2255d6a73f3f?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2021-12-31",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 79,
+              "query": "fluid interface nanoparticle Kagome monolayer assembly",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8679",
+                "reset_seconds": "51850"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2021-12-31",
+                  "per_page": "10",
+                  "search": "fluid interface nanoparticle Kagome monolayer assembly",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2022-01-01"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2021-12-31",
+              "attempts": 2,
+              "locally_excluded_uncertain_or_not_strictly_before": 0,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 757,
+              "query": "fluid interface nanoparticle Kagome monolayer assembly",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "fluid interface nanoparticle Kagome monolayer assembly",
+                  "year": "1900-2021"
+                }
+              },
+              "strict_before": "2022-01-01"
+            }
+          },
+          "query": "fluid interface nanoparticle Kagome monolayer assembly",
+          "strict_before": "2022-01-01"
+        }
+      ]
+    }
+  },
+  "generated_at": "2026-08-09T09:35:58.077216+00:00",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "d12490ac5f669b39aa946afe55c9d9b04900df1506ac65b6e6cd7172bd4025d2",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Migrated without changing the frozen pre-t0 query results; non-detection is scoped, not universal priority.",
+  "strict_before": "2022-01-01",
+  "task_id": "Material_01_binary_superlattice",
+  "release": "V1.0"
+}

@@ -1,0 +1,206 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "Both condition slopes are negative and endpoint ratios fall below one, whereas control change is negligible.",
+      "independent_reconstruction_method": "Endpoint, linear, rank, peak-to-final, and leave-one-interior-time comparisons.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Four complete uncertainty-bearing time points for control and two perturbation conditions.",
+      "one_liner": "Two perturbed responses decline over time while the control remains nearly flat, with the second perturbation declining most strongly.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample.py",
+          "script_sha256": "4d754e69df8ebb4d280b17365f47172f754c8e0c269db9b61726f15aeef88781"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method.py",
+          "script_sha256": "04c029594642833dace96ca6fd4ed0d59d8fe977820860da9a8072db3d43f160"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition.py",
+          "script_sha256": "ed7c1cf0d1ed0e5076bbbb9f7ee0341b5dbe9af07955ae646c4611b1638eeb0c"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A replicate supports the relationship if both perturbation slopes remain negative, control slope stays within ±0.002, and condition B declines by more than 20%; otherwise it fails."
+      },
+      "quantities": [
+        {
+          "key": "control_endpoint_ratio",
+          "role": "core",
+          "tolerance_rel": 0.02,
+          "unit": "fraction",
+          "value": 1.0047762304996433
+        },
+        {
+          "key": "condition_a_endpoint_ratio",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "fraction",
+          "value": 0.8655755048697762
+        },
+        {
+          "key": "condition_b_endpoint_ratio",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "fraction",
+          "value": 0.7086176552320376
+        },
+        {
+          "key": "condition_a_linear_slope",
+          "role": "supporting",
+          "tolerance_rel": 0.1,
+          "unit": "response_per_time",
+          "value": -0.007025000000000001
+        },
+        {
+          "key": "condition_b_linear_slope",
+          "role": "supporting",
+          "tolerance_rel": 0.1,
+          "unit": "response_per_time",
+          "value": -0.015103999999999996
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "script_sha256": "9395e629a73740c6b311f5327a823be1ba9e2dc120ac01f9b5050e8cf2fb03b2",
+        "values": [
+          {
+            "json_path": "values.control_endpoint_ratio",
+            "quantity_key": "control_endpoint_ratio"
+          },
+          {
+            "json_path": "values.condition_a_endpoint_ratio",
+            "quantity_key": "condition_a_endpoint_ratio"
+          },
+          {
+            "json_path": "values.condition_b_endpoint_ratio",
+            "quantity_key": "condition_b_endpoint_ratio"
+          },
+          {
+            "json_path": "values.condition_a_linear_slope",
+            "quantity_key": "condition_a_linear_slope"
+          },
+          {
+            "json_path": "values.condition_b_linear_slope",
+            "quantity_key": "condition_b_linear_slope"
+          }
+        ]
+      },
+      "scope": "The supplied perturbation panel only; it does not uniquely identify a biohybrid mechanism.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports condition-specific stability loss in a light-driven biohybrid system.",
+        "paper_location": "Perturbation time-response source-data panel.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "The middle response exceeds both endpoints, yet every leave-one analysis destroys interior-peak identifiability and linear/quadratic summaries disagree.",
+      "independent_reconstruction_method": "Leave-one-dose identifiability, linear-versus-quadratic model conflict, and scale-invariant peak location.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "All three complete dose-response observations.",
+      "one_liner": "The measured dose response is highest at the middle point, but three points cannot support a stable or universal optimum.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample.py",
+          "script_sha256": "85910131b24f825c93244c9c646a4d886d4e274cb86fee7ac0259701f38d026f"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method.py",
+          "script_sha256": "5760ddbe38aa47b4492f53b9ff860538c0f99bac6839a42333c692d12f2fa7ec"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition.py",
+          "script_sha256": "d0237c62451808037240091663b2a73d023f1578a2259f00f6eab9a3352a0fad"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "At least two additional predeclared doses on each side are required for validation; a stable interior maximum across their leave-one fits supports a bounded optimum, otherwise the current unresolved conclusion remains."
+      },
+      "quantities": [
+        {
+          "key": "dose_point_count",
+          "role": "core",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 3
+        },
+        {
+          "key": "observed_peak_dose",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "dose_units",
+          "value": 31.77532
+        },
+        {
+          "key": "observed_peak_to_low_dose_ratio",
+          "role": "supporting",
+          "tolerance_rel": 0.08,
+          "unit": "fold",
+          "value": 1.9999971362295599
+        },
+        {
+          "key": "high_dose_to_observed_peak_ratio",
+          "role": "supporting",
+          "tolerance_rel": 0.05,
+          "unit": "fraction",
+          "value": 0.866025467546991
+        },
+        {
+          "key": "leave_one_peak_identifiability_fraction",
+          "role": "core",
+          "tolerance_rel": 0.0,
+          "unit": "fraction",
+          "value": 0.0
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "script_sha256": "a72d5321c9f0e19880ca8e6521ddae96a4a21472eea9bcc8c7ccb06a323d1120",
+        "values": [
+          {
+            "json_path": "values.dose_point_count",
+            "quantity_key": "dose_point_count"
+          },
+          {
+            "json_path": "values.observed_peak_dose",
+            "quantity_key": "observed_peak_dose"
+          },
+          {
+            "json_path": "values.observed_peak_to_low_dose_ratio",
+            "quantity_key": "observed_peak_to_low_dose_ratio"
+          },
+          {
+            "json_path": "values.high_dose_to_observed_peak_ratio",
+            "quantity_key": "high_dose_to_observed_peak_ratio"
+          },
+          {
+            "json_path": "values.leave_one_peak_identifiability_fraction",
+            "quantity_key": "leave_one_peak_identifiability_fraction"
+          }
+        ]
+      },
+      "scope": "A deliberately bounded uncertainty result: the interior maximum is observed, while optimum shape and location are underidentified.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports a dose-dependent operating response within a limited measured range.",
+        "paper_location": "Sparse dose-response source-data panel.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "These two cards are verified reference discoveries for blind-rediscovery diagnostics and are not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2023-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Energy_07_biohybrid_operating_tradeoffs",
+  "release": "V1.0"
+}

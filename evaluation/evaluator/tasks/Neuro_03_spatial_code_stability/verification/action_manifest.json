@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Neuro_03_spatial_code_stability",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition.py",
+      "script_sha256": "ef8d5d61615032c5048ce8a0c6adfde422f57c2b38498ca4c3accf8f7391484d"
+    },
+    {
+      "script": "verification/perturb/A/method.py",
+      "script_sha256": "818aa257cf13b3e3e34df8f230c2c0bd5654323cec51b408fa5cb94b85cebe96"
+    },
+    {
+      "script": "verification/perturb/A/sample.py",
+      "script_sha256": "74a551d7ea4140a4a9c23b9a67d486ac0424136a57e065b2fcbfc3ef39aec2b7"
+    },
+    {
+      "script": "verification/perturb/B/definition.py",
+      "script_sha256": "d564acff8b06045138d4b037441ba3bb83ff9f21f2ab4a03598d78fcdeec2da7"
+    },
+    {
+      "script": "verification/perturb/B/method.py",
+      "script_sha256": "1d5d95cbe0261470ca66937a347922c322b69a6f4fbd09090839711935862e7d"
+    },
+    {
+      "script": "verification/perturb/B/sample.py",
+      "script_sha256": "3e0e6164ada914544b2491a6d276f2430b87ba8a1cd89fc2861b56fa00ec12a2"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "2a7d793d5a60c363c31d9c87b66bdb796a33cecf4eca87f0af261eadddcc5152"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "f890a77db27ef2471b39310ce1850512c839d29fa8429e404e74aef0ec623d0f"
+    }
+  ],
+  "verification_tree_sha256": "a343062e1b9e246540cb3976247298e934a5208d2fdfa30808ff37f1d199bebb",
+  "verification_file_count": 8,
+  "shared_runtime_tree_sha256": "d8710168f8a9c9ce1fd4946fdcfa0a279806376236feda46a5384b7f302428e9",
+  "shared_runtime_file_count": 4
+}

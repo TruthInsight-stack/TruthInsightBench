@@ -1,0 +1,102 @@
+{
+  "analysis_unit": "One complete trial or experiment in a MAT cell array; 25,600 time points and sessions within a trial are not independent replicates.",
+  "domain": "neuroscience",
+  "files": [
+    {
+      "bundled": true,
+      "bytes": 5815188,
+      "materialization_required": false,
+      "path": "raw/response_data_apv.mat",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "3d560fa05879fa571905d0ace0ae9dc6eefc82a81ecb3d6c5e9206f7bb137807"
+    },
+    {
+      "bundled": true,
+      "bytes": 3308199,
+      "materialization_required": false,
+      "path": "raw/response_data_bic.mat",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "21824a2b09977401b4f9065820ea2f98b16eb82ce8351e405c8eaf734d7d91e9"
+    },
+    {
+      "bundled": true,
+      "bytes": 17481996,
+      "materialization_required": false,
+      "path": "raw/response_data_ctrl.mat",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "af90d5d9f267b899cf24299068de3e0b4c18c95dc0620b4a5128f733cfd9d654"
+    },
+    {
+      "bundled": true,
+      "bytes": 3473361,
+      "materialization_required": false,
+      "path": "raw/response_data_dzp.mat",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "eef5c998d02aa0273ff4564eed7c328edb08302fc9b1db730d313652a60a9ecd"
+    },
+    {
+      "bundled": true,
+      "bytes": 2120612,
+      "materialization_required": false,
+      "path": "raw/response_data_mix0.mat",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "45a56cd147c76c854c0eec48fd58645c76205edd1e7b06ff2d76640f2d7ac072"
+    },
+    {
+      "bundled": true,
+      "bytes": 2156282,
+      "materialization_required": false,
+      "path": "raw/response_data_mix50.mat",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "8d384c2a6c5aea1ac5c5deaf09820af4791d7e65242f7c2fb18c01da997df542"
+    },
+    {
+      "bundled": true,
+      "bytes": 1691,
+      "materialization_required": false,
+      "path": "source_shapes.json",
+      "role": "structured_scientific_data",
+      "sha256": "63dc014eee7fdbd3b1e312e8418a36a3d3f4d54040896056361220ab40516e3a"
+    }
+  ],
+  "freeze_status": "frozen",
+  "license_boundary": "Frozen source repository: GPL-3.0; the data boundary is archived with its upstream license.",
+  "missingness": "The frozen data contain no curator-imposed row deletion or subsampling.",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "schema": "truthinsightbench-data-manifest",
+  "scientific_scope": "All six response MAT files under the frozen source repository's in-vitro data boundary.",
+  "t0": "2022-01-01",
+  "task_id": "Neuro_01_self_organization_prediction",
+  "title": "Self-Organization and Prediction Boundaries in Multi-Session Neural Networks",
+  "variable_dictionary": [
+    {
+      "file_or_pattern": "raw/response_data_*.mat",
+      "measures": [
+        "s: hidden sources (time, 2)",
+        "o: sensory stimulus (time, 32)",
+        "r: neural response (time, 64)"
+      ]
+    },
+    {
+      "file_or_pattern": "source_shapes.json",
+      "measures": [
+        "condition",
+        "independent_trials",
+        "trial_shape",
+        "field_shapes"
+      ]
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "warnings": [
+    "Time points are not independent replicates; do not report n=25,600 as the scientific sample size.",
+    "Model selection, population filtering, and standardization must be explicit in executable code."
+  ],
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

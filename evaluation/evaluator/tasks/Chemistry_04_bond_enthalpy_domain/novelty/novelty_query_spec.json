@@ -1,0 +1,21 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "large scale organic bond dissociation enthalpy database machine learning",
+        "homolytic bond dissociation energy database organic molecules"
+      ]
+    },
+    "B": {
+      "queries": [
+        "machine learning organic bond dissociation enthalpy chemical accuracy",
+        "graph neural network bond dissociation energy experimental benchmark"
+      ]
+    }
+  },
+  "provider": "frozen_bibliographic_snapshot",
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2019-10-18",
+  "task_id": "Chemistry_04_bond_enthalpy_domain",
+  "release": "V1.0"
+}

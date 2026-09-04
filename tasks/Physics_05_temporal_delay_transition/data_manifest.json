@@ -1,0 +1,676 @@
+{
+  "analysis_unit": "One buffer value, one velocity or autocorrelation curve, and one finite-size or random replicate.",
+  "domain": "physics",
+  "files": [
+    {
+      "bundled": true,
+      "bytes": 100,
+      "materialization_required": false,
+      "path": "source_data/figures/Extended_data_fig1/data/B.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "1ddfed34269037fe21b52dc616012221b4c57ce15a93d004f9ae49226c02c5c7"
+    },
+    {
+      "bundled": true,
+      "bytes": 1350050,
+      "materialization_required": false,
+      "path": "source_data/figures/Extended_data_fig1/data/out_tr.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "9c19fa4265babf776e7049dd55c2e3c14259f3ba008d8f0fe53ae8d3d3f1ab13"
+    },
+    {
+      "bundled": true,
+      "bytes": 53,
+      "materialization_required": false,
+      "path": "source_data/figures/Extended_data_fig1/fig_source_data/B_data.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "c51b1b25a523e904f3464bf4dd9f14baf2222d28e69a87590e46035fce1f8a2f"
+    },
+    {
+      "bundled": true,
+      "bytes": 501665,
+      "materialization_required": false,
+      "path": "source_data/figures/Extended_data_fig1/fig_source_data/Extended_data_fig1_all_source_data.xlsx",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "18a148edb98c21daa98313bf600fbcaff403ec266977f7864b0786d8f04d0549"
+    },
+    {
+      "bundled": true,
+      "bytes": 623097,
+      "materialization_required": false,
+      "path": "source_data/figures/Extended_data_fig1/fig_source_data/out_tr_data.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "500e30ba364600ebb25eb56e89639f5436e24d277995d921be7fff438614ba12"
+    },
+    {
+      "bundled": true,
+      "bytes": 102279,
+      "materialization_required": false,
+      "path": "source_data/figures/SI.1_Bc/fig_source_data/si1_all_source_data.xlsx",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "84269d38d0e1384fe19cd9eb3e125d8f0c5256f941180c6f23fd7a3d519cc12d"
+    },
+    {
+      "bundled": true,
+      "bytes": 775,
+      "materialization_required": false,
+      "path": "source_data/figures/SI.2_finite_size/data/N_values.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "2c2ed5fcb40d6657f37d8908702ffb9f1542f6748c9c474b9790d6bb7dee3961"
+    },
+    {
+      "bundled": true,
+      "bytes": 252,
+      "materialization_required": false,
+      "path": "source_data/figures/SI.2_finite_size/data/N_values.npy",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "2b771858d812b8ca97fc47adf03a24c12ee5a9a0c55b23d74cea89d544c35c1d"
+    },
+    {
+      "bundled": true,
+      "bytes": 775,
+      "materialization_required": false,
+      "path": "source_data/figures/SI.2_finite_size/data/meanfield_Bc.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "40bfba728ef21820ee77db36660535a227409982ab68a6073f40048bc025b935"
+    },
+    {
+      "bundled": true,
+      "bytes": 376,
+      "materialization_required": false,
+      "path": "source_data/figures/SI.2_finite_size/data/meanfield_Bc.npy",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "f8cd84b60f4b28715121ff3fab3e3a4809e625030a04d066cd891dcad6d3cdb3"
+    },
+    {
+      "bundled": true,
+      "bytes": 775,
+      "materialization_required": false,
+      "path": "source_data/figures/SI.2_finite_size/data/tempnet_Bc.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "7683c53ecea62f47d851b8cc3847f16c9d789c4fb47afbd458b4eda2eef77642"
+    },
+    {
+      "bundled": true,
+      "bytes": 376,
+      "materialization_required": false,
+      "path": "source_data/figures/SI.2_finite_size/data/tempnet_Bc.npy",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "c630d83493dc3665340fb2166ccdbcceccf6f6887d6efcbc87513aac318909e0"
+    },
+    {
+      "bundled": true,
+      "bytes": 7617,
+      "materialization_required": false,
+      "path": "source_data/figures/SI.2_finite_size/fig_source_data/si2_all_source_data.xlsx",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "b0e259ea8c8de6839398d15e49a1cfdfc54a885068d254ab5c8f8b6e4cc95b55"
+    },
+    {
+      "bundled": true,
+      "bytes": 68,
+      "materialization_required": false,
+      "path": "source_data/figures/SI.3_f_noise/data/Bs.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "2e4167d960539ffa7dcaedc9ea95cd4603aeb721e645aa96b85de67598a7d8e8"
+    },
+    {
+      "bundled": true,
+      "bytes": 2280,
+      "materialization_required": false,
+      "path": "source_data/figures/SI.3_f_noise/data/spectra1.txt",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "e65ad434bb06880e34309a9b1ec5d108b0442046610f5c3119b9108c1ecdde2f"
+    },
+    {
+      "bundled": true,
+      "bytes": 2267,
+      "materialization_required": false,
+      "path": "source_data/figures/SI.3_f_noise/data/spectra2.txt",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "a5d242e61e3de24341cf064a32860684d3b220d7d5e6650da5e69021bc4be669"
+    },
+    {
+      "bundled": true,
+      "bytes": 2266,
+      "materialization_required": false,
+      "path": "source_data/figures/SI.3_f_noise/data/spectra3.txt",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "bca5a9bad7f753da82839209d5cc9dad871a60f851b27e1752db206da9ab137d"
+    },
+    {
+      "bundled": true,
+      "bytes": 2269,
+      "materialization_required": false,
+      "path": "source_data/figures/SI.3_f_noise/data/spectra4.txt",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "63ae41ff4d236988935a0cf7a58aa481f2bf0bd20cd470a1ce489a3a721d825b"
+    },
+    {
+      "bundled": true,
+      "bytes": 2268,
+      "materialization_required": false,
+      "path": "source_data/figures/SI.3_f_noise/data/spectra5.txt",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "de28058688c8e3fe037234ec8438f6750bb15406073488807fd69bc996771275"
+    },
+    {
+      "bundled": true,
+      "bytes": 2423,
+      "materialization_required": false,
+      "path": "source_data/figures/SI.3_f_noise/data/variogram.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "37b7eaefcb7ae95e3641ad65d73c41801381f96c0721f1bd1ae65de94194364e"
+    },
+    {
+      "bundled": true,
+      "bytes": 8319,
+      "materialization_required": false,
+      "path": "source_data/figures/SI.3_f_noise/fig_source_data/si3_all_source_data.xlsx",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "69b2a6fac0ca366b142557d102159e4239a2599626ba26596d060eab054933df"
+    },
+    {
+      "bundled": true,
+      "bytes": 1824,
+      "materialization_required": false,
+      "path": "source_data/figures/SI.5a_heterogeneous_RW/data/heterogeneous.npy",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "323300be7fe0df453c776e89fd1d7a46149fdc9edaec540e458d927c7b373ac0"
+    },
+    {
+      "bundled": true,
+      "bytes": 1816,
+      "materialization_required": false,
+      "path": "source_data/figures/SI.5a_heterogeneous_RW/data/homogeneous.npy",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "781c1fc30dc57bee48463f1d9b5fa2f670433219190557157df398294e8732ef"
+    },
+    {
+      "bundled": true,
+      "bytes": 15469,
+      "materialization_required": false,
+      "path": "source_data/figures/SI.5a_heterogeneous_RW/fig_source_data/si5a_all_source_data.xlsx",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "eed820bccb379a4c59e7ce1537a2bae9533db7ca4044f3e3dfd24bb57535fa6e"
+    },
+    {
+      "bundled": true,
+      "bytes": 1816,
+      "materialization_required": false,
+      "path": "source_data/figures/SI.5b_sparse_RW/data/no_sparsity.npy",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "781c1fc30dc57bee48463f1d9b5fa2f670433219190557157df398294e8732ef"
+    },
+    {
+      "bundled": true,
+      "bytes": 1816,
+      "materialization_required": false,
+      "path": "source_data/figures/SI.5b_sparse_RW/data/sparse.npy",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "7e8f6b55bbf2a6089e641c996b0ad2640830bb31a9cef93df7d9a2891addfaab"
+    },
+    {
+      "bundled": true,
+      "bytes": 1816,
+      "materialization_required": false,
+      "path": "source_data/figures/SI.5b_sparse_RW/data/sparse_01.npy",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "e3d46cf51b5ed631e1b240f479149d4adcda69afc15a57f46340758713d2fa29"
+    },
+    {
+      "bundled": true,
+      "bytes": 12960128,
+      "materialization_required": false,
+      "path": "source_data/figures/SI.5b_sparse_RW/data/sparse_30.npy",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "5b49522a5c67db6ac1801f997e06325d76d852705f4b422c176768f9c1e8a50b"
+    },
+    {
+      "bundled": true,
+      "bytes": 1816,
+      "materialization_required": false,
+      "path": "source_data/figures/SI.5b_sparse_RW/data/sparse_50.npy",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "c729450fcb31d9b89ad8aa768ba1f790bb23270332ca337d7674c357b3d513e4"
+    },
+    {
+      "bundled": true,
+      "bytes": 25250,
+      "materialization_required": false,
+      "path": "source_data/figures/SI.5b_sparse_RW/fig_source_data/si5b_all_source_data.xlsx",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "8cf863ed1d4c9b9e3b52bb0ad18de79a8d6413375935f8bfb94fcbcc7c3ab189"
+    },
+    {
+      "bundled": true,
+      "bytes": 149829,
+      "materialization_required": false,
+      "path": "source_data/figures/fig2_critical_buffer/data/above_bc.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "221207c77b6155f47980901bfcbf10a08047dc46cac6868ca9e9dbf89befecbe"
+    },
+    {
+      "bundled": true,
+      "bytes": 295309,
+      "materialization_required": false,
+      "path": "source_data/figures/fig2_critical_buffer/data/below_bc.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "a1d8c69699cc9c798e8bafe234aaed510a231a01b76d6e6259864b486eac5211"
+    },
+    {
+      "bundled": true,
+      "bytes": 1647,
+      "materialization_required": false,
+      "path": "source_data/figures/fig2_critical_buffer/data/meanfield_data.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "58c71edcf7e1ae60ae05118e2d9a52ba7928cbe6299d8c3fce2386f3f676ec0d"
+    },
+    {
+      "bundled": true,
+      "bytes": 6078,
+      "materialization_required": false,
+      "path": "source_data/figures/fig2_critical_buffer/data/theory_data.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "b57b55f8f03a79d6001c2e972abab624a596b1ed3becc4e68843b999bcbc1a94"
+    },
+    {
+      "bundled": true,
+      "bytes": 389192,
+      "materialization_required": false,
+      "path": "source_data/figures/fig2_critical_buffer/fig_source_data/fig2_source_data.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "44e49947e3dcfde2803e5e04791cfe7790115c9fcf547998a3da162c448669c1"
+    },
+    {
+      "bundled": true,
+      "bytes": 39549,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3a_correlation_collapse/data/corr.ave_1.txt",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "d88448224038f38c9ef454923ea49a54e29b68bf76340c447dbcdb3ebf2f718f"
+    },
+    {
+      "bundled": true,
+      "bytes": 27936,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3a_correlation_collapse/data/corr.ave_2.txt",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "d4bf1e74476f74d86560651bf6912a25aaf4ced1700827aefbd1f22459a3c84d"
+    },
+    {
+      "bundled": true,
+      "bytes": 24811,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3a_correlation_collapse/data/corr.ave_3.txt",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "3ab57e0247b21c1454d1e4a96ac6898c55a04236f4ec90dd439f3f00bb4a8d7c"
+    },
+    {
+      "bundled": true,
+      "bytes": 14478,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3a_correlation_collapse/data/corr.ave_4.txt",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "a56b78785cd79bb13f138391dfe1b177ea9ec52a8a7d4fef7bec363ab9f0fa72"
+    },
+    {
+      "bundled": true,
+      "bytes": 9828,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3a_correlation_collapse/data/corr.ave_5.txt",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "7390641fdbafd5daf7ef7cdd856ca8b87dd87fb5ce6ce921d95d8db190f7d2c9"
+    },
+    {
+      "bundled": true,
+      "bytes": 951799,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3a_correlation_collapse/fig_source_data/3a_all_source_data.xlsx",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "be645ab476792de6ceff8e1d60d20d7d64c624d134efdcc7ea522d3f3917f4f3"
+    },
+    {
+      "bundled": true,
+      "bytes": 1475,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3a_correlation_collapse/fig_source_data/inset_fit_data.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "dd4ea9a99e06c5a896dbf8430fc7ecb3fb5c3a8095c4598ef1b39cae0b8ae3ac"
+    },
+    {
+      "bundled": true,
+      "bytes": 122,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3a_correlation_collapse/fig_source_data/inset_scatter_data.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "3f84d5573fd6cb87703d849f09b0eb247f8219ce8c8e413563863706b1d46cd0"
+    },
+    {
+      "bundled": true,
+      "bytes": 1030337,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3a_correlation_collapse/fig_source_data/main_figure_fit_data.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "0c352f0b1268c2bb0b51e2f859f490d10ad741ee6aeb966e3aa619546fc12325"
+    },
+    {
+      "bundled": true,
+      "bytes": 146462,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3a_correlation_collapse/fig_source_data/main_figure_scatter_data.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "48d0b4a37a0f6b7db392714f7c9e80bf37285057b2b0590f6d486644fbe84ac2"
+    },
+    {
+      "bundled": true,
+      "bytes": 3217,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3b_persistence_avalanche/data/stat1_sm_20.txt",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "3e5f8746d9d434edd0668c17b9158ce3bbdb550c7845a968c0b47f995018e6df"
+    },
+    {
+      "bundled": true,
+      "bytes": 2943,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3b_persistence_avalanche/data/stat2_sm_20.txt",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "1acc598b13ed95578505712054c8b1e50a4c3e3b71f07fbd56b0053484b9daa4"
+    },
+    {
+      "bundled": true,
+      "bytes": 2663,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3b_persistence_avalanche/data/stat3_sm_20.txt",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "5c77b4a4aaeda81a2c8e0b5d5d000b1c0ee340bd9c307b1e9a5eeb5d1ace5fb5"
+    },
+    {
+      "bundled": true,
+      "bytes": 2426,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3b_persistence_avalanche/data/stat4_sm_20.txt",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "0258b53db1e0908ff6b38c85be8af3faf13c4480f3e6dd5be4af2f8e05077136"
+    },
+    {
+      "bundled": true,
+      "bytes": 2207,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3b_persistence_avalanche/data/stat5_sm_20.txt",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "6093ab1ed8027e9754ab7ea7525d055f14f75bec5e61aaf4343cb6c93699bf2a"
+    },
+    {
+      "bundled": true,
+      "bytes": 31692,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3b_persistence_avalanche/fig_source_data/3b_all_source_data.xlsx",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "646bd3e1ce224e1acf00b53fbe14b36643fea513f5942979313d25c9a3a5e858"
+    },
+    {
+      "bundled": true,
+      "bytes": 148,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3b_persistence_avalanche/fig_source_data/fig3b_inset_data.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "518d75e7e9934e002a12872532274fbdef0a1b6d06adf2bdafab2cc1bbf764fd"
+    },
+    {
+      "bundled": true,
+      "bytes": 1435,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3b_persistence_avalanche/fig_source_data/fig3b_inset_fit_data.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "3dc8cb07928e2edf952a968cd6b790589a0f7f0bdc06651d12813e19d07b9d9f"
+    },
+    {
+      "bundled": true,
+      "bytes": 6832,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3b_persistence_avalanche/fig_source_data/source_data_B1.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "aa3fdf9ef5280716f07e5e1e9d6d83b9c3326431373da6d0c043fc6033b840bd"
+    },
+    {
+      "bundled": true,
+      "bytes": 6170,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3b_persistence_avalanche/fig_source_data/source_data_B2.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "05e3fc0edfdd31fcc50ec0bc3abdd07710afa8c2c53decf486bf7ec4152d0551"
+    },
+    {
+      "bundled": true,
+      "bytes": 5548,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3b_persistence_avalanche/fig_source_data/source_data_B3.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "b1a8e3088d2316c0f04b2d3ac8283a20a18ceb836b78984256a90c70a4a426cb"
+    },
+    {
+      "bundled": true,
+      "bytes": 5035,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3b_persistence_avalanche/fig_source_data/source_data_B4.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "e0cbe521ad2feb437a88b47fc192c04def486e6c025b252142b3bd3417e21cee"
+    },
+    {
+      "bundled": true,
+      "bytes": 4615,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3b_persistence_avalanche/fig_source_data/source_data_B5.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "6d7d6e329d05d9257532c97a48d01a78d6596da64d321f8c7ab778677deb30e9"
+    },
+    {
+      "bundled": true,
+      "bytes": 27096,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3c_avalanche_mass/data/P_mass1.txt",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "df078fa93a5b768314cb7e9da4553919d7a05d073cbaaa88daad2e2c0cafb35a"
+    },
+    {
+      "bundled": true,
+      "bytes": 26898,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3c_avalanche_mass/data/P_mass2.txt",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "f26c7d54709c8c119215506cb12e56e6626d16c1596ca0ea6dbe1eb329dcbb1c"
+    },
+    {
+      "bundled": true,
+      "bytes": 26750,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3c_avalanche_mass/data/P_mass3.txt",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "f48fcece008ff9a95a25ca5da57ef7400885647ad3f563cf57b28e50fd716035"
+    },
+    {
+      "bundled": true,
+      "bytes": 26608,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3c_avalanche_mass/data/P_mass4.txt",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "7bd32b4b3c9ea7ec7b1933d07117eef4e1a125a78f6d7eb3e3cca6f7d22193cb"
+    },
+    {
+      "bundled": true,
+      "bytes": 26487,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3c_avalanche_mass/data/P_mass5.txt",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "1437d19adc7812bbec9deffe260472f0a1e326093f236114c824adc13779f24c"
+    },
+    {
+      "bundled": true,
+      "bytes": 2138320,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3c_avalanche_mass/fig_source_data/3c_all_source_data.xlsx",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "8fabdde3f33ba78c4d90c2a731b982b9d73e65efe913ebc8d48a6ed7dc071f9d"
+    },
+    {
+      "bundled": true,
+      "bytes": 2972426,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3c_avalanche_mass/fig_source_data/ax1_fit_data.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "b9e18757454dee9dbe74c7b6d7a89827e00fb6cf48750b248c457aee840df7ff"
+    },
+    {
+      "bundled": true,
+      "bytes": 113967,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3c_avalanche_mass/fig_source_data/ax1_scatter_data.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "3b734ce269d3142389e025edc0e8de4015766798a5f6e00fcd35cdc8cb84a45b"
+    },
+    {
+      "bundled": true,
+      "bytes": 4304,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3c_avalanche_mass/fig_source_data/ax2_fit_data.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "dc340184d109b28edb50b4170d59d0875a859cae9f5b6ee4e9f43afa0a8bc792"
+    },
+    {
+      "bundled": true,
+      "bytes": 154,
+      "materialization_required": false,
+      "path": "source_data/figures/fig3c_avalanche_mass/fig_source_data/ax2_scatter_data.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "4f8ba3a9e4483a42596c5f91fb4a4a06c17e2d6dd03126541c8a0379eba6c315"
+    },
+    {
+      "bundled": true,
+      "bytes": 1193,
+      "materialization_required": false,
+      "path": "source_data/figures/fig4b_RW_networks/data/Thiers13_delays.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "9be85addfb066b7e6280acf8b528783a500d5c1ea7c35b63828630f397e5cbd2"
+    },
+    {
+      "bundled": true,
+      "bytes": 1375,
+      "materialization_required": false,
+      "path": "source_data/figures/fig4b_RW_networks/data/Workplace15_delays.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "c0165bb4c9b3dfd44bf70c994bfa093a5f2c49fbf59886c1512896b99731f24e"
+    },
+    {
+      "bundled": true,
+      "bytes": 790,
+      "materialization_required": false,
+      "path": "source_data/figures/fig4b_RW_networks/data/buffer_lin.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "30cd301989630d782ba594efaa6f7b1a8667eca512f5a19e43cad6e83938dfbe"
+    },
+    {
+      "bundled": true,
+      "bytes": 798,
+      "materialization_required": false,
+      "path": "source_data/figures/fig4b_RW_networks/data/buffer_log.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "0fe6eaf6c12a1ee57c5a1c291f8c195c57d475f980700210798b95eafe002142"
+    },
+    {
+      "bundled": true,
+      "bytes": 8612,
+      "materialization_required": false,
+      "path": "source_data/figures/fig4b_RW_networks/fig_source_data/4b_all_source_data.xlsx",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "a4761bbaac1f0974db106335cc33864e802b3cad57d66b221d18cbfb53dad609"
+    },
+    {
+      "bundled": true,
+      "bytes": 1992,
+      "materialization_required": false,
+      "path": "source_data/figures/fig4b_RW_networks/fig_source_data/Thiers13_source_data.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "8944ed27b36b1a8a76b26e96f26533f33cd548894d56509c09c96c332e1eb2d3"
+    },
+    {
+      "bundled": true,
+      "bytes": 2185,
+      "materialization_required": false,
+      "path": "source_data/figures/fig4b_RW_networks/fig_source_data/Workplace15_source_data.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "9ac3c714ecbc754f747effe39614b238d6d5eb8b9d307698789801e3384578dc"
+    },
+    {
+      "bundled": true,
+      "bytes": 7479088,
+      "materialization_required": false,
+      "path": "source_data/python_temp_criticality/python_real_world_networks/Workplace15/Workplace15.npy",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "b2992bab7b2efaa7d2a47c8f906da84fc112a4a0ff8f813cbf26c5c06be8b6e6"
+    },
+    {
+      "bundled": true,
+      "bytes": 2948,
+      "materialization_required": false,
+      "path": "source_data/python_temp_criticality/requirents.txt",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "7d655c7a7f91fca1a1541cfdc54a818cd6c80c38907b97b56a95c89554b591e1"
+    }
+  ],
+  "freeze_status": "frozen",
+  "license_boundary": "Author-repository components are GPL-3.0-only. Workplace15-derived material is CC0-1.0. Thiers13-derived material is CC-BY-NC-SA-3.0 and is limited to non-commercial reuse with attribution and ShareAlike.",
+  "missingness": "The complete frozen source boundary is bundled.",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "schema": "truthinsightbench-data-manifest",
+  "scientific_scope": "All files in the complete frozen repository boundary used for the buffer, correlation-collapse, finite-size, and real-network panels.",
+  "t0": "2023-09-25",
+  "task_id": "Physics_05_temporal_delay_transition",
+  "title": "Buffer Parameters and Delay Dynamics in Temporal Networks",
+  "variable_dictionary": [
+    {
+      "file_or_pattern": "source_data/figures/fig2_critical_buffer/**",
+      "measures": [
+        "buffer_B",
+        "delay_growth_velocity_V",
+        "theoretical_reference"
+      ]
+    },
+    {
+      "file_or_pattern": "source_data/figures/fig3a_correlation_collapse/**",
+      "measures": [
+        "buffer_condition",
+        "autocorrelation_function",
+        "collapse_scale_factor"
+      ]
+    },
+    {
+      "file_or_pattern": "source_data/figures/SI.2_finite_size/**",
+      "measures": [
+        "system_size",
+        "critical_buffer_estimate"
+      ]
+    },
+    {
+      "file_or_pattern": "source_data/figures/fig4b_RW_networks/**",
+      "measures": [
+        "real_temporal_network_delay",
+        "buffer_scan"
+      ]
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "warnings": [
+    "The task material first appeared after T0; do not search for the hidden target identity.",
+    "Same-source blind rediscovery is not independent-data replication.",
+    "Retain the component-specific GPL-3.0-only, CC0-1.0, and CC-BY-NC-SA-3.0 notices; Thiers13-derived material is limited to non-commercial reuse with attribution and ShareAlike."
+  ],
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

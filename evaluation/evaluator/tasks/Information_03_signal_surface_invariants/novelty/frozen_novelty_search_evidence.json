@@ -1,0 +1,427 @@
+{
+  "all_queries_completed": true,
+  "api_cutoff": "2021-12-31",
+  "cards": {
+    "A": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "Abstract Rewired and synthetic signaling networks can impart cells with new functionalities and enable efforts in engineering cell therapies and directing cell development. However, there is a need for tools to build synthetic signaling networks that are tunable, can precisely regulate target gene expression, and are robust to perturbations within the complex context of mammalian cells. Here, we use proteins derived from bacterial two-component signaling pathways to develop synthetic phosphorylation-based and feedback-controlled devices in mammalian cells with such properties. First, we isolate kinase and phosphatase proteins from the bifunctional histidine kinase EnvZ. We then use these proteins to engineer a synthetic covalent modification cycle, in which the kinase and phosphatase competitively regulate phosphorylation of the cognate response regulator OmpR, enabling analog tuning of OmpR-driven gene expression. Further, we show that the phosphorylation cycle can be extended by connecting phosphatase expression to small molecule and miRNA inputs in the cell, with the latter enabling cell-type specific signaling responses and accurate cell type classification. Finally, we implement a tunable negative feedback controller by co-expressing the kinase-driven output gene with the small molecule-tunable phosphatase. This negative feedback substantially reduces cell-to-cell noise in output expression and mitigates the effects of cell context perturbations due to off-target regulation and resource competition. Our work thus lays the foundation for establishing tunable, precise, and robust control over cell behavior with synthetic signaling networks.",
+              "doi": "https://doi.org/10.1101/2021.03.30.437779",
+              "id": "https://doi.org/10.1101/2021.03.30.437779",
+              "landing_page_url": "https://doi.org/10.1101/2021.03.30.437779",
+              "publication_date": "2021-03-31",
+              "publication_year": 2021,
+              "source_name": null,
+              "title": "Robust and tunable signal processing in mammalian cells via engineered covalent modification cycles",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1186/s13036-016-0036-1",
+              "id": "https://doi.org/10.1186/s13036-016-0036-1",
+              "landing_page_url": "https://doi.org/10.1186/s13036-016-0036-1",
+              "publication_date": "2016-11-14",
+              "publication_year": 2016,
+              "source_name": "Journal of Biological Engineering",
+              "title": "Exploiting the dynamic properties of covalent modification cycle for the design of synthetic analog biomolecular circuitry",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1201/b12183-11",
+              "id": "https://doi.org/10.1201/b12183-11",
+              "landing_page_url": "https://doi.org/10.1201/b12183-11",
+              "publication_date": "2004-08-26",
+              "publication_year": 2004,
+              "source_name": "Polymer Surface Modification: Relevance to Adhesion, Volume 3",
+              "title": "Photon-based processes for surface modification of synthetic fibers",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1533/9780857090768.1.39",
+              "id": "https://doi.org/10.1533/9780857090768.1.39",
+              "landing_page_url": "https://doi.org/10.1533/9780857090768.1.39",
+              "publication_date": "2011-01-01",
+              "publication_year": 2011,
+              "source_name": "Surface Modification of Biomaterials",
+              "title": "Surface modification of biomaterials by covalent binding of poly(ethylene glycol) (PEG)",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.20944/preprints201608.0103.v1",
+              "id": "https://doi.org/10.20944/preprints201608.0103.v1",
+              "landing_page_url": "https://doi.org/10.20944/preprints201608.0103.v1",
+              "publication_date": "2016-08-09",
+              "publication_year": 2016,
+              "source_name": null,
+              "title": "Preparation and Covalent Surface Modification of doped Cerium Oxide Nanoparticles: A Proof of Concept on Versatility of Surface Modification for Nanobiological Applications",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "ABSTRACT Cells control the properties of the cytoplasm to ensure the proper functioning of biochemical processes. Recent studies showed that the density of the cytoplasm varies in both physiological and pathological states of cells undergoing growth, division, differentiation, apoptosis, senescence, and metabolic starvation. Little is known about how cellular processes cope with these cytoplasmic variations. Here we study how a cell cycle oscillator comprising cyclin -dependent kinase (CDK1) responds to cytoplasmic density changes by systematically diluting or concentrating a cycling Xenopus egg cytoplasm in cell-like microfluidic droplets. We found that the cell cycle maintains robust oscillations over a wide range of deviations from the endogenous density by as low as 0.2x to more than 1.22x. A further dilution or concentration from these values will arrest the system in a low or high steady-state of CDK1 activity, respectively. Interestingly, diluting a concentrated arrested cytoplasm recovers its oscillatory behavior but requires a significantly lower concentration than 1.22x. Thus, the cell cycle switches reversibly between oscillatory and stable steady states at distinct thresholds depending on the direction of density tuning, forming a hysteresis loop. We recapitulated these observations by a mathematical model. The model predicted that Wee1 and Cdc25 positive feedback do not contribute to the observed robustness, confirmed by experiments. Nevertheless, modulating these feedback strengths and cytoplasmic density changes the total number of cycles, revealing a new role of Wee1 and Cdc25 in controlling the cycle number of early embryonic extracts. Our system can be applied to study how cytoplasmic density affects other cellular processes.",
+              "doi": "https://doi.org/10.1101/2021.05.19.444890",
+              "id": "https://doi.org/10.1101/2021.05.19.444890",
+              "landing_page_url": "https://doi.org/10.1101/2021.05.19.444890",
+              "publication_date": "2021-05-21",
+              "publication_year": 2021,
+              "source_name": null,
+              "title": "<i>In vitro</i>\n                  cell cycle oscillations exhibit a robust and hysteretic response to changes in cytoplasmic density",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.20944/preprints201608.0103.v2",
+              "id": "https://doi.org/10.20944/preprints201608.0103.v2",
+              "landing_page_url": "https://doi.org/10.20944/preprints201608.0103.v2",
+              "publication_date": "2016-08-11",
+              "publication_year": 2016,
+              "source_name": null,
+              "title": "Preparation and Biomimetic Covalent Surface Modification of Doped Cerium Oxide Nanoparticles: A Proof of Concept on Versatility of Surface Modification for Nanobiological Applications",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-3-642-40872-4_1746-1",
+              "id": "https://doi.org/10.1007/978-3-642-40872-4_1746-1",
+              "landing_page_url": "https://doi.org/10.1007/978-3-642-40872-4_1746-1",
+              "publication_date": "2015-12-19",
+              "publication_year": 2015,
+              "source_name": "Encyclopedia of Membranes",
+              "title": "Non-covalent Binding for Polymer Surface Modification",
+              "type": "book-chapter"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "synthetic covalent modification cycle replicated response surface robust",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=synthetic+covalent+modification+cycle+replicated+response+surface+robust&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        },
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "Abstract Rewired and synthetic signaling networks can impart cells with new functionalities and enable efforts in engineering cell therapies and directing cell development. However, there is a need for tools to build synthetic signaling networks that are tunable, can precisely regulate target gene expression, and are robust to perturbations within the complex context of mammalian cells. Here, we use proteins derived from bacterial two-component signaling pathways to develop synthetic phosphorylation-based and feedback-controlled devices in mammalian cells with such properties. First, we isolate kinase and phosphatase proteins from the bifunctional histidine kinase EnvZ. We then use these proteins to engineer a synthetic covalent modification cycle, in which the kinase and phosphatase competitively regulate phosphorylation of the cognate response regulator OmpR, enabling analog tuning of OmpR-driven gene expression. Further, we show that the phosphorylation cycle can be extended by connecting phosphatase expression to small molecule and miRNA inputs in the cell, with the latter enabling cell-type specific signaling responses and accurate cell type classification. Finally, we implement a tunable negative feedback controller by co-expressing the kinase-driven output gene with the small molecule-tunable phosphatase. This negative feedback substantially reduces cell-to-cell noise in output expression and mitigates the effects of cell context perturbations due to off-target regulation and resource competition. Our work thus lays the foundation for establishing tunable, precise, and robust control over cell behavior with synthetic signaling networks.",
+              "doi": "https://doi.org/10.1101/2021.03.30.437779",
+              "id": "https://doi.org/10.1101/2021.03.30.437779",
+              "landing_page_url": "https://doi.org/10.1101/2021.03.30.437779",
+              "publication_date": "2021-03-31",
+              "publication_year": 2021,
+              "source_name": null,
+              "title": "Robust and tunable signal processing in mammalian cells via engineered covalent modification cycles",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.sigpro.2008.03.009",
+              "id": "https://doi.org/10.1016/j.sigpro.2008.03.009",
+              "landing_page_url": "https://doi.org/10.1016/j.sigpro.2008.03.009",
+              "publication_date": "2008-09-01",
+              "publication_year": 2008,
+              "source_name": "Signal Processing",
+              "title": "Robust response control for adaptive beamformers against arbitrary array imperfections",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.sigpro.2017.04.019",
+              "id": "https://doi.org/10.1016/j.sigpro.2017.04.019",
+              "landing_page_url": "https://doi.org/10.1016/j.sigpro.2017.04.019",
+              "publication_date": "2017-11-01",
+              "publication_year": 2017,
+              "source_name": "Signal Processing",
+              "title": "Robust minimum dispersion distortionless response beamforming against fast-moving interferences",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/29.7547",
+              "id": "https://doi.org/10.1109/29.7547",
+              "landing_page_url": "https://doi.org/10.1109/29.7547",
+              "publication_date": "1988-01-01",
+              "publication_year": 1988,
+              "source_name": "IEEE Transactions on Acoustics, Speech, and Signal Processing",
+              "title": "Robust parametric approach for impulse response estimation",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0888-3270(92)90037-j",
+              "id": "https://doi.org/10.1016/0888-3270(92)90037-j",
+              "landing_page_url": "https://doi.org/10.1016/0888-3270(92)90037-j",
+              "publication_date": "1992-07-01",
+              "publication_year": 1992,
+              "source_name": "Mechanical Systems and Signal Processing",
+              "title": "Random response analysis of a non-linear vehicle suspension with tunable shock absorbers",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/tsp.2011.2106780",
+              "id": "https://doi.org/10.1109/tsp.2011.2106780",
+              "landing_page_url": "https://doi.org/10.1109/tsp.2011.2106780",
+              "publication_date": "2011-05-01",
+              "publication_year": 2011,
+              "source_name": "IEEE Transactions on Signal Processing",
+              "title": "Design of Robust Superdirective Arrays With a Tunable Tradeoff Between Directivity and Frequency-Invariance",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.bspc.2020.102390",
+              "id": "https://doi.org/10.1016/j.bspc.2020.102390",
+              "landing_page_url": "https://doi.org/10.1016/j.bspc.2020.102390",
+              "publication_date": "2021-03-01",
+              "publication_year": 2021,
+              "source_name": "Biomedical Signal Processing and Control",
+              "title": "Robust cell segmentation based on gradient detection, Gabor filtering and morphological erosion",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/tassp.1987.1165037",
+              "id": "https://doi.org/10.1109/tassp.1987.1165037",
+              "landing_page_url": "https://doi.org/10.1109/tassp.1987.1165037",
+              "publication_date": "1987-01-01",
+              "publication_year": 1987,
+              "source_name": "IEEE Transactions on Acoustics, Speech, and Signal Processing",
+              "title": "Tunable digital frequency response equalization filters",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "mammalian cell signal processing tunable robust response",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=mammalian+cell+signal+processing+tunable+robust+response&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        }
+      ],
+      "search_completed": true
+    },
+    "B": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.automatica.2004.08.008",
+              "id": "https://doi.org/10.1016/j.automatica.2004.08.008",
+              "landing_page_url": "https://doi.org/10.1016/j.automatica.2004.08.008",
+              "publication_date": "2005-01-01",
+              "publication_year": 2005,
+              "source_name": "Automatica",
+              "title": "Input–output pseudolinearization on controlled invariant submanifolds",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1515/9783486783704-005",
+              "id": "https://doi.org/10.1515/9783486783704-005",
+              "landing_page_url": "https://doi.org/10.1515/9783486783704-005",
+              "publication_date": "1994-12-31",
+              "publication_year": 1994,
+              "source_name": "Input-Output-Rechnung. Input-Output-Tabellen",
+              "title": "4. Kapitel: Input-Output-Tabelle und Input-Output-Analyse",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-1-4612-3816-4_16",
+              "id": "https://doi.org/10.1007/978-1-4612-3816-4_16",
+              "landing_page_url": "https://doi.org/10.1007/978-1-4612-3816-4_16",
+              "publication_date": "1998-01-01",
+              "publication_year": 1998,
+              "source_name": "State Space and Input-Output Linear Systems",
+              "title": "Observability for Time-Invariant Continuous-Time Systems",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1080/00207177808922476",
+              "id": "https://doi.org/10.1080/00207177808922476",
+              "landing_page_url": "https://doi.org/10.1080/00207177808922476",
+              "publication_date": "1978-10-01",
+              "publication_year": 1978,
+              "source_name": "International Journal of Control",
+              "title": "Invariant zeros and input-output structure of linear, time-invariant systems",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/s0141-0296(03)00103-2",
+              "id": "https://doi.org/10.1016/s0141-0296(03)00103-2",
+              "landing_page_url": "https://doi.org/10.1016/s0141-0296(03)00103-2",
+              "publication_date": "2003-09-01",
+              "publication_year": 2003,
+              "source_name": "Engineering Structures",
+              "title": "Normalized input–output minimization analysis of wave propagation in buildings",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.ifacol.2020.12.472",
+              "id": "https://doi.org/10.1016/j.ifacol.2020.12.472",
+              "landing_page_url": "https://doi.org/10.1016/j.ifacol.2020.12.472",
+              "publication_date": "2020-01-01",
+              "publication_year": 2020,
+              "source_name": "IFAC-PapersOnLine",
+              "title": "Output Control of Linear Time-invariant Systems Under Input and Output Disturbances",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-1-4612-3816-4_14",
+              "id": "https://doi.org/10.1007/978-1-4612-3816-4_14",
+              "landing_page_url": "https://doi.org/10.1007/978-1-4612-3816-4_14",
+              "publication_date": "1998-01-01",
+              "publication_year": 1998,
+              "source_name": "State Space and Input-Output Linear Systems",
+              "title": "Reachability and Controllability for Time-Invariant Continuous-Time Systems",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1515/9783486783704-004",
+              "id": "https://doi.org/10.1515/9783486783704-004",
+              "landing_page_url": "https://doi.org/10.1515/9783486783704-004",
+              "publication_date": "1994-12-31",
+              "publication_year": 1994,
+              "source_name": "Input-Output-Rechnung. Input-Output-Tabellen",
+              "title": "3. Kapitel: Kurze Geschichte der Input-Output-Rechnung",
+              "type": "book-chapter"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "phosphoregulation normalized input output response invariant",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=phosphoregulation+normalized+input+output+response+invariant&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        },
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.7554/elife.42908.021",
+              "id": "https://doi.org/10.7554/elife.42908.021",
+              "landing_page_url": "https://doi.org/10.7554/elife.42908.021",
+              "publication_date": "2018-12-07",
+              "publication_year": 2018,
+              "source_name": null,
+              "title": "Author response: Molecular basis of signaling specificity between GIRK channels and GPCRs",
+              "type": "peer-review"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.7554/elife.11066.015",
+              "id": "https://doi.org/10.7554/elife.11066.015",
+              "landing_page_url": "https://doi.org/10.7554/elife.11066.015",
+              "publication_date": "2015-10-27",
+              "publication_year": 2015,
+              "source_name": null,
+              "title": "Author response: Ion channels and calcium signaling in motile cilia",
+              "type": "peer-review"
+            },
+            {
+              "abstract": "Abstract This paper studies normalized least mean square‐based adaptive sparse filtering algorithms for estimating multiple‐input multiple‐output (MIMO) channels. Although the MIMO channel is often modeled as sparse, traditional normalized least mean square‐based filtering algorithm never takes the advantage of the inherent sparse structure information and thus causes some performance loss. Unlike the traditional method, the proposed two adaptive sparse channel estimation methods exploit the sparse structure information of MIMO channels. To validate the effectiveness of proposed MIMO channel estimates, theoretical analysis and simulation results are provided. We derive steady‐state mean‐square deviations of the proposed MIMO channel estimates and theoretically show that it is better than the traditional one. Moreover, their performance advantages are confirmed by computer simulations. Copyright © 2014 John Wiley &amp; Sons, Ltd.",
+              "doi": "https://doi.org/10.1002/wcm.2511",
+              "id": "https://doi.org/10.1002/wcm.2511",
+              "landing_page_url": "https://doi.org/10.1002/wcm.2511",
+              "publication_date": "2014-07-31",
+              "publication_year": 2014,
+              "source_name": "Wireless Communications and Mobile Computing",
+              "title": "Normalized least mean square‐based adaptive sparse filtering algorithms for estimating multiple‐input multiple‐output channels",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/icics.2009.5397609",
+              "id": "https://doi.org/10.1109/icics.2009.5397609",
+              "landing_page_url": "https://doi.org/10.1109/icics.2009.5397609",
+              "publication_date": "2009-12-01",
+              "publication_year": 2009,
+              "source_name": "2009 7th International Conference on Information, Communications and Signal Processing (ICICS)",
+              "title": "Combined normalized and offset min-sum decoding over partial response channels",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1186/1750-2187-3-11",
+              "id": "https://doi.org/10.1186/1750-2187-3-11",
+              "landing_page_url": "https://doi.org/10.1186/1750-2187-3-11",
+              "publication_date": "2008-05-22",
+              "publication_year": 2008,
+              "source_name": "Journal of Molecular Signaling",
+              "title": "Data-driven modeling of cellular stimulation, signaling and output response in RAW 264.7 cells",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.7554/elife.22474.038",
+              "id": "https://doi.org/10.7554/elife.22474.038",
+              "landing_page_url": "https://doi.org/10.7554/elife.22474.038",
+              "publication_date": "2016-11-14",
+              "publication_year": 2016,
+              "source_name": null,
+              "title": "Decision letter: Distinct modes of SMAD2 chromatin binding and remodeling shape the transcriptional response to NODAL/Activin signaling",
+              "type": "peer-review"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1038/nbt1308",
+              "id": "https://doi.org/10.1038/nbt1308",
+              "landing_page_url": "https://doi.org/10.1038/nbt1308",
+              "publication_date": "2007-05-21",
+              "publication_year": 2007,
+              "source_name": "Nature Biotechnology",
+              "title": "Engineering synthetic signaling proteins with ultrasensitive input/output control",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/csie.2009.482",
+              "id": "https://doi.org/10.1109/csie.2009.482",
+              "landing_page_url": "https://doi.org/10.1109/csie.2009.482",
+              "publication_date": "2009-01-01",
+              "publication_year": 2009,
+              "source_name": "2009 WRI World Congress on Computer Science and Information Engineering",
+              "title": "Constant Power Signaling in Rayleigh Fading Channels: Joint Output Probability Distribution and Information Rate Bounds",
+              "type": "proceedings-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "synthetic signaling output channels normalized response shape",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=synthetic+signaling+output+channels+normalized+response+shape&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        }
+      ],
+      "search_completed": true
+    }
+  },
+  "generated_at": "2026-08-22",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "ebc8f3356b293cbbca9e759c05a9be5296a78ec17f6149b458e694d784f16bec",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Searches are frozen reproducible retrieval evidence within the declared provider, queries, cutoff, and result depth. They do not certify absence from all literature.",
+  "strict_before": "2022-01-01",
+  "target_doi_excluded": "10.1038/s41467-022-29338-w",
+  "task_id": "Information_03_signal_surface_invariants",
+  "release": "V1.0"
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "EarthScience_03_ice_particle_composition",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition.py",
+      "script_sha256": "96f8f5cfb145d2308ffd1dda4993aff65e71e09fdb8822e5d1c25e7c330827a7"
+    },
+    {
+      "script": "verification/perturb/A/method.py",
+      "script_sha256": "723423cd87cdd8a123fa30b28e93f44e125e5f70f840102e8ca52896c09cb610"
+    },
+    {
+      "script": "verification/perturb/A/sample.py",
+      "script_sha256": "bb5fee05e0fff202c915286aec6d7b5d462756eaa6f080936d787672145072a6"
+    },
+    {
+      "script": "verification/perturb/B/definition.py",
+      "script_sha256": "203347b6367ff6a89b7b7ac4c43d7347f81e773236981abba74552d95a857e2d"
+    },
+    {
+      "script": "verification/perturb/B/method.py",
+      "script_sha256": "1806128ddd0861e0ab6e701ce94106cef7b12580ad6a6f9d005bfb6c70a319d9"
+    },
+    {
+      "script": "verification/perturb/B/sample.py",
+      "script_sha256": "9b8e3cd510afae01916d7bbe50f31d7df23cb5e4dea11c55afcbfd4fac150f9a"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "46417fc1dc0b911ffb823ca5fc3576198af899b9c20c5d259d2e8be0c3ae7fed"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "eaf594f59236579c8173994fbca06ad2f97c176c8534241711198abdf4ffcdba"
+    }
+  ],
+  "verification_tree_sha256": "3050b62e07b33dfafa4a710f6a20ef4835317090597c4833d963bf23dedd7a42",
+  "verification_file_count": 8,
+  "shared_runtime_tree_sha256": "d8710168f8a9c9ce1fd4946fdcfa0a279806376236feda46a5384b7f302428e9",
+  "shared_runtime_file_count": 4
+}

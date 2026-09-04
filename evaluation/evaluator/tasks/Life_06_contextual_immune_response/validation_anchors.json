@@ -1,0 +1,195 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "All stratum ratios exceed one, spanning roughly 1.2-fold to nearly 2.8-fold.",
+      "independent_reconstruction_method": "Complete-stratum median/mean ratios, leave-one-assay checks, and fraction-endpoint-only definition.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Eighteen assay, compartment, and endpoint strata with four biological replicates per condition.",
+      "one_liner": "The perturbation increases both endpoint types in every assay-by-compartment stratum, but the effect size remains context-dependent.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample.py",
+          "script_sha256": "597e61d40255e4507853b3f055c5d553532f05af6e2b59d82520bb111adafabe"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method.py",
+          "script_sha256": "64d8532c74449906534313ec63350015692c14a664e1f688152f4b61d4e80afd"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition.py",
+          "script_sha256": "e3e43fc5d4f5eb2435854f629e1971c28f2ac8e7391a0e08ad41e747f018edf7"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A new complete assay supports the direction if every compartment-endpoint ratio exceeds 1.2; a single ratio at or below 1.2 is failure."
+      },
+      "quantities": [
+        {
+          "key": "assay_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 3
+        },
+        {
+          "key": "compartment_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 3
+        },
+        {
+          "key": "minimum_stratum_perturbation_ratio",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "fold",
+          "value": 1.2329880096213894
+        },
+        {
+          "key": "median_stratum_perturbation_ratio",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "fold",
+          "value": 1.7019410640651715
+        },
+        {
+          "key": "maximum_stratum_perturbation_ratio",
+          "role": "supporting",
+          "tolerance_rel": 0.08,
+          "unit": "fold",
+          "value": 2.7818228548993575
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "script_sha256": "507111e123a820c8f9a86c4c591319024a2b902eef9647b288b7276bf0d267b7",
+        "values": [
+          {
+            "json_path": "values.assay_count",
+            "quantity_key": "assay_count"
+          },
+          {
+            "json_path": "values.compartment_count",
+            "quantity_key": "compartment_count"
+          },
+          {
+            "json_path": "values.minimum_stratum_perturbation_ratio",
+            "quantity_key": "minimum_stratum_perturbation_ratio"
+          },
+          {
+            "json_path": "values.median_stratum_perturbation_ratio",
+            "quantity_key": "median_stratum_perturbation_ratio"
+          },
+          {
+            "json_path": "values.maximum_stratum_perturbation_ratio",
+            "quantity_key": "maximum_stratum_perturbation_ratio"
+          }
+        ]
+      },
+      "scope": "Observed contextual response only; it does not identify a unique cellular mechanism.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports compartment-dependent immune response to a changed metabolic environment.",
+        "paper_location": "Compartment and treatment Results/source-data panels.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "Class A increases strongly across settings; class B endpoint fold remains far smaller and its rank trend is weak.",
+      "independent_reconstruction_method": "Complete-replicate endpoint folds, rank trends, linear slopes, and pooled fold definition.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Two response classes, four compound settings, and three complete replicate series.",
+      "one_liner": "Across compound settings, response class A rises more than threefold while class B remains comparatively bounded and nonmonotone.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample.py",
+          "script_sha256": "766ee1c45e951eb081e25d593e156df59acf96820b01a60a6f1a595528b27ae1"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method.py",
+          "script_sha256": "6a7ab65542cf63e1dab6d509d113798b21bbf84f6462a99f21fd0507f770dbb3"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition.py",
+          "script_sha256": "7a80238b3b579ffd78288f51fc48cf83b4fededa3696cd19149d5f016dcb8752"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A new replicate supports class specificity if class A exceeds threefold and class B stays below 1.5-fold; either boundary failing rejects it."
+      },
+      "quantities": [
+        {
+          "key": "response_class_A_endpoint_fold",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "fold",
+          "value": 4.168067226890756
+        },
+        {
+          "key": "response_class_B_endpoint_fold",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "fold",
+          "value": 1.0601307189542482
+        },
+        {
+          "key": "response_class_A_linear_setting_slope",
+          "role": "supporting",
+          "tolerance_rel": 0.1,
+          "unit": "response_per_setting",
+          "value": 8.637
+        },
+        {
+          "key": "response_class_B_linear_setting_slope",
+          "role": "supporting",
+          "tolerance_rel": 0.2,
+          "unit": "response_per_setting",
+          "value": 0.13599999999999968
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "script_sha256": "e36fac712959fc6622261f21bcd6f34bb74721417fcc50c48ae945b44fa566a8",
+        "values": [
+          {
+            "json_path": "values.response_class_A_endpoint_fold",
+            "quantity_key": "response_class_A_endpoint_fold"
+          },
+          {
+            "json_path": "values.response_class_B_endpoint_fold",
+            "quantity_key": "response_class_B_endpoint_fold"
+          },
+          {
+            "json_path": "values.response_class_A_linear_setting_slope",
+            "quantity_key": "response_class_A_linear_setting_slope"
+          },
+          {
+            "json_path": "values.response_class_B_linear_setting_slope",
+            "quantity_key": "response_class_B_linear_setting_slope"
+          }
+        ]
+      },
+      "scope": "Cross-class response specificity in the supplied panel, without molecular identity inference.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports selective, intervention-dependent immune-response patterns rather than a uniform main effect.",
+        "paper_location": "Multi-condition and intervention Results/source-data panels.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "These two cards are verified reference discoveries for blind-rediscovery diagnostics and are not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2020-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Life_06_contextual_immune_response",
+  "release": "V1.0"
+}

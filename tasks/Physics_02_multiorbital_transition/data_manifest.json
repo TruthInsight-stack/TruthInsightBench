@@ -1,0 +1,122 @@
+{
+  "analysis_unit": "One complete control-parameter branch or independent gap scan; spectral entries at one control point are nested observations.",
+  "domain": "physics",
+  "files": [
+    {
+      "bundled": true,
+      "bytes": 13615,
+      "materialization_required": false,
+      "path": "normalized_views/control_vs_correlation.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "15644855cfc923a22e5c62803d5960508530b0dfdc0b3a3875873322c73ee65a"
+    },
+    {
+      "bundled": true,
+      "bytes": 4282,
+      "materialization_required": false,
+      "path": "normalized_views/control_vs_gap_case_A.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "ab7bdad5e545684e7878ff1a5e5a86bffbe7e5a2b620e61987dd4309d9998e93"
+    },
+    {
+      "bundled": true,
+      "bytes": 4030,
+      "materialization_required": false,
+      "path": "normalized_views/control_vs_gap_case_B.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "b3f81985dff338652d8f0f303f63dcf0e9bd329d7e22eee3d8677a83c0a57024"
+    },
+    {
+      "bundled": true,
+      "bytes": 1067,
+      "materialization_required": false,
+      "path": "normalized_views/control_vs_local_observables.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "b241c3530092caecae6f4f6669a11ffb4cb64e5283df717a54ce4de0dffcc695"
+    },
+    {
+      "bundled": true,
+      "bytes": 35831,
+      "materialization_required": false,
+      "path": "normalized_views/control_vs_topological_proxy.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "0e0a1e24c84456ead4e79805401f37f75e28884d1533f29473d84209f4eb0f9f"
+    },
+    {
+      "bundled": true,
+      "bytes": 6219408,
+      "materialization_required": false,
+      "path": "source_data/all_source_data_deidentified.zip",
+      "role": "scientific_archive",
+      "sha256": "514000a1db46b276cb2817b5d92df8c9dc262c07b3fa789e459d6f3904da72e9"
+    }
+  ],
+  "freeze_status": "frozen",
+  "license_boundary": "Scientific data: CC BY 4.0.",
+  "missingness": "No control-parameter point or observable branch was removed.",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "schema": "truthinsightbench-data-manifest",
+  "scientific_scope": "Five complete numerical figure-data archives and deterministic long-table views; no control point or observable branch was removed.",
+  "t0": "2023-04-21",
+  "task_id": "Physics_02_multiorbital_transition",
+  "title": "Change Boundaries of Multiple Observables under a Control Parameter",
+  "variable_dictionary": [
+    {
+      "file_or_pattern": "normalized_views/control_vs_correlation.tsv",
+      "measures": [
+        "control_ratio",
+        "secondary_interaction_ratio",
+        "inverse_correlation_length"
+      ]
+    },
+    {
+      "file_or_pattern": "normalized_views/control_vs_gap_case_A.tsv",
+      "measures": [
+        "control_ratio",
+        "gap_like_observable"
+      ]
+    },
+    {
+      "file_or_pattern": "normalized_views/control_vs_gap_case_B.tsv",
+      "measures": [
+        "control_ratio",
+        "gap_like_observable"
+      ]
+    },
+    {
+      "file_or_pattern": "normalized_views/control_vs_local_observables.tsv",
+      "measures": [
+        "control_ratio",
+        "total_magnetic_moment",
+        "charge_fluctuation"
+      ]
+    },
+    {
+      "file_or_pattern": "normalized_views/control_vs_topological_proxy.tsv",
+      "measures": [
+        "control_ratio",
+        "spectrum_value",
+        "degeneracy"
+      ]
+    },
+    {
+      "file_or_pattern": "source_data/all_source_data_deidentified.zip",
+      "measures": [
+        "complete deidentified archive members",
+        "preserved numeric payload and member structure"
+      ]
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "warnings": [
+    "These are finite-size numerical-model data, not an experimental material.",
+    "Describe any boundary as a finite-sampling crossover or transition interval; a numerical zero crossing alone does not establish a strict phase transition."
+  ],
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

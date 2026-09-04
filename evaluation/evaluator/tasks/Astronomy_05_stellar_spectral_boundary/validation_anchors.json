@@ -1,0 +1,195 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "At wavelengths up to 200 nm, the high-to-low composition endpoint ratio is very small and every complete scan decreases.",
+      "independent_reconstruction_method": "Whole-temperature scans, endpoint ratios, rank direction, and three predeclared wavelength cutoffs.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Complete composition scans at each wavelength and effective temperature in the photon-flux grid.",
+      "one_liner": "Across all three temperature slices, the shortest supplied wavelengths show a strong decline in photon flux along the ordered composition axis.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample.py",
+          "script_sha256": "851dea475a515748c735763a5fc63a55326d6afa16451f3c30668f33c157a728"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method.py",
+          "script_sha256": "a41b7ae922c845e26936e434e2fdb4162e3c1e1e5d611b067b2e5b3cdde60a45"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition.py",
+          "script_sha256": "4b157c06e1e74b6d5974aa21d6386166c328009194c9b071b88481849e39fc2d"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A new complete temperature slice supports the boundary if its median high/low endpoint ratio at or below 200 nm is under 0.20 and at least 75% of scans decrease; either condition failing is failure."
+      },
+      "quantities": [
+        {
+          "key": "temperature_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 3
+        },
+        {
+          "key": "shortwave_wavelength_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 12
+        },
+        {
+          "key": "shortwave_median_high_to_low_composition_flux_ratio",
+          "role": "core",
+          "tolerance_rel": 0.1,
+          "unit": "fraction",
+          "value": 0.01308072284868581
+        },
+        {
+          "key": "shortwave_monotone_decrease_fraction",
+          "role": "core",
+          "tolerance_rel": 0.0,
+          "unit": "fraction",
+          "value": 1.0
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "script_sha256": "bfd6ba23e8ffe9f9b5cb2d409563af08f780086075b105ad911db46fd8e95307",
+        "values": [
+          {
+            "json_path": "values.temperature_count",
+            "quantity_key": "temperature_count"
+          },
+          {
+            "json_path": "values.shortwave_wavelength_count",
+            "quantity_key": "shortwave_wavelength_count"
+          },
+          {
+            "json_path": "values.shortwave_median_high_to_low_composition_flux_ratio",
+            "quantity_key": "shortwave_median_high_to_low_composition_flux_ratio"
+          },
+          {
+            "json_path": "values.shortwave_monotone_decrease_fraction",
+            "quantity_key": "shortwave_monotone_decrease_fraction"
+          }
+        ]
+      },
+      "scope": "A short-wave boundary in the supplied atmosphere calculations; it is not evidence for biological or evolutionary causation.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports joint temperature- and composition-dependent modulation of the short-wave stellar spectrum.",
+        "paper_location": "Results and complete source-data atmosphere spectra.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "All level pairs have strongly positive spectral correlation and their maxima span only a small wavelength interval.",
+      "independent_reconstruction_method": "Pairwise Pearson/Spearman shape comparisons, leave-one-level peaks, and intensity-weighted centroids.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "The complete five-column normalized spectral response table.",
+      "one_liner": "Five independent normalized response levels retain highly concordant spectral shapes and peaks within a narrow wavelength interval.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample.py",
+          "script_sha256": "47b24e29f0ddeeb2195fa294d2d4749ce75d3a60956395f496886324f31eccd5"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method.py",
+          "script_sha256": "27bd2de1c3f0503c311872fd96cbcd6a2399f04d7c07b6161f7dab8cb0a0cf7d"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition.py",
+          "script_sha256": "b2dbb118384ef3f6ea2c64f18dc11bc3d354eccd778661a24fe6aed744cf8d36"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A new response level supports the relationship if its correlation with the retained consensus exceeds 0.90 and its peak lies within 20 nm of the retained peak basin; otherwise it fails."
+      },
+      "quantities": [
+        {
+          "key": "response_level_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 5
+        },
+        {
+          "key": "minimum_pairwise_spectral_pearson",
+          "role": "core",
+          "tolerance_rel": 0.02,
+          "unit": "fraction",
+          "value": 0.9460493596578294
+        },
+        {
+          "key": "spectral_peak_wavelength_min_nm",
+          "role": "supporting",
+          "tolerance_rel": 0.02,
+          "unit": "nm",
+          "value": 469.87
+        },
+        {
+          "key": "spectral_peak_wavelength_max_nm",
+          "role": "supporting",
+          "tolerance_rel": 0.02,
+          "unit": "nm",
+          "value": 479.87
+        },
+        {
+          "key": "spectral_peak_span_nm",
+          "role": "core",
+          "tolerance_rel": 0.2,
+          "unit": "nm",
+          "value": 10.0
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "script_sha256": "b16ceab5d406a5387873cd32d6420099fb0371caddd5d770dd4286c2b4c5d7ad",
+        "values": [
+          {
+            "json_path": "values.response_level_count",
+            "quantity_key": "response_level_count"
+          },
+          {
+            "json_path": "values.minimum_pairwise_spectral_pearson",
+            "quantity_key": "minimum_pairwise_spectral_pearson"
+          },
+          {
+            "json_path": "values.spectral_peak_wavelength_min_nm",
+            "quantity_key": "spectral_peak_wavelength_min_nm"
+          },
+          {
+            "json_path": "values.spectral_peak_wavelength_max_nm",
+            "quantity_key": "spectral_peak_wavelength_max_nm"
+          },
+          {
+            "json_path": "values.spectral_peak_span_nm",
+            "quantity_key": "spectral_peak_span_nm"
+          }
+        ]
+      },
+      "scope": "Shape concordance in this independent representation; correlated levels are not five independent experiments.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source data show a recurring normalized spectral band across the supplied response levels.",
+        "paper_location": "Independent normalized spectral series in the article-linked source data.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "These two cards are verified reference discoveries for blind-rediscovery diagnostics and are not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2023-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Astronomy_05_stellar_spectral_boundary",
+  "release": "V1.0"
+}

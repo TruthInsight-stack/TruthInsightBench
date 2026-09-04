@@ -1,0 +1,427 @@
+{
+  "all_queries_completed": true,
+  "api_cutoff": "2019-12-31",
+  "cards": {
+    "A": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1201/9780203904190-23",
+              "id": "https://doi.org/10.1201/9780203904190-23",
+              "landing_page_url": "https://doi.org/10.1201/9780203904190-23",
+              "publication_date": "2001-03-14",
+              "publication_year": 2001,
+              "source_name": "Control Of Nonlinear Distributed Parameter Systems",
+              "title": "Forced Oscillation of the Korteweg-De Vries-Burgers Equation and Its Stability",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "Burgers' model equation of turbulence is studied for the case when the driving force is periodic. Analytical solution is obtained for the inviscid flow and numerical integration is performed for the viscous flow.",
+              "doi": "https://doi.org/10.1063/1.1693936",
+              "id": "https://doi.org/10.1063/1.1693936",
+              "landing_page_url": "https://doi.org/10.1063/1.1693936",
+              "publication_date": "2003-08-01",
+              "publication_year": 2003,
+              "source_name": "The Physics of Fluids",
+              "title": "Solution of Forced Burgers Equation",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1134/1.1259398",
+              "id": "https://doi.org/10.1134/1.1259398",
+              "landing_page_url": "https://doi.org/10.1134/1.1259398",
+              "publication_date": "1999-08-01",
+              "publication_year": 1999,
+              "source_name": "Technical Physics",
+              "title": "Exact solutions of the forced Burgers equation",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "A proof is given of the neutral (absolute) stability of the Burgers equation driven by time-independent external forces (boundary conditions). A Bäcklund transform of the forced Burgers equation is presented that is valid even when the external force is time dependent.",
+              "doi": "https://doi.org/10.1063/1.865516",
+              "id": "https://doi.org/10.1063/1.865516",
+              "landing_page_url": "https://doi.org/10.1063/1.865516",
+              "publication_date": "1986-08-01",
+              "publication_year": 1986,
+              "source_name": "The Physics of Fluids",
+              "title": "Stability and Bäcklund transform of the forced Burgers equation",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "A previous calculation [P. H. Diamond and T.-S. Hahm, Phys. Plasmas 2, 3640 (1995)] of the renormalized dissipation in the nonconservatively forced one-dimensional Burgers equation, which encountered a catastrophic long-wavelength divergence ∼kmin−3, is reconsidered. In the absence of velocity shear, analysis of the eddy-damped quasi-normal Markovian closure predicts only a benign logarithmic dependence on kmin. The original divergence is traced to an inconsistent resonance-broadening type of diffusive approximation, which fails in the present problem. Ballistic scaling of renormalized pulses is retained, but such scaling does not, by itself, imply a paradigm of self-organized criticality. An improved scaling formula for a model with velocity shear is also given.",
+              "doi": "https://doi.org/10.1063/1.873909",
+              "id": "https://doi.org/10.1063/1.873909",
+              "landing_page_url": "https://doi.org/10.1063/1.873909",
+              "publication_date": "2000-03-01",
+              "publication_year": 2000,
+              "source_name": "Physics of Plasmas",
+              "title": "Renormalized dissipation in the nonconservatively forced Burgers equation",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/pl00001380",
+              "id": "https://doi.org/10.1007/pl00001380",
+              "landing_page_url": "https://doi.org/10.1007/pl00001380",
+              "publication_date": "2001-12-01",
+              "publication_year": 2001,
+              "source_name": "Journal of Evolution Equations",
+              "title": "Approach to equilibrium for a forced Burgers equation",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1142/9789814503877_0013",
+              "id": "https://doi.org/10.1142/9789814503877_0013",
+              "landing_page_url": "https://doi.org/10.1142/9789814503877_0013",
+              "publication_date": "2014-02-18",
+              "publication_year": 2014,
+              "source_name": "Fluctuation Phenomena: Disorder and Nonlinearity",
+              "title": "ANALYTICAL AND NUMERICAL SOLUTIONS OF THE FORCED BURGERS EQUATION",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-94-011-2082-1_9",
+              "id": "https://doi.org/10.1007/978-94-011-2082-1_9",
+              "landing_page_url": "https://doi.org/10.1007/978-94-011-2082-1_9",
+              "publication_date": "1993-01-01",
+              "publication_year": 1993,
+              "source_name": "Applications of Analytic and Geometric Methods to Nonlinear Differential Equations",
+              "title": "Rapidly Forced Burgers Equation",
+              "type": "book-chapter"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "sparse governing equation forced Burgers scarce data",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=sparse+governing+equation+forced+Burgers+scarce+data&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        },
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "Abstract There is increasing interest in developing point of care tests to diagnose disease and predict prognosis based upon biomarker signatures of RNA or protein expression levels. Technology to measure the required biomarkers accurately and in a time-frame useful to health care professionals will be easier to develop by minimising the number of biomarkers measured. In this paper we describe the Parallel Regularised Regression Model Search (PReMS) method which is designed to estimate parsimonious prediction models. Given a set of potential biomarkers PReMS searches over many logistic regression models constructed from optimal subsets of the biomarkers, iteratively increasing the model size. Zero centred Gaussian prior distributions are assigned to all regression coefficients to induce shrinkage. The method estimates the optimal shrinkage parameter, optimal model for each model size and the optimal model size. We apply PReMS to six freely available data sets and compare its performance with the LASSO and SCAD algorithms in terms of the number of covariates in the model, model accuracy, as measured by the area under the receiver operator curve (AUC) and root predicted mean square error, and model calibration. We show that PReMS typically selects models with fewer biomarkers than both the LASSO and SCAD algorithms but has comparable predictive accuracy. Availability: (PReMS) is freely available as an R package https://github.com/clivehoggart/PReMS",
+              "doi": "https://doi.org/10.1101/355479",
+              "id": "https://doi.org/10.1101/355479",
+              "landing_page_url": "https://doi.org/10.1101/355479",
+              "publication_date": "2018-06-25",
+              "publication_year": 2018,
+              "source_name": null,
+              "title": "PReMS: Parallel Regularised Regression Model Search for sparse bio-signature discovery",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "This paper investigates how models of spatiotemporal dynamics in the form of nonlinear partial differential equations can be identified directly from noisy data using a combination of sparse regression and weak formulation. Using the 4th-order Kuramoto-Sivashinsky equation for illustration, we show how this approach can be optimized in the limits of low and high noise, achieving accuracy that is orders of magnitude better than what existing techniques allow. In particular, we derive the scaling relation between the accuracy of the model, the parameters of the weak formulation, and the properties of the data, such as its spatial and temporal resolution and the level of noise.",
+              "doi": "https://doi.org/10.1063/1.5120861",
+              "id": "https://doi.org/10.1063/1.5120861",
+              "landing_page_url": "https://doi.org/10.1063/1.5120861",
+              "publication_date": "2019-10-08",
+              "publication_year": 2019,
+              "source_name": "Chaos: An Interdisciplinary Journal of Nonlinear Science",
+              "title": "Robust and optimal sparse regression for nonlinear PDE models",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.5220/0005700504370445",
+              "id": "https://doi.org/10.5220/0005700504370445",
+              "landing_page_url": "https://doi.org/10.5220/0005700504370445",
+              "publication_date": "2016-01-01",
+              "publication_year": 2016,
+              "source_name": "Proceedings of the 5th International Conference on Pattern Recognition Applications and Methods",
+              "title": "Sparse Physics-based Gaussian Process for Multi-output Regression using Variational Inference",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1371/journal.pone.0137222",
+              "id": "https://doi.org/10.1371/journal.pone.0137222",
+              "landing_page_url": "https://doi.org/10.1371/journal.pone.0137222",
+              "publication_date": "2015-09-08",
+              "publication_year": 2015,
+              "source_name": "PLOS ONE",
+              "title": "Discovery of Intermediary Genes between Pathways Using Sparse Regression",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1145/2623330.2623697",
+              "id": "https://doi.org/10.1145/2623330.2623697",
+              "landing_page_url": "https://doi.org/10.1145/2623330.2623697",
+              "publication_date": "2014-08-24",
+              "publication_year": 2014,
+              "source_name": "Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining",
+              "title": "Multi-task copula by sparse graph regression",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1145/1557019.1557082",
+              "id": "https://doi.org/10.1145/1557019.1557082",
+              "landing_page_url": "https://doi.org/10.1145/1557019.1557082",
+              "publication_date": "2009-06-28",
+              "publication_year": 2009,
+              "source_name": "Proceedings of the 15th ACM SIGKDD international conference on Knowledge discovery and data mining",
+              "title": "Large-scale sparse logistic regression",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.2140/apde.2019.12.1259",
+              "id": "https://doi.org/10.2140/apde.2019.12.1259",
+              "landing_page_url": "https://doi.org/10.2140/apde.2019.12.1259",
+              "publication_date": "2019-01-01",
+              "publication_year": 2019,
+              "source_name": "Analysis &amp; PDE",
+              "title": "Sparse bounds for the discrete cubic Hilbert transform",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0021-9991(81)90034-6",
+              "id": "https://doi.org/10.1016/0021-9991(81)90034-6",
+              "landing_page_url": "https://doi.org/10.1016/0021-9991(81)90034-6",
+              "publication_date": "1981-11-01",
+              "publication_year": 1981,
+              "source_name": "Journal of Computational Physics",
+              "title": "Iterative solution methods for certain sparse linear systems with a non-symmetric matrix arising from PDE-problems",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "physics informed sparse regression PDE discovery",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=physics+informed+sparse+regression+PDE+discovery&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        }
+      ],
+      "search_completed": true
+    },
+    "B": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "Abstract Collective cell migration contributes to morphogenesis, wound healing or tumor metastasis. Culturing epithelial monolayers on a substrate enables to quantify such tissue migration. By using narrow strips, we stabilise the front shape; by inhibiting cell division, we limit density increase and favor steady migration; by using long strips, we observe a confined cell monolayer migrating over days. A coherent collective movement propagates over millimeters; cells spread and density decreases from the monolayer bulk toward the front. Cell velocity (∼micrometer per minute) increases linearly with cell radius, and does not depend explicitly on the distance to the front. Over ten periods of backwards propagating velocity waves, with wavelength ∼millimeter, are detected with a signal-to-noise ratio enabling for quantitative spatio-temporal analysis. Their velocity (∼ten micrometers per minute) is ten times the cell velocity; it increases linearly with the cell radius. Their period (∼two hours) is spatially homogeneous, and increases with the front density. When we inhibit the formation of lamellipodia, cell velocity drops while waves either disappear, or have a smaller amplitude and slower period. Our phenomenological model assumes that both cell and wave velocities are related with the activity of lamellipodia, and that the local stretching in the monolayer bulk modulates traction stresses. We find that parameter values close to the instability limit where waves appear yield qualitative and quantitative predictions compatible with experiments, including the facts that: waves propagate backwards; wave velocity increases with cell radius; lamellipodia inhibition attenuates, slows down or even suppresses the waves. Together, our experiments and modelling evidence the importance of lamellipodia in collective cell migration and waves.",
+              "doi": "https://doi.org/10.1101/232462",
+              "id": "https://doi.org/10.1101/232462",
+              "landing_page_url": "https://doi.org/10.1101/232462",
+              "publication_date": "2017-12-11",
+              "publication_year": 2017,
+              "source_name": null,
+              "title": "Collective cell migration without proliferation: density determines cell velocity and wave velocity",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "Abstract. We have previously shown that the onset of smooth muscle cell proliferation in tissue cultures is triggered independently of serum. The aim of the present study was to investigate if this process was affected by osmotic stress. Vascular explants from 8‐month‐old male rats were cultured under serum‐free conditions using collagen I as migration substrate. Sucrose was added to the culture medium in concentrations varying from 1 to 3% (30–90 mOsM). Cell migration from aortic explants onto the culture dishes was totally inhibited at a sucrose concentration of 90 mOsM. A significant dose‐dependent decline in proliferation was shown for cells in explants pulse labelled with 3 H‐thymidine. In contrast, pulse labelling with 35 S‐methionine revealed that protein synthesis was maintained in the presence of sucrose. The results indicate that osmotic pressure affects smooth muscle cell protein synthesis, proliferation and migration.",
+              "doi": "https://doi.org/10.1046/j.1365-2184.2003.00254.x",
+              "id": "https://doi.org/10.1046/j.1365-2184.2003.00254.x",
+              "landing_page_url": "https://doi.org/10.1046/j.1365-2184.2003.00254.x",
+              "publication_date": "2003-01-28",
+              "publication_year": 2003,
+              "source_name": "Cell Proliferation",
+              "title": "Sucrose inhibits vascular smooth muscle cell proliferation/migration – protein synthesis is maintained",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "ABSTRACT An attempt is presented to extract cell kinetic information from histomorphological features. It is applicable to rapidly proliferating tissues like the intestinal epithelium. Each replicating tissue has an origin where cells are formed and a periphery toward which cells migrate. The migration path along which they move is denominated as tissue radius on which all cell positions are mapped. Cell migration on the radius is associated with cell proliferation at tissue origin. Each mitosis there is associated with the displacement of all cells distal to it by one cell position. The more mitoses positioned between a cell and tissue origin, the greater its migration velocity. It is possible therefore to derive the cell migration velocity v( x ) from the cumulative mitotic distribution on the radius, N( x ). v( x ) = N( x )/ t m ( t m = mitotic time). In this form v( x ) represents also cell production at any point on the radius and may serve for the computation of other cell kinetic parameters like generation time. These arguments are illustrated on the rat incisor tooth inner enamel epithelium which has been studied in the normal and rapidly erupting tooth.",
+              "doi": "https://doi.org/10.1111/j.1365-2184.1979.tb00168.x",
+              "id": "https://doi.org/10.1111/j.1365-2184.1979.tb00168.x",
+              "landing_page_url": "https://doi.org/10.1111/j.1365-2184.1979.tb00168.x",
+              "publication_date": "2008-05-01",
+              "publication_year": 2008,
+              "source_name": "Cell Proliferation",
+              "title": "ON THE PROGENITOR CELL MIGRATION VELOCITY",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1111/j.1365-2184.1968.tb00186.x",
+              "id": "https://doi.org/10.1111/j.1365-2184.1968.tb00186.x",
+              "landing_page_url": "https://doi.org/10.1111/j.1365-2184.1968.tb00186.x",
+              "publication_date": "2008-05-01",
+              "publication_year": 2008,
+              "source_name": "Cell Proliferation",
+              "title": "EDITORIAL",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.18632/oncotarget.14480",
+              "id": "https://doi.org/10.18632/oncotarget.14480",
+              "landing_page_url": "https://doi.org/10.18632/oncotarget.14480",
+              "publication_date": "2017-01-04",
+              "publication_year": 2017,
+              "source_name": "Oncotarget",
+              "title": "Cell type- and density-dependent effect of 1 T static magnetic field on cell proliferation",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract. The classical models of in vitro cell culture comprise fibroblasts and epithelial cells. Osteogenic cells represent another interesting cell model; however, it is not known whether during osteogenesis cell density regulates cell growth as seen in cultures of fibroblasts and epithelial cells. We selected MC3T3‐E1 cells for study because they are an osteogenic cell line that, when subcultured, grow to confluence and form multilayers of cells in conventional cultures by continued proliferation, as do fibroblasts. Once maximum cell density is obtained, proliferation is down regulated resulting in a mixed population of quiescent and dividing cells. We used this model to determine whether downregulation of proliferation as expressed by cell number and DNA synthesis is cell density‐dependent. MC3T3‐E1 cells were cultured over a period of 34 days to determine their kinetics, viability, ability to synthesize DNA, distribution within phases of the cell cycle and cell number‐response relationships. Our results show that (1) viability ranged between 92% and 96% and the cell number 2.5 x 10 5 per cm 2 once cultures reached steady state, (2) most cells entered the G 0 /G 1 phase of the cell cycle on day 7, (3) there was no correlation between the proportion of cells in S phase and downregulation of DNA synthesis, (4) a direct relationship exists between cell density and downregulation of DNA synthesis on day 8, (5) the minimum time for cells to be cultured before downregulation of DNA synthesis begins is independent of cell number, and (6) downregulation of DNA synthesis is reversible. These results suggest that density‐dependent downregulation of DNA synthesis may be a mechanism of growth control for osteogenic cells in vitro that operates more like density‐dependent growth control in cultures of fibroblasts rather than epithelial cells.",
+              "doi": "https://doi.org/10.1111/j.1365-2184.1996.tb00980.x",
+              "id": "https://doi.org/10.1111/j.1365-2184.1996.tb00980.x",
+              "landing_page_url": "https://doi.org/10.1111/j.1365-2184.1996.tb00980.x",
+              "publication_date": "2008-06-28",
+              "publication_year": 2008,
+              "source_name": "Cell Proliferation",
+              "title": "Cell density downregulates DNA synthesis and proliferation during osteogenesis <i>in vitro</i>",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "ABSTRACT There is a marked increase in the number of peritoneal leukocytes (lymphocytes, monocytes and granulocytes) during the growth of Ehrlich ascites tumor in mice. No local proliferation (as indicated by a labeling at 1 hr following a single 3 H‐TdR injection) was observed in the normal peritoneal leukocytes or those in the ascites tumor, except for a very minor labeling of some tumor macrophages. Kinetics of peritoneal leukocytes was studied with a series of twelve injections of 3 H‐thymidine (20 μCi every 8 hr) in normal mice as well as mice injected with 10 6 tumor cells i.p. 2 hr after the last 3 H‐TdR injection. Animals were sacrificed at intervals up to 6 days. Granulocyte labeling in the blood as well as peritoneal space was near 100% in both groups of animals at all the intervals. Temporal changes in the labeling of lymphocytes (from 10% at 0 day to 22% at day 6), and monocytes (from 20% at 0 day to 57% at day 6) were identical in the blood and peritoneal space of normal animals, indicating a free exchange of cells between these compartments. Higher labeling indices than those in the controls were attained in the blood of tumor‐bearing hosts (viz 40% for lymphocytes and 80% for monocytes at 6 days) suggesting an increased turnover of these cells in the circulation. In addition, peritoneal mononuclear cells of tumor‐bearing mice showed even a higher labeling than those in the blood (viz 65% for lymphocytes and 92% for monocytes at 6 days) indicating a selective migration and/or retention of newly formed cells within the tumor, in contrast to a random migration into the normal peritoneal cavity. Furthermore, an identical labeling of macrophages to that of monocytes within the tumor indicated a short monocyte‐macrophage transition. The preferential accumulation of young mononuclear cells into the tumor may be of functional importance.",
+              "doi": "https://doi.org/10.1111/j.1365-2184.1974.tb00909.x",
+              "id": "https://doi.org/10.1111/j.1365-2184.1974.tb00909.x",
+              "landing_page_url": "https://doi.org/10.1111/j.1365-2184.1974.tb00909.x",
+              "publication_date": "2008-05-01",
+              "publication_year": 2008,
+              "source_name": "Cell Proliferation",
+              "title": "DYNAMICS OF LEUKOCYTE MIGRATION INTO THE MOUSE ASCITES TUMOR",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1080/19336918.2015.1008329",
+              "id": "https://doi.org/10.1080/19336918.2015.1008329",
+              "landing_page_url": "https://doi.org/10.1080/19336918.2015.1008329",
+              "publication_date": "2015-07-15",
+              "publication_year": 2015,
+              "source_name": "Cell Adhesion &amp; Migration",
+              "title": "Epithelia migration: A spatiotemporal interplay between contraction and adhesion",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "cell density migration proliferation spatiotemporal field equation discovery",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=cell+density+migration+proliferation+spatiotemporal+field+equation+discovery&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        },
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0014-4827(82)90102-1",
+              "id": "https://doi.org/10.1016/0014-4827(82)90102-1",
+              "landing_page_url": "https://doi.org/10.1016/0014-4827(82)90102-1",
+              "publication_date": "1982-03-01",
+              "publication_year": 1982,
+              "source_name": "Experimental Cell Research",
+              "title": "Cell growth regulation during density inhibition and interferon treatment*1",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.yexcr.2007.09.015",
+              "id": "https://doi.org/10.1016/j.yexcr.2007.09.015",
+              "landing_page_url": "https://doi.org/10.1016/j.yexcr.2007.09.015",
+              "publication_date": "2008-01-01",
+              "publication_year": 2008,
+              "source_name": "Experimental Cell Research",
+              "title": "Effects of hepatocyte growth factor on glutathione synthesis, growth, and apoptosis is cell density-dependent",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0014-4827(73)90075-x",
+              "id": "https://doi.org/10.1016/0014-4827(73)90075-x",
+              "landing_page_url": "https://doi.org/10.1016/0014-4827(73)90075-x",
+              "publication_date": "1973-04-01",
+              "publication_year": 1973,
+              "source_name": "Experimental Cell Research",
+              "title": "Density-dependent regulation of growth in 1 cell suspension cultures",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1006/excr.1995.1314",
+              "id": "https://doi.org/10.1006/excr.1995.1314",
+              "landing_page_url": "https://doi.org/10.1006/excr.1995.1314",
+              "publication_date": "1995-10-01",
+              "publication_year": 1995,
+              "source_name": "Experimental Cell Research",
+              "title": "Transforming Growth Factor-β Promotes Epidermal Growth Factor-Induced Thyroid Cell Migration and Follicle Neoformation in Collagen Gel Separable from Cell Proliferation",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.yexcr.2011.04.003",
+              "id": "https://doi.org/10.1016/j.yexcr.2011.04.003",
+              "landing_page_url": "https://doi.org/10.1016/j.yexcr.2011.04.003",
+              "publication_date": "2011-07-01",
+              "publication_year": 2011,
+              "source_name": "Experimental Cell Research",
+              "title": "Migration of connective tissue-derived cells is mediated by ultra-low concentration gradient fields of EGF",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0014-4827(78)90470-6",
+              "id": "https://doi.org/10.1016/0014-4827(78)90470-6",
+              "landing_page_url": "https://doi.org/10.1016/0014-4827(78)90470-6",
+              "publication_date": "1978-10-01",
+              "publication_year": 1978,
+              "source_name": "Experimental Cell Research",
+              "title": "Serum-independent human lymphoblastoid cells. Effects of cell density on growth",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1006/excr.1996.0221",
+              "id": "https://doi.org/10.1006/excr.1996.0221",
+              "landing_page_url": "https://doi.org/10.1006/excr.1996.0221",
+              "publication_date": "1996-07-01",
+              "publication_year": 1996,
+              "source_name": "Experimental Cell Research",
+              "title": "Density-Dependent Inhibition of Growth Involves Prevention of EGF Receptor Activation by E-Cadherin-Mediated Cell–Cell Adhesion",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/9781119130499.ch9",
+              "id": "https://doi.org/10.1002/9781119130499.ch9",
+              "landing_page_url": "https://doi.org/10.1002/9781119130499.ch9",
+              "publication_date": "2016-04-08",
+              "publication_year": 2016,
+              "source_name": "Method of Lines PDE Analysis in Biomedical Science and Engineering",
+              "title": "Tumor Cell Density in Glioblastomas",
+              "type": "other"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "experimental cell density fields growth migration PDE",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=experimental+cell+density+fields+growth+migration+PDE&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        }
+      ],
+      "search_completed": true
+    }
+  },
+  "generated_at": "2026-08-22",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "ebf1931f4eaf482b04a2731c90242ef63cb71479098b8c42631849c3bc69d0af",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Searches are frozen reproducible retrieval evidence within the declared provider, queries, cutoff, and result depth. They do not certify absence from all literature.",
+  "strict_before": "2020-01-01",
+  "target_doi_excluded": "10.1038/s41467-021-26434-1",
+  "task_id": "Math_01_governing_equation_discovery",
+  "release": "V1.0"
+}

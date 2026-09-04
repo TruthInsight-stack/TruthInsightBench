@@ -1,0 +1,147 @@
+{
+  "analysis_unit": "One complete dynamic-spectrum event or complete source-polarization series; pixels and adjacent directional coordinates are nested repeats.",
+  "domain": "astronomy",
+  "files": [
+    {
+      "bundled": true,
+      "bytes": 68600,
+      "materialization_required": false,
+      "path": "normalized_views/drift_population_series.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "8a2b8d3c344daa9692536914400579e7e3cf9578b9ab71918b472b9286836595"
+    },
+    {
+      "bundled": true,
+      "bytes": 644,
+      "materialization_required": false,
+      "path": "normalized_views/dynamic_spectrum_event_metadata.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "cca444098eabeb1981b5b496bd9af5fc9f28db3ed21df71c7010943a544d5527"
+    },
+    {
+      "bundled": true,
+      "bytes": 1935906,
+      "materialization_required": false,
+      "path": "normalized_views/event_1_dynamic_spectrum.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "152b62a3afa325c0c85b51db2430aee362b301e3ddcd6457336c3ff2db090400"
+    },
+    {
+      "bundled": true,
+      "bytes": 1876515,
+      "materialization_required": false,
+      "path": "normalized_views/event_2_dynamic_spectrum.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "bd199ba2dd28f3787b0cafe829cf800cc2a0fd7f8e99b10392fc7a7672367ff7"
+    },
+    {
+      "bundled": true,
+      "bytes": 1948886,
+      "materialization_required": false,
+      "path": "normalized_views/event_3_dynamic_spectrum.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "c718ce32e5fb5ac07af4697c41bd06bdc4cd62c89c9d9f6289a2ef2acd4e0fa7"
+    },
+    {
+      "bundled": true,
+      "bytes": 1923989,
+      "materialization_required": false,
+      "path": "normalized_views/event_4_dynamic_spectrum.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "824c8e1e3b5345db1b3fc59c96843928837dc595975a3b0e42695484bf155f8f"
+    },
+    {
+      "bundled": true,
+      "bytes": 2000284,
+      "materialization_required": false,
+      "path": "normalized_views/event_5_dynamic_spectrum.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "9c6b9aa72597d84eeb2d7e0d1d2b17723531e6b83ec8ce3c054991f318b4ff72"
+    },
+    {
+      "bundled": true,
+      "bytes": 10013,
+      "materialization_required": false,
+      "path": "normalized_views/orientation_count_series.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "b8459a95eb3abfb60e2e6670f54dd4b7b03d6737a05b6983c7ac3823c8fd91cc"
+    },
+    {
+      "bundled": true,
+      "bytes": 32376356,
+      "materialization_required": false,
+      "path": "source_data/all_source_data_deidentified.xlsx",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "2b42feab951615de8e80ff1593d96287eed4895437f07e6114a88da4018e6b67"
+    }
+  ],
+  "freeze_status": "frozen",
+  "license_boundary": "Article and source data: CC BY 4.0.",
+  "missingness": "The complete frozen source-data boundary is present.",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "schema": "truthinsightbench-data-manifest",
+  "scientific_scope": "A losslessly deidentified copy of all 47 source-data sheets, plus deterministic views of five complete dynamic spectra, six directional count series, and twelve drift-population distributions.",
+  "t0": "2022-10-13",
+  "task_id": "Astronomy_02_radio_burst_drift",
+  "title": "Drift Distributions and Conditional Differences in Discrete Radio Bursts",
+  "variable_dictionary": [
+    {
+      "file_or_pattern": "normalized_views/drift_population_series.tsv",
+      "measures": [
+        "population_series_id",
+        "anonymous_source_group",
+        "polarization_channel",
+        "drift_regime",
+        "distribution_bin_center",
+        "event_count"
+      ]
+    },
+    {
+      "file_or_pattern": "normalized_views/dynamic_spectrum_event_metadata.tsv",
+      "measures": [
+        "event_id",
+        "time_min_s",
+        "time_max_s",
+        "frequency_min_MHz",
+        "frequency_max_MHz",
+        "reported_event_drift_rate_MHz_s",
+        "frequency_bins",
+        "time_bins"
+      ]
+    },
+    {
+      "file_or_pattern": "normalized_views/event_*_dynamic_spectrum.tsv",
+      "measures": [
+        "frequency_MHz",
+        "ordered time columns in seconds"
+      ]
+    },
+    {
+      "file_or_pattern": "normalized_views/orientation_count_series.tsv",
+      "measures": [
+        "orientation_series_id",
+        "relative_coordinate",
+        "event_count"
+      ]
+    },
+    {
+      "file_or_pattern": "source_data/all_source_data_deidentified.xlsx",
+      "measures": [
+        "complete workbook sheets and numeric payload",
+        "sheet relationships retained under anonymous identifiers"
+      ]
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "warnings": [
+    "There are only five complete events; pixel count is not an event-level sample size.",
+    "Drift-population composition can establish conditional association, not a causal acceleration mechanism or source."
+  ],
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

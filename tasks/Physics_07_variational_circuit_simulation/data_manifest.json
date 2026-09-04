@@ -1,0 +1,50 @@
+{
+  "analysis_unit": "One small graph, one circuit layer or gate, one fixed random-seed set, and one complete state comparison.",
+  "domain": "physics",
+  "files": [
+    {
+      "bundled": true,
+      "bytes": 9634,
+      "materialization_required": false,
+      "path": "source_data/computational_observations.json",
+      "role": "structured_scientific_data",
+      "sha256": "8512f362e9db0b199fdc3fafa12886656f01baad65684aadf84d4d32fce9fca8"
+    }
+  ],
+  "freeze_status": "frozen",
+  "license_boundary": "Pinned paper-era repository: Apache-2.0. Article and supplementary-material boundary: CC BY 4.0 with attribution.",
+  "missingness": "The complete deterministic observation file is bundled.",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "schema": "truthinsightbench-data-manifest",
+  "scientific_scope": "The complete deterministic computational-observation projection in the frozen source boundary.",
+  "t0": "2020-03-30",
+  "task_id": "Physics_07_variational_circuit_simulation",
+  "title": "Accuracy and Applicability Boundaries of Classical Representations for Variational Quantum Circuits",
+  "variable_dictionary": [
+    {
+      "file_or_pattern": "source_data/computational_observations.json",
+      "measures": [
+        "graph_edge_set",
+        "circuit_angles",
+        "hidden_unit_count",
+        "cost_layer_fidelity",
+        "mixing_gate_fidelity",
+        "compression_fidelity",
+        "p1_and_p2_full_state_fidelity"
+      ]
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "warnings": [
+    "The task material first appeared after T0; do not search for the hidden target identity.",
+    "Same-source deterministic projection is not independent-data replication.",
+    "Do not extrapolate small-graph fidelity results to unobserved circuit sizes without evidence."
+  ],
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

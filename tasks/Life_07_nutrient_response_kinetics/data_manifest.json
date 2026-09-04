@@ -1,0 +1,85 @@
+{
+  "schema": "truthinsightbench-data-manifest",
+  "task_id": "Life_07_nutrient_response_kinetics",
+  "title": "Nutrient-Response Kinetics Across System States and Tissues",
+  "domain": "life_science",
+  "t0": "2020-01-01",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "scientific_scope": "All frozen baseline phenotypes, circulating-input measurements, nutrient-response time courses, and tissue-uptake measurements.",
+  "analysis_unit": "One biological replicate within a system state, tissue, input condition, or time course; repeated measures sharing a state are nested.",
+  "missingness": "No curator-imposed row deletion, random subsampling, or imputation is applied within the frozen task boundary.",
+  "license_boundary": "The selected source-data workbook is CC BY and is bundled with tissue and system identities represented by neutral identifiers.",
+  "warnings": [
+    "Cross-panel association does not uniquely establish molecular causality.",
+    "System-state and tissue groups must be held out intact when testing generalization."
+  ],
+  "variable_dictionary": {
+    "nutrient_response_timecourse.tsv": [
+      "system_state_id",
+      "time_min",
+      "replicate_id",
+      "normalized_signaling_response"
+    ],
+    "circulating_input_measurement.tsv": [
+      "input_condition_role",
+      "system_state_id",
+      "replicate_id",
+      "measured_abundance_au"
+    ],
+    "tissue_uptake_measurement.tsv": [
+      "tissue_id",
+      "system_state_id",
+      "replicate_id",
+      "uptake_measurement_au"
+    ],
+    "baseline_system_phenotype.tsv": [
+      "anatomical_measure_id",
+      "system_state_id",
+      "replicate_id",
+      "measurement_value"
+    ]
+  },
+  "source_projection_inventory": [],
+  "files": [
+    {
+      "path": "nutrient_response_timecourse.tsv",
+      "bytes": 1791,
+      "sha256": "961f040d108a744957787b9270daa84ab05b4e0832049f4e01c152605917ffa3",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "circulating_input_measurement.tsv",
+      "bytes": 875,
+      "sha256": "a412ed26b0c0778fce7cfa51f777f87cb79199493718077f29fa69c18034dfc9",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "tissue_uptake_measurement.tsv",
+      "bytes": 653,
+      "sha256": "3959c54fdf9a43b2a4987e2fc2cc0860b0ca12a86c59661be8f04932c13fe974",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "baseline_system_phenotype.tsv",
+      "bytes": 4366,
+      "sha256": "b0bee5f2dbe563d76e9a6ae7cd5684ab1d0456a6bfbb2a4157fccd51365bfc5d",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

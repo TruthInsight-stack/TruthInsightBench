@@ -1,0 +1,9 @@
+{
+  "schema": "truthinsightbench-source-attribution",
+  "release": "V1.0",
+  "task_id": "Chemistry_07_photoionization_delay",
+  "title": "Influence of shape resonances on the angular dependence of molecular photoionization delays",
+  "doi": "10.1038/s41467-021-27360-y",
+  "first_publication_date": "2021-12-20",
+  "raw_data_record": "Zenodo 5585867 (CC-BY-4.0)"
+}

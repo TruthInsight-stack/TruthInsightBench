@@ -1,0 +1,8 @@
+{
+  "schema": "truthinsightbench-source-attribution",
+  "release": "V1.0",
+  "task_id": "Material_01_binary_superlattice",
+  "title": "Discovery of two-dimensional binary nanoparticle superlattices using global Monte Carlo optimization",
+  "doi": "10.1038/s41467-022-35690-8",
+  "first_publication_date": "2022-07-20"
+}

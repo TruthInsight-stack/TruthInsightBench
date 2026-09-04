@@ -1,0 +1,427 @@
+{
+  "all_queries_completed": true,
+  "api_cutoff": "2021-12-31",
+  "cards": {
+    "A": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1021/cm801082p",
+              "id": "https://doi.org/10.1021/cm801082p",
+              "landing_page_url": "https://doi.org/10.1021/cm801082p",
+              "publication_date": "2008-07-04",
+              "publication_year": 2008,
+              "source_name": "Chemistry of Materials",
+              "title": "Room-Temperature Soft Magnetic Iron Oxide Nanocrystals: Synthesis, Characterization, and Size-Dependent Magnetic Properties",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1166/jon.2016.1287",
+              "id": "https://doi.org/10.1166/jon.2016.1287",
+              "landing_page_url": "https://doi.org/10.1166/jon.2016.1287",
+              "publication_date": "2016-12-01",
+              "publication_year": 2016,
+              "source_name": "Journal of Nanofluids",
+              "title": "Surfactant Free Room Temperature Synthesis of Iron Oxide Magnetic Nanoparticles in Microchannels",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "ABSTRACT The magnetocaloric effect of chemically synthesized Mn 0.3 Zn 0.7 Fe 2 O 4 superparamagnetic nanoparticles with average crystallite size of 11 nm is reported. The magnitude of the magnetic entropy change (Δ S M ), calculated from magnetization isotherms in the temperature range of 30 K to 400 K, increases from - 0.16 J-kg -1 K -1 for a field of 1 T to - 0.88 J-kg -1 K -1 for 5 T at room temperature. Our results indicate that Δ S M values are much higher than primarily reported values for this class of nanoparticles. Δ S M is not limited to the ferromagnetic-paramagnetic transition temperature; instead, it occurs over a broad range of temperatures, resulting in high relative cooling power.",
+              "doi": "https://doi.org/10.1557/opl.2014.527",
+              "id": "https://doi.org/10.1557/opl.2014.527",
+              "landing_page_url": "https://doi.org/10.1557/opl.2014.527",
+              "publication_date": "2014-06-03",
+              "publication_year": 2014,
+              "source_name": "MRS Proceedings",
+              "title": "Iron Oxide-based Magnetic Nanoparticles for High Temperature Span Magnetocaloric Applications",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1515/9783112495605-024",
+              "id": "https://doi.org/10.1515/9783112495605-024",
+              "landing_page_url": "https://doi.org/10.1515/9783112495605-024",
+              "publication_date": "1988-12-31",
+              "publication_year": 1988,
+              "source_name": "October 16",
+              "title": "A Study of Induced Magnetic Anisotropy in Gallium-Iron Ferrites above Room Temperature",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3390/ecm-1-b005",
+              "id": "https://doi.org/10.3390/ecm-1-b005",
+              "landing_page_url": "https://doi.org/10.3390/ecm-1-b005",
+              "publication_date": "2014-05-26",
+              "publication_year": 2014,
+              "source_name": "Proceedings of 1st International Electronic Conference on Materials",
+              "title": "Magnetic Hybrid Iron Oxide-Based Composite Nanocatalyst for the Synthesis of Polyhydroquinolines U Solvent-Free Conditions at Room Temperature",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.memsci.2011.08.006",
+              "id": "https://doi.org/10.1016/j.memsci.2011.08.006",
+              "landing_page_url": "https://doi.org/10.1016/j.memsci.2011.08.006",
+              "publication_date": "2011-10-01",
+              "publication_year": 2011,
+              "source_name": "Journal of Membrane Science",
+              "title": "In situ high temperature X-ray photoelectron spectroscopy study of barium strontium iron cobalt oxide",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.2172/5915114",
+              "id": "https://doi.org/10.2172/5915114",
+              "landing_page_url": "https://doi.org/10.2172/5915114",
+              "publication_date": "1991-01-01",
+              "publication_year": 1991,
+              "source_name": null,
+              "title": "Comparison of lime and iron oxide for high temperature sulfur removal",
+              "type": "report"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jmmm.2009.02.010",
+              "id": "https://doi.org/10.1016/j.jmmm.2009.02.010",
+              "landing_page_url": "https://doi.org/10.1016/j.jmmm.2009.02.010",
+              "publication_date": "2009-06-01",
+              "publication_year": 2009,
+              "source_name": "Journal of Magnetism and Magnetic Materials",
+              "title": "In-situ formation of barium ferrite in iron-doped “tetragonal tungsten bronze”: Elaboration of room temperature multiferroic composites",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "barium iron oxide room temperature magnetic hysteresis high temperature",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=barium+iron+oxide+room+temperature+magnetic+hysteresis+high+temperature&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        },
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1063/1.5033141",
+              "id": "https://doi.org/10.1063/1.5033141",
+              "landing_page_url": "https://doi.org/10.1063/1.5033141",
+              "publication_date": "2018-01-01",
+              "publication_year": 2018,
+              "source_name": "AIP Conference Proceedings",
+              "title": "Effect of La doping on dielectric and magnetic properties of room temperature multiferroic LuFeO3",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jmmm.2003.12.782",
+              "id": "https://doi.org/10.1016/j.jmmm.2003.12.782",
+              "landing_page_url": "https://doi.org/10.1016/j.jmmm.2003.12.782",
+              "publication_date": "2004-05-01",
+              "publication_year": 2004,
+              "source_name": "Journal of Magnetism and Magnetic Materials",
+              "title": "A critical examination of room temperature ferromagnetism in transition metal-doped oxide semiconductors",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jmmm.2006.10.335",
+              "id": "https://doi.org/10.1016/j.jmmm.2006.10.335",
+              "landing_page_url": "https://doi.org/10.1016/j.jmmm.2006.10.335",
+              "publication_date": "2007-03-01",
+              "publication_year": 2007,
+              "source_name": "Journal of Magnetism and Magnetic Materials",
+              "title": "Room-temperature ferroelectric polarization in multiferroic BiMnO3",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1063/1.4948189",
+              "id": "https://doi.org/10.1063/1.4948189",
+              "landing_page_url": "https://doi.org/10.1063/1.4948189",
+              "publication_date": "2016-01-01",
+              "publication_year": 2016,
+              "source_name": "AIP Conference Proceedings",
+              "title": "Room temperature neutron diffraction and magnetic studies of multiferroic Pb0.9Bi0.1Fe0.55Nb0.45O3 solid solution",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jmmm.2019.165782",
+              "id": "https://doi.org/10.1016/j.jmmm.2019.165782",
+              "landing_page_url": "https://doi.org/10.1016/j.jmmm.2019.165782",
+              "publication_date": "2020-01-01",
+              "publication_year": 2020,
+              "source_name": "Journal of Magnetism and Magnetic Materials",
+              "title": "Room temperature multiferroic BaMnF4 films",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jmmm.2017.05.052",
+              "id": "https://doi.org/10.1016/j.jmmm.2017.05.052",
+              "landing_page_url": "https://doi.org/10.1016/j.jmmm.2017.05.052",
+              "publication_date": "2018-02-01",
+              "publication_year": 2018,
+              "source_name": "Journal of Magnetism and Magnetic Materials",
+              "title": "Enhanced room temperature multiferroic characteristics in hexagonal LuFe1−Ni O3 (x= 0 − 0.3) nanoparticles",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.ceramint.2018.02.006",
+              "id": "https://doi.org/10.1016/j.ceramint.2018.02.006",
+              "landing_page_url": "https://doi.org/10.1016/j.ceramint.2018.02.006",
+              "publication_date": "2018-06-01",
+              "publication_year": 2018,
+              "source_name": "Ceramics International",
+              "title": "High magnetic and ferroelectric properties of BZT-LSM multiferroic composites at room temperature",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jmmm.2015.10.059",
+              "id": "https://doi.org/10.1016/j.jmmm.2015.10.059",
+              "landing_page_url": "https://doi.org/10.1016/j.jmmm.2015.10.059",
+              "publication_date": "2016-03-01",
+              "publication_year": 2016,
+              "source_name": "Journal of Magnetism and Magnetic Materials",
+              "title": "Influence of Dy and Cu doping on the room temperature multiferroic properties of BiFeO 3",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "room temperature multiferroic magnetic transition oxide",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=room+temperature+multiferroic+magnetic+transition+oxide&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        }
+      ],
+      "search_completed": true
+    },
+    "B": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/icatt.2013.6650778",
+              "id": "https://doi.org/10.1109/icatt.2013.6650778",
+              "landing_page_url": "https://doi.org/10.1109/icatt.2013.6650778",
+              "publication_date": "2013-09-01",
+              "publication_year": 2013,
+              "source_name": "2013 IX Internatioal Conference on Antenna Theory and Techniques",
+              "title": "Frame loop with switchable polarization",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1364/oe.11.003359",
+              "id": "https://doi.org/10.1364/oe.11.003359",
+              "landing_page_url": "https://doi.org/10.1364/oe.11.003359",
+              "publication_date": "2003-12-15",
+              "publication_year": 2003,
+              "source_name": "Optics Express",
+              "title": "Polarization-independent all-fiber multiwavelength-switchable filter based on a polarization-diversity loop configuration",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3788/col201210.s10608",
+              "id": "https://doi.org/10.3788/col201210.s10608",
+              "landing_page_url": "https://doi.org/10.3788/col201210.s10608",
+              "publication_date": "2012-01-01",
+              "publication_year": 2012,
+              "source_name": "Chinese Optics Letters",
+              "title": "Switchable dual-wavelength erbium-doped fiber laser based on polarization-maintaining fiber Sagnac loop mirror and fiber Bragg gratings",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.5370/jeet.2009.4.3.405",
+              "id": "https://doi.org/10.5370/jeet.2009.4.3.405",
+              "landing_page_url": "https://doi.org/10.5370/jeet.2009.4.3.405",
+              "publication_date": "2009-09-01",
+              "publication_year": 2009,
+              "source_name": "Journal of Electrical Engineering and Technology",
+              "title": "Polarization-Independent Multiwavelength-Switchable Filter Based on Polarization Beam Splitter and Fiber Coupler",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1063/1.5032347",
+              "id": "https://doi.org/10.1063/1.5032347",
+              "landing_page_url": "https://doi.org/10.1063/1.5032347",
+              "publication_date": "2018-01-01",
+              "publication_year": 2018,
+              "source_name": "AIP Conference Proceedings",
+              "title": "Electrical and thermal properties of Ca and Ni doped barium ferrite",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/iraniancee.2013.6599839",
+              "id": "https://doi.org/10.1109/iraniancee.2013.6599839",
+              "landing_page_url": "https://doi.org/10.1109/iraniancee.2013.6599839",
+              "publication_date": "2013-05-01",
+              "publication_year": 2013,
+              "source_name": "2013 21st Iranian Conference on Electrical Engineering (ICEE)",
+              "title": "Reconfigurable single-feed antenna with switchable polarization",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.21608/ejs.2000.151479",
+              "id": "https://doi.org/10.21608/ejs.2000.151479",
+              "landing_page_url": "https://doi.org/10.21608/ejs.2000.151479",
+              "publication_date": "2000-12-01",
+              "publication_year": 2000,
+              "source_name": "Egyptian Journal of Solids",
+              "title": "Sintering Time Effect on the Electrical Properties of Barium Titanium Ferrite",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/lpt.2003.819414",
+              "id": "https://doi.org/10.1109/lpt.2003.819414",
+              "landing_page_url": "https://doi.org/10.1109/lpt.2003.819414",
+              "publication_date": "2004-01-01",
+              "publication_year": 2004,
+              "source_name": "IEEE Photonics Technology Letters",
+              "title": "Multiwavelength-Switchable SOA-Fiber Ring Laser Based on Polarization-Maintaining Fiber Loop Mirror and Polarization Beam Splitter",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "barium ferrite switchable polarization electrical loop",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=barium+ferrite+switchable+polarization+electrical+loop&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        },
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.ceramint.2014.10.049",
+              "id": "https://doi.org/10.1016/j.ceramint.2014.10.049",
+              "landing_page_url": "https://doi.org/10.1016/j.ceramint.2014.10.049",
+              "publication_date": "2015-03-01",
+              "publication_year": 2015,
+              "source_name": "Ceramics International",
+              "title": "Magneto-electric coupling study in multiferroic La0.7Ba0.3MnO3–BaTiO3 composite ceramic at room temperature",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1134/s002136401604007x",
+              "id": "https://doi.org/10.1134/s002136401604007x",
+              "landing_page_url": "https://doi.org/10.1134/s002136401604007x",
+              "publication_date": "2016-05-12",
+              "publication_year": 2016,
+              "source_name": "JETP Letters",
+              "title": "Room-temperature electric polarization induced by phase separation in multiferroic GdMn2O5",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/adma.201604604",
+              "id": "https://doi.org/10.1002/adma.201604604",
+              "landing_page_url": "https://doi.org/10.1002/adma.201604604",
+              "publication_date": "2016-12-05",
+              "publication_year": 2016,
+              "source_name": "Advanced Materials",
+              "title": "Multiferroic Nanopatterned Hybrid Material with Room‐Temperature Magnetic Switching of the Electric Polarization",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.mattod.2014.10.032",
+              "id": "https://doi.org/10.1016/j.mattod.2014.10.032",
+              "landing_page_url": "https://doi.org/10.1016/j.mattod.2014.10.032",
+              "publication_date": "2014-12-01",
+              "publication_year": 2014,
+              "source_name": "Materials Today",
+              "title": "Engineering a room-temperature multiferroic, in theory",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1117/12.2022895",
+              "id": "https://doi.org/10.1117/12.2022895",
+              "landing_page_url": "https://doi.org/10.1117/12.2022895",
+              "publication_date": "2013-09-26",
+              "publication_year": 2013,
+              "source_name": "SPIE Proceedings",
+              "title": "Electric-field control of magnetism in an insulator at room temperature: the case of multiferroic BiFeO<sub>3</sub>",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/adma.201400990",
+              "id": "https://doi.org/10.1002/adma.201400990",
+              "landing_page_url": "https://doi.org/10.1002/adma.201400990",
+              "publication_date": "2014-05-15",
+              "publication_year": 2014,
+              "source_name": "Advanced Materials",
+              "title": "Multiferroic Iron Oxide Thin Films at Room Temperature",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract There is a growing activity in the search of novel single-phase multiferroics that could finally provide distinctive magnetoelectric responses at room temperature, for they would enable a range of potentially disruptive technologies, making use of the ability of controlling polarization with a magnetic field or magnetism with an electric one (for example, voltage-tunable spintronic devices, uncooled magnetic sensors and the long-searched magnetoelectric memory). A very promising novel material concept could be to make use of phase-change phenomena at structural instabilities of a multiferroic state. Indeed, large phase-change magnetoelectric response has been anticipated by a first-principles investigation of the perovskite BiFeO 3 –BiCoO 3 solid solution, specifically at its morphotropic phase boundary between multiferroic polymorphs of rhombohedral and tetragonal symmetries. Here, we report a novel perovskite oxide that belongs to the BiFeO 3 –BiMnO 3 –PbTiO 3 ternary system, chemically designed to present such multiferroic phase boundary with enhanced ferroelectricity and canted ferromagnetism, which shows distinctive room-temperature magnetoelectric responses.",
+              "doi": "https://doi.org/10.1038/ncomms12772",
+              "id": "https://doi.org/10.1038/ncomms12772",
+              "landing_page_url": "https://doi.org/10.1038/ncomms12772",
+              "publication_date": "2016-09-28",
+              "publication_year": 2016,
+              "source_name": "Nature Communications",
+              "title": "A novel perovskite oxide chemically designed to show multiferroic phase boundary with room-temperature magnetoelectricity",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.7567/ssdm.2012.k-7-1",
+              "id": "https://doi.org/10.7567/ssdm.2012.k-7-1",
+              "landing_page_url": "https://doi.org/10.7567/ssdm.2012.k-7-1",
+              "publication_date": "2012-09-27",
+              "publication_year": 2012,
+              "source_name": "Extended Abstracts of the 2012 International Conference on Solid State Devices and Materials",
+              "title": "Electric field induced room temperature ferromagnetism in transition metal doped oxide semiconductor",
+              "type": "proceedings-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "room temperature multiferroic electric hysteresis oxide",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=room+temperature+multiferroic+electric+hysteresis+oxide&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        }
+      ],
+      "search_completed": true
+    }
+  },
+  "generated_at": "2026-08-22",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "1d1d0102bd5cae5f9081de78c2060d444c30c17466dad67a175a3aceda266e7e",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Searches are frozen reproducible retrieval evidence within the declared provider, queries, cutoff, and result depth. They do not certify absence from all literature.",
+  "strict_before": "2022-01-01",
+  "target_doi_excluded": "10.1038/s41467-022-35669-5",
+  "task_id": "Material_02_temperature_response_boundaries",
+  "release": "V1.0"
+}

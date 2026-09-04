@@ -1,0 +1,27 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "anomalous diffusion trajectory time averaged exponent distribution",
+        "single particle trajectory scaling exponent subdiffusion classification"
+      ]
+    },
+    "B": {
+      "queries": [
+        "anomalous diffusion change point local variance trajectory",
+        "trajectory regime change increment variance anomalous diffusion"
+      ]
+    }
+  },
+  "frozen_at": "2026-08-22",
+  "provider": "OpenAlex_primary_with_Crossref_fallback",
+  "provider_api": [
+    "https://api.openalex.org/works",
+    "https://api.crossref.org/works"
+  ],
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2021-01-01",
+  "target_doi_excluded": "10.1038/s41467-021-26320-w",
+  "task_id": "Math_05_anomalous_diffusion_change_points",
+  "release": "V1.0"
+}

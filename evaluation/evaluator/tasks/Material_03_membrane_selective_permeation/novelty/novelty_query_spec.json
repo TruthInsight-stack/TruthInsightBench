@@ -1,0 +1,27 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "graphene oxide basal plane proton conductivity functionalization",
+        "proton permeation graphene oxide monolayer conductance"
+      ]
+    },
+    "B": {
+      "queries": [
+        "graphene oxide proton transport spatial heterogeneity",
+        "scanning electrochemical cell microscopy proton current graphene oxide"
+      ]
+    }
+  },
+  "frozen_at": "2026-08-22",
+  "provider": "OpenAlex_primary_with_Crossref_fallback",
+  "provider_api": [
+    "https://api.openalex.org/works",
+    "https://api.crossref.org/works"
+  ],
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2023-01-01",
+  "target_doi_excluded": "10.1038/s41467-023-43637-w",
+  "task_id": "Material_03_membrane_selective_permeation",
+  "release": "V1.0"
+}

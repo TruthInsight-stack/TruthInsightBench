@@ -1,0 +1,16 @@
+{
+  "schema": "truthinsightbench-source-attribution",
+  "release": "V1.0",
+  "task_id": "EarthScience_04_ice_core_event_structure",
+  "title": "2600-years of stratospheric volcanism through sulfate isotopes",
+  "doi": "10.1038/s41467-019-08357-0",
+  "first_publication_date": "2019-01-28",
+  "raw_data_record": "PANGAEA 10.1594/PANGAEA.932490 (CC-BY-4.0)",
+  "data_record_creators": [
+    "Elsa Gautier",
+    "Joël Savarino",
+    "Frédéric Parrenin",
+    "Catherine Ritz",
+    "Philippe Possenti"
+  ]
+}

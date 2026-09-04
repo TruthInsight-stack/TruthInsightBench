@@ -1,0 +1,97 @@
+{
+  "schema": "truthinsightbench-data-manifest",
+  "task_id": "Material_02_temperature_response_boundaries",
+  "title": "Temperature-Dependent Magnetic and Electrical Response Boundaries",
+  "domain": "material_science",
+  "t0": "2022-01-01",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "scientific_scope": "All frozen magnetic field-scan rows at three temperatures and both frozen electrical sequence measurements for one anonymous oxide sample source.",
+  "analysis_unit": "One complete field scan or electrical pulse sequence; neighboring points within a scan are ordered repeated measurements.",
+  "missingness": "No curator-imposed row deletion, random subsampling, or imputation is applied within the frozen task boundary.",
+  "license_boundary": "The complete archived Zenodo task source is CC BY 4.0; the task bundles all numerical rows used by the frozen magnetic and electrical measurements.",
+  "warnings": [
+    "Only one sample source is represented, so cross-material generalization is unsupported.",
+    "Background subtraction, branch segmentation, and sequence direction can materially change loop-like summaries and must be perturbed."
+  ],
+  "variable_dictionary": {
+    "bulk_magnetization_300K.tsv": [
+      "time_s",
+      "temperature_K",
+      "field_Oe",
+      "magnetic_moment_emu",
+      "moment_std_err_emu"
+    ],
+    "bulk_magnetization_860K.tsv": [
+      "time_s",
+      "temperature_K",
+      "field_Oe",
+      "magnetic_moment_emu",
+      "moment_std_err_emu"
+    ],
+    "bulk_magnetization_870K.tsv": [
+      "time_s",
+      "temperature_K",
+      "field_Oe",
+      "magnetic_moment_emu",
+      "moment_std_err_emu"
+    ],
+    "electric_switching_corrected.tsv": [
+      "sequence_coordinate",
+      "polarization_like_signal"
+    ],
+    "electric_current_voltage.tsv": [
+      "sequence_coordinate",
+      "current_or_voltage_signal"
+    ]
+  },
+  "files": [
+    {
+      "path": "bulk_magnetization_300K.tsv",
+      "bytes": 34028,
+      "sha256": "f8002ee29d7f538048fe9149fa3483bdd7d2145af4ce51a69bb3029e8e62cc3f",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "bulk_magnetization_860K.tsv",
+      "bytes": 143714,
+      "sha256": "5cb15d106f9a6ec6d43aae65fc323bbe940e7ee36143019b1252c42b81b7011a",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "bulk_magnetization_870K.tsv",
+      "bytes": 143642,
+      "sha256": "cbf40abf79ffe10ccad058cfea7f7cfb3dd506d6cbff12b6709def3379c04a4a",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "electric_switching_corrected.tsv",
+      "bytes": 6833,
+      "sha256": "e46da40ae7d465a3e83cd56d2ed6a3219f0688e95fde6498707f3ade2598c71d",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "electric_current_voltage.tsv",
+      "bytes": 7121,
+      "sha256": "e7aabfba3a76aaabeae6efa20eac17c16483f31a762ac9911c47d5627be86043",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

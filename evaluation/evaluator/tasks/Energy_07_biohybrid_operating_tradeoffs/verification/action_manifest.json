@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Energy_07_biohybrid_operating_tradeoffs",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition.py",
+      "script_sha256": "ed7c1cf0d1ed0e5076bbbb9f7ee0341b5dbe9af07955ae646c4611b1638eeb0c"
+    },
+    {
+      "script": "verification/perturb/A/method.py",
+      "script_sha256": "04c029594642833dace96ca6fd4ed0d59d8fe977820860da9a8072db3d43f160"
+    },
+    {
+      "script": "verification/perturb/A/sample.py",
+      "script_sha256": "4d754e69df8ebb4d280b17365f47172f754c8e0c269db9b61726f15aeef88781"
+    },
+    {
+      "script": "verification/perturb/B/definition.py",
+      "script_sha256": "d0237c62451808037240091663b2a73d023f1578a2259f00f6eab9a3352a0fad"
+    },
+    {
+      "script": "verification/perturb/B/method.py",
+      "script_sha256": "5760ddbe38aa47b4492f53b9ff860538c0f99bac6839a42333c692d12f2fa7ec"
+    },
+    {
+      "script": "verification/perturb/B/sample.py",
+      "script_sha256": "85910131b24f825c93244c9c646a4d886d4e274cb86fee7ac0259701f38d026f"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "9395e629a73740c6b311f5327a823be1ba9e2dc120ac01f9b5050e8cf2fb03b2"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "a72d5321c9f0e19880ca8e6521ddae96a4a21472eea9bcc8c7ccb06a323d1120"
+    }
+  ],
+  "verification_tree_sha256": "1cfb55b35fa1ff264be0c3e8fa7848d897b7703782783ef1a8806fe0a2aceec8",
+  "verification_file_count": 8,
+  "shared_runtime_tree_sha256": "d8710168f8a9c9ce1fd4946fdcfa0a279806376236feda46a5384b7f302428e9",
+  "shared_runtime_file_count": 4
+}

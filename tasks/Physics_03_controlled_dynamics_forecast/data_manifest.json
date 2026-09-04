@@ -1,0 +1,141 @@
+{
+  "analysis_unit": "One complete ordered control scan or complete trajectory; adjacent control points and time points are correlated observations.",
+  "domain": "physics",
+  "files": [
+    {
+      "bundled": true,
+      "bytes": 8521,
+      "materialization_required": false,
+      "path": "normalized_views/anonymous_observations.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "3cc1e0e77ed36e59934dcec9e8b7ab873ecea69044f9216f8bf958e9d738f812"
+    },
+    {
+      "bundled": true,
+      "bytes": 827,
+      "materialization_required": false,
+      "path": "normalized_views/control_a_frequency_response.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "cc23486842c65ad187740cee59a07abf8553bc85c188eac70fa2269dfcae7bad"
+    },
+    {
+      "bundled": true,
+      "bytes": 598,
+      "materialization_required": false,
+      "path": "normalized_views/control_b_frequency_response.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "c724ee276c07f2ec73acca2aafdf9ec6bea9941aabf9ee60de467481c5bf0136"
+    },
+    {
+      "bundled": true,
+      "bytes": 414,
+      "materialization_required": false,
+      "path": "normalized_views/signed_control_frequency_response.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "36d8dd58e9aaedd2dec5a51ab8b00a3e37a78ac3a83c6116cf58527e3c61613b"
+    },
+    {
+      "bundled": true,
+      "bytes": 994303,
+      "materialization_required": false,
+      "path": "normalized_views/trajectory_condition_01.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "4c9cf399319e0e967a9ea08755a53a8ad0003371d5b626683fb1acbbde920f72"
+    },
+    {
+      "bundled": true,
+      "bytes": 993696,
+      "materialization_required": false,
+      "path": "normalized_views/trajectory_condition_02.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "82bea63c4a2d10fc82032a3206dbda351f72c15fb9016fde8900449e31267bfb"
+    },
+    {
+      "bundled": true,
+      "bytes": 992060,
+      "materialization_required": false,
+      "path": "normalized_views/trajectory_condition_03.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "612b71eb103edbdf7215b25b1750eb90a7f847ff1ac2b42b1134d1f07d00a67c"
+    },
+    {
+      "bundled": true,
+      "bytes": 28477001,
+      "materialization_required": false,
+      "path": "source_data/all_source_data_deidentified.xlsx",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "347e2f2ada93fabf3eed46d455c96752d3e01652fd269e7998cf95c5241de3ab"
+    }
+  ],
+  "freeze_status": "frozen",
+  "license_boundary": "Article and source data: CC BY 4.0. Author analysis code: MIT.",
+  "missingness": "The complete frozen source-data boundary is present.",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "schema": "truthinsightbench-data-manifest",
+  "scientific_scope": "A losslessly deidentified copy of all 65 source-data sheets, plus three frequency scans, three complete trajectories, and one auxiliary anonymous numeric table.",
+  "t0": "2021-04-01",
+  "task_id": "Physics_03_controlled_dynamics_forecast",
+  "title": "Frequency- and Time-Domain Boundaries of Controlled-Dynamics Forecasts",
+  "variable_dictionary": [
+    {
+      "file_or_pattern": "normalized_views/anonymous_observations.tsv",
+      "measures": [
+        "observation_index",
+        "numeric_feature_1",
+        "numeric_feature_2",
+        "numeric_feature_3"
+      ]
+    },
+    {
+      "file_or_pattern": "normalized_views/control_a_frequency_response.tsv",
+      "measures": [
+        "control_a",
+        "reference_frequency",
+        "forecast_frequency"
+      ]
+    },
+    {
+      "file_or_pattern": "normalized_views/control_b_frequency_response.tsv",
+      "measures": [
+        "control_b",
+        "reference_frequency",
+        "forecast_frequency"
+      ]
+    },
+    {
+      "file_or_pattern": "normalized_views/signed_control_frequency_response.tsv",
+      "measures": [
+        "signed_control",
+        "reference_frequency",
+        "forecast_frequency"
+      ]
+    },
+    {
+      "file_or_pattern": "normalized_views/trajectory_condition_*.tsv",
+      "measures": [
+        "time",
+        "drive",
+        "reference_response",
+        "forecast_response"
+      ]
+    },
+    {
+      "file_or_pattern": "source_data/all_source_data_deidentified.xlsx",
+      "measures": [
+        "complete workbook sheets and numeric payload"
+      ]
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "warnings": [
+    "Reference and forecast channels are paired outputs, not independent experiments.",
+    "Good frequency prediction does not by itself establish full-trajectory accuracy or a correct microscopic mechanism."
+  ],
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

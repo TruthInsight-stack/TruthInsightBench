@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Math_01_governing_equation_discovery",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition.py",
+      "script_sha256": "ffba1dd17a7d9381f70b8f5c9b283920b34dfcf281049629f83ac1e55439187e"
+    },
+    {
+      "script": "verification/perturb/A/method.py",
+      "script_sha256": "41b7b371ae31300a58fbfa0727a74ebf9aa6457b2a81cc5bae8496c8da5cb047"
+    },
+    {
+      "script": "verification/perturb/A/sample.py",
+      "script_sha256": "137a2548ae8e4644f1409443696f644681ce837c0bf288f99de1e9b1b65fa2dd"
+    },
+    {
+      "script": "verification/perturb/B/definition.py",
+      "script_sha256": "b6ad389d26cb70a7b73035dc70393dc379d3c968ea12f89d0115f1dfb132ba85"
+    },
+    {
+      "script": "verification/perturb/B/method.py",
+      "script_sha256": "aae28f3e2af70418ff96543938cae004998150017e26992f194a1304ffe4aa34"
+    },
+    {
+      "script": "verification/perturb/B/sample.py",
+      "script_sha256": "2f95ecaa888f7f7e231bae8531c9f3b52f280dac6d4f5dedfa5532038dcf1c76"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "ff98444c267cc2c0f0ed35724f1e0ef1b5cae770cdb76a90986f7a1cda4ddee1"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "3fc018454cf13c93c9369523c4c30d7029ea03389707dd33b71bfece448eda4c"
+    }
+  ],
+  "verification_tree_sha256": "9cc091fa7cde2a008acf45cbb0004c344dbeb569e45feb4f4e69db4c71ecdc8d",
+  "verification_file_count": 8,
+  "shared_runtime_tree_sha256": "d8710168f8a9c9ce1fd4946fdcfa0a279806376236feda46a5384b7f302428e9",
+  "shared_runtime_file_count": 4
+}

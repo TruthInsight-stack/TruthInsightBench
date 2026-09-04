@@ -1,0 +1,427 @@
+{
+  "all_queries_completed": true,
+  "api_cutoff": "2019-12-31",
+  "cards": {
+    "A": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "Abstract Pyrrolopyrrole aza‐BODIPY analogues (PPABs) are a new class of UV/vis and near‐infrared chromophores. Varying the substituents results in red‐shifts of both the absorption and emission spectra. Extension of the lengths of the oligothiophene substituents from thiophene to quaterthiophene caused red‐shifts of the absorption and emission from 699 and 712 nm to 809 and 853 nm, respectively. The piperidylthiophene‐substituted PPAB exhibited similar red‐shifts of the absorption and emission to 810 and 831 nm, respectively, although only a single thienyl component is present, because of the strong electron‐donating nature of the piperidine substituent.",
+              "doi": "https://doi.org/10.1002/cplu.201900226",
+              "id": "https://doi.org/10.1002/cplu.201900226",
+              "landing_page_url": "https://doi.org/10.1002/cplu.201900226",
+              "publication_date": "2019-06-11",
+              "publication_year": 2019,
+              "source_name": "ChemPlusChem",
+              "title": "Pyrrolopyrrole Aza‐BODIPY Analogues as Near‐Infrared Chromophores and Fluorophores: Red‐Shift Effects of Substituents on Absorption and Emission Spectra",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1063/1.1700540",
+              "id": "https://doi.org/10.1063/1.1700540",
+              "landing_page_url": "https://doi.org/10.1063/1.1700540",
+              "publication_date": "1952-04-01",
+              "publication_year": 1952,
+              "source_name": "The Journal of Chemical Physics",
+              "title": "Emission Spectrum of HCl in the Near Infrared",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/cplu.201900498",
+              "id": "https://doi.org/10.1002/cplu.201900498",
+              "landing_page_url": "https://doi.org/10.1002/cplu.201900498",
+              "publication_date": "2019-08-19",
+              "publication_year": 2019,
+              "source_name": "ChemPlusChem",
+              "title": "Cover Feature: Pyrrolopyrrole Aza‐BODIPY Analogues as Near‐Infrared Chromophores and Fluorophores: Red‐Shift Effects of Substituents on Absorption and Emission Spectra (ChemPlusChem 11/2019)",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "The emission spectrum of the vibration—rotation bands of the electronic ground state of nitric oxide has been observed in the 1.83–1.95- and 2.63–2.81-μ regions under moderately high resolution. The source of the spectrum was a high-tension discharge maintained through streaming nitric oxide gas at pressures of less than 1 atm. A detailed analysis of the 2–0, 3–;1, and 4–;2 bands, occurring at 2.69, 2.73, and 2.77 μ, respectively, has been carried out. Accurate values obtained for many of the rotational and vibrational constants associated with the 2II½ and Π322 substates of the electronic ground state are presented, including a value for the spin—orbit coupling constant A. Also, the effective rotational temperature of the emitting gas has been determined.",
+              "doi": "https://doi.org/10.1063/1.1726132",
+              "id": "https://doi.org/10.1063/1.1726132",
+              "landing_page_url": "https://doi.org/10.1063/1.1726132",
+              "publication_date": "1964-09-15",
+              "publication_year": 1964,
+              "source_name": "The Journal of Chemical Physics",
+              "title": "Near-Infrared Emission Spectrum of NO",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1166/mex.2014.1161",
+              "id": "https://doi.org/10.1166/mex.2014.1161",
+              "landing_page_url": "https://doi.org/10.1166/mex.2014.1161",
+              "publication_date": "2014-06-01",
+              "publication_year": 2014,
+              "source_name": "Materials Express",
+              "title": "Blue shift tunable negative index metamaterials based on topological insulator for near-infrared spectrum",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jms.2008.01.006",
+              "id": "https://doi.org/10.1016/j.jms.2008.01.006",
+              "landing_page_url": "https://doi.org/10.1016/j.jms.2008.01.006",
+              "publication_date": "2008-05-01",
+              "publication_year": 2008,
+              "source_name": "Journal of Molecular Spectroscopy",
+              "title": "Near infrared emission spectrum of HCN",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jms.2010.05.005",
+              "id": "https://doi.org/10.1016/j.jms.2010.05.005",
+              "landing_page_url": "https://doi.org/10.1016/j.jms.2010.05.005",
+              "publication_date": "2010-08-01",
+              "publication_year": 2010,
+              "source_name": "Journal of Molecular Spectroscopy",
+              "title": "Near infrared emission spectrum of H13CN",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1063/1.1742982",
+              "id": "https://doi.org/10.1063/1.1742982",
+              "landing_page_url": "https://doi.org/10.1063/1.1742982",
+              "publication_date": "1956-09-01",
+              "publication_year": 1956,
+              "source_name": "The Journal of Chemical Physics",
+              "title": "Near Infrared Emission Spectrum of the H, O3 Reaction",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "near infrared IIb AIEgen aggregate emission red shift spectrum",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=near+infrared+IIb+AIEgen+aggregate+emission+red+shift+spectrum&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        },
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1021/bk-2016-1226.ch007",
+              "id": "https://doi.org/10.1021/bk-2016-1226.ch007",
+              "landing_page_url": "https://doi.org/10.1021/bk-2016-1226.ch007",
+              "publication_date": "2016-09-27",
+              "publication_year": 2016,
+              "source_name": "ACS Symposium Series",
+              "title": "Aggregation Induced Emission of 9,10-Distrylanthracene Derivatives: Molecular Design and Applications",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/9781118735183.ch13",
+              "id": "https://doi.org/10.1002/9781118735183.ch13",
+              "landing_page_url": "https://doi.org/10.1002/9781118735183.ch13",
+              "publication_date": "2013-09-30",
+              "publication_year": 2013,
+              "source_name": "Aggregation-Induced Emission: Fundamentals",
+              "title": "Enhanced Emission by Restriction of Molecular Rotation",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "Abstract Aggregation‐induced emission (AIE)‐active maleimide dyes, namely, 2‐ p ‐toluidino‐ N ‐ p ‐tolylmaleimide, 3‐phenyl‐2‐toluidino‐ N ‐ p ‐tolylmaleimide, 2‐ p ‐thiocresyl‐3‐ p ‐toluidino‐ N ‐ p ‐tolylmaleimide, and 2,3‐dithiocresyl‐ N ‐arylmaleimides, were synthesized by facile synthetic procedures. The dyes show intense emission in the solid state, and emission colors were controlled from green ( λ max =527 nm) to orange ( λ max =609 nm) by varying the substituents at the 2‐ and 3‐positions of the maleimide and the packing structures in the solid state. 2,3‐Disubstituted maleimide dyes effectively underwent redshifts of their emission wavelength. Furthermore, some of the dyes exhibited mechanochromism and polymorphism, and their emission properties were dramatically dependent on the morphology of the solid samples. The mechanisms of the emission behaviors were investigated by X‐ray diffraction. The substituent of the nitrogen atom of the maleimide ring affected the intermolecular interactions and short contacts, which were observed by single crystal X‐ray crystallography, to result in completely different emission properties.",
+              "doi": "https://doi.org/10.1002/chem.201501519",
+              "id": "https://doi.org/10.1002/chem.201501519",
+              "landing_page_url": "https://doi.org/10.1002/chem.201501519",
+              "publication_date": "2015-07-14",
+              "publication_year": 2015,
+              "source_name": "Chemistry – A European Journal",
+              "title": "Color Tuning of the Aggregation‐Induced Emission of Maleimide Dyes by Molecular Design and Morphology Control",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/9781118735183.ch21",
+              "id": "https://doi.org/10.1002/9781118735183.ch21",
+              "landing_page_url": "https://doi.org/10.1002/9781118735183.ch21",
+              "publication_date": "2013-09-30",
+              "publication_year": 2013,
+              "source_name": "Aggregation-Induced Emission: Fundamentals",
+              "title": "Mechanochromic Aggregation-Induced Emission Materials",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/9781118735183.ch10",
+              "id": "https://doi.org/10.1002/9781118735183.ch10",
+              "landing_page_url": "https://doi.org/10.1002/9781118735183.ch10",
+              "publication_date": "2013-09-30",
+              "publication_year": 2013,
+              "source_name": "Aggregation-Induced Emission: Fundamentals",
+              "title": "Supramolecular Structure and Aggregation-Induced Emission",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/9781118735183.ch05",
+              "id": "https://doi.org/10.1002/9781118735183.ch05",
+              "landing_page_url": "https://doi.org/10.1002/9781118735183.ch05",
+              "publication_date": "2013-09-30",
+              "publication_year": 2013,
+              "source_name": "Aggregation-Induced Emission: Fundamentals",
+              "title": "Aggregation-Induced Emission in Organic Ion Pairs",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "Abstract Precise design of fluorescent molecules with desired properties has enabled the rapid development of many research fields. Among the different types of optically active materials, luminogens with aggregation‐induced emission (AIEgens) have attracted significant interest over the past two decades. The negligible luminescence of AIEgens as a molecular species and high brightness in aggregate states distinguish them from conventional fluorescent dyes, which has galvanized efforts to bring AIEgens to a wide array of multidisciplinary applications. Herein, the useful principles and emerging structure–property relationships for precise molecular design toward AIEgens with desirable properties using concrete examples are revealed. The cutting‐edge applications of AIEgens and their excellent performance in enabling new research directions in biomedical theranostics, optoelectronic devices, stimuli‐responsive smart materials, and visualization of physical processes are also highlighted.",
+              "doi": "https://doi.org/10.1002/adma.201903530",
+              "id": "https://doi.org/10.1002/adma.201903530",
+              "landing_page_url": "https://doi.org/10.1002/adma.201903530",
+              "publication_date": "2019-10-03",
+              "publication_year": 2019,
+              "source_name": "Advanced Materials",
+              "title": "Precise Molecular Design for High‐Performance Luminogens with Aggregation‐Induced Emission",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/9781118735183.ch11",
+              "id": "https://doi.org/10.1002/9781118735183.ch11",
+              "landing_page_url": "https://doi.org/10.1002/9781118735183.ch11",
+              "publication_date": "2013-09-30",
+              "publication_year": 2013,
+              "source_name": "Aggregation-Induced Emission: Fundamentals",
+              "title": "Aggregation-Induced Emission in Supramolecular π-Organogels",
+              "type": "book-chapter"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "aggregation induced emission NIR peak morphology molecular design",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=aggregation+induced+emission+NIR+peak+morphology+molecular+design&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        }
+      ],
+      "search_completed": true
+    },
+    "B": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "The insoluble and soluble fractions of dietary fibre have different human physiological effects and their presence in foods is of interest to consumers, the medical community and the cereal product industry. The development of a model, using near infrared (NIR) reflectance spectroscopy, to predict insoluble dietary fibre in a wide range of dry-milled cereal products and grains is described. The products included breakfast cereals, crackers, brans, pastas and flours. Insoluble dietary fibre was measured by the AOAC enzymatic–gravimetric procedure (AOAC 991.43). The range in insoluble dietary fibre was 0–48%. Near infrared reflectance spectra were obtained with a scanning monochromator and data analysed with a commercial analysis program. A calibration ( n = 90) was developed for prediction of insoluble dietary fibre using preprocessed spectra and modified partial least squares regression. The standard error of cross validation and R 2 were 1.34% and 0.99, respectively. The model was tested with independent validation samples ( n = 32) and the resulting standard error of performance and r 2 were 1.13% insoluble dietary fibre and 0.99, respectively. The results show that NIR spectroscopy can be used to predict the insoluble dietary fibre content in a wide variety of processed and unprocessed cereal products.",
+              "doi": "https://doi.org/10.1255/jnirs.140",
+              "id": "https://doi.org/10.1255/jnirs.140",
+              "landing_page_url": "https://doi.org/10.1255/jnirs.140",
+              "publication_date": "1998-01-01",
+              "publication_year": 1998,
+              "source_name": "Journal of Near Infrared Spectroscopy",
+              "title": "The Use of near Infrared Reflectance Spectroscopy to Predict the Insoluble Dietary Fibre Fraction of Cereal Products",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "A new multispectral imaging spectrometer which is capable of simultaneously recording spectral images in the visible and near infrared has been developed. In this instrument, an acousto-optic tunable filter (AOTF) is used to diffract an unpolarised incident light into two diffracted beams with orthogonal polarisation. One of the beams is detected by a silicon camera for the visible region while the other is detected in the near infrared (NIR) region (from 1000 to 1700nm) with an NIR camera. The imaging spectrometer is sensitive, inexpensive and field deployable because it is based on a camera using the recently available InGaAs focal plane arrays which are low-cost and can be sensitively operated at room temperature. The imaging spectrometer was used for measurements which previously were not possible. These include the kinetic determination of curing of an epoxy resin by amine, and the detection of reaction products from solid-phase peptide synthesis. Rates of reactions between epoxy and amine were found to be very inhomogeneous. Because of this kinetic inhomogeneity, differences in the degrees of cure at different positions within the sample can be as high as 37% when data from only a single pixel were used for calculation. The inhomogeneity was not observed if the average of a large number of pixels was used. The NIR imaging spectrometer was also used for the kinetic determination and identification of products formed during the solid phase peptide synthesis of glycine, alanine and valine mediated by aminomethylstyrene resin beads. Because this NIR imaging spectrometer can measure spectra at different positions within a sample, it was used for the first demonstration in which reactions of three different solid-phase peptide syntheses (in a three-compartment cell) were simultaneously monitored. Since relatively good spectra can be obtained by using data recorded by a single pixel and because the NIR camera has 240×320 pixels, this NIR multispectral imaging technique is not limited to three-compartment cell used in this study but rather can be used as the detection method for solid-phase peptide synthesis in combinatorial chemistry.",
+              "doi": "https://doi.org/10.1255/jnirs.266",
+              "id": "https://doi.org/10.1255/jnirs.266",
+              "landing_page_url": "https://doi.org/10.1255/jnirs.266",
+              "publication_date": "2000-03-01",
+              "publication_year": 2000,
+              "source_name": "Journal of Near Infrared Spectroscopy",
+              "title": "Visualising Chemical Composition and Reaction Kinetics by the near Infrared Multispectral Imaging Technique",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "The use of near infrared (NIR) reflectance spectroscopy for the rapid and accurate measurement of moisture, sugar, acid, protein and salt was explored in a diverse group of tomato juice products. Partial and overall calibrations were performed on four different tomato juice products. Partial calibrations for each product included samples of the specific product, whereas overall calibration used samples of all the products. Samples were analysed employing traditional chemical methods and scanned using an Instalab 600-Dickey-John NIR apparatus to obtain NIR spectra. Calibrations were achieved with the use of multilinear regression between chemical and spectral data from each calibration data set. A separate set of samples was used to validate the calibrations. Linear regression was applied to compare the results obtained by NIR spectroscopy for all constituents of the validation set with those obtained by the reference methods. In addition, the root mean square error of prediction ( RMSEP), the bias and the correlation coefficients ( r and r′) were calculated. All of the statistical parameters were better with overall than with partial calibrations. Prediction ability of overall calibration was very good for all the constituents. r and r′ values were higher than 0.9488 and 0.9453, respectively, RMSEP values were smaller than 0.1067, whereas bias varied from −0.020 to 0.016. The partial calibrations are considerable less variable with the correlation coefficients r and r′ ranged from 0.8890 to 0.9477 and from 0.7202 to 0.8518, respectively, RMSEP varied from 0.0647 to 0.4942 and bias from −0.365 to 0.071. NIR measurement as performed by the Dickey-John Analyser was proved a rapid and accurate method for analysis of tomato juice samples and may be used as a replacement for conventional expensive and time-consuming wet chemistry methods.",
+              "doi": "https://doi.org/10.1255/jnirs.360",
+              "id": "https://doi.org/10.1255/jnirs.360",
+              "landing_page_url": "https://doi.org/10.1255/jnirs.360",
+              "publication_date": "2003-04-01",
+              "publication_year": 2003,
+              "source_name": "Journal of Near Infrared Spectroscopy",
+              "title": "Estimating the Composition of Tomato Juice Products by near Infrared Spectroscopy",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "It has been shown that super-chilling can increase the shelf life of fish and meat products without the reduction in quality encountered with normal freezing. The shelf life and quality achieved depend on the fraction of water frozen and how it is preserved in the product. In this paper, we report on the possibility of using non-contact near infrared (NIR) interactance spectroscopy in combination with multi-spectral imaging as a rapid, non-destructive way to predict the average ice fraction as well as the spatial distribution of ice in super-chilled salmon fillets. For average ice fraction calibrations, samples in the range of 0% to 30% ice were investigated. Partial least square regression (PLSR) models with high explained variance ( R 2 ≈0.98) and root mean square error of cross-validation between 1.6% and 2.4% were obtained. The time of NIR measurement after super-chilling (0 h, 1/2 h, 2 h and 24 h) did not seem to affect the prediction ability significantly. The spatial ice distribution, as predicted by PLSR modelling, was affected considerably by the fat distribution. This was avoided by the use of multivariate curve resolution at pixel level and calibration against the amount of ice divided by the total amount of water in both liquid and solid state. Excellent images of ice distribution were achieved and allowed observation of changes during storage and thawing. The ability to predict fat content in super-chilled salmon fillets was also investigated. Fat content predictions were affected by ice fraction, but were observed to be independent of time of measurement after freezing.",
+              "doi": "https://doi.org/10.1255/jnirs.827",
+              "id": "https://doi.org/10.1255/jnirs.827",
+              "landing_page_url": "https://doi.org/10.1255/jnirs.827",
+              "publication_date": "2009-01-01",
+              "publication_year": 2009,
+              "source_name": "Journal of Near Infrared Spectroscopy",
+              "title": "Prediction of Ice Fraction and Fat Content in Super-Chilled Salmon by Non-Contact Interactance near Infrared Imaging",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "For the production of high quality meat products, processors demand firm pig fat. About 20 years ago, Swiss slaughter houses established a titrimetric method to determine the so-called fat score (an index of double bonds in the fat) as a quality control measure. Since 2005, an NIR method has been applied to determine the fat score in two processing plants. The use of toxic solvents and reagents was thus avoided and the work needed considerably reduced. The result, nevertheless, is an unspecific measure of the sum of double bonds. The aim of this study was to evaluate the potential of determining the fatty acid composition more specifically or even to predict fat consistency traits directly in pig fat without extracting the lard. For this purpose a total of 155 samples of pig fat was scratched from the outer layer of the backfat at the slaughter line according to the official fat score method. The collected fat was mixed with a rotor-stator homogeniser, before NIR spectra were recorded. The fatty acid composition was analysed using gas chromatography and the solid fat content was measured by differential scanning calorimetry. The proportion of saturated fatty acids (SFA), monounsaturated (MUFA) and polyunsaturated fatty acids (PUFA) was validated with relative standard errors of prediction (SEP) of 0.9%, 1.6% and 4.7% and coefficients of determination ( r 2 ) of 0.98, 0.88 and 0.96, respectively. The validation of the proportion of very long chain PUFA resulted in a SEP of 7.6% and an r 2 of 0.88. The solid fat content (at 10°C and 20°C) was also estimated with sufficient precision and accuracy ( n = 80; SEP=2.9% and 3.2%, r 2 = 0.94 and 0.96, respectively). NIR, therefore, provides the potential to establish more specific measures for pig fat quality than the original fat score method.",
+              "doi": "https://doi.org/10.1255/jnirs.792",
+              "id": "https://doi.org/10.1255/jnirs.792",
+              "landing_page_url": "https://doi.org/10.1255/jnirs.792",
+              "publication_date": "2008-01-01",
+              "publication_year": 2008,
+              "source_name": "Journal of Near Infrared Spectroscopy",
+              "title": "Determination of Fatty Acid Composition and Consistency of Raw Pig Fat with near Infrared Spectroscopy",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1037/e594392009-001",
+              "id": "https://doi.org/10.1037/e594392009-001",
+              "landing_page_url": "https://doi.org/10.1037/e594392009-001",
+              "publication_date": "1963-01-01",
+              "publication_year": 1963,
+              "source_name": "PsycEXTRA Dataset",
+              "title": "Study of Near Infrared Emission from the Mammalian Cerebral Cortex",
+              "type": "dataset"
+            },
+            {
+              "abstract": "The content ratio of whey proteins to casein can serve as an indicator of milk quality as well as criterion for the presence of milk proteins adulteration, if it exceeds 0.25. The actual task is to produce an effective and portable sensor for the named ratio. The applicability of an inexpensive portable near infrared spectrometer for the specified task was tested in this work. The streams of backscattering and transmission light in the samples of the restored milk were acquired in the form of optical density spectra for a wavelength range of 800–1065 nm using a new two-channel CCD spectrometer. It was calibrated on the content of fat, casein and whey proteins using partial least squares regression. Another objective was to develop a cost-effective way to obtain a set of reference samples with various concentrations of three components that are needed to create the calibration models or to test them. Testing the calibration designed for the measurement of fat, casein and whey proteins in drinking milk showed root mean squared errors of prediction of 0.09% wt, 0.12% wt and 0.06%wt, and correlation coefficients of 0.90, 0.82 and 0.89, respectively. The value of the 95th percentile for the ratio of whey proteins to casein was found to be±0.06, which is sufficiently low for practical use of the method. A comparison of models, one of which was built using the proposed “custom” set of 35 samples and the other which was based on a random set of 81 samples, showed similar acceptable results. Thus, the proposed method is suitable for cost reduction without loss of calibration quality.",
+              "doi": "https://doi.org/10.1255/jnirs.1054",
+              "id": "https://doi.org/10.1255/jnirs.1054",
+              "landing_page_url": "https://doi.org/10.1255/jnirs.1054",
+              "publication_date": "2013-01-01",
+              "publication_year": 2013,
+              "source_name": "Journal of Near Infrared Spectroscopy",
+              "title": "Determining the Composition of Proteins in Milk Using a Portable near Infrared Spectrometer",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Composting of animal manure is an effective method of managing organic waste in agriculture and reducing environmental and human health risks. Rapid determination of composition of animal manure compost could facilitate the composting process and improve the quality of compost products. This study aimed to explore the feasibility of analysing the composition of animal manure compost based on a dried and fresh weight basis using near infrared (NIR) reflectance spectroscopy. A total of 120 animal manure compost samples, collected from 22 provinces in China, were scanned (4000–10,000 cm −1 ) and NIR calibrations were developed by partial least-square regression. Results showed that for dried and milled animal manure compost samples, the NIR method could accurately predict the contents of volatile solid (VS), total organic carbon (TOC) and total nitrogen (TN). The validation coefficient of determination ( r 2 ) and the ratio of the standard deviation of the reference data in the validation set to the standard error of prediction ( RPD) were 0.85 (2.60), 0.85 (2.56) and 0.97 (6.95), respectively. For fresh animal manure compost samples, the NIR method could provide accurate predictions of moisture, electriconic conductivity, VS, TOC and TN content with r 2 and RPD of 0.98 (7.48), 0.90 (3.10), 0.94 (4.05) 0.91 (3.17), and 0.97 (6.11), respectively. Poorer calibrations were obtained for pH, carbon to nitrogen ratio and total phosphorus using either dry or fresh samples. Overall, the results indicated that NIR analysis could be very useful for the rapid quality evaluation of animal manure compost.",
+              "doi": "https://doi.org/10.1255/jnirs.745",
+              "id": "https://doi.org/10.1255/jnirs.745",
+              "landing_page_url": "https://doi.org/10.1255/jnirs.745",
+              "publication_date": "2007-12-01",
+              "publication_year": 2007,
+              "source_name": "Journal of Near Infrared Spectroscopy",
+              "title": "Rapid Estimation of the Composition of Animal Manure Compost by near Infrared Reflectance Spectroscopy",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "near infrared emission composition fraction monotonic response",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=near+infrared+emission+composition+fraction+monotonic+response&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        },
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1255/nirn.188",
+              "id": "https://doi.org/10.1255/nirn.188",
+              "landing_page_url": "https://doi.org/10.1255/nirn.188",
+              "publication_date": "1993-06-01",
+              "publication_year": 1993,
+              "source_name": "NIR news",
+              "title": "Very near Infrared Fluorescence Spectroscopy",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Although biological fluorescence imaging in the second near-infrared window (NIR-Ⅱ, 1000-1700 nm) has embodied the advantages of deep tissue penetration, low background noise and high spatial resolution, shortage of high quantum yield (QY) organic fluorophores has become the bottleneck for further development to this field. Now, an ingenious strategy is proposed to address this: constitutional isomerization by utilizing the molecular design philosophy of aggregation-induced emission (AIE). By solely shifting alkyl chain from meta to ortho position, the resulting twisted structure drives the NIR-Ⅱ fluorophores from aggregation-caused quenching (ACQ) to AIE. In this way, the AIE luminogen (AIEgen), 2TT- o C6B, is provided with an emission peak at 1030 nm and a QY of 11% in nanoparticles, one of the highest reported so far. To endow the targeting ability to deeply located diseases, neutrophils (NEs), the most common immune cells, are used to penetrate the brain tissues. Herein, we show that NEs carrying 2TT- o C6B NPs can penetrate the brain and visualize the deeply located inflammation through intact scalp and skull (3 mm of depth). Notably, the bright 2TT- o C6B fluorophore contributes to a significantly enhanced signal-to-noise ratio of 30.6 in brain inflammation site, which is among the best ones to date. This modern molecule design philosophy could enable a powerful platform for high QY fluorophores and their potential biological applications.",
+              "doi": "https://doi.org/10.26434/chemrxiv.8684693.v1",
+              "id": "https://doi.org/10.26434/chemrxiv.8684693.v1",
+              "landing_page_url": "https://doi.org/10.26434/chemrxiv.8684693.v1",
+              "publication_date": "2019-07-05",
+              "publication_year": 2019,
+              "source_name": null,
+              "title": "Constitutional Isomerization Enables Ultrabright NIR-Ⅱ AIEgen for Brain-Inflammation Imaging",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1255/nirn.1017",
+              "id": "https://doi.org/10.1255/nirn.1017",
+              "landing_page_url": "https://doi.org/10.1255/nirn.1017",
+              "publication_date": "2007-05-01",
+              "publication_year": 2007,
+              "source_name": "NIR news",
+              "title": "The Increasing Role of NIR Fluorescence Spectroscopy in Bioanalytical Chemistry",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1255/nirn.1357",
+              "id": "https://doi.org/10.1255/nirn.1357",
+              "landing_page_url": "https://doi.org/10.1255/nirn.1357",
+              "publication_date": "2013-03-01",
+              "publication_year": 2013,
+              "source_name": "NIR news",
+              "title": "A Tribute to Tomas Isaksson: The Use of Mixture Design for Model Studies in NIR Spectroscopy",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1364/ao.42.006682",
+              "id": "https://doi.org/10.1364/ao.42.006682",
+              "landing_page_url": "https://doi.org/10.1364/ao.42.006682",
+              "publication_date": "2003-01-01",
+              "publication_year": 2003,
+              "source_name": "Applied Optics",
+              "title": "Nitric-Oxide Planar Laser-Induced Fluorescence Applied to Low-Pressure Hypersonic Flow Fields for the Imaging of Mixture Fraction",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1364/ol.42.003498",
+              "id": "https://doi.org/10.1364/ol.42.003498",
+              "landing_page_url": "https://doi.org/10.1364/ol.42.003498",
+              "publication_date": "2017-09-01",
+              "publication_year": 2017,
+              "source_name": "Optics Letters",
+              "title": "Mixture-fraction imaging at 1  kHz using femtosecond laser-induced fluorescence of krypton",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.2172/4391923",
+              "id": "https://doi.org/10.2172/4391923",
+              "landing_page_url": "https://doi.org/10.2172/4391923",
+              "publication_date": "1954-07-01",
+              "publication_year": 1954,
+              "source_name": null,
+              "title": "URANYL FLUORESCENCE INTENSITY AND DECAY",
+              "type": "report"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/s00348-019-2723-4",
+              "id": "https://doi.org/10.1007/s00348-019-2723-4",
+              "landing_page_url": "https://doi.org/10.1007/s00348-019-2723-4",
+              "publication_date": "2019-04-17",
+              "publication_year": 2019,
+              "source_name": "Experiments in Fluids",
+              "title": "Quantitative mixture fraction imaging of a synthetic biogas turbulent jet propagating into a NO-vitiated air co-flow using planar laser-induced fluorescence (PLIF)",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "AIEgen mixture fraction fluorescence intensity NIR",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=AIEgen+mixture+fraction+fluorescence+intensity+NIR&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        }
+      ],
+      "search_completed": true
+    }
+  },
+  "generated_at": "2026-08-22",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "aba8ae08f59a3924efa806e05e6af306d7a312ffa4ec65185cb4fea4c1cf5af4",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Searches are frozen reproducible retrieval evidence within the declared provider, queries, cutoff, and result depth. They do not certify absence from all literature.",
+  "strict_before": "2020-01-01",
+  "target_doi_excluded": "10.1038/s41467-020-15095-1",
+  "task_id": "Material_06_nir_emission_structure",
+  "release": "V1.0"
+}

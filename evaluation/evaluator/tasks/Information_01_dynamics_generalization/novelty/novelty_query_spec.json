@@ -1,0 +1,21 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "neural differential equation complex network dynamics generalization graph",
+        "machine learning dynamical systems unseen network topology generalization"
+      ]
+    },
+    "B": {
+      "queries": [
+        "graph neural networks nonlinear dynamics transfer random graph degree distribution",
+        "neural network model complex systems distribution shift topology dynamics"
+      ]
+    }
+  },
+  "provider": "frozen_bibliographic_snapshot",
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2024-10-02",
+  "task_id": "Information_01_dynamics_generalization",
+  "release": "V1.0"
+}

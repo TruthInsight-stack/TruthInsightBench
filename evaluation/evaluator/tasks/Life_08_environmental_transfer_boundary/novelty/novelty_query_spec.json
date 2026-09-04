@@ -1,0 +1,27 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "SARS-CoV-2 hospital room surface contamination PCR cycle threshold",
+        "patient viral load environmental surface positivity association"
+      ]
+    },
+    "B": {
+      "queries": [
+        "hospital surface contamination site heterogeneity symptoms",
+        "SARS CoV 2 environmental contamination room site positivity"
+      ]
+    }
+  },
+  "frozen_at": "2026-08-22",
+  "provider": "OpenAlex_primary_with_Crossref_fallback",
+  "provider_api": [
+    "https://api.openalex.org/works",
+    "https://api.crossref.org/works"
+  ],
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2020-01-01",
+  "target_doi_excluded": "10.1038/s41467-020-16670-2",
+  "task_id": "Life_08_environmental_transfer_boundary",
+  "release": "V1.0"
+}

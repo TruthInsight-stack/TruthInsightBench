@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Information_01_dynamics_generalization",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition_frozen.py",
+      "script_sha256": "c073a6ce4582b6cfd986c6916aedfcc1e8118d0d2e5041df478d75085245b8f8"
+    },
+    {
+      "script": "verification/perturb/A/method_frozen.py",
+      "script_sha256": "1211789c2e4ba9f9f762f61e6d46f2bd994a02d9be4f1a50ee20b2057319839d"
+    },
+    {
+      "script": "verification/perturb/A/sample_frozen.py",
+      "script_sha256": "c04ca5b454064da72f92fa0d3ffae3b85a38300282cc67a4ea0090992bfd17cc"
+    },
+    {
+      "script": "verification/perturb/B/definition_frozen.py",
+      "script_sha256": "a6b2643191dbda2a43b7d3ded4e98fda9b9f763bbcc586fbe9e02895859bc8f3"
+    },
+    {
+      "script": "verification/perturb/B/method_frozen.py",
+      "script_sha256": "8162e624119e18ed4fd6a7aa0f2b4d3b2acac4b0e79e35527c5082d411f7659c"
+    },
+    {
+      "script": "verification/perturb/B/sample_frozen.py",
+      "script_sha256": "b3679ec3424d83c6a88585931dab8c6629bf1a3f4ce7a984b0f8f6a2c6e99f8c"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "098487d8ea17d1d0e5f11a98e791dad5f4f429c9655ed077f4e639838e210c2f"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "998957d6cca48e3067e514126e73a26182b3fe65e61f9e327f1d8bdbdd88737a"
+    }
+  ],
+  "verification_tree_sha256": "3fb8351b66870e5aec0077daae94a4410a0bdf721d6c9ec1d8829d212b1c2b78",
+  "verification_file_count": 31,
+  "shared_runtime_tree_sha256": "d8710168f8a9c9ce1fd4946fdcfa0a279806376236feda46a5384b7f302428e9",
+  "shared_runtime_file_count": 4
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Energy_02_flow_battery_operating_boundary",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition.py",
+      "script_sha256": "990422678d728e17cb81e930fa1ed03ded7fc517fd348aa5b08218a939741181"
+    },
+    {
+      "script": "verification/perturb/A/method.py",
+      "script_sha256": "e91c97c6469f166a05febff289610b7675c8762c825545c384e86f9ad47b18a8"
+    },
+    {
+      "script": "verification/perturb/A/sample.py",
+      "script_sha256": "42384c424ced55d3703509eb901e1888eab6f35eb32768c12fcb9221288fac0d"
+    },
+    {
+      "script": "verification/perturb/B/definition.py",
+      "script_sha256": "bbbcf2474ab4a626d45832e6cf7038a5a01ff7d16327a2594df1b981b0358d50"
+    },
+    {
+      "script": "verification/perturb/B/method.py",
+      "script_sha256": "aa7b3b53b04351e9fd4f2b09cfc00573247a1ba16b2d18b37f798c07f6fef4f6"
+    },
+    {
+      "script": "verification/perturb/B/sample.py",
+      "script_sha256": "37b3a942a4e397c86a24fdc26bcd2ca3c8f8966f7c836db2fdd710ab27c013f9"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "4ef4d1ab011223d64fefa5e296291d53c9f0181389ee60490e2693d4d2da6d75"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "34af40e0f9a4bdde6a72e4fbc5be44143e32d9531ccbd9322fb2f2b0b9d06eb4"
+    }
+  ],
+  "verification_tree_sha256": "00e8e86209d6452147b332e53b47f1ef5e9d1b345317f3568e0ef03859800dfd",
+  "verification_file_count": 8,
+  "shared_runtime_tree_sha256": "d8710168f8a9c9ce1fd4946fdcfa0a279806376236feda46a5384b7f302428e9",
+  "shared_runtime_file_count": 4
+}

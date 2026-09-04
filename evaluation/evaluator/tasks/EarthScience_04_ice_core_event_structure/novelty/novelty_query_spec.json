@@ -1,0 +1,27 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "ice core sulfate volcanic horizons local peaks",
+        "Antarctic ice core sulfate event detection"
+      ]
+    },
+    "B": {
+      "queries": [
+        "ice core sulfate background episodic volcanic peaks",
+        "continuous sulfate record robust background ice core"
+      ]
+    }
+  },
+  "frozen_at": "2026-08-22",
+  "provider": "OpenAlex_primary_with_Crossref_fallback",
+  "provider_api": [
+    "https://api.openalex.org/works",
+    "https://api.crossref.org/works"
+  ],
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2019-01-01",
+  "target_doi_excluded": "10.1038/s41467-019-08357-0",
+  "task_id": "EarthScience_04_ice_core_event_structure",
+  "release": "V1.0"
+}

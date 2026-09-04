@@ -1,0 +1,173 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "Annotated intervals have higher sulfate than their local background across multiple contiguous windows.",
+      "independent_reconstruction_method": "Local-median enrichment and rank-based peak checks over multiple contiguous windows.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Ordered sulfate intervals and pseudonymized event annotations in one ice-core record.",
+      "one_liner": "All 14 annotated events are locally sulfate-enriched and almost all are exact local maxima in a 21-row window.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample.py",
+          "script_sha256": "c09615c6bf3300f05b2eb393fa63571980540f1713e79baae99389d5efac188a"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method.py",
+          "script_sha256": "9808920414756027868eaf5abf76a3a84257a3843d73614751b166e3d4122f5a"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition.py",
+          "script_sha256": "62ccf85b2ee9b1f61e5cf32e0f8b942449854f935b2d8752c05e63c897e10b49"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "Independent replicate-core measurements at the same chronology should show local sulfate peaks; failure is no enrichment for most predeclared events."
+      },
+      "quantities": [
+        {
+          "key": "event_count",
+          "role": "core",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 14
+        },
+        {
+          "key": "median_event_to_local_background_ratio",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "fold",
+          "value": 2.704264927481181
+        },
+        {
+          "key": "minimum_event_to_local_background_ratio",
+          "role": "supporting",
+          "tolerance_rel": 0.1,
+          "unit": "fold",
+          "value": 1.6096352661226354
+        },
+        {
+          "key": "exact_local_maximum_fraction",
+          "role": "supporting",
+          "tolerance_rel": 0.08,
+          "unit": "fraction",
+          "value": 0.9285714285714286
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "script_sha256": "e305b30fa2c990ba3913a8a3e1af30e7b7e093f1e1223446424c24b83a8749b7",
+        "values": [
+          {
+            "json_path": "values.event_count",
+            "quantity_key": "event_count"
+          },
+          {
+            "json_path": "values.median_event_to_local_background_ratio",
+            "quantity_key": "median_event_to_local_background_ratio"
+          },
+          {
+            "json_path": "values.minimum_event_to_local_background_ratio",
+            "quantity_key": "minimum_event_to_local_background_ratio"
+          },
+          {
+            "json_path": "values.exact_local_maximum_fraction",
+            "quantity_key": "exact_local_maximum_fraction"
+          }
+        ]
+      },
+      "scope": "Event detection in this record; annotations do not establish eruption identity or atmospheric pathway.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The registered data source states that the profile evidences 14 volcanic horizons.",
+        "paper_location": "PANGAEA dataset description and event annotations for the 0–42 m sulfate profile.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "Depth-quartile medians vary little, whereas upper tails vary more and contain the annotated events.",
+      "independent_reconstruction_method": "Contiguous depth quartiles with event-excluded medians and three-block upper-tail alternatives.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "The complete ordered sulfate record partitioned into contiguous depth blocks.",
+      "one_liner": "Robust background sulfate is stable across depth quartiles while upper-tail behavior remains episodic.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample.py",
+          "script_sha256": "a645965ca8b829a69e430fa8d02ac9b626eef2f0395253a3d47213c7984dd769"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method.py",
+          "script_sha256": "1a218a1b0d2b1b1b9bd25454c4224ad31b706be8569084c10a2e3f1a6a07db9f"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition.py",
+          "script_sha256": "b23c7d32e57f6b225f789978611ebe708f2431143f3eed6e7920637faf581264"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A deeper contiguous extension should preserve a comparatively stable robust background with localized peaks; failure is a block-wide median shift comparable to event peaks."
+      },
+      "quantities": [
+        {
+          "key": "depth_quartile_median_ratio",
+          "role": "core",
+          "tolerance_rel": 0.03,
+          "unit": "fold",
+          "value": 1.0575344685875694
+        },
+        {
+          "key": "depth_quartile_median_cv",
+          "role": "core",
+          "tolerance_rel": 0.1,
+          "unit": "fraction",
+          "value": 0.021877528377139042
+        },
+        {
+          "key": "depth_quartile_upper_tail_ratio",
+          "role": "supporting",
+          "tolerance_rel": 0.08,
+          "unit": "fold",
+          "value": 1.446874304106012
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "script_sha256": "bfdc6df57f102e77783e38b77f099b649205783a937fbb5775d33933f756d106",
+        "values": [
+          {
+            "json_path": "values.depth_quartile_median_ratio",
+            "quantity_key": "depth_quartile_median_ratio"
+          },
+          {
+            "json_path": "values.depth_quartile_median_cv",
+            "quantity_key": "depth_quartile_median_cv"
+          },
+          {
+            "json_path": "values.depth_quartile_upper_tail_ratio",
+            "quantity_key": "depth_quartile_upper_tail_ratio"
+          }
+        ]
+      },
+      "scope": "Robust distributional background, not a causal trend or isotope conclusion.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source presents a continuous sulfate background punctuated by identified and unidentified event horizons.",
+        "paper_location": "Source-data sulfate profile and its event-oriented dataset description.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "These two cards are verified reference discoveries for blind-rediscovery diagnostics and are not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2019-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "EarthScience_04_ice_core_event_structure",
+  "release": "V1.0"
+}

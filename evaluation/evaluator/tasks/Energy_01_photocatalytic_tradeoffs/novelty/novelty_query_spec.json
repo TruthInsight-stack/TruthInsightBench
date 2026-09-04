@@ -1,0 +1,27 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "covalent organic framework photocatalytic hydrogen evolution formulation activity",
+        "donor acceptor COF photocatalyst activity hierarchy"
+      ]
+    },
+    "B": {
+      "queries": [
+        "photocatalyst action spectrum absorption quantum efficiency 450 nm",
+        "COF apparent quantum efficiency action spectrum"
+      ]
+    }
+  },
+  "frozen_at": "2026-08-22",
+  "provider": "OpenAlex_primary_with_Crossref_fallback",
+  "provider_api": [
+    "https://api.openalex.org/works",
+    "https://api.crossref.org/works"
+  ],
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2022-01-01",
+  "target_doi_excluded": "10.1038/s41467-022-30035-x",
+  "task_id": "Energy_01_photocatalytic_tradeoffs",
+  "release": "V1.0"
+}

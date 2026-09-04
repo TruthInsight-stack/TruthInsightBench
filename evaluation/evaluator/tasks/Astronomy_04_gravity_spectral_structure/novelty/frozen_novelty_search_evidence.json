@@ -1,0 +1,427 @@
+{
+  "all_queries_completed": true,
+  "api_cutoff": "2021-12-31",
+  "cards": {
+    "A": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/bf00054174",
+              "id": "https://doi.org/10.1007/bf00054174",
+              "landing_page_url": "https://doi.org/10.1007/bf00054174",
+              "publication_date": "1985-04-01",
+              "publication_year": 1985,
+              "source_name": "Earth, Moon, and Planets",
+              "title": "Local harmonic analysis of planetary Doppler gravity data",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract A consistent high precision and high resolution gravity model in the north-east Atlantic off Iberia peninsula using multi-source gravity data, ship-borne and satellite derived gravity anomalies, is presented. A solution strategy based on least squares optimal interpolation was used to assimilate into a coherent gravity model, gravity data with different spectral and spatial resolutions. Satellite derived gravity anomalies from KMS02 model, with an error covariance of 25 mGal 2 , and marine data carefully edited and validated by bias crossover error adjustment, were used in this study. The observation error variance was determined from ship-borne track adjustment and assigned an independent value for each track determined from error variance propagation. Unbiased ship-borne gravity observations were assimilated into the satellite derived gravity KMS02 model by the least squares optimal interpolation algorithm (OI) with bias removed by applying a regional bias to all ship tracks (OI-b) and alternatively by constraining all ship tracks to KMS02 using bias and tilt (OI-t). External error of the model was determined by comparing with recent surveys and it was verified that OI-t approach improved the final gravity model to an accuracy of about 3 mGal. The effect of different merging approaches on geoid solution was also evaluated and it was verified that the merging process can contribute to improve the geoid accuracy up to 4 cm with the OI-t approach.",
+              "doi": "https://doi.org/10.1186/bf03351924",
+              "id": "https://doi.org/10.1186/bf03351924",
+              "landing_page_url": "https://doi.org/10.1186/bf03351924",
+              "publication_date": "2006-03-10",
+              "publication_year": 2006,
+              "source_name": "Earth, Planets and Space",
+              "title": "Iberia-Azores Gravity Model (IAGRM) using multi-source gravity data",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "We present a new 180th degree and order model of the Venus gravity field directly derived from line of sight Magellan residual Doppler data instead of usual line of sight residual acceleration data. We discuss the influence of the a priori covariance matrices on the deconvolution process, and compare our results with previous solutions.",
+              "doi": "https://doi.org/10.1029/98gl02600",
+              "id": "https://doi.org/10.1029/98gl02600",
+              "landing_page_url": "https://doi.org/10.1029/98gl02600",
+              "publication_date": "1998-10-01",
+              "publication_year": 1998,
+              "source_name": "Geophysical Research Letters",
+              "title": "A 180th degree and order model of the Venus gravity field from Magellan line of sight residual Doppler data",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3997/2214-4609.20141068",
+              "id": "https://doi.org/10.3997/2214-4609.20141068",
+              "landing_page_url": "https://doi.org/10.3997/2214-4609.20141068",
+              "publication_date": "2014-01-01",
+              "publication_year": 2014,
+              "source_name": "Proceedings",
+              "title": "Residual Gravity for Plate Tectonic Modelling Based on Global Gravity Model Analysis",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-3-642-60654-0_25",
+              "id": "https://doi.org/10.1007/978-3-642-60654-0_25",
+              "landing_page_url": "https://doi.org/10.1007/978-3-642-60654-0_25",
+              "publication_date": "1997-01-01",
+              "publication_year": 1997,
+              "source_name": "Gravity Wave Processes",
+              "title": "Middle Atmosphere Simulations with the ECHAM4 Model: Sensitivity to the Doppler Spread Gravity Wave Parameterization",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-3-540-29925-7_3894",
+              "id": "https://doi.org/10.1007/978-3-540-29925-7_3894",
+              "landing_page_url": "https://doi.org/10.1007/978-3-540-29925-7_3894",
+              "publication_date": "2003-01-01",
+              "publication_year": 2003,
+              "source_name": "Dictionary of Minor Planet Names",
+              "title": "(3905) Doppler",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "Abstract A highly improved gravimetric geoid model for Japan, JGEOID2008, is developed on a 1×1.5 arc-minute grid by combining a GRACE (the Gravity Recovery And Climate Experiment)-based global geopotential model, GGM02C, surface (land and ship-borne) gravity measurements, and an altimetry-derived marine gravity model, KMS2002. In the combination, a semidiscrete two-dimensional wavelet analysis/reconstruction method is employed, selecting the spatial wavelength signals of the highest quality out of the respective data sets. Intercomparison with GPS/leveling geoid undulations shows substantial improvement of JGEOID2008 over the previous model, JGEOID2004, and reveals that the systematic errors at long wavelengths contained in JGEOID2004 have been effectively removed. Deviations of JGEOID2008 from the mean sea surface height at tidal stations on isolated islands were comparable to the differences in the sea surface dynamic heights (SSDH) in the Japan Sea, the Nansei Islands and the Izu Island chain from that in Tokyo Bay. The deviations show good agreement with SSDH features estimated from oceanographic observation, indicating that JGEOID2008 has an accuracy within 10 cm. The geoid model is strongly expected to serve as a reference in ocean dynamics studies.",
+              "doi": "https://doi.org/10.1186/bf03353191",
+              "id": "https://doi.org/10.1186/bf03353191",
+              "landing_page_url": "https://doi.org/10.1186/bf03353191",
+              "publication_date": "2009-08-31",
+              "publication_year": 2009,
+              "source_name": "Earth, Planets and Space",
+              "title": "Improved geoid model determination for Japan from GRACE and a regional gravity field model",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3133/gp1009",
+              "id": "https://doi.org/10.3133/gp1009",
+              "landing_page_url": "https://doi.org/10.3133/gp1009",
+              "publication_date": "1994-01-01",
+              "publication_year": 1994,
+              "source_name": null,
+              "title": "Complete Bouguer gravity anomaly, isostatic-residual gravity, horizontal gradient, and terrain maps of Colorado",
+              "type": "report"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "planet gravity Doppler residual oscillation structured model",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=planet+gravity+Doppler+residual+oscillation+structured+model&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        },
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.21236/ad1008779",
+              "id": "https://doi.org/10.21236/ad1008779",
+              "landing_page_url": "https://doi.org/10.21236/ad1008779",
+              "publication_date": "2016-04-20",
+              "publication_year": 2016,
+              "source_name": null,
+              "title": "Characterization of Non-Linearized Spacecraft Relative Motion using Nonlinear Normal Modes",
+              "type": "report"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.5772/intechopen.87954",
+              "id": "https://doi.org/10.5772/intechopen.87954",
+              "landing_page_url": "https://doi.org/10.5772/intechopen.87954",
+              "publication_date": "2020-01-15",
+              "publication_year": 2020,
+              "source_name": "Advances in Spacecraft Attitude Control",
+              "title": "Analysis and Control of Nonlinear Attitude Motion of Gravity-Gradient Stabilized Spacecraft via Lyapunov-Floquet Transformation and Normal Forms",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.2514/6.2016-1216",
+              "id": "https://doi.org/10.2514/6.2016-1216",
+              "landing_page_url": "https://doi.org/10.2514/6.2016-1216",
+              "publication_date": "2016-01-01",
+              "publication_year": 2016,
+              "source_name": "3rd AIAA Spacecraft Structures Conference",
+              "title": "Membrane Spin-Up in a Normal Gravity Field: Experiments and Simulations",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "&amp;lt;p&amp;gt;As of April 2021, Juno is close to complete its nominal mission, awaiting to enter its extended mission. Thanks to the extremely accurate Doppler data (having an accuracy as low as 10 micron/s at an integration time of 60 s) acquired during close perijove passes in the last 4 years, Juno provided an unprecedented view of Jupiter&amp;amp;#8217;s gravity field, which is crucial to determine its interior structure. In order to recover the gravity field of the planet, the orbits of Juno have to be reconstructed to a very high accuracy. The latest gravity field reconstruction showed hints to a non-static and/or non-axially symmetric field, possibly related to several different phenomena, such as normal modes, localized atmospheric or deeply-rooted dynamics. These tiny phenomena produces a residual signal at a level of few tens of micron/s in Juno Doppler data. To confidently study these tiny unconventional phenomena, the dynamical model of Juno&amp;amp;#8217;s spacecraft have been accurately characterized and possible error sources investigated and ruled out.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;The focus of this study is Jupiter&amp;amp;#8217;s normal modes. Our main goal is to assess whether the residuals signatures can be explained by the gravitational disturbances induced by normal modes inside the planet, assuming reasonable physical constraints. Ground-based observations of Jupiter&amp;amp;#8217; normal modes can be used as a guide.&amp;lt;/p&amp;gt;",
+              "doi": "https://doi.org/10.5194/egusphere-egu21-15398",
+              "id": "https://doi.org/10.5194/egusphere-egu21-15398",
+              "landing_page_url": "https://doi.org/10.5194/egusphere-egu21-15398",
+              "publication_date": "2021-03-04",
+              "publication_year": 2021,
+              "source_name": null,
+              "title": "A peek into Jupiter&amp;#8217;s normal modes from Juno gravity data",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1088/0264-9381/18/17/313",
+              "id": "https://doi.org/10.1088/0264-9381/18/17/313",
+              "landing_page_url": "https://doi.org/10.1088/0264-9381/18/17/313",
+              "publication_date": "2001-08-17",
+              "publication_year": 2001,
+              "source_name": "Classical and Quantum Gravity",
+              "title": "Analogue gravity from field theory normal modes?",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1088/0264-9381/20/6/303",
+              "id": "https://doi.org/10.1088/0264-9381/20/6/303",
+              "landing_page_url": "https://doi.org/10.1088/0264-9381/20/6/303",
+              "publication_date": "2003-02-25",
+              "publication_year": 2003,
+              "source_name": "Classical and Quantum Gravity",
+              "title": "Scalar normal modes of higher-dimensional gravitating kinks",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1088/0264-9381/21/17/l02",
+              "id": "https://doi.org/10.1088/0264-9381/21/17/l02",
+              "landing_page_url": "https://doi.org/10.1088/0264-9381/21/17/l02",
+              "publication_date": "2004-08-19",
+              "publication_year": 2004,
+              "source_name": "Classical and Quantum Gravity",
+              "title": "Hawking temperature from quasi-normal modes",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1088/0264-9381/8/12/006",
+              "id": "https://doi.org/10.1088/0264-9381/8/12/006",
+              "landing_page_url": "https://doi.org/10.1088/0264-9381/8/12/006",
+              "publication_date": "1999-01-01",
+              "publication_year": 1999,
+              "source_name": "Classical and Quantum Gravity",
+              "title": "Normal modes of the Kerr black hole",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "spacecraft gravity residual normal modes",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=spacecraft+gravity+residual+normal+modes&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        }
+      ],
+      "search_completed": true
+    },
+    "B": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1017/9781108344227.007",
+              "id": "https://doi.org/10.1017/9781108344227.007",
+              "landing_page_url": "https://doi.org/10.1017/9781108344227.007",
+              "publication_date": "2020-01-31",
+              "publication_year": 2020,
+              "source_name": "Astrophysics of Planet Formation",
+              "title": "Giant Planet Formation",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-3-030-60963-4_2",
+              "id": "https://doi.org/10.1007/978-3-030-60963-4_2",
+              "landing_page_url": "https://doi.org/10.1007/978-3-030-60963-4_2",
+              "publication_date": "2020-12-06",
+              "publication_year": 2020,
+              "source_name": "Mathematics of Planet Earth",
+              "title": "Normal Mode Functions and Initialization",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "Abstract Axisymmetric disks of high-eccentricity, low-mass bodies on near-Keplerian orbits are unstable to an out-of-plane buckling. This “inclination instability” exponentially grows the orbital inclinations, raises perihelion distances, and clusters in the argument of perihelion. Here we examine the instability in a massive primordial scattered disk including the orbit-averaged gravitational influence of the giant planets. We show that differential apsidal precession induced by the giant planets will suppress the inclination instability unless the primordial mass is ≳20 Earth masses. We also show that the instability should produce a “perihelion gap” at semimajor axes of hundreds of astronomical units, as the orbits of the remnant population are more likely to have extremely large perihelion distances ( ) than intermediate values.",
+              "doi": "https://doi.org/10.3847/1538-3881/ab962f",
+              "id": "https://doi.org/10.3847/1538-3881/ab962f",
+              "landing_page_url": "https://doi.org/10.3847/1538-3881/ab962f",
+              "publication_date": "2020-07-02",
+              "publication_year": 2020,
+              "source_name": "The Astronomical Journal",
+              "title": "Giant-planet Influence on the Collective Gravity of a Primordial Scattered Disk",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-3-030-60963-4_3",
+              "id": "https://doi.org/10.1007/978-3-030-60963-4_3",
+              "landing_page_url": "https://doi.org/10.1007/978-3-030-60963-4_3",
+              "publication_date": "2020-12-06",
+              "publication_year": 2020,
+              "source_name": "Mathematics of Planet Earth",
+              "title": "Normal-Mode Functions and Atmospheric Data Assimilation",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1017/cbo9780511802225.007",
+              "id": "https://doi.org/10.1017/cbo9780511802225.007",
+              "landing_page_url": "https://doi.org/10.1017/cbo9780511802225.007",
+              "publication_date": "2009-12-10",
+              "publication_year": 2009,
+              "source_name": "Astrophysics of Planet Formation",
+              "title": "Giant planet formation",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1111/j.1365-2966.2011.18230.x",
+              "id": "https://doi.org/10.1111/j.1365-2966.2011.18230.x",
+              "landing_page_url": "https://doi.org/10.1111/j.1365-2966.2011.18230.x",
+              "publication_date": "2011-03-09",
+              "publication_year": 2011,
+              "source_name": "Monthly Notices of the Royal Astronomical Society",
+              "title": "Formation of terrestrial planet cores inside giant planet embryos",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-3-030-60963-4_1",
+              "id": "https://doi.org/10.1007/978-3-030-60963-4_1",
+              "landing_page_url": "https://doi.org/10.1007/978-3-030-60963-4_1",
+              "publication_date": "2020-12-06",
+              "publication_year": 2020,
+              "source_name": "Mathematics of Planet Earth",
+              "title": "3D Normal Mode Functions (NMFs) of a Global Baroclinic Atmospheric Model",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "The post-Newtonian approximation in general relativity will be used to estimate gravity for the jovian system and the comet shoemaker-Levy 9 that collided with Jupiter. We calculate and discuss the post-Newtonian corrections to the gravity of Jupiter and precessions of its satellites, which are compared with the Earth-Moon system.",
+              "doi": "https://doi.org/10.7498/aps.50.2497",
+              "id": "https://doi.org/10.7498/aps.50.2497",
+              "landing_page_url": "https://doi.org/10.7498/aps.50.2497",
+              "publication_date": "2001-01-01",
+              "publication_year": 2001,
+              "source_name": "Acta Physica Sinica",
+              "title": "ESTIMATION OF POST-NEWTONIAN APPROXIMATION OF GRAVITY THAT AFFECTS SATELLITES OF PLANET",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "giant planet normal mode 1000 microhertz gravity",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=giant+planet+normal+mode+1000+microhertz+gravity&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        },
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "Abstract Electroencephalography (EEG) based biomarkers have been shown to correlated with the presence of psychotic disorders. Increased delta and decreased alpha power in psychosis indicate an abnormal arousal state. We investigated brain activity across the basic EEG frequencies and also dynamic functional connectivity of both intra and cross-frequency coupling that could reveal a neurophysiological biomarker linked to an aberrant modulating role of alpha frequency in adolescents with schizophrenia spectrum disorders (SSDs). A dynamic functional connectivity graph (DFCG) has been estimated using the imaginary part of phase lag value (iPLV) and correlation of the envelope (corrEnv). We analyzed DFCG profiles of electroencephalographic resting state (eyes closed) recordings of healthy controls (HC) (n=39) and SSDs subjects (n=45) in basic frequency bands {δ,θ,α 1 ,α 2 ,β 1 ,β 2 ,γ}. In our analysis, we incorporated both intra and cross-frequency coupling modes. Adopting our recent Dominant Coupling Mode (DoCM) model leads to the construction of an integrated DFCG (iDFCG) that encapsulates the functional strength and the DoCM of every pair of brain areas. We revealed significantly higher ratios of delta/alpha1,2 power spectrum in SSDs subjects versus HC. The probability distribution (PD) of amplitude driven DoCM mediated by alpha frequency differentiated SSDs from HC with absolute accuracy (100%). The network Flexibility Index (FI) was significantly lower for subjects with SSDs compared to the HC group. Our analysis supports a central role of alpha frequency alterations in the neurophysiological mechanisms of SSDs. Currents findings open up new diagnostic pathways to clinical detection of SSDs and supports the design of rational neurofeedback training. Highlights Ratios of delta/alpha 1,2 relative power spectrum were significant higher in SSDs subjects compared to HC Probability distribution (PD) of amplitude driven DoCM mediated by alpha frequency differentiated SSDs from HC with 100% Network Flexibility index (FI) was significant lower for subjects with SSDs compared to HC group.",
+              "doi": "https://doi.org/10.1101/2020.06.02.20118851",
+              "id": "https://doi.org/10.1101/2020.06.02.20118851",
+              "landing_page_url": "https://doi.org/10.1101/2020.06.02.20118851",
+              "publication_date": "2020-06-05",
+              "publication_year": 2020,
+              "source_name": null,
+              "title": "Reconfiguration of Amplitude Driven Dominant Coupling Modes (DoCM) mediated by α-band in Adolescents with Schizophrenia Spectrum Disorders",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1051/0004-6361:20041682",
+              "id": "https://doi.org/10.1051/0004-6361:20041682",
+              "landing_page_url": "https://doi.org/10.1051/0004-6361:20041682",
+              "publication_date": "2004-12-07",
+              "publication_year": 2004,
+              "source_name": "Astronomy &amp; Astrophysics",
+              "title": "On detecting short-lived p modes in a stellar oscillation \n spectrum",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.newast.2014.12.005",
+              "id": "https://doi.org/10.1016/j.newast.2014.12.005",
+              "landing_page_url": "https://doi.org/10.1016/j.newast.2014.12.005",
+              "publication_date": "2015-05-01",
+              "publication_year": 2015,
+              "source_name": "New Astronomy",
+              "title": "Photometry and the determination of oscillation modes for high amplitude Delta Scuti (HADS) variable GSC 1566-2802",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1051/0004-6361:20065271",
+              "id": "https://doi.org/10.1051/0004-6361:20065271",
+              "landing_page_url": "https://doi.org/10.1051/0004-6361:20065271",
+              "publication_date": "2007-01-02",
+              "publication_year": 2007,
+              "source_name": "Astronomy &amp; Astrophysics",
+              "title": "On cross-spectrum capabilities for detecting   stellar oscillation modes",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1093/mnras/stt968",
+              "id": "https://doi.org/10.1093/mnras/stt968",
+              "landing_page_url": "https://doi.org/10.1093/mnras/stt968",
+              "publication_date": "2013-07-10",
+              "publication_year": 2013,
+              "source_name": "Monthly Notices of the Royal Astronomical Society",
+              "title": "A statistical study on the low-frequency quasi-periodic oscillation amplitude spectrum and amplitude in GRS 1915+105",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1364/josa.71.001282",
+              "id": "https://doi.org/10.1364/josa.71.001282",
+              "landing_page_url": "https://doi.org/10.1364/josa.71.001282",
+              "publication_date": "1981-10-01",
+              "publication_year": 1981,
+              "source_name": "Journal of the Optical Society of America",
+              "title": "Orthogonality and amplitude spectrum of radiation modes along open-boundary waveguides: comment",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.physrep.2013.06.001",
+              "id": "https://doi.org/10.1016/j.physrep.2013.06.001",
+              "landing_page_url": "https://doi.org/10.1016/j.physrep.2013.06.001",
+              "publication_date": "2013-10-01",
+              "publication_year": 2013,
+              "source_name": "Physics Reports",
+              "title": "Oscillation quenching mechanisms: Amplitude vs. oscillation death",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-1-4419-9863-7_523",
+              "id": "https://doi.org/10.1007/978-1-4419-9863-7_523",
+              "landing_page_url": "https://doi.org/10.1007/978-1-4419-9863-7_523",
+              "publication_date": "2013-01-01",
+              "publication_year": 2013,
+              "source_name": "Encyclopedia of Systems Biology",
+              "title": "Oscillation Amplitude",
+              "type": "book-chapter"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "planet oscillation amplitude spectrum p modes",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=planet+oscillation+amplitude+spectrum+p+modes&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        }
+      ],
+      "search_completed": true
+    }
+  },
+  "generated_at": "2026-08-22",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "322a1dbb7a9c9088bf9beb2ad20f91a7b4b0548c616c8c58a9ca9f6cbaff752e",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Searches are frozen reproducible retrieval evidence within the declared provider, queries, cutoff, and result depth. They do not certify absence from all literature.",
+  "strict_before": "2022-01-01",
+  "target_doi_excluded": "10.1038/s41467-022-32299-9",
+  "task_id": "Astronomy_04_gravity_spectral_structure",
+  "release": "V1.0"
+}

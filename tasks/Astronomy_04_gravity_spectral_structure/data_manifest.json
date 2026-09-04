@@ -1,0 +1,103 @@
+{
+  "schema": "truthinsightbench-data-manifest",
+  "task_id": "Astronomy_04_gravity_spectral_structure",
+  "title": "Time-Resolved Gravity Residuals and Candidate Spectral Structure",
+  "domain": "astronomy",
+  "t0": "2022-01-01",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "scientific_scope": "All 22 frozen complete time-resolved passes, the ranked full spectral-parameter grid, both supporting candidate-grid slices, the mode-frequency rows, and the uniform-alternative comparison rows for the anonymous gravitating system.",
+  "analysis_unit": "One complete time-resolved pass or one complete candidate spectral parameter combination; adjacent time samples and neighboring grid rows are not independent replicates.",
+  "missingness": "No curator-imposed row deletion, random subsampling, or imputation is applied within the frozen task boundary.",
+  "license_boundary": "Target article and archived source-data tables are CC BY; task tables are lossless, identity-neutral projections of the frozen numerical source tables.",
+  "warnings": [
+    "The number of complete passes is limited, so claims must use blocked-time or whole-pass checks rather than treating time samples as replicates.",
+    "A lower information criterion supports a relative comparison within the supplied candidate family, not proof that the family is physically unique."
+  ],
+  "variable_dictionary": {
+    "candidate_spectrum_comparison.tsv": [
+      "candidate_family",
+      "max_velocity_cm_s",
+      "min_velocity_cm_s",
+      "peak_frequency_microhz",
+      "peak_width_microhz",
+      "information_criterion"
+    ],
+    "mode_frequency_grid.tsv": [
+      "angular_degree",
+      "radial_order",
+      "mode_frequency_microhz",
+      "surface_velocity_cm_s",
+      "coupling_coefficient"
+    ],
+    "pass_residual_traces.tsv": [
+      "pass_id",
+      "relative_time_min",
+      "residual_model_A_mm_s",
+      "residual_model_C_mm_s",
+      "residual_model_B_mm_s"
+    ],
+    "ranked_full_parameter_grid.tsv": [
+      "candidate_rank",
+      "max_velocity_cm_s",
+      "min_velocity_cm_s",
+      "peak_frequency_microhz",
+      "frequency_width_microhz",
+      "delta_information_criterion"
+    ],
+    "uniform_alternative_comparison.tsv": [
+      "uniform_velocity_cm_s",
+      "information_criterion"
+    ]
+  },
+  "source_projection_inventory": [],
+  "files": [
+    {
+      "path": "candidate_spectrum_comparison.tsv",
+      "bytes": 30115,
+      "sha256": "63a5790704c3faf4cffc414b0e2a579e585d1c375090ea217f99c5dcc5ff7bbe",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "mode_frequency_grid.tsv",
+      "bytes": 1715,
+      "sha256": "30baf2dfaa9432d571385c53ec895de5de83aca61b85281843e52e12a4dc7fcb",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "pass_residual_traces.tsv",
+      "bytes": 136523,
+      "sha256": "584915428982b43472d2a1f3d2fec0c82c52c3ff3ba046877f8a4d87ff88e067",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "ranked_full_parameter_grid.tsv",
+      "bytes": 10334,
+      "sha256": "bd21877cf7d72a6cb52cb81687db9f47ec91093819317251998bf91fd0f7df2d",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "uniform_alternative_comparison.tsv",
+      "bytes": 433,
+      "sha256": "c913ed4d4f6405956fbe86c376e1662287572ad55c1eee61d9290890a0402fce",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

@@ -1,0 +1,106 @@
+{
+  "files": [
+    {
+      "file": "response_data_apv.mat",
+      "mat_variable": "data_apv",
+      "independent_trials": 9,
+      "s_shape": [
+        25600,
+        2
+      ],
+      "o_shape": [
+        25600,
+        32
+      ],
+      "r_shape": [
+        25600,
+        64
+      ]
+    },
+    {
+      "file": "response_data_bic.mat",
+      "mat_variable": "data_bic",
+      "independent_trials": 6,
+      "s_shape": [
+        25600,
+        2
+      ],
+      "o_shape": [
+        25600,
+        32
+      ],
+      "r_shape": [
+        25600,
+        64
+      ]
+    },
+    {
+      "file": "response_data_ctrl.mat",
+      "mat_variable": "data_ctrl",
+      "independent_trials": 30,
+      "s_shape": [
+        25600,
+        2
+      ],
+      "o_shape": [
+        25600,
+        32
+      ],
+      "r_shape": [
+        25600,
+        64
+      ]
+    },
+    {
+      "file": "response_data_dzp.mat",
+      "mat_variable": "data_dzp",
+      "independent_trials": 7,
+      "s_shape": [
+        25600,
+        2
+      ],
+      "o_shape": [
+        25600,
+        32
+      ],
+      "r_shape": [
+        25600,
+        64
+      ]
+    },
+    {
+      "file": "response_data_mix0.mat",
+      "mat_variable": "data_mix0",
+      "independent_trials": 4,
+      "s_shape": [
+        25600,
+        2
+      ],
+      "o_shape": [
+        25600,
+        32
+      ],
+      "r_shape": [
+        25600,
+        64
+      ]
+    },
+    {
+      "file": "response_data_mix50.mat",
+      "mat_variable": "data_mix50",
+      "independent_trials": 4,
+      "s_shape": [
+        25600,
+        2
+      ],
+      "o_shape": [
+        25600,
+        32
+      ],
+      "r_shape": [
+        25600,
+        64
+      ]
+    }
+  ]
+}

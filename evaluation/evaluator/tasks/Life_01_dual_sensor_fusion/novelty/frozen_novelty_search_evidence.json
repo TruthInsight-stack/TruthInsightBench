@@ -1,0 +1,1168 @@
+{
+  "all_queries_completed": true,
+  "cards": {
+    "A": {
+      "queries": [
+        {
+          "api_cutoff": "2023-12-31",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "Summary Synaptic vesicle recycling is essential for maintaining normal synaptic function. The coupling of exocytosis and endocytosis is assumed to be Ca2+-dependent but the exact role of Ca2+ and its key effector synaptotagmin-1 (syt1) in regulation of endocytosis are poorly understood. Here, we probed the role of syt1 in single as well as multivesicle endocytic events using high resolution optical recordings. Our experiments showed that the slowed endocytosis phenotype previously reported after syt1 loss-of-function can also be triggered by other manipulations that promote asynchronous release such as Sr2+ substitution and complexin loss-of-function. The link between asynchronous release and slowed endocytosis was due to selective targeting of fused synaptic vesicles towards slow retrieval by the asynchronous release Ca2+ sensor synaptotagmin7. In contrast, after single synaptic vesicle fusion, syt1 acted as an essential determinant of synaptic vesicle endocytosis time course by delaying the kinetics of vesicle retrieval in response to increasing Ca2+ levels.",
+              "also_returned_by": [
+                "semantic_scholar"
+              ],
+              "alternate_ids": [
+                "S2:2480d6dbf76ee7fca9c9d4207269f137a20847be"
+              ],
+              "date": "2017-01-19",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.neuron.2016.12.010",
+              "id": "https://openalex.org/W2572503237",
+              "provider": "openalex",
+              "title": "Synaptotagmin-1- and Synaptotagmin-7-Dependent Fusion Mechanisms Target Synaptic Vesicles to Kinetically Distinct Endocytic Pathways"
+            },
+            {
+              "abstract": "Synaptotagmin-1 (SYT1) is a calcium-binding synaptic vesicle protein that is required for both exocytosis and endocytosis. Here, we describe a human condition associated with a rare variant in SYT1. The individual harboring this variant presented with an early onset dyskinetic movement disorder, severe motor delay, and profound cognitive impairment. Structural MRI was normal, but EEG showed extensive neurophysiological disturbances that included the unusual features of low-frequency oscillatory bursts and enhanced paired-pulse depression of visual evoked potentials. Trio analysis of whole-exome sequence identified a de novo SYT1 missense variant (I368T). Expression of rat SYT1 containing the equivalent human variant in WT mouse primary hippocampal cultures revealed that the mutant form of SYT1 correctly localizes to nerve terminals and is expressed at levels that are approximately equal to levels of endogenous WT protein. The presence of the mutant SYT1 slowed synaptic vesicle fusion kinetics, a finding that agrees with the previously demonstrated role for I368 in calcium-dependent membrane penetration. Expression of the I368T variant also altered the kinetics of synaptic vesicle endocytosis. Together, the clinical features, electrophysiological phenotype, and in vitro neuronal phenotype associated with this dominant negative SYT1 mutation highlight presynaptic mechanisms that mediate human motor control and cognitive development.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-02-23",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1172/jci79765",
+              "id": "https://openalex.org/W1973694001",
+              "provider": "openalex",
+              "title": "Identification of a human synaptotagmin-1 mutation that perturbs synaptic vesicle cycling"
+            },
+            {
+              "abstract": "Rab proteins have been primarily implicated in vesicle docking as regulators of SNARE pairing. Recent findings, however, indicate that their function in vesicle trafficking can go beyond this role, and a number of proteins, unrelated to each other, have been identified as putative Rab effectors. Although the GTPase switch of Rab proteins is highly conserved, functional mechanisms may be highly diversified among members of the Rab family.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1997-08-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/s0955-0674(97)80025-7",
+              "id": "https://openalex.org/W2047137800",
+              "provider": "openalex",
+              "title": "The diversity of Rab proteins in vesicle transport"
+            },
+            {
+              "abstract": "Abstract Synaptic vesicle (SV) exocytosis is mediated by SNARE proteins. Reconstituted SNAREs are constitutively active, so a major focus has been to identify fusion clamps that regulate their activity in synapses: the primary candidates are synaptotagmin (syt) 1 and complexin I/II. Syt1 is a Ca 2+ sensor for SV release that binds Ca 2+ via tandem C2-domains, C2A and C2B. Here, we first determined whether these C2-domains execute distinct functions. Remarkably, the C2B domain profoundly clamped all forms of SV fusion, despite synchronizing residual evoked release and rescuing the readily-releasable pool. Release was strongly enhanced by an adjacent C2A domain, and by the concurrent binding of complexin to trans -SNARE complexes. Knockdown of complexin had no impact on C2B-mediated clamping of fusion. We postulate that the C2B domain of syt1, independent of complexin, is the molecular clamp that arrests SVs prior to Ca 2+ -triggered fusion.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-09-09",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41467-019-12015-w",
+              "id": "https://openalex.org/W2971534563",
+              "provider": "openalex",
+              "title": "Synaptotagmin 1 clamps synaptic vesicle fusion in mammalian neurons independent of complexin"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/nature16507",
+              "id": "https://openalex.org/W2235731016",
+              "provider": "openalex",
+              "title": "The calcium sensor synaptotagmin 7 is required for synaptic facilitation"
+            },
+            {
+              "abstract": "Synaptotagmin has been proposed to function as a Ca(2+) sensor that regulates synaptic vesicle exocytosis, whereas the soluble N-ethylmaleimide-sensitive factor attachment protein receptor (SNARE) complex is thought to form the core of a conserved membrane fusion machine. Little is known concerning the functional relationships between synaptotagmin and SNAREs. Here we report that synaptotagmin can facilitate SNARE complex formation in vitro and that synaptotagmin mutations disrupt SNARE complex formation in vivo. Synaptotagmin oligomers efficiently bind SNARE complexes, whereas Ca(2+) acting via synaptotagmin triggers cross-linking of SNARE complexes into dimers. Mutations in Drosophila that delete the C2B domain of synaptotagmin disrupt clathrin AP-2 binding and endocytosis. In contrast, a mutation that blocks Ca(2+)-triggered conformational changes in C2B and diminishes Ca(2+)-triggered synaptotagmin oligomerization results in a postdocking defect in neurotransmitter release and a decrease in SNARE assembly in vivo. These data suggest that Ca(2+)-driven oligomerization via the C2B domain of synaptotagmin may trigger synaptic vesicle fusion via the assembly and clustering of SNARE complexes.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2001-03-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1523/jneurosci.21-05-01421.2001",
+              "id": "https://openalex.org/W1784572511",
+              "provider": "openalex",
+              "title": "synaptotagmin mutants reveal essential functions for the C2B domain in Ca2+-triggered fusion and recycling of synaptic vesicles in vivo."
+            },
+            {
+              "abstract": "Neurons can sustain high rates of synaptic transmission without exhausting their supply of synaptic vesicles. This property relies on a highly efficient local endocytic recycling of synaptic vesicle membranes, which can be reused for hundreds, possibly thousands, of exo-endocytic cycles. Morphological, physiological, molecular, and genetic studies over the last four decades have provided insight into the membrane traffic reactions that govern this recycling and its regulation. These studies have shown that synaptic vesicle endocytosis capitalizes on fundamental and general endocytic mechanisms but also involves neuron-specific adaptations of such mechanisms. Thus, investigations of these processes have advanced not only the field of synaptic transmission but also, more generally, the field of endocytosis. This article summarizes current information on synaptic vesicle endocytosis with an emphasis on the underlying molecular mechanisms and with a special focus on clathrin-mediated endocytosis, the predominant pathway of synaptic vesicle protein internalization.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2012-07-03",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1101/cshperspect.a005645",
+              "id": "https://openalex.org/W2804806451",
+              "provider": "openalex",
+              "title": "Synaptic Vesicle Endocytosis"
+            },
+            {
+              "abstract": "The Drosophila dicistronic stoned locus encodes two distinctive presynaptic proteins, Stoned A (STNA) and Stoned B (STNB); STNA is a novel protein without homology to known synaptic proteins, and STNB contains a domain with homology to the endocytotic protein AP50. Both Stoned proteins colocalize precisely with endocytotic proteins including the AP2 complex and Dynamin in the \"lattice network\" characteristic of endocytotic domains in Drosophila presynaptic terminals. FM1-43 dye uptake studies in stoned mutants demonstrate a striking decrease in the size of the endo-exo-cycling synaptic vesicle pool and loss of spatial regulation of the vesicular recycling intermediates. Mutant synapses display a significant delay in vesicular membrane retrieval after depolarization and neurotransmitter release. These studies suggest that the Stoned proteins play a role in mediating synaptic vesicle endocytosis. We have documented previously a highly specific synaptic mislocalization and degradation of Synaptotagmin I in stoned mutants. Here we show that transgenic overexpression of Synaptotagmin I rescues stoned embryonic lethality and restores endocytotic recycling to normal levels. Furthermore, overexpression of Synaptotagmin I in otherwise wild-type animals results in increased synaptic dye uptake, indicating that Synaptotagmin I directly regulates the endo-exo-cycling synaptic vesicle pool size. In parallel with recent biochemical studies, this genetic analysis strongly suggests that Stoned proteins regulate the AP2-Synaptotagmin I interaction during synaptic vesicle endocytosis. We con",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2001-02-15",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1523/jneurosci.21-04-01218.2001",
+              "id": "https://openalex.org/W1656523230",
+              "provider": "openalex",
+              "title": "Interaction of Stoned and Synaptotagmin in Synaptic Vesicle Endocytosis"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2006-02-23",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/sj.emboj.7601003",
+              "id": "https://openalex.org/W2116535065",
+              "provider": "openalex",
+              "title": "Sequential N‐ to C‐terminal SNARE complex assembly drives priming and fusion of secretory vesicles"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2005-05-26",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/sj.emboj.7600696",
+              "id": "https://openalex.org/W2117602113",
+              "provider": "openalex",
+              "title": "v‐SNAREs control exocytosis of vesicles from priming to fusion"
+            },
+            {
+              "abstract": "Previously, we showed that modulation of the energy barrier for synaptic vesicle fusion boosts release rates supralinearly (Schotten, 2015). Here we show that mouse hippocampal synapses employ this principle to trigger Ca2+-dependent vesicle release and post-tetanic potentiation (PTP). We assess energy barrier changes by fitting release kinetics in response to hypertonic sucrose. Mimicking activation of the C2A domain of the Ca2+-sensor Synaptotagmin-1 (Syt1), by adding a positive charge (Syt1D232N) or increasing its hydrophobicity (Syt14W), lowers the energy barrier. Removing Syt1 or impairing its release inhibitory function (Syt19Pro) increases spontaneous release without affecting the fusion barrier. Both phorbol esters and tetanic stimulation potentiate synaptic strength, and lower the energy barrier equally well in the presence and absence of Syt1. We propose a model where tetanic stimulation activates Syt1 dependent and independent mechanisms that lower the energy barrier independently in an additive manner to produce PTP by multiplication of release rates.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-08-14",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1101/2020.08.14.251322",
+              "id": "S2:adf50b6a0995d1d7fe085de33984bde7149432d5",
+              "provider": "semantic_scholar",
+              "title": "Post-tetanic potentiation lowers the energy barrier for synaptic vesicle fusion independently of Synaptotagmin-1",
+              "url": "https://www.semanticscholar.org/paper/adf50b6a0995d1d7fe085de33984bde7149432d5?utm_source=api"
+            },
+            {
+              "abstract": "A mechanism for full-length synaptotagmin-1 (syt-1) to interact with anionic bilayers and to promote fusion in the presence of SNAREs is proposed. Colloidal probe force spectroscopy in conjunction with tethered particle motion monitoring showed that in the absence of Ca2+ the binding of syt-1 to membranes depends on the presence and content of PI(4,5)P2. Addition of Ca2+ switches the interaction forces from weak to strong, eventually exceeding the cohesion of the C2A domain of syt-1 leading to partial unfolding of the protein. Fusion of single unilamellar vesicles equipped with syt-1 and synaptobrevin 2 with planar pore-spanning target membranes containing PS and PI(4,5)P2 shows an almost complete suppression of stalled intermediate fusion states and an accelerated fusion kinetics in the presence of Ca2+, which is further enhanced upon addition of ATP.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-12-02",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/acs.nanolett.1c02491",
+              "id": "S2:07e4af1d8b153052e9df6d06aa9adde1aa950769",
+              "provider": "semantic_scholar",
+              "title": "Forces, Kinetics, and Fusion Efficiency Altered by the Full-Length Synaptotagmin-1 -PI(4,5)P2 Interaction in Constrained Geometries.",
+              "url": "https://www.semanticscholar.org/paper/07e4af1d8b153052e9df6d06aa9adde1aa950769?utm_source=api"
+            },
+            {
+              "abstract": "Previously we reported that Synaptotagmin-1 and Complexin synergistically clamp the SNARE assembly process to generate and maintain a pool of docked vesicles that fuse rapidly and synchronously upon Ca2+ influx (Ramakrishnan et al. 2020). Here using the same in vitro single-vesicle fusion assay, we establish the molecular details of the Complexin clamp and its physiological relevance. We find that a delay in fusion kinetics, likely imparted by Synaptotagmin-1, is needed for Complexin to block fusion. Systematic truncation/mutational analyses reveal that continuous alpha-helical accessory-central domains of Complexin are essential for its inhibitory function and specific interaction of the accessory helix with the SNAREpins, analogous to the trans clamping model, enhances this functionality. The c-terminal domain promotes clamping by locally elevating Complexin concentration through interactions with the membrane. Further, we find that Complexin likely contributes to rapid Ca2+-synchronized vesicular release by preventing un-initiated fusion rather than by directly facilitating vesicle fusion.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-07-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1101/2021.07.05.451112",
+              "id": "S2:19c4e5411324f7ce4394a830758b49c5ac6c224a",
+              "provider": "semantic_scholar",
+              "title": "Molecular Determinants of Complexin Clamping in Reconstituted Single-Vesicle Fusion",
+              "url": "https://www.semanticscholar.org/paper/19c4e5411324f7ce4394a830758b49c5ac6c224a?utm_source=api"
+            },
+            {
+              "abstract": "Synaptotagmin 1 is a vesicle-anchored membrane protein that functions as the Ca2+ sensor for synchronous neurotransmitter release. In this work, an arginine containing region in the second C2 domain of synaptotagmin 1 (C2B) is shown to control the expansion of the fusion pore and thereby the concentration of neurotransmitter released. This arginine apex, which is opposite the Ca2+ binding sites, interacts with membranes or membrane reconstituted SNAREs; however, only the membrane interactions occur under the conditions in which fusion takes place. Other regions of C2B influence the fusion probability and kinetics but do not control the expansion of the fusion pore. These data indicate that the C2B domain has at least two distinct molecular roles in the fusion event, and the data are consistent with a model where the arginine apex of C2B positions the domain at the curved membrane surface of the expanding fusion pore. Synaptotagmin 1 (Syt1) is the calcium sensor for fast synchronous neurotransmitter release but the mechanism by which it functions is still under debate. Here, the authors combine EPR measurements and functional studies and observe that different faces of the Syt1 C2B domain play different roles in regulating neurotransmitter release and they show that the expansion of the fusion pore is mediated by membrane contact of the C2B arginine apex.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-09-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41467-021-21090-x",
+              "id": "S2:5d3584a4398a862c75b167135cfae5dc780693e1",
+              "provider": "semantic_scholar",
+              "title": "Conserved arginine residues in synaptotagmin 1 regulate fusion pore expansion through membrane contact",
+              "url": "https://www.semanticscholar.org/paper/5d3584a4398a862c75b167135cfae5dc780693e1?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-08-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1523/JNEUROSCI.0759-15.2015",
+              "id": "S2:217e151aa3d2f32b2700f8204ddec5b58f9a2caf",
+              "provider": "semantic_scholar",
+              "title": "Synaptotagmin-7 Is Essential for Ca2+-Triggered Delayed Asynchronous Release But Not for Ca2+-Dependent Vesicle Priming in Retinal Ribbon Synapses",
+              "url": "https://www.semanticscholar.org/paper/217e151aa3d2f32b2700f8204ddec5b58f9a2caf?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2012-01-31",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/J.BPJ.2011.11.1750",
+              "id": "S2:b72d7dd77d7207704d9adf71e41cde3e81d2e594",
+              "provider": "semantic_scholar",
+              "title": "Cooperative All-Or-None Recruitment of Synaptotagmin C2AB on Single Vesicles Explains Why Ca2+ Regulates the Amplitude of SNARE Mediated Vesicle Fusion",
+              "url": "https://www.semanticscholar.org/paper/b72d7dd77d7207704d9adf71e41cde3e81d2e594?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2011-02-02",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/J.BPJ.2010.12.375",
+              "id": "S2:7b77d2659466250235544d59234ff53f821d7fc9",
+              "provider": "semantic_scholar",
+              "title": "Complexin and Synaptotagmin Genetically Interact in vivo Controlling the Rates of Spontaneous and Nerve-Evoked Vesicle Fusion",
+              "url": "https://www.semanticscholar.org/paper/7b77d2659466250235544d59234ff53f821d7fc9?utm_source=api"
+            },
+            {
+              "abstract": "Synaptotagmin-7 (Syt-7) is one of two major calcium sensors for exocytosis in adrenal chromaffin cells, the other being synaptotagmin-1 (Syt-1). Despite its undoubted importance, questions remain as to the functional and physiological role of Syt-7 in secretion. We examined this issue using two distinct preparations - mouse chromaffin cells lacking endogenous Syt-7 (KO cells) and a reconstituted system employing cell-derived vesicles expressing either Syt-7 or Syt-1. First, we report using immunofluorescence that Syt-7 exhibits a punctate intracellular distribution consistent with its sorting to organelles, including dense core vesicles. We also find that the likelihood of vesicle fusion in KO cells is markedly lower than in WT cells. When fusion does occur, cargoes are discharged more rapidly when only Syt-1 is available to facilitate release. A distinctive characteristic of KO cells is that secretion runs down after prolonged cholinergic stimulation. In contrast, exocytosis persists in WT cells even with extended exposure to acetylcholine, suggesting a key role for Syt-7 in sustaining the secretory response. To determine the extent to which the aforementioned results are attributable purely to Syt-7, vesicles expressing only Syt-7 or Syt-1 were triggered to fuse on planar supported bilayers bearing plasma membrane SNARE proteins. Here, as in cells, Syt-7 confers substantially greater calcium sensitivity to vesicle fusion than Syt-1 and slows the rate at which cargos are released. Overall, this study demonstrates that by virtue of its high affinity for calcium, Syt-7 plays a central role in regulating secretory output from adrenal chromaffin cells.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-07-16",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1101/704205",
+              "id": "S2:7508eec58a184b0b37c5689440e8b733e861a880",
+              "provider": "semantic_scholar",
+              "title": "Synaptotagmin-7 endows a population of chromaffin cell vesicles with enhanced calcium sensing and delayed content release properties",
+              "url": "https://www.semanticscholar.org/paper/7508eec58a184b0b37c5689440e8b733e861a880?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2011-02-16",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.bpj.2010.12.3730",
+              "id": "S2:b8687697bf1231a81b4ae493447aad9d29bd349a",
+              "provider": "semantic_scholar",
+              "title": "Single vesicle assaying of SNARE-synaptotagmin-driven fusion reveals fast and slow modes of both docking and fusion and intrasample heterogeneity.",
+              "url": "https://www.semanticscholar.org/paper/b8687697bf1231a81b4ae493447aad9d29bd349a?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2023-12-31",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 1598,
+              "query": "synaptotagmin delayed vesicle fusion kinetics",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8749",
+                "reset_seconds": "51891"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2023-12-31",
+                  "per_page": "10",
+                  "search": "synaptotagmin delayed vesicle fusion kinetics",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2024-01-01"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2023-12-31",
+              "attempts": 1,
+              "locally_excluded_uncertain_or_not_strictly_before": 0,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 124,
+              "query": "synaptotagmin delayed vesicle fusion kinetics",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "synaptotagmin delayed vesicle fusion kinetics",
+                  "year": "1900-2023"
+                }
+              },
+              "strict_before": "2024-01-01"
+            }
+          },
+          "query": "synaptotagmin delayed vesicle fusion kinetics",
+          "strict_before": "2024-01-01"
+        },
+        {
+          "api_cutoff": "2023-12-31",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2002-02-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1093/emboj/21.3.270",
+              "id": "https://openalex.org/W1992163176",
+              "provider": "openalex",
+              "title": "Synaptotagmins form a hierarchy of exocytotic Ca2+ sensors with distinct Ca2+ affinities"
+            },
+            {
+              "abstract": "Biochemical and genetic data suggest that synaptotagmin-2 functions as a Ca2+ sensor for fast neurotransmitter release in caudal brain regions, but animals and/or synapses lacking synaptotagmin-2 have not been examined. We have now generated mice in which the 5' end of the synaptotagmin-2 gene was replaced by lacZ. Using beta-galactosidase as a marker, we show that, consistent with previous studies, synaptotagmin-2 is widely expressed in spinal cord, brainstem, and cerebellum, but is additionally present in selected forebrain neurons, including most striatal neurons and some hypothalamic, cortical, and hippocampal neurons. Synaptotagmin-2-deficient mice were indistinguishable from wild-type littermates at birth, but subsequently developed severe motor dysfunction, and perished at approximately 3 weeks of age. Electrophysiological studies in cultured striatal neurons revealed that the synaptotagmin-2 deletion slowed the kinetics of evoked neurotransmitter release without altering the total amount of release. In contrast, synaptotagmin-2-deficient neuromuscular junctions (NMJs) suffered from a large reduction in evoked release and changes in short-term synaptic plasticity. Furthermore, in mutant NMJs, the frequency of spontaneous miniature release events was increased both at rest and during stimulus trains. Viewed together, our results demonstrate that the synaptotagmin-2 deficiency causes a lethal impairment in synaptic transmission in selected synapses. This impairment, however, is less severe than that produced in forebrain neurons by deletion of synaptotagmin-1, presumab",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2006-12-27",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1523/jneurosci.3519-06.2006",
+              "id": "https://openalex.org/W2076696328",
+              "provider": "openalex",
+              "title": "Synaptotagmin-2 Is Essential for Survival and Contributes to Ca <sup>2+</sup> Triggering of Neurotransmitter Release in Central and Neuromuscular Synapses"
+            },
+            {
+              "abstract": "Synaptotagmins comprise a large protein family, of which synaptotagmin 1 (Syt1) is a Ca2+ sensor for fast exocytosis, and its close relative, synaptotagmin 2 (Syt2), is assumed to serve similar functions. Chromaffin cells express Syt1 but not Syt2. We compared secretion from chromaffin cells from Syt1 null mice overexpressing either Syt isoform. High time-resolution capacitance measurement showed that Syt1 null cells lack the exocytotic phase corresponding to the readily-releasable pool (RRP) of vesicles. Comparison with the amperometric signal confirmed that the missing phase of exocytosis consists of catecholamine-containing vesicles. Overexpression of Syt1 rescued the RRP and increased its size above wild-type values, whereas the size of the slowly releasable pool decreased, indicating that the availability of Syt1 regulates the relative size of the two releasable pools. The RRP was also rescued by Syt2 overexpression, but the kinetics of fusion was slightly slower than in cells expressing Syt1. Biochemical experiments showed that Syt2 has a slightly lower Ca2+ affinity for phospholipid binding than Syt1 because of a difference in the C2A domain. These data constitute evidence for the function of Syt1 and Syt2 as alternative, but not identical, calcium-sensors for RRP fusion. By overexpression of Syt1 mutated in the shared PKC/calcium/calmodulin-dependent kinase phosphorylation site, we show that phorbol esters act independently and upstream of Syt1 to regulate the size of the releasable pools. We conclude that exocytosis from mouse chromaffin cells can be modified by th",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2006-01-11",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1523/jneurosci.2589-05.2006",
+              "id": "https://openalex.org/W1994265121",
+              "provider": "openalex",
+              "title": "Different Effects on Fast Exocytosis Induced by Synaptotagmin 1 and 2 Isoforms and Abundance But Not by Phosphorylation"
+            },
+            {
+              "abstract": "Cochlear inner hair cells (IHCs) use Ca(2+)-dependent exocytosis of glutamate to signal sound information. Otoferlin (Otof), a C(2) domain protein essential for IHC exocytosis and hearing, may serve as a Ca(2+) sensor in vesicle fusion in IHCs that seem to lack the classical neuronal Ca(2+) sensors synaptotagmin 1 (Syt1) and Syt2. Support for the Ca(2+) sensor of fusion hypothesis for otoferlin function comes from biochemical experiments, but additional roles in late exocytosis upstream of fusion have been indicated by physiological studies. Here, we tested the functional equivalence of otoferlin and Syt1 in three neurosecretory model systems: auditory IHCs, adrenal chromaffin cells, and hippocampal neurons. Long-term and short-term ectopic expression of Syt1 in IHCs of Otof (-/-) mice by viral gene transfer in the embryonic inner ear and organotypic culture failed to rescue their Ca(2+) influx-triggered exocytosis. Conversely, virally mediated overexpression of otoferlin did not restore phasic exocytosis in Syt1-deficient chromaffin cells or neurons but enhanced asynchronous release in the latter. We further tested exocytosis in Otof (-/-) hippocampal neurons and in Syt1(-/-) IHCs but found no deficits in vesicle fusion. Expression analysis of different synaptotagmin isoforms indicated that Syt1 and Syt2 are absent from mature IHCs. Our data argue against a simple functional equivalence of the two C(2) domain proteins in exocytosis of IHC ribbon synapses, chromaffin cells, and hippocampal synapses.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2011-03-30",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1523/jneurosci.5122-10.2011",
+              "id": "https://openalex.org/W1965234374",
+              "provider": "openalex",
+              "title": "Probing the Functional Equivalence of Otoferlin and Synaptotagmin 1 in Exocytosis"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-06-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/nsmb.3035",
+              "id": "https://openalex.org/W1913308306",
+              "provider": "openalex",
+              "title": "Dynamic binding mode of a Synaptotagmin-1–SNARE complex in solution"
+            },
+            {
+              "abstract": "Heterozygous mutations in proline-rich transmembrane protein 2 (PRRT2) underlie a group of paroxysmal disorders, including epilepsy, kinesigenic dyskinesia, and migraine. Most of the mutations lead to impaired PRRT2 expression, suggesting that loss of PRRT2 function may contribute to pathogenesis. We show that PRRT2 is enriched in presynaptic terminals and that its silencing decreases the number of synapses and increases the number of docked synaptic vesicles at rest. PRRT2-silenced neurons exhibit a severe impairment of synchronous release, attributable to a sharp decrease in release probability and Ca(2+) sensitivity and associated with a marked increase of the asynchronous/synchronous release ratio. PRRT2 interacts with the synaptic proteins SNAP-25 and synaptotagmin 1/2. The results indicate that PRRT2 is intimately connected with the Ca(2+)-sensing machinery and that it plays an important role in the final steps of neurotransmitter release.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-03-24",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.celrep.2016.03.005",
+              "id": "https://openalex.org/W2302606179",
+              "provider": "openalex",
+              "title": "PRRT2 Is a Key Component of the Ca2+-Dependent Neurotransmitter Release Machinery"
+            },
+            {
+              "abstract": "Synaptotagmin-I (syt-I) is required for rapid neurotransmitter release in mouse hippocampal neurons. However, contradictory results have been reported regarding evoked and spontaneous secretion from syt-I knock-out (KO) neurons. Here, we compared synaptic transmission in two different hippocampal neuron preparations: autaptic cultures in which a single isolated cell innervates itself, and dissociated mass cultures in which individual cells are innervated by neighboring cells. In autaptic cultures, the total extent of evoked release, size of readily releasable pool of synaptic vesicles, and release probability were unchanged in syt-I KO neurons. In contrast, in cultures containing multiple interconnected neurons, total evoked release, the number of docked vesicles, and release probability, were significantly reduced in syt-I KO neurons. Using a micronetwork system in which we varied the number of cells on an island, we found that the frequency of spontaneous synaptic vesicle fusion events (minis) was unchanged in syt-I KO neurons when two or fewer cells were present on an island. However, in micronetworks composed of three or more neurons, mini frequency was increased threefold to fivefold in syt-I KO neurons compared with wild type. Moreover, interneuronal synapses exhibited higher rates of spontaneous release than autaptic synapses. This higher rate was attributable to an increase in release probability because excitatory hippocampal neurons in micronetworks formed a set number of synapses per cell regardless of the number of connected neurons. Thus, aspects of synaptic tr",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2009-06-10",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1523/jneurosci.1341-09.2009",
+              "id": "https://openalex.org/W1983154767",
+              "provider": "openalex",
+              "title": "Autapses and Networks of Hippocampal Neurons Exhibit Distinct Synaptic Transmission Phenotypes in the Absence of Synaptotagmin I"
+            },
+            {
+              "abstract": "The active zone (AZ) protein Bruchpilot (Brp) is essential for rapid glutamate release at Drosophila melanogaster neuromuscular junctions (NMJs). Quantal time course and measurements of action potential-waveform suggest that presynaptic fusion mechanisms are altered in brp null mutants (brp(69) ). This could account for their increased evoked excitatory postsynaptic current (EPSC) delay and rise time (by about 1 ms). To test the mechanism of release protraction at brp(69) AZs, we performed knock-down of Synaptotagmin-1 (Syt) via RNAi (syt(KD) ) in wildtype (wt), brp(69) and rab3 null mutants (rab3(rup) ), where Brp is concentrated at a small number of AZs. At wt and rab3(rup) synapses, syt(KD) lowered EPSC amplitude while increasing rise time and delay, consistent with the role of Syt as a release sensor. In contrast, syt(KD) did not alter EPSC amplitude at brp(69) synapses, but shortened delay and rise time. In fact, following syt(KD) , these kinetic properties were strikingly similar in wt and brp(69) , which supports the notion that Syt protracts release at brp(69) synapses. To gain insight into this surprising role of Syt at brp(69) AZs, we analyzed the structural and functional differentiation of synaptic boutons at the NMJ. At 'tonic' type Ib motor neurons, distal boutons contain more AZs, more Brp proteins per AZ and show elevated and accelerated glutamate release compared to proximal boutons. The functional differentiation between proximal and distal boutons is Brp-dependent and reduced after syt(KD) . Notably, syt(KD) boutons are smaller, contain fewer Brp positive",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-02-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3389/fncel.2015.00029",
+              "id": "https://openalex.org/W2041303725",
+              "provider": "openalex",
+              "title": "Bruchpilot and Synaptotagmin collaborate to drive rapid glutamate release and active zone differentiation"
+            },
+            {
+              "abstract": "The balance between fast synchronous and delayed asynchronous release of neurotransmitters has a major role in defining computational properties of neuronal synapses and regulation of neuronal network activity. However, how it is tuned at the single synapse level remains poorly understood. Here, using the fluorescent glutamate sensor SF-iGluSnFR, we image quantal vesicular release in tens to hundreds of individual synaptic outputs from single pyramidal cells with 4 millisecond temporal and 75 nm spatial resolution. We find that the ratio between synchronous and asynchronous synaptic vesicle exocytosis varies extensively among synapses supplied by the same axon, and that the synchronicity of release is reduced at low release probability synapses. We further demonstrate that asynchronous exocytosis sites are more widely distributed within the release area than synchronous sites. Together, our results reveal a universal relationship between the two major functional properties of synapses - the timing and the overall efficacy of neurotransmitter release.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-06-17",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41467-022-31070-4",
+              "id": "https://openalex.org/W4283071125",
+              "provider": "openalex",
+              "title": "Asynchronous glutamate release is enhanced in low release efficacy synapses and dispersed across the active zone"
+            },
+            {
+              "abstract": "Synaptotagmin-1 (SYT1) is a synaptic vesicle resident protein that interacts via its C2 domain with anionic lipids from the plasma membrane in a calcium-dependent manner to efficiently trigger rapid neurotransmitter (NT) release. In addition, SYT1 acts as a negative regulator of spontaneous NT release and regulates synaptic vesicle (SV) priming. How these functions relate to each other mechanistically and what role other synaptotagmin (SYT) isoforms play in supporting and complementing the role of SYT1 is still under intensive investigation. In this work, we analyzed three putative functions of SYT1 in exocytosis by systematically varying its expression in autaptic hippocampal glutamatergic neurons from mice of either sex. We find that regulation of release probability is most sensitive to variation of expression levels, whereas its impact on vesicle priming is least sensitive. Also, loss of SYT1 phenotypes on spontaneous release and vesicle priming is compensated in less mature synaptic cultures by redundant support from SYT7. Overall, our data help in resolving some controversies in SYT1 functions in exocytosis and in our understanding of how SYT1 contributes to the pathophysiology underlying SYT1-related human neurologic disorders. SIGNIFICANCE STATEMENT Our work clarifies the functions of SYT1 protein in synaptic vesicle priming and spontaneous and calcium-evoked neurotransmitter release and analyzes whether these occur at different stages of synaptic responses by examining their relative sensitivity to protein concentration at the synaptic terminal. We demonstrate that",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-02-22",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1523/jneurosci.1945-21.2022",
+              "id": "https://openalex.org/W4213075150",
+              "provider": "openalex",
+              "title": "Deconstructing Synaptotagmin-1's Distinct Roles in Synaptic Vesicle Priming and Neurotransmitter Release"
+            },
+            {
+              "abstract": "Despite decades of intense study, the molecular basis of asynchronous neurotransmitter release remains enigmatic. Synaptotagmin (syt) 7 and Doc2 have both been proposed as Ca2+ sensors that trigger this mode of exocytosis, but conflicting findings have led to controversy. Here, we demonstrate that at excitatory mouse hippocampal synapses, Doc2α is the major Ca2+ sensor for asynchronous release, while syt7 supports this process through activity-dependent docking of synaptic vesicles. In synapses lacking Doc2α, asynchronous release after single action potentials is strongly reduced, while deleting syt7 has no effect. However, in the absence of syt7, docked vesicles cannot be replenished on millisecond timescales. Consequently, both synchronous and asynchronous release depress from the second pulse onward during repetitive activity. By contrast, synapses lacking Doc2α have normal activity-dependent docking, but continue to exhibit decreased asynchronous release after multiple stimuli. Moreover, disruption of both Ca2+ sensors is non-additive. These findings result in a new model whereby syt7 drives activity-dependent docking, thus providing synaptic vesicles for synchronous (syt1) and asynchronous (Doc2 and other unidentified sensors) release during ongoing transmission.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2023-12-21",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1101/2022.04.21.489101",
+              "id": "S2:b8ff7620f86b30a2f5dbe3c459d10660434f106d",
+              "provider": "semantic_scholar",
+              "title": "Synaptotagmin 7 docks synaptic vesicles to support facilitation and Doc2α-triggered asynchronous release",
+              "url": "https://www.semanticscholar.org/paper/b8ff7620f86b30a2f5dbe3c459d10660434f106d?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:0cb468c44afdf417ae5500e636509154095ad56d",
+              "provider": "semantic_scholar",
+              "title": "Synaptotagmin 7 docks synaptic vesicles for Doc2α -triggered asynchronous neurotransmitter release",
+              "url": "https://www.semanticscholar.org/paper/0cb468c44afdf417ae5500e636509154095ad56d?utm_source=api"
+            },
+            {
+              "abstract": "Presynaptic neurotransmitter release is strictly regulated by SNARE proteins, Ca2+ and a number of Ca2+ sensors including synaptotagmins (Syts) and Double C2 domain proteins (Doc2s). More than seventy years after the original description of spontaneous release, the mechanism that regulates this process is still poorly understood. Syt-1, Syt7 and Doc2 proteins contribute predominantly, but not exclusively, to synchronous, asynchronous and spontaneous phases of release. The proteins share a conserved tandem C2 domain architecture, but are functionally diverse in their subcellular location, Ca2+-binding properties and protein interactions. In absence of Syt-1, Doc2a and -b, neurons still exhibit spontaneous vesicle fusion which remains Ca2+-sensitive, suggesting the existence of additional sensors. Here, we selected Doc2c, rabphilin-3a and Syt-7 as three potential Ca2+ sensors for their sequence homology with Syt-1 and Doc2b. We genetically ablated each candidate gene in absence of Doc2a & b and investigated spontaneous and evoked release in glutamatergic hippocampal neurons, cultured either in networks or on microglial islands (autapses). The removal of Doc2c had no effect on spontaneous or evoked release. Syt-7 removal also did not affect spontaneous release, although it altered short-term plasticity by accentuating short-term depression. The removal of rabphilin caused an increased spontaneous release frequency in network cultures, an effect that was not observed in autapses. Taken together, we conclude that Doc2c and Syt-7 do not affect spontaneous release of glutamate in hippocampal neurons, while our results suggest a possible regulatory role of rabphilin-3a in neuronal networks. These findings importantly narrow down the repertoire of synaptic Ca2+ sensors that may be implicated in the spontaneous release of glutamate.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-03-19",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.mcn.2021.103613",
+              "id": "S2:eca654ed0cc8cc83a0885f5c2bb8aeb878e342de",
+              "provider": "semantic_scholar",
+              "title": "Ca2+ sensor proteins in spontaneous release and synaptic plasticity: Limited contribution of Doc2c, Rabphilin-3a and Synaptotagmin 7 in hippocampal glutamatergic neurons.",
+              "url": "https://www.semanticscholar.org/paper/eca654ed0cc8cc83a0885f5c2bb8aeb878e342de?utm_source=api"
+            },
+            {
+              "abstract": "Dopamine powerfully controls neural circuits through neuromodulation. In the vertebrate striatum, dopamine adjusts cellular functions to regulate behaviors across broad time scales, but how the dopamine secretory system is built to support fast and slow neuromodulation is not known. Here, we set out to identify Ca2+-triggering mechanisms for dopamine release. We find that synchronous dopamine secretion is abolished in acute brain slices of conditional knockout mice in which Synaptotagmin-1 is removed from dopamine neurons. This indicates that Synaptotagmin-1 is the Ca2+ sensor for fast dopamine release. Remarkably, dopamine release induced by strong depolarization and asynchronous release during stimulus trains are unaffected by Synaptotagmin-1 knockout. Microdialysis further reveals that these modes and action potential-independent release provide significant amounts of extracellular dopamine in vivo. We propose that the molecular machinery for dopamine secretion has evolved to support fast and slow signaling modes, with fast release requiring the Ca2+ sensor Synaptotagmin-1.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-06-03",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.7554/eLife.58359",
+              "id": "S2:65e09fd04a6593d9aa3929061b28c328cdab16d4",
+              "provider": "semantic_scholar",
+              "title": "Synaptotagmin-1 is the Ca2+ sensor for fast striatal dopamine release",
+              "url": "https://www.semanticscholar.org/paper/65e09fd04a6593d9aa3929061b28c328cdab16d4?utm_source=api"
+            },
+            {
+              "abstract": "Following nerve stimulation, there are two distinct phases of Ca2+-dependent neurotransmitter release: a fast, synchronous release phase, and a prolonged, asynchronous release phase. Each of these phases is tightly regulated and mediated by distinct mechanisms. Synaptotagmin 1 is the major Ca2+ sensor that triggers fast, synchronous neurotransmitter release upon Ca2+ binding by its C2A and C2B domains. It has also been implicated in the inhibition of asynchronous neurotransmitter release, as blocking Ca2+ binding by the C2A domain of synaptotagmin 1 results in increased asynchronous release. However, the mutation used to block Ca2+ binding in the previous experiments (aspartate to asparagine mutations, sytD-N) had the unintended side effect of mimicking Ca2+ binding, raising the possibility that the increase in asynchronous release was an artifact of ostensibly constitutive Ca2+ binding. To directly test this C2A inhibition hypothesis, we utilized an alternate C2A mutation that we designed to block Ca2+ binding without mimicking it (an aspartate to glutamate mutation, sytD-E). Analysis of both the original sytD-N mutation and our alternate sytD-E mutation at the Drosophila neuromuscular junction showed differential effects on asynchronous release, as well as on synchronous release and the frequency of spontaneous release. Importantly, we found that asynchronous release is not increased in the sytD-E mutant. Thus, our work provides new mechanistic insight into synaptotagmin 1 function during Ca2+-evoked synaptic transmission and demonstrates that Ca2+ binding by the C2A domain of synaptotagmin 1 does not inhibit asynchronous neurotransmitter release in vivo. Significance statement This study provides mechanistic insights into synaptotagmin function during asynchronous neurotransmitter release and supports a dramatically different hypothesis regarding the mechanisms triggering asynchronous vesicle fusion. Using two distinct C2A mutations that block Ca2+ binding, we report opposing effects on synchronous, spontaneous, and asynchronous neurotransmitter release. Importantly, our data demonstrate that Ca2+ binding by the C2A domain of synaptotagmin does not regulate asynchronous release and thus disprove the current inhibition hypothesis. We propose a spatial competition hypothesis to explain these seemingly discordant results of the differing C2A Ca2+ binding mutations.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-03-12",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1371/journal.pone.0232991",
+              "id": "S2:6f5779ed2a3bfc76cc15aaaba6db2c05639cf5b9",
+              "provider": "semantic_scholar",
+              "title": "The role of the C2A domain of synaptotagmin 1 in asynchronous neurotransmitter release",
+              "url": "https://www.semanticscholar.org/paper/6f5779ed2a3bfc76cc15aaaba6db2c05639cf5b9?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-05-17",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.neuron.2017.04.020",
+              "id": "S2:104d465485b38ffa55c3b43ba7c785468d577f6b",
+              "provider": "semantic_scholar",
+              "title": "Synaptotagmin-7-Mediated Asynchronous Release Boosts High-Fidelity Synchronous Transmission at a Central Synapse.",
+              "url": "https://www.semanticscholar.org/paper/104d465485b38ffa55c3b43ba7c785468d577f6b?utm_source=api"
+            },
+            {
+              "abstract": "Summary Neurotransmitter release can be synchronous and occur within milliseconds of action potential invasion, or asynchronous and persist for tens of milliseconds. The molecular determinants of release kinetics remain poorly understood. It has been hypothesized that asynchronous release dominates when fast Synaptotagmin isoforms are far from calcium channels or when specialized sensors, such as Synaptotagmin 7, are abundant. Here we test these hypotheses for GABAergic projections onto neurons of the inferior olive, where release in different subnuclei ranges from synchronous to asynchronous. Surprisingly, neither of the leading hypotheses accounts for release kinetics. Instead, we find that rapid Synaptotagmin isoforms are abundant in subnuclei with synchronous release, but absent where release is asynchronous. Viral expression of Synaptotagmin 1 transforms asynchronous synapses into synchronous ones. Thus, the nervous system controls levels of fast Synaptotagmin isoforms to regulate release kinetics, and thereby controls the ability of synapses to encode spike rates or precise timing.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-02-04",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.neuron.2019.01.013",
+              "id": "S2:2e35cef0514aa8e39dc05ff172526b70c0a4fbbc",
+              "provider": "semantic_scholar",
+              "title": "Neuronal regulation of fast synaptotagmin isoforms controls the relative contributions of synchronous and asynchronous release",
+              "url": "https://www.semanticscholar.org/paper/2e35cef0514aa8e39dc05ff172526b70c0a4fbbc?utm_source=api"
+            },
+            {
+              "abstract": "When an action potential invades a presynaptic terminal it evokes large, brief Ca2+ signals that trigger vesicle fusion within milliseconds that is followed by a small residual Ca2+ (Cares) signal. At many synapses Cares produces synaptic facilitation that lasts up to hundreds of milliseconds and, although less common, Cares can also evoke asynchronous release (AR) that persists for tens of milliseconds. The properties of facilitation and AR are very different, which suggests that they are mediated by distinct mechanisms. However, recently it has been shown that the slow calcium sensor synaptotagmin 7 (Syt7) mediates facilitation at many synapses where AR does not occur, and conversely Syt7 can mediate AR without mediating facilitation. Here we study cerebellar granule cell synapses onto stellate cells and Purkinje cells in mice of both sexes to assess the role of Syt7 in these phenomena at the same synapse. This is of particular interest at granule cell synapses where AR is much more calcium dependent and shorter-lived than facilitation. We find that Syt7 can mediate these two processes despite their divergent properties. In Syt7 knock-out animals, facilitation and AR are smaller and shorter lived than in wild-type animals, even though the initial probability of release and Cares signals are unchanged. Although there are short-lived Syt7-independent mechanisms that mediate facilitation and AR in Syt7 KO animals, we find that at granule cell synapses AR and facilitation are both mediated primarily by Syt7. SIGNIFICANCE STATEMENT At synapses made by cerebellar granule cells, presynaptic activity elevates calcium for tens of milliseconds, which in turn evokes both asynchronous release (AR) and synaptic facilitation. AR is more calcium sensitive and shorter-lived than facilitation at these synapses, suggesting that they are mediated by different mechanisms. However, we find that the slow calcium sensor synaptotagmin 7 mediates both of these phenomena. Small, rapidly decaying components of AR and facilitation are present in Syt7 KO animals, indicating that additional mechanisms can contribute to both AR and facilitation at these synapses.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-03-28",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1523/JNEUROSCI.3207-17.2018",
+              "id": "S2:eb5718201a310330282eb01589dc6727b72a120d",
+              "provider": "semantic_scholar",
+              "title": "Synaptotagmin 7 Mediates Both Facilitation and Asynchronous Release at Granule Cell Synapses",
+              "url": "https://www.semanticscholar.org/paper/eb5718201a310330282eb01589dc6727b72a120d?utm_source=api"
+            },
+            {
+              "abstract": "To support frequency-coded information transfer, mammalian synapses tightly synchronize neurotransmitter release to action potentials (APs). However, release desynchronizes during AP trains, especially at room temperature. Here we show that suppression of asynchronous release by Synaptotagmin-1 (Syt1), but not release triggering, is highly temperature sensitive, and enhances synchronous release during high-frequency stimulation. In Syt1-deficient synapses, asynchronous release increased with temperature, opposite to wildtype synapses. Mutations in Syt1 C2B-domain polybasic stretch (Syt1 K326Q,K327Q,K331Q) did not affect synchronization during sustained activity, while the previously observed reduced synchronous response to a single AP was confirmed. However, an inflexible linker between the C2-domains (Syt1 9Pro) reduced suppression, without affecting synchronous release upon a single AP. Syt1 9Pro expressing synapses showed impaired synchronization during AP trains, which was rescued by buffering global Ca2+ to prevent asynchronous release. Hence, frequency coding relies on Syt1’s temperature sensitive suppression of asynchronous release, an aspect distinct from its known vesicle recruitment and triggering functions.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-07-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41598-019-47487-9",
+              "id": "S2:e12e57ae74d1b32ef1c87c4ea874662a62420fbc",
+              "provider": "semantic_scholar",
+              "title": "Synaptotagmin-1 enables frequency coding by suppressing asynchronous release in a temperature dependent manner",
+              "url": "https://www.semanticscholar.org/paper/e12e57ae74d1b32ef1c87c4ea874662a62420fbc?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-08-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1523/JNEUROSCI.0759-15.2015",
+              "id": "S2:217e151aa3d2f32b2700f8204ddec5b58f9a2caf",
+              "provider": "semantic_scholar",
+              "title": "Synaptotagmin-7 Is Essential for Ca2+-Triggered Delayed Asynchronous Release But Not for Ca2+-Dependent Vesicle Priming in Retinal Ribbon Synapses",
+              "url": "https://www.semanticscholar.org/paper/217e151aa3d2f32b2700f8204ddec5b58f9a2caf?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2023-12-31",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 165,
+              "query": "synaptotagmin sensor abundance synchronous asynchronous release",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8739",
+                "reset_seconds": "51888"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2023-12-31",
+                  "per_page": "10",
+                  "search": "synaptotagmin sensor abundance synchronous asynchronous release",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2024-01-01"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2023-12-31",
+              "attempts": 1,
+              "locally_excluded_uncertain_or_not_strictly_before": 0,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 184,
+              "query": "synaptotagmin sensor abundance synchronous asynchronous release",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "synaptotagmin sensor abundance synchronous asynchronous release",
+                  "year": "1900-2023"
+                }
+              },
+              "strict_before": "2024-01-01"
+            }
+          },
+          "query": "synaptotagmin sensor abundance synchronous asynchronous release",
+          "strict_before": "2024-01-01"
+        }
+      ]
+    },
+    "B": {
+      "queries": [
+        {
+          "api_cutoff": "2023-12-31",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "N-type Ca2+ channels mediate Ca2+ influx, which initiates fast exocytosis of neurotransmitters at synapses, and they interact directly with the SNARE proteins syntaxin and SNAP-25 (synaptosome-associated protein of 25 kDa) through a synaptic protein interaction (synprint) site in the intracellular loop connecting domains II and III of their alpha1B subunits. Introduction of peptides containing the synprint site into presynaptic neurons reversibly inhibits synaptic transmission, confirming the importance of interactions with this site in synaptic transmission. Here we report a direct interaction of the synprint peptide from N-type Ca2+ channels with synaptotagmin I, an important Ca2+ sensor for exocytosis, as measured by an affinity-chromatography binding assay and a solid-phase immunoassay. This interaction is mediated by the second C2 domain (C2B) of synaptotagmin I, but is not regulated by Ca2+. Using both immobilized recombinant proteins and native presynaptic membrane proteins, we found that the synprint peptide and synaptotagmin competitively interact with syntaxin. This interaction is Ca2+-dependent because of the Ca2+ dependence of the interactions between syntaxin and these two proteins. These results provide a molecular basis for a physical link between Ca2+ channels and synaptotagmin, and suggest that N-type Ca2+ channels may undergo a complex series of Ca2+-dependent interactions with multiple presynaptic proteins during neurotransmission.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1997-05-13",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1073/pnas.94.10.5405",
+              "id": "https://openalex.org/W1988691994",
+              "provider": "openalex",
+              "title": "Interaction of the synprint site of N-type Ca <sup>2+</sup> channels with the C2B domain of synaptotagmin I"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2011-06-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/nsmb.2061",
+              "id": "https://openalex.org/W2156465149",
+              "provider": "openalex",
+              "title": "Synaptotagmin-1 may be a distance regulator acting upstream of SNARE nucleation"
+            },
+            {
+              "abstract": "Ca(2+)-dependent activator protein for secretion (CAPS) is an essential factor for regulated vesicle exocytosis that functions in priming reactions before Ca(2+)-triggered fusion of vesicles with the plasma membrane. However, the precise events that CAPS regulates to promote vesicle fusion are unclear. In the current work, we reconstituted CAPS function in a SNARE-dependent liposome fusion assay using VAMP2-containing donor and syntaxin-1/SNAP-25-containing acceptor liposomes. The CAPS stimulation of fusion required PI(4,5)P(2) in acceptor liposomes and was independent of Ca(2+), but Ca(2+) dependence was restored by inclusion of synaptotagmin. CAPS stimulated trans-SNARE complex formation concomitant with the stimulation of full membrane fusion at physiological SNARE densities. CAPS bound syntaxin-1, and CAPS truncations that competitively inhibited syntaxin-1 binding also inhibited CAPS-dependent fusion. The results revealed an unexpected activity of a priming protein to accelerate fusion by efficiently promoting trans-SNARE complex formation. CAPS may function in priming by organizing SNARE complexes on the plasma membrane.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2009-09-29",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1073/pnas.0900755106",
+              "id": "https://openalex.org/W2083214087",
+              "provider": "openalex",
+              "title": "CAPS drives <i>trans</i> -SNARE complex formation and membrane fusion through syntaxin interactions"
+            },
+            {
+              "abstract": "Synaptotagmin has been proposed to function as a Ca(2+) sensor that regulates synaptic vesicle exocytosis, whereas the soluble N-ethylmaleimide-sensitive factor attachment protein receptor (SNARE) complex is thought to form the core of a conserved membrane fusion machine. Little is known concerning the functional relationships between synaptotagmin and SNAREs. Here we report that synaptotagmin can facilitate SNARE complex formation in vitro and that synaptotagmin mutations disrupt SNARE complex formation in vivo. Synaptotagmin oligomers efficiently bind SNARE complexes, whereas Ca(2+) acting via synaptotagmin triggers cross-linking of SNARE complexes into dimers. Mutations in Drosophila that delete the C2B domain of synaptotagmin disrupt clathrin AP-2 binding and endocytosis. In contrast, a mutation that blocks Ca(2+)-triggered conformational changes in C2B and diminishes Ca(2+)-triggered synaptotagmin oligomerization results in a postdocking defect in neurotransmitter release and a decrease in SNARE assembly in vivo. These data suggest that Ca(2+)-driven oligomerization via the C2B domain of synaptotagmin may trigger synaptic vesicle fusion via the assembly and clustering of SNARE complexes.",
+              "also_returned_by": [],
+              "alternate_ids": [
+                "https://openalex.org/W4317929188"
+              ],
+              "date": "2001-03-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1523/jneurosci.21-05-01421.2001",
+              "id": "https://openalex.org/W1784572511",
+              "provider": "openalex",
+              "title": "synaptotagmin mutants reveal essential functions for the C2B domain in Ca2+-triggered fusion and recycling of synaptic vesicles in vivo."
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2012-09-02",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/nsmb.2375",
+              "id": "https://openalex.org/W2053515408",
+              "provider": "openalex",
+              "title": "Controlling synaptotagmin activity by electrostatic screening"
+            },
+            {
+              "abstract": "Synaptotagmins are membrane proteins that possess tandem C2 domains and play an important role in regulated membrane fusion in metazoan organisms. Here we show that both synaptotagmins I and II, the two major neuronal isoforms, can interact with the syntaxin/synaptosomal-associated protein of 25 kDa (SNAP-25) dimer, the immediate precursor of the soluble NSF attachment protein receptor (SNARE) fusion complex. A stretch of basic amino acids highly conserved throughout the animal kingdom is responsible for this calcium-independent interaction. Inositol hexakisphosphate modulates synaptotagmin coupling to the syntaxin/SNAP-25 dimer, which is mirrored by changes in chromaffin cell exocytosis. Our results shed new light on the functional importance of the conserved polybasic synaptotagmin motif, suggesting that synaptotagmin interacts with the t-SNARE dimer to up-regulate the probability of SNARE-mediated membrane fusion.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2004-03-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1074/jbc.m310710200",
+              "id": "https://openalex.org/W2017759753",
+              "provider": "openalex",
+              "title": "Synaptotagmin Interaction with the Syntaxin/SNAP-25 Dimer Is Mediated by an Evolutionarily Conserved Motif and Is Sensitive to Inositol Hexakisphosphate"
+            },
+            {
+              "abstract": "G i/o -coupled G protein-coupled receptors can inhibit neurotransmitter release at synapses via multiple mechanisms. In addition to Gβγ-mediated modulation of voltage-gated calcium channels (VGCC), inhibition can also be mediated through the direct interaction of Gβγ subunits with the soluble N -ethylmaleimide attachment protein receptor (SNARE) complex of the vesicle fusion apparatus. Binding studies with soluble SNARE complexes have shown that Gβγ binds to both ternary SNARE complexes, t-SNARE heterodimers, and monomeric SNAREs, competing with synaptotagmin 1(syt1) for binding sites on t-SNARE. However, in secretory cells, Gβγ, SNAREs, and synaptotagmin interact in the lipid environment of a vesicle at the plasma membrane. To approximate this environment, we show that fluorescently labeled Gβγ interacts specifically with lipid-embedded t-SNAREs consisting of full-length syntaxin 1 and SNAP-25B at the membrane, as measured by fluorescence polarization. Fluorescently labeled syt1 undergoes competition with Gβγ for SNARE-binding sites in lipid environments. Mutant Gβγ subunits that were previously shown to be more efficacious at inhibiting Ca 2+ -triggered exocytotic release than wild-type Gβγ were also shown to bind SNAREs at a higher affinity than wild type in a lipid environment. These mutant Gβγ subunits were unable to inhibit VGCC currents. Specific peptides corresponding to regions on Gβ and Gγ shown to be important for the interaction disrupt the interaction in a concentration-dependent manner. In in vitro fusion assays using full-length t- and v-SNAREs embedded in li",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-05-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1074/jbc.m116.773523",
+              "id": "https://openalex.org/W2615728852",
+              "provider": "openalex",
+              "title": "Gβγ directly modulates vesicle fusion by competing with synaptotagmin for binding to neuronal SNARE proteins embedded in membranes"
+            },
+            {
+              "abstract": "Members of the SNARE (soluble N -ethylmaleimide-sensitive fusion protein attachment protein receptor) superfamily [syntaxins, VAMPs (vesicle-associated membrane proteins) and SNAP25 (synaptosome-associated protein-25)-related proteins] are required for intracellular membrane-fusion events in eukaryotes. In neurons, assembly of SNARE core complexes comprising the presynaptic membrane-associated SNAREs syntaxin 1 and SNAP25, and the vesicle-associated SNARE VAMP2, is necessary for synaptic vesicle exocytosis. Several accessory factors have been described that associate with the synaptic SNAREs and modulate core complex assembly or mediate Ca2+ regulation. One such factor, Snapin, has been reported to be a brain-specific protein that interacts with SNAP25, and regulates association of the putative Ca2+-sensor synaptotagmin with the synaptic SNARE complex [Ilardi, Mochida and Sheng (1999) Nat. Neurosci. 2, 119-124]. Here we demonstrate that Snapin is expressed ubiquitously in neuronal and non-neuronal cells. Furthermore, using protein-protein-interaction assays we show that Snapin interacts with SNAP23, the widely expressed homologue of SNAP25, and that the predicted C-terminal helical domain of Snapin contains the SNAP23-binding site. Subcellular localization experiments revealed that Snapin is a soluble protein that exists in both cytosolic and peripheral membrane-bound pools in adipocytes. Moreover, association of Snapin with the plasma membrane was detected in cells overexpressing a Snapin-green fluorescent protein fusion protein. Finally, we show that Snapin is able to for",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2003-10-13",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1042/bj20030427",
+              "id": "https://openalex.org/W2029778531",
+              "provider": "openalex",
+              "title": "Identification and characterization of Snapin as a ubiquitously expressed SNARE-binding protein that interacts with SNAP23 in non-neuronal cells"
+            },
+            {
+              "abstract": "The synaptic protein interaction (synprint) site on the N-type calcium channel alpha1B subunit binds to the soluble N-ethylmaleimide-sensitive attachment factor receptor (SNARE) proteins syntaxin and synaptosomal protein of 25 kDa (SNAP-25), and this association may be required for efficient fast synaptic transmission. Protein kinase C (PKC) and calcium and calmodulin-dependent protein kinase type II (CaM KII) phosphorylated a recombinant his-tagged synprint site polypeptide rapidly to a stoichiometry of 3-4 mol of phosphate/mol, whereas cAMP-dependent protein kinase (PKA) and cGMP-dependent protein kinase (PKG) phosphorylated the synprint peptide more slowly to a stoichiometry of <1 mol/mol. Two-dimensional phosphopeptide mapping revealed similar patterns of phosphorylation of synprint polypeptides and native rat brain N-type calcium channel alpha1B subunits by PKC and Cam KII. Phosphorylation of the synprint peptide with PKC or CaM KII, but not PKA or PKG, strongly inhibited binding of recombinant syntaxin or SNAP-25, even at a level of free calcium (15 microM) that stimulates maximal binding. In contrast, phosphorylation of syntaxin and SNAP-25 with PKC and CaM KII did not affect interactions with the synprint site. Binding assays with polypeptides representing the N- and C-terminal halves of the synprint site indicate that the PKC- and CaM KII-mediated inhibition of binding involves multiple, disperse phosphorylation sites. PKC or CaM KII phosphorylation of the synprint peptide also inhibited its interactions with native rat brain SNARE complexes containing syntaxin and",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1997-09-15",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1523/jneurosci.17-18-06929.1997",
+              "id": "https://openalex.org/W1940205808",
+              "provider": "openalex",
+              "title": "Phosphorylation of the Synaptic Protein Interaction Site on N-type Calcium Channels Inhibits Interactions with SNARE Proteins"
+            },
+            {
+              "abstract": "Rapid neurotransmitter release depends on the Ca2+ sensor Synaptotagmin-1 (Syt1) and the SNARE complex formed by synaptobrevin, syntaxin-1 and SNAP-25. How Syt1 triggers release has been unclear, partly because elucidating high-resolution structures of Syt1–SNARE complexes has been challenging. An NMR approach based on lanthanide-induced pseudocontact shifts now reveals a dynamic binding mode in which basic residues in the concave side of the Syt1 C2B-domain β-sandwich interact with a polyacidic region of the SNARE complex formed by syntaxin-1 and SNAP-25. The physiological relevance of this dynamic structural model is supported by mutations in basic residues of Syt1 that markedly impair SNARE-complex binding in vitro and Syt1 function in neurons. Mutations with milder effects on binding have correspondingly milder effects on Syt1 function. Our results support a model whereby dynamic interaction facilitates cooperation between Syt1 and the SNAREs in inducing membrane fusion.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-06-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/nsmb.3035",
+              "id": "S2:b1695ae282577d3964ac4592a00ea57f87cb55be",
+              "provider": "semantic_scholar",
+              "title": "Dynamic Binding Mode of a Synaptotagmin-1-SNARE Complex in Solution",
+              "url": "https://www.semanticscholar.org/paper/b1695ae282577d3964ac4592a00ea57f87cb55be?utm_source=api"
+            },
+            {
+              "abstract": "The Ca2+ sensor synaptotagmin-1 and the SNARE complex cooperate to trigger neurotransmitter release. Structural studies elucidated three distinct synaptotagmin-1-SNARE complex binding modes involving ‘polybasic’, ‘primary’ and ‘tripartite’ interfaces of synaptotagmin-1. We investigated these interactions using NMR and fluorescence spectroscopy. Synaptotagmin-1 binds to the SNARE complex through the polybasic and primary interfaces in solution. Ca2+-free synaptotagmin-1 binds to SNARE complexes anchored on PIP2-containing nanodiscs. R398Q/R399Q and E295A/Y338W mutations at the primary interface, which strongly impair neurotransmitter release, disrupt and enhance synaptotagmin-1-SNARE complex binding, respectively. Ca2+ induces tight binding of synaptotagmin-1 to PIP2-containing nanodiscs, disrupting synaptotagmin-1-SNARE interactions. Specific effects of mutations in the polybasic region on Ca2+-dependent synaptotagmin-1-PIP2-membrane interactions correlate with their effects on release. Our data suggest that synaptotagmin-1 binds to the SNARE complex through the primary interface and that Ca2+ releases this interaction, inducing PIP2/membrane binding and allowing cooperation between synaptotagmin-1 and the SNAREs in membrane fusion to trigger release.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-08-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.7554/eLife.57154",
+              "id": "S2:614685656e448b7d425ed8f850f75e8ba7911a18",
+              "provider": "semantic_scholar",
+              "title": "Ca2+-dependent release of synaptotagmin-1 from the SNARE complex on phosphatidylinositol 4,5-bisphosphate-containing membranes",
+              "url": "https://www.semanticscholar.org/paper/614685656e448b7d425ed8f850f75e8ba7911a18?utm_source=api"
+            },
+            {
+              "abstract": "Release of neuronal transmitters from nerve terminals is triggered by the molecular Ca2+ sensor Synaptotagmin 1 (Syt1). Syt1 is a transmembrane protein attached to the synaptic vesicle (SV), and its cytosolic region comprises two domains, C2A and C2B, which are thought to penetrate into lipid bilayers upon Ca2+ binding. Prior to fusion, SVs become attached to the presynaptic membrane (PM) by the four-helical SNARE complex, which binds the C2B domain of Syt1. To understand how the interactions of Syt1 with lipid bilayers and the SNARE complex trigger fusion, we performed molecular dynamics (MD) simulations at a microsecond scale. The MD simulations showed that the C2AB tandem of Syt1 can either bridge SV and PM or immerse into PM, and that the latter configuration is more favorable energetically. Surprisingly, C2 domains did not cooperate in penetrating into PM, but instead mutually hindered the lipid penetration. To test whether the interaction of Syt1 with lipid bilayers could be affected by the C2B-SNARE attachment, we performed systematic conformational analysis of the Syt1-SNARE complex. Notably, we found that the C2B-SNARE interface precludes the coupling of C2 domains of Syt1 and promotes the immersion of both domains into the PM bilayer. Subsequently, we simulated this pre-fusion protein complex between lipid bilayers imitating PM and SV and found that the immersion of Syt1 into the PM bilayer within this complex promotes PM curvature and leads to lipid merging. Altogether, our MD simulations elucidated the role of the Syt1-SNARE interactions in the fusion process and produced the dynamic all-atom model of the prefusion protein-lipid complex. Statement of Significance Neuronal transmitters are packed in synaptic vesicles (SVs) and released by fusion of SVs with the presynaptic membrane (PM). SVs are attached to PM by the SNARE protein complex, and fusion is triggered by the Ca2+ sensor Synaptotagmin 1 (Syt1). Although Syt1 and SNARE proteins have been extensively studied, it is not yet fully understood how the interactions of Syt1 with lipids and the SNARE complex induce fusion. To address this fundamental problem, we took advantage of Anton2 supercomputer, a unique computational environment, which enables simulating the dynamics of molecular systems at a scale of microseconds. Our simulations produced a dynamic all-atom model of the prefusion protein-lipid complex and demonstrated in silico how the Syt1-SNARE complex triggers fusion.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-06-20",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1101/2020.06.19.161752",
+              "id": "S2:9cbd79563a2632f095c29921b871d207b15b348b",
+              "provider": "semantic_scholar",
+              "title": "SNARE Complex Alters the Interactions of the Ca2+ sensor Synaptotagmin 1 with Lipid Bilayers",
+              "url": "https://www.semanticscholar.org/paper/9cbd79563a2632f095c29921b871d207b15b348b?utm_source=api"
+            },
+            {
+              "abstract": "The structure of a truncated SNARE complex has been solved to 1.4-Å resolution revealing a stabilizing salt bridge, sites of hydration, and conformational variability of the ionic central layer that were not observed in a previously published structure at 2.4-Å resolution (Sutton, R. B., Fasshauer, D., Jahn, R., and Brunger, A. T. (1998) Nature 395, 347–353). The truncated complex lacks residues involved in phospholipid binding and denatures at a lower temperature than longer complexes as assessed by SDS and circular dichroism thermal melts. The truncated SNARE complex is monomeric, and it retains binding to synaptotagmin I.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2003-03-07",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1074/JBC.M211889200",
+              "id": "S2:2a5a0e436958cc51b1fef3470c648d40a8facec0",
+              "provider": "semantic_scholar",
+              "title": "High Resolution Structure, Stability, and Synaptotagmin Binding of a Truncated Neuronal SNARE Complex*",
+              "url": "https://www.semanticscholar.org/paper/2a5a0e436958cc51b1fef3470c648d40a8facec0?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2007-11-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1124/mol.107.039446",
+              "id": "S2:739b67e5ee2a772881daaa63533d652b1798fb87",
+              "provider": "semantic_scholar",
+              "title": "Gβγ Interferes with Ca2+-Dependent Binding of Synaptotagmin to the Soluble N-Ethylmaleimide-Sensitive Factor Attachment Protein Receptor (SNARE) Complex",
+              "url": "https://www.semanticscholar.org/paper/739b67e5ee2a772881daaa63533d652b1798fb87?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2005-07-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1529/BIOPHYSJ.104.054064",
+              "id": "S2:5ca3c690e4ab47e3added5571447942a0b4232fa",
+              "provider": "semantic_scholar",
+              "title": "Single-molecule studies of synaptotagmin and complexin binding to the SNARE complex.",
+              "url": "https://www.semanticscholar.org/paper/5ca3c690e4ab47e3added5571447942a0b4232fa?utm_source=api"
+            },
+            {
+              "abstract": "Ca2+-triggered neurotransmitter release depends on the formation of SNARE complexes that bring the synaptic vesicle and plasma membranes together, on the Ca2+ sensor synaptotagmin-1, and on complexins, which play active and inhibitory roles. Release of the complexin inhibitory activity by binding of synaptotagmin-1 to the SNARE complex, causing complexin displacement, was proposed to trigger exocytosis. However, the validity of this model was questioned based on the observation of simultaneous binding of complexin-I and a fragment containing the synaptotagmin-1 C2 domains (C2AB) to membrane-anchored SNARE complex. Using diverse biophysical techniques, here we show that C2AB and complexin-I do not bind to each other but can indeed bind simultaneously to the SNARE complex in solution. Hence, the SNARE complex contains separate binding sites for both proteins. However, total internal reflection fluorescence microscopy experiments show that C2AB can displace a complexin-I fragment containing its central SNARE-binding helix and an inhibitory helix (Cpx26–83) from membrane-anchored SNARE complex under equilibrium conditions. Interestingly, full-length complexin-I binds more tightly to membrane-anchored SNARE complex than Cpx26–83, and is not displaced by C2AB. These results show that interactions of N- and/or C-terminal sequences of complexin-I with the SNARE complex and/or phospholipids increase the affinity of complexin-I for the SNARE complex, hindering dissociation induced by C2AB. We propose a model whereby binding of synaptotagmin-1 to the SNARE complex directly or indirectly causes a rearrangement of the complexin-I inhibitory helix without inducing complexin-I dissociation, thus relieving the inhibitory activity and enabling cooperation between synaptotagmin-1 and complexin-I in triggering release.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2013-07-09",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.jmb.2013.07.001",
+              "id": "S2:f9c0b364f372439a170760443384d8936c691155",
+              "provider": "semantic_scholar",
+              "title": "Subtle Interplay between Synaptotagmin- and Complexin-Binding to the SNARE complex",
+              "url": "https://www.semanticscholar.org/paper/f9c0b364f372439a170760443384d8936c691155?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2008-12-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s11068-008-9032-9",
+              "id": "S2:98c1d938b3605275044dbc77b4a82638a87700f7",
+              "provider": "semantic_scholar",
+              "title": "Direct interaction of SNARE complex binding protein synaphin/complexin with calcium sensor synaptotagmin 1",
+              "url": "https://www.semanticscholar.org/paper/98c1d938b3605275044dbc77b4a82638a87700f7?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:fb57bf0972c64364bb6c48e1486fc1ef421fabf5",
+              "provider": "semantic_scholar",
+              "title": "1 Dynamic Synaptotagmin-1-SNARE Complex Binding Mode in Solution",
+              "url": "https://www.semanticscholar.org/paper/fb57bf0972c64364bb6c48e1486fc1ef421fabf5?utm_source=api"
+            },
+            {
+              "abstract": "The Ca2+ sensor synaptotagmin-1 (Syt1) plays an essential function in synaptic exocytosis. Recently, Syt1 has been implicated in synaptic vesicle priming, a maturation step prior to Ca2+-triggered membrane fusion that is believed to involve formation of the ternary SNARE complex and require priming proteins Munc18-1 and Munc13-1. However, the mechanisms of Syt1 in synaptic vesicle priming are still unclear. In this study, we found that Syt1 stimulates the transition from the Munc18-1/syntaxin-1 complex to the ternary SNARE complex catalyzed by Munc13-1. This stimulation can be further enhanced in a membrane-containing environment. Further, we showed that Syt1, together with Munc18-1 and Munc13-1, stimulates trans ternary SNARE complex formation on membranes in a manner resistant to disassembly factors NSF and α-SNAP. Disruption of a proposed Syt1/SNARE binding interface strongly abrogated the stimulation function of Syt1. Our results suggest that binding of Syt1 to an intermediate SNARE assembly with Munc18-1 and Munc13-1 is critical for the stimulation function of Syt1 in ternary SNARE complex formation, and this stimulation may underlie the priming function of Syt1 in synaptic exocytosis.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-08-15",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3389/fnmol.2017.00256",
+              "id": "S2:54eef424cd5862991998388507b8f7d188edec77",
+              "provider": "semantic_scholar",
+              "title": "A Stimulation Function of Synaptotagmin-1 in Ternary SNARE Complex Formation Dependent on Munc18 and Munc13",
+              "url": "https://www.semanticscholar.org/paper/54eef424cd5862991998388507b8f7d188edec77?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2023-12-31",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 594,
+              "query": "synaptotagmin competitive binding SNARE complex",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8729",
+                "reset_seconds": "51886"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2023-12-31",
+                  "per_page": "10",
+                  "search": "synaptotagmin competitive binding SNARE complex",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2024-01-01"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2023-12-31",
+              "attempts": 1,
+              "locally_excluded_uncertain_or_not_strictly_before": 0,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 231,
+              "query": "synaptotagmin competitive binding SNARE complex",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "synaptotagmin competitive binding SNARE complex",
+                  "year": "1900-2023"
+                }
+              },
+              "strict_before": "2024-01-01"
+            }
+          },
+          "query": "synaptotagmin competitive binding SNARE complex",
+          "strict_before": "2024-01-01"
+        },
+        {
+          "api_cutoff": "2023-12-31",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "Synaptotagmins are membrane proteins that possess tandem C2 domains and play an important role in regulated membrane fusion in metazoan organisms. Here we show that both synaptotagmins I and II, the two major neuronal isoforms, can interact with the syntaxin/synaptosomal-associated protein of 25 kDa (SNAP-25) dimer, the immediate precursor of the soluble NSF attachment protein receptor (SNARE) fusion complex. A stretch of basic amino acids highly conserved throughout the animal kingdom is responsible for this calcium-independent interaction. Inositol hexakisphosphate modulates synaptotagmin coupling to the syntaxin/SNAP-25 dimer, which is mirrored by changes in chromaffin cell exocytosis. Our results shed new light on the functional importance of the conserved polybasic synaptotagmin motif, suggesting that synaptotagmin interacts with the t-SNARE dimer to up-regulate the probability of SNARE-mediated membrane fusion.",
+              "also_returned_by": [
+                "semantic_scholar"
+              ],
+              "alternate_ids": [
+                "S2:788e7ae69962609093675aed9e1b44267124d2d1"
+              ],
+              "date": "2004-03-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1074/jbc.m310710200",
+              "id": "https://openalex.org/W2017759753",
+              "provider": "openalex",
+              "title": "Synaptotagmin Interaction with the Syntaxin/SNAP-25 Dimer Is Mediated by an Evolutionarily Conserved Motif and Is Sensitive to Inositol Hexakisphosphate"
+            },
+            {
+              "abstract": "The SM (Sec1/Munc18-like) protein Munc18-1 and the soluble N-ethylmaleimide-sensitive factor attachment protein (SNAP) receptor (SNARE) proteins syntaxin-1, SNAP-25, and synaptobrevin/VAMP (vesicle-associated membrane protein) constitute the core fusion machinery for synaptic vesicle exocytosis. Strikingly, Munc18-1 interacts with neuronal SNARE proteins in two distinct modes (i.e., with isolated syntaxin-1 alone in a \"closed\" conformation and with assembled SNARE complexes containing syntaxin-1 in an \"open\" conformation). However, it is unclear whether the two modes of Munc18/SNARE interactions are linked. We now show that both Munc18/SNARE interaction modes involve the same low-affinity binding of the extreme syntaxin-1 N terminus to Munc18-1, suggesting that this binding connects the two Munc18/SNARE interaction modes to each other. Using transfected cells as an in vitro assay system, we demonstrate that truncated syntaxins lacking a transmembrane region universally block exocytosis, but only if they contain a free intact N terminus. This block is enhanced by coexpression of either Munc18-1 or SNAP-25, suggesting that truncated syntaxins block exocytosis by forming an untethered inhibitory SNARE complex/Munc18-1 assembly in which the N-terminal syntaxin/Munc18 interaction is essential. Introduction of an N-terminal syntaxin peptide that disrupts this assembly blocks neurotransmitter release in the calyx of Held synapse, whereas a mutant peptide that does not disrupt the SNARE complex/Munc18 assembly has no effect. Viewed together, our data indicate that binding of Munc18",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2007-11-07",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1523/jneurosci.3655-07.2007",
+              "id": "https://openalex.org/W1997239951",
+              "provider": "openalex",
+              "title": "Dual Modes of Munc18-1/SNARE Interactions Are Coupled by Functionally Critical Binding to Syntaxin-1 N Terminus"
+            },
+            {
+              "abstract": "Whether interactions between synaptotagmin-1 (syt-1) and the soluble NSF attachment protein receptors (SNAREs) are required during neurotransmission is debated. We examined five SNAP-25 mutations designed to interfere with syt-1 interactions. One mutation, D51/E52/E55A, targeted negative charges within region II of the primary interface (Zhou et al., 2015); two mutations targeted region I (D166A and D166/E170A) and one mutation targeted both (D51/E52/E55/D166A). The final mutation (D186/D193A) targeted C-terminal residues not expected to interact with syt-1. An in vitro assay showed that the region I, region II, and region I+II (D51/E52/E55/D166A) mutants markedly reduced the attachment between syt-1 and t-SNARE-carrying vesicles in the absence of phosphatidylinositol 4,5-bisphosphate [PI(4,5)P 2 ]. In the presence of PI(4,5)P 2 , vesicle attachment was unaffected by mutation. When expressed in Snap-25 -null mouse autaptic neurons, region I mutations reduced the size of the readily releasable pool of vesicles, whereas the region II mutation reduced vesicular release probability. Combining both in the D51/E52/E55/D166A mutation abrogated evoked release. These data point to a division of labor between region I (vesicle priming) and region II (evoked release). Spontaneous release was disinhibited by region I mutations and found to correlate with defective complexin (Cpx) clamping in an in vitro fusion assay, pointing to an interdependent role of synaptotagmin and Cpx in release clamping. Mutation in region II (D51/E52/E55A) also unclamped release, but this effect could be over",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-11-23",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1523/jneurosci.1011-16.2016",
+              "id": "https://openalex.org/W2550506547",
+              "provider": "openalex",
+              "title": "Interactions Between SNAP-25 and Synaptotagmin-1 Are Involved in Vesicle Priming, Clamping Spontaneous and Stimulating Evoked Neurotransmission"
+            },
+            {
+              "abstract": "G i/o -coupled G protein-coupled receptors can inhibit neurotransmitter release at synapses via multiple mechanisms. In addition to Gβγ-mediated modulation of voltage-gated calcium channels (VGCC), inhibition can also be mediated through the direct interaction of Gβγ subunits with the soluble N -ethylmaleimide attachment protein receptor (SNARE) complex of the vesicle fusion apparatus. Binding studies with soluble SNARE complexes have shown that Gβγ binds to both ternary SNARE complexes, t-SNARE heterodimers, and monomeric SNAREs, competing with synaptotagmin 1(syt1) for binding sites on t-SNARE. However, in secretory cells, Gβγ, SNAREs, and synaptotagmin interact in the lipid environment of a vesicle at the plasma membrane. To approximate this environment, we show that fluorescently labeled Gβγ interacts specifically with lipid-embedded t-SNAREs consisting of full-length syntaxin 1 and SNAP-25B at the membrane, as measured by fluorescence polarization. Fluorescently labeled syt1 undergoes competition with Gβγ for SNARE-binding sites in lipid environments. Mutant Gβγ subunits that were previously shown to be more efficacious at inhibiting Ca 2+ -triggered exocytotic release than wild-type Gβγ were also shown to bind SNAREs at a higher affinity than wild type in a lipid environment. These mutant Gβγ subunits were unable to inhibit VGCC currents. Specific peptides corresponding to regions on Gβ and Gγ shown to be important for the interaction disrupt the interaction in a concentration-dependent manner. In in vitro fusion assays using full-length t- and v-SNAREs embedded in li",
+              "also_returned_by": [
+                "semantic_scholar"
+              ],
+              "alternate_ids": [
+                "S2:71b8076d919c7f6547f6804d7a735933a5022896"
+              ],
+              "date": "2017-05-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1074/jbc.m116.773523",
+              "id": "https://openalex.org/W2615728852",
+              "provider": "openalex",
+              "title": "Gβγ directly modulates vesicle fusion by competing with synaptotagmin for binding to neuronal SNARE proteins embedded in membranes"
+            },
+            {
+              "abstract": "Syntaxins and other SNARE proteins are crucial for intracellular vesicle trafficking, fusion, and secretion. Previously, we isolated the syntaxin-related protein NtSyr1 (NtSyp121) from tobacco in a screen for abscisic acid-related signaling elements, demonstrating its role in determining the abscisic acid sensitivity of K(+) and Cl(-) channels in stomatal guard cells. NtSyr1 is localized to the plasma membrane and is expressed normally throughout the plant, especially in root tissues, suggesting that it might contribute to cellular homeostasis as well as to signaling. To explore its functions in vivo further, we examined stably transformed lines of tobacco that expressed various constructs of NtSyr1, including the full-length protein and a truncated fragment, Sp2, corresponding to the cytosolic domain shown previously to be active in suppressing ion channel response to abscisic acid. Constitutively overexpressing NtSyr1 yielded uniformly high levels of protein (>10 times the wild-type levels) and was associated with a significant enhancement of root growth in seedlings but not with any obvious phenotype in mature, well-watered plants. Similar transformations with constructs encoding the Sp2 fragment of NtSyr1 showed altered leaf morphology but gave only low levels of Sp2 fragment, suggesting a strong selective pressure against plants expressing this protein. High expression of the Sp2 fragment was achieved in stable transformants under the control of a dexamethasone-inducible promoter. Sp2 expression was correlated positively with altered cellular and tissue morphology in l",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2002-02-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1105/tpc.010328",
+              "id": "https://openalex.org/W2117988539",
+              "provider": "openalex",
+              "title": "The Abscisic Acid–Related SNARE Homolog NtSyr1 Contributes to Secretion and Growth"
+            },
+            {
+              "abstract": "Doc2B is a cytosolic protein with binding sites for Munc13 and Tctex-1 (dynein light chain), and two C2-domains that bind to phospholipids, Ca2+ and SNAREs. Whether Doc2B functions as a calcium sensor akin to synaptotagmins, or in other calcium-independent or calcium-dependent capacities is debated. We here show by mutation and overexpression that Doc2B plays distinct roles in two sequential priming steps in mouse adrenal chromaffin cells. Mutating Ca2+-coordinating aspartates in the C2A-domain localizes Doc2B permanently at the plasma membrane, and renders an upstream priming step Ca2+-independent, whereas a separate function in downstream priming depends on SNARE-binding, Ca2+-binding to the C2B-domain of Doc2B, interaction with ubMunc13-2 and the presence of synaptotagmin-1. Another function of Doc2B – inhibition of release during sustained calcium elevations – depends on an overlapping protein domain (the MID-domain), but is separate from its Ca2+-dependent priming function. We conclude that Doc2B acts as a vesicle priming protein.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-12-23",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.7554/elife.27000",
+              "id": "https://openalex.org/W2776170173",
+              "provider": "openalex",
+              "title": "Doc2B acts as a calcium sensor for vesicle priming requiring synaptotagmin-1, Munc13-2 and SNAREs"
+            },
+            {
+              "abstract": "Major recent advances and previous data have led to a plausible model of how key proteins mediate neurotransmitter release. In this model, the soluble N-ethylmaleimide-sensitive factor (NSF) attachment protein (SNAP) receptor (SNARE) proteins syntaxin-1, SNAP-25, and synaptobrevin form tight complexes that bring the membranes together and are crucial for membrane fusion. NSF and SNAPs disassemble SNARE complexes and ensure that fusion occurs through an exquisitely regulated pathway that starts with Munc18-1 bound to a closed conformation of syntaxin-1. Munc18-1 also binds to synaptobrevin, forming a template to assemble the SNARE complex when Munc13-1 opens syntaxin-1 while bridging the vesicle and plasma membranes. Synaptotagmin-1 and complexin bind to partially assembled SNARE complexes, likely stabilizing them and preventing fusion until Ca 2+ binding to synaptotagmin-1 causes dissociation from the SNARE complex and induces interactions with phospholipids that help trigger release. Although fundamental questions remain about the mechanism of membrane fusion, these advances provide a framework to investigate the mechanisms underlying presynaptic plasticity.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-02-15",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1146/annurev-biophys-111821-104732",
+              "id": "https://openalex.org/W4213181993",
+              "provider": "openalex",
+              "title": "Molecular Mechanisms Underlying Neurotransmitter Release"
+            },
+            {
+              "abstract": "gene to schizophrenia and Parkinson's disease, the localization or physiological role of Syt11 remain unclear. We found that in neurons, Syt11 resides on abundant vesicles that differ from synaptic vesicles and resemble trafficking endosomes. These vesicles recycle via the plasma membrane in an activity-dependent manner, but their exocytosis is slow and desynchronized. Constitutive knockout mice lacking Syt11 died shortly after birth, suggesting Syt11-mediated membrane transport is required for survival. In contrast, selective ablation of Syt11 in excitatory forebrain neurons using a conditional knockout did not affect life span but impaired synaptic plasticity and memory. Syt11-deficient neurons displayed normal secretion of fast neurotransmitters and peptides but exhibited a reduction of long-term synaptic potentiation. Hence, Syt11 is an essential component of a neuronal vesicular trafficking pathway that differs from the well-characterized synaptic vesicle trafficking pathway but is also essential for life.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-02-26",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1101/gad.320077.118",
+              "id": "https://openalex.org/W2916607209",
+              "provider": "openalex",
+              "title": "Synaptotagmin-11 mediates a vesicle trafficking pathway that is essential for development and synaptic plasticity"
+            },
+            {
+              "abstract": "Although the vesicular protein synaptotagmin I contains two Ca2+-binding domains (C2A and C2B), Ca2+ binding to the C2B domain is more important for triggering synchronous neurotransmitter release. We have used point mutagenesis to determine the functional contributions of the five negatively charged aspartate (Asp) residues that constitute the Ca2+-binding sites in the C2B domain of synaptotagmin I. Transfecting wild-type synaptotagmin I DNA into cultured hippocampal neurons from synaptotagmin I knock-out mice rescued Ca2+-dependent synchronous transmitter release and reduced a slower, asynchronous component of release, indicating that synaptotagmin I suppresses asynchronous release. Mutating either the second or third Asp residues of the C2B domain potently inhibited the ability of synaptotagmin I to rescue synchronous release but did not change its ability to suppress asynchronous release. Synaptotagmin I with mutations in the first or fourth Asp residues of the C2B domain partially rescued synchronous release and partially suppressed asynchronous release, whereas neutralizing the fifth Asp residue had no effect on the ability of synaptotagmin I to rescue transmitter release. Thus, we conclude that the C2B domain of synaptotagmin I regulates neurotransmitter release in at least two ways. Synchronous release absolutely requires binding of Ca2+ to the second and third Asp residues in this domain. For the suppression of asynchronous release, Ca2+ binding to the C2B domain of synaptotagmin I apparently is not necessary because mutation of the second Asp residue inhibits Ca2+",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2004-09-29",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1523/jneurosci.2545-04.2004",
+              "id": "https://openalex.org/W2076682533",
+              "provider": "openalex",
+              "title": "Dual Roles of the C<sub>2</sub>B Domain of Synaptotagmin I in Synchronizing Ca<sup>2+</sup>-Dependent Neurotransmitter Release"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-04-08",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.conb.2020.02.006",
+              "id": "https://openalex.org/W3016217206",
+              "provider": "openalex",
+              "title": "Diverse roles of Synaptotagmin-7 in regulating vesicle fusion"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2005-10-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1091/MBC.E05-04-0277",
+              "id": "S2:c7fd00a65c82f302ff11b7b77cea3d9dcf5c97d5",
+              "provider": "semantic_scholar",
+              "title": "Synaptotagmin isoforms couple distinct ranges of Ca2+, Ba2+, and Sr2+ concentration to SNARE-mediated membrane fusion.",
+              "url": "https://www.semanticscholar.org/paper/c7fd00a65c82f302ff11b7b77cea3d9dcf5c97d5?utm_source=api"
+            },
+            {
+              "abstract": "Recent work has revealed that spontaneous release plays critical roles in the central nervous system, but how it is regulated remains elusive. Here, we report that synaptotagmin‐11 (Syt11), a Ca2+‐independent Syt isoform associated with schizophrenia and Parkinson's disease, suppressed spontaneous release. Syt11‐knockout hippocampal neurons showed an increased frequency of miniature excitatory post‐synaptic currents while over‐expression of Syt11 inversely decreased the frequency. Neither knockout nor over‐expression of Syt11 affected the average amplitude, suggesting the pre‐synaptic regulation of spontaneous neurotransmission by Syt11. Glutathione S‐transferase pull‐down, co‐immunoprecipitation, and affinity‐purification experiments demonstrated a direct interaction of Syt11 with vps10p‐tail‐interactor‐1a (vti1a), a non‐canonical SNARE protein that maintains spontaneous release. Importantly, knockdown of vti1a reversed the phenotype of Syt11 knockout, identifying vti1a as the main target of Syt11 inhibition. Domain analysis revealed that the C2A domain of Syt11 bound vti1a with high affinity. Consistently, expression of the C2A domain alone rescued the phenotype of elevated spontaneous release in Syt11‐knockout neurons similar to the full‐length protein. Altogether, our results suggest that Syt11 inhibits vti1a‐containing vesicles during spontaneous release.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-10-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1111/jnc.15523",
+              "id": "S2:264de49218d8f98f643785c14b99bd749903cd52",
+              "provider": "semantic_scholar",
+              "title": "Synaptotagmin‐11 inhibits spontaneous neurotransmission through vti1a",
+              "url": "https://www.semanticscholar.org/paper/264de49218d8f98f643785c14b99bd749903cd52?utm_source=api"
+            },
+            {
+              "abstract": "Neuronal G‐protein βγ heterodimers (Gβγ) inhibit the final step of synaptic vesicle fusion upon binding to the N‐ethylmaleimide‐sensitive factor attachment protein receptor (SNARE) protein complex. The ternary SNARE complex is composed of synaptosomal‐associated protein, 25kDa (SNAP‐25), syntaxin 1A, and synaptobrevin. The general mechanism underlying Gβγ‐mediated inhibition involves Ca2+‐dependent competition with the Ca2+‐sensor synaptotagmin (syt) for SNARE binding. However, the molecular determinants for complex formation and thus Gβγ‐mediated inhibition remain unclear, due to the lack of high‐resolution structural data for the Gβγ/SNARE complex. To address this, we used peptide‐array analysis to identify regions of Gβγ that bind target SNARE (tSNARE). Gβ and γ peptides with high affinity for tSNARE were subjected to alanine‐scanning mutagenesis in order to identify residues essential for the interaction. The experimentally determined binding sites were then used to restrain Rosetta computational docking simulations and a model of the Gβ1γ2/SNARE complex was generated. Our model reveals two distinct binding modes consistent with mutagenesis data. One in which the coiled‐coil region of Gβ1γ2 interacts with the C‐terminal helices of SNAP‐25, and the other in which the propeller region of Gβ1 interacts with SNAP‐25 residues near the middle of the SNARE complex. Future studies will focus on experimentally validating the identity of interfacial residues predicted by our model using peptide competition‐binding assays. Furthermore, high‐resolution structural studies such as X‐ray crystallography and cryo‐electron microscopy will be used to interrogate and refine our computational model. Our results have provided the first insights into the Gβγ/SNARE binding interface and will pave the way for the design of pharmaceuticals targeting this interaction.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-05-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1096/FASEBJ.2021.35.S1.04569",
+              "id": "S2:b1e0db7c164ddb4119202096e51377f16be586a0",
+              "provider": "semantic_scholar",
+              "title": "Structural characterization of the Gβγ–ternary SNARE binding interface",
+              "url": "https://www.semanticscholar.org/paper/b1e0db7c164ddb4119202096e51377f16be586a0?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1997-12-23",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1073/PNAS.94.26.14782",
+              "id": "S2:e21c78429a598b81ddda781c9a151187cafa6691",
+              "provider": "semantic_scholar",
+              "title": "Ca2+-dependent and -independent interactions of the isoforms of the alpha1A subunit of brain Ca2+ channels with presynaptic SNARE proteins.",
+              "url": "https://www.semanticscholar.org/paper/e21c78429a598b81ddda781c9a151187cafa6691?utm_source=api"
+            },
+            {
+              "abstract": "SNARE complex assembly constitutes a key step in exocytosis that is rendered Ca2+-dependent by interactions with synaptotagmin-1. Two putative sites for synaptotagmin binding have recently been identified in SNAP-25 using biochemical methods: one located around the center and another at the C-terminal end of the SNARE bundle. However, it is still unclear whether and how synaptotagmin-1 × SNARE interactions at these sites are involved in regulating fast neurotransmitter release. Here, we have used electrophysiological techniques with high time-resolution to directly investigate the mechanistic ramifications of proposed SNAP-25 × synaptotagmin-1 interaction in mouse chromaffin cells. We demonstrate that the postulated central binding domain surrounding layer zero covers both SNARE motifs of SNAP-25 and is essential for vesicle docking, priming, and fast fusion-triggering. Mutation of this site caused no further functional alterations in synaptotagmin-1-deficient cells, indicating that the central acidic patch indeed constitutes a mechanistically relevant synaptotagmin-1 interaction site. Moreover, our data show that the C-terminal binding interface only plays a subsidiary role in triggering but is required for the full size of the readily releasable pool. Intriguingly, we also found that mutation of synaptotagmin-1 interaction sites led to more pronounced phenotypes in the context of the adult neuronal isoform SNAP-25B than in the embryonic isoform SNAP-25A. Further experiments demonstrated that stronger synaptotagmin-1 × SNAP-25B interactions allow for the larger primed vesicle pool supported by SNAP-25 isoform B. Thus, synaptotagmin-1 × SNARE interactions are not only required for multiple mechanistic steps en route to fusion but also underlie the developmental control of the releasable vesicle pool.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2013-09-04",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1523/JNEUROSCI.1236-13.2013",
+              "id": "S2:d4c3ea52b40b4f8436d503d1a496485b81d2f761",
+              "provider": "semantic_scholar",
+              "title": "Synaptotagmin Interaction with SNAP-25 Governs Vesicle Docking, Priming, and Fusion Triggering",
+              "url": "https://www.semanticscholar.org/paper/d4c3ea52b40b4f8436d503d1a496485b81d2f761?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2008-12-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1091/mbc.E08-03-0235",
+              "id": "S2:9b9f5c5c7e86d065d201210fce78fb9025e5a4d4",
+              "provider": "semantic_scholar",
+              "title": "Synaptotagmin-1 utilizes membrane bending and SNARE binding to drive fusion pore expansion.",
+              "url": "https://www.semanticscholar.org/paper/9b9f5c5c7e86d065d201210fce78fb9025e5a4d4?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2007-11-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1124/mol.107.039446",
+              "id": "S2:739b67e5ee2a772881daaa63533d652b1798fb87",
+              "provider": "semantic_scholar",
+              "title": "Gβγ Interferes with Ca2+-Dependent Binding of Synaptotagmin to the Soluble N-Ethylmaleimide-Sensitive Factor Attachment Protein Receptor (SNARE) Complex",
+              "url": "https://www.semanticscholar.org/paper/739b67e5ee2a772881daaa63533d652b1798fb87?utm_source=api"
+            },
+            {
+              "abstract": "SV2 proteins are abundant synaptic vesicle proteins expressed in two major (SV2A and SV2B) and one minor (SV2C) isoform. SV2A and SV2B have been shown to be involved in the regulation of synaptic vesicle exocytosis. Previous studies found that SV2A, but not SV2B, can interact with the cytoplasmic domain of synaptotagmin 1, a Ca2+ sensor for synaptic vesicle exocytosis. To determine whether SV2B can interact with full-length synaptotagmin 1, we performed immunoprecipitations from brain protein extracts and found that SV2B interacts strongly with synaptotagmin 1 in a detergent-resistant, Ca2+-independent manner. In contrast, an interaction between native SV2A and synaptotagmin 1 was not detectable under these conditions. The SV2B-synaptotagmin 1 complex also contained the synaptic t-SNARE proteins, syntaxin 1 and SNAP-25, suggesting that SV2B may participate in exocytosis by modulating the interaction of synaptotagmin 1 with t-SNARE proteins. Analysis of retinae in SV2B knock-out mice revealed a strong reduction in the level of synaptotagmin 1 in rod photoreceptor synapses, which are unique in that they express only the SV2B isoform. In contrast, other synaptic vesicle proteins were not affected by SV2B knock out, indicating a specific role for SV2B in the regulation of synaptotagmin 1 levels at certain synapses. These experiments suggest that the SV2B-synaptotagmin 1 complex is involved in the regulation of synaptotagmin 1 stability and/or trafficking. This study has demonstrated a new role of SV2B as a regulator of synaptotagmin 1 that is likely mediated by direct interaction of these two synaptic proteins.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2004-12-10",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1074/JBC.M407502200",
+              "id": "S2:c4efb8163df97e55a618433929675a6049abc860",
+              "provider": "semantic_scholar",
+              "title": "SV2B Regulates Synaptotagmin 1 by Direct Interaction*",
+              "url": "https://www.semanticscholar.org/paper/c4efb8163df97e55a618433929675a6049abc860?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2023-12-31",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 342,
+              "query": "synaptotagmin isoforms SNARE interaction competition",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8719",
+                "reset_seconds": "51883"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2023-12-31",
+                  "per_page": "10",
+                  "search": "synaptotagmin isoforms SNARE interaction competition",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2024-01-01"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2023-12-31",
+              "attempts": 1,
+              "locally_excluded_uncertain_or_not_strictly_before": 0,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 49,
+              "query": "synaptotagmin isoforms SNARE interaction competition",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "synaptotagmin isoforms SNARE interaction competition",
+                  "year": "1900-2023"
+                }
+              },
+              "strict_before": "2024-01-01"
+            }
+          },
+          "query": "synaptotagmin isoforms SNARE interaction competition",
+          "strict_before": "2024-01-01"
+        }
+      ]
+    }
+  },
+  "generated_at": "2026-08-09T09:35:20.080286+00:00",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "b7d57756b9572f636945f0aedae1a5b64cc09513fe1857a2fd17e3d3cd0a08d0",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Migrated without changing the frozen pre-t0 query results; non-detection is scoped, not universal priority.",
+  "strict_before": "2024-01-01",
+  "task_id": "Life_01_dual_sensor_fusion",
+  "release": "V1.0"
+}

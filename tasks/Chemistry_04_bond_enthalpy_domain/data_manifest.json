@@ -1,0 +1,82 @@
+{
+  "analysis_unit": "Count raw rows, unique molecules, and unique molecule-fragment pairs separately; each experimental bond observation is an error-analysis unit.",
+  "domain": "chemistry",
+  "files": [
+    {
+      "bundled": true,
+      "bytes": 44326,
+      "materialization_required": false,
+      "path": "normalized_views/experimental_benchmark.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "319bf2c88ab47bb2c7f779163ed48cd2f316e6299eeda0b999d924ffe81ad484"
+    },
+    {
+      "bundled": true,
+      "bytes": 7491101,
+      "materialization_required": false,
+      "path": "source_data/bde_db_full.csv.gz",
+      "role": "scientific_archive",
+      "sha256": "2ee36d1548d51289e3faa21e1269b9bbb8f3a8975f9b29719e6beae226864cc6"
+    },
+    {
+      "bundled": true,
+      "bytes": 33180,
+      "materialization_required": false,
+      "path": "source_data/experimental_source_tables.xlsx",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "e7c0c73db91d0d097ca8e9f5d6a8edf5cac537a10530d3732fe7738e9e581f08"
+    }
+  ],
+  "freeze_status": "frozen",
+  "license_boundary": "Complete database: MIT. Article supplementary data: CC BY 4.0.",
+  "missingness": "The complete frozen database and experimental-source boundary is present.",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "schema": "truthinsightbench-data-manifest",
+  "scientific_scope": "The complete bond-dissociation-enthalpy database, experimental source tables, and a deterministic 543-observation benchmark view.",
+  "t0": "2019-10-18",
+  "task_id": "Chemistry_04_bond_enthalpy_domain",
+  "title": "Structural Domains and Model Boundaries of Organic Bond Dissociation Enthalpies",
+  "variable_dictionary": [
+    {
+      "file_or_pattern": "normalized_views/experimental_benchmark.tsv",
+      "measures": [
+        "observation_id",
+        "parent_structure_smiles",
+        "fragment_a_smiles",
+        "fragment_b_smiles",
+        "experimental_bde_kcal_mol",
+        "quantum_estimate_bde_kcal_mol",
+        "learned_estimate_bde_kcal_mol",
+        "reference_estimate_bde_kcal_mol"
+      ]
+    },
+    {
+      "file_or_pattern": "source_data/bde_db_full.csv.gz",
+      "measures": [
+        "complete row-level database",
+        "molecule",
+        "fragment",
+        "bond_type",
+        "bond_enthalpy"
+      ]
+    },
+    {
+      "file_or_pattern": "source_data/experimental_source_tables.xlsx",
+      "measures": [
+        "complete workbook sheets and numeric payload"
+      ]
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "warnings": [
+    "Raw rows, unique molecules, and unique bond-dissociation observations are distinct statistical units.",
+    "Experimental references come from heterogeneous literature and are not independent repeats from one laboratory."
+  ],
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

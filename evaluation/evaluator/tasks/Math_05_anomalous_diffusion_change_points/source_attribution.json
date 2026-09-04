@@ -1,0 +1,9 @@
+{
+  "schema": "truthinsightbench-source-attribution",
+  "release": "V1.0",
+  "task_id": "Math_05_anomalous_diffusion_change_points",
+  "title": "Objective comparison of methods to decode anomalous diffusion",
+  "doi": "10.1038/s41467-021-26320-w",
+  "first_publication_date": "2021-10-28",
+  "raw_data_record": "Article-linked ANDI_datasets author repository (MIT); fixed-seed source trajectories generated from its published theoretical models"
+}

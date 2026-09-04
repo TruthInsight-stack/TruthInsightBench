@@ -1,0 +1,9 @@
+{
+  "schema": "truthinsightbench-source-attribution",
+  "release": "V1.0",
+  "task_id": "Energy_02_flow_battery_operating_boundary",
+  "title": "High-energy and low-cost membrane-free chlorine flow battery",
+  "doi": "10.1038/s41467-022-28880-x",
+  "first_publication_date": "2022-03-11",
+  "raw_data_record": "Europe PMC OA supplementary archive for PMC8917161 (CC-BY)"
+}

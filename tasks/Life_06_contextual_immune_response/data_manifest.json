@@ -1,0 +1,87 @@
+{
+  "schema": "truthinsightbench-data-manifest",
+  "task_id": "Life_06_contextual_immune_response",
+  "title": "Context-Dependent Immune Response Across Compartments and Interventions",
+  "domain": "life_science",
+  "t0": "2020-01-01",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "scientific_scope": "All frozen compartment, intervention, multi-condition, and time-resolved response replicates in the selected experimental boundary.",
+  "analysis_unit": "One biological replicate nested within an assay, compartment, condition, or time course; repeated endpoints from a shared assay are not independent experiments.",
+  "missingness": "No curator-imposed row deletion, random subsampling, or imputation is applied within the frozen task boundary.",
+  "license_boundary": "The selected measurements are from a CC BY article and source-data archive and are bundled with biological identities replaced by neutral roles.",
+  "warnings": [
+    "Compartment and intervention associations do not by themselves identify a unique cellular mechanism.",
+    "Validation must hold out complete assays or condition groups rather than random replicate rows."
+  ],
+  "variable_dictionary": {
+    "multi_condition_response_replicates.tsv": [
+      "response_class_id",
+      "compound_setting_id",
+      "replicate_id",
+      "response_value"
+    ],
+    "compartment_response_replicates.tsv": [
+      "assay_id",
+      "compartment_id",
+      "endpoint_type",
+      "condition_role",
+      "replicate_id",
+      "response_value"
+    ],
+    "mechanistic_intervention_replicates.tsv": [
+      "assay_id",
+      "intervention_setting_id",
+      "replicate_id",
+      "response_value"
+    ],
+    "time_resolved_response.tsv": [
+      "condition_role",
+      "time_units",
+      "replicate_id",
+      "normalized_response_percent"
+    ]
+  },
+  "source_projection_inventory": [],
+  "files": [
+    {
+      "path": "multi_condition_response_replicates.tsv",
+      "bytes": 1371,
+      "sha256": "dedc97fccac59313d65ccc7137b90c053848bad88d5c746c120a9a821388a95f",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "compartment_response_replicates.tsv",
+      "bytes": 10161,
+      "sha256": "14bbd80334110ebc626ea7e50f034f036d1a1233bd00f5bc27785ae92ec08445",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "mechanistic_intervention_replicates.tsv",
+      "bytes": 2342,
+      "sha256": "0cb191790d1ba5e7170be3d9fc7c3e165b9c90da8431ee9fde0c5963ba9ab48a",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "time_resolved_response.tsv",
+      "bytes": 2154,
+      "sha256": "61bdd83c9105c33317d9a60f998226050184f1f206432f1771bfe4375f6ed36f",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

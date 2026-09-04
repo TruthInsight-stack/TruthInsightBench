@@ -1,0 +1,9 @@
+{
+  "schema": "truthinsightbench-source-attribution",
+  "release": "V1.0",
+  "task_id": "Chemistry_08_catalysis_response_landscape",
+  "title": "Ultra-high-throughput mapping of the chemical space of asymmetric catalysis enables accelerated reaction discovery",
+  "doi": "10.1038/s41467-023-42446-5",
+  "first_publication_date": "2023-10-21",
+  "raw_data_record": "Europe PMC OA supplementary archive (CC-BY); selected source-data workbook 41467_2023_42446_MOESM3_ESM.xlsx"
+}

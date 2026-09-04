@@ -1,0 +1,21 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "Io Ganymede radio burst drift rate distribution comparison",
+        "Ganymede auroral radio burst slow drift population occurrence"
+      ]
+    },
+    "B": {
+      "queries": [
+        "Jovian satellite radio burst drift polarization source comparison",
+        "main auroral radio emission slow fast drift population"
+      ]
+    }
+  },
+  "provider": "frozen_bibliographic_snapshot",
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2022-10-13",
+  "task_id": "Astronomy_02_radio_burst_drift",
+  "release": "V1.0"
+}

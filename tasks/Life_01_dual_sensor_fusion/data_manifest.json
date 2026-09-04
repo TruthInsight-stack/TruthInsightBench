@@ -1,0 +1,352 @@
+{
+  "analysis_unit": "One complete run identified in a source table; time bins and workbook mean columns within a run are not independent replicates.",
+  "domain": "life_science",
+  "files": [
+    {
+      "bundled": true,
+      "bytes": 439,
+      "materialization_required": false,
+      "path": "derived_for_navigation/binding_competition_runs.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "5e255dbb4f61ff678128ee188f5a0e6cdda552c2b5cad19e9e4bdc24808e5122"
+    },
+    {
+      "bundled": true,
+      "bytes": 2424,
+      "materialization_required": false,
+      "path": "derived_for_navigation/fusion_dose_independent_runs.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "b4eddf4e28846ed14739f043788e2cf65bd4acd070ad572f3560471aaf5826df"
+    },
+    {
+      "bundled": true,
+      "bytes": 2575036,
+      "materialization_required": false,
+      "path": "source_media/source_media_01.tiff",
+      "role": "scientific_image",
+      "sha256": "58fb5fe6ce05367828fd95d8665b11837c44db4bb9be652ed7721ac68e70e314"
+    },
+    {
+      "bundled": true,
+      "bytes": 113650,
+      "materialization_required": false,
+      "path": "source_media/source_media_02.tiff",
+      "role": "scientific_image",
+      "sha256": "80c7f3eac67203e9d4708fd489b5321b7e10b0656abaeda7debead75b9c564b4"
+    },
+    {
+      "bundled": true,
+      "bytes": 116322,
+      "materialization_required": false,
+      "path": "source_media/source_media_03.tiff",
+      "role": "scientific_image",
+      "sha256": "4c1dc4b736abd187d76346a2d86dfc25a2fc3ab986b9f922ee0031a53fe27754"
+    },
+    {
+      "bundled": true,
+      "bytes": 68428,
+      "materialization_required": false,
+      "path": "source_media/source_media_04.tif",
+      "role": "scientific_image",
+      "sha256": "4fa9626ecd1f0f2e71b4981a7ac71b5be378525017a1ca06f32cbfa94f236332"
+    },
+    {
+      "bundled": true,
+      "bytes": 122992,
+      "materialization_required": false,
+      "path": "source_media/source_media_05.tiff",
+      "role": "scientific_image",
+      "sha256": "20ef7135b208d871e6e62a55114033e5b13f470278be6995324e6778a5c49292"
+    },
+    {
+      "bundled": true,
+      "bytes": 9520,
+      "materialization_required": false,
+      "path": "source_tables/source_table_01.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "7fc6ea04c69b3d2e9c0e1591a3e06b871012b2f02947f144911b2ef28eb64c57"
+    },
+    {
+      "bundled": true,
+      "bytes": 11182,
+      "materialization_required": false,
+      "path": "source_tables/source_table_02.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "afe6fce96a7b408ab90d23037034417f9fe9eeee78f5a18c6253c74f856058a6"
+    },
+    {
+      "bundled": true,
+      "bytes": 4121,
+      "materialization_required": false,
+      "path": "source_tables/source_table_03.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "a792958c4fb2bd7159b9686485976e0960ec42634fcac32579fbec6d7175fcf8"
+    },
+    {
+      "bundled": true,
+      "bytes": 4676,
+      "materialization_required": false,
+      "path": "source_tables/source_table_04.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "3ebccc4ed0dd61c1b60f823ab23b3b7d66a412d9a164a4fb54d9cd7ef88936fd"
+    },
+    {
+      "bundled": true,
+      "bytes": 1234,
+      "materialization_required": false,
+      "path": "source_tables/source_table_05.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "b0e89b26c9289150de7e0569936fa0b0255294c74652213ea527fa6c1463675d"
+    },
+    {
+      "bundled": true,
+      "bytes": 33157,
+      "materialization_required": false,
+      "path": "source_tables/source_table_06.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "91f8a9f262c9093defcd7b0127911dcd408398bbd7f9a2cb618a08920de2c999"
+    },
+    {
+      "bundled": true,
+      "bytes": 35751,
+      "materialization_required": false,
+      "path": "source_tables/source_table_07.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "ea74d1fe5967d2608c6edc4df1bbd28c3c1f19fa2a2ef373feaae6f73d37f819"
+    },
+    {
+      "bundled": true,
+      "bytes": 5862,
+      "materialization_required": false,
+      "path": "source_tables/source_table_08.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "353ffebf841ed6ac14424c068c496405e547e0a5cac39c01cd7f9a671c647a3e"
+    },
+    {
+      "bundled": true,
+      "bytes": 1018,
+      "materialization_required": false,
+      "path": "source_tables/source_table_09.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "737cf4bd3bcfc2189f0a903a1de154c8e4b8d21856b1f6be93cfcc679ee2b6d7"
+    },
+    {
+      "bundled": true,
+      "bytes": 6811,
+      "materialization_required": false,
+      "path": "source_tables/source_table_10.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "7b9dcdfadbaff3d2d5233b04ce55db85316e7ce883b659391e14dd884fd42d2c"
+    },
+    {
+      "bundled": true,
+      "bytes": 783,
+      "materialization_required": false,
+      "path": "source_tables/source_table_11.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "4289f9513d2f2a45104de76f0d84f4889197f308f724df33a0af7c5f1b9d8474"
+    },
+    {
+      "bundled": true,
+      "bytes": 34529,
+      "materialization_required": false,
+      "path": "source_tables/source_table_12.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "de5f8df19a1089a2a23356b675d6f1901ebf02b6f7871b31f42c814788c9ac3f"
+    },
+    {
+      "bundled": true,
+      "bytes": 46052,
+      "materialization_required": false,
+      "path": "source_tables/source_table_13.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "a0151ee952a563a7b7339608991ee2abc57a987167ea2520ab4c1255f2373001"
+    },
+    {
+      "bundled": true,
+      "bytes": 1289,
+      "materialization_required": false,
+      "path": "source_tables/source_table_14.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "46c105bbdf0c51167f2a9f21b5a52e86df484fba675369e186fb05eaf0ac6a8f"
+    },
+    {
+      "bundled": true,
+      "bytes": 9581,
+      "materialization_required": false,
+      "path": "source_tables/source_table_15.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "8f9d3270afd7c8dde5025141f8a47c48cd0a1db7fa51b26c5852caaa0ff99ae9"
+    }
+  ],
+  "freeze_status": "frozen",
+  "license_boundary": "Article and source data: CC BY 4.0. Two associated simulation repositories: GPL-3.0.",
+  "missingness": "No curator-imposed row deletion or table subsampling is present.",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "schema": "truthinsightbench-data-manifest",
+  "scientific_scope": "All 15 source-data tables and five raw or representative images embedded in the source workbook.",
+  "t0": "2024-01-01",
+  "task_id": "Life_01_dual_sensor_fusion",
+  "title": "Sensor Conditions and Fusion Phenotypes in a Single-Vesicle System",
+  "variable_dictionary": [
+    {
+      "file_or_pattern": "source_tables/source_table_01.csv",
+      "measures": [
+        "condition",
+        "independent_run",
+        "total_fusion_percent",
+        "fusion_in_first_two_frames_percent"
+      ]
+    },
+    {
+      "file_or_pattern": "source_tables/source_table_02.csv",
+      "measures": [
+        "condition",
+        "independent_run",
+        "survival",
+        "calcium_triggered_fusion",
+        "kinetics"
+      ]
+    },
+    {
+      "file_or_pattern": "source_tables/source_table_03.csv",
+      "measures": [
+        "condition",
+        "independent_run",
+        "total_fusion_percent",
+        "early_fusion_percent"
+      ]
+    },
+    {
+      "file_or_pattern": "source_tables/source_table_04.csv",
+      "measures": [
+        "condition",
+        "independent_run",
+        "rescue_total_fusion",
+        "rescue_early_fusion"
+      ]
+    },
+    {
+      "file_or_pattern": "source_tables/source_table_05.csv",
+      "measures": [
+        "competitor_concentration",
+        "independent_run",
+        "bound_target_concentration"
+      ]
+    },
+    {
+      "file_or_pattern": "source_tables/source_table_06.csv",
+      "measures": [
+        "time",
+        "calcium_concentration",
+        "sensor_model_output",
+        "fusion_kinetics"
+      ]
+    },
+    {
+      "file_or_pattern": "source_tables/source_table_07.csv",
+      "measures": [
+        "basal_calcium_condition",
+        "independent_run",
+        "fusion_amount",
+        "fusion_timing"
+      ]
+    },
+    {
+      "file_or_pattern": "source_tables/source_table_08.csv",
+      "measures": [
+        "membrane_topology_condition",
+        "independent_run",
+        "fusion_response"
+      ]
+    },
+    {
+      "file_or_pattern": "source_tables/source_table_09.csv",
+      "measures": [
+        "condition",
+        "independent_run",
+        "docked_vesicles",
+        "clamped_vesicles"
+      ]
+    },
+    {
+      "file_or_pattern": "source_tables/source_table_10.csv",
+      "measures": [
+        "calcium_green_control",
+        "fluorescence_control",
+        "transmission_control"
+      ]
+    },
+    {
+      "file_or_pattern": "source_tables/source_table_11.csv",
+      "measures": [
+        "binding_condition",
+        "independent_run",
+        "bound_concentration"
+      ]
+    },
+    {
+      "file_or_pattern": "source_tables/source_table_12.csv",
+      "measures": [
+        "time",
+        "calcium_input",
+        "sensor_response"
+      ]
+    },
+    {
+      "file_or_pattern": "source_tables/source_table_13.csv",
+      "measures": [
+        "clamp_configuration",
+        "time",
+        "model_output"
+      ]
+    },
+    {
+      "file_or_pattern": "source_tables/source_table_14.csv",
+      "measures": [
+        "basal_calcium_condition",
+        "docking",
+        "clamping",
+        "fusion"
+      ]
+    },
+    {
+      "file_or_pattern": "source_tables/source_table_15.csv",
+      "measures": [
+        "membrane_condition",
+        "TargetComplex_mobility",
+        "fusion_response"
+      ]
+    },
+    {
+      "file_or_pattern": "derived_for_navigation/fusion_dose_independent_runs.csv",
+      "measures": [
+        "condition",
+        "metric",
+        "run",
+        "value_pct"
+      ]
+    },
+    {
+      "file_or_pattern": "derived_for_navigation/binding_competition_runs.csv",
+      "measures": [
+        "competitor_concentration_uM",
+        "run",
+        "bound_target_uM"
+      ]
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "warnings": [
+    "Recompute from run-level columns; workbook mean columns are not independent evidence.",
+    "Keep total fusion, first-two-frame fusion, survival percentage, and per-bin frequency distinct.",
+    "Public labels such as Sensor A and Sensor B are anonymous; do not reverse-identify the source from values, figure numbers, or molecular names."
+  ],
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

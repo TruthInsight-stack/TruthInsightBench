@@ -1,0 +1,3367 @@
+{
+  "schema": "truthinsightbench-dataset-source-attribution",
+  "release": "V1.0",
+  "scope": "task- and file-level source attribution for scientific payloads under tasks/",
+  "creator_metadata_source": "Crossref REST API works records resolved by DOI, supplemented with creator lists from cited data records",
+  "creator_metadata_retrieved_on": "2026-09-04",
+  "modification_notice": "TruthInsightBench task payloads may select, rename, deidentify, reshape, normalize, convert, or deterministically derive material from the cited sources. Changes were prepared for V1.0 on 2026-09-04; each task data manifest defines the retained scientific boundary and file-level mappings. No upstream endorsement is implied.",
+  "license_materials": [
+    {
+      "spdx_expression": "Apache-2.0",
+      "license_text": "LICENSE",
+      "notices": "provenance/licenses/README.md"
+    },
+    {
+      "spdx_expression": "GPL-3.0-only",
+      "license_text": "provenance/licenses/GPL-3.0.txt",
+      "notices": "provenance/licenses/README.md"
+    },
+    {
+      "spdx_expression": "MIT",
+      "license_texts_and_copyright_notices": [
+        "provenance/licenses/MIT-pstjohn-bde.txt",
+        "provenance/licenses/MIT-ANCOM-BC-Code-Archive.txt",
+        "provenance/licenses/MIT-ANDI-datasets.txt"
+      ]
+    },
+    {
+      "spdx_expression": "CC-BY-4.0 OR CC-BY-3.0 OR CC-BY-NC-SA-3.0 OR CC0-1.0",
+      "license_links_and_attribution": "provenance/THIRD_PARTY_NOTICES.md"
+    }
+  ],
+  "task_count": 40,
+  "scientific_file_count": 290,
+  "tasks": [
+    {
+      "task_id": "Material_01_binary_superlattice",
+      "title": "Discovery of two-dimensional binary nanoparticle superlattices using global Monte Carlo optimization",
+      "doi": "10.1038/s41467-022-35690-8",
+      "first_publication_date": "2022-07-20",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-022-35690-8",
+      "creators": [
+        "Yilong Zhou",
+        "Gaurav Arya"
+      ],
+      "upstream_license": {
+        "upstream_assertion": "Article and supplementary source data: CC BY 4.0. Author-code redistribution is handled separately from the scientific payload.",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 17,
+      "files": [
+        {
+          "path": "tasks/Material_01_binary_superlattice/data/optimization_trajectory/LM_ENERGIES_32.txt",
+          "sha256": "5540a0737c27f90ab60fd20efe30e77da44976c096eddff9f26c346cad3893b8",
+          "bytes": 759,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Material_01_binary_superlattice/data/optimization_trajectory/LM_MOVIE_32.xyz",
+          "sha256": "a106c8936358091f30f0bd2aa93b3f97d52d65afe61c82b9aa806d01a58dee94",
+          "bytes": 28648,
+          "role": "molecular_or_particle_coordinates"
+        },
+        {
+          "path": "tasks/Material_01_binary_superlattice/data/structure_manifest.json",
+          "sha256": "3c3a99fc3353b3d23300fcc3e484a0d3a67c4e9815a3c21948e3bc734e27eeb2",
+          "bytes": 3860,
+          "role": "structured_scientific_data"
+        },
+        {
+          "path": "tasks/Material_01_binary_superlattice/data/structures/structure_01.xyz",
+          "sha256": "c3b88f964a90ba945181ddf6edf6a86c872c9389be1757f8457890dff832233e",
+          "bytes": 1172,
+          "role": "molecular_or_particle_coordinates"
+        },
+        {
+          "path": "tasks/Material_01_binary_superlattice/data/structures/structure_02.xyz",
+          "sha256": "cfadc643e5cc51d19a766f4f71f2470fbf46f39074d377d17eafa3d5d8bedcd7",
+          "bytes": 1174,
+          "role": "molecular_or_particle_coordinates"
+        },
+        {
+          "path": "tasks/Material_01_binary_superlattice/data/structures/structure_03.xyz",
+          "sha256": "ab69bbbfa5707581210a4bee34b2540ecfdbe120cfbb52af588e18e1f0f9958a",
+          "bytes": 1174,
+          "role": "molecular_or_particle_coordinates"
+        },
+        {
+          "path": "tasks/Material_01_binary_superlattice/data/structures/structure_04.xyz",
+          "sha256": "9c539f4d5b57b85fbcee6e830551e2385b08bc173d6b3ce7a82425ffafd2f78d",
+          "bytes": 1173,
+          "role": "molecular_or_particle_coordinates"
+        },
+        {
+          "path": "tasks/Material_01_binary_superlattice/data/structures/structure_05.xyz",
+          "sha256": "e3f6162120c6d3aef23cdbc5374612efb01fe4d1634929430129304d28019432",
+          "bytes": 1249,
+          "role": "molecular_or_particle_coordinates"
+        },
+        {
+          "path": "tasks/Material_01_binary_superlattice/data/structures/structure_06.xyz",
+          "sha256": "02c0dc31b800cfafbb688fa824a1a1270ab2b394f257df14d61c61efb86b731e",
+          "bytes": 1173,
+          "role": "molecular_or_particle_coordinates"
+        },
+        {
+          "path": "tasks/Material_01_binary_superlattice/data/structures/structure_07.xyz",
+          "sha256": "d6f4d2db10c2797cfe80d91fadcbdf4a89577d2cb5b1815146395cf57efaa78d",
+          "bytes": 1589,
+          "role": "molecular_or_particle_coordinates"
+        },
+        {
+          "path": "tasks/Material_01_binary_superlattice/data/structures/structure_08.xyz",
+          "sha256": "af8fdb7c53638594861936504fea581f6dc560f726a29c11099a8323d76608a0",
+          "bytes": 1595,
+          "role": "molecular_or_particle_coordinates"
+        },
+        {
+          "path": "tasks/Material_01_binary_superlattice/data/structures/structure_09.xyz",
+          "sha256": "cbe2cb9bd24fc09503e4bea840a9e5aa500e21e16a235ad4d9904177fd906c66",
+          "bytes": 1113,
+          "role": "molecular_or_particle_coordinates"
+        },
+        {
+          "path": "tasks/Material_01_binary_superlattice/data/structures/structure_10.xyz",
+          "sha256": "3b029acbaee9ea42da74c705ac0c9f5d292051cc98972836af0c85d0f883aba7",
+          "bytes": 1113,
+          "role": "molecular_or_particle_coordinates"
+        },
+        {
+          "path": "tasks/Material_01_binary_superlattice/data/structures/structure_11.xyz",
+          "sha256": "9c958a9b0534712328e089188587bd927fb957df5b24ceda82d0eff965fd06af",
+          "bytes": 1833,
+          "role": "molecular_or_particle_coordinates"
+        },
+        {
+          "path": "tasks/Material_01_binary_superlattice/data/structures/structure_12.xyz",
+          "sha256": "aeda932d3c2fbee0cba3a079bfb2951ab3f8094f2f079aae2e271a44e4acbbcd",
+          "bytes": 2014,
+          "role": "molecular_or_particle_coordinates"
+        },
+        {
+          "path": "tasks/Material_01_binary_superlattice/data/structures/structure_13.xyz",
+          "sha256": "d598495af45498caea30315c4f04d33e838d755f2099cc5f4819f1e71d9a681a",
+          "bytes": 2313,
+          "role": "molecular_or_particle_coordinates"
+        },
+        {
+          "path": "tasks/Material_01_binary_superlattice/data/structures/structure_14.xyz",
+          "sha256": "e5093570332c2bd435a80d42e224ee742fde198bb7d68251ccd8820c19c3415d",
+          "bytes": 2199,
+          "role": "molecular_or_particle_coordinates"
+        }
+      ],
+      "data_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9800587/fullTextXML"
+    },
+    {
+      "task_id": "Life_01_dual_sensor_fusion",
+      "title": "Minimal presynaptic protein machinery governing diverse kinetics of calcium-evoked neurotransmitter release",
+      "doi": "10.1038/s41467-024-54960-1",
+      "first_publication_date": "2024-04-18",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-024-54960-1",
+      "creators": [
+        "Dipayan Bose",
+        "Manindra Bera",
+        "Christopher A. Norman",
+        "Yulia Timofeeva",
+        "Kirill E. Volynski",
+        "Shyam S. Krishnakumar"
+      ],
+      "upstream_license": {
+        "upstream_assertion": "Article and source data: CC BY 4.0. Two associated simulation repositories: GPL-3.0.",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 22,
+      "files": [
+        {
+          "path": "tasks/Life_01_dual_sensor_fusion/data/derived_for_navigation/binding_competition_runs.csv",
+          "sha256": "5e255dbb4f61ff678128ee188f5a0e6cdda552c2b5cad19e9e4bdc24808e5122",
+          "bytes": 439,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Life_01_dual_sensor_fusion/data/derived_for_navigation/fusion_dose_independent_runs.csv",
+          "sha256": "b4eddf4e28846ed14739f043788e2cf65bd4acd070ad572f3560471aaf5826df",
+          "bytes": 2424,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Life_01_dual_sensor_fusion/data/source_media/source_media_01.tiff",
+          "sha256": "58fb5fe6ce05367828fd95d8665b11837c44db4bb9be652ed7721ac68e70e314",
+          "bytes": 2575036,
+          "role": "scientific_image"
+        },
+        {
+          "path": "tasks/Life_01_dual_sensor_fusion/data/source_media/source_media_02.tiff",
+          "sha256": "80c7f3eac67203e9d4708fd489b5321b7e10b0656abaeda7debead75b9c564b4",
+          "bytes": 113650,
+          "role": "scientific_image"
+        },
+        {
+          "path": "tasks/Life_01_dual_sensor_fusion/data/source_media/source_media_03.tiff",
+          "sha256": "4c1dc4b736abd187d76346a2d86dfc25a2fc3ab986b9f922ee0031a53fe27754",
+          "bytes": 116322,
+          "role": "scientific_image"
+        },
+        {
+          "path": "tasks/Life_01_dual_sensor_fusion/data/source_media/source_media_04.tif",
+          "sha256": "4fa9626ecd1f0f2e71b4981a7ac71b5be378525017a1ca06f32cbfa94f236332",
+          "bytes": 68428,
+          "role": "scientific_image"
+        },
+        {
+          "path": "tasks/Life_01_dual_sensor_fusion/data/source_media/source_media_05.tiff",
+          "sha256": "20ef7135b208d871e6e62a55114033e5b13f470278be6995324e6778a5c49292",
+          "bytes": 122992,
+          "role": "scientific_image"
+        },
+        {
+          "path": "tasks/Life_01_dual_sensor_fusion/data/source_tables/source_table_01.csv",
+          "sha256": "7fc6ea04c69b3d2e9c0e1591a3e06b871012b2f02947f144911b2ef28eb64c57",
+          "bytes": 9520,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Life_01_dual_sensor_fusion/data/source_tables/source_table_02.csv",
+          "sha256": "afe6fce96a7b408ab90d23037034417f9fe9eeee78f5a18c6253c74f856058a6",
+          "bytes": 11182,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Life_01_dual_sensor_fusion/data/source_tables/source_table_03.csv",
+          "sha256": "a792958c4fb2bd7159b9686485976e0960ec42634fcac32579fbec6d7175fcf8",
+          "bytes": 4121,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Life_01_dual_sensor_fusion/data/source_tables/source_table_04.csv",
+          "sha256": "3ebccc4ed0dd61c1b60f823ab23b3b7d66a412d9a164a4fb54d9cd7ef88936fd",
+          "bytes": 4676,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Life_01_dual_sensor_fusion/data/source_tables/source_table_05.csv",
+          "sha256": "b0e89b26c9289150de7e0569936fa0b0255294c74652213ea527fa6c1463675d",
+          "bytes": 1234,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Life_01_dual_sensor_fusion/data/source_tables/source_table_06.csv",
+          "sha256": "91f8a9f262c9093defcd7b0127911dcd408398bbd7f9a2cb618a08920de2c999",
+          "bytes": 33157,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Life_01_dual_sensor_fusion/data/source_tables/source_table_07.csv",
+          "sha256": "ea74d1fe5967d2608c6edc4df1bbd28c3c1f19fa2a2ef373feaae6f73d37f819",
+          "bytes": 35751,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Life_01_dual_sensor_fusion/data/source_tables/source_table_08.csv",
+          "sha256": "353ffebf841ed6ac14424c068c496405e547e0a5cac39c01cd7f9a671c647a3e",
+          "bytes": 5862,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Life_01_dual_sensor_fusion/data/source_tables/source_table_09.csv",
+          "sha256": "737cf4bd3bcfc2189f0a903a1de154c8e4b8d21856b1f6be93cfcc679ee2b6d7",
+          "bytes": 1018,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Life_01_dual_sensor_fusion/data/source_tables/source_table_10.csv",
+          "sha256": "7b9dcdfadbaff3d2d5233b04ce55db85316e7ce883b659391e14dd884fd42d2c",
+          "bytes": 6811,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Life_01_dual_sensor_fusion/data/source_tables/source_table_11.csv",
+          "sha256": "4289f9513d2f2a45104de76f0d84f4889197f308f724df33a0af7c5f1b9d8474",
+          "bytes": 783,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Life_01_dual_sensor_fusion/data/source_tables/source_table_12.csv",
+          "sha256": "de5f8df19a1089a2a23356b675d6f1901ebf02b6f7871b31f42c814788c9ac3f",
+          "bytes": 34529,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Life_01_dual_sensor_fusion/data/source_tables/source_table_13.csv",
+          "sha256": "a0151ee952a563a7b7339608991ee2abc57a987167ea2520ab4c1255f2373001",
+          "bytes": 46052,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Life_01_dual_sensor_fusion/data/source_tables/source_table_14.csv",
+          "sha256": "46c105bbdf0c51167f2a9f21b5a52e86df484fba675369e186fb05eaf0ac6a8f",
+          "bytes": 1289,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Life_01_dual_sensor_fusion/data/source_tables/source_table_15.csv",
+          "sha256": "8f9d3270afd7c8dde5025141f8a47c48cd0a1db7fa51b26c5852caaa0ff99ae9",
+          "bytes": 9581,
+          "role": "tabular_or_text_scientific_data"
+        }
+      ],
+      "data_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11685451/fullTextXML"
+    },
+    {
+      "task_id": "Neuro_01_self_organization_prediction",
+      "title": "Experimental validation of the free-energy principle with in vitro neural networks",
+      "doi": "10.1038/s41467-023-40141-z",
+      "first_publication_date": "2022-10-07",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-023-40141-z",
+      "creators": [
+        "Takuya Isomura",
+        "Kiyoshi Kotani",
+        "Yasuhiko Jimbo",
+        "Karl J. Friston"
+      ],
+      "upstream_license": {
+        "upstream_assertion": "Bundled response-data files: GPL-3.0-only author repository, pinned at commit f6c164d7d54e5d9867b3d62d61140f2cf7e50612.",
+        "spdx_expression": "GPL-3.0-only",
+        "license_url": "https://www.gnu.org/licenses/gpl-3.0.html"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 7,
+      "files": [
+        {
+          "path": "tasks/Neuro_01_self_organization_prediction/data/raw/response_data_apv.mat",
+          "sha256": "3d560fa05879fa571905d0ace0ae9dc6eefc82a81ecb3d6c5e9206f7bb137807",
+          "bytes": 5815188,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Neuro_01_self_organization_prediction/data/raw/response_data_bic.mat",
+          "sha256": "21824a2b09977401b4f9065820ea2f98b16eb82ce8351e405c8eaf734d7d91e9",
+          "bytes": 3308199,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Neuro_01_self_organization_prediction/data/raw/response_data_ctrl.mat",
+          "sha256": "af90d5d9f267b899cf24299068de3e0b4c18c95dc0620b4a5128f733cfd9d654",
+          "bytes": 17481996,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Neuro_01_self_organization_prediction/data/raw/response_data_dzp.mat",
+          "sha256": "eef5c998d02aa0273ff4564eed7c328edb08302fc9b1db730d313652a60a9ecd",
+          "bytes": 3473361,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Neuro_01_self_organization_prediction/data/raw/response_data_mix0.mat",
+          "sha256": "45a56cd147c76c854c0eec48fd58645c76205edd1e7b06ff2d76640f2d7ac072",
+          "bytes": 2120612,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Neuro_01_self_organization_prediction/data/raw/response_data_mix50.mat",
+          "sha256": "8d384c2a6c5aea1ac5c5deaf09820af4791d7e65242f7c2fb18c01da997df542",
+          "bytes": 2156282,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Neuro_01_self_organization_prediction/data/source_shapes.json",
+          "sha256": "63dc014eee7fdbd3b1e312e8418a36a3d3f4d54040896056361220ab40516e3a",
+          "bytes": 1691,
+          "role": "structured_scientific_data"
+        }
+      ],
+      "data_record_url": "https://github.com/takuyaisomura/reverse_engineering/tree/f6c164d7d54e5d9867b3d62d61140f2cf7e50612/invitro"
+    },
+    {
+      "task_id": "EarthScience_01_glacial_fluvial_erosion",
+      "title": "Limits to timescale dependence in erosion rates: Quantifying glacial and fluvial erosion across timescales",
+      "doi": "10.1126/sciadv.adr2009",
+      "first_publication_date": "2024-12-20",
+      "canonical_article_url": "https://doi.org/10.1126/sciadv.adr2009",
+      "creators": [
+        "Joel A. Wilner",
+        "Bailey J Nordin",
+        "Alexander Getraer",
+        "Rowan M. Gregoire",
+        "Mansa Krishna",
+        "Jiawen Li",
+        "Derek J. Pickell",
+        "Emma R. Rogers",
+        "Kalin T. McDannell",
+        "Marisa C. Palucis",
+        "C. Keller"
+      ],
+      "upstream_license": {
+        "upstream_assertion": "Article and Zenodo code/data record: CC BY 4.0.",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 21,
+      "files": [
+        {
+          "path": "tasks/EarthScience_01_glacial_fluvial_erosion/data/raw/beryllium.tsv",
+          "sha256": "cde5b0794baf9622e74e9749fd38514cfd9ab63fb54250baf6a15777c983e4d2",
+          "bytes": 9363,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/EarthScience_01_glacial_fluvial_erosion/data/raw/glacial_erosion_Earth.tsv",
+          "sha256": "b49192d77082fd431963ca67278d9face1079e8054711b84296554573c24e2cf",
+          "bytes": 117004,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/EarthScience_01_glacial_fluvial_erosion/data/raw/lithology_parsed.tsv",
+          "sha256": "cfeb948dfc91fb3f9bb8a511ac4b06db49950cb9ae9ac5a4a6dbeeb0e3a5fe52",
+          "bytes": 25837,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/EarthScience_01_glacial_fluvial_erosion/data/raw/lithology_parsed_nonglacial.tsv",
+          "sha256": "613eed80774145e0ab4fc02842845b9c8235210a9375e52e0edb1ae074e074c9",
+          "bytes": 555816,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/EarthScience_01_glacial_fluvial_erosion/data/raw/lithology_reference.tsv",
+          "sha256": "fa1f1ac37fe320193b0ecc0b932d0a874da0e89070952d64b634d3d5ed08a114",
+          "bytes": 225,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/EarthScience_01_glacial_fluvial_erosion/data/raw/lithology_reference_nonglacial.tsv",
+          "sha256": "fa1f1ac37fe320193b0ecc0b932d0a874da0e89070952d64b634d3d5ed08a114",
+          "bytes": 225,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/EarthScience_01_glacial_fluvial_erosion/data/raw/lithology_unparsed.tsv",
+          "sha256": "a35c4508e54560a3e47b14e30f4e3ea8346e150770ef11c96634c10f3e5add54",
+          "bytes": 63752,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/EarthScience_01_glacial_fluvial_erosion/data/raw/lithology_unparsed_nonglacial.tsv",
+          "sha256": "f78b0da0b02e23c0b1883462f5c8b01c3a49b844932198de2f35c8c5603da701",
+          "bytes": 1385057,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/EarthScience_01_glacial_fluvial_erosion/data/raw/nonglacial_erosion_Earth.tsv",
+          "sha256": "214063142d936c3a5408583b682397042392b4d46e0443e30c88811fbe9fee89",
+          "bytes": 1662513,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/EarthScience_01_glacial_fluvial_erosion/data/raw/prior compilations/CHELSEA/annualprecipitation.jl",
+          "sha256": "0382a24d004961127e00440af20e416d6f5c0e8a81317e5911d2b5603e7a1342",
+          "bytes": 1513,
+          "role": "scientific_data"
+        },
+        {
+          "path": "tasks/EarthScience_01_glacial_fluvial_erosion/data/raw/prior compilations/CHELSEA/precipitation_glacial.tsv",
+          "sha256": "24c72eb98ad29659e5275959755ec064e4a3cfd4301ebcd5aa7a11f3d5260126",
+          "bytes": 10543,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/EarthScience_01_glacial_fluvial_erosion/data/raw/prior compilations/CHELSEA/precipitation_nonglacial.tsv",
+          "sha256": "1a0075335963506e93a89a013c1d85c7db32bdeddfe787862be1a02401dba296",
+          "bytes": 154572,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/EarthScience_01_glacial_fluvial_erosion/data/raw/prior compilations/CHELSEA/references.txt",
+          "sha256": "42bd95d10e4a9da30fc5870a86bd7b2eff2170296a3c6cfb347d9bd4f26c746e",
+          "bytes": 1902,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/EarthScience_01_glacial_fluvial_erosion/data/raw/prior compilations/Chen et al. 2023/Chen_et_al_2021_short-term_erosion_rate_data.csv",
+          "sha256": "5a0668568db63339e8ed83c2196edc258b2c0d975c120588fca90503842fcb4f",
+          "bytes": 153924,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/EarthScience_01_glacial_fluvial_erosion/data/raw/prior compilations/GloRiSe/GloRiSe combined.tsv",
+          "sha256": "a419086603c8a6a52742cee08abf9a953958fe921d4109f2759e3e22ef5fbff1",
+          "bytes": 253975,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/EarthScience_01_glacial_fluvial_erosion/data/raw/prior compilations/OCTOPUS/octopusages.tsv",
+          "sha256": "89a9feb971dac5dbe850cf786083ecd0bfe5a10f9ea877ad39f9b9d87e241665",
+          "bytes": 66818,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/EarthScience_01_glacial_fluvial_erosion/data/raw/prior compilations/OCTOPUS/octopusdata.tsv",
+          "sha256": "dd7620a0078af24a6e1882faaa76c22bc74d7d0243d265e5bf2d1fb6174ee4c0",
+          "bytes": 1600386,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/EarthScience_01_glacial_fluvial_erosion/data/raw/prior compilations/OCTOPUS/octopusexposureage.jl",
+          "sha256": "17172ed350479323955a2c3c13d6531286e3232df389b7bf2badceef205230b8",
+          "bytes": 2397,
+          "role": "scientific_data"
+        },
+        {
+          "path": "tasks/EarthScience_01_glacial_fluvial_erosion/data/raw/source_notes.txt",
+          "sha256": "439086b61c2ae6beffe241882fc23309cb4d07b7a4f4db7930a646070b96b8a3",
+          "bytes": 49,
+          "role": "scientific_data"
+        },
+        {
+          "path": "tasks/EarthScience_01_glacial_fluvial_erosion/data/raw/slope_glacial.tsv",
+          "sha256": "fe6da89d7cd43389930f980d0bb71b32dddc795f499bf61508e56fb3956f2853",
+          "bytes": 8440,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/EarthScience_01_glacial_fluvial_erosion/data/raw/slope_nonglacial.tsv",
+          "sha256": "3d8e9432844157a64ecae54636a0b3b41c49a5f1128493366673d10474541629",
+          "bytes": 115468,
+          "role": "tabular_or_text_scientific_data"
+        }
+      ],
+      "data_record_url": "https://doi.org/10.5281/zenodo.13944782"
+    },
+    {
+      "task_id": "Physics_01_dynamic_nuclear_polarization_echoes",
+      "title": "Observation of dynamic nuclear polarization echoes",
+      "doi": "10.1126/sciadv.adr2420",
+      "first_publication_date": "2024-10-18",
+      "canonical_article_url": "https://doi.org/10.1126/sciadv.adr2420",
+      "creators": [
+        "Nino Wili",
+        "Anders B. Nielsen",
+        "José P. Carvalho",
+        "Niels Chr. Nielsen"
+      ],
+      "upstream_license": {
+        "upstream_assertion": "Article and raw data/processing scripts in the frozen data record: CC BY 4.0.",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 14,
+      "files": [
+        {
+          "path": "tasks/Physics_01_dynamic_nuclear_polarization_echoes/data/comparison_manifest.json",
+          "sha256": "803eec7fefbce8c88fdab33f2786aaedc9ac7791de9b201a4c0cdac93f6b64b9",
+          "bytes": 1691,
+          "role": "structured_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_01_dynamic_nuclear_polarization_echoes/data/raw/20240424_1547_dnpdata_nmr_only.mat",
+          "sha256": "21d8ddead3568549e78e863da1991e2aaec29a5869b6e5f7e71c972c8521bfd0",
+          "bytes": 885560,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_01_dynamic_nuclear_polarization_echoes/data/raw/20240522_125527_dnp_echo_pp_length_2.mat",
+          "sha256": "11ba1cc18b975b1d46efa79a3b1bf960fabb7b9a890fdf74b591aa238a5d3935",
+          "bytes": 369217,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_01_dynamic_nuclear_polarization_echoes/data/raw/20240522_130805_dnp_echo_pp_length_2.mat",
+          "sha256": "2586271e3721e1ac1d547c3f9e3cae36b319253d1dc1c6104bf391b50766341b",
+          "bytes": 363782,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_01_dynamic_nuclear_polarization_echoes/data/raw/20240522_130914_dnp_echo_pp_length_2.mat",
+          "sha256": "8061a82531bb740b92eefeac81147b853213d9bbc5df5d40499239ca8560a7bd",
+          "bytes": 357326,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_01_dynamic_nuclear_polarization_echoes/data/raw/20240522_131018_dnp_echo_pp_length_2.mat",
+          "sha256": "a7f2cd0f75ef88669a4c524d52762a0e4e1e3566c3d11de8c28c415de3c6c3d0",
+          "bytes": 351168,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_01_dynamic_nuclear_polarization_echoes/data/raw/20240522_131142_dnp_echo_pp_length_2.mat",
+          "sha256": "7c3875bc6a46a935c07c03375a21caedaa3284eaa65f05ac11c3e683f2856ef3",
+          "bytes": 350390,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_01_dynamic_nuclear_polarization_echoes/data/raw/20240522_131404_dnp_echo_pp_length_2.mat",
+          "sha256": "ef10c2bf4789109be0a64665e62520cb76983ef3563ca6f83061d870b658b900",
+          "bytes": 342492,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_01_dynamic_nuclear_polarization_echoes/data/raw/20240522_1404_dnpdata_dnp_contact_swp.mat",
+          "sha256": "2ace5b6c0593bda645fd2e018608aa9718f6364bcb39d2d0eb56bee8387062cd",
+          "bytes": 873371,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_01_dynamic_nuclear_polarization_echoes/data/raw/20240522_1434_dnpdata_dnp_contact_swp.mat",
+          "sha256": "a88a16a44385647ad2aafa228be866b9b29a8258d8a98b948995d13436e26294",
+          "bytes": 873702,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_01_dynamic_nuclear_polarization_echoes/data/raw/20240522_1505_dnpdata_dnp_contact_swp.mat",
+          "sha256": "a287ebd999dabfaa700e9bdd4f8069df5421ab609ce4f9a6962751a9fa59c852",
+          "bytes": 875976,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_01_dynamic_nuclear_polarization_echoes/data/raw/20240522_1535_dnpdata_dnp_contact_swp.mat",
+          "sha256": "77240a4a63263f31a25fa9ae9a2c8e067631659b0851b8a4cf7f15e5e80e23f5",
+          "bytes": 875867,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_01_dynamic_nuclear_polarization_echoes/data/raw/20240523_0954_dnpdata_dnp_contact_swp.mat",
+          "sha256": "e151b6fd905f17fe498f9d10a2a1a977f931865ee50681b8df412a02dce00872",
+          "bytes": 875643,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_01_dynamic_nuclear_polarization_echoes/data/raw/20240523_1308_dnpdata_dnp_contact_swp.mat",
+          "sha256": "501c5b027290bc1051d8d61a2b3dab34354f3e786c0e1f15c3e1ba038d79ca2a",
+          "bytes": 873751,
+          "role": "structured_or_binary_scientific_data"
+        }
+      ],
+      "data_record_url": "https://doi.org/10.5281/zenodo.13255063"
+    },
+    {
+      "task_id": "Astronomy_02_radio_burst_drift",
+      "title": "Drifting discrete Jovian radio bursts reveal acceleration processes related to Ganymede and the main aurora",
+      "doi": "10.1038/s41467-023-41617-8",
+      "first_publication_date": "2023-10-03",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-023-41617-8",
+      "creators": [
+        "Emilie Mauduit",
+        "Philippe Zarka",
+        "Laurent Lamy",
+        "Sébastien L. G. Hess"
+      ],
+      "upstream_license": {
+        "upstream_assertion": "Article and source data: CC BY 4.0.",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 9,
+      "files": [
+        {
+          "path": "tasks/Astronomy_02_radio_burst_drift/data/normalized_views/drift_population_series.tsv",
+          "sha256": "8a2b8d3c344daa9692536914400579e7e3cf9578b9ab71918b472b9286836595",
+          "bytes": 68600,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Astronomy_02_radio_burst_drift/data/normalized_views/dynamic_spectrum_event_metadata.tsv",
+          "sha256": "cca444098eabeb1981b5b496bd9af5fc9f28db3ed21df71c7010943a544d5527",
+          "bytes": 644,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Astronomy_02_radio_burst_drift/data/normalized_views/event_1_dynamic_spectrum.tsv",
+          "sha256": "152b62a3afa325c0c85b51db2430aee362b301e3ddcd6457336c3ff2db090400",
+          "bytes": 1935906,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Astronomy_02_radio_burst_drift/data/normalized_views/event_2_dynamic_spectrum.tsv",
+          "sha256": "bd199ba2dd28f3787b0cafe829cf800cc2a0fd7f8e99b10392fc7a7672367ff7",
+          "bytes": 1876515,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Astronomy_02_radio_burst_drift/data/normalized_views/event_3_dynamic_spectrum.tsv",
+          "sha256": "c718ce32e5fb5ac07af4697c41bd06bdc4cd62c89c9d9f6289a2ef2acd4e0fa7",
+          "bytes": 1948886,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Astronomy_02_radio_burst_drift/data/normalized_views/event_4_dynamic_spectrum.tsv",
+          "sha256": "824c8e1e3b5345db1b3fc59c96843928837dc595975a3b0e42695484bf155f8f",
+          "bytes": 1923989,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Astronomy_02_radio_burst_drift/data/normalized_views/event_5_dynamic_spectrum.tsv",
+          "sha256": "9c6b9aa72597d84eeb2d7e0d1d2b17723531e6b83ec8ce3c054991f318b4ff72",
+          "bytes": 2000284,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Astronomy_02_radio_burst_drift/data/normalized_views/orientation_count_series.tsv",
+          "sha256": "b8459a95eb3abfb60e2e6670f54dd4b7b03d6737a05b6983c7ac3823c8fd91cc",
+          "bytes": 10013,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Astronomy_02_radio_burst_drift/data/source_data/all_source_data_deidentified.xlsx",
+          "sha256": "2b42feab951615de8e80ff1593d96287eed4895437f07e6114a88da4018e6b67",
+          "bytes": 32376356,
+          "role": "structured_or_binary_scientific_data"
+        }
+      ],
+      "data_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10547699/fullTextXML"
+    },
+    {
+      "task_id": "Chemistry_04_bond_enthalpy_domain",
+      "title": "Prediction of organic homolytic bond dissociation enthalpies at near chemical accuracy with sub-second computational cost",
+      "doi": "10.1038/s41467-020-16201-z",
+      "first_publication_date": "2020-05-11",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-020-16201-z",
+      "creators": [
+        "Peter C. St. John",
+        "Yanfei Guan",
+        "Yeonjoon Kim",
+        "Seonah Kim",
+        "Robert S. Paton"
+      ],
+      "upstream_license": {
+        "upstream_assertion": "Bundled BDE-db data: MIT. Bundled article source tables: CC-BY-4.0.",
+        "spdx_expression": "MIT AND CC-BY-4.0",
+        "license_url": "https://spdx.org/licenses/",
+        "components": [
+          {
+            "scope": "source_data/bde_db_full.csv.gz",
+            "spdx_expression": "MIT",
+            "license_url": "https://opensource.org/license/mit"
+          },
+          {
+            "scope": "source_data/experimental_source_tables.xlsx and derived benchmark view",
+            "spdx_expression": "CC-BY-4.0",
+            "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+          }
+        ]
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 3,
+      "files": [
+        {
+          "path": "tasks/Chemistry_04_bond_enthalpy_domain/data/normalized_views/experimental_benchmark.tsv",
+          "sha256": "319bf2c88ab47bb2c7f779163ed48cd2f316e6299eeda0b999d924ffe81ad484",
+          "bytes": 44326,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Chemistry_04_bond_enthalpy_domain/data/source_data/bde_db_full.csv.gz",
+          "sha256": "2ee36d1548d51289e3faa21e1269b9bbb8f3a8975f9b29719e6beae226864cc6",
+          "bytes": 7491101,
+          "role": "scientific_archive"
+        },
+        {
+          "path": "tasks/Chemistry_04_bond_enthalpy_domain/data/source_data/experimental_source_tables.xlsx",
+          "sha256": "e7c0c73db91d0d097ca8e9f5d6a8edf5cac537a10530d3732fe7738e9e581f08",
+          "bytes": 33180,
+          "role": "structured_or_binary_scientific_data"
+        }
+      ],
+      "data_record_url": "https://doi.org/10.6084/m9.figshare.10248932"
+    },
+    {
+      "task_id": "Physics_02_multiorbital_transition",
+      "title": "Transition to the Haldane phase driven by electron-electron correlations",
+      "doi": "10.1038/s41467-023-44135-9",
+      "first_publication_date": "2023-12-22",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-023-44135-9",
+      "creators": [
+        "A. Jażdżewska",
+        "M. Mierzejewski",
+        "M. Środa",
+        "A. Nocera",
+        "G. Alvarez",
+        "E. Dagotto",
+        "J. Herbrych"
+      ],
+      "upstream_license": {
+        "upstream_assertion": "Scientific data: CC BY 4.0.",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 6,
+      "files": [
+        {
+          "path": "tasks/Physics_02_multiorbital_transition/data/normalized_views/control_vs_correlation.tsv",
+          "sha256": "15644855cfc923a22e5c62803d5960508530b0dfdc0b3a3875873322c73ee65a",
+          "bytes": 13615,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_02_multiorbital_transition/data/normalized_views/control_vs_gap_case_A.tsv",
+          "sha256": "ab7bdad5e545684e7878ff1a5e5a86bffbe7e5a2b620e61987dd4309d9998e93",
+          "bytes": 4282,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_02_multiorbital_transition/data/normalized_views/control_vs_gap_case_B.tsv",
+          "sha256": "b3f81985dff338652d8f0f303f63dcf0e9bd329d7e22eee3d8677a83c0a57024",
+          "bytes": 4030,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_02_multiorbital_transition/data/normalized_views/control_vs_local_observables.tsv",
+          "sha256": "b241c3530092caecae6f4f6669a11ffb4cb64e5283df717a54ce4de0dffcc695",
+          "bytes": 1067,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_02_multiorbital_transition/data/normalized_views/control_vs_topological_proxy.tsv",
+          "sha256": "0e0a1e24c84456ead4e79805401f37f75e28884d1533f29473d84209f4eb0f9f",
+          "bytes": 35831,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_02_multiorbital_transition/data/source_data/all_source_data_deidentified.zip",
+          "sha256": "514000a1db46b276cb2817b5d92df8c9dc262c07b3fa789e459d6f3904da72e9",
+          "bytes": 6219408,
+          "role": "scientific_archive"
+        }
+      ],
+      "data_record_url": "https://doi.org/10.5281/zenodo.7854617"
+    },
+    {
+      "task_id": "Physics_03_controlled_dynamics_forecast",
+      "title": "Forecasting the outcome of spintronic experiments with Neural Ordinary Differential Equations",
+      "doi": "10.1038/s41467-022-28571-7",
+      "first_publication_date": "2022-02-23",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-022-28571-7",
+      "creators": [
+        "Xing Chen",
+        "Flavio Abreu Araujo",
+        "Mathieu Riou",
+        "Jacob Torrejon",
+        "Dafiné Ravelosona",
+        "Wang Kang",
+        "Weisheng Zhao",
+        "Julie Grollier",
+        "Damien Querlioz"
+      ],
+      "upstream_license": {
+        "upstream_assertion": "Article and source data: CC BY 4.0. Author analysis code: MIT.",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 8,
+      "files": [
+        {
+          "path": "tasks/Physics_03_controlled_dynamics_forecast/data/normalized_views/anonymous_observations.tsv",
+          "sha256": "3cc1e0e77ed36e59934dcec9e8b7ab873ecea69044f9216f8bf958e9d738f812",
+          "bytes": 8521,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_03_controlled_dynamics_forecast/data/normalized_views/control_a_frequency_response.tsv",
+          "sha256": "cc23486842c65ad187740cee59a07abf8553bc85c188eac70fa2269dfcae7bad",
+          "bytes": 827,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_03_controlled_dynamics_forecast/data/normalized_views/control_b_frequency_response.tsv",
+          "sha256": "c724ee276c07f2ec73acca2aafdf9ec6bea9941aabf9ee60de467481c5bf0136",
+          "bytes": 598,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_03_controlled_dynamics_forecast/data/normalized_views/signed_control_frequency_response.tsv",
+          "sha256": "36d8dd58e9aaedd2dec5a51ab8b00a3e37a78ac3a83c6116cf58527e3c61613b",
+          "bytes": 414,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_03_controlled_dynamics_forecast/data/normalized_views/trajectory_condition_01.tsv",
+          "sha256": "4c9cf399319e0e967a9ea08755a53a8ad0003371d5b626683fb1acbbde920f72",
+          "bytes": 994303,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_03_controlled_dynamics_forecast/data/normalized_views/trajectory_condition_02.tsv",
+          "sha256": "82bea63c4a2d10fc82032a3206dbda351f72c15fb9016fde8900449e31267bfb",
+          "bytes": 993696,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_03_controlled_dynamics_forecast/data/normalized_views/trajectory_condition_03.tsv",
+          "sha256": "612b71eb103edbdf7215b25b1750eb90a7f847ff1ac2b42b1134d1f07d00a67c",
+          "bytes": 992060,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_03_controlled_dynamics_forecast/data/source_data/all_source_data_deidentified.xlsx",
+          "sha256": "347e2f2ada93fabf3eed46d455c96752d3e01652fd269e7998cf95c5241de3ab",
+          "bytes": 28477001,
+          "role": "structured_or_binary_scientific_data"
+        }
+      ],
+      "data_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8866480/fullTextXML"
+    },
+    {
+      "task_id": "Physics_05_temporal_delay_transition",
+      "title": "Timeliness criticality in complex systems",
+      "doi": "10.1038/s41567-024-02525-w",
+      "first_publication_date": "2024-06-19",
+      "canonical_article_url": "https://doi.org/10.1038/s41567-024-02525-w",
+      "creators": [
+        "José Moran",
+        "Matthijs Romeijnders",
+        "Pierre Le Doussal",
+        "Frank P. Pijpers",
+        "Utz Weitzel",
+        "Debabrata Panja",
+        "Jean-Philippe Bouchaud"
+      ],
+      "upstream_license": {
+        "upstream_assertion": "Author-repository components are GPL-3.0-only at commit d6c89473b8d1d8ed3db21d76e85d29063c3aa0e1. Embedded Workplace15 source data are CC0-1.0. Thiers13-derived components retain the underlying CC-BY-NC-SA-3.0 terms.",
+        "spdx_expression": "GPL-3.0-only",
+        "license_url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "component_licenses": [
+          {
+            "component": "Workplace15-derived material",
+            "spdx_expression": "CC0-1.0",
+            "source_url": "https://sociopatterns.org/datasets/contacts-in-a-workplace/",
+            "requested_citation": "M. Génois et al., Network Science 3, 326 (2015)"
+          },
+          {
+            "component": "Thiers13-derived material",
+            "spdx_expression": "CC-BY-NC-SA-3.0",
+            "source_url": "https://sociopatterns.org/datasets/high-school-contact-and-friendship-networks/",
+            "requested_citation": "R. Mastrandrea et al., PLoS ONE 10(9), e0136497 (2015)",
+            "use_boundary": "non-commercial reuse with attribution and ShareAlike"
+          }
+        ]
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 77,
+      "files": [
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/Extended_data_fig1/data/B.csv",
+          "sha256": "1ddfed34269037fe21b52dc616012221b4c57ce15a93d004f9ae49226c02c5c7",
+          "bytes": 100,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/Extended_data_fig1/data/out_tr.csv",
+          "sha256": "9c19fa4265babf776e7049dd55c2e3c14259f3ba008d8f0fe53ae8d3d3f1ab13",
+          "bytes": 1350050,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/Extended_data_fig1/fig_source_data/B_data.csv",
+          "sha256": "c51b1b25a523e904f3464bf4dd9f14baf2222d28e69a87590e46035fce1f8a2f",
+          "bytes": 53,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/Extended_data_fig1/fig_source_data/Extended_data_fig1_all_source_data.xlsx",
+          "sha256": "18a148edb98c21daa98313bf600fbcaff403ec266977f7864b0786d8f04d0549",
+          "bytes": 501665,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/Extended_data_fig1/fig_source_data/out_tr_data.csv",
+          "sha256": "500e30ba364600ebb25eb56e89639f5436e24d277995d921be7fff438614ba12",
+          "bytes": 623097,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/SI.1_Bc/fig_source_data/si1_all_source_data.xlsx",
+          "sha256": "84269d38d0e1384fe19cd9eb3e125d8f0c5256f941180c6f23fd7a3d519cc12d",
+          "bytes": 102279,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/SI.2_finite_size/data/N_values.csv",
+          "sha256": "2c2ed5fcb40d6657f37d8908702ffb9f1542f6748c9c474b9790d6bb7dee3961",
+          "bytes": 775,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/SI.2_finite_size/data/N_values.npy",
+          "sha256": "2b771858d812b8ca97fc47adf03a24c12ee5a9a0c55b23d74cea89d544c35c1d",
+          "bytes": 252,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/SI.2_finite_size/data/meanfield_Bc.csv",
+          "sha256": "40bfba728ef21820ee77db36660535a227409982ab68a6073f40048bc025b935",
+          "bytes": 775,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/SI.2_finite_size/data/meanfield_Bc.npy",
+          "sha256": "f8cd84b60f4b28715121ff3fab3e3a4809e625030a04d066cd891dcad6d3cdb3",
+          "bytes": 376,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/SI.2_finite_size/data/tempnet_Bc.csv",
+          "sha256": "7683c53ecea62f47d851b8cc3847f16c9d789c4fb47afbd458b4eda2eef77642",
+          "bytes": 775,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/SI.2_finite_size/data/tempnet_Bc.npy",
+          "sha256": "c630d83493dc3665340fb2166ccdbcceccf6f6887d6efcbc87513aac318909e0",
+          "bytes": 376,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/SI.2_finite_size/fig_source_data/si2_all_source_data.xlsx",
+          "sha256": "b0e259ea8c8de6839398d15e49a1cfdfc54a885068d254ab5c8f8b6e4cc95b55",
+          "bytes": 7617,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/SI.3_f_noise/data/Bs.csv",
+          "sha256": "2e4167d960539ffa7dcaedc9ea95cd4603aeb721e645aa96b85de67598a7d8e8",
+          "bytes": 68,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/SI.3_f_noise/data/spectra1.txt",
+          "sha256": "e65ad434bb06880e34309a9b1ec5d108b0442046610f5c3119b9108c1ecdde2f",
+          "bytes": 2280,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/SI.3_f_noise/data/spectra2.txt",
+          "sha256": "a5d242e61e3de24341cf064a32860684d3b220d7d5e6650da5e69021bc4be669",
+          "bytes": 2267,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/SI.3_f_noise/data/spectra3.txt",
+          "sha256": "bca5a9bad7f753da82839209d5cc9dad871a60f851b27e1752db206da9ab137d",
+          "bytes": 2266,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/SI.3_f_noise/data/spectra4.txt",
+          "sha256": "63ae41ff4d236988935a0cf7a58aa481f2bf0bd20cd470a1ce489a3a721d825b",
+          "bytes": 2269,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/SI.3_f_noise/data/spectra5.txt",
+          "sha256": "de28058688c8e3fe037234ec8438f6750bb15406073488807fd69bc996771275",
+          "bytes": 2268,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/SI.3_f_noise/data/variogram.csv",
+          "sha256": "37b7eaefcb7ae95e3641ad65d73c41801381f96c0721f1bd1ae65de94194364e",
+          "bytes": 2423,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/SI.3_f_noise/fig_source_data/si3_all_source_data.xlsx",
+          "sha256": "69b2a6fac0ca366b142557d102159e4239a2599626ba26596d060eab054933df",
+          "bytes": 8319,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/SI.5a_heterogeneous_RW/data/heterogeneous.npy",
+          "sha256": "323300be7fe0df453c776e89fd1d7a46149fdc9edaec540e458d927c7b373ac0",
+          "bytes": 1824,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/SI.5a_heterogeneous_RW/data/homogeneous.npy",
+          "sha256": "781c1fc30dc57bee48463f1d9b5fa2f670433219190557157df398294e8732ef",
+          "bytes": 1816,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/SI.5a_heterogeneous_RW/fig_source_data/si5a_all_source_data.xlsx",
+          "sha256": "eed820bccb379a4c59e7ce1537a2bae9533db7ca4044f3e3dfd24bb57535fa6e",
+          "bytes": 15469,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/SI.5b_sparse_RW/data/no_sparsity.npy",
+          "sha256": "781c1fc30dc57bee48463f1d9b5fa2f670433219190557157df398294e8732ef",
+          "bytes": 1816,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/SI.5b_sparse_RW/data/sparse.npy",
+          "sha256": "7e8f6b55bbf2a6089e641c996b0ad2640830bb31a9cef93df7d9a2891addfaab",
+          "bytes": 1816,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/SI.5b_sparse_RW/data/sparse_01.npy",
+          "sha256": "e3d46cf51b5ed631e1b240f479149d4adcda69afc15a57f46340758713d2fa29",
+          "bytes": 1816,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/SI.5b_sparse_RW/data/sparse_30.npy",
+          "sha256": "5b49522a5c67db6ac1801f997e06325d76d852705f4b422c176768f9c1e8a50b",
+          "bytes": 12960128,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/SI.5b_sparse_RW/data/sparse_50.npy",
+          "sha256": "c729450fcb31d9b89ad8aa768ba1f790bb23270332ca337d7674c357b3d513e4",
+          "bytes": 1816,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/SI.5b_sparse_RW/fig_source_data/si5b_all_source_data.xlsx",
+          "sha256": "8cf863ed1d4c9b9e3b52bb0ad18de79a8d6413375935f8bfb94fcbcc7c3ab189",
+          "bytes": 25250,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig2_critical_buffer/data/above_bc.csv",
+          "sha256": "221207c77b6155f47980901bfcbf10a08047dc46cac6868ca9e9dbf89befecbe",
+          "bytes": 149829,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig2_critical_buffer/data/below_bc.csv",
+          "sha256": "a1d8c69699cc9c798e8bafe234aaed510a231a01b76d6e6259864b486eac5211",
+          "bytes": 295309,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig2_critical_buffer/data/meanfield_data.csv",
+          "sha256": "58c71edcf7e1ae60ae05118e2d9a52ba7928cbe6299d8c3fce2386f3f676ec0d",
+          "bytes": 1647,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig2_critical_buffer/data/theory_data.csv",
+          "sha256": "b57b55f8f03a79d6001c2e972abab624a596b1ed3becc4e68843b999bcbc1a94",
+          "bytes": 6078,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig2_critical_buffer/fig_source_data/fig2_source_data.csv",
+          "sha256": "44e49947e3dcfde2803e5e04791cfe7790115c9fcf547998a3da162c448669c1",
+          "bytes": 389192,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3a_correlation_collapse/data/corr.ave_1.txt",
+          "sha256": "d88448224038f38c9ef454923ea49a54e29b68bf76340c447dbcdb3ebf2f718f",
+          "bytes": 39549,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3a_correlation_collapse/data/corr.ave_2.txt",
+          "sha256": "d4bf1e74476f74d86560651bf6912a25aaf4ced1700827aefbd1f22459a3c84d",
+          "bytes": 27936,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3a_correlation_collapse/data/corr.ave_3.txt",
+          "sha256": "3ab57e0247b21c1454d1e4a96ac6898c55a04236f4ec90dd439f3f00bb4a8d7c",
+          "bytes": 24811,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3a_correlation_collapse/data/corr.ave_4.txt",
+          "sha256": "a56b78785cd79bb13f138391dfe1b177ea9ec52a8a7d4fef7bec363ab9f0fa72",
+          "bytes": 14478,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3a_correlation_collapse/data/corr.ave_5.txt",
+          "sha256": "7390641fdbafd5daf7ef7cdd856ca8b87dd87fb5ce6ce921d95d8db190f7d2c9",
+          "bytes": 9828,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3a_correlation_collapse/fig_source_data/3a_all_source_data.xlsx",
+          "sha256": "be645ab476792de6ceff8e1d60d20d7d64c624d134efdcc7ea522d3f3917f4f3",
+          "bytes": 951799,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3a_correlation_collapse/fig_source_data/inset_fit_data.csv",
+          "sha256": "dd4ea9a99e06c5a896dbf8430fc7ecb3fb5c3a8095c4598ef1b39cae0b8ae3ac",
+          "bytes": 1475,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3a_correlation_collapse/fig_source_data/inset_scatter_data.csv",
+          "sha256": "3f84d5573fd6cb87703d849f09b0eb247f8219ce8c8e413563863706b1d46cd0",
+          "bytes": 122,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3a_correlation_collapse/fig_source_data/main_figure_fit_data.csv",
+          "sha256": "0c352f0b1268c2bb0b51e2f859f490d10ad741ee6aeb966e3aa619546fc12325",
+          "bytes": 1030337,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3a_correlation_collapse/fig_source_data/main_figure_scatter_data.csv",
+          "sha256": "48d0b4a37a0f6b7db392714f7c9e80bf37285057b2b0590f6d486644fbe84ac2",
+          "bytes": 146462,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3b_persistence_avalanche/data/stat1_sm_20.txt",
+          "sha256": "3e5f8746d9d434edd0668c17b9158ce3bbdb550c7845a968c0b47f995018e6df",
+          "bytes": 3217,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3b_persistence_avalanche/data/stat2_sm_20.txt",
+          "sha256": "1acc598b13ed95578505712054c8b1e50a4c3e3b71f07fbd56b0053484b9daa4",
+          "bytes": 2943,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3b_persistence_avalanche/data/stat3_sm_20.txt",
+          "sha256": "5c77b4a4aaeda81a2c8e0b5d5d000b1c0ee340bd9c307b1e9a5eeb5d1ace5fb5",
+          "bytes": 2663,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3b_persistence_avalanche/data/stat4_sm_20.txt",
+          "sha256": "0258b53db1e0908ff6b38c85be8af3faf13c4480f3e6dd5be4af2f8e05077136",
+          "bytes": 2426,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3b_persistence_avalanche/data/stat5_sm_20.txt",
+          "sha256": "6093ab1ed8027e9754ab7ea7525d055f14f75bec5e61aaf4343cb6c93699bf2a",
+          "bytes": 2207,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3b_persistence_avalanche/fig_source_data/3b_all_source_data.xlsx",
+          "sha256": "646bd3e1ce224e1acf00b53fbe14b36643fea513f5942979313d25c9a3a5e858",
+          "bytes": 31692,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3b_persistence_avalanche/fig_source_data/fig3b_inset_data.csv",
+          "sha256": "518d75e7e9934e002a12872532274fbdef0a1b6d06adf2bdafab2cc1bbf764fd",
+          "bytes": 148,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3b_persistence_avalanche/fig_source_data/fig3b_inset_fit_data.csv",
+          "sha256": "3dc8cb07928e2edf952a968cd6b790589a0f7f0bdc06651d12813e19d07b9d9f",
+          "bytes": 1435,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3b_persistence_avalanche/fig_source_data/source_data_B1.csv",
+          "sha256": "aa3fdf9ef5280716f07e5e1e9d6d83b9c3326431373da6d0c043fc6033b840bd",
+          "bytes": 6832,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3b_persistence_avalanche/fig_source_data/source_data_B2.csv",
+          "sha256": "05e3fc0edfdd31fcc50ec0bc3abdd07710afa8c2c53decf486bf7ec4152d0551",
+          "bytes": 6170,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3b_persistence_avalanche/fig_source_data/source_data_B3.csv",
+          "sha256": "b1a8e3088d2316c0f04b2d3ac8283a20a18ceb836b78984256a90c70a4a426cb",
+          "bytes": 5548,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3b_persistence_avalanche/fig_source_data/source_data_B4.csv",
+          "sha256": "e0cbe521ad2feb437a88b47fc192c04def486e6c025b252142b3bd3417e21cee",
+          "bytes": 5035,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3b_persistence_avalanche/fig_source_data/source_data_B5.csv",
+          "sha256": "6d7d6e329d05d9257532c97a48d01a78d6596da64d321f8c7ab778677deb30e9",
+          "bytes": 4615,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3c_avalanche_mass/data/P_mass1.txt",
+          "sha256": "df078fa93a5b768314cb7e9da4553919d7a05d073cbaaa88daad2e2c0cafb35a",
+          "bytes": 27096,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3c_avalanche_mass/data/P_mass2.txt",
+          "sha256": "f26c7d54709c8c119215506cb12e56e6626d16c1596ca0ea6dbe1eb329dcbb1c",
+          "bytes": 26898,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3c_avalanche_mass/data/P_mass3.txt",
+          "sha256": "f48fcece008ff9a95a25ca5da57ef7400885647ad3f563cf57b28e50fd716035",
+          "bytes": 26750,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3c_avalanche_mass/data/P_mass4.txt",
+          "sha256": "7bd32b4b3c9ea7ec7b1933d07117eef4e1a125a78f6d7eb3e3cca6f7d22193cb",
+          "bytes": 26608,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3c_avalanche_mass/data/P_mass5.txt",
+          "sha256": "1437d19adc7812bbec9deffe260472f0a1e326093f236114c824adc13779f24c",
+          "bytes": 26487,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3c_avalanche_mass/fig_source_data/3c_all_source_data.xlsx",
+          "sha256": "8fabdde3f33ba78c4d90c2a731b982b9d73e65efe913ebc8d48a6ed7dc071f9d",
+          "bytes": 2138320,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3c_avalanche_mass/fig_source_data/ax1_fit_data.csv",
+          "sha256": "b9e18757454dee9dbe74c7b6d7a89827e00fb6cf48750b248c457aee840df7ff",
+          "bytes": 2972426,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3c_avalanche_mass/fig_source_data/ax1_scatter_data.csv",
+          "sha256": "3b734ce269d3142389e025edc0e8de4015766798a5f6e00fcd35cdc8cb84a45b",
+          "bytes": 113967,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3c_avalanche_mass/fig_source_data/ax2_fit_data.csv",
+          "sha256": "dc340184d109b28edb50b4170d59d0875a859cae9f5b6ee4e9f43afa0a8bc792",
+          "bytes": 4304,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig3c_avalanche_mass/fig_source_data/ax2_scatter_data.csv",
+          "sha256": "4f8ba3a9e4483a42596c5f91fb4a4a06c17e2d6dd03126541c8a0379eba6c315",
+          "bytes": 154,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig4b_RW_networks/data/Thiers13_delays.csv",
+          "sha256": "9be85addfb066b7e6280acf8b528783a500d5c1ea7c35b63828630f397e5cbd2",
+          "bytes": 1193,
+          "role": "tabular_or_text_scientific_data",
+          "additional_upstream_license": "CC-BY-NC-SA-3.0",
+          "additional_upstream_record_url": "https://sociopatterns.org/datasets/high-school-contact-and-friendship-networks/"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig4b_RW_networks/data/Workplace15_delays.csv",
+          "sha256": "c0165bb4c9b3dfd44bf70c994bfa093a5f2c49fbf59886c1512896b99731f24e",
+          "bytes": 1375,
+          "role": "tabular_or_text_scientific_data",
+          "additional_upstream_license": "CC0-1.0",
+          "additional_upstream_record_url": "https://sociopatterns.org/datasets/contacts-in-a-workplace/"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig4b_RW_networks/data/buffer_lin.csv",
+          "sha256": "30cd301989630d782ba594efaa6f7b1a8667eca512f5a19e43cad6e83938dfbe",
+          "bytes": 790,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig4b_RW_networks/data/buffer_log.csv",
+          "sha256": "0fe6eaf6c12a1ee57c5a1c291f8c195c57d475f980700210798b95eafe002142",
+          "bytes": 798,
+          "role": "tabular_or_text_scientific_data"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig4b_RW_networks/fig_source_data/4b_all_source_data.xlsx",
+          "sha256": "a4761bbaac1f0974db106335cc33864e802b3cad57d66b221d18cbfb53dad609",
+          "bytes": 8612,
+          "role": "structured_or_binary_scientific_data",
+          "additional_upstream_licenses": [
+            "CC0-1.0",
+            "CC-BY-NC-SA-3.0"
+          ],
+          "additional_upstream_record_urls": [
+            "https://sociopatterns.org/datasets/contacts-in-a-workplace/",
+            "https://sociopatterns.org/datasets/high-school-contact-and-friendship-networks/"
+          ]
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig4b_RW_networks/fig_source_data/Thiers13_source_data.csv",
+          "sha256": "8944ed27b36b1a8a76b26e96f26533f33cd548894d56509c09c96c332e1eb2d3",
+          "bytes": 1992,
+          "role": "tabular_or_text_scientific_data",
+          "additional_upstream_license": "CC-BY-NC-SA-3.0",
+          "additional_upstream_record_url": "https://sociopatterns.org/datasets/high-school-contact-and-friendship-networks/"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/figures/fig4b_RW_networks/fig_source_data/Workplace15_source_data.csv",
+          "sha256": "9ac3c714ecbc754f747effe39614b238d6d5eb8b9d307698789801e3384578dc",
+          "bytes": 2185,
+          "role": "tabular_or_text_scientific_data",
+          "additional_upstream_license": "CC0-1.0",
+          "additional_upstream_record_url": "https://sociopatterns.org/datasets/contacts-in-a-workplace/"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/python_temp_criticality/python_real_world_networks/Workplace15/Workplace15.npy",
+          "sha256": "b2992bab7b2efaa7d2a47c8f906da84fc112a4a0ff8f813cbf26c5c06be8b6e6",
+          "bytes": 7479088,
+          "role": "structured_or_binary_scientific_data",
+          "additional_upstream_license": "CC0-1.0",
+          "additional_upstream_record_url": "https://sociopatterns.org/datasets/contacts-in-a-workplace/"
+        },
+        {
+          "path": "tasks/Physics_05_temporal_delay_transition/data/source_data/python_temp_criticality/requirents.txt",
+          "sha256": "7d655c7a7f91fca1a1541cfdc54a818cd6c80c38907b97b56a95c89554b591e1",
+          "bytes": 2948,
+          "role": "tabular_or_text_scientific_data"
+        }
+      ],
+      "data_record_url": "https://github.com/jose-moran/timeliness_criticality/tree/d6c89473b8d1d8ed3db21d76e85d29063c3aa0e1/figures"
+    },
+    {
+      "task_id": "Information_01_dynamics_generalization",
+      "title": "Generalization of neural network models for complex network dynamics",
+      "doi": "10.1038/s42005-024-01837-w",
+      "first_publication_date": "2024-10-25",
+      "canonical_article_url": "https://doi.org/10.1038/s42005-024-01837-w",
+      "creators": [
+        "Vaiva Vasiliauskaite",
+        "Nino Antulov-Fantulin"
+      ],
+      "upstream_license": {
+        "upstream_assertion": "The exact source-data record declares CC BY 4.0.",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 10,
+      "files": [
+        {
+          "path": "tasks/Information_01_dynamics_generalization/data/source_data/computational_observations.json",
+          "sha256": "e800c69b7075d3fd816f518fa2bd366e4722f62a3537fde439f61a3b3a4767bd",
+          "bytes": 17578,
+          "role": "structured_scientific_data"
+        },
+        {
+          "path": "tasks/Information_01_dynamics_generalization/data/source_data/er_n_100_p_01.npy",
+          "sha256": "d9b5123e8a09e273524991d28f988a07197fa7a4e2b3230a70bf04914f841c8d",
+          "bytes": 80128,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Information_01_dynamics_generalization/data/source_data/er_n_100_p_01_alt.npy",
+          "sha256": "4f8c6604ff870ce43667e3affe1da01dc7971f7acd552ca29363d2e3435ca1d8",
+          "bytes": 80128,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Information_01_dynamics_generalization/data/source_data/er_n_100_p_06.npy",
+          "sha256": "ad03d570f668538e16afb936135f2ddc5423ecf09be9c3c46e3868c12d414ffd",
+          "bytes": 80128,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Information_01_dynamics_generalization/data/source_data/results/er_experiment_MAK_0_size_100_std_reg_1.0_self_int_True_nbr_int_True_self_hidden_1_nbr_hidden_1_single_gnnlayer_True/adjacency_matrix_0.pt",
+          "sha256": "d1f1195268ae6e76dbfde63127b0f044111fdf7f0a4abfb789a2a519da9e5715",
+          "bytes": 40780,
+          "role": "scientific_data"
+        },
+        {
+          "path": "tasks/Information_01_dynamics_generalization/data/source_data/results/er_experiment_MAK_0_size_100_std_reg_1.0_self_int_True_nbr_int_True_self_hidden_1_nbr_hidden_1_single_gnnlayer_True/data.pkl",
+          "sha256": "ce0c51c46988b7ddaca4e439d8a4d564feec4fc7797b8895b21ea2466c5d1854",
+          "bytes": 1057633,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Information_01_dynamics_generalization/data/source_data/results/er_experiment_MAK_0_size_100_std_reg_1.0_self_int_True_nbr_int_True_self_hidden_1_nbr_hidden_1_single_gnnlayer_True/dynamics_config.pkl",
+          "sha256": "9576b920514fdb2da3f8236f4b214c331f6cbf6256d2cb96f7b031d666b774d6",
+          "bytes": 180,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Information_01_dynamics_generalization/data/source_data/results/er_experiment_MAK_0_size_100_std_reg_1.0_self_int_True_nbr_int_True_self_hidden_1_nbr_hidden_1_single_gnnlayer_True/loss.pkl",
+          "sha256": "ec0a6ccf9debf1c16781445c4b9106080d00478b0559469336db7c7b7b9711c8",
+          "bytes": 5,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Information_01_dynamics_generalization/data/source_data/results/er_experiment_MAK_0_size_100_std_reg_1.0_self_int_True_nbr_int_True_self_hidden_1_nbr_hidden_1_single_gnnlayer_True/neural_network.pth",
+          "sha256": "b65065f32baa7764cb4397ee976a43ea1ab2453d52344171ba886334fc6de336",
+          "bytes": 16947,
+          "role": "structured_or_binary_scientific_data"
+        },
+        {
+          "path": "tasks/Information_01_dynamics_generalization/data/source_data/results/er_experiment_MAK_0_size_100_std_reg_1.0_self_int_True_nbr_int_True_self_hidden_1_nbr_hidden_1_single_gnnlayer_True/training_config.pkl",
+          "sha256": "ee7fe62a009cb1be74c66871e1998625e903f120bdc4c5edb6c529592468ea5f",
+          "bytes": 1330,
+          "role": "structured_or_binary_scientific_data"
+        }
+      ],
+      "data_record_url": "https://doi.org/10.5281/zenodo.13884473"
+    },
+    {
+      "task_id": "Information_02_network_path_boundaries",
+      "title": "Sizing complex networks",
+      "doi": "10.1038/s42005-019-0239-0",
+      "first_publication_date": "2019-11-14",
+      "canonical_article_url": "https://doi.org/10.1038/s42005-019-0239-0",
+      "creators": [
+        "Gorka Zamora-López",
+        "Romain Brasselet"
+      ],
+      "upstream_license": {
+        "upstream_assertion": "Bundled author-repository examples: Apache-2.0, pinned at commit f8a99aabf5767eef38979713a9c178708c6bb59e; benchmark-authored deterministic projections retain the root repository license.",
+        "spdx_expression": "Apache-2.0",
+        "license_url": "https://www.apache.org/licenses/LICENSE-2.0"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 12,
+      "files": [
+        {
+          "path": "tasks/Information_02_network_path_boundaries/data/source_data/Examples/Data/Dir_Cat.net",
+          "sha256": "4180c5fb8dd3dfd834cb4e8ef5697a5f4ef4c042ab9e9fe0ce17349ceda29c4d",
+          "bytes": 6762,
+          "role": "network_data"
+        },
+        {
+          "path": "tasks/Information_02_network_path_boundaries/data/source_data/Examples/Data/Dir_Elegans.net",
+          "sha256": "79f0a2bce154c4d35e7b4a1bdde0472cd6f53348470d884fed234ac46a96d311",
+          "bytes": 29931,
+          "role": "network_data"
+        },
+        {
+          "path": "tasks/Information_02_network_path_boundaries/data/source_data/Examples/Data/Dir_Prison.net",
+          "sha256": "5c9c1def53fff96d478b21c35f64cdf8d61c897a4c46ddf7fa3f9abd565a9ed0",
+          "bytes": 1062,
+          "role": "network_data"
+        },
+        {
+          "path": "tasks/Information_02_network_path_boundaries/data/source_data/Examples/Data/Und_Chicago.net",
+          "sha256": "b95af470679fc0a4b542ae4b04be84e5e6bae9e6bfe3043512cbb79ec44e46b9",
+          "bytes": 9746,
+          "role": "network_data"
+        },
+        {
+          "path": "tasks/Information_02_network_path_boundaries/data/source_data/Examples/Data/Und_Dolphins.net",
+          "sha256": "0e5dbb8fe2457da0a750d6dca788e358f2d57fdcb772bd2869b66749e3697e09",
+          "bytes": 1800,
+          "role": "network_data"
+        },
+        {
+          "path": "tasks/Information_02_network_path_boundaries/data/source_data/Examples/Data/Und_Human.net",
+          "sha256": "e27528879b697f6cf14f944dd76475c4c4a2d030e8f7b910553e7ac8396590d5",
+          "bytes": 3431,
+          "role": "network_data"
+        },
+        {
+          "path": "tasks/Information_02_network_path_boundaries/data/source_data/Examples/Data/Und_Jazz.net",
+          "sha256": "6f64a9734494e940b91731988ba6253e3fbb3e11ffc31510dd9e08d96230f5c5",
+          "bytes": 145596,
+          "role": "network_data"
+        },
+        {
+          "path": "tasks/Information_02_network_path_boundaries/data/source_data/Examples/Data/Und_London.net",
+          "sha256": "c5ec1f57d088bb18e6d064d99751e032ba7194f24f16b1c8c2b8043f9fa864e7",
+          "bytes": 9317,
+          "role": "network_data"
+        },
+        {
+          "path": "tasks/Information_02_network_path_boundaries/data/source_data/Examples/Data/Und_Zachary.net",
+          "sha256": "6ac231f744bc17dc36da82af0ad8296e5561946d0985802a04d52648da02b075",
+          "bytes": 1484,
+          "role": "network_data"
+        },
+        {
+          "path": "tasks/Information_02_network_path_boundaries/data/source_data/Figs/USgraph_Rand.net",
+          "sha256": "4c5a8741924caa70971d2248a3d11d6121923498f633f42d64f9aa8815da6ad5",
+          "bytes": 63,
+          "role": "network_data"
+        },
+        {
+          "path": "tasks/Information_02_network_path_boundaries/data/source_data/Figs/directed_sparse_reference.net",
+          "sha256": "0a90ac0021c168f570dfcb13da518347d44e06fa84ae28aca43fe0fa0aa741cd",
+          "bytes": 62,
+          "role": "network_data"
+        },
+        {
+          "path": "tasks/Information_02_network_path_boundaries/data/source_data/computational_observations.json",
+          "sha256": "82884213f761a330812ec110304f24e2eac0b458330648f20a2380997395791a",
+          "bytes": 140774,
+          "role": "structured_scientific_data"
+        }
+      ],
+      "data_record_url": "https://github.com/gorkazl/PathLims/tree/f8a99aabf5767eef38979713a9c178708c6bb59e"
+    },
+    {
+      "task_id": "Physics_07_variational_circuit_simulation",
+      "title": "Classical variational simulation of the Quantum Approximate Optimization Algorithm",
+      "doi": "10.1038/s41534-021-00440-z",
+      "first_publication_date": "2021-06-18",
+      "canonical_article_url": "https://doi.org/10.1038/s41534-021-00440-z",
+      "creators": [
+        "Matija Medvidović",
+        "Giuseppe Carleo"
+      ],
+      "upstream_license": {
+        "upstream_assertion": "The bundled deterministic projection is derived from the Apache-2.0 paper-era repository pinned at commit cd46d23b1b875ed6d560eb13bff4682620bf5bdb.",
+        "spdx_expression": "Apache-2.0",
+        "license_url": "https://www.apache.org/licenses/LICENSE-2.0"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 1,
+      "files": [
+        {
+          "path": "tasks/Physics_07_variational_circuit_simulation/data/source_data/computational_observations.json",
+          "sha256": "8512f362e9db0b199fdc3fafa12886656f01baad65684aadf84d4d32fce9fca8",
+          "bytes": 9634,
+          "role": "structured_scientific_data"
+        }
+      ],
+      "data_record_url": "https://github.com/Matematija/QubitRBM/tree/cd46d23b1b875ed6d560eb13bff4682620bf5bdb"
+    },
+    {
+      "task_id": "Astronomy_04_gravity_spectral_structure",
+      "title": "Juno spacecraft gravity measurements provide evidence for normal modes of Jupiter",
+      "doi": "10.1038/s41467-022-32299-9",
+      "first_publication_date": "2022-08-30",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-022-32299-9",
+      "creators": [
+        "Daniele Durante",
+        "Tristan Guillot",
+        "Luciano Iess",
+        "David J. Stevenson",
+        "Christopher R. Mankovich",
+        "Steve Markham",
+        "Eli Galanti",
+        "Yohai Kaspi",
+        "Marco Zannoni",
+        "Luis Gomez Casajus",
+        "Giacomo Lari",
+        "Marzia Parisi",
+        "Dustin R. Buccino",
+        "Ryan S. Park",
+        "Scott J. Bolton"
+      ],
+      "data_record": "Europe PMC OA supplementary archive for PMC9427753 (CC-BY)",
+      "data_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9427753/fullTextXML",
+      "upstream_license": {
+        "upstream_assertion": "CC-BY (PMC OA record; nested source-data archive)",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 5,
+      "files": [
+        {
+          "path": "tasks/Astronomy_04_gravity_spectral_structure/data/candidate_spectrum_comparison.tsv",
+          "sha256": "63a5790704c3faf4cffc414b0e2a579e585d1c375090ea217f99c5dcc5ff7bbe",
+          "bytes": 30115,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC9427753 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9427753/fullTextXML",
+          "upstream_member": [
+            "source_data_figure1.txt",
+            "source_data_figure2.txt",
+            "source_data_figure3.txt",
+            "source_data_figure5.txt"
+          ]
+        },
+        {
+          "path": "tasks/Astronomy_04_gravity_spectral_structure/data/mode_frequency_grid.tsv",
+          "sha256": "30baf2dfaa9432d571385c53ec895de5de83aca61b85281843e52e12a4dc7fcb",
+          "bytes": 1715,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC9427753 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9427753/fullTextXML",
+          "upstream_member": [
+            "source_data_figure1.txt",
+            "source_data_figure2.txt",
+            "source_data_figure3.txt",
+            "source_data_figure5.txt"
+          ]
+        },
+        {
+          "path": "tasks/Astronomy_04_gravity_spectral_structure/data/pass_residual_traces.tsv",
+          "sha256": "584915428982b43472d2a1f3d2fec0c82c52c3ff3ba046877f8a4d87ff88e067",
+          "bytes": 136523,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC9427753 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9427753/fullTextXML",
+          "upstream_member": [
+            "source_data_figure1.txt",
+            "source_data_figure2.txt",
+            "source_data_figure3.txt",
+            "source_data_figure5.txt"
+          ]
+        },
+        {
+          "path": "tasks/Astronomy_04_gravity_spectral_structure/data/ranked_full_parameter_grid.tsv",
+          "sha256": "bd21877cf7d72a6cb52cb81687db9f47ec91093819317251998bf91fd0f7df2d",
+          "bytes": 10334,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC9427753 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9427753/fullTextXML",
+          "upstream_member": [
+            "source_data_figure1.txt",
+            "source_data_figure2.txt",
+            "source_data_figure3.txt",
+            "source_data_figure5.txt"
+          ]
+        },
+        {
+          "path": "tasks/Astronomy_04_gravity_spectral_structure/data/uniform_alternative_comparison.tsv",
+          "sha256": "c913ed4d4f6405956fbe86c376e1662287572ad55c1eee61d9290890a0402fce",
+          "bytes": 433,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC9427753 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9427753/fullTextXML",
+          "upstream_member": [
+            "source_data_figure1.txt",
+            "source_data_figure2.txt",
+            "source_data_figure3.txt",
+            "source_data_figure5.txt"
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": "Chemistry_07_photoionization_delay",
+      "title": "Influence of shape resonances on the angular dependence of molecular photoionization delays",
+      "doi": "10.1038/s41467-021-27360-y",
+      "first_publication_date": "2021-12-20",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-021-27360-y",
+      "creators": [
+        "F. Holzmeier",
+        "J. Joseph",
+        "J. C. Houver",
+        "M. Lebech",
+        "D. Dowek",
+        "R. R. Lucchese"
+      ],
+      "data_record": "Zenodo 5585867 (CC-BY-4.0)",
+      "data_record_url": "https://zenodo.org/records/5585867",
+      "upstream_license": {
+        "upstream_assertion": "Zenodo scientific data: CC BY 4.0. Bundled TSV files are deterministic projections of the cited source files.",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 5,
+      "files": [
+        {
+          "path": "tasks/Chemistry_07_photoionization_delay/data/angle_energy_observations_datasets.tsv",
+          "sha256": "55a1d9621c0e386fb44a63764a97cf81491d2bd7af0209c74e212329172df396",
+          "bytes": 8493010,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Zenodo 5585867 (CC-BY-4.0)",
+          "upstream_record_url": "https://zenodo.org/records/5585867"
+        },
+        {
+          "path": "tasks/Chemistry_07_photoionization_delay/data/angular_coefficients_datasets.tsv",
+          "sha256": "a47e1e06130ec2a0dc8e3a4b2b45233828b37e6ff31101dbefebfd8b9d0ac411",
+          "bytes": 45556,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Zenodo 5585867 (CC-BY-4.0)",
+          "upstream_record_url": "https://zenodo.org/records/5585867"
+        },
+        {
+          "path": "tasks/Chemistry_07_photoionization_delay/data/coordinate_definitions.json",
+          "sha256": "9ededacdc91711d880570fb2a35c593a462b26c48366a91ff1f313c29c23df6b",
+          "bytes": 942,
+          "role": "scientific_data",
+          "upstream_record": "Zenodo 5585867 (CC-BY-4.0)",
+          "upstream_record_url": "https://zenodo.org/records/5585867"
+        },
+        {
+          "path": "tasks/Chemistry_07_photoionization_delay/data/dipole_matrix_elements_datasets.tsv",
+          "sha256": "df51186c5de242e7b6d7aa51b30f2b75411bbea139507a3061273c23f2c01762",
+          "bytes": 9859272,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Zenodo 5585867 (CC-BY-4.0)",
+          "upstream_record_url": "https://zenodo.org/records/5585867"
+        },
+        {
+          "path": "tasks/Chemistry_07_photoionization_delay/data/phase_and_delay_curves_datasets.tsv",
+          "sha256": "10b077ae335ce79515d03341dbf924a4143b78c310676c89dc8e56af5d6c044c",
+          "bytes": 43302,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Zenodo 5585867 (CC-BY-4.0)",
+          "upstream_record_url": "https://zenodo.org/records/5585867"
+        }
+      ]
+    },
+    {
+      "task_id": "EarthScience_03_ice_particle_composition",
+      "title": "Arctic sea ice is an important temporal sink and means of transport for microplastic",
+      "doi": "10.1038/s41467-018-03825-5",
+      "first_publication_date": "2018-04-24",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-018-03825-5",
+      "creators": [
+        "Ilka Peeken",
+        "Sebastian Primpke",
+        "Birte Beyer",
+        "Julia Gütermann",
+        "Christian Katlein",
+        "Thomas Krumpen",
+        "Melanie Bergmann",
+        "Laura Hehemann",
+        "Gunnar Gerdts"
+      ],
+      "data_record": "PANGAEA 10.1594/PANGAEA.886593 (CC-BY-3.0)",
+      "data_record_url": "https://doi.org/10.1594/PANGAEA.886593",
+      "upstream_license": {
+        "upstream_assertion": "CC-BY-3.0",
+        "spdx_expression": "CC-BY-3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 2,
+      "files": [
+        {
+          "path": "tasks/EarthScience_03_ice_particle_composition/data/particle_composition_profiles.tsv",
+          "sha256": "c8c8dbe2b0518e2f24f2d709ba6ffaf6991349ee4e354427f50a9c89553c3ebf",
+          "bytes": 14421,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "PANGAEA 10.1594/PANGAEA.886593 (CC-BY-3.0)",
+          "upstream_record_url": "https://doi.org/10.1594/PANGAEA.886593"
+        },
+        {
+          "path": "tasks/EarthScience_03_ice_particle_composition/data/sample_environment_profiles.tsv",
+          "sha256": "2e371aa337c1a076c8055a1f4c7b4390a7a8bcec16561dc671ee1e0f660f33a8",
+          "bytes": 3134,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "PANGAEA 10.1594/PANGAEA.886593 (CC-BY-3.0)",
+          "upstream_record_url": "https://doi.org/10.1594/PANGAEA.886593"
+        }
+      ]
+    },
+    {
+      "task_id": "EarthScience_04_ice_core_event_structure",
+      "title": "2600-years of stratospheric volcanism through sulfate isotopes",
+      "doi": "10.1038/s41467-019-08357-0",
+      "first_publication_date": "2019-01-28",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-019-08357-0",
+      "creators": [
+        "E. Gautier",
+        "J. Savarino",
+        "J. Hoek",
+        "J. Erbland",
+        "N. Caillon",
+        "S. Hattori",
+        "N. Yoshida",
+        "E. Albalat",
+        "F. Albarede",
+        "J. Farquhar"
+      ],
+      "data_record": "PANGAEA 10.1594/PANGAEA.932490 (CC-BY-4.0)",
+      "data_record_url": "https://doi.org/10.1594/PANGAEA.932490",
+      "upstream_license": {
+        "upstream_assertion": "CC-BY-4.0",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 1,
+      "files": [
+        {
+          "path": "tasks/EarthScience_04_ice_core_event_structure/data/observations.tsv",
+          "sha256": "5ac24d314d68196e470235dc728ed233a6d299b508b2eb6ff0d094463d4fb94d",
+          "bytes": 74915,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "PANGAEA 10.1594/PANGAEA.932490 (CC-BY-4.0)",
+          "upstream_record_url": "https://doi.org/10.1594/PANGAEA.932490"
+        }
+      ],
+      "data_record_creators": [
+        "Elsa Gautier",
+        "Joël Savarino",
+        "Frédéric Parrenin",
+        "Catherine Ritz",
+        "Philippe Possenti"
+      ]
+    },
+    {
+      "task_id": "Energy_01_photocatalytic_tradeoffs",
+      "title": "Covalent organic frameworks with high quantum efficiency in sacrificial photocatalytic hydrogen evolution",
+      "doi": "10.1038/s41467-022-30035-x",
+      "first_publication_date": "2022-04-29",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-022-30035-x",
+      "creators": [
+        "Chunzhi Li",
+        "Jiali Liu",
+        "He Li",
+        "Kaifeng Wu",
+        "Junhui Wang",
+        "Qihua Yang"
+      ],
+      "data_record": "Europe PMC OA supplementary archive for PMC9054748 (CC-BY)",
+      "data_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9054748/fullTextXML",
+      "upstream_license": {
+        "upstream_assertion": "CC-BY (PMC OA record; supplementary archive)",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 4,
+      "files": [
+        {
+          "path": "tasks/Energy_01_photocatalytic_tradeoffs/data/conversion_timecourses.tsv",
+          "sha256": "90b25f070700e1b926ec71e669db37e0cb1db96da8316bcbfebc1fd81b5d3ffa",
+          "bytes": 541,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC9054748 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9054748/fullTextXML",
+          "upstream_member": "41467_2022_30035_MOESM5_ESM.xlsx"
+        },
+        {
+          "path": "tasks/Energy_01_photocatalytic_tradeoffs/data/optical_action_spectra.tsv",
+          "sha256": "0d00c837f3ec48c009337ee5301a81e9ab4fd6db4063417ebf3809af06282c70",
+          "bytes": 21737,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC9054748 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9054748/fullTextXML",
+          "upstream_member": "41467_2022_30035_MOESM5_ESM.xlsx"
+        },
+        {
+          "path": "tasks/Energy_01_photocatalytic_tradeoffs/data/ultrafast_transient_traces.tsv",
+          "sha256": "11a903bb232d1e0ed013552de915686100c4a59bcac919d8a43ef8ceb58a88bc",
+          "bytes": 6132,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC9054748 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9054748/fullTextXML",
+          "upstream_member": "41467_2022_30035_MOESM5_ESM.xlsx"
+        },
+        {
+          "path": "tasks/Energy_01_photocatalytic_tradeoffs/data/cofactor_loading_response.tsv",
+          "sha256": "7989d5ace46bebde92e71ddf5b52f94373cf8cef2d466e9a2d77f687567dabac",
+          "bytes": 102,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC9054748 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9054748/fullTextXML",
+          "upstream_member": "41467_2022_30035_MOESM5_ESM.xlsx"
+        }
+      ]
+    },
+    {
+      "task_id": "Energy_02_flow_battery_operating_boundary",
+      "title": "High-energy and low-cost membrane-free chlorine flow battery",
+      "doi": "10.1038/s41467-022-28880-x",
+      "first_publication_date": "2022-03-11",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-022-28880-x",
+      "creators": [
+        "Singyuk Hou",
+        "Long Chen",
+        "Xiulin Fan",
+        "Xiaotong Fan",
+        "Xiao Ji",
+        "Boyu Wang",
+        "Chunyu Cui",
+        "Ji Chen",
+        "Chongyin Yang",
+        "Wei Wang",
+        "Chunzhong Li",
+        "Chunsheng Wang"
+      ],
+      "data_record": "Europe PMC OA supplementary archive for PMC8917161 (CC-BY)",
+      "data_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8917161/fullTextXML",
+      "upstream_license": {
+        "upstream_assertion": "CC-BY (PMC OA record; source workbook)",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 3,
+      "files": [
+        {
+          "path": "tasks/Energy_02_flow_battery_operating_boundary/data/rate_dependent_voltage_curves.tsv",
+          "sha256": "ad25c508e67a6e6655e8ad26627138ce43f4b14a7c2d106586e2f45473595942",
+          "bytes": 39477,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC8917161 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8917161/fullTextXML"
+        },
+        {
+          "path": "tasks/Energy_02_flow_battery_operating_boundary/data/rate_tradeoff_summaries.tsv",
+          "sha256": "8109ae000e3f6e91842d1b6d9f90ddcddc3cb737a668b74dce07f763158233b5",
+          "bytes": 580,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC8917161 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8917161/fullTextXML"
+        },
+        {
+          "path": "tasks/Energy_02_flow_battery_operating_boundary/data/long_cycle_capacity.tsv",
+          "sha256": "f6febffe04971b6b0e280361937419153f40c57f71b255a18f65729215f9e853",
+          "bytes": 8837,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC8917161 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8917161/fullTextXML"
+        }
+      ]
+    },
+    {
+      "task_id": "Information_03_signal_surface_invariants",
+      "title": "Robust and tunable signal processing in mammalian cells via engineered covalent modification cycles",
+      "doi": "10.1038/s41467-022-29338-w",
+      "first_publication_date": "2022-03-31",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-022-29338-w",
+      "creators": [
+        "Ross D. Jones",
+        "Yili Qian",
+        "Katherine Ilia",
+        "Benjamin Wang",
+        "Michael T. Laub",
+        "Domitilla Del Vecchio",
+        "Ron Weiss"
+      ],
+      "data_record": "Europe PMC OA supplementary archive for PMC8971529 (CC-BY)",
+      "data_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8971529/fullTextXML",
+      "upstream_license": {
+        "upstream_assertion": "CC-BY (PMC OA record; nested source-data archive)",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 3,
+      "files": [
+        {
+          "path": "tasks/Information_03_signal_surface_invariants/data/replicated_response_panel.tsv",
+          "sha256": "410e51b559eb4d3416f131c2eb4d8f75995ff00d3b76af7b47a0ee8b1220533d",
+          "bytes": 242606,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC8971529 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8971529/fullTextXML",
+          "upstream_member": [
+            "Source Data_K-P-TMP D-R.mat",
+            "Source Data_EnvZ-OmpR 2D D-R.mat"
+          ]
+        },
+        {
+          "path": "tasks/Information_03_signal_surface_invariants/data/independent_response_panel.tsv",
+          "sha256": "f85f73bbbf15535425752c6ca2ae65e523c8dd8c06a2d5de11bf1986aaa884a1",
+          "bytes": 121008,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC8971529 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8971529/fullTextXML",
+          "upstream_member": [
+            "Source Data_K-P-TMP D-R.mat",
+            "Source Data_EnvZ-OmpR 2D D-R.mat"
+          ]
+        },
+        {
+          "path": "tasks/Information_03_signal_surface_invariants/data/independent_fit_error.tsv",
+          "sha256": "57b739c708fb384f7a661d85e62b67f6c5f333cab170214d6f972ca067d2564a",
+          "bytes": 564,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC8971529 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8971529/fullTextXML",
+          "upstream_member": [
+            "Source Data_K-P-TMP D-R.mat",
+            "Source Data_EnvZ-OmpR 2D D-R.mat"
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": "Material_02_temperature_response_boundaries",
+      "title": "γ-BaFe2O4: a fresh playground for room temperature multiferroicity",
+      "doi": "10.1038/s41467-022-35669-5",
+      "first_publication_date": "2022-12-27",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-022-35669-5",
+      "creators": [
+        "Fabio Orlandi",
+        "Davide Delmonte",
+        "Gianluca Calestani",
+        "Enrico Cavalli",
+        "Edmondo Gilioli",
+        "Vladimir V. Shvartsman",
+        "Patrizio Graziosi",
+        "Stefano Rampino",
+        "Giulia Spaggiari",
+        "Chao Liu",
+        "Wei Ren",
+        "Silvia Picozzi",
+        "Massimo Solzi",
+        "Michele Casappa",
+        "Francesco Mezzadri"
+      ],
+      "data_record": "Zenodo 7400444 (CC-BY-4.0)",
+      "data_record_url": "https://zenodo.org/records/7400444",
+      "upstream_license": {
+        "upstream_assertion": "The complete archived Zenodo task source is CC BY 4.0; the task bundles all numerical rows used by the frozen magnetic and electrical measurements.",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 5,
+      "files": [
+        {
+          "path": "tasks/Material_02_temperature_response_boundaries/data/bulk_magnetization_300K.tsv",
+          "sha256": "f8002ee29d7f538048fe9149fa3483bdd7d2145af4ce51a69bb3029e8e62cc3f",
+          "bytes": 34028,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Zenodo 7400444 (CC-BY-4.0)",
+          "upstream_record_url": "https://zenodo.org/records/7400444"
+        },
+        {
+          "path": "tasks/Material_02_temperature_response_boundaries/data/bulk_magnetization_860K.tsv",
+          "sha256": "5cb15d106f9a6ec6d43aae65fc323bbe940e7ee36143019b1252c42b81b7011a",
+          "bytes": 143714,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Zenodo 7400444 (CC-BY-4.0)",
+          "upstream_record_url": "https://zenodo.org/records/7400444"
+        },
+        {
+          "path": "tasks/Material_02_temperature_response_boundaries/data/bulk_magnetization_870K.tsv",
+          "sha256": "cbf40abf79ffe10ccad058cfea7f7cfb3dd506d6cbff12b6709def3379c04a4a",
+          "bytes": 143642,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Zenodo 7400444 (CC-BY-4.0)",
+          "upstream_record_url": "https://zenodo.org/records/7400444"
+        },
+        {
+          "path": "tasks/Material_02_temperature_response_boundaries/data/electric_switching_corrected.tsv",
+          "sha256": "e46da40ae7d465a3e83cd56d2ed6a3219f0688e95fde6498707f3ade2598c71d",
+          "bytes": 6833,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Zenodo 7400444 (CC-BY-4.0)",
+          "upstream_record_url": "https://zenodo.org/records/7400444"
+        },
+        {
+          "path": "tasks/Material_02_temperature_response_boundaries/data/electric_current_voltage.tsv",
+          "sha256": "e7aabfba3a76aaabeae6efa20eac17c16483f31a762ac9911c47d5627be86043",
+          "bytes": 7121,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Zenodo 7400444 (CC-BY-4.0)",
+          "upstream_record_url": "https://zenodo.org/records/7400444"
+        }
+      ]
+    },
+    {
+      "task_id": "Material_03_membrane_selective_permeation",
+      "title": "Proton and molecular permeation through the basal plane of monolayer graphene oxide",
+      "doi": "10.1038/s41467-023-43637-w",
+      "first_publication_date": "2023-10-25",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-023-43637-w",
+      "creators": [
+        "Z. F. Wu",
+        "P. Z. Sun",
+        "O. J. Wahab",
+        "Y. T. Tan",
+        "D. Barry",
+        "D. Periyanagounder",
+        "P. B. Pillai",
+        "Q. Dai",
+        "W. Q. Xiong",
+        "L. F. Vega",
+        "K. Lulla",
+        "S. J. Yuan",
+        "R. R. Nair",
+        "E. Daviddi",
+        "P. R. Unwin",
+        "A. K. Geim",
+        "M. Lozada-Hidalgo"
+      ],
+      "data_record": "Zenodo 10042004 (CC-BY-4.0)",
+      "data_record_url": "https://zenodo.org/records/10042004",
+      "upstream_license": {
+        "upstream_assertion": "CC-BY-4.0",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 6,
+      "files": [
+        {
+          "path": "tasks/Material_03_membrane_selective_permeation/data/bias_current_curves.tsv",
+          "sha256": "fabb98792b2bb452ee98723eb8c35bfd009b53411029e5f143236d58cc90cb45",
+          "bytes": 17673,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Zenodo 10042004 (CC-BY-4.0)",
+          "upstream_record_url": "https://zenodo.org/records/10042004"
+        },
+        {
+          "path": "tasks/Material_03_membrane_selective_permeation/data/condition_response.tsv",
+          "sha256": "d0abf7a86c8919997aa6098eff7e2935e8646908ff62fdb3ab2b477e297d15db",
+          "bytes": 992,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Zenodo 10042004 (CC-BY-4.0)",
+          "upstream_record_url": "https://zenodo.org/records/10042004"
+        },
+        {
+          "path": "tasks/Material_03_membrane_selective_permeation/data/conductivity_replicates.tsv",
+          "sha256": "39e3c961e51aa1b8970bc820b59ae7eec0cf7c29b5598cdf391a01ad1d855db9",
+          "bytes": 432,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Zenodo 10042004 (CC-BY-4.0)",
+          "upstream_record_url": "https://zenodo.org/records/10042004"
+        },
+        {
+          "path": "tasks/Material_03_membrane_selective_permeation/data/device_time_response.tsv",
+          "sha256": "3df048b5897dc0ee502a0c63596103e99824c3369d66f330f2e3b2cfd0f61e7d",
+          "bytes": 756,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Zenodo 10042004 (CC-BY-4.0)",
+          "upstream_record_url": "https://zenodo.org/records/10042004"
+        },
+        {
+          "path": "tasks/Material_03_membrane_selective_permeation/data/local_current_distributions.tsv",
+          "sha256": "00e05963d7987a3d4da46b07259c35dff6bd930d70314f9d938d92e918bab6d4",
+          "bytes": 50033,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Zenodo 10042004 (CC-BY-4.0)",
+          "upstream_record_url": "https://zenodo.org/records/10042004"
+        },
+        {
+          "path": "tasks/Material_03_membrane_selective_permeation/data/spatial_current_map.tsv",
+          "sha256": "9f2ba43a6cdafb9dd6ec58d7592b83701b3c8e1eeac0040a87645847f5833fe6",
+          "bytes": 31547,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Zenodo 10042004 (CC-BY-4.0)",
+          "upstream_record_url": "https://zenodo.org/records/10042004"
+        }
+      ]
+    },
+    {
+      "task_id": "Math_01_governing_equation_discovery",
+      "title": "Physics-informed learning of governing equations from scarce data",
+      "doi": "10.1038/s41467-021-26434-1",
+      "first_publication_date": "2020-05-05",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-021-26434-1",
+      "creators": [
+        "Zhao Chen",
+        "Yang Liu",
+        "Hao Sun"
+      ],
+      "data_record": "Author GitHub repository isds-neu/EQDiscovery (article-linked supplementary codes and data)",
+      "distribution_mode": "bundled_processed",
+      "upstream_license": {
+        "upstream_assertion": "Article-linked EQDiscovery repository (no upstream license stated); the processed projection is not covered by TruthInsightBench's license grants.",
+        "spdx_expression": "LicenseRef-Upstream-Terms-Not-Stated",
+        "license_url": "https://github.com/isds-neu/EQDiscovery/tree/9a20ebe6783e00bc53e3cdd1fd7ff07d2170f496"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 2,
+      "files": [
+        {
+          "path": "tasks/Math_01_governing_equation_discovery/data/coordinate_definitions.json",
+          "sha256": "a7126bb47178dfc3fd6a94e675c30d97a48d31ca2fd245756041af1bdd9d9891",
+          "bytes": 867,
+          "role": "scientific_data",
+          "distribution": "bundled_truthinsightbench_authored_metadata"
+        },
+        {
+          "path": "tasks/Math_01_governing_equation_discovery/data/spatiotemporal_fields.npz",
+          "sha256": "7197e61b5b70531bca766f79fcc130676d9279e68f98b1317b5f0bca40faa7a5",
+          "bytes": 150053,
+          "role": "structured_binary_scientific_data",
+          "distribution": "bundled_deterministic_projection",
+          "upstream_record": "Author GitHub repository isds-neu/EQDiscovery (article-linked supplementary codes and data)",
+          "upstream_member": [
+            "Examples/Discussion/Burgers_SineSource.mat",
+            "Examples/Discovery with Experimental Datasets/data_c.mat"
+          ]
+        }
+      ],
+      "data_record_url": "https://github.com/isds-neu/EQDiscovery/tree/9a20ebe6783e00bc53e3cdd1fd7ff07d2170f496"
+    },
+    {
+      "task_id": "Astronomy_05_stellar_spectral_boundary",
+      "title": "Metal-rich stars are less suitable for the evolution of life on their planets",
+      "doi": "10.1038/s41467-023-37195-4",
+      "first_publication_date": "2023-04-18",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-023-37195-4",
+      "creators": [
+        "Anna V. Shapiro",
+        "Christoph Brühl",
+        "Klaus Klingmüller",
+        "Benedikt Steil",
+        "Alexander I. Shapiro",
+        "Veronika Witzke",
+        "Nadiia Kostogryz",
+        "Laurent Gizon",
+        "Sami K. Solanki",
+        "Jos Lelieveld"
+      ],
+      "data_record": "Europe PMC OA supplementary archive for PMC10113254 (CC-BY)",
+      "data_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10113254/fullTextXML",
+      "upstream_license": {
+        "upstream_assertion": "CC-BY (PMC OA record; nested source-data archive)",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 2,
+      "files": [
+        {
+          "path": "tasks/Astronomy_05_stellar_spectral_boundary/data/normalized_spectral_response.tsv",
+          "sha256": "1261f4dd43f004ce722e0106e49b9ccfb848d8c984ca98d9573fd5e1b9a5b468",
+          "bytes": 8136,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC10113254 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10113254/fullTextXML",
+          "upstream_member": [
+            "input_flux_photons_5300K.txt",
+            "input_flux_photons_5800K.txt",
+            "input_flux_photons_6300K.txt",
+            "fig1.txt"
+          ]
+        },
+        {
+          "path": "tasks/Astronomy_05_stellar_spectral_boundary/data/photon_flux_grid.tsv",
+          "sha256": "d45e7e2b62621a70039b78e0f289865dea3306f13d04d5c8c2af298ca7b6e8f8",
+          "bytes": 666220,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC10113254 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10113254/fullTextXML",
+          "upstream_member": [
+            "input_flux_photons_5300K.txt",
+            "input_flux_photons_5800K.txt",
+            "input_flux_photons_6300K.txt",
+            "fig1.txt"
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": "Chemistry_08_catalysis_response_landscape",
+      "title": "Ultra-high-throughput mapping of the chemical space of asymmetric catalysis enables accelerated reaction discovery",
+      "doi": "10.1038/s41467-023-42446-5",
+      "first_publication_date": "2023-10-21",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-023-42446-5",
+      "creators": [
+        "Wenjing Nie",
+        "Qiongqiong Wan",
+        "Jian Sun",
+        "Moran Chen",
+        "Ming Gao",
+        "Suming Chen"
+      ],
+      "data_record": "Europe PMC OA supplementary archive (CC-BY); selected source-data workbook 41467_2023_42446_MOESM3_ESM.xlsx",
+      "upstream_license": {
+        "upstream_assertion": "CC-BY (Nature Communications OA article / Europe PMC supplementary archive)",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 4,
+      "files": [
+        {
+          "path": "tasks/Chemistry_08_catalysis_response_landscape/data/observation_set_1.tsv",
+          "sha256": "10c16e25eccd9db263a8245f552af62990b3b289918f4b8f9ba89770f3ac05eb",
+          "bytes": 84044,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive (CC-BY); selected source-data workbook 41467_2023_42446_MOESM3_ESM.xlsx",
+          "upstream_member": [
+            "41467_2023_42446_MOESM3_ESM.xlsx:1430 reactions",
+            "41467_2023_42446_MOESM3_ESM.xlsx:Fig. 2f",
+            "41467_2023_42446_MOESM3_ESM.xlsx:Fig. 6b",
+            "41467_2023_42446_MOESM3_ESM.xlsx:Fig. 6c"
+          ]
+        },
+        {
+          "path": "tasks/Chemistry_08_catalysis_response_landscape/data/observation_set_2.tsv",
+          "sha256": "b8147b9776cdc5ea2a3a919c4ea95f4136193593c113cc06c61158be4fadd515",
+          "bytes": 745,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive (CC-BY); selected source-data workbook 41467_2023_42446_MOESM3_ESM.xlsx",
+          "upstream_member": [
+            "41467_2023_42446_MOESM3_ESM.xlsx:1430 reactions",
+            "41467_2023_42446_MOESM3_ESM.xlsx:Fig. 2f",
+            "41467_2023_42446_MOESM3_ESM.xlsx:Fig. 6b",
+            "41467_2023_42446_MOESM3_ESM.xlsx:Fig. 6c"
+          ]
+        },
+        {
+          "path": "tasks/Chemistry_08_catalysis_response_landscape/data/observation_set_3.tsv",
+          "sha256": "8b221b18a1879c9ab541433d66eee8c4f610442100e4117076b1f3eefed8e861",
+          "bytes": 8903,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive (CC-BY); selected source-data workbook 41467_2023_42446_MOESM3_ESM.xlsx",
+          "upstream_member": [
+            "41467_2023_42446_MOESM3_ESM.xlsx:1430 reactions",
+            "41467_2023_42446_MOESM3_ESM.xlsx:Fig. 2f",
+            "41467_2023_42446_MOESM3_ESM.xlsx:Fig. 6b",
+            "41467_2023_42446_MOESM3_ESM.xlsx:Fig. 6c"
+          ]
+        },
+        {
+          "path": "tasks/Chemistry_08_catalysis_response_landscape/data/observation_set_4.tsv",
+          "sha256": "1ba40d1fd1f855cf31a2e93ce201ba12477fa8c6689c9543573931923110c510",
+          "bytes": 6433,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive (CC-BY); selected source-data workbook 41467_2023_42446_MOESM3_ESM.xlsx",
+          "upstream_member": [
+            "41467_2023_42446_MOESM3_ESM.xlsx:1430 reactions",
+            "41467_2023_42446_MOESM3_ESM.xlsx:Fig. 2f",
+            "41467_2023_42446_MOESM3_ESM.xlsx:Fig. 6b",
+            "41467_2023_42446_MOESM3_ESM.xlsx:Fig. 6c"
+          ]
+        }
+      ],
+      "data_record_url": "https://doi.org/10.6084/m9.figshare.22826312"
+    },
+    {
+      "task_id": "EarthScience_05_ocean_thermal_coupling",
+      "title": "Thermal coupling of the Indo-Pacific warm pool and Southern Ocean over the past 30,000 years",
+      "doi": "10.1038/s41467-022-33206-y",
+      "first_publication_date": "2022-09-17",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-022-33206-y",
+      "creators": [
+        "Shuai Zhang",
+        "Zhoufei Yu",
+        "Yue Wang",
+        "Xun Gong",
+        "Ann Holbourn",
+        "Fengming Chang",
+        "Heng Liu",
+        "Xuhua Cheng",
+        "Tiegang Li"
+      ],
+      "data_record": "PANGAEA 10.1594/PANGAEA.965848 (CC-BY-4.0)",
+      "data_record_url": "https://doi.org/10.1594/PANGAEA.965848",
+      "upstream_license": {
+        "upstream_assertion": "CC-BY-4.0",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 1,
+      "files": [
+        {
+          "path": "tasks/EarthScience_05_ocean_thermal_coupling/data/observations.tsv",
+          "sha256": "dd1954d79d70fff765e91be1d1778eecb0b7f5bd3afe75a4169960e8ae46c358",
+          "bytes": 15150,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "PANGAEA 10.1594/PANGAEA.965848 (CC-BY-4.0)",
+          "upstream_record_url": "https://doi.org/10.1594/PANGAEA.965848"
+        }
+      ],
+      "data_record_creators": [
+        "Shuai Zhang",
+        "Tiegang Li",
+        "Fengming Chang",
+        "Zhoufei Yu",
+        "Zhifang Xiong",
+        "H Wang",
+        "Xun Gong",
+        "Yue Wang",
+        "Gerrit Lohmann",
+        "Yiquan Qi",
+        "Ann E Holbourn",
+        "Heng Liu",
+        "Xuhua Cheng"
+      ]
+    },
+    {
+      "task_id": "Energy_06_interface_response_boundaries",
+      "title": "Interfacial compatibility critically controls Ru/TiO2 metal-support interaction modes in CO2 hydrogenation",
+      "doi": "10.1038/s41467-021-27910-4",
+      "first_publication_date": "2022-01-17",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-021-27910-4",
+      "creators": [
+        "Jun Zhou",
+        "Zhe Gao",
+        "Guolei Xiang",
+        "Tianyu Zhai",
+        "Zikai Liu",
+        "Weixin Zhao",
+        "Xin Liang",
+        "Leyu Wang"
+      ],
+      "data_record": "Europe PMC OA supplementary archive for PMC8764066 (CC-BY)",
+      "data_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8764066/fullTextXML",
+      "upstream_license": {
+        "upstream_assertion": "CC-BY (PMC OA record; source workbook)",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 2,
+      "files": [
+        {
+          "path": "tasks/Energy_06_interface_response_boundaries/data/anonymous_condition_response_curves.tsv",
+          "sha256": "b3668160fac559700404181f686acec1394cfcdaf2ef34d38a75834556f89726",
+          "bytes": 3077,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC8764066 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8764066/fullTextXML"
+        },
+        {
+          "path": "tasks/Energy_06_interface_response_boundaries/data/independent_condition_check_curves.tsv",
+          "sha256": "1a79f8b8bf11fe116930ddc9e4b3a50baefe441235f41cf0bd8a1f81ae335237",
+          "bytes": 1565,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC8764066 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8764066/fullTextXML"
+        }
+      ]
+    },
+    {
+      "task_id": "Energy_07_biohybrid_operating_tradeoffs",
+      "title": "Artificial photosynthetic cells with biotic–abiotic hybrid energy modules for customized CO2 conversion",
+      "doi": "10.1038/s41467-023-42591-x",
+      "first_publication_date": "2023-11-08",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-023-42591-x",
+      "creators": [
+        "Feng Gao",
+        "Guangyu Liu",
+        "Aobo Chen",
+        "Yangguang Hu",
+        "Huihui Wang",
+        "Jiangyuan Pan",
+        "Jinglei Feng",
+        "Hongwei Zhang",
+        "Yujie Wang",
+        "Yuanzeng Min",
+        "Chao Gao",
+        "Yujie Xiong"
+      ],
+      "data_record": "Europe PMC OA supplementary archive for PMC10600252 (CC-BY)",
+      "data_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10600252/fullTextXML",
+      "upstream_license": {
+        "upstream_assertion": "CC-BY (Nature Communications OA article / Europe PMC supplementary archive)",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 3,
+      "files": [
+        {
+          "path": "tasks/Energy_07_biohybrid_operating_tradeoffs/data/dose_response.tsv",
+          "sha256": "9b3b2857de0973e0fd0e6af27f47bfd68056841553addf54561aa650b8a8488e",
+          "bytes": 83,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC10600252 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10600252/fullTextXML",
+          "upstream_member": [
+            "41467_2023_42591_MOESM8_ESM.xlsx:Figure 4",
+            "41467_2023_42591_MOESM8_ESM.xlsx:Figure S15",
+            "41467_2023_42591_MOESM8_ESM.xlsx:Figure S37"
+          ]
+        },
+        {
+          "path": "tasks/Energy_07_biohybrid_operating_tradeoffs/data/perturbation_time_response.tsv",
+          "sha256": "ce6bbd0b5c7ffc78d6669f96a5e228d75524ed3344d5c40aec7a93b3067cf43d",
+          "bytes": 285,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC10600252 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10600252/fullTextXML",
+          "upstream_member": [
+            "41467_2023_42591_MOESM8_ESM.xlsx:Figure 4",
+            "41467_2023_42591_MOESM8_ESM.xlsx:Figure S15",
+            "41467_2023_42591_MOESM8_ESM.xlsx:Figure S37"
+          ]
+        },
+        {
+          "path": "tasks/Energy_07_biohybrid_operating_tradeoffs/data/time_response_curves.tsv",
+          "sha256": "50c44917c225aba66a15569aa57be74b9242d1baee1c6afeb4c8bf8652dd622d",
+          "bytes": 45747,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC10600252 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10600252/fullTextXML",
+          "upstream_member": [
+            "41467_2023_42591_MOESM8_ESM.xlsx:Figure 4",
+            "41467_2023_42591_MOESM8_ESM.xlsx:Figure S15",
+            "41467_2023_42591_MOESM8_ESM.xlsx:Figure S37"
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": "Information_04_connectome_assortative_structure",
+      "title": "Assortative mixing in micro-architecturally annotated brain connectomes",
+      "doi": "10.1038/s41467-023-38585-4",
+      "first_publication_date": "2023-05-18",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-023-38585-4",
+      "creators": [
+        "Vincent Bazinet",
+        "Justine Y. Hansen",
+        "Reinder Vos de Wael",
+        "Boris C. Bernhardt",
+        "Martijn P. van den Heuvel",
+        "Bratislav Misic"
+      ],
+      "data_record": "Europe PMC OA supplementary archive for PMC10195875 (CC-BY)",
+      "data_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10195875/fullTextXML",
+      "upstream_license": {
+        "upstream_assertion": "CC-BY (Nature Communications OA article / Europe PMC supplementary archive)",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 5,
+      "files": [
+        {
+          "path": "tasks/Information_04_connectome_assortative_structure/data/network_node_summary.tsv",
+          "sha256": "19a2df56ddedb003c441013862b4e03fda18655a838312de9c5ef3a06d700036",
+          "bytes": 46733,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC10195875 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10195875/fullTextXML",
+          "upstream_member": [
+            "41467_2023_38585_MOESM4_ESM.xlsx:Fig. 1",
+            "41467_2023_38585_MOESM4_ESM.xlsx:Fig. 4",
+            "41467_2023_38585_MOESM4_ESM.xlsx:Fig. 6d"
+          ]
+        },
+        {
+          "path": "tasks/Information_04_connectome_assortative_structure/data/network_profile_a.tsv",
+          "sha256": "29dd0b793c39f574f1fb0b3440e7d2d0b807645189dbb0bff2475e7c6d076ab5",
+          "bytes": 102280,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC10195875 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10195875/fullTextXML",
+          "upstream_member": [
+            "41467_2023_38585_MOESM4_ESM.xlsx:Fig. 1",
+            "41467_2023_38585_MOESM4_ESM.xlsx:Fig. 4",
+            "41467_2023_38585_MOESM4_ESM.xlsx:Fig. 6d"
+          ]
+        },
+        {
+          "path": "tasks/Information_04_connectome_assortative_structure/data/network_profile_b.tsv",
+          "sha256": "7cb7f7d6f7afea59514a3b53d27a9402237760b3af4a0720e639af0d6f99f0aa",
+          "bytes": 8377,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC10195875 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10195875/fullTextXML",
+          "upstream_member": [
+            "41467_2023_38585_MOESM4_ESM.xlsx:Fig. 1",
+            "41467_2023_38585_MOESM4_ESM.xlsx:Fig. 4",
+            "41467_2023_38585_MOESM4_ESM.xlsx:Fig. 6d"
+          ]
+        },
+        {
+          "path": "tasks/Information_04_connectome_assortative_structure/data/network_profile_c.tsv",
+          "sha256": "30e94a239c0ce766849b56d08366cce9af79c0ca0edef7a50a65768acaf854e6",
+          "bytes": 4445,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC10195875 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10195875/fullTextXML",
+          "upstream_member": [
+            "41467_2023_38585_MOESM4_ESM.xlsx:Fig. 1",
+            "41467_2023_38585_MOESM4_ESM.xlsx:Fig. 4",
+            "41467_2023_38585_MOESM4_ESM.xlsx:Fig. 6d"
+          ]
+        },
+        {
+          "path": "tasks/Information_04_connectome_assortative_structure/data/trimming_sensitivity.tsv",
+          "sha256": "0a00e978aa4afce377d2d25ea3aa774179b5fc8820162e84d1f9529e94285028",
+          "bytes": 9400,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC10195875 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10195875/fullTextXML",
+          "upstream_member": [
+            "41467_2023_38585_MOESM4_ESM.xlsx:Fig. 1",
+            "41467_2023_38585_MOESM4_ESM.xlsx:Fig. 4",
+            "41467_2023_38585_MOESM4_ESM.xlsx:Fig. 6d"
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": "Life_06_contextual_immune_response",
+      "title": "Intestinal microbiota-derived short-chain fatty acids regulation of immune cell IL-22 production and gut immunity",
+      "doi": "10.1038/s41467-020-18262-6",
+      "first_publication_date": "2020-09-08",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-020-18262-6",
+      "creators": [
+        "Wenjing Yang",
+        "Tianming Yu",
+        "Xiangsheng Huang",
+        "Anthony J. Bilotta",
+        "Leiqi Xu",
+        "Yao Lu",
+        "Jiaren Sun",
+        "Fan Pan",
+        "Jia Zhou",
+        "Wenbo Zhang",
+        "Suxia Yao",
+        "Craig L. Maynard",
+        "Nagendra Singh",
+        "Sara M. Dann",
+        "Zhanju Liu",
+        "Yingzi Cong"
+      ],
+      "data_record": "Europe PMC OA supplementary archive for PMC7478978 (CC-BY)",
+      "data_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7478978/fullTextXML",
+      "upstream_license": {
+        "upstream_assertion": "CC-BY (PMC OA record; supplementary archive)",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 4,
+      "files": [
+        {
+          "path": "tasks/Life_06_contextual_immune_response/data/multi_condition_response_replicates.tsv",
+          "sha256": "dedc97fccac59313d65ccc7137b90c053848bad88d5c746c120a9a821388a95f",
+          "bytes": 1371,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC7478978 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7478978/fullTextXML",
+          "upstream_member": "41467_2020_18262_MOESM4_ESM.xlsx"
+        },
+        {
+          "path": "tasks/Life_06_contextual_immune_response/data/compartment_response_replicates.tsv",
+          "sha256": "14bbd80334110ebc626ea7e50f034f036d1a1233bd00f5bc27785ae92ec08445",
+          "bytes": 10161,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC7478978 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7478978/fullTextXML",
+          "upstream_member": "41467_2020_18262_MOESM4_ESM.xlsx"
+        },
+        {
+          "path": "tasks/Life_06_contextual_immune_response/data/mechanistic_intervention_replicates.tsv",
+          "sha256": "0cb191790d1ba5e7170be3d9fc7c3e165b9c90da8431ee9fde0c5963ba9ab48a",
+          "bytes": 2342,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC7478978 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7478978/fullTextXML",
+          "upstream_member": "41467_2020_18262_MOESM4_ESM.xlsx"
+        },
+        {
+          "path": "tasks/Life_06_contextual_immune_response/data/time_resolved_response.tsv",
+          "sha256": "61bdd83c9105c33317d9a60f998226050184f1f206432f1771bfe4375f6ed36f",
+          "bytes": 2154,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC7478978 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7478978/fullTextXML",
+          "upstream_member": "41467_2020_18262_MOESM4_ESM.xlsx"
+        }
+      ]
+    },
+    {
+      "task_id": "Life_07_nutrient_response_kinetics",
+      "title": "PHD1 controls muscle mTORC1 in a hydroxylation-independent manner by stabilizing leucyl tRNA synthetase",
+      "doi": "10.1038/s41467-019-13889-6",
+      "first_publication_date": "2020-01-10",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-019-13889-6",
+      "creators": [
+        "Gommaar D’Hulst",
+        "Inés Soro-Arnaiz",
+        "Evi Masschelein",
+        "Koen Veys",
+        "Gillian Fitzgerald",
+        "Benoit Smeuninx",
+        "Sunghoon Kim",
+        "Louise Deldicque",
+        "Bert Blaauw",
+        "Peter Carmeliet",
+        "Leigh Breen",
+        "Peppi Koivunen",
+        "Shi-Min Zhao",
+        "Katrien De Bock"
+      ],
+      "data_record": "Europe PMC OA supplementary archive for PMC6954236 (CC-BY)",
+      "data_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6954236/fullTextXML",
+      "upstream_license": {
+        "upstream_assertion": "CC-BY (PMC OA record; supplementary archive)",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 4,
+      "files": [
+        {
+          "path": "tasks/Life_07_nutrient_response_kinetics/data/nutrient_response_timecourse.tsv",
+          "sha256": "961f040d108a744957787b9270daa84ab05b4e0832049f4e01c152605917ffa3",
+          "bytes": 1791,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC6954236 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6954236/fullTextXML",
+          "upstream_member": "41467_2019_13889_MOESM4_ESM.xlsx"
+        },
+        {
+          "path": "tasks/Life_07_nutrient_response_kinetics/data/circulating_input_measurement.tsv",
+          "sha256": "a412ed26b0c0778fce7cfa51f777f87cb79199493718077f29fa69c18034dfc9",
+          "bytes": 875,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC6954236 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6954236/fullTextXML",
+          "upstream_member": "41467_2019_13889_MOESM4_ESM.xlsx"
+        },
+        {
+          "path": "tasks/Life_07_nutrient_response_kinetics/data/tissue_uptake_measurement.tsv",
+          "sha256": "3959c54fdf9a43b2a4987e2fc2cc0860b0ca12a86c59661be8f04932c13fe974",
+          "bytes": 653,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC6954236 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6954236/fullTextXML",
+          "upstream_member": "41467_2019_13889_MOESM4_ESM.xlsx"
+        },
+        {
+          "path": "tasks/Life_07_nutrient_response_kinetics/data/baseline_system_phenotype.tsv",
+          "sha256": "b0bee5f2dbe563d76e9a6ae7cd5684ab1d0456a6bfbb2a4157fccd51365bfc5d",
+          "bytes": 4366,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC6954236 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6954236/fullTextXML",
+          "upstream_member": "41467_2019_13889_MOESM4_ESM.xlsx"
+        }
+      ]
+    },
+    {
+      "task_id": "Life_08_environmental_transfer_boundary",
+      "title": "Detection of air and surface contamination by SARS-CoV-2 in hospital rooms of infected patients",
+      "doi": "10.1038/s41467-020-16670-2",
+      "first_publication_date": "2020-05-29",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-020-16670-2",
+      "creators": [
+        "Po Ying Chia",
+        "Kristen Kelli Coleman",
+        "Yian Kim Tan",
+        "Sean Wei Xiang Ong",
+        "Marcus Gum",
+        "Sok Kiang Lau",
+        "Xiao Fang Lim",
+        "Ai Sim Lim",
+        "Stephanie Sutjipto",
+        "Pei Hua Lee",
+        "Than The Son",
+        "Barnaby Edward Young",
+        "Donald K. Milton",
+        "Gregory C. Gray",
+        "Stephan Schuster",
+        "Timothy Barkham",
+        "Partha Pratim De",
+        "Shawn Vasoo",
+        "Monica Chan",
+        "Brenda Sze Peng Ang",
+        "Boon Huan Tan",
+        "Yee-Sin Leo",
+        "Oon-Tek Ng",
+        "Michelle Su Yen Wong",
+        "Kalisvar Marimuthu",
+        "David Chien Lye",
+        "Poh Lian Lim",
+        "Cheng Chuan Lee",
+        "Li Min Ling",
+        "Lawrence Lee",
+        "Tau Hong Lee",
+        "Chen Seong Wong",
+        "Sapna Sadarangani",
+        "Ray Junhao Lin",
+        "Deborah Hee Ling Ng",
+        "Mucheli Sadasiv",
+        "Tsin Wen Yeo",
+        "Chiaw Yee Choy",
+        "Glorijoy Shi En Tan",
+        "Frederico Dimatatac",
+        "Isais Florante Santos",
+        "Chi Jong Go",
+        "Yu Kit Chan",
+        "Jun Yang Tay",
+        "Jackie Yu-Ling Tan",
+        "Nihar Pandit",
+        "Benjamin Choon Heng Ho",
+        "Shehara Mendis",
+        "Yuan Yi Constance Chen",
+        "Mohammad Yazid Abdad",
+        "Daniela Moses"
+      ],
+      "data_record": "Europe PMC OA supplementary archive for PMC7260225 (CC-BY)",
+      "data_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7260225/fullTextXML",
+      "upstream_license": {
+        "upstream_assertion": "CC-BY (PMC OA record)",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 3,
+      "files": [
+        {
+          "path": "tasks/Life_08_environmental_transfer_boundary/data/unit_level_observations.tsv",
+          "sha256": "4a5bc4c28cfbc165f6d2587f727cf7304926dd167a09fed9fc0371f781e7a3bb",
+          "bytes": 723,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC7260225 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7260225/fullTextXML",
+          "upstream_member": "41467_2020_16670_MOESM4_ESM.xlsx"
+        },
+        {
+          "path": "tasks/Life_08_environmental_transfer_boundary/data/site_level_observations.tsv",
+          "sha256": "1e9eecdea9b80ee30440ce02d9cfa57a93be758bf5feb2c20869858b74fc4827",
+          "bytes": 3868,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC7260225 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7260225/fullTextXML",
+          "upstream_member": "41467_2020_16670_MOESM4_ESM.xlsx"
+        },
+        {
+          "path": "tasks/Life_08_environmental_transfer_boundary/data/symptom_assay_surface_summary.tsv",
+          "sha256": "e342263ddb037ffcb480a822ef8f48728660bdcd0bc78ad7c683485f9a479cea",
+          "bytes": 737,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC7260225 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7260225/fullTextXML",
+          "upstream_member": "41467_2020_16670_MOESM4_ESM.xlsx"
+        }
+      ]
+    },
+    {
+      "task_id": "Life_09_developmental_interaction_structure",
+      "title": "Single-cell transcriptomic analysis identifies murine heart molecular features at embryonic and neonatal stages",
+      "doi": "10.1038/s41467-022-35691-7",
+      "first_publication_date": "2022-12-27",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-022-35691-7",
+      "creators": [
+        "Wei Feng",
+        "Abha Bais",
+        "Haoting He",
+        "Cassandra Rios",
+        "Shan Jiang",
+        "Juan Xu",
+        "Cindy Chang",
+        "Dennis Kostka",
+        "Guang Li"
+      ],
+      "data_record": "Europe PMC OA supplementary archive for PMC9794824 (CC-BY)",
+      "data_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9794824/fullTextXML",
+      "upstream_license": {
+        "upstream_assertion": "CC-BY (PMC OA record; source workbook)",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 1,
+      "files": [
+        {
+          "path": "tasks/Life_09_developmental_interaction_structure/data/stage_indexed_interactions.tsv",
+          "sha256": "67ab6ace870c985522f905801f0eed680818a0c73225ca113057ba12fdea992f",
+          "bytes": 359411,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC9794824 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9794824/fullTextXML",
+          "upstream_member": "41467_2022_35691_MOESM13_ESM.xlsx"
+        }
+      ]
+    },
+    {
+      "task_id": "Material_06_nir_emission_structure",
+      "title": "Design of AIEgens for near-infrared IIb imaging through structural modulation at molecular and morphological levels",
+      "doi": "10.1038/s41467-020-15095-1",
+      "first_publication_date": "2020-03-06",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-020-15095-1",
+      "creators": [
+        "Yuanyuan Li",
+        "Zhaochong Cai",
+        "Shunjie Liu",
+        "Haoke Zhang",
+        "Sherman T. H. Wong",
+        "Jacky W. Y. Lam",
+        "Ryan T. K. Kwok",
+        "Jun Qian",
+        "Ben Zhong Tang"
+      ],
+      "data_record": "Europe PMC OA supplementary archive for PMC7062876 (CC-BY)",
+      "data_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7062876/fullTextXML",
+      "upstream_license": {
+        "upstream_assertion": "CC-BY (PMC OA record; supplementary archive)",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 3,
+      "files": [
+        {
+          "path": "tasks/Material_06_nir_emission_structure/data/aggregate_state_emission_spectra.tsv",
+          "sha256": "5e41b3c5ce32a27dd200ea5e54b4897b690428e812dad28bc80fa6974a1daf45",
+          "bytes": 512318,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC7062876 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7062876/fullTextXML",
+          "upstream_member": "41467_2020_15095_MOESM6_ESM.xlsx"
+        },
+        {
+          "path": "tasks/Material_06_nir_emission_structure/data/dilute_state_emission_spectra.tsv",
+          "sha256": "b2331d2f3d6044e7badc0fdd5a71920d4a22ac5c048e7ef8fd3a248268ee9016",
+          "bytes": 55663,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC7062876 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7062876/fullTextXML",
+          "upstream_member": "41467_2020_15095_MOESM6_ESM.xlsx"
+        },
+        {
+          "path": "tasks/Material_06_nir_emission_structure/data/long_wavelength_response.tsv",
+          "sha256": "d037150ff4a6d5a819ea6667dfb6dc2d05987ce70a683440167269c2833e6330",
+          "bytes": 531,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC7062876 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7062876/fullTextXML",
+          "upstream_member": "41467_2020_15095_MOESM6_ESM.xlsx"
+        }
+      ]
+    },
+    {
+      "task_id": "Math_02_compositional_invariants",
+      "title": "Analysis of compositions of microbiomes with bias correction",
+      "doi": "10.1038/s41467-020-17041-7",
+      "first_publication_date": "2020-07-14",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-020-17041-7",
+      "creators": [
+        "Huang Lin",
+        "Shyamal Das Peddada"
+      ],
+      "data_record": "Authors' GitHub result archive (MIT License; commit 2d98940)",
+      "upstream_license": {
+        "upstream_assertion": "MIT",
+        "spdx_expression": "MIT",
+        "license_url": "https://opensource.org/license/mit"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 3,
+      "files": [
+        {
+          "path": "tasks/Math_02_compositional_invariants/data/anonymous_feature_counts.tsv",
+          "sha256": "7fe18cf02bfd14691e5c157b8b81a0658263d2c1cc2f965b37121d373beddf92",
+          "bytes": 2451213,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Authors' GitHub result archive (MIT License; commit 2d98940)"
+        },
+        {
+          "path": "tasks/Math_02_compositional_invariants/data/anonymous_sample_covariates.tsv",
+          "sha256": "cefd666d112289f07a9fb641b481514410043df9df61831aafb77a9b0ee2c1e9",
+          "bytes": 12226,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Authors' GitHub result archive (MIT License; commit 2d98940)"
+        },
+        {
+          "path": "tasks/Math_02_compositional_invariants/data/bias_scenario_metrics.tsv",
+          "sha256": "a256a68457a2ca53ed2fa48c2277f716a1e7192c97e568315af7291a0f852893",
+          "bytes": 103433,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Authors' GitHub result archive (MIT License; commit 2d98940)"
+        }
+      ],
+      "data_record_url": "https://github.com/FrederickHuangLin/ANCOM-BC-Code-Archive/tree/2d98940fb0d69c1c256433d6153d18e7db32ba1b"
+    },
+    {
+      "task_id": "Math_03_ode_parameter_geometry",
+      "title": "Mini-batch optimization enables training of ODE models on large-scale datasets",
+      "doi": "10.1038/s41467-021-27374-6",
+      "first_publication_date": "2022-01-10",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-021-27374-6",
+      "creators": [
+        "Paul Stapor",
+        "Leonard Schmiester",
+        "Christoph Wierling",
+        "Simon Merkt",
+        "Dilan Pathirana",
+        "Bodo M. H. Lange",
+        "Daniel Weindl",
+        "Jan Hasenauer"
+      ],
+      "data_record": "Europe PMC OA supplementary archive for PMC8748893 (CC-BY)",
+      "data_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8748893/fullTextXML",
+      "upstream_license": {
+        "upstream_assertion": "CC-BY (PMC OA record; nested source-data archive)",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 3,
+      "files": [
+        {
+          "path": "tasks/Math_03_ode_parameter_geometry/data/parameter_trajectories.tsv",
+          "sha256": "77c0f3d50df1ae93b36149fbef3e7e4b944a92b40cf9ad31538af7d82ba7f5dc",
+          "bytes": 742741,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC8748893 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8748893/fullTextXML",
+          "upstream_member": [
+            "source_data_Figure_7b.tsv",
+            "source_data_Figure_7c.tsv",
+            "source_data_Figure_4c.tsv"
+          ]
+        },
+        {
+          "path": "tasks/Math_03_ode_parameter_geometry/data/singular_value_spectrum.tsv",
+          "sha256": "80110c95be6c72240f40a302fb65cdad17b5dd5e992a19ef1c5c892c309265ed",
+          "bytes": 106486,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC8748893 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8748893/fullTextXML",
+          "upstream_member": [
+            "source_data_Figure_7b.tsv",
+            "source_data_Figure_7c.tsv",
+            "source_data_Figure_4c.tsv"
+          ]
+        },
+        {
+          "path": "tasks/Math_03_ode_parameter_geometry/data/measurement_simulation_pairs.tsv",
+          "sha256": "8e57c32a1db66867781f2e0c2f1e3868d2f32683fec5864a1275fdbd4e9ed5c5",
+          "bytes": 415497,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC8748893 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8748893/fullTextXML",
+          "upstream_member": [
+            "source_data_Figure_7b.tsv",
+            "source_data_Figure_7c.tsv",
+            "source_data_Figure_4c.tsv"
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": "Math_05_anomalous_diffusion_change_points",
+      "title": "Objective comparison of methods to decode anomalous diffusion",
+      "doi": "10.1038/s41467-021-26320-w",
+      "first_publication_date": "2021-10-28",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-021-26320-w",
+      "creators": [
+        "Gorka Muñoz-Gil",
+        "Giovanni Volpe",
+        "Miguel Angel Garcia-March",
+        "Erez Aghion",
+        "Aykut Argun",
+        "Chang Beom Hong",
+        "Tom Bland",
+        "Stefano Bo",
+        "J. Alberto Conejero",
+        "Nicolás Firbas",
+        "Òscar Garibo i Orts",
+        "Alessia Gentili",
+        "Zihan Huang",
+        "Jae-Hyung Jeon",
+        "Hélène Kabbech",
+        "Yeongjin Kim",
+        "Patrycja Kowalek",
+        "Diego Krapf",
+        "Hanna Loch-Olszewska",
+        "Michael A. Lomholt",
+        "Jean-Baptiste Masson",
+        "Philipp G. Meyer",
+        "Seongyu Park",
+        "Borja Requena",
+        "Ihor Smal",
+        "Taegeun Song",
+        "Janusz Szwabiński",
+        "Samudrajit Thapa",
+        "Hippolyte Verdier",
+        "Giorgio Volpe",
+        "Artur Widera",
+        "Maciej Lewenstein",
+        "Ralf Metzler",
+        "Carlo Manzo"
+      ],
+      "data_record": "Article-linked ANDI_datasets author repository (MIT); fixed-seed source trajectories generated from its published theoretical models",
+      "upstream_license": {
+        "upstream_assertion": "MIT (ANDI_datasets author repository)",
+        "spdx_expression": "MIT",
+        "license_url": "https://opensource.org/license/mit"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 1,
+      "files": [
+        {
+          "path": "tasks/Math_05_anomalous_diffusion_change_points/data/anonymous_trajectories.npz",
+          "sha256": "fa71ba4fb2d29728e6d5054817c30dd1047a829747decb0e8fbfee5011b8a3bc",
+          "bytes": 184564,
+          "role": "structured_binary_scientific_data",
+          "upstream_record": "Article-linked ANDI_datasets author repository (MIT); fixed-seed source trajectories generated from its published theoretical models"
+        }
+      ],
+      "data_record_url": "https://github.com/AnDiChallenge/ANDI_datasets"
+    },
+    {
+      "task_id": "Neuro_02_calcium_response_regions",
+      "title": "Identification of region-specific astrocyte subtypes at single cell resolution",
+      "doi": "10.1038/s41467-019-14198-8",
+      "first_publication_date": "2020-03-05",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-019-14198-8",
+      "creators": [
+        "Mykhailo Y. Batiuk",
+        "Araks Martirosyan",
+        "Jérôme Wahis",
+        "Filip de Vin",
+        "Catherine Marneffe",
+        "Carola Kusserow",
+        "Jordan Koeppen",
+        "João Filipe Viana",
+        "João Filipe Oliveira",
+        "Thierry Voet",
+        "Chris P. Ponting",
+        "T. Grant Belgard",
+        "Matthew G. Holt"
+      ],
+      "data_record": "Europe PMC OA supplementary archive for PMC7058027 (CC-BY)",
+      "data_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7058027/fullTextXML",
+      "upstream_license": {
+        "upstream_assertion": "CC-BY (PMC OA record; supplementary archive)",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 1,
+      "files": [
+        {
+          "path": "tasks/Neuro_02_calcium_response_regions/data/cellular_calcium_response_summaries.tsv",
+          "sha256": "671e26682bb4c21e9cbd65a5531c07ac316f690a4c9df40d30e4c5a6e22add80",
+          "bytes": 161023,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC7058027 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7058027/fullTextXML",
+          "upstream_member": "41467_2019_14198_MOESM8_ESM.xlsx"
+        }
+      ]
+    },
+    {
+      "task_id": "Neuro_03_spatial_code_stability",
+      "title": "Perineuronal nets stabilize the grid cell network",
+      "doi": "10.1038/s41467-020-20241-w",
+      "first_publication_date": "2021-01-11",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-020-20241-w",
+      "creators": [
+        "Ane Charlotte Christensen",
+        "Kristian Kinden Lensjø",
+        "Mikkel Elle Lepperød",
+        "Svenn-Arne Dragly",
+        "Halvard Sutterud",
+        "Jan Sigurd Blackstad",
+        "Marianne Fyhn",
+        "Torkel Hafting"
+      ],
+      "data_record": "Europe PMC OA supplementary archive for PMC7801665 (CC-BY)",
+      "data_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7801665/fullTextXML",
+      "upstream_license": {
+        "upstream_assertion": "CC-BY (PMC OA record; supplementary archive)",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 2,
+      "files": [
+        {
+          "path": "tasks/Neuro_03_spatial_code_stability/data/unit_session_metrics.tsv",
+          "sha256": "a51a18b31bc24f89d96eaebf11f40d33f6d14f3289d3caa777f21850dd348f45",
+          "bytes": 28267,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC7801665 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7801665/fullTextXML",
+          "upstream_member": "41467_2020_20241_MOESM4_ESM.xlsx"
+        },
+        {
+          "path": "tasks/Neuro_03_spatial_code_stability/data/tracked_unit_spatial_stability.tsv",
+          "sha256": "5394ef7d9d3b8b251657a20e98c3befe4d1ab834b4ea2b96dedad4e150d50760",
+          "bytes": 6600,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC7801665 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7801665/fullTextXML",
+          "upstream_member": "41467_2020_20241_MOESM4_ESM.xlsx"
+        }
+      ]
+    },
+    {
+      "task_id": "Neuro_05_temporal_geometry",
+      "title": "Inhibition allocates spikes during hippocampal ripples",
+      "doi": "10.1038/s41467-022-28890-9",
+      "first_publication_date": "2022-03-11",
+      "canonical_article_url": "https://doi.org/10.1038/s41467-022-28890-9",
+      "creators": [
+        "Asako Noguchi",
+        "Roman Huszár",
+        "Shota Morikawa",
+        "György Buzsáki",
+        "Yuji Ikegaya"
+      ],
+      "data_record": "Europe PMC OA supplementary archive for PMC8917132 (CC-BY)",
+      "data_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8917132/fullTextXML",
+      "upstream_license": {
+        "upstream_assertion": "CC-BY (Nature Communications OA article / Europe PMC supplementary archive)",
+        "spdx_expression": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "declared_evidence_boundary": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included.",
+      "scientific_file_count": 5,
+      "files": [
+        {
+          "path": "tasks/Neuro_05_temporal_geometry/data/event_recording_set_a.tsv",
+          "sha256": "e328acecd5123d144756efde9ab16c51f5648ae7b32b7f888d9aa34e5dbe7f7e",
+          "bytes": 601,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC8917132 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8917132/fullTextXML",
+          "upstream_member": [
+            "41467_2022_28890_MOESM4_ESM.xlsx:Fig. 3c",
+            "41467_2022_28890_MOESM4_ESM.xlsx:Fig. 3d",
+            "41467_2022_28890_MOESM4_ESM.xlsx:Fig. S2a",
+            "41467_2022_28890_MOESM4_ESM.xlsx:Fig. S2b",
+            "41467_2022_28890_MOESM4_ESM.xlsx:Fig. 6a"
+          ]
+        },
+        {
+          "path": "tasks/Neuro_05_temporal_geometry/data/event_recording_set_b.tsv",
+          "sha256": "06ef8d13f6642bdfc90ed96ff848d32edabc1493cb838c003734df5597492dfc",
+          "bytes": 9323,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC8917132 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8917132/fullTextXML",
+          "upstream_member": [
+            "41467_2022_28890_MOESM4_ESM.xlsx:Fig. 3c",
+            "41467_2022_28890_MOESM4_ESM.xlsx:Fig. 3d",
+            "41467_2022_28890_MOESM4_ESM.xlsx:Fig. S2a",
+            "41467_2022_28890_MOESM4_ESM.xlsx:Fig. S2b",
+            "41467_2022_28890_MOESM4_ESM.xlsx:Fig. 6a"
+          ]
+        },
+        {
+          "path": "tasks/Neuro_05_temporal_geometry/data/unit_distance_mean_latency.tsv",
+          "sha256": "15a8470d2feaa7673c9c36d616e312ff6a767256c651c71fd8792196d09d63b4",
+          "bytes": 716,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC8917132 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8917132/fullTextXML",
+          "upstream_member": [
+            "41467_2022_28890_MOESM4_ESM.xlsx:Fig. 3c",
+            "41467_2022_28890_MOESM4_ESM.xlsx:Fig. 3d",
+            "41467_2022_28890_MOESM4_ESM.xlsx:Fig. S2a",
+            "41467_2022_28890_MOESM4_ESM.xlsx:Fig. S2b",
+            "41467_2022_28890_MOESM4_ESM.xlsx:Fig. 6a"
+          ]
+        },
+        {
+          "path": "tasks/Neuro_05_temporal_geometry/data/unit_distance_latency_variability.tsv",
+          "sha256": "7269074c0d14addac112ab87a6ad0b877f176604f035ce2d739aaf1a20a5df87",
+          "bytes": 737,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC8917132 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8917132/fullTextXML",
+          "upstream_member": [
+            "41467_2022_28890_MOESM4_ESM.xlsx:Fig. 3c",
+            "41467_2022_28890_MOESM4_ESM.xlsx:Fig. 3d",
+            "41467_2022_28890_MOESM4_ESM.xlsx:Fig. S2a",
+            "41467_2022_28890_MOESM4_ESM.xlsx:Fig. S2b",
+            "41467_2022_28890_MOESM4_ESM.xlsx:Fig. 6a"
+          ]
+        },
+        {
+          "path": "tasks/Neuro_05_temporal_geometry/data/multichannel_event_panel.tsv",
+          "sha256": "c3821b1fdc252339d64239e982fb882f47357997512117da4a0a650b2d9278eb",
+          "bytes": 1465,
+          "role": "tabular_or_text_scientific_data",
+          "upstream_record": "Europe PMC OA supplementary archive for PMC8917132 (CC-BY)",
+          "upstream_record_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8917132/fullTextXML",
+          "upstream_member": [
+            "41467_2022_28890_MOESM4_ESM.xlsx:Fig. 3c",
+            "41467_2022_28890_MOESM4_ESM.xlsx:Fig. 3d",
+            "41467_2022_28890_MOESM4_ESM.xlsx:Fig. S2a",
+            "41467_2022_28890_MOESM4_ESM.xlsx:Fig. S2b",
+            "41467_2022_28890_MOESM4_ESM.xlsx:Fig. 6a"
+          ]
+        }
+      ]
+    }
+  ]
+}

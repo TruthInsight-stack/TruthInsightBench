@@ -1,0 +1,27 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "microplastic sea ice concentration depth cores",
+        "Arctic sea ice microplastic abundance heterogeneity"
+      ]
+    },
+    "B": {
+      "queries": [
+        "sea ice polymer composition polyethylene varnish",
+        "microplastic polymer mixture sea ice horizons"
+      ]
+    }
+  },
+  "frozen_at": "2026-08-22",
+  "provider": "OpenAlex_primary_with_Crossref_fallback",
+  "provider_api": [
+    "https://api.openalex.org/works",
+    "https://api.crossref.org/works"
+  ],
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2018-01-01",
+  "target_doi_excluded": "10.1038/s41467-018-03825-5",
+  "task_id": "EarthScience_03_ice_particle_composition",
+  "release": "V1.0"
+}

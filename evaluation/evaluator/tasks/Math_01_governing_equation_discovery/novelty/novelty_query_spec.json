@@ -1,0 +1,27 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "sparse governing equation forced Burgers scarce data",
+        "physics informed sparse regression PDE discovery"
+      ]
+    },
+    "B": {
+      "queries": [
+        "cell density migration proliferation spatiotemporal field equation discovery",
+        "experimental cell density fields growth migration PDE"
+      ]
+    }
+  },
+  "frozen_at": "2026-08-22",
+  "provider": "OpenAlex_primary_with_Crossref_fallback",
+  "provider_api": [
+    "https://api.openalex.org/works",
+    "https://api.crossref.org/works"
+  ],
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2020-01-01",
+  "target_doi_excluded": "10.1038/s41467-021-26434-1",
+  "task_id": "Math_01_governing_equation_discovery",
+  "release": "V1.0"
+}

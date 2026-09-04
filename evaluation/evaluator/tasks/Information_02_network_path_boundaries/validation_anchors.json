@@ -1,0 +1,230 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "花图在有向环与双向星形之间给出精确的超短路径—效率过渡，整个稀疏区间保持强连通。",
+      "independent_reconstruction_method": "Frozen evaluator recomputation: verification/recompute/A.py",
+      "non_exhaustive_validation_anchor": true,
+      "object": "固定节点数N与弧数L的稀疏强连通有向花图",
+      "one_liner": "稀疏强连通有向花图在N=8、L=11时的平均路径长为2.339286、全局效率为0.517857、直径为4。",
+      "perturbation_bindings": [
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition_frozen.py",
+          "script_sha256": "c073a6ce4582b6cfd986c6916aedfcc1e8118d0d2e5041df478d75085245b8f8"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method_frozen.py",
+          "script_sha256": "1211789c2e4ba9f9f762f61e6d46f2bd994a02d9be4f1a50ee20b2057319839d"
+        },
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample_frozen.py",
+          "script_sha256": "c04ca5b454064da72f92fa0d3ffae3b85a38300282cc67a4ea0090992bfd17cc"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "measurement: \"在预注册的新N、L稀疏有向花图上独立重算全点对最短路、平均路径长和全局效率\"; expected_range: [0.0, 1e-12]; failure_criterion: \"独立路径/效率与冻结解析表达式的绝对误差超过1e-12，或任一用例不强连通\""
+      },
+      "quantities": [
+        {
+          "key": "case_count",
+          "role": "supporting",
+          "tolerance_rel": 0,
+          "unit": "case",
+          "value": 32
+        },
+        {
+          "key": "maximum_absolute_efficiency_error",
+          "role": "supporting",
+          "tolerance_rel": 0.2,
+          "unit": "absolute_error",
+          "value": 7.771561172376096e-16
+        },
+        {
+          "key": "maximum_absolute_path_error",
+          "role": "supporting",
+          "tolerance_rel": 0,
+          "unit": "absolute_error",
+          "value": 0.0
+        },
+        {
+          "key": "reference_n8_l11_path_length",
+          "role": "core",
+          "tolerance_rel": 0.01,
+          "unit": "path_length",
+          "value": 2.3392857142857144
+        },
+        {
+          "key": "reference_n8_l11_global_efficiency",
+          "role": "core",
+          "tolerance_rel": 0.01,
+          "unit": "fraction",
+          "value": 0.5178571428571429
+        },
+        {
+          "key": "reference_n8_l11_diameter",
+          "role": "core",
+          "tolerance_rel": 0,
+          "unit": "hop",
+          "value": 4.0
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "values": [
+          {
+            "json_path": "values.case_count",
+            "quantity_key": "case_count"
+          },
+          {
+            "json_path": "values.maximum_absolute_efficiency_error",
+            "quantity_key": "maximum_absolute_efficiency_error"
+          },
+          {
+            "json_path": "values.maximum_absolute_path_error",
+            "quantity_key": "maximum_absolute_path_error"
+          },
+          {
+            "json_path": "values.reference_n8_l11_path_length",
+            "quantity_key": "reference_n8_l11_path_length"
+          },
+          {
+            "json_path": "values.reference_n8_l11_global_efficiency",
+            "quantity_key": "reference_n8_l11_global_efficiency"
+          },
+          {
+            "json_path": "values.reference_n8_l11_diameter",
+            "quantity_key": "reference_n8_l11_diameter"
+          }
+        ],
+        "script_sha256": "098487d8ea17d1d0e5f11a98e791dad5f4f429c9655ed077f4e639838e210c2f"
+      },
+      "scope": "N为6、8、10、12，N≤L≤2(N-1)的32个确定性用例；金标是目标特定的有向稀疏过渡，不使用被2011先验覆盖的无向极短/极长结果。",
+      "target_alignment": {
+        "paper_claim_paraphrase": "目标论文在稀疏强连通有向区间给出花图构造及平均路径长和全局效率的精确边界。",
+        "paper_location": "Directed networks, sparse strongly-connected ultra-short regime",
+        "rationale": "冻结Action运行论文公开前作者生成器与解析式，再用独立Floyd–Warshall/逆距离实现对32个用例逐一验收。",
+        "status": "reported_target_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "在这些可不连通的有向构造中，除直接弧外不产生有限的更长可达路径，因而最低全局效率精确等于弧密度。",
+      "independent_reconstruction_method": "Frozen evaluator recomputation: verification/recompute/B.py",
+      "non_exhaustive_validation_anchor": true,
+      "object": "固定节点与弧数、允许不连通的有向图最低全局效率构造",
+      "one_liner": "可不连通有向图的190个边界用例均满足最低全局效率=弧密度，N=8完全DAG参考点的效率为0.5。",
+      "perturbation_bindings": [
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition_frozen.py",
+          "script_sha256": "a6b2643191dbda2a43b7d3ded4e98fda9b9f763bbcc586fbe9e02895859bc8f3"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method_frozen.py",
+          "script_sha256": "8162e624119e18ed4fd6a7aa0f2b4d3b2acac4b0e79e35527c5082d411f7659c"
+        },
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample_frozen.py",
+          "script_sha256": "b3679ec3424d83c6a88585931dab8c6629bf1a3f4ce7a984b0f8f6a2c6e99f8c"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "measurement: \"对预注册的新N、L可不连通构造独立计算全局效率与弧密度差\"; expected_range: [0.0, 1e-12]; failure_criterion: \"任一冻结构造的|全局效率-弧密度|超过1e-12\""
+      },
+      "quantities": [
+        {
+          "key": "case_count",
+          "role": "supporting",
+          "tolerance_rel": 0,
+          "unit": "case",
+          "value": 190
+        },
+        {
+          "key": "maximum_absolute_efficiency_error",
+          "role": "supporting",
+          "tolerance_rel": 0,
+          "unit": "absolute_error",
+          "value": 0.0
+        },
+        {
+          "key": "range1_case_count",
+          "role": "supporting",
+          "tolerance_rel": 0,
+          "unit": "case",
+          "value": 158
+        },
+        {
+          "key": "range2_exact_case_count",
+          "role": "supporting",
+          "tolerance_rel": 0,
+          "unit": "case",
+          "value": 32
+        },
+        {
+          "key": "maximum_absolute_efficiency_minus_density",
+          "role": "supporting",
+          "tolerance_rel": 0,
+          "unit": "absolute_error",
+          "value": 0.0
+        },
+        {
+          "key": "reference_complete_dag_n8_efficiency",
+          "role": "core",
+          "tolerance_rel": 0.01,
+          "unit": "fraction",
+          "value": 0.5
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "values": [
+          {
+            "json_path": "values.case_count",
+            "quantity_key": "case_count"
+          },
+          {
+            "json_path": "values.maximum_absolute_efficiency_error",
+            "quantity_key": "maximum_absolute_efficiency_error"
+          },
+          {
+            "json_path": "values.range1_case_count",
+            "quantity_key": "range1_case_count"
+          },
+          {
+            "json_path": "values.range2_exact_case_count",
+            "quantity_key": "range2_exact_case_count"
+          },
+          {
+            "json_path": "values.maximum_absolute_efficiency_minus_density",
+            "quantity_key": "maximum_absolute_efficiency_minus_density"
+          },
+          {
+            "json_path": "values.reference_complete_dag_n8_efficiency",
+            "quantity_key": "reference_complete_dag_n8_efficiency"
+          }
+        ],
+        "script_sha256": "998957d6cca48e3067e514126e73a26182b3fe65e61f9e327f1d8bdbdd88737a"
+      },
+      "scope": "N为6、8、10、12，158个无环区间用例加32个双向化高密度精确用例；只声称作者给出精确构造的区间。",
+      "target_alignment": {
+        "paper_claim_paraphrase": "目标论文给出允许不连通时的有向图最低全局效率构造，在特定区间效率等于密度。",
+        "paper_location": "Directed disconnected networks, efficiency lower boundary",
+        "rationale": "冻结Action运行无环和双向化作者构造，对190个用例独立重算逆距离全局效率。",
+        "status": "reported_target_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "Two verified validation anchors for blind-rediscovery diagnostics; not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2018-10-29",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Information_02_network_path_boundaries",
+  "release": "V1.0"
+}

@@ -1,0 +1,1073 @@
+{
+  "all_queries_completed": true,
+  "cards": {
+    "A": {
+      "queries": [
+        {
+          "api_cutoff": "2020-03-29",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "We propose a classical-quantum hybrid algorithm for machine learning on near-term quantum processors, which we call quantum circuit learning. A quantum circuit driven by our framework learns a given task by tuning parameters implemented on it. The iterative optimization of the parameters allows us to circumvent the high-depth circuit. Theoretical investigation shows that a quantum circuit can approximate nonlinear functions, which is further confirmed by numerical simulations. Hybridizing a low-depth quantum circuit and a classical computer for machine learning, the proposed framework paves the way toward applications of near-term quantum devices for quantum machine learning.",
+              "also_returned_by": [
+                "semantic_scholar"
+              ],
+              "alternate_ids": [
+                "S2:4d931ea98be69882f547ec6c1b42b78c3e13c36d"
+              ],
+              "date": "2018-09-10",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/physreva.98.032309",
+              "id": "https://openalex.org/W2790388700",
+              "provider": "openalex",
+              "title": "Quantum circuit learning"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-09-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/nature23474",
+              "id": "https://openalex.org/W2559394418",
+              "provider": "openalex",
+              "title": "Quantum machine learning"
+            },
+            {
+              "abstract": "Many experimental proposals for noisy intermediate scale quantum devices involve training a parameterized quantum circuit with a classical optimization loop. Such hybrid quantum-classical algorithms are popular for applications in quantum simulation, optimization, and machine learning. Due to its simplicity and hardware efficiency, random circuits are often proposed as initial guesses for exploring the space of quantum states. We show that the exponential dimension of Hilbert space and the gradient estimation complexity make this choice unsuitable for hybrid quantum-classical algorithms run on more than a few qubits. Specifically, we show that for a wide class of reasonable parameterized quantum circuits, the probability that the gradient along any reasonable direction is non-zero to some fixed precision is exponentially small as a function of the number of qubits. We argue that this is related to the 2-design characteristic of random circuits, and that solutions to this problem must be studied.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-11-12",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41467-018-07090-4",
+              "id": "https://openalex.org/W2794444783",
+              "provider": "openalex",
+              "title": "Barren plateaus in quantum neural network training landscapes"
+            },
+            {
+              "abstract": "Abstract Hybrid quantum–classical systems make it possible to utilize existing quantum computers to their fullest extent. Within this framework, parameterized quantum circuits can be regarded as machine learning models with remarkable expressive power. This Review presents the components of these models and discusses their application to a variety of data-driven tasks, such as supervised learning and generative modeling. With an increasing number of experimental demonstrations carried out on actual quantum hardware and with software being actively developed, this rapidly growing field is poised to have a broad spectrum of real-world applications.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-10-17",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/2058-9565/ab4eb5",
+              "id": "https://openalex.org/W2980446414",
+              "provider": "openalex",
+              "title": "Parameterized quantum circuits as machine learning models"
+            },
+            {
+              "abstract": "The next few years will be exciting as prototype universal quantum processors emerge, enabling the implementation of a wider variety of algorithms. Of particular interest are quantum heuristics, which require experimentation on quantum hardware for their evaluation and which have the potential to significantly expand the breadth of applications for which quantum computers have an established advantage. A leading candidate is Farhi et al.’s quantum approximate optimization algorithm, which alternates between applying a cost function based Hamiltonian and a mixing Hamiltonian. Here, we extend this framework to allow alternation between more general families of operators. The essence of this extension, the quantum alternating operator ansatz, is the consideration of general parameterized families of unitaries rather than only those corresponding to the time evolution under a fixed local Hamiltonian for a time specified by the parameter. This ansatz supports the representation of a larger, and potentially more useful, set of states than the original formulation, with potential long-term impact on a broad array of application areas. For cases that call for mixing only within a desired subspace, refocusing on unitaries rather than Hamiltonians enables more efficiently implementable mixers than was possible in the original framework. Such mixers are particularly useful for optimization problems with hard constraints that must always be satisfied, defining a feasible subspace, and soft constraints whose violation we wish to minimize. More efficient implementation enables earlier ex",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-02-12",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3390/a12020034",
+              "id": "https://openalex.org/W2754868542",
+              "provider": "openalex",
+              "title": "From the Quantum Approximate Optimization Algorithm to a Quantum Alternating Operator Ansatz"
+            },
+            {
+              "abstract": "Universal fault-tolerant quantum computers will require error-free execution of long sequences of quantum gate operations, which is expected to involve millions of physical qubits. Before the full power of such machines will be available, near-term quantum devices will provide several hundred qubits and limited error correction. Still, there is a realistic prospect to run useful algorithms within the limited circuit depth of such devices. Particularly promising are optimization algorithms that follow a hybrid approach: the aim is to steer a highly entangled state on a quantum system to a target state that minimizes a cost function via variation of some gate parameters. This variational approach can be used both for classical optimization problems as well as for problems in quantum chemistry. The challenge is to converge to the target state given the limited coherence time and connectivity of the qubits. In this context, the quantum volume as a metric to compare the power of near-term quantum devices is discussed. With focus on chemistry applications, a general description of variational algorithms is provided and the mapping from fermions to qubits is explained. Coupled-cluster and heuristic trial wave-functions are considered for efficiently finding molecular ground states. Furthermore, simple error-mitigation schemes are introduced that could improve the accuracy of determining ground-state energies. Advancing these techniques may lead to near-term demonstrations of useful quantum computation with systems containing several hundred qubits.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-06-19",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/2058-9565/aab822",
+              "id": "https://openalex.org/W2760965790",
+              "provider": "openalex",
+              "title": "Quantum optimization using variational algorithms on near-term quantum devices"
+            },
+            {
+              "abstract": "A proposed quantum algorithm for simulating the electronic structure of materials improves on the efficiency of current approaches, offering a path towards demonstrating quantum supremacy in physical applications.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-03-21",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/physrevx.8.011044",
+              "id": "https://openalex.org/W2620582212",
+              "provider": "openalex",
+              "title": "Low-Depth Quantum Simulation of Materials"
+            },
+            {
+              "abstract": "PennyLane is a Python 3 software framework for differentiable programming of\\nquantum computers. The library provides a unified architecture for near-term\\nquantum computing devices, supporting both qubit and continuous-variable\\nparadigms. PennyLane's core feature is the ability to compute gradients of\\nvariational quantum circuits in a way that is compatible with classical\\ntechniques such as backpropagation. PennyLane thus extends the automatic\\ndifferentiation algorithms common in optimization and machine learning to\\ninclude quantum and hybrid computations. A plugin system makes the framework\\ncompatible with any gate-based quantum simulator or hardware. We provide\\nplugins for hardware providers including the Xanadu Cloud, Amazon Braket, and\\nIBM Quantum, allowing PennyLane optimizations to be run on publicly accessible\\nquantum devices. On the classical front, PennyLane interfaces with accelerated\\nmachine learning libraries such as TensorFlow, PyTorch, JAX, and Autograd.\\nPennyLane can be used for the optimization of variational quantum eigensolvers,\\nquantum approximate optimization, quantum machine learning models, and many\\nother applications.\\n",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-11-12",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.48550/arxiv.1811.04968",
+              "id": "https://openalex.org/W4289606390",
+              "provider": "openalex",
+              "title": "PennyLane: Automatic differentiation of hybrid quantum-classical\\n computations"
+            },
+            {
+              "abstract": "The variational method is a versatile tool for classical simulation of a variety of quantum systems. Great efforts have recently been devoted to its extension to quantum computing for efficiently solving static many-body problems and simulating real and imaginary time dynamics. In this work, we first review the conventional variational principles, including the Rayleigh-Ritz method for solving static problems, and the Dirac and Frenkel variational principle, the McLachlan's variational principle, and the time-dependent variational principle, for simulating real time dynamics. We focus on the simulation of dynamics and discuss the connections of the three variational principles. Previous works mainly focus on the unitary evolution of pure states. In this work, we introduce variational quantum simulation of mixed states under general stochastic evolution. We show how the results can be reduced to the pure state case with a correction term that takes accounts of global phase alignment. For variational simulation of imaginary time evolution, we also extend it to the mixed state scenario and discuss variational Gibbs state preparation. We further elaborate on the design of ansatz that is compatible with post-selection measurement and the implementation of the generalised variational algorithms with quantum circuits. Our work completes the theory of variational quantum simulation of general real and imaginary time evolution and it is applicable to near-term quantum hardware.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-10-07",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.22331/q-2019-10-07-191",
+              "id": "https://openalex.org/W2903627855",
+              "provider": "openalex",
+              "title": "Theory of variational quantum simulation"
+            },
+            {
+              "abstract": "The recent success in quantum annealing, i.e., optimization of the cost or energy functions of complex systems utilizing quantum fluctuations is reviewed here. The concept is introduced in successive steps through studying the mapping of such computationally hard problems to classical spin-glass problems, quantum spin-glass problems arising with the introduction of quantum fluctuations, and the annealing behavior of the systems as these fluctuations are reduced slowly to zero. This provides a general framework for realizing analog quantum computation.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2008-09-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/revmodphys.80.1061",
+              "id": "https://openalex.org/W174492123",
+              "provider": "openalex",
+              "title": "<i>Colloquium</i>: Quantum annealing and analog quantum computation"
+            },
+            {
+              "abstract": "Quantum simulations are bound to be one of the main applications of near-term quantum computers. Quantum chemistry and condensed matter physics are expected to benefit from these technological developments. Several quantum simulation methods are known to prepare a state on a quantum computer and measure the desired observables. The most resource economic procedure is the variational quantum eigensolver (VQE), which has traditionally employed unitary coupled cluster as the ansatz to approximate ground states of many-body fermionic Hamiltonians. A significant caveat of the method is that the initial state of the procedure is a single reference product state from a classical Hartree–Fock calculation with no pairing correlations, hence it cannot represent superconducting states. In this work, we propose to improve the method by initializing the algorithm with a more general fermionic Gaussian state, an idea borrowed from the field of nuclear physics. We show how this Gaussian reference state can be prepared with a linear-depth circuit of quantum matchgates. By augmenting the set of available gates with nearest-neighbor phase coupling, we generate a low-depth circuit ansatz that can accurately prepare the ground state of correlated fermionic systems. This extends the range of applicability of the VQE to systems with strong pairing correlations such as superconductors, atomic nuclei, and topological materials.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-01-03",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/2058-9565/ab3951",
+              "id": "S2:9931edf7c2af3da563def8ead97a7b0cf0f9f0b8",
+              "provider": "semantic_scholar",
+              "title": "Low-depth circuit ansatz for preparing correlated fermionic states on a quantum computer",
+              "url": "https://www.semanticscholar.org/paper/9931edf7c2af3da563def8ead97a7b0cf0f9f0b8?utm_source=api"
+            },
+            {
+              "abstract": "Within a natural black-box setting, we exhibit a simple optimization problem for which a quantum variational algorithm that measures analytic gradients of the objective function with a low-depth circuit and performs stochastic gradient descent provably converges to an optimum faster than any algorithm that only measures the objective function itself, settling the question of whether measuring analytic gradients in such algorithms can ever be beneficial. We also derive upper bounds on the cost of gradient-based variational optimization near a local minimum.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-01-16",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PhysRevLett.126.140502",
+              "id": "S2:49472c2e7e6c589bb4df505690bfc91b4950cf14",
+              "provider": "semantic_scholar",
+              "title": "Low-Depth Gradient Measurements Can Improve Convergence in Variational Hybrid Quantum-Classical Algorithms.",
+              "url": "https://www.semanticscholar.org/paper/49472c2e7e6c589bb4df505690bfc91b4950cf14?utm_source=api"
+            },
+            {
+              "abstract": "The Quantum Approximate Optimization Algorithm, QAOA, uses a shallow depth quantum circuit to produce a parameter dependent state. For a given combinatorial optimization problem instance, the quantum expectation of the associated cost function is the parameter dependent objective function of the QAOA. We demonstrate that if the parameters are fixed and the instance comes from a reasonable distribution then the objective function value is concentrated in the sense that typical instances have (nearly) the same value of the objective function. This applies not just for optimal parameters as the whole landscape is instance independent. We can prove this is true for low depth quantum circuits for instances of MaxCut on large 3-regular graphs. Our results generalize beyond this example. We support the arguments with numerical examples that show remarkable concentration. For higher depth circuits the numerics also show concentration and we argue for this using the Law of Large Numbers. We also observe by simulation that if we find parameters which result in good performance at say 10 bits these same parameters result in good performance at say 24 bits. These findings suggest ways to run the QAOA that reduce or eliminate the use of the outer loop optimization and may allow us to find good solutions with fewer calls to the quantum computer.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-12-11",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:7636025c5fa24380d6bb4e3e3d5ed20b525ac0a4",
+              "provider": "semantic_scholar",
+              "title": "For Fixed Control Parameters the Quantum Approximate Optimization Algorithm's Objective Function Value Concentrates for Typical Instances",
+              "url": "https://www.semanticscholar.org/paper/7636025c5fa24380d6bb4e3e3d5ed20b525ac0a4?utm_source=api"
+            },
+            {
+              "abstract": "Quantum approximate optimization algorithm (QAOA) is a promising quantum-classical hybrid technique to solve NP-hard problems in near-term gate-based noisy quantum devices. In QAOA, the gate parameters of a parameterized quantum circuit (PQC) are varied by a classical optimizer to generate a quantum state with a significant support to the optimal solution. The existing analysis fails to consider nonidealities in the qubit quality i.e., short lifetime and imperfect gate operations in a realistic quantum hardware. In this article, we study the impact of various noise sources on the performance of QAOA both in simulation and on a real quantum computer from IBM. Our analysis indicates that QAOA performance is noise-sensitive (especially higher-depth QAOA instances). Therefore, the optimal number of stages (p-value) for any QAOA instance is limited by the noise in the target hardware as opposed to the current perception that QAOA will provide monotonically better performance with higher-depth. We show that the two-qubit gate error has to be decreased by more than 75% of the current state-of-the-art levels to attain a performance within 10% of the maximum value for the lowest-depth QAOA.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-03-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/CICC48029.2020.9075903",
+              "id": "S2:ca1642c1a281210690fb9b55afcb127da4eb589a",
+              "provider": "semantic_scholar",
+              "title": "Design-Space Exploration of Quantum Approximate Optimization Algorithm under Noise",
+              "url": "https://www.semanticscholar.org/paper/ca1642c1a281210690fb9b55afcb127da4eb589a?utm_source=api"
+            },
+            {
+              "abstract": "The quantum approximate optimization algorithm (QAOA) is a promising quantum-classical hybrid technique to solve combinatorial optimization problems in near-term gate-based noisy quantum devices. In QAOA, the objective is a function of the quantum state, which itself is a function of the gate parameters of a multi-level parameterized quantum circuit (PQC). A classical optimizer varies the continuous gate parameters to generate distributions (quantum state) with significant support to the optimal solution. Even at the lowest circuit depth, QAOA offers non-trivial provable performance guarantee which is expected to increase with the circuit depth. However, the existing analysis fails to consider non-idealities in the qubit quality i.e., short lifetime and imperfect gate operations in realistic quantum hardware. In this article, we investigate the impact of various noise sources on the performance of QAOA both in simulation and on a real quantum computer from IBM. Our analyses indicate that the optimal number of stages (p-value) for any QAOA instance is limited by the noise characteristics (gate error, coherence time, etc.) of the target hardware as opposed to the current perception that higher-depth QAOA will provide monotonically better performance for a given problem compared to the low-depth implementations.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-07-13",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:5ca1869eed549b0934a1c1dcaf0c32fe51b19f3f",
+              "provider": "semantic_scholar",
+              "title": "Analysis of Quantum Approximate Optimization Algorithm under Realistic Noise in Superconducting Qubits",
+              "url": "https://www.semanticscholar.org/paper/5ca1869eed549b0934a1c1dcaf0c32fe51b19f3f?utm_source=api"
+            },
+            {
+              "abstract": "Near term quantum computers with a high quantity (around 50) and quality (around 0.995 fidelity for two-qubit gates) of qubits will approximately sample from certain probability distributions beyond the capabilities of known classical algorithms on state-of-the-art computers, achieving the first milestone of so-called quantum supremacy. This has stimulated recent progress in classical algorithms to simulate quantum circuits. Classical simulations are also necessary to approximate the fidelity of multiqubit quantum computers using cross entropy benchmarking. Here we present numerical results of a classical simulation algorithm to sample universal random circuits, on a single workstation, with more qubits and depth than previously reported. For example, circuits with $5 \\times 9$ qubits of depth 37, $7 \\times 8$ qubits of depth 27, and $10 \\times (\\kappa > 10)$) qubits of depth 19 are all easy to sample. We also show up to what depth the sampling, or estimation of observables, is trivially parallelizable. The algorithm is related to the \"Feynmann path\" method to simulate quantum circuits. For low-depth circuits, the algorithm scales exponentially in the depth times the smaller lateral dimension, or the treewidth, as explained in Boixo et. al., and therefore confirms the bounds in that paper. In particular, circuits with $7 \\times 7$ qubits and depth 40 remain currently out of reach. Follow up work on a supercomputer environment will tighten this bound.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-12-14",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:0ae5f3f59ea274b609d112df2a6f7eb2332b468c",
+              "provider": "semantic_scholar",
+              "title": "Simulation of low-depth quantum circuits as complex undirected graphical models",
+              "url": "https://www.semanticscholar.org/paper/0ae5f3f59ea274b609d112df2a6f7eb2332b468c?utm_source=api"
+            },
+            {
+              "abstract": "The question has remained open if near-term gate model quantum computers will offer a quantum advantage for practical applications in the pre-fault tolerance noise regime. A class of algorithms which have shown some promise in this regard are the so-called classical-quantum hybrid variational algorithms. Here we develop a low-depth quantum algorithm to train quantum Boltzmann machine neural networks using such variational methods. We introduce a method which employs the quantum approximate optimization algorithm as a subroutine in order to approximately sample from Gibbs states of Ising Hamiltonians. We use this approximate Gibbs sampling to train neural networks for which we demonstrate training convergence for numerically simulated noisy circuits with depolarizing errors of rates of up to 4%.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-12-14",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:5932f723cc39ec8b80f537dc6db1b2bba4295d2f",
+              "provider": "semantic_scholar",
+              "title": "A quantum algorithm to train neural networks using low-depth circuits",
+              "url": "https://www.semanticscholar.org/paper/5932f723cc39ec8b80f537dc6db1b2bba4295d2f?utm_source=api"
+            },
+            {
+              "abstract": "The quantum approximate optimization algorithm~(QAOA) first proposed by Farhi et al. promises near-term applications based on its simplicity, universality, and provable optimality. A depth-p QAOA consists of p interleaved unitary transformations induced by two mutually non-commuting Hamiltonians. A long-standing question concerning the performance of QAOA is the dependence of its success probability as a function of circuit depth p. We make initial progress by analyzing the success probability of QAOA for realizing state transfer in a one-dimensional qubit chain using two-qubit XY Hamiltonians and single-qubit Hamiltonians. We provide analytic state transfer success probability dependencies on p in both low and large p limits by leveraging the unique spectral property of the XY Hamiltonian. We support our proof under a given QAOA ansatz with numerical optimizations of QAOA for up to \\(N\\)=20 qubits. We show that the optimized QAOA can achieve the well-known quadratic speedup, Grover speedup, over the classical alternatives. Treating QAOA optimization as a quantum control problem, we also provide numerical evidence of how the circuit depth determines the controllability of the QAOA ansatz.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-05-28",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:38283775b417fe6c70d25cc006bcc481d23a5b8f",
+              "provider": "semantic_scholar",
+              "title": "Optimizing QAOA: Success Probability and Runtime Dependence on Circuit Depth",
+              "url": "https://www.semanticscholar.org/paper/38283775b417fe6c70d25cc006bcc481d23a5b8f?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2020-03-29",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 3236,
+              "query": "classical simulation quantum approximate optimization low depth circuit analytic",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8160",
+                "reset_seconds": "46931"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2020-03-29",
+                  "per_page": "10",
+                  "search": "classical simulation quantum approximate optimization low depth circuit analytic",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2020-03-30"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2020-03-29",
+              "attempts": 2,
+              "locally_excluded_uncertain_or_not_strictly_before": 1,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 36,
+              "query": "classical simulation quantum approximate optimization low depth circuit analytic",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "classical simulation quantum approximate optimization low depth circuit analytic",
+                  "year": "1900-2020"
+                }
+              },
+              "strict_before": "2020-03-30"
+            }
+          },
+          "query": "classical simulation quantum approximate optimization low depth circuit analytic",
+          "strict_before": "2020-03-30"
+        },
+        {
+          "api_cutoff": "2020-03-29",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "Quantum computers promise to efficiently solve important problems that are intractable on a conventional computer. For quantum systems, where the physical dimension grows exponentially, finding the eigenvalues of certain operators is one such intractable problem and remains a fundamental challenge. The quantum phase estimation algorithm efficiently finds the eigenvalue of a given eigenvector but requires fully coherent evolution. Here we present an alternative approach that greatly reduces the requirements for coherent evolution and combine this method with a new approach to state preparation based on ansätze and classical optimization. We implement the algorithm by combining a highly reconfigurable photonic quantum processor with a conventional computer. We experimentally demonstrate the feasibility of this approach with an example from quantum chemistry—calculating the ground-state molecular energy for He–H+. The proposed approach drastically reduces the coherence time requirements, enhancing the potential of quantum resources available today and in the near future. Quantum computers promise to efficiently solve problems that would be practically impossible with a normal computer. Peruzzo et al. develop a variational computation approach that uses any available quantum resources and, with a photonic quantum processing unit, find the ground-state molecular energy of He–H+.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2014-07-23",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/ncomms5213",
+              "id": "https://openalex.org/W2161685427",
+              "provider": "openalex",
+              "title": "A variational eigenvalue solver on a photonic quantum processor"
+            },
+            {
+              "abstract": "We report the first electronic structure calculation performed on a quantum computer without exponentially costly precompilation. We use a programmable array of superconducting qubits to compute the energy surface of molecular hydrogen using two distinct quantum algorithms. First, we experimentally execute the unitary coupled cluster method using the variational quantum eigensolver. Our efficient implementation predicts the correct dissociation energy to within chemical accuracy of the numerically exact result. Second, we experimentally demonstrate the canonical quantum algorithm for chemistry, which consists of Trotterization and quantum phase estimation. We compare the experimental performance of these approaches to show clear evidence that the variational quantum eigensolver is robust to certain errors. This error tolerance inspires hope that variational quantum simulations of classically intractable molecules may be viable in the near future.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-07-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/physrevx.6.031007",
+              "id": "https://openalex.org/W2261928000",
+              "provider": "openalex",
+              "title": "Scalable Quantum Simulation of Molecular Energies"
+            },
+            {
+              "abstract": "Abstract Imaginary time evolution is a powerful tool for studying quantum systems. While it is possible to simulate with a classical computer, the time and memory requirements generally scale exponentially with the system size. Conversely, quantum computers can efficiently simulate quantum systems, but not non-unitary imaginary time evolution. We propose a variational algorithm for simulating imaginary time evolution on a hybrid quantum computer. We use this algorithm to find the ground-state energy of many-particle systems; specifically molecular hydrogen and lithium hydride, finding the ground state with high probability. Our method can also be applied to general optimisation problems and quantum machine learning. As our algorithm is hybrid, suitable for error mitigation and can exploit shallow quantum circuits, it can be implemented with current quantum computers.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-09-06",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41534-019-0187-2",
+              "id": "https://openalex.org/W2972223037",
+              "provider": "openalex",
+              "title": "Variational ansatz-based quantum simulation of imaginary time evolution"
+            },
+            {
+              "abstract": "The recent success in quantum annealing, i.e., optimization of the cost or energy functions of complex systems utilizing quantum fluctuations is reviewed here. The concept is introduced in successive steps through studying the mapping of such computationally hard problems to classical spin-glass problems, quantum spin-glass problems arising with the introduction of quantum fluctuations, and the annealing behavior of the systems as these fluctuations are reduced slowly to zero. This provides a general framework for realizing analog quantum computation.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2008-09-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/revmodphys.80.1061",
+              "id": "https://openalex.org/W174492123",
+              "provider": "openalex",
+              "title": "<i>Colloquium</i>: Quantum annealing and analog quantum computation"
+            },
+            {
+              "abstract": "We review here some recent work in the field of quantum annealing, alias adiabatic quantum computation. The idea of quantum annealing is to perform optimization by a quantum adiabatic evolution which tracks the ground state of a suitable time-dependent Hamiltonian, where 'ℏ' is slowly switched off. We illustrate several applications of quantum annealing strategies, starting from textbook toy-models—double-well potentials and other one-dimensional examples, with and without disorder. These examples display in a clear way the crucial differences between classical and quantum annealing. We then discuss applications of quantum annealing to challenging hard optimization problems, such as the random Ising model, the travelling salesman problem and Boolean satisfiability problems. The techniques used to implement quantum annealing are either deterministic Schrödinger's evolutions, for the toy models, or path-integral Monte Carlo and Green's function Monte Carlo approaches, for the hard optimization problems. The crucial role played by disorder and the associated non-trivial Landau–Zener tunnelling phenomena is discussed and emphasized.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2006-08-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/0305-4470/39/36/r01",
+              "id": "https://openalex.org/W2040797887",
+              "provider": "openalex",
+              "title": "Optimization using quantum mechanics: quantum annealing through adiabatic evolution"
+            },
+            {
+              "abstract": "Compiling quantum algorithms for near-term quantum computers (accounting for connectivity and native gate alphabets) is a major challenge that has received significant attention both by industry and academia. Avoiding the exponential overhead of classical simulation of quantum dynamics will allow compilation of larger algorithms, and a strategy for this is to evaluate an algorithm's cost on a quantum computer. To this end, we propose a variational hybrid quantum-classical algorithm called quantum-assisted quantum compiling (QAQC). In QAQC, we use the overlap between a target unitary<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mi>U</mml:mi></mml:math>and a trainable unitary<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mi>V</mml:mi></mml:math>as the cost function to be evaluated on the quantum computer. More precisely, to ensure that QAQC scales well with problem size, our cost involves not only the global overlap<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mrow class=\"MJX-TeXAtom-ORD\"><mml:mi mathvariant=\"normal\">T</mml:mi><mml:mi mathvariant=\"normal\">r</mml:mi></mml:mrow><mml:mo stretchy=\"false\">(</mml:mo><mml:msup><mml:mi>V</mml:mi><mml:mo>†</mml:mo></mml:msup><mml:mi>U</mml:mi><mml:mo stretchy=\"false\">)</mml:mo></mml:math>but also the local overlaps with respect to individual qubits. We introduce novel short-depth quantum circuits to quantify the terms in our cost function, and we prove that our cost cannot be efficiently approximated with a classical algorithm under reasonable complexity assumptions. We present both gradi",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-05-13",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.22331/q-2019-05-13-140",
+              "id": "https://openalex.org/W2811032035",
+              "provider": "openalex",
+              "title": "Quantum-assisted quantum compiling"
+            },
+            {
+              "abstract": "Abstract Hybrid quantum-classical algorithms provide ways to use noisy intermediate-scale quantum computers for practical applications. Expanding the portfolio of such techniques, we propose a quantum circuit learning algorithm that can be used to assist the characterization of quantum devices and to train shallow circuits for generative tasks. The procedure leverages quantum hardware capabilities to its fullest extent by using native gates and their qubit connectivity. We demonstrate that our approach can learn an optimal preparation of the Greenberger-Horne-Zeilinger states, also known as “cat states”. We further demonstrate that our approach can efficiently prepare approximate representations of coherent thermal states, wave functions that encode Boltzmann probabilities in their amplitudes. Finally, complementing proposals to characterize the power or usefulness of near-term quantum devices, such as IBM’s quantum volume, we provide a new hardware-independent metric called the qBAS score. It is based on the performance yield in a specific sampling task on one of the canonical machine learning data sets known as Bars and Stripes. We show how entanglement is a key ingredient in encoding the patterns of this data set; an ideal benchmark for testing hardware starting at four qubits and up. We provide experimental results and evaluation of this metric to probe the trade off between several architectural circuit designs and circuit depths on an ion-trap quantum computer.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-05-27",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41534-019-0157-8",
+              "id": "https://openalex.org/W2784994528",
+              "provider": "openalex",
+              "title": "A generative modeling approach for benchmarking and training shallow quantum circuits"
+            },
+            {
+              "abstract": "We show that nonlinear problems including nonlinear partial differential equations can be efficiently solved by variational quantum computing. We achieve this by utilizing multiple copies of variational quantum states to treat nonlinearities efficiently and by introducing tensor networks as a programming paradigm. The key concepts of the algorithm are demonstrated for the nonlinear Schr\\\"odinger equation as a canonical example. We numerically show that the variational quantum ansatz can be exponentially more efficient than matrix product states and present experimental proof-of-principle results obtained on an IBM Q device.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-01-06",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/physreva.101.010301",
+              "id": "https://openalex.org/W2963198496",
+              "provider": "openalex",
+              "title": "Variational quantum algorithms for nonlinear problems"
+            },
+            {
+              "abstract": "Quantum information technologies, on the one hand, and intelligent learning systems, on the other, are both emergent technologies that are likely to have a transformative impact on our society in the future. The respective underlying fields of basic research-quantum information versus machine learning (ML) and artificial intelligence (AI)-have their own specific questions and challenges, which have hitherto been investigated largely independently. However, in a growing body of recent work, researchers have been probing the question of the extent to which these fields can indeed learn and benefit from each other. Quantum ML explores the interaction between quantum computing and ML, investigating how results and techniques from one field can be used to solve the problems of the other. Recently we have witnessed significant breakthroughs in both directions of influence. For instance, quantum computing is finding a vital application in providing speed-ups for ML problems, critical in our 'big data' world. Conversely, ML already permeates many cutting-edge technologies and may become instrumental in advanced quantum technologies. Aside from quantum speed-up in data analysis, or classical ML optimization used in quantum experiments, quantum enhancements have also been (theoretically) demonstrated for interactive learning tasks, highlighting the potential of quantum-enhanced learning agents. Finally, works exploring the use of AI for the very design of quantum experiments and for performing parts of genuine research autonomously, have reported their first successes. Beyond the top",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-03-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/1361-6633/aab406",
+              "id": "https://openalex.org/W2792315573",
+              "provider": "openalex",
+              "title": "Machine learning &amp; artificial intelligence in the quantum domain: a review of recent progress"
+            },
+            {
+              "abstract": "We consider a generic framework of optimization algorithms based on gradient descent. We develop a quantum algorithm that computes the gradient of a multi-variate realvalued function f : ℝd → ℝ by evaluating it at only a logarithmic number of times in superposition. Our algorithm is an improved version of Jordan's gradient computation algorithm [28], providing an approximation of the gradient ▽f with quadratically better dependence on the evaluation accuracy of f, for an important class of smooth functions. Furthermore, we show that objective functions arising from variational quantum circuits usually satisfy the necessary smoothness conditions, hence our algorithm provides a quadratic improvement in the complexity of computing their gradient. We also show that in a continuous phase-query model, our gradient computation algorithm has optimal query complexity up to poly-logarithmic factors, for a particular class of smooth functions. Moreover, we show that for low-degree multivariate polynomials our algorithm can provide exponential speedups compared to Jordan's algorithm in terms of the dimension d. One of the technical challenges in applying our gradient computation procedure for quantum optimization problems is the need to convert between a probability oracle (which is common in quantum optimization procedures) and a phase oracle (which is common in quantum algorithms) of the objective function f. We provide efficient subroutines to perform this delicate interconversion between the two types of oracles incurring only a logarithmic overhead, which might be of independent i",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1137/1.9781611975482.87",
+              "id": "https://openalex.org/W2766294686",
+              "provider": "openalex",
+              "title": "Optimizing quantum optimization algorithms via faster quantum gradient computation"
+            },
+            {
+              "abstract": "The parameter derivative of the expectation value of the energy, $\\partial E/\\partial p$, is a key ingredient in variational quantum Monte Carlo (VMC) wave function optimization methods. In some cases, a naive Monte Carlo estimate of this derivative suffers from an infinite variance which inhibits the efficiency of optimization methods that rely on a stable estimate of the derivative. In this work, we derive a simple regularization of the naive estimator which is trivial to implement in existing VMC codes, has finite variance, and a negligible bias which can be extrapolated to zero bias with no extra cost. We use this estimator to construct an unbiased, finite variance estimation of $\\partial E/\\partial p$ for a multi-Slater-Jastrow trial wave function on the LiH molecule. This regularized estimator is a simple and efficient estimator of $\\partial E/\\partial p$ for VMC optimization techniques.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-02-04",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1063/5.0004008",
+              "id": "S2:4ed893fb3cc1acdbc1f77a6ad651b5b9b01d0d2b",
+              "provider": "semantic_scholar",
+              "title": "A light weight regularization for wave function parameter gradients in quantum Monte Carlo",
+              "url": "https://www.semanticscholar.org/paper/4ed893fb3cc1acdbc1f77a6ad651b5b9b01d0d2b?utm_source=api"
+            },
+            {
+              "abstract": "Quantum computers can be used to address electronic-structure problems and problems in materials science and condensed matter physics that can be formulated as interacting fermionic problems, problems which stretch the limits of existing high-performance computers. Finding exact solutions to such problems numerically has a computational cost that scales exponentially with the size of the system, and Monte Carlo methods are unsuitable owing to the fermionic sign problem. These limitations of classical computational methods have made solving even few-atom electronic-structure problems interesting for implementation using medium-sized quantum computers. Yet experimental implementations have so far been restricted to molecules involving only hydrogen and helium. Here we demonstrate the experimental optimization of Hamiltonian problems with up to six qubits and more than one hundred Pauli terms, determining the ground-state energy for molecules of increasing size, up to BeH2. We achieve this result by using a variational quantum eigenvalue solver (eigensolver) with efficiently prepared trial states that are tailored specifically to the interactions that are available in our quantum processor, combined with a compact encoding of fermionic Hamiltonians and a robust stochastic optimization routine. We demonstrate the flexibility of our approach by applying it to a problem of quantum magnetism, an antiferromagnetic Heisenberg model in an external magnetic field. In all cases, we find agreement between our experiments and numerical simulations using a model of the device with noise. Our results help to elucidate the requirements for scaling the method to larger systems and for bridging the gap between key problems in high-performance computing and their implementation on quantum hardware.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-04-17",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/nature23879",
+              "id": "S2:5676184605224be5d89bbf18ef8b992bea6f768f",
+              "provider": "semantic_scholar",
+              "title": "Hardware-efficient variational quantum eigensolver for small molecules and quantum magnets",
+              "url": "https://www.semanticscholar.org/paper/5676184605224be5d89bbf18ef8b992bea6f768f?utm_source=api"
+            },
+            {
+              "abstract": "We investigate the use of variational wave-functions that mimic stochastic recurrent neural networks, specifically, unrestricted Boltzmann machines, as guiding functions in projective quantum Monte Carlo (PQMC) simulations of quantum spin models. As a preliminary step, we investigate the accuracy of such unrestricted neural network states as variational Ansatze for the ground state of the ferromagnetic quantum Ising chain. We find that by optimizing just three variational parameters, independently on the system size, accurate ground-state energies are obtained, comparable to those previously obtained using restricted Boltzmann machines with few variational parameters per spin. Chiefly, we show that if one uses optimized unrestricted neural network states as guiding functions for importance sampling the efficiency of the PQMC algorithms is greatly enhanced, drastically reducing the most relevant systematic bias, namely that due to the finite random-walker population. The scaling of the computational cost with the system size changes from the exponential scaling characteristic of PQMC simulations performed without importance sampling, to a polynomial scaling, even at the ferromagnetic quantum critical point. The important role of the protocol chosen to sample hidden-spins configurations, in particular at the critical point, is analyzed. We discuss the implications of these findings for what concerns the problem of simulating adiabatic quantum optimization using stochastic algorithms on classical computers.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-09-10",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PhysRevB.98.235145",
+              "id": "S2:d79b6a92b6770ba470f9ebafbf7f6ae8e626bd1b",
+              "provider": "semantic_scholar",
+              "title": "Projective quantum Monte Carlo simulations guided by unrestricted neural network states",
+              "url": "https://www.semanticscholar.org/paper/d79b6a92b6770ba470f9ebafbf7f6ae8e626bd1b?utm_source=api"
+            },
+            {
+              "abstract": "TurboRVB is a computational package for ab initio Quantum Monte Carlo (QMC) simulations of both molecular and bulk electronic systems. The code implements two types of well established QMC algorithms: Variational Monte Carlo (VMC) and diffusion Monte Carlo in its robust and efficient lattice regularized variant. A key feature of the code is the possibility of using strongly correlated many-body wave functions (WFs), capable of describing several materials with very high accuracy, even when standard mean-field approaches [e.g., density functional theory (DFT)] fail. The electronic WF is obtained by applying a Jastrow factor, which takes into account dynamical correlations, to the most general mean-field ground state, written either as an antisymmetrized geminal power with spin-singlet pairing or as a Pfaffian, including both singlet and triplet correlations. This WF can be viewed as an efficient implementation of the so-called resonating valence bond (RVB) Ansatz, first proposed by Pauling and Anderson in quantum chemistry [L. Pauling, The Nature of the Chemical Bond (Cornell University Press, 1960)] and condensed matter physics [P.W. Anderson, Mat. Res. Bull 8, 153 (1973)], respectively. The RVB Ansatz implemented in TurboRVB has a large variational freedom, including the Jastrow correlated Slater determinant as its simplest, but nontrivial case. Moreover, it has the remarkable advantage of remaining with an affordable computational cost, proportional to the one spent for the evaluation of a single Slater determinant. Therefore, its application to large systems is computationally feasible. The WF is expanded in a localized basis set. Several basis set functions are implemented, such as Gaussian, Slater, and mixed types, with no restriction on the choice of their contraction. The code implements the adjoint algorithmic differentiation that enables a very efficient evaluation of energy derivatives, comprising the ionic forces. Thus, one can perform structural optimizations and molecular dynamics in the canonical NVT ensemble at the VMC level. For the electronic part, a full WF optimization (Jastrow and antisymmetric parts together) is made possible, thanks to state-of-the-art stochastic algorithms for energy minimization. In the optimization procedure, the first guess can be obtained at the mean-field level by a built-in DFT driver. The code has been efficiently parallelized by using a hybrid MPI-OpenMP protocol, which is also an ideal environment for exploiting the computational power of modern Graphics Processing Unit accelerators.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-02-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1063/5.0005037",
+              "id": "S2:83ebffbe1527f416ef0911fa961cdd02f5b02717",
+              "provider": "semantic_scholar",
+              "title": "TurboRVB: A many-body toolkit for ab initio electronic simulations by quantum Monte Carlo.",
+              "url": "https://www.semanticscholar.org/paper/83ebffbe1527f416ef0911fa961cdd02f5b02717?utm_source=api"
+            },
+            {
+              "abstract": "We show that the formalism of tensor-network states, such as the matrix-product states (MPS), can be used as a basis for variational quantum Monte Carlo simulations. Using a stochastic optimization method, we demonstrate the potential of this approach by explicit MPS calculations for the transverse Ising chain with up to N=256 spins at criticality, using periodic boundary conditions and D x D matrices with D up to 48. The computational cost of our scheme formally scales as ND3, whereas standard MPS approaches and the related density matrix renormalization group method scale as ND5 and ND6, respectively, for periodic systems.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2007-08-16",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PhysRevLett.99.220602",
+              "id": "S2:8da5748a368a5aef236836cbd1f11601d9cfcc14",
+              "provider": "semantic_scholar",
+              "title": "Variational quantum Monte Carlo simulations with tensor-network states.",
+              "url": "https://www.semanticscholar.org/paper/8da5748a368a5aef236836cbd1f11601d9cfcc14?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-01-01",
+              "date_precision": "year",
+              "doi": "https://doi.org/10.1007/978-3-319-75538-0_6",
+              "id": "S2:177b3193aa443c640536711e7ee8043a2b2d1682",
+              "provider": "semantic_scholar",
+              "title": "Gradient-Enhanced Polynomial Chaos Methods for Circuit Simulation",
+              "url": "https://www.semanticscholar.org/paper/177b3193aa443c640536711e7ee8043a2b2d1682?utm_source=api"
+            },
+            {
+              "abstract": "The variational quantum eigensolver (VQE) algorithm combines the ability of quantum computers to efficiently compute expectation values with a classical optimization routine in order to approximate ground state energies of quantum systems. In this paper, we study the application of VQE to the simulation of molecular energies using the unitary coupled cluster (UCC) ansatz. We introduce new strategies to reduce the circuit depth for the implementation of UCC and improve the optimization of the wavefunction based on efficient classical approximations of the cluster amplitudes. Additionally, we propose an analytical method to compute the energy gradient that reduces the sampling cost for gradient estimation by several orders of magnitude compared to numerical gradients. We illustrate our methodology with numerical simulations for a system of four hydrogen atoms that exhibit strong correlation and show that the circuit depth of VQE using a UCC ansatz can be reduced without introducing significant loss of accuracy in the final wavefunctions and energies.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-01-10",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/2058-9565/aad3e4",
+              "id": "S2:0bcd7c44dd81ce617189df877030870da9310589",
+              "provider": "semantic_scholar",
+              "title": "Strategies for quantum computing molecular energies using the unitary coupled cluster ansatz",
+              "url": "https://www.semanticscholar.org/paper/0bcd7c44dd81ce617189df877030870da9310589?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2010-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:5123bc99613e1182b08e882b53a300ac4c2b4294",
+              "provider": "semantic_scholar",
+              "title": "3D drift diffusion and 3D Monte Carlo simulation of on-current variability due to random dopants",
+              "url": "https://www.semanticscholar.org/paper/5123bc99613e1182b08e882b53a300ac4c2b4294?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2020-03-29",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 1609,
+              "query": "variational Monte Carlo simulation quantum optimization circuit cost gradient",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8150",
+                "reset_seconds": "46922"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2020-03-29",
+                  "per_page": "10",
+                  "search": "variational Monte Carlo simulation quantum optimization circuit cost gradient",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2020-03-30"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2020-03-29",
+              "attempts": 1,
+              "locally_excluded_uncertain_or_not_strictly_before": 2,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 84,
+              "query": "variational Monte Carlo simulation quantum optimization circuit cost gradient",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "variational Monte Carlo simulation quantum optimization circuit cost gradient",
+                  "year": "1900-2020"
+                }
+              },
+              "strict_before": "2020-03-30"
+            }
+          },
+          "query": "variational Monte Carlo simulation quantum optimization circuit cost gradient",
+          "strict_before": "2020-03-30"
+        }
+      ]
+    },
+    "B": {
+      "queries": [
+        {
+          "api_cutoff": "2020-03-29",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "Noisy Intermediate-Scale Quantum (NISQ) technology will be available in the near future. Quantum computers with 50-100 qubits may be able to perform tasks which surpass the capabilities of today's classical digital computers, but noise in quantum gates will limit the size of quantum circuits that can be executed reliably. NISQ devices will be useful tools for exploring many-body quantum physics, and may have other useful applications, but the 100-qubit quantum computer will not change the world right away - we should regard it as a significant step toward the more powerful quantum technologies of the future. Quantum technologists should continue to strive for more accurate quantum gates and, eventually, fully fault-tolerant quantum computing.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-08-06",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.22331/q-2018-08-06-79",
+              "id": "https://openalex.org/W2781738013",
+              "provider": "openalex",
+              "title": "Quantum Computing in the NISQ era and beyond"
+            },
+            {
+              "abstract": "Abstract Hybrid quantum–classical systems make it possible to utilize existing quantum computers to their fullest extent. Within this framework, parameterized quantum circuits can be regarded as machine learning models with remarkable expressive power. This Review presents the components of these models and discusses their application to a variety of data-driven tasks, such as supervised learning and generative modeling. With an increasing number of experimental demonstrations carried out on actual quantum hardware and with software being actively developed, this rapidly growing field is poised to have a broad spectrum of real-world applications.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-10-17",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/2058-9565/ab4eb5",
+              "id": "https://openalex.org/W2980446414",
+              "provider": "openalex",
+              "title": "Parameterized quantum circuits as machine learning models"
+            },
+            {
+              "abstract": "Quantum information technologies, on the one hand, and intelligent learning systems, on the other, are both emergent technologies that are likely to have a transformative impact on our society in the future. The respective underlying fields of basic research-quantum information versus machine learning (ML) and artificial intelligence (AI)-have their own specific questions and challenges, which have hitherto been investigated largely independently. However, in a growing body of recent work, researchers have been probing the question of the extent to which these fields can indeed learn and benefit from each other. Quantum ML explores the interaction between quantum computing and ML, investigating how results and techniques from one field can be used to solve the problems of the other. Recently we have witnessed significant breakthroughs in both directions of influence. For instance, quantum computing is finding a vital application in providing speed-ups for ML problems, critical in our 'big data' world. Conversely, ML already permeates many cutting-edge technologies and may become instrumental in advanced quantum technologies. Aside from quantum speed-up in data analysis, or classical ML optimization used in quantum experiments, quantum enhancements have also been (theoretically) demonstrated for interactive learning tasks, highlighting the potential of quantum-enhanced learning agents. Finally, works exploring the use of AI for the very design of quantum experiments and for performing parts of genuine research autonomously, have reported their first successes. Beyond the top",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-03-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/1361-6633/aab406",
+              "id": "https://openalex.org/W2792315573",
+              "provider": "openalex",
+              "title": "Machine learning &amp; artificial intelligence in the quantum domain: a review of recent progress"
+            },
+            {
+              "abstract": "The upcoming fifth generation (5G) of wireless networks is expected to lay a foundation of intelligent networks with the provision of some isolated artificial intelligence (AI) operations. However, fully intelligent network orchestration and management for providing innovative services will only be realized in Beyond 5G (B5G) networks. To this end, we envisage that the sixth generation (6G) of wireless networks will be driven by on-demand self-reconfiguration to ensure a many-fold increase in the network performance and service types. The increasingly stringent performance requirements of emerging networks may finally trigger the deployment of some interesting new technologies, such as large intelligent surfaces, electromagnetic-orbital angular momentum, visible light communications, and cell-free communications, to name a few. Our vision for 6G is a massively connected complex network capable of rapidly responding to the users' service calls through real-time learning of the network state as described by the network edge (e.g., base-station locations and cache contents), air interface (e.g., radio spectrum and propagation channel), and the user-side (e.g., battery-life and locations). The multi-state, multi-dimensional nature of the network state, requiring the real-time knowledge, can be viewed as a quantum uncertainty problem. In this regard, the emerging paradigms of machine learning (ML), quantum computing (QC), and quantum ML (QML) and their synergies with communication networks can be considered as core 6G enablers. Considering these potentials, starting with the 5G ",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/access.2019.2909490",
+              "id": "https://openalex.org/W2929612105",
+              "provider": "openalex",
+              "title": "Quantum Machine Learning for 6G Communication Networks: State-of-the-Art and Vision for the Future"
+            },
+            {
+              "abstract": "The recent success in quantum annealing, i.e., optimization of the cost or energy functions of complex systems utilizing quantum fluctuations is reviewed here. The concept is introduced in successive steps through studying the mapping of such computationally hard problems to classical spin-glass problems, quantum spin-glass problems arising with the introduction of quantum fluctuations, and the annealing behavior of the systems as these fluctuations are reduced slowly to zero. This provides a general framework for realizing analog quantum computation.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2008-09-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/revmodphys.80.1061",
+              "id": "https://openalex.org/W174492123",
+              "provider": "openalex",
+              "title": "<i>Colloquium</i>: Quantum annealing and analog quantum computation"
+            },
+            {
+              "abstract": "Jaguar is an ab initio quantum chemical program that specializes in fast electronic structure predictions for molecular systems of medium and large size. Jaguar focuses on computational methods with reasonable computational scaling with the size of the system, such as density functional theory (DFT) and local second‐order Møller–Plesset perturbation theory. The favorable scaling of the methods and the high efficiency of the program make it possible to conduct routine computations involving several thousand molecular orbitals. This performance is achieved through a utilization of the pseudospectral approximation and several levels of parallelization. The speed advantages are beneficial for applying Jaguar in biomolecular computational modeling. Additionally, owing to its superior wave function guess for transition‐metal‐containing systems, Jaguar finds applications in inorganic and bioinorganic chemistry. The emphasis on larger systems and transition metal elements paves the way toward developing Jaguar for its use in materials science modeling. The article describes the historical and new features of Jaguar, such as improved parallelization of many modules, innovations in ab initio pKa prediction, and new semiempirical corrections for nondynamic correlation errors in DFT. Jaguar applications in drug discovery, materials science, force field parameterization, and other areas of computational research are reviewed. Timing benchmarks and other results obtained from the most recent Jaguar code are provided. The article concludes with a discussion of challenges and directions fo",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2013-07-04",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/qua.24481",
+              "id": "https://openalex.org/W2000815209",
+              "provider": "openalex",
+              "title": "Jaguar: A high‐performance quantum chemistry software program with strengths in life and materials sciences"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2014-10-08",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.ijmachtools.2014.09.013",
+              "id": "https://openalex.org/W2028277511",
+              "provider": "openalex",
+              "title": "Diamond machining of silicon: A review of advances in molecular dynamics simulation"
+            },
+            {
+              "abstract": "Abstract With quantum computing technologies nearing the era of commercialization and quantum supremacy, machine learning (ML) appears as one of the promising ‘killer’ applications. Despite significant effort, there has been a disconnect between most quantum ML proposals, the needs of ML practitioners, and the capabilities of near-term quantum devices to demonstrate quantum enhancement in the near future. In this contribution to the focus collection ‘What would you do with 1000 qubits?’, we provide concrete examples of intractable ML tasks that could be enhanced with near-term devices. We argue that to reach this target, the focus should be on areas where ML researchers are struggling, such as generative models in unsupervised and semi-supervised learning, instead of the popular and more tractable supervised learning techniques. We also highlight the case of classical datasets with potential quantum-like statistical correlations where quantum models could be more suitable. We focus on hybrid quantum–classical approaches and illustrate some of the key challenges we foresee for near-term implementations. Finally, we introduce the quantum-assisted Helmholtz machine (QAHM), an attempt to use near-term quantum devices to tackle high-dimensional datasets of continuous variables. Instead of using quantum computers to assist deep learning, as previous approaches do, the QAHM uses deep learning to extract a low-dimensional binary representation of data, suitable for relatively small quantum processors which can assist the training of an unsupervised generative model. Although we ill",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-06-19",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/2058-9565/aab859",
+              "id": "https://openalex.org/W2752623698",
+              "provider": "openalex",
+              "title": "Opportunities and challenges for quantum-assisted machine learning in near-term quantum computers"
+            },
+            {
+              "abstract": "We introduce Strawberry Fields, an open-source quantum programming architecture for light-based quantum computers, and detail its key features. Built in Python, Strawberry Fields is a full-stack library for design, simulation, optimization, and quantum machine learning of continuous-variable circuits. The platform consists of three main components: (i) an API for quantum programming based on an easy-to-use language named Blackbird; (ii) a suite of three virtual quantum computer backends, built in NumPy and TensorFlow, each targeting specialized uses; and (iii) an engine which can compile Blackbird programs on various backends, including the three built-in simulators, and - in the near future - photonic quantum information processors. The library also contains examples of several paradigmatic algorithms, including teleportation, (Gaussian) boson sampling, instantaneous quantum polynomial, Hamiltonian simulation, and variational quantum circuit optimization.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-03-11",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.22331/q-2019-03-11-129",
+              "id": "https://openalex.org/W2796615720",
+              "provider": "openalex",
+              "title": "Strawberry Fields: A Software Platform for Photonic Quantum Computing"
+            },
+            {
+              "abstract": "Encouraged by growing computing power and algorithmic development, machine learning technologies have become powerful tools for a wide variety of application areas, spanning from agriculture to chemistry and natural language processing. The use of quantum systems to process classical data using machine learning algorithms has given rise to an emerging research area, i.e. quantum machine learning. Despite its origins in the processing of classical data, quantum machine learning also explores the use of quantum phenomena for learning systems, the use of quantum computers for learning on quantum data and how machine learning algorithms and software can be formulated and implemented on quantum computers. Quantum machine learning can have a transformational effect on computer science. It may speed up the processing of information well beyond the existing classical speeds. Recent work has seen the development of quantum algorithms that could serve as foundations for machine learning applications. Despite its great promise, there are still significant hardware and software challenges that need to be resolved before quantum machine learning becomes practical. In this paper, we present an overview of quantum machine learning in the light of classical approaches. Departing from foundational concepts of machine learning and quantum computing, we discuss various technical contributions, strengths and similarities of the research work in this domain. We also elaborate upon the recent progress of different quantum machine learning approaches, their complexity, and applications in various",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/access.2020.3041719",
+              "id": "https://openalex.org/W3106887093",
+              "provider": "openalex",
+              "title": "Machine Learning: Quantum vs Classical"
+            },
+            {
+              "abstract": "The projective quantum Monte Carlo (PQMC) algorithms are among the most powerful computational techniques to simulate the ground-state properties of quantum many-body systems. However, they are efficient only if a sufficiently accurate trial wave function is used to guide the simulation. In the standard approach, this guiding wave function is obtained in a separate simulation that performs a variational minimization. Here we show how to perform PQMC simulations guided by an adaptive wave function based on a restricted Boltzmann machine. This adaptive wave function is optimized along the PQMC simulation via unsupervised machine learning, avoiding the need of a separate variational optimization. As a byproduct, this technique provides an accurate ansatz for the ground-state wave function, which is obtained by minimizing the Kullback-Leibler divergence with respect to the PQMC samples, rather than by minimizing the energy expectation value as in standard variational optimizations. The high accuracy of this self-learning PQMC technique is demonstrated for a paradigmatic sign-problem-free model, namely, the ferromagnetic quantum Ising chain, showing very precise agreement with the predictions of the Jordan-Wigner theory and of loop quantum Monte Carlo simulations performed in the low-temperature limit.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-07-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PhysRevE.100.043301",
+              "id": "S2:e5603493041bcc9a3789b019171453a0a62f3bde",
+              "provider": "semantic_scholar",
+              "title": "Self-learning projective quantum Monte Carlo simulations guided by restricted Boltzmann machines.",
+              "url": "https://www.semanticscholar.org/paper/e5603493041bcc9a3789b019171453a0a62f3bde?utm_source=api"
+            },
+            {
+              "abstract": "Neural-network quantum state (NQS) has attracted significant interests as a powerful wave-function ansatz to model quantum phenomena. In particular, a variant of NQS based on the restricted Boltzmann machine (RBM) has been adapted to model the ground state of spin lattices and the electronic structures of small molecules in quantum devices. Despite these progresses, significant challenges remain with the RBM-NQS-based quantum simulations. In this work, we present a state-preparation protocol to generate a specific set of complex-valued RBM-NQS, which we name the unitary-coupled RBM-NQS, in quantum circuits. Our proposal expands the applicability of NQS as prior works deal exclusively with real-valued RBM-NQS for quantum algorithms. With this scheme, we achieve (1) modeling complex-valued wave functions, (2) using as few as one ancilla qubit to simulate M hidden spins in an RBM architecture, and (3) avoiding post-selections to improve scalability.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-12-06",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41534-020-00347-1",
+              "id": "S2:4ce246fc6ba8feffd6d27880b98fed1484184684",
+              "provider": "semantic_scholar",
+              "title": "Unitary-coupled restricted Boltzmann machine ansatz for quantum simulations",
+              "url": "https://www.semanticscholar.org/paper/4ce246fc6ba8feffd6d27880b98fed1484184684?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:aab9f96110f855c75b49a75d428073e362c448ba",
+              "provider": "semantic_scholar",
+              "title": "J ul 2 01 9 Self-learning projective quantum Monte Carlo simulations guided by restricted Boltzmann machines",
+              "url": "https://www.semanticscholar.org/paper/aab9f96110f855c75b49a75d428073e362c448ba?utm_source=api"
+            },
+            {
+              "abstract": "In recent years, generative artificial neural networks based on restricted Boltzmann machines (RBMs) have been successfully employed as accurate and flexible variational wave functions for clean quantum many-body systems. In this article we explore their use in simulations of disordered quantum spin models. The standard dense RBM with all-to-all inter-layer connectivity is not particularly appropriate for large disordered systems, since in such systems one cannot exploit translational invariance to reduce the amount of parameters to be optimized. To circumvent this problem, we implement sparse RBMs, whereby the visible spins are connected only to a subset of local hidden neurons, thus reducing the amount of parameters. We assess the performance of sparse RBMs as a function of the range of the allowed connections, and compare it with the one of dense RBMs. Benchmark results are provided for two sign-problem free Hamiltonians, namely pure and random quantum Ising chains. The RBM ansatzes are trained using the unsupervised learning scheme based on projective quantum Monte Carlo (PQMC) algorithms. We find that the sparse connectivity facilitates the training process and allows sparse RBMs to outperform the dense counterparts. Furthermore, the use of sparse RBMs as guiding functions for PQMC simulations allows us to perform PQMC simulations at a reduced computational cost, avoiding possible biases due to finite random-walker populations. We obtain unbiased predictions for the ground-state energies and the magnetization profiles with fixed boundary conditions, at the ferromagnetic quantum critical point. The magnetization profiles agree with the Fisher-de Gennes scaling relation for conformally invariant systems, including the scaling dimension predicted by the renormalization-group analysis.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-03-21",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:18d11d18171b2aed4db74b3fc162d7e5d5b09c28",
+              "provider": "semantic_scholar",
+              "title": "Simulating disordered quantum systems via dense and sparse restricted Boltzmann machines",
+              "url": "https://www.semanticscholar.org/paper/18d11d18171b2aed4db74b3fc162d7e5d5b09c28?utm_source=api"
+            },
+            {
+              "abstract": "Simulating quantum algorithms with classical resources generally requires exponential resources. However, heuristic classical approaches are often very efficient in approximately simulating special circuit structures, for example with limited entanglement, or based on one-dimensional geometries. Here we introduce a classical approach to the simulation of general quantum circuits based on neural-network quantum states (NQS) representations. Considering a set of universal quantum gates, we derive rules for exactly applying single-qubit and two-qubit Z rotations to NQS, whereas we provide a learning scheme to approximate the action of Hadamard gates. Results are shown for the Hadamard and Fourier transform of entangled initial states for systems sizes and total circuit depths exceeding what can be currently simulated with state-of-the-art brute-force techniques. The overall accuracy obtained by the neural-network states based on Restricted Boltzmann machines is satisfactory, and offers a classical route to simulating highly-entangled circuits. In the test cases considered, we find that our classical simulations are comparable to quantum simulations affected by an incoherent noise level in the hardware of about $10^{-3}$ per gate.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-08-15",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:f7a5ec3f3463ca5a7ea5ebe288583e79b1b5e1d4",
+              "provider": "semantic_scholar",
+              "title": "Neural-network states for the classical simulation of quantum computing",
+              "url": "https://www.semanticscholar.org/paper/f7a5ec3f3463ca5a7ea5ebe288583e79b1b5e1d4?utm_source=api"
+            },
+            {
+              "abstract": "Although several models have been proposed towards assisting machine learning (ML) tasks with quantum computers, a direct comparison of the expressive power and efficiency of classical versus quantum models for datasets originating from real-world applications is one of the key milestones towards a quantum ready era. Here, we take a first step towards addressing this challenge by performing a comparison of the widely used classical ML models known as restricted Boltzmann machines (RBMs), against a recently proposed quantum model, now known as quantum circuit Born machines (QCBMs). Both models address the same hard tasks in unsupervised generative modeling, with QCBMs exploiting the probabilistic nature of quantum mechanics and a candidate for near-term quantum computers, as experimentally demonstrated in three different quantum hardware architectures to date. To address the question of the performance of the quantum model on real-world classical data sets, we construct scenarios from a probabilistic version out of the well-known portfolio optimization problem in finance, by using time-series pricing data from asset subsets of the S&P500 stock market index. It is remarkable to find that, under the same number of resources in terms of parameters for both classical and quantum models, the quantum models seem to have superior performance on typical instances when compared with the canonical training of the RBMs. Our simulations are grounded on a hardware efficient realization of the QCBMs on ion-trap quantum computers, by using their native gate sets, and therefore readily implementable in near-term quantum devices.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-08-28",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/2632-2153/ab9009",
+              "id": "S2:6c0315de986b4bfaa2f07d9e5790f18576cb87d3",
+              "provider": "semantic_scholar",
+              "title": "Classical versus quantum models in machine learning: insights from a finance application",
+              "url": "https://www.semanticscholar.org/paper/6c0315de986b4bfaa2f07d9e5790f18576cb87d3?utm_source=api"
+            },
+            {
+              "abstract": "A programmable quantum processor is a fundamental model of quantum computation. In this model, any quantum channel can be approximated by applying a fixed universal quantum operation onto an input state and a quantum `program' state, whose role is to condition the operation performed by the processor. It is known that perfect channel simulation is only possible in the limit of infinitely large program states, so that finding the best program state represents an open problem in the presence of realistic finite-dimensional resources. Here we prove that the search for the optimal quantum program is a convex optimization problem. This can be solved either exactly, by minimizing a diamond distance cost function via semi-definite programming, or approximately, by minimizing other cost functions via gradient-based machine learning methods. We apply this general result to a number of different designs for the programmable quantum processor, from the shallow protocol of quantum teleportation, to deeper schemes relying on port-based teleportation and parametric quantum circuits. We benchmark the various designs by investigating their optimal performance in simulating arbitrary unitaries, Pauli and amplitude damping channels.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-05-03",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:4205ca339f709baf57e953d9d0eacdd73d832af2",
+              "provider": "semantic_scholar",
+              "title": "Optimization and learning of quantum programs",
+              "url": "https://www.semanticscholar.org/paper/4205ca339f709baf57e953d9d0eacdd73d832af2?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2020-03-29",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 683,
+              "query": "restricted Boltzmann machine quantum circuit state simulation approximate optimization",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8140",
+                "reset_seconds": "46919"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2020-03-29",
+                  "per_page": "10",
+                  "search": "restricted Boltzmann machine quantum circuit state simulation approximate optimization",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2020-03-30"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2020-03-29",
+              "attempts": 2,
+              "locally_excluded_uncertain_or_not_strictly_before": 3,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 25,
+              "query": "restricted Boltzmann machine quantum circuit state simulation approximate optimization",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "restricted Boltzmann machine quantum circuit state simulation approximate optimization",
+                  "year": "1900-2020"
+                }
+              },
+              "strict_before": "2020-03-30"
+            }
+          },
+          "query": "restricted Boltzmann machine quantum circuit state simulation approximate optimization",
+          "strict_before": "2020-03-30"
+        },
+        {
+          "api_cutoff": "2020-03-29",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "The promise of quantum computers is that certain computational tasks might be executed exponentially faster on a quantum processor than on a classical processor1. A fundamental challenge is to build a high-fidelity processor capable of running quantum algorithms in an exponentially large computational space. Here we report the use of a processor with programmable superconducting qubits2–7 to create quantum states on 53 qubits, corresponding to a computational state-space of dimension 253 (about 1016). Measurements from repeated experiments sample the resulting probability distribution, which we verify using classical simulations. Our Sycamore processor takes about 200 seconds to sample one instance of a quantum circuit a million times—our benchmarks currently indicate that the equivalent task for a state-of-the-art classical supercomputer would take approximately 10,000 years. This dramatic increase in speed compared to all known classical algorithms is an experimental realization of quantum supremacy8–14 for this specific computational task, heralding a much-anticipated computing paradigm. Quantum supremacy is demonstrated using a programmable superconducting processor known as Sycamore, taking approximately 200 seconds to sample one instance of a quantum circuit a million times, which would take a state-of-the-art supercomputer around ten thousand years to compute.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-10-23",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41586-019-1666-5",
+              "id": "https://openalex.org/W2982169647",
+              "provider": "openalex",
+              "title": "Quantum supremacy using a programmable superconducting processor"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-09-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/nature23474",
+              "id": "https://openalex.org/W2559394418",
+              "provider": "openalex",
+              "title": "Quantum machine learning"
+            },
+            {
+              "abstract": "Many experimental proposals for noisy intermediate scale quantum devices involve training a parameterized quantum circuit with a classical optimization loop. Such hybrid quantum-classical algorithms are popular for applications in quantum simulation, optimization, and machine learning. Due to its simplicity and hardware efficiency, random circuits are often proposed as initial guesses for exploring the space of quantum states. We show that the exponential dimension of Hilbert space and the gradient estimation complexity make this choice unsuitable for hybrid quantum-classical algorithms run on more than a few qubits. Specifically, we show that for a wide class of reasonable parameterized quantum circuits, the probability that the gradient along any reasonable direction is non-zero to some fixed precision is exponentially small as a function of the number of qubits. We argue that this is related to the 2-design characteristic of random circuits, and that solutions to this problem must be studied.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-11-12",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41467-018-07090-4",
+              "id": "https://openalex.org/W2794444783",
+              "provider": "openalex",
+              "title": "Barren plateaus in quantum neural network training landscapes"
+            },
+            {
+              "abstract": "The next few years will be exciting as prototype universal quantum processors emerge, enabling the implementation of a wider variety of algorithms. Of particular interest are quantum heuristics, which require experimentation on quantum hardware for their evaluation and which have the potential to significantly expand the breadth of applications for which quantum computers have an established advantage. A leading candidate is Farhi et al.’s quantum approximate optimization algorithm, which alternates between applying a cost function based Hamiltonian and a mixing Hamiltonian. Here, we extend this framework to allow alternation between more general families of operators. The essence of this extension, the quantum alternating operator ansatz, is the consideration of general parameterized families of unitaries rather than only those corresponding to the time evolution under a fixed local Hamiltonian for a time specified by the parameter. This ansatz supports the representation of a larger, and potentially more useful, set of states than the original formulation, with potential long-term impact on a broad array of application areas. For cases that call for mixing only within a desired subspace, refocusing on unitaries rather than Hamiltonians enables more efficiently implementable mixers than was possible in the original framework. Such mixers are particularly useful for optimization problems with hard constraints that must always be satisfied, defining a feasible subspace, and soft constraints whose violation we wish to minimize. More efficient implementation enables earlier ex",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-02-12",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3390/a12020034",
+              "id": "https://openalex.org/W2754868542",
+              "provider": "openalex",
+              "title": "From the Quantum Approximate Optimization Algorithm to a Quantum Alternating Operator Ansatz"
+            },
+            {
+              "abstract": "Neural networks and quantum computers are both key technologies for the next generation of computing. This paper demonstrates that these two types of computation can be executed with the same physical platform, based on photonics. This provides a natural extension of classical machine learning algorithms into the quantum realm.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-10-31",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/physrevresearch.1.033063",
+              "id": "https://openalex.org/W2808979145",
+              "provider": "openalex",
+              "title": "Continuous-variable quantum neural networks"
+            },
+            {
+              "abstract": "We introduce a general method for building neural networks on quantum computers. The quantum neural network is a variational quantum circuit built in the continuous-variable (CV) architecture, which encodes quantum information in continuous degrees of freedom such as the amplitudes of the electromagnetic field. This circuit contains a layered structure of continuously parameterized gates which is universal for CV quantum computation. Affine transformations and nonlinear activation functions, two key elements in neural networks, are enacted in the quantum network using Gaussian and non-Gaussian gates, respectively. The non-Gaussian gates provide both the nonlinearity and the universality of the model. Due to the structure of the CV model, the CV quantum neural network can encode highly nonlinear transformations while remaining completely unitary. We show how a classical network can be embedded into the quantum formalism and propose quantum versions of various specialized models such as convolutional, recurrent, and residual networks. Finally, we present numerous modeling experiments built with the strawberry fields software library. These experiments, including a classifier for fraud detection, a network which generates tetris images, and a hybrid classical-quantum autoencoder, demonstrate the capability and adaptability of CV quantum neural networks.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-08-01",
+              "date_precision": "day",
+              "doi": null,
+              "id": "https://openalex.org/W3104962094",
+              "provider": "openalex",
+              "title": "Continuous-variable quantum neural networks"
+            },
+            {
+              "abstract": "Abstract Classical autoencoders are neural networks that can learn efficient low-dimensional representations of data in higher-dimensional space. The task of an autoencoder is, given an input x , to map x to a lower dimensional point y such that x can likely be recovered from y . The structure of the underlying autoencoder network can be chosen to represent the data on a smaller dimension, effectively compressing the input. Inspired by this idea, we introduce the model of a quantum autoencoder to perform similar tasks on quantum data. The quantum autoencoder is trained to compress a particular data set of quantum states, where a classical compression algorithm cannot be employed. The parameters of the quantum autoencoder are trained using classical optimization algorithms. We show an example of a simple programmable circuit that can be trained as an efficient autoencoder. We apply our model in the context of quantum simulation to compress ground states of the Hubbard model and molecular Hamiltonians.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-08-17",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/2058-9565/aa8072",
+              "id": "https://openalex.org/W2562234976",
+              "provider": "openalex",
+              "title": "Quantum autoencoders for efficient compression of quantum data"
+            },
+            {
+              "abstract": "Abstract Hybrid quantum–classical systems make it possible to utilize existing quantum computers to their fullest extent. Within this framework, parameterized quantum circuits can be regarded as machine learning models with remarkable expressive power. This Review presents the components of these models and discusses their application to a variety of data-driven tasks, such as supervised learning and generative modeling. With an increasing number of experimental demonstrations carried out on actual quantum hardware and with software being actively developed, this rapidly growing field is poised to have a broad spectrum of real-world applications.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-10-17",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/2058-9565/ab4eb5",
+              "id": "https://openalex.org/W2980446414",
+              "provider": "openalex",
+              "title": "Parameterized quantum circuits as machine learning models"
+            },
+            {
+              "abstract": "Quantum control is concerned with active manipulation of physical and chemical processes on the atomic and molecular scale. This work presents a perspective of progress in the field of control over quantum phenomena, tracing the evolution of theoretical concepts and experimental methods from early developments to the most recent advances. Among numerous theoretical insights and technological improvements that produced the present state-of-the-art in quantum control, there have been several breakthroughs of foremost importance. On the technology side, the current experimental successes would be impossible without the development of intense femtosecond laser sources and pulse shapers. On the theory side, the two most critical insights were (i) realizing that ultrafast atomic and molecular dynamics can be controlled via manipulation of quantum interferences and (ii) understanding that optimally shaped ultrafast laser pulses are the most effective means for producing the desired quantum interference patterns in the controlled system. Finally, these theoretical and experimental advances were brought together by the crucial concept of adaptive feedback control (AFC), which is a laboratory procedure employing measurement-driven, closed-loop optimization to identify the best shapes of femtosecond laser control pulses for steering quantum dynamics towards the desired objective. Optimization in AFC experiments is guided by a learning algorithm, with stochastic methods proving to be especially effective. AFC of quantum phenomena has found numerous applications in many areas of the phy",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2010-07-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/1367-2630/12/7/075008",
+              "id": "https://openalex.org/W1990175841",
+              "provider": "openalex",
+              "title": "Control of quantum phenomena: past, present and future"
+            },
+            {
+              "abstract": "During the last ten years, superconducting circuits have passed from being interesting physical devices to becoming contenders for near-future useful and scalable quantum information processing (QIP). Advanced quantum simulation experiments have been shown with up to nine qubits, while a demonstration of quantum supremacy with fifty qubits is anticipated in just a few years. Quantum supremacy means that the quantum system can no longer be simulated by the most powerful classical supercomputers. Integrated classical-quantum computing systems are already emerging that can be used for software development and experimentation, even via web interfaces. Therefore, the time is ripe for describing some of the recent development of superconducting devices, systems and applications. As such, the discussion of superconducting qubits and circuits is limited to devices that are proven useful for current or near future applications. Consequently, the centre of interest is the practical applications of QIP, such as computation and simulation in Physics and Chemistry.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-07-06",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/1361-6633/aa7e1a",
+              "id": "https://openalex.org/W2530095757",
+              "provider": "openalex",
+              "title": "Quantum information processing with superconducting circuits: a review"
+            },
+            {
+              "abstract": "Artificial neural networks have been recently introduced as a general ansatz to represent many-body wave functions. In conjunction with variational Monte Carlo calculations, this ansatz has been applied to find Hamiltonian ground states and their energies. Here, we provide extensions of this method to study excited states, a central task in several many-body quantum calculations. First, we give a prescription that allows us to target eigenstates of a (nonlocal) symmetry of the Hamiltonian. Second, we give an algorithm to compute low-lying excited states without symmetries. We demonstrate our approach with both restricted Boltzmann machines and feed-forward neural networks. Results are shown for the one-dimensional spin-1/2 Heisenberg model, and for the one-dimensional Bose-Hubbard model. When comparing to exact results, we obtain good agreement for a large range of excited-states energies. Interestingly, we find that deep networks typically outperform shallow architectures for high-energy states.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-07-09",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PhysRevLett.121.167204",
+              "id": "S2:fdbb9d943f85f864dba1d1d7adc6965883b38e58",
+              "provider": "semantic_scholar",
+              "title": "Symmetries and Many-Body Excitations with Neural-Network Quantum States.",
+              "url": "https://www.semanticscholar.org/paper/fdbb9d943f85f864dba1d1d7adc6965883b38e58?utm_source=api"
+            },
+            {
+              "abstract": "We investigate the use of variational wave-functions that mimic stochastic recurrent neural networks, specifically, unrestricted Boltzmann machines, as guiding functions in projective quantum Monte Carlo (PQMC) simulations of quantum spin models. As a preliminary step, we investigate the accuracy of such unrestricted neural network states as variational Ansatze for the ground state of the ferromagnetic quantum Ising chain. We find that by optimizing just three variational parameters, independently on the system size, accurate ground-state energies are obtained, comparable to those previously obtained using restricted Boltzmann machines with few variational parameters per spin. Chiefly, we show that if one uses optimized unrestricted neural network states as guiding functions for importance sampling the efficiency of the PQMC algorithms is greatly enhanced, drastically reducing the most relevant systematic bias, namely that due to the finite random-walker population. The scaling of the computational cost with the system size changes from the exponential scaling characteristic of PQMC simulations performed without importance sampling, to a polynomial scaling, even at the ferromagnetic quantum critical point. The important role of the protocol chosen to sample hidden-spins configurations, in particular at the critical point, is analyzed. We discuss the implications of these findings for what concerns the problem of simulating adiabatic quantum optimization using stochastic algorithms on classical computers.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-09-10",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PhysRevB.98.235145",
+              "id": "S2:d79b6a92b6770ba470f9ebafbf7f6ae8e626bd1b",
+              "provider": "semantic_scholar",
+              "title": "Projective quantum Monte Carlo simulations guided by unrestricted neural network states",
+              "url": "https://www.semanticscholar.org/paper/d79b6a92b6770ba470f9ebafbf7f6ae8e626bd1b?utm_source=api"
+            },
+            {
+              "abstract": "The state-of-the-art machine learning approaches are based on classical von Neumann computing architectures and have been widely used in many industrial and academic domains. With the recent development of quantum computing, researchers and tech-giants have attempted new quantum circuits for machine learning tasks. However, the existing quantum computing platforms are hard to simulate classical deep learning models or problems because of the intractability of deep quantum circuits. Thus, it is necessary to design feasible quantum algorithms for quantum machine learning for noisy intermediate scale quantum (NISQ) devices. This work explores variational quantum circuits for deep reinforcement learning. Specifically, we reshape classical deep reinforcement learning algorithms like experience replay and target network into a representation of variational quantum circuits. Moreover, we use a quantum information encoding scheme to reduce the number of model parameters compared to classical neural networks. To the best of our knowledge, this work is the first proof-of-principle demonstration of variational quantum circuits to approximate the deep $Q$ -value function for decision-making and policy-selection reinforcement learning with experience replay and target network. Besides, our variational quantum circuits can be deployed in many near-term NISQ machines.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-06-30",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/access.2020.3010470",
+              "id": "S2:486c93a171650cdf1fff68cbbe646393517fca36",
+              "provider": "semantic_scholar",
+              "title": "Variational Quantum Circuits for Deep Reinforcement Learning",
+              "url": "https://www.semanticscholar.org/paper/486c93a171650cdf1fff68cbbe646393517fca36?utm_source=api"
+            },
+            {
+              "abstract": "Simulating quantum algorithms with classical resources generally requires exponential resources. However, heuristic classical approaches are often very efficient in approximately simulating special circuit structures, for example with limited entanglement, or based on one-dimensional geometries. Here we introduce a classical approach to the simulation of general quantum circuits based on neural-network quantum states (NQS) representations. Considering a set of universal quantum gates, we derive rules for exactly applying single-qubit and two-qubit Z rotations to NQS, whereas we provide a learning scheme to approximate the action of Hadamard gates. Results are shown for the Hadamard and Fourier transform of entangled initial states for systems sizes and total circuit depths exceeding what can be currently simulated with state-of-the-art brute-force techniques. The overall accuracy obtained by the neural-network states based on Restricted Boltzmann machines is satisfactory, and offers a classical route to simulating highly-entangled circuits. In the test cases considered, we find that our classical simulations are comparable to quantum simulations affected by an incoherent noise level in the hardware of about $10^{-3}$ per gate.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-08-15",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:f7a5ec3f3463ca5a7ea5ebe288583e79b1b5e1d4",
+              "provider": "semantic_scholar",
+              "title": "Neural-network states for the classical simulation of quantum computing",
+              "url": "https://www.semanticscholar.org/paper/f7a5ec3f3463ca5a7ea5ebe288583e79b1b5e1d4?utm_source=api"
+            },
+            {
+              "abstract": "A promising route towards the demonstration of near-term quantum advantage (or supremacy) over classical systems relies on running tailored quantum algorithms on noisy intermediate-scale quantum machines. These algorithms typically involve sampling from probability distributions that—under plausible complexity-theoretic conjectures—cannot be efficiently generated classically. Rather than determining the computational features of output states produced by a given physical system, we investigate what features of the generating system can be efficiently learnt given direct access to an output state. To tackle this question, here we introduce the variational quantum unsampling protocol, a nonlinear quantum neural network approach for verification and inference of near-term quantum circuit outputs. In our approach, one can variationally train a quantum operation to unravel the action of an unknown unitary on a known input state, essentially learning the inverse of the black-box quantum dynamics. While the principle of our approach is platform independent, its implementation will depend on the unique architecture of a specific quantum processor. We experimentally demonstrate the variational quantum unsampling protocol on a quantum photonic processor. Alongside quantum verification, our protocol has broad applications, including optimal quantum measurement and tomography, quantum sensing and imaging, and ansatz validation. The variational quantum unsampling protocol provides a way to realize verification and inference of near-term quantum circuit outputs. This protocol is then experimentally verified on a quantum photonic processor.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-04-23",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41567-019-0747-6",
+              "id": "S2:a4087d8adf4b96cf2b41932a8898cbb2ff962410",
+              "provider": "semantic_scholar",
+              "title": "Variational quantum unsampling on a quantum photonic processor",
+              "url": "https://www.semanticscholar.org/paper/a4087d8adf4b96cf2b41932a8898cbb2ff962410?utm_source=api"
+            },
+            {
+              "abstract": "We propose a new variational scheme based on the neural-network quantum states to simulate the stationary states of open quantum many-body systems. Using the high expressive power of the variational ansatz described by the restricted Boltzmann machines, which we dub as the neural stationary state ansatz, we compute the stationary states of quantum dynamics obeying the Lindblad master equations. The mapping of the stationary-state search problem into finding a zero-energy ground state of an appropriate Hermitian operator allows us to apply the conventional variational Monte Carlo method for the optimization. Our method is shown to simulate various spin systems efficiently, i.e., the transverse-field Ising models in both one and two dimensions and the XYZ model in one dimension.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-02-19",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PhysRevB.99.214306",
+              "id": "S2:43262084a376d9f8e4adbd8f706ecffdccefb847",
+              "provider": "semantic_scholar",
+              "title": "Constructing neural stationary states for open quantum many-body systems",
+              "url": "https://www.semanticscholar.org/paper/43262084a376d9f8e4adbd8f706ecffdccefb847?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2020-03-29",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 530,
+              "query": "neural network quantum states simulate variational quantum algorithms fidelity",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8130",
+                "reset_seconds": "46911"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2020-03-29",
+                  "per_page": "10",
+                  "search": "neural network quantum states simulate variational quantum algorithms fidelity",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2020-03-30"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2020-03-29",
+              "attempts": 2,
+              "locally_excluded_uncertain_or_not_strictly_before": 4,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 78,
+              "query": "neural network quantum states simulate variational quantum algorithms fidelity",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "neural network quantum states simulate variational quantum algorithms fidelity",
+                  "year": "1900-2020"
+                }
+              },
+              "strict_before": "2020-03-30"
+            }
+          },
+          "query": "neural network quantum states simulate variational quantum algorithms fidelity",
+          "strict_before": "2020-03-30"
+        }
+      ]
+    }
+  },
+  "generated_at": "2026-08-13T10:58:16.846456+00:00",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "181bacb6a1bae6ea11a5ac1a94f6cf1e6f505332623a6e7e16eb397b35ce3a99",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Migrated without changing the frozen pre-t0 query results; non-detection is scoped, not universal priority.",
+  "strict_before": "2020-03-30",
+  "task_id": "Physics_07_variational_circuit_simulation",
+  "release": "V1.0"
+}

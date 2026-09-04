@@ -1,0 +1,427 @@
+{
+  "all_queries_completed": true,
+  "api_cutoff": "2021-12-31",
+  "cards": {
+    "A": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jcou.2020.101313",
+              "id": "https://doi.org/10.1016/j.jcou.2020.101313",
+              "landing_page_url": "https://doi.org/10.1016/j.jcou.2020.101313",
+              "publication_date": "2020-12-01",
+              "publication_year": 2020,
+              "source_name": "Journal of CO2 Utilization",
+              "title": "Density functional theoretical study of Au4/In2O3 catalyst for CO2 hydrogenation to methanol: The strong metal-support interaction and its effect",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.mcat.2021.111732",
+              "id": "https://doi.org/10.1016/j.mcat.2021.111732",
+              "landing_page_url": "https://doi.org/10.1016/j.mcat.2021.111732",
+              "publication_date": "2021-07-01",
+              "publication_year": 2021,
+              "source_name": "Molecular Catalysis",
+              "title": "Role of metal-support interaction for atmospheric pressure CO2 hydrogenation over Pd/(Ti)-SBA-15 catalyst: Effect of titanium composition on products selectivity",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "The catalytic hydrogenation of carbon dioxide holds immense promise for applications in sustainable fuel synthesis and hydrogen storage. Mechanistic studies that connect thermodynamic parameters with the kinetics of catalysis can provide new understanding and guide predictive design of improved catalysts. Reported here are thermochemical and kinetic analyses of a new pincer-ligated rhenium complex ( tBu POCOP)Re(CO) 2 ( tBu POCOP = 2,6-bis(di- tert -butylphosphinito)phenyl) that catalyzes CO 2 hydrogenation to formate with faster rates at lower temperature. Because the catalyst follows the prototypical “outer sphere” hydrogenation mechanism, comprehensive studies of temperature and solvent effects on the H 2 splitting and hydride transfer steps are expected to be relevant to many other catalysts. Strikingly large entropy associated with cleavage of H 2 results in a strong temperature dependence on the concentration of [( tBu POCOP)Re(CO) 2 H] – present during catalysis, which is further impacted by changing the solvent from toluene to tetrahydrofuran to acetonitrile. New methods for determining the hydricity of metal hydrides and formate at temperatures other than 298 K were developed, providing insight into how temperature can influence the favorability of hydride transfer during catalysis. These thermochemical insights guided the selection of conditions for CO 2 hydrogenation to formate with high activity (up to 364 h –1 at 1 atm or 3330 h –1 at 20 atm of 1:1 H 2 CO 2 ). In cases where hydride transfer is the highest individual kinetic barrier, entropic contributions to outer sphere H 2 splitting lead to a unique temperature dependence: catalytic activity increases as temperature decreases in tetrahydrofuran (200-fold increase upon cooling from 50 to 0 °C) and toluene (4-fold increase upon cooling from 100 to 50 °C). Ramifications on catalyst structure-function relationships are discussed, including comparisons between “outer sphere” mechanisms and metal–ligand cooperation mechanisms.",
+              "doi": "https://doi.org/10.26434/chemrxiv.13114019.v1",
+              "id": "https://doi.org/10.26434/chemrxiv.13114019.v1",
+              "landing_page_url": "https://doi.org/10.26434/chemrxiv.13114019.v1",
+              "publication_date": "2020-10-20",
+              "publication_year": 2020,
+              "source_name": null,
+              "title": "Temperature and Solvent Effects on H2 Splitting and Hydricity: Ramifications on CO2 Hydrogenation by a Rhenium Pincer Catalyst",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/s0926-860x(98)00335-4",
+              "id": "https://doi.org/10.1016/s0926-860x(98)00335-4",
+              "landing_page_url": "https://doi.org/10.1016/s0926-860x(98)00335-4",
+              "publication_date": "1999-04-01",
+              "publication_year": 1999,
+              "source_name": "Applied Catalysis A: General",
+              "title": "Hydrogenation of CO2 over sprayed Ru/TiO2 fine particles and strong metal–support interaction",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.fuel.2020.119920",
+              "id": "https://doi.org/10.1016/j.fuel.2020.119920",
+              "landing_page_url": "https://doi.org/10.1016/j.fuel.2020.119920",
+              "publication_date": "2021-04-01",
+              "publication_year": 2021,
+              "source_name": "Fuel",
+              "title": "Highly active and stable Pd/MgAl2O4@MgO catalyst with electronic metal-support interaction for selective hydrogenation of isoprene",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/s0167-2991(04)80220-9",
+              "id": "https://doi.org/10.1016/s0167-2991(04)80220-9",
+              "landing_page_url": "https://doi.org/10.1016/s0167-2991(04)80220-9",
+              "publication_date": "2004-01-01",
+              "publication_year": 2004,
+              "source_name": "Studies in Surface Science and Catalysis",
+              "title": "Catalytic hydrogenation of CO2 to methanol over Pd/ZnO: Metal-support interaction",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jechem.2019.03.001",
+              "id": "https://doi.org/10.1016/j.jechem.2019.03.001",
+              "landing_page_url": "https://doi.org/10.1016/j.jechem.2019.03.001",
+              "publication_date": "2020-01-01",
+              "publication_year": 2020,
+              "source_name": "Journal of Energy Chemistry",
+              "title": "CO2 hydrogenation to methanol over Cu/CeO2 and Cu/ZrO2 catalysts: Tuning methanol selectivity via metal-support interaction",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jcou.2019.12.006",
+              "id": "https://doi.org/10.1016/j.jcou.2019.12.006",
+              "landing_page_url": "https://doi.org/10.1016/j.jcou.2019.12.006",
+              "publication_date": "2020-04-01",
+              "publication_year": 2020,
+              "source_name": "Journal of CO2 Utilization",
+              "title": "Effect of spinel inversion and metal-support interaction on the site activity of Mg-Al-Ox supported Co catalyst for CO2 reforming of CH4",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "metal support interaction CO2 hydrogenation temperature response catalyst",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=metal+support+interaction+CO2+hydrogenation+temperature+response+catalyst&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        },
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1006/jcis.1999.6347",
+              "id": "https://doi.org/10.1006/jcis.1999.6347",
+              "landing_page_url": "https://doi.org/10.1006/jcis.1999.6347",
+              "publication_date": "1999-09-01",
+              "publication_year": 1999,
+              "source_name": "Journal of Colloid and Interface Science",
+              "title": "Studies on Anion Promoted Titania.1: Preparation, Characterization, and Catalytic Activity toward Alcohol and Cumene Conversion Reactions of Phosphated Titania",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1080/09593330.2014.982721",
+              "id": "https://doi.org/10.1080/09593330.2014.982721",
+              "landing_page_url": "https://doi.org/10.1080/09593330.2014.982721",
+              "publication_date": "2014-12-09",
+              "publication_year": 2014,
+              "source_name": "Environmental Technology",
+              "title": "Catalytic wet oxidation of aqueous methylamine: comparative study on the catalytic performance of platinum–ruthenium, platinum, and ruthenium catalysts supported on titania",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jcis.2020.11.109",
+              "id": "https://doi.org/10.1016/j.jcis.2020.11.109",
+              "landing_page_url": "https://doi.org/10.1016/j.jcis.2020.11.109",
+              "publication_date": "2021-04-01",
+              "publication_year": 2021,
+              "source_name": "Journal of Colloid and Interface Science",
+              "title": "Nitrene-functionalized ruthenium nanoparticles: Spectral evidence for the conjugated ruthenium-nitrene π bonds and the impact on the catalytic activity",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jcis.2008.10.049",
+              "id": "https://doi.org/10.1016/j.jcis.2008.10.049",
+              "landing_page_url": "https://doi.org/10.1016/j.jcis.2008.10.049",
+              "publication_date": "2009-02-01",
+              "publication_year": 2009,
+              "source_name": "Journal of Colloid and Interface Science",
+              "title": "Structural and adsorption characteristics and catalytic activity of titania and titania-containing nanomaterials",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jcis.2018.07.085",
+              "id": "https://doi.org/10.1016/j.jcis.2018.07.085",
+              "landing_page_url": "https://doi.org/10.1016/j.jcis.2018.07.085",
+              "publication_date": "2018-12-01",
+              "publication_year": 2018,
+              "source_name": "Journal of Colloid and Interface Science",
+              "title": "Titania, zirconia and hafnia supported ruthenium(0) nanoparticles: Highly active hydrogen evolution catalysts",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract In contrast to their nonorthometalated analogues (II), the known complexes (I) are active Catalysts for the hydrogenation of olefins such as (VIa)/(VIb).",
+              "doi": "https://doi.org/10.1002/chin.198626273",
+              "id": "https://doi.org/10.1002/chin.198626273",
+              "landing_page_url": "https://doi.org/10.1002/chin.198626273",
+              "publication_date": "2016-05-11",
+              "publication_year": 2016,
+              "source_name": "Chemischer Informationsdienst",
+              "title": "ChemInform Abstract: Enhancement of Catalytic Activity Through Orthometalation. Synthesis, Structure, and Catalytic Activity of a New Orthometalated Ruthenium Complex.",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jcis.2006.03.073",
+              "id": "https://doi.org/10.1016/j.jcis.2006.03.073",
+              "landing_page_url": "https://doi.org/10.1016/j.jcis.2006.03.073",
+              "publication_date": "2006-08-01",
+              "publication_year": 2006,
+              "source_name": "Journal of Colloid and Interface Science",
+              "title": "Control of silica shell thickness and microporosity of titania–silica core–shell type nanoparticles to depress the photocatalytic activity of titania",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1021/j100271a025",
+              "id": "https://doi.org/10.1021/j100271a025",
+              "landing_page_url": "https://doi.org/10.1021/j100271a025",
+              "publication_date": "2002-05-01",
+              "publication_year": 2002,
+              "source_name": "The Journal of Physical Chemistry",
+              "title": "Remarkable catalytic activity of cobalt tetraphenylporphyrin modified on a titania for the oxidation of carbon monoxide below room temperature",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "ruthenium titania interface temperature catalytic activity monotonic",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=ruthenium+titania+interface+temperature+catalytic+activity+monotonic&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        }
+      ],
+      "search_completed": true
+    },
+    "B": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.7546/crabs.2019.06.05",
+              "id": "https://doi.org/10.7546/crabs.2019.06.05",
+              "landing_page_url": "https://doi.org/10.7546/crabs.2019.06.05",
+              "publication_date": "2019-06-28",
+              "publication_year": 2019,
+              "source_name": null,
+              "title": "CO2 Hydrogenation to Methanol over PdZn/CeO2 Catalyst",
+              "type": "report"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jcou.2018.05.028",
+              "id": "https://doi.org/10.1016/j.jcou.2018.05.028",
+              "landing_page_url": "https://doi.org/10.1016/j.jcou.2018.05.028",
+              "publication_date": "2018-07-01",
+              "publication_year": 2018,
+              "source_name": "Journal of CO2 Utilization",
+              "title": "Amine-based CO2 capture sorbents: A potential CO2 hydrogenation catalyst",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jcou.2017.11.013",
+              "id": "https://doi.org/10.1016/j.jcou.2017.11.013",
+              "landing_page_url": "https://doi.org/10.1016/j.jcou.2017.11.013",
+              "publication_date": "2018-03-01",
+              "publication_year": 2018,
+              "source_name": "Journal of CO2 Utilization",
+              "title": "Artificial neural networks with response surface methodology for optimization of selective CO2 hydrogenation using K-promoted iron catalyst in a microchannel reactor",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1515/chem-2018-0141",
+              "id": "https://doi.org/10.1515/chem-2018-0141",
+              "landing_page_url": "https://doi.org/10.1515/chem-2018-0141",
+              "publication_date": "2018-12-31",
+              "publication_year": 2018,
+              "source_name": "Open Chemistry",
+              "title": "Hydrotalcite Anchored Ruthenium Catalyst for CO2 Hydrogenation Reaction",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract We developed a series of new organic-inorganic hybrid hydrotalcite functionalized Ru catalytic systems. All the developed materials have been studied by FTIR, N 2 physisorption, ICP-OES, XPS, NMR ( 1 H, 13 C, 29 Si) and TEM analysis were performed to know the physiochemical behavior and structural morphology of functionalized hydrotalcite materials. XPS results strongly suggest that it involves the formation of N-Ru coordination bonds. We applied these well analyzed materials for CO 2 hydrogenation reaction as catalyst (with and without ionic liquid medium). We found that Ru metal containing functionalized hydrotalcite materials were highly active and stable (in terms of catalyst leaching and recycling). The heterogeneous catalyst can be easily recovered and reused 8 times without significant loss of catalytic activity and selectivity, which is a better green alternative for practical applications.",
+              "doi": "https://doi.org/10.1515/chem-2018-0094",
+              "id": "https://doi.org/10.1515/chem-2018-0094",
+              "landing_page_url": "https://doi.org/10.1515/chem-2018-0094",
+              "publication_date": "2018-10-22",
+              "publication_year": 2018,
+              "source_name": "Open Chemistry",
+              "title": "Hydrotalcite Anchored Ruthenium Catalyst for CO2 Hydrogenation Reaction",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "We developed a series of new hydrotalcite functionalized Ru catalytic system to synthesize formic acid via CO2 hydrogenation reaction. Advance analytical procedures like FTIR, N2 physisorption, ICP-OES, XPS, and TEM analysis were applied to understand the physiochemical nature of functionalized hydrotalcite materials. This well-analyzed system was used as catalysts for CO2 hydrogenation reaction (with and without ionic liquid medium). Ru metal containing functionalized hydrotalcite materials were found highly active catalysts for formic acid synthesis via hydrogenation reaction. The concern of catalyst stability was studied via catalysts leaching and recycling experiments. We recycled the ionic liquid mediated functionalized hydrotalcite catalytic system up to 8 runs without any significant loss of catalytic activity. Surprisingly, no sign of catalyst leaching was recorded during the catalyst recycling experiment.",
+              "doi": "https://doi.org/10.2174/1570178615666180816120058",
+              "id": "https://doi.org/10.2174/1570178615666180816120058",
+              "landing_page_url": "https://doi.org/10.2174/1570178615666180816120058",
+              "publication_date": "2019-04-01",
+              "publication_year": 2019,
+              "source_name": "Letters in Organic Chemistry",
+              "title": "Hydrotalcite Anchored Ruthenium Catalyst for CO2 Hydrogenation Reaction",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jcou.2016.07.002",
+              "id": "https://doi.org/10.1016/j.jcou.2016.07.002",
+              "landing_page_url": "https://doi.org/10.1016/j.jcou.2016.07.002",
+              "publication_date": "2016-12-01",
+              "publication_year": 2016,
+              "source_name": "Journal of CO2 Utilization",
+              "title": "CO2 hydrogenation to methanol using Cu-Zn catalyst supported on reduced graphene oxide nanosheets",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/9783527824113.ch6",
+              "id": "https://doi.org/10.1002/9783527824113.ch6",
+              "landing_page_url": "https://doi.org/10.1002/9783527824113.ch6",
+              "publication_date": "2021-04-02",
+              "publication_year": 2021,
+              "source_name": "CO2 Hydrogenation Catalysis",
+              "title": "Heterogenized Catalyst for the Hydrogenation of\n            <scp>CO</scp>\n            <sub>2</sub>\n            to Formic Acid or Its Derivatives",
+              "type": "other"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "CO2 hydrogenation catalyst independent condition response shape",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=CO2+hydrogenation+catalyst+independent+condition+response+shape&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        },
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jcat.2021.10.030",
+              "id": "https://doi.org/10.1016/j.jcat.2021.10.030",
+              "landing_page_url": "https://doi.org/10.1016/j.jcat.2021.10.030",
+              "publication_date": "2021-12-01",
+              "publication_year": 2021,
+              "source_name": "Journal of Catalysis",
+              "title": "Solvent promotion on the metal-support interaction and activity of Pd@ZrO2 Catalyst: Formation of metal hydrides as the new catalytic active phase at the Solid-Liquid interface",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1201/9780203911013-34",
+              "id": "https://doi.org/10.1201/9780203911013-34",
+              "landing_page_url": "https://doi.org/10.1201/9780203911013-34",
+              "publication_date": "2002-11-13",
+              "publication_year": 2002,
+              "source_name": "Catalysis of Organic Reactions",
+              "title": "Catalytic Hydrogenation of Cinnamaldehyde: The Effects of Support and Supported Metal on Activity and Selectivity",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "The concept of very strong metal–support interactions (VSMSI) was defined in regard to the interactions that influence the catalytic properties of catalysts due to the creation of a new phase as a result of a solid-state chemical reaction between the metal and support. In this context, the high catalytic activity of the 1%Pt/Al2O3 catalyst in the CO oxidation reaction at room temperature was explained. The catalyst samples were reduced at different temperatures ranging from 500 °C to 800 °C and characterized using TPR, O2/H2 titration, CO chemisorption, TPD-CO, FTIR-CO, XRD, and TOF-SIMS methods. Based on the obtained results, it was claimed that with very high temperature reduction (800 °C), nonstoichiometric platinum species [Pt(Cl)Ox] strongly anchored to Al2O3 surface are formed. These species act as the oxygen adsorption sites.",
+              "doi": "https://doi.org/10.3390/catal11121475",
+              "id": "https://doi.org/10.3390/catal11121475",
+              "landing_page_url": "https://doi.org/10.3390/catal11121475",
+              "publication_date": "2021-12-01",
+              "publication_year": 2021,
+              "source_name": "Catalysts",
+              "title": "High Catalytic Activity of Pt/Al2O3 Catalyst in CO Oxidation at Room Temperature—A New Insight into Strong Metal–Support Interactions",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Pt/SiO 2 directly reduced in H 2 at 1073 K exhibited a high catalytic activity in propane dehydrogenation, primarily attributed to the electronic modification of Pt nanoparticles by the SMSI effect.",
+              "doi": "https://doi.org/10.1039/c7cc03859c",
+              "id": "https://doi.org/10.1039/c7cc03859c",
+              "landing_page_url": "https://doi.org/10.1039/c7cc03859c",
+              "publication_date": "2017-01-01",
+              "publication_year": 2017,
+              "source_name": "Chemical Communications",
+              "title": "Strong metal-support interaction between Pt and SiO\n                    <sub>2</sub>\n                    following high-temperature reduction: a catalytic interface for propane dehydrogenation",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract Review: 106 refs.",
+              "doi": "https://doi.org/10.1002/chin.201350259",
+              "id": "https://doi.org/10.1002/chin.201350259",
+              "landing_page_url": "https://doi.org/10.1002/chin.201350259",
+              "publication_date": "2013-11-21",
+              "publication_year": 2013,
+              "source_name": "ChemInform",
+              "title": "ChemInform Abstract: Au‐metal Oxide Support Interface as Catalytic Active Sites",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1038/221657a0",
+              "id": "https://doi.org/10.1038/221657a0",
+              "landing_page_url": "https://doi.org/10.1038/221657a0",
+              "publication_date": "1969-02-01",
+              "publication_year": 1969,
+              "source_name": "Nature",
+              "title": "Influence of Metal Support and Ultraviolet Irradiation on the Catalytic Activity of Nickel Oxide",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1201/9780203911013.ch31",
+              "id": "https://doi.org/10.1201/9780203911013.ch31",
+              "landing_page_url": "https://doi.org/10.1201/9780203911013.ch31",
+              "publication_date": "2010-06-11",
+              "publication_year": 2010,
+              "source_name": "Chemical Industries",
+              "title": "Catalytic Hydrogenation of Cinnamaldehyde",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.2172/10191456",
+              "id": "https://doi.org/10.2172/10191456",
+              "landing_page_url": "https://doi.org/10.2172/10191456",
+              "publication_date": "1992-12-31",
+              "publication_year": 1992,
+              "source_name": null,
+              "title": "Characterization of the metal-support interface in supported metal and supported metal complex catalysts. [Final report]",
+              "type": "report"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "metal support interface catalytic activity temperature validation",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=metal+support+interface+catalytic+activity+temperature+validation&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        }
+      ],
+      "search_completed": true
+    }
+  },
+  "generated_at": "2026-08-22",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "0a4c1ed22a69e8a597aaf56aec4b4e6252f5fbda769cec215b1c56cd37bf60d4",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Searches are frozen reproducible retrieval evidence within the declared provider, queries, cutoff, and result depth. They do not certify absence from all literature.",
+  "strict_before": "2022-01-01",
+  "target_doi_excluded": "10.1038/s41467-021-27910-4",
+  "task_id": "Energy_06_interface_response_boundaries",
+  "release": "V1.0"
+}

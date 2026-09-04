@@ -1,0 +1,427 @@
+{
+  "all_queries_completed": true,
+  "api_cutoff": "2019-12-31",
+  "cards": {
+    "A": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "The purpose of the study is to investigate the effects of L-carnitine on the exogenous acetate metabolism during hemodialysis together with the triglyceride and free fatty acid metabolism. Sixteen chronic renal failure patients on acetate dialysis were orally administered 1,200 mg of L-carnitine chloride per day for 12 weeks. Plasma triglyceride concentrations at 30 and 60 min following initiation of hemodialysis were significantly lower than before hemodialysis, while the plasma concentrations of free fatty acid at the same points into hemodialysis were significantly higher than before hemodialysis, whether L-carnitine chloride was being given or not. This is attributed to the enhanced degradation of triglyceride and the increased generation of the free fatty acid with heparin administration during hemodialysis. The L-carnitine chloride treatment did not affect the plasma triglyceride concentrations at 30 and 60 min into hemodialysis, whereas the free fatty acid concentrations at the same points into hemodialysis were significantly lower after L-carnitine chloride administration commenced than before it. This is attributed to the fact that fatty acid oxidation was enhanced following the L-carnitine chloride treatment. Compared to before the drug administration, the whole body clearance of exogenous acetate was significantly increased after the drug was given, and the plasma acetate level during hemodialysis fell accordingly. This is attributed to the fact that with L-carnitine chloride administration, the amount of accumulated acyl-CoA in the cytosol decreased and consequently the citrate cycle function increased.",
+              "doi": "https://doi.org/10.1159/000185322",
+              "id": "https://doi.org/10.1159/000185322",
+              "landing_page_url": "https://doi.org/10.1159/000185322",
+              "publication_date": "2008-12-09",
+              "publication_year": 2008,
+              "source_name": "Nephron",
+              "title": "Effects of L-Carnitine Administration on Short-Chain Fatty Acid (Acetic Acid) and Long-Chain Fatty Acid Metabolism during Hemodialysis",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.4009/jsdt1985.20.457",
+              "id": "https://doi.org/10.4009/jsdt1985.20.457",
+              "landing_page_url": "https://doi.org/10.4009/jsdt1985.20.457",
+              "publication_date": "1987-01-01",
+              "publication_year": 1987,
+              "source_name": "Journal of Japanese Society for Dialysis Therapy",
+              "title": "Effects of L-carnitine administration on metabolism of short-chain fatty acid (acetic acid) and long-chain fatty acid during hemodialysis",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/s11626-017-0226-2",
+              "id": "https://doi.org/10.1007/s11626-017-0226-2",
+              "landing_page_url": "https://doi.org/10.1007/s11626-017-0226-2",
+              "publication_date": "2018-03-12",
+              "publication_year": 2018,
+              "source_name": "In Vitro Cellular &amp; Developmental Biology - Animal",
+              "title": "Effect of short-chain fatty acids on the expression of genes involved in short-chain fatty acid transporters and inflammatory response in goat jejunum epithelial cells",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0168-6496(92)90049-y",
+              "id": "https://doi.org/10.1016/0168-6496(92)90049-y",
+              "landing_page_url": "https://doi.org/10.1016/0168-6496(92)90049-y",
+              "publication_date": "1992-07-01",
+              "publication_year": 1992,
+              "source_name": "FEMS Microbiology Ecology",
+              "title": "Estimation of short-chain fatty acid production from protein by human intestinal bacteria based on branched-chain fatty acid measurements",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.4016/6798.01",
+              "id": "https://doi.org/10.4016/6798.01",
+              "landing_page_url": "https://doi.org/10.4016/6798.01",
+              "publication_date": "2008-06-07",
+              "publication_year": 2008,
+              "source_name": "SciVee",
+              "title": "Method of extraction influences the detected short chain fatty acid concentration in human fecal samples",
+              "type": "dataset"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.26226/morressier.595a9c57d462b80296c9fec0",
+              "id": "https://doi.org/10.26226/morressier.595a9c57d462b80296c9fec0",
+              "landing_page_url": "https://doi.org/10.26226/morressier.595a9c57d462b80296c9fec0",
+              "publication_date": "2017-09-07",
+              "publication_year": 2017,
+              "source_name": null,
+              "title": "The short chain fatty acid sodium butyrate attenuates imiquimod-induced psoriasis-like skin inflammation",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0168-6496(92)90104-2",
+              "id": "https://doi.org/10.1016/0168-6496(92)90104-2",
+              "landing_page_url": "https://doi.org/10.1016/0168-6496(92)90104-2",
+              "publication_date": "1992-07-01",
+              "publication_year": 1992,
+              "source_name": "FEMS Microbiology Ecology",
+              "title": "Estimation of short-chain fatty acid production from protein by human intestinal bacteria based on branched-chain fatty acid measurements",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.14199/ppp-2017-015",
+              "id": "https://doi.org/10.14199/ppp-2017-015",
+              "landing_page_url": "https://doi.org/10.14199/ppp-2017-015",
+              "publication_date": "2017-01-01",
+              "publication_year": 2017,
+              "source_name": "Progress in Plant Protection",
+              "title": "Response of aboveground vegetative organs of Solanum tuberosum L. to short chain fatty acid (nonanoic acid) applied in different technical parameters of measurements",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "short chain fatty acid immune IL22 compartment response",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=short+chain+fatty+acid+immune+IL22+compartment+response&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        },
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0167-5699(94)90247-x",
+              "id": "https://doi.org/10.1016/0167-5699(94)90247-x",
+              "landing_page_url": "https://doi.org/10.1016/0167-5699(94)90247-x",
+              "publication_date": "1994-05-01",
+              "publication_year": 1994,
+              "source_name": "Immunology Today",
+              "title": "Nervous tissue as an immune compartment: the dialect of the immune response in the CNS",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.21608/epsj.2018.5602",
+              "id": "https://doi.org/10.21608/epsj.2018.5602",
+              "landing_page_url": "https://doi.org/10.21608/epsj.2018.5602",
+              "publication_date": "2018-03-06",
+              "publication_year": 2018,
+              "source_name": "Egyptian Poultry Science Journal",
+              "title": "EFFECT OF ORGANIC ACIDS SUPPLEMENTATION ON NUTRIENTS DIGESTIBILITY, GUT MICROBIOTA AND IMMUNE RESPONSE OF BROILER CHICKS",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/s00223-017-0331-y",
+              "id": "https://doi.org/10.1007/s00223-017-0331-y",
+              "landing_page_url": "https://doi.org/10.1007/s00223-017-0331-y",
+              "publication_date": "2017-09-30",
+              "publication_year": 2017,
+              "source_name": "Calcified Tissue International",
+              "title": "Gut Microbiota, Immune System, and Bone",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1201/9781317511571-23",
+              "id": "https://doi.org/10.1201/9781317511571-23",
+              "landing_page_url": "https://doi.org/10.1201/9781317511571-23",
+              "publication_date": "2014-10-01",
+              "publication_year": 2014,
+              "source_name": "The Immune System",
+              "title": "Disruption of Healthy Tissue by the Adaptive Immune Response",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.clnu.2005.02.009",
+              "id": "https://doi.org/10.1016/j.clnu.2005.02.009",
+              "landing_page_url": "https://doi.org/10.1016/j.clnu.2005.02.009",
+              "publication_date": "2005-06-01",
+              "publication_year": 2005,
+              "source_name": "Clinical Nutrition",
+              "title": "Aetiology of inflammatory bowel disease (IBD): Role of intestinal microbiota and gut-associated lymphoid tissue immune response",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-1-4684-3192-6_43",
+              "id": "https://doi.org/10.1007/978-1-4684-3192-6_43",
+              "landing_page_url": "https://doi.org/10.1007/978-1-4684-3192-6_43",
+              "publication_date": "1969-01-01",
+              "publication_year": 1969,
+              "source_name": "Advances in Experimental Medicine and Biology",
+              "title": "Effect of Isogenic Red Blood Cells Transfusion on the Immune Response of Mouse Radiation Chimeras",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "The effect of blood transfusions, given in low number (&lt;5), on the immune response of renal dialysis patients was studied. A significantly lowered response of lymphocytes to mitogen stimulation was observed in patients after as few as one, two or three transfusions, depending on the patient. This led to an increased ▵48/▵0 ratio reflected by the enhanced response of the cells following delayed addition of sub‐optimal dose of mitogen. There was no modification of the ratio of helper/inducer to suppressor/cytotoxic T cells subsets (OKT4/OKT8). The use of such simple in vitro tests in a strict protocol of transfusions could allow an adequate follow‐up thereby limiting the risks of sensitization. These results demonstrate that important phenomena affecting patients' immune response are turned on following even a low number of transfusions in the majority of uremic patients. This could probably be related to the beneficial effects of blood transfusions on the kidney allograft survival already described.",
+              "doi": "https://doi.org/10.1111/j.1399-0039.1984.tb00034.x",
+              "id": "https://doi.org/10.1111/j.1399-0039.1984.tb00034.x",
+              "landing_page_url": "https://doi.org/10.1111/j.1399-0039.1984.tb00034.x",
+              "publication_date": "2008-12-11",
+              "publication_year": 2008,
+              "source_name": "Tissue Antigens",
+              "title": "Blood transfusions in renal dialysis patients:",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-1-4684-3192-6_26",
+              "id": "https://doi.org/10.1007/978-1-4684-3192-6_26",
+              "landing_page_url": "https://doi.org/10.1007/978-1-4684-3192-6_26",
+              "publication_date": "1969-01-01",
+              "publication_year": 1969,
+              "source_name": "Advances in Experimental Medicine and Biology",
+              "title": "Immune Response in Mice: A Comparison of the Secondary Immune Response and the Response Elicited with Immune Complexes",
+              "type": "book-chapter"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "microbiota metabolite immune response tissue compartment effect",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=microbiota+metabolite+immune+response+tissue+compartment+effect&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        }
+      ],
+      "search_completed": true
+    },
+    "B": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "The purpose of the study is to investigate the effects of L-carnitine on the exogenous acetate metabolism during hemodialysis together with the triglyceride and free fatty acid metabolism. Sixteen chronic renal failure patients on acetate dialysis were orally administered 1,200 mg of L-carnitine chloride per day for 12 weeks. Plasma triglyceride concentrations at 30 and 60 min following initiation of hemodialysis were significantly lower than before hemodialysis, while the plasma concentrations of free fatty acid at the same points into hemodialysis were significantly higher than before hemodialysis, whether L-carnitine chloride was being given or not. This is attributed to the enhanced degradation of triglyceride and the increased generation of the free fatty acid with heparin administration during hemodialysis. The L-carnitine chloride treatment did not affect the plasma triglyceride concentrations at 30 and 60 min into hemodialysis, whereas the free fatty acid concentrations at the same points into hemodialysis were significantly lower after L-carnitine chloride administration commenced than before it. This is attributed to the fact that fatty acid oxidation was enhanced following the L-carnitine chloride treatment. Compared to before the drug administration, the whole body clearance of exogenous acetate was significantly increased after the drug was given, and the plasma acetate level during hemodialysis fell accordingly. This is attributed to the fact that with L-carnitine chloride administration, the amount of accumulated acyl-CoA in the cytosol decreased and consequently the citrate cycle function increased.",
+              "doi": "https://doi.org/10.1159/000185322",
+              "id": "https://doi.org/10.1159/000185322",
+              "landing_page_url": "https://doi.org/10.1159/000185322",
+              "publication_date": "2008-12-09",
+              "publication_year": 2008,
+              "source_name": "Nephron",
+              "title": "Effects of L-Carnitine Administration on Short-Chain Fatty Acid (Acetic Acid) and Long-Chain Fatty Acid Metabolism during Hemodialysis",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.4009/jsdt1985.20.457",
+              "id": "https://doi.org/10.4009/jsdt1985.20.457",
+              "landing_page_url": "https://doi.org/10.4009/jsdt1985.20.457",
+              "publication_date": "1987-01-01",
+              "publication_year": 1987,
+              "source_name": "Journal of Japanese Society for Dialysis Therapy",
+              "title": "Effects of L-carnitine administration on metabolism of short-chain fatty acid (acetic acid) and long-chain fatty acid during hemodialysis",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.15406/moji.2015.02.00034",
+              "id": "https://doi.org/10.15406/moji.2015.02.00034",
+              "landing_page_url": "https://doi.org/10.15406/moji.2015.02.00034",
+              "publication_date": "2015-02-13",
+              "publication_year": 2015,
+              "source_name": "MOJ Immunology",
+              "title": "The Cytotoxicity of a Short Chain Fatty Acid Histone Deacetylase Inhibitor on HCT116 Human Colorectal Carcinoma Cell Line",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/s11626-017-0226-2",
+              "id": "https://doi.org/10.1007/s11626-017-0226-2",
+              "landing_page_url": "https://doi.org/10.1007/s11626-017-0226-2",
+              "publication_date": "2018-03-12",
+              "publication_year": 2018,
+              "source_name": "In Vitro Cellular &amp; Developmental Biology - Animal",
+              "title": "Effect of short-chain fatty acids on the expression of genes involved in short-chain fatty acid transporters and inflammatory response in goat jejunum epithelial cells",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0168-6496(92)90049-y",
+              "id": "https://doi.org/10.1016/0168-6496(92)90049-y",
+              "landing_page_url": "https://doi.org/10.1016/0168-6496(92)90049-y",
+              "publication_date": "1992-07-01",
+              "publication_year": 1992,
+              "source_name": "FEMS Microbiology Ecology",
+              "title": "Estimation of short-chain fatty acid production from protein by human intestinal bacteria based on branched-chain fatty acid measurements",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.4016/6798.01",
+              "id": "https://doi.org/10.4016/6798.01",
+              "landing_page_url": "https://doi.org/10.4016/6798.01",
+              "publication_date": "2008-06-07",
+              "publication_year": 2008,
+              "source_name": "SciVee",
+              "title": "Method of extraction influences the detected short chain fatty acid concentration in human fecal samples",
+              "type": "dataset"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.26226/morressier.595a9c57d462b80296c9fec0",
+              "id": "https://doi.org/10.26226/morressier.595a9c57d462b80296c9fec0",
+              "landing_page_url": "https://doi.org/10.26226/morressier.595a9c57d462b80296c9fec0",
+              "publication_date": "2017-09-07",
+              "publication_year": 2017,
+              "source_name": null,
+              "title": "The short chain fatty acid sodium butyrate attenuates imiquimod-induced psoriasis-like skin inflammation",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0168-6496(92)90104-2",
+              "id": "https://doi.org/10.1016/0168-6496(92)90104-2",
+              "landing_page_url": "https://doi.org/10.1016/0168-6496(92)90104-2",
+              "publication_date": "1992-07-01",
+              "publication_year": 1992,
+              "source_name": "FEMS Microbiology Ecology",
+              "title": "Estimation of short-chain fatty acid production from protein by human intestinal bacteria based on branched-chain fatty acid measurements",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "short chain fatty acid dose immune response cell class nonmonotonic",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=short+chain+fatty+acid+dose+immune+response+cell+class+nonmonotonic&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        },
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1006/rwvi.1999.0153",
+              "id": "https://doi.org/10.1006/rwvi.1999.0153",
+              "landing_page_url": "https://doi.org/10.1006/rwvi.1999.0153",
+              "publication_date": "1999-01-01",
+              "publication_year": 1999,
+              "source_name": "Encyclopedia of Virology",
+              "title": "IMMUNE RESPONSE | Cell Mediated Immune Response",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1097/01.cot.0000530120.28418.4e",
+              "id": "https://doi.org/10.1097/01.cot.0000530120.28418.4e",
+              "landing_page_url": "https://doi.org/10.1097/01.cot.0000530120.28418.4e",
+              "publication_date": "2018-01-20",
+              "publication_year": 2018,
+              "source_name": "Oncology Times",
+              "title": "Novel Compound Restores Immune Response in Patients With Melanoma",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-3-642-76074-7_24",
+              "id": "https://doi.org/10.1007/978-3-642-76074-7_24",
+              "landing_page_url": "https://doi.org/10.1007/978-3-642-76074-7_24",
+              "publication_date": "1991-01-01",
+              "publication_year": 1991,
+              "source_name": "NATO ASI Series",
+              "title": "Invertebrate Immune Response to Fungal Cell Wall Components",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1128/microbe.1.192.3",
+              "id": "https://doi.org/10.1128/microbe.1.192.3",
+              "landing_page_url": "https://doi.org/10.1128/microbe.1.192.3",
+              "publication_date": "2006-04-01",
+              "publication_year": 2006,
+              "source_name": "Microbe Magazine",
+              "title": "Compound Unblocks Cellular Immune Response to Hepatitis C",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1201/b10503-2",
+              "id": "https://doi.org/10.1201/b10503-2",
+              "landing_page_url": "https://doi.org/10.1201/b10503-2",
+              "publication_date": "2011-01-26",
+              "publication_year": 2011,
+              "source_name": "Immune-based Cancer Treatment",
+              "title": "Which Cells Control the Anti-cancer T cell Immune Response?",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "&lt;div class=\"htmlview paragraph\"&gt;The paper describes experimental and analytical results for transient response of a prototype differential compound engine (DCE). It is shown that the transient response of the DCE is particularly favorable due to two inherent features: the low inertia associated with the fully floating epicyclic gearbox and inherently favorable trapped air fuel ratios.&lt;/div&gt; &lt;div class=\"htmlview paragraph\"&gt;Comparisons between a hypothetical DCE and a similar turbocharged engine installed in a 24 ton truck bear on the findings on the prototype unit.&lt;/div&gt;",
+              "doi": "https://doi.org/10.4271/740722",
+              "id": "https://doi.org/10.4271/740722",
+              "landing_page_url": "https://doi.org/10.4271/740722",
+              "publication_date": "1974-02-01",
+              "publication_year": 1974,
+              "source_name": "SAE Technical Paper Series",
+              "title": "The Differential Compound Engine - Part 2: Transient Response of the Differential Compound Engine (DCE) Compared with Conventional Turbocharged Engines",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1201/9780203746912-2",
+              "id": "https://doi.org/10.1201/9780203746912-2",
+              "landing_page_url": "https://doi.org/10.1201/9780203746912-2",
+              "publication_date": "2017-10-05",
+              "publication_year": 2017,
+              "source_name": "Modeling and Differential Equations in Biology",
+              "title": "Mathematical Models of Humoral Immune Response",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "Dose information plays a key role in interpreting drug effects. This pivotal role has been recognized since the 16 th century by Paracelsus: “All things are poison, and nothing is without poison: the dose alone makes a thing not poison.” Dose response models are commonly used to evaluate drug’s effects in biochemical and cell-based assays. Pharmacological terms such as EC50, which refers to the drug’s concentration that induces a response half way between the base line and maximum concentration, are widely used in drug discovery researches. On the other hand, transcription-profiling experiments are usually performed at only one dose concentration and effects are identified by variance analysis. These single dose transcription-profiles are not suitable to distinguish effects with different potencies; hence they limit the utility of expression data in comparison to other bioassays. In this contribution we present the result of analysis of a cancer cell line response to compound treatment at 3 different dose concentrations (being DMSO, 5 µM and 10 µM). The response of the prostate cancer cell line (PC3) to a set of 561 small-molecule compounds has been measured in terms of gene expression, after 24 hours. The aim of this study is to identify genes that have been changed in response to the change of the dose concentration for each compound and to investigate common factors such as structure, protein target(s) or pathway motif similarity among compounds that exhibit similar gene expression patterns in response to dose concentration change.",
+              "doi": "https://doi.org/10.7490/f1000research.1110288.1",
+              "id": "https://doi.org/10.7490/f1000research.1110288.1",
+              "landing_page_url": "https://doi.org/10.7490/f1000research.1110288.1",
+              "publication_date": "2015-08-10",
+              "publication_year": 2015,
+              "source_name": null,
+              "title": "Cancer cell line response to compound dose change",
+              "type": "posted-content"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "compound concentration differential immune cell response",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=compound+concentration+differential+immune+cell+response&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        }
+      ],
+      "search_completed": true
+    }
+  },
+  "generated_at": "2026-08-22",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "f360310bc914c479dfc9656dc87e903ce4e85e86f643445959b6ec94df22d436",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Searches are frozen reproducible retrieval evidence within the declared provider, queries, cutoff, and result depth. They do not certify absence from all literature.",
+  "strict_before": "2020-01-01",
+  "target_doi_excluded": "10.1038/s41467-020-18262-6",
+  "task_id": "Life_06_contextual_immune_response",
+  "release": "V1.0"
+}

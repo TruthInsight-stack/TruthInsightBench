@@ -1,0 +1,427 @@
+{
+  "all_queries_completed": true,
+  "api_cutoff": "2017-12-31",
+  "cards": {
+    "A": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2017-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1127/zdgg/151/2000/309",
+              "id": "https://doi.org/10.1127/zdgg/151/2000/309",
+              "landing_page_url": "https://doi.org/10.1127/zdgg/151/2000/309",
+              "publication_date": "2000-11-01",
+              "publication_year": 2000,
+              "source_name": "Zeitschrift der Deutschen Geologischen Gesellschaft",
+              "title": "Rhein loess, ice cores and deep-sea cores during MIS 2-5",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract. We have studied the possibility of combining the high-resolution SAR segmentation and ice concentration estimated by radiometer brightness temperatures. Here we present an algorithm for mapping a radiometer-based concentration value for each SAR segment. The concentrations are estimated by a MLP neural network which has the AMSR-2 radiometer polarization ratios and gradient ratios of four radiometer channels as its inputs. The results have been compared numerically to the gridded FMI ice chart concentrations and high-resolution AMSR-2 ASI algorithm concentrations provided by University of Hamburg and also visually to the AMSR-2 bootstrap algorithm concentrations, which are given in much coarser resolution. The results when compared to FMI ice charts were very promising.",
+              "doi": "https://doi.org/10.5194/tcd-8-2213-2014",
+              "id": "https://doi.org/10.5194/tcd-8-2213-2014",
+              "landing_page_url": "https://doi.org/10.5194/tcd-8-2213-2014",
+              "publication_date": "2014-04-28",
+              "publication_year": 2014,
+              "source_name": null,
+              "title": "A sea ice concentration estimation algorithm utilizing radiometer and SAR data",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "Abstract. In this paper we analyze snow data from Soviet airborne expeditions Sever that was collected in the Arctic around places of landings in March, April and May and cover much wider area than the region of observations of Soviet North Pole drifting stations. Particularly, there were a lot of Sever observations in the Eurasian seas. We investigate the following snow parameters: average snow depth on the level ice, height and area of sastrugi, depth of snow dunes attached to ice ridges and depth of snow on hummocks. We have built new snow depth climatology for the late winter that was calculated using both Sever expedition and North Pole drifting station observations. Our result refines the description of snow depth in the central Arctic and provides detailed information on snow depth in the marginal seas. In the 1970s–80s the snow cover in the central Arctic had the following characteristics: the snow depth of the undisturbed snow was 21.2 cm, the depth of sastrugi (that occupied about 36 % of the ice surface) was 36.2 cm and the depth of snow assembled near the hummocks and ridges was about 65 cm. For the marginal seas Sever observations revealed that the average depth of undisturbed snow on the level ice changed from 9.8 cm in the Laptev Sea to 15.3 cm in the East Siberian Sea, the topmost value in the East Siberian Sea is explained by the highest proportion of multiyear ice there. Observations demonstrated a very high spatial variability of snow depth in the marginal seas characterized by standard deviation changing from 66 to 100 %. The average height of sastrugi in the Eurasian seas varied from 23 cm to about 32 cm with standard deviation from 50 to 56 %. Average area covered by sastrugi in the marginal seas was estimated as 36.5 % of the area of the ice floe where those features have been observed. The snow map introduced here as a new climatology is built from Sever and North Pole data, with the latter amounted to 6.1 % of the whole data set. On the whole, our snow depth map reveals lower values comparing to Warren climatology in the central Arctic and shows refined information for the Eurasian seas.",
+              "doi": "https://doi.org/10.5194/tc-2017-278",
+              "id": "https://doi.org/10.5194/tc-2017-278",
+              "landing_page_url": "https://doi.org/10.5194/tc-2017-278",
+              "publication_date": "2017-12-22",
+              "publication_year": 2017,
+              "source_name": null,
+              "title": "Snow depth on Arctic sea ice from historical in situ data",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "Abstract. Major ions were analysed in three firn cores from different ice rises located at Fimbul Ice Shelf (FIS): Kupol Ciolkovskogo (KC), Kupol Moskovskij (KM), and Blåskimen Island (BI), a 100 m long core drilled near the FIS edge (S100), and five snow pits (M1, M2, G3, G4, and G5) sampled on the ice shelf. These sites are distributed over the entire FIS area so that they provide a variety of elevation and distance to the sea. Sea-salt species (mainly Na+ and Cl−) generally dominate the precipitation chemistry in the study region. Concentrations of these ions were found to decrease with latitude and distance from the sea. We associate a significant six-fold increase in sea-salts observed in the S100 core after the 1950s with a change in deposition regime. This increase in sea-salt concentrations is synchronous with a shift in non-sea-salt sulfate (nssSO42−) toward negative values, suggesting a possible contribution of fractionated aerosol to the sea-salt load in the S100 core most likely by dry deposition. In contrast, wet deposition of atmospheric sea-salts is dominant in the three ice rises cores, and no evidence of a significant contribution of fractionated sea-salt to these sites was found. In summary, these results suggest that the S100 core contains a more local sea-salt signal, dominated by processes during sea-ice formation in the neighbouring waters. In contrast, the ice rises cores register the larger-scale signal of atmospheric flow conditions and transport of sea-salt aerosols produced over open water rather than local changes in sea-ice, wind-blown snow accumulated over sea-ice, and frost flower formation. These findings are a contribution to the understanding of the mechanisms behind sea-salt aerosol production, transport and deposition at coastal Antarctic sites, and for the improvement of the current Antarctic sea-ice reconstructions based on sea-salt chemical proxies obtained from ice cores.",
+              "doi": "https://doi.org/10.5194/tc-2017-148",
+              "id": "https://doi.org/10.5194/tc-2017-148",
+              "landing_page_url": "https://doi.org/10.5194/tc-2017-148",
+              "publication_date": "2017-08-01",
+              "publication_year": 2017,
+              "source_name": null,
+              "title": "Spatial and temporal variability of sea-salts in ice cores and snow pits from Fimbul Ice Shelf, Antarctica",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/tgrs.2002.808317",
+              "id": "https://doi.org/10.1109/tgrs.2002.808317",
+              "landing_page_url": "https://doi.org/10.1109/tgrs.2002.808317",
+              "publication_date": "2003-02-01",
+              "publication_year": 2003,
+              "source_name": "IEEE Transactions on Geoscience and Remote Sensing",
+              "title": "Sea ice concentration, ice temperature, and snow depth using AMSR-E data",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract. Sea ice cover in the Arctic Ocean is a continued focus of attention. This study assesses the capability of hindcast simulations of the Community Climate System Model (CCSM) to reproduce observed snow depths and densities overlying the Arctic Ocean sea ice. The model is evaluated using measurements provided by historic Russian polar drift stations. Following the identification of seasonal biases produced in the simulations, the thermodynamic transfer through the snow – ice column is perturbed to determine model sensitivity to these biases. This study concludes that perturbations on the order of the observed biases result in modification of the annual mean conductive flux of 0.5 W m−2 relative to an unmodified simulation. The results suggest that the ice has a complex response to snow characteristics, with ice of different thicknesses producing distinct reactions. Consequently, we suggest that the inclusion of additional snow evolution processes such as blowing snow, densification, and seasonal changes in snow conductivity in sea ice models would increase the fidelity of the model with respect to the physical system. Moreover, our results suggest that simulated high latitude precipitation biases have important effects on the simulated ice conditions, resulting in impacts on the Arctic climate in general in large-scale climate.",
+              "doi": "https://doi.org/10.5194/tcd-7-1495-2013",
+              "id": "https://doi.org/10.5194/tcd-7-1495-2013",
+              "landing_page_url": "https://doi.org/10.5194/tcd-7-1495-2013",
+              "publication_date": "2013-04-09",
+              "publication_year": 2013,
+              "source_name": null,
+              "title": "Arctic Ocean sea ice snow depth evaluation and bias sensitivity in CCSM",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.5194/tc-2017-278-supplement",
+              "id": "https://doi.org/10.5194/tc-2017-278-supplement",
+              "landing_page_url": "https://doi.org/10.5194/tc-2017-278-supplement",
+              "publication_date": "2017-12-22",
+              "publication_year": 2017,
+              "source_name": null,
+              "title": "Supplementary material to \"Snow depth on Arctic sea ice from historical in situ data\"",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "Abstract. The simulation of Antarctic sea ice in global climate models often does not agree with observations. In this study, we examine the compactness of sea ice, as well as the regional distribution of sea ice concentration, in climate models from the latest Coupled Model Intercomparison Project (CMIP5) and in satellite observations. We find substantial differences in concentration values between different sets of satellite observations, requiring careful treatment when comparing to models. As a fraction of total sea ice extent, models simulate too much loose, low-concentration sea ice cover throughout the year, and too little compact, high-concentration cover in the summer. In spite of the differences in physics between models, these tendencies are broadly consistent across the population of 27 CMIP5 simulations, a result not previously highlighted. Targeted model experiments with a coupled ocean – sea ice model show that over-estimation of low-concentration cover is partially determined by choice of constant floe diameter in the lateral melt scheme. This suggests that current sea ice thermodynamics contribute to the inadequate simulation of the low-concentration regime.",
+              "doi": "https://doi.org/10.5194/tc-2017-131",
+              "id": "https://doi.org/10.5194/tc-2017-131",
+              "landing_page_url": "https://doi.org/10.5194/tc-2017-131",
+              "publication_date": "2017-07-18",
+              "publication_year": 2017,
+              "source_name": null,
+              "title": "Consistent biases in Antarctic sea ice concentration simulated by\nclimate models",
+              "type": "posted-content"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "microplastic sea ice concentration depth cores",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=microplastic+sea+ice+concentration+depth+cores&filter=until-pub-date%3A2017-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2018-01-01"
+        },
+        {
+          "api_cutoff": "2017-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1029/180gm02",
+              "id": "https://doi.org/10.1029/180gm02",
+              "landing_page_url": "https://doi.org/10.1029/180gm02",
+              "publication_date": "2013-03-19",
+              "publication_year": 2013,
+              "source_name": "Geophysical Monograph Series",
+              "title": "Arctic Sea Ice Decline: Introduction",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "Abstract. In sea ice, interconnected pockets and channels of brine are surrounded by fresh ice. Over time, brine is lost by gravity drainage and flushing. The timing of salt release and its interaction with the underlying water can impact subsequent sea ice melt. Turbulence measurements 1 m below melting sea ice north of Svalbard reveal anti-correlated heat and salt fluxes. From the observations, 131 salty plumes descending from the warm sea ice are identified, confirming previous observations from a Svalbard fjord. The plumes are likely triggered by oceanic heat through bottom melt. Calculated over a composite plume, oceanic heat- and salt fluxes during the plumes account for 6 % and 9 % of the total fluxes, respectively, while only lasting in total 0.5 % of the time. The observed salt flux accumulates to 7.6 kg m−2, indicating nearly full desalination of the ice. Bulk salinity reduction between two nearby ice cores agree with accumulated salt fluxes to within factor of two. The increasing fraction of younger, more saline ice in the Arctic suggests an increase in desalination processes with the transition to the new Arctic.",
+              "doi": "https://doi.org/10.5194/os-2017-27",
+              "id": "https://doi.org/10.5194/os-2017-27",
+              "landing_page_url": "https://doi.org/10.5194/os-2017-27",
+              "publication_date": "2017-05-08",
+              "publication_year": 2017,
+              "source_name": null,
+              "title": "Observations of brine plumes below Arctic sea ice",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1029/180gm09",
+              "id": "https://doi.org/10.1029/180gm09",
+              "landing_page_url": "https://doi.org/10.1029/180gm09",
+              "publication_date": "2013-03-19",
+              "publication_year": 2013,
+              "source_name": "Geophysical Monograph Series",
+              "title": "Sea Ice-Albedo Feedback and Nonlinear Arctic Climate Change",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "Abstract. Sea ice melting is proposed as a primary reason for the Artic amplification, although physical mechanism of the Arctic amplification and its connection with sea ice melting is still in debate. In the present study, monthly ERA-interim reanalysis data are analyzed via cyclostationary empirical orthogonal function analysis to understand the seasonal mechanism of sea ice melting in the Arctic Ocean and the Arctic amplification. While sea ice melting is widespread over much of the perimeter of the Arctic Ocean in summer, sea ice remains to be thin in winter only in the Barents-Kara Seas. Excessive turbulent heat flux through the sea surface exposed to air due to sea ice melting warms the atmospheric column. Warmer air increases the downward longwave radiation and subsequently surface air temperature, which facilitates sea surface remains to be ice free. A 1 % reduction in sea ice concentration in winter leads to ~ 0.76 W m−2 increase in upward heat flux, ~ 0.07 K increase in 850 hPa air temperature, ~ 0.97 W m−2 increase in downward longwave radiation, and ~ 0.26 K increase in surface air temperature. This positive feedback mechanism is not clearly observed in the Laptev, East Siberian, Chukchi, and Beaufort Seas, since sea ice refreezes in late fall (November) before excessive turbulent heat flux is available for warming the atmospheric column in winter. A detailed seasonal heat budget is presented in order to understand specific differences between the Barents-Kara Seas and Laptev, East Siberian, Chukchi, and Beaufort Seas.",
+              "doi": "https://doi.org/10.5194/tc-2016-69",
+              "id": "https://doi.org/10.5194/tc-2016-69",
+              "landing_page_url": "https://doi.org/10.5194/tc-2016-69",
+              "publication_date": "2016-04-29",
+              "publication_year": 2016,
+              "source_name": null,
+              "title": "Mechanism   of   Seasonal   Arctic   Sea   Ice   Evolution   and   Arctic   Amplification",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/s002270000396",
+              "id": "https://doi.org/10.1007/s002270000396",
+              "landing_page_url": "https://doi.org/10.1007/s002270000396",
+              "publication_date": "2001-01-22",
+              "publication_year": 2001,
+              "source_name": "Marine Biology",
+              "title": "Abundance and variability of microorganisms and transparent exopolymer particles across the ice-water interface of melting first-year sea ice in the Laptev Sea (Arctic)",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.21236/ada601068",
+              "id": "https://doi.org/10.21236/ada601068",
+              "landing_page_url": "https://doi.org/10.21236/ada601068",
+              "publication_date": "2013-09-30",
+              "publication_year": 2013,
+              "source_name": null,
+              "title": "Sunlight, Sea Ice, and the Ice Albedo Feedback in a Changing Arctic Sea Ice Cover",
+              "type": "report"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1029/180gm13",
+              "id": "https://doi.org/10.1029/180gm13",
+              "landing_page_url": "https://doi.org/10.1029/180gm13",
+              "publication_date": "2013-03-19",
+              "publication_year": 2013,
+              "source_name": "Geophysical Monograph Series",
+              "title": "Analysis of Arctic Sea Ice Anomalies in a Coupled Model Control Simulation",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "Abstract. Arctic sea ice has not only decreased considerably during the last decades, but also changed its physical properties towards a thinner and more seasonal cover. These changes strongly impact the energy budget and might affect the ice-associated ecosystem of the Arctic. But until now, it is not possible to quantify shortwave energy fluxes through sea ice sufficiently well over large regions and during different seasons. Here, we present a new parameterization of light transmittance through sea ice for all seasons as a function of variable sea ice properties. The annual maximum solar heat flux of 30 × 105 J m−2 occurs in June, then also matching the under ice ocean heat flux. Furthermore, our results suggest that 96% of the total annual solar heat input occurs from May to August, during four months only. Applying the new parameterization on remote sensing and reanalysis data from 1979 to 2011, we find an increase in light transmission of 1.5% a−1 for all regions. Sensitivity studies reveal that the results strongly depend on the timing of melt onset and the correct classification of ice types. Hence, these parameters are of great importance for quantifying under-ice radiation fluxes and the uncertainty of this parameterization. Assuming a two weeks earlier melt onset, the annual budget increases by 20%. Continuing the observed transition from Arctic multi- to first year sea ice could increase light transmittance by another 18%. Furthermore, the increase in light transmission directly contributes to an increase in internal and bottom melt of sea ice, resulting in a positive transmittance-melt feedback process.",
+              "doi": "https://doi.org/10.5194/tcd-8-2923-2014",
+              "id": "https://doi.org/10.5194/tcd-8-2923-2014",
+              "landing_page_url": "https://doi.org/10.5194/tcd-8-2923-2014",
+              "publication_date": "2014-06-05",
+              "publication_year": 2014,
+              "source_name": null,
+              "title": "Seasonal cycle of solar energy fluxes through Arctic sea ice",
+              "type": "posted-content"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "Arctic sea ice microplastic abundance heterogeneity",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=Arctic+sea+ice+microplastic+abundance+heterogeneity&filter=until-pub-date%3A2017-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2018-01-01"
+        }
+      ],
+      "search_completed": true
+    },
+    "B": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2017-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0032-3950(81)90059-9",
+              "id": "https://doi.org/10.1016/0032-3950(81)90059-9",
+              "landing_page_url": "https://doi.org/10.1016/0032-3950(81)90059-9",
+              "publication_date": "1981-01-01",
+              "publication_year": 1981,
+              "source_name": "Polymer Science U.S.S.R.",
+              "title": "Study of the phase composition of polyethylene terephthalate",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0032-3861(82)90089-1",
+              "id": "https://doi.org/10.1016/0032-3861(82)90089-1",
+              "landing_page_url": "https://doi.org/10.1016/0032-3861(82)90089-1",
+              "publication_date": "1982-04-01",
+              "publication_year": 1982,
+              "source_name": "Polymer",
+              "title": "Effect of composition on molecular alignment in polyethylene terephthalate copolymers",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.5040/9781350907935",
+              "id": "https://doi.org/10.5040/9781350907935",
+              "landing_page_url": "https://doi.org/10.5040/9781350907935",
+              "publication_date": "2005-01-01",
+              "publication_year": 2005,
+              "source_name": "Ice/Sea",
+              "title": "Ice/Sea",
+              "type": "other"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1029/ar073p0107",
+              "id": "https://doi.org/10.1029/ar073p0107",
+              "landing_page_url": "https://doi.org/10.1029/ar073p0107",
+              "publication_date": "1998-01-01",
+              "publication_year": 1998,
+              "source_name": "Antarctic Research Series",
+              "title": "Composition and succession of sea ice diatom assemblages in the eastern and southern Weddell Sea, Antarctica",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1575/1912/6402",
+              "id": "https://doi.org/10.1575/1912/6402",
+              "landing_page_url": "https://doi.org/10.1575/1912/6402",
+              "publication_date": "2014-01-01",
+              "publication_year": 2014,
+              "source_name": null,
+              "title": "Amundsen Sea sea-ice variability, atmospheric circulation, and spatial variations in snow isotopic composition from new West Antarctic firn cores",
+              "type": "monograph"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/s0967-0645(99)00030-2",
+              "id": "https://doi.org/10.1016/s0967-0645(99)00030-2",
+              "landing_page_url": "https://doi.org/10.1016/s0967-0645(99)00030-2",
+              "publication_date": "1999-06-01",
+              "publication_year": 1999,
+              "source_name": "Deep Sea Research Part II: Topical Studies in Oceanography",
+              "title": "Abundance, biomass and composition of the sea ice biota of the Greenland Sea pack ice",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.5270/esa-b3sjbcw",
+              "id": "https://doi.org/10.5270/esa-b3sjbcw",
+              "landing_page_url": "https://doi.org/10.5270/esa-b3sjbcw",
+              "publication_date": "2002-01-01",
+              "publication_year": 2002,
+              "source_name": "Ice-sheets and sea ice",
+              "title": "Ice-sheets and sea ice",
+              "type": "dataset"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.5270/esa-dspyy6t",
+              "id": "https://doi.org/10.5270/esa-dspyy6t",
+              "landing_page_url": "https://doi.org/10.5270/esa-dspyy6t",
+              "publication_date": "2003-01-01",
+              "publication_year": 2003,
+              "source_name": "Sea-ice and Inland ice",
+              "title": "Sea-ice and Inland ice",
+              "type": "dataset"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "sea ice polymer composition polyethylene varnish",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=sea+ice+polymer+composition+polyethylene+varnish&filter=until-pub-date%3A2017-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2018-01-01"
+        },
+        {
+          "api_cutoff": "2017-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.5040/9781350907935",
+              "id": "https://doi.org/10.5040/9781350907935",
+              "landing_page_url": "https://doi.org/10.5040/9781350907935",
+              "publication_date": "2005-01-01",
+              "publication_year": 2005,
+              "source_name": "Ice/Sea",
+              "title": "Ice/Sea",
+              "type": "other"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.5270/esa-b3sjbcw",
+              "id": "https://doi.org/10.5270/esa-b3sjbcw",
+              "landing_page_url": "https://doi.org/10.5270/esa-b3sjbcw",
+              "publication_date": "2002-01-01",
+              "publication_year": 2002,
+              "source_name": "Ice-sheets and sea ice",
+              "title": "Ice-sheets and sea ice",
+              "type": "dataset"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.5270/esa-dspyy6t",
+              "id": "https://doi.org/10.5270/esa-dspyy6t",
+              "landing_page_url": "https://doi.org/10.5270/esa-dspyy6t",
+              "publication_date": "2003-01-01",
+              "publication_year": 2003,
+              "source_name": "Sea-ice and Inland ice",
+              "title": "Sea-ice and Inland ice",
+              "type": "dataset"
+            },
+            {
+              "abstract": "Abstract. Recent studies based on satellite observations have shown that there is a high statistical connection between the late winter (Feb-May) sea ice export out the Laptev Sea, and the ice coverage in the following summer. By means of airborne sea ice thickness surveys made over pack ice areas in the southeastern Laptev Sea, we show that years of offshore directed sea ice transport have a thinning effect on the late winter sea ice cover, and vice versa. Once temperature rise above freezing, these thin ice zones melt more rapidly and hence, precondition local anomalies in summer sea ice cover. The preconditioning effect of the winter ice dynamics for the summer sea ice extent is confirmed with a model sensitivity study where we replace the inter-annual summer atmospheric forcing by a climatology. In the model, years with high late winter sea ice export always result in a reduced sea ice cover, and vice versa. We conclude that the observed tendency towards an increased ice export further accelerates ice retreat in summer. The mechanism presented in this study highlights the importance of winter ice dynamics for summer sea ice anomalies in addition to atmospheric processes acting on the ice cover between May and September. Finally, we show that ice dynamics in winter not only precondition local summer ice extent, but also accelerate fast ice decay.",
+              "doi": "https://doi.org/10.5194/tc-2017-28",
+              "id": "https://doi.org/10.5194/tc-2017-28",
+              "landing_page_url": "https://doi.org/10.5194/tc-2017-28",
+              "publication_date": "2017-03-15",
+              "publication_year": 2017,
+              "source_name": null,
+              "title": "Winter sea ice export from the Laptev Sea preconditions the local summer sea ice cover",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "Abstract. We propose a method to compute nearly noise-free sea ice deformation fields from SAR-derived motion and present the results of its application to RGPS sea ice trajectories. The method is based on two steps. The first step consists of using a triangulation of the positions taken from the sea ice trajectories to define a mesh on which a first estimate of sea ice deformation is computed. The second step consists of applying a specific smoother to the deformation field to reduce the artificial noise that arises along discontinuities in the sea ice motion field. From the comparison between unfiltered and filtered fields, we estimate that the artificial noise causes an overestimation of about 60% of opening and closing. The artificial noise also has a strong impact on the statistical distribution of the deformation and on the scaling exponents estimated with multi-fractal analysis. These findings may have serious implications for previous studies as the constant overestimation of the opening and closing could lead to a large overestimation of freezing in leads, salt rejection and sea ice ridging.",
+              "doi": "https://doi.org/10.5194/tcd-8-5105-2014",
+              "id": "https://doi.org/10.5194/tcd-8-5105-2014",
+              "landing_page_url": "https://doi.org/10.5194/tcd-8-5105-2014",
+              "publication_date": "2014-10-10",
+              "publication_year": 2014,
+              "source_name": null,
+              "title": "On producing sea ice deformation dataset from SAR-derived sea ice motion",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/icecc.2011.6066358",
+              "id": "https://doi.org/10.1109/icecc.2011.6066358",
+              "landing_page_url": "https://doi.org/10.1109/icecc.2011.6066358",
+              "publication_date": "2011-09-01",
+              "publication_year": 2011,
+              "source_name": "2011 International Conference on Electronics, Communications and Control (ICECC)",
+              "title": "Temporal mixture analysis in monitoring Antarctic sea ice concentration variability",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "Abstract. The Baltic Sea is a seasonally ice covered marginal sea located in a densely populated area in northern Europe. Severe sea ice conditions have the potential to hinder the intense ship traffic considerably. Thus, sea ice fore- and nowcasts are regularly provided by the national weather services. Typically, several ice properties are allocated, but their actual usefulness is difficult to measure and the ship captains must determine their relative importance and relevance for optimal ship speed and safety ad hoc. The present study provides a more objective approach by comparing the ship speeds, obtained by the Automatic Identification System (AIS), with the respective forecasted ice conditions. We find that, despite an unavoidable random component, this information is useful to constrain and rate fore- and nowcasts. More precisely, 62–67% of ship speed variations can be explained by the forecasted ice properties when fitting a mixed effect model. This statistical fit is based on a test region in the Bothnian Bay during the severe winter 2011 and employes 15 to 25 min averages of ship speed.",
+              "doi": "https://doi.org/10.5194/tcd-8-3811-2014",
+              "id": "https://doi.org/10.5194/tcd-8-3811-2014",
+              "landing_page_url": "https://doi.org/10.5194/tcd-8-3811-2014",
+              "publication_date": "2014-07-15",
+              "publication_year": 2014,
+              "source_name": null,
+              "title": "Ice and AIS: ship speed data and sea ice forecasts in the Baltic Sea",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-3-319-71279-6_3",
+              "id": "https://doi.org/10.1007/978-3-319-71279-6_3",
+              "landing_page_url": "https://doi.org/10.1007/978-3-319-71279-6_3",
+              "publication_date": "2017-12-28",
+              "publication_year": 2017,
+              "source_name": "Springer Water",
+              "title": "Microplastic Abundance and Polymer Types in a Mediterranean Environment",
+              "type": "book-chapter"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "microplastic polymer mixture sea ice horizons",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=microplastic+polymer+mixture+sea+ice+horizons&filter=until-pub-date%3A2017-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2018-01-01"
+        }
+      ],
+      "search_completed": true
+    }
+  },
+  "generated_at": "2026-08-22",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "87233aba9cd06e26837b1b9a557429d9679398e30a9173ef1615c280177ac451",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Searches are frozen reproducible retrieval evidence within the declared provider, queries, cutoff, and result depth. They do not certify absence from all literature.",
+  "strict_before": "2018-01-01",
+  "target_doi_excluded": "10.1038/s41467-018-03825-5",
+  "task_id": "EarthScience_03_ice_particle_composition",
+  "release": "V1.0"
+}

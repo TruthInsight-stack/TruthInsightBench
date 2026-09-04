@@ -1,0 +1,21 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "dynamic nuclear polarization echo phase inversion electron nuclear spin",
+        "pulsed dynamic nuclear polarization time reversal refocusing echo"
+      ]
+    },
+    "B": {
+      "queries": [
+        "dynamic nuclear polarization refocusing observed EPR NMR phase inversion",
+        "electron nuclear polarization transfer echo time reversal pulsed DNP"
+      ]
+    }
+  },
+  "provider": "frozen_bibliographic_snapshot",
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2024-06-26",
+  "task_id": "Physics_01_dynamic_nuclear_polarization_echoes",
+  "release": "V1.0"
+}

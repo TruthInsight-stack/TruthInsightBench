@@ -1,0 +1,231 @@
+{
+  "analysis_unit": "One published erosion-rate estimate per row; multiple rows from the same paper, site, or compilation are not fully independent replicates.",
+  "domain": "earth_science",
+  "files": [
+    {
+      "bundled": true,
+      "bytes": 9363,
+      "materialization_required": false,
+      "path": "raw/beryllium.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "cde5b0794baf9622e74e9749fd38514cfd9ab63fb54250baf6a15777c983e4d2"
+    },
+    {
+      "bundled": true,
+      "bytes": 117004,
+      "materialization_required": false,
+      "path": "raw/glacial_erosion_Earth.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "b49192d77082fd431963ca67278d9face1079e8054711b84296554573c24e2cf"
+    },
+    {
+      "bundled": true,
+      "bytes": 25837,
+      "materialization_required": false,
+      "path": "raw/lithology_parsed.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "cfeb948dfc91fb3f9bb8a511ac4b06db49950cb9ae9ac5a4a6dbeeb0e3a5fe52"
+    },
+    {
+      "bundled": true,
+      "bytes": 555816,
+      "materialization_required": false,
+      "path": "raw/lithology_parsed_nonglacial.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "613eed80774145e0ab4fc02842845b9c8235210a9375e52e0edb1ae074e074c9"
+    },
+    {
+      "bundled": true,
+      "bytes": 225,
+      "materialization_required": false,
+      "path": "raw/lithology_reference.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "fa1f1ac37fe320193b0ecc0b932d0a874da0e89070952d64b634d3d5ed08a114"
+    },
+    {
+      "bundled": true,
+      "bytes": 225,
+      "materialization_required": false,
+      "path": "raw/lithology_reference_nonglacial.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "fa1f1ac37fe320193b0ecc0b932d0a874da0e89070952d64b634d3d5ed08a114"
+    },
+    {
+      "bundled": true,
+      "bytes": 63752,
+      "materialization_required": false,
+      "path": "raw/lithology_unparsed.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "a35c4508e54560a3e47b14e30f4e3ea8346e150770ef11c96634c10f3e5add54"
+    },
+    {
+      "bundled": true,
+      "bytes": 1385057,
+      "materialization_required": false,
+      "path": "raw/lithology_unparsed_nonglacial.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "f78b0da0b02e23c0b1883462f5c8b01c3a49b844932198de2f35c8c5603da701"
+    },
+    {
+      "bundled": true,
+      "bytes": 1662513,
+      "materialization_required": false,
+      "path": "raw/nonglacial_erosion_Earth.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "214063142d936c3a5408583b682397042392b4d46e0443e30c88811fbe9fee89"
+    },
+    {
+      "bundled": true,
+      "bytes": 1513,
+      "materialization_required": false,
+      "path": "raw/prior compilations/CHELSEA/annualprecipitation.jl",
+      "role": "scientific_data",
+      "sha256": "0382a24d004961127e00440af20e416d6f5c0e8a81317e5911d2b5603e7a1342"
+    },
+    {
+      "bundled": true,
+      "bytes": 10543,
+      "materialization_required": false,
+      "path": "raw/prior compilations/CHELSEA/precipitation_glacial.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "24c72eb98ad29659e5275959755ec064e4a3cfd4301ebcd5aa7a11f3d5260126"
+    },
+    {
+      "bundled": true,
+      "bytes": 154572,
+      "materialization_required": false,
+      "path": "raw/prior compilations/CHELSEA/precipitation_nonglacial.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "1a0075335963506e93a89a013c1d85c7db32bdeddfe787862be1a02401dba296"
+    },
+    {
+      "bundled": true,
+      "bytes": 1902,
+      "materialization_required": false,
+      "path": "raw/prior compilations/CHELSEA/references.txt",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "42bd95d10e4a9da30fc5870a86bd7b2eff2170296a3c6cfb347d9bd4f26c746e"
+    },
+    {
+      "bundled": true,
+      "bytes": 153924,
+      "materialization_required": false,
+      "path": "raw/prior compilations/Chen et al. 2023/Chen_et_al_2021_short-term_erosion_rate_data.csv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "5a0668568db63339e8ed83c2196edc258b2c0d975c120588fca90503842fcb4f"
+    },
+    {
+      "bundled": true,
+      "bytes": 253975,
+      "materialization_required": false,
+      "path": "raw/prior compilations/GloRiSe/GloRiSe combined.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "a419086603c8a6a52742cee08abf9a953958fe921d4109f2759e3e22ef5fbff1"
+    },
+    {
+      "bundled": true,
+      "bytes": 66818,
+      "materialization_required": false,
+      "path": "raw/prior compilations/OCTOPUS/octopusages.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "89a9feb971dac5dbe850cf786083ecd0bfe5a10f9ea877ad39f9b9d87e241665"
+    },
+    {
+      "bundled": true,
+      "bytes": 1600386,
+      "materialization_required": false,
+      "path": "raw/prior compilations/OCTOPUS/octopusdata.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "dd7620a0078af24a6e1882faaa76c22bc74d7d0243d265e5bf2d1fb6174ee4c0"
+    },
+    {
+      "bundled": true,
+      "bytes": 2397,
+      "materialization_required": false,
+      "path": "raw/prior compilations/OCTOPUS/octopusexposureage.jl",
+      "role": "scientific_data",
+      "sha256": "17172ed350479323955a2c3c13d6531286e3232df389b7bf2badceef205230b8"
+    },
+    {
+      "bundled": true,
+      "bytes": 49,
+      "materialization_required": false,
+      "path": "raw/source_notes.txt",
+      "role": "scientific_data",
+      "sha256": "439086b61c2ae6beffe241882fc23309cb4d07b7a4f4db7930a646070b96b8a3"
+    },
+    {
+      "bundled": true,
+      "bytes": 8440,
+      "materialization_required": false,
+      "path": "raw/slope_glacial.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "fe6da89d7cd43389930f980d0bb71b32dddc795f499bf61508e56fb3956f2853"
+    },
+    {
+      "bundled": true,
+      "bytes": 115468,
+      "materialization_required": false,
+      "path": "raw/slope_nonglacial.tsv",
+      "role": "tabular_or_text_scientific_data",
+      "sha256": "3d8e9432844157a64ecae54636a0b3b41c49a5f1128493366673d10474541629"
+    }
+  ],
+  "freeze_status": "frozen",
+  "license_boundary": "Article and Zenodo code/data record: CC BY 4.0.",
+  "missingness": "Missing values and extremes are retained and must be audited at row level.",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "schema": "truthinsightbench-data-manifest",
+  "scientific_scope": "The complete public compilation, including main tables, topographic and lithologic auxiliary tables, and earlier compilations.",
+  "t0": "2024-10-17",
+  "task_id": "EarthScience_01_glacial_fluvial_erosion",
+  "title": "Scale and Measurement Boundaries of Glacial and Nonglacial Erosion Rates",
+  "variable_dictionary": [
+    {
+      "file_or_pattern": "raw/glacial_erosion_Earth.tsv",
+      "measures": [
+        "Erosion rate (mm/yr)",
+        "Time interval (yr)",
+        "Methodology",
+        "Type",
+        "Area (km2)",
+        "Precipitation (mm/yr)",
+        "Slope (m/km)",
+        "Latitude"
+      ]
+    },
+    {
+      "file_or_pattern": "raw/nonglacial_erosion_Earth.tsv",
+      "measures": [
+        "Erosion rate (mm/yr)",
+        "Time interval (yr)",
+        "Methodology",
+        "Type",
+        "Area (km2)",
+        "Precipitation (mm/yr)",
+        "Slope (m/km)",
+        "Latitude"
+      ]
+    },
+    {
+      "file_or_pattern": "raw/**",
+      "measures": [
+        "complete auxiliary and prior-compilation fields retained from the frozen source"
+      ]
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "warnings": [
+    "Rates span orders of magnitude; define averaging and regression in log space and report filtering rules.",
+    "Rows sharing a source, site, or compilation may be correlated.",
+    "A rate-timescale slope can arise mechanically from fixed measured thickness; stratify by Methodology.",
+    "Any exclusion, winsorization, or weighting must retain a row-level audit trail."
+  ],
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

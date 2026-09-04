@@ -1,0 +1,72 @@
+{
+  "schema": "truthinsightbench-data-manifest",
+  "task_id": "Life_08_environmental_transfer_boundary",
+  "title": "Unit- and Site-Level Environmental Transfer Boundaries",
+  "domain": "life_science",
+  "t0": "2020-01-01",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "scientific_scope": "All frozen unit-level, site-level, symptom-linked, and quantitative-assay observations within the selected environmental sampling boundary.",
+  "analysis_unit": "One sampled unit with its sites and study days; sites from the same unit are repeated observations rather than independent units.",
+  "missingness": "No curator-imposed row deletion, random subsampling, or imputation is applied within the frozen task boundary.",
+  "license_boundary": "The selected observations are from a CC BY article record and are bundled after unit and site identity removal.",
+  "warnings": [
+    "The observational data cannot by themselves prove a transmission route or direction.",
+    "Unit-level blocking is required to avoid treating many sampled sites as independent subjects."
+  ],
+  "variable_dictionary": {
+    "unit_level_observations.tsv": [
+      "unit_id",
+      "illness_day",
+      "stay_day",
+      "quantitative_assay_value",
+      "any_environment_positive"
+    ],
+    "site_level_observations.tsv": [
+      "unit_id",
+      "site_role_id",
+      "positive"
+    ],
+    "symptom_assay_surface_summary.tsv": [
+      "unit_id",
+      "illness_day",
+      "symptom_present",
+      "surface_positive_percent",
+      "quantitative_assay_value"
+    ]
+  },
+  "source_projection_inventory": [],
+  "files": [
+    {
+      "path": "unit_level_observations.tsv",
+      "bytes": 723,
+      "sha256": "4a5bc4c28cfbc165f6d2587f727cf7304926dd167a09fed9fc0371f781e7a3bb",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "site_level_observations.tsv",
+      "bytes": 3868,
+      "sha256": "1e9eecdea9b80ee30440ce02d9cfa57a93be758bf5feb2c20869858b74fc4827",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "symptom_assay_surface_summary.tsv",
+      "bytes": 737,
+      "sha256": "e342263ddb037ffcb480a822ef8f48728660bdcd0bc78ad7c683485f9a479cea",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

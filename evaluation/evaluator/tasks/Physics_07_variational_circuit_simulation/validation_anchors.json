@@ -1,0 +1,230 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "作者RBM参数更新精确实现QAOA成本层，与独立Cirq状态向量在数值精度内一致。",
+      "independent_reconstruction_method": "Frozen evaluator recomputation: verification/recompute/A.py",
+      "non_exhaustive_validation_anchor": true,
+      "object": "将QAOA MaxCut对角成本层应用到RBM波函数后的完整量子态",
+      "one_liner": "RBM成本层在4类图、12个用例上对精确状态的最低全态保真度为0.9999999999999996。",
+      "perturbation_bindings": [
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition_frozen.py",
+          "script_sha256": "c073a6ce4582b6cfd986c6916aedfcc1e8118d0d2e5041df478d75085245b8f8"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method_frozen.py",
+          "script_sha256": "1211789c2e4ba9f9f762f61e6d46f2bd994a02d9be4f1a50ee20b2057319839d"
+        },
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample_frozen.py",
+          "script_sha256": "c04ca5b454064da72f92fa0d3ffae3b85a38300282cc67a4ea0090992bfd17cc"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "measurement: \"在预注册新小图和gamma上比较RBM成本层与独立状态向量的全态保真度\"; expected_range: [0.9999999999, 1.0000000001]; failure_criterion: \"任一用例全态保真度低于0.9999999999，或隐单元增量不再与边数一一对应\""
+      },
+      "quantities": [
+        {
+          "key": "case_count",
+          "role": "supporting",
+          "tolerance_rel": 0,
+          "unit": "case",
+          "value": 12
+        },
+        {
+          "key": "minimum_exact_state_fidelity",
+          "role": "core",
+          "tolerance_rel": 1e-10,
+          "unit": "fidelity",
+          "value": 0.9999999999999996
+        },
+        {
+          "key": "maximum_absolute_one_minus_fidelity",
+          "role": "supporting",
+          "tolerance_rel": 0.2,
+          "unit": "absolute_error",
+          "value": 2.220446049250313e-15
+        },
+        {
+          "key": "hidden_units_minus_edges_min",
+          "role": "supporting",
+          "tolerance_rel": 0,
+          "unit": "hidden_unit",
+          "value": 1
+        },
+        {
+          "key": "hidden_units_minus_edges_max",
+          "role": "supporting",
+          "tolerance_rel": 0,
+          "unit": "hidden_unit",
+          "value": 1
+        },
+        {
+          "key": "graph_count",
+          "role": "supporting",
+          "tolerance_rel": 0,
+          "unit": "graph",
+          "value": 4
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "values": [
+          {
+            "json_path": "values.case_count",
+            "quantity_key": "case_count"
+          },
+          {
+            "json_path": "values.minimum_exact_state_fidelity",
+            "quantity_key": "minimum_exact_state_fidelity"
+          },
+          {
+            "json_path": "values.maximum_absolute_one_minus_fidelity",
+            "quantity_key": "maximum_absolute_one_minus_fidelity"
+          },
+          {
+            "json_path": "values.hidden_units_minus_edges_min",
+            "quantity_key": "hidden_units_minus_edges_min"
+          },
+          {
+            "json_path": "values.hidden_units_minus_edges_max",
+            "quantity_key": "hidden_units_minus_edges_max"
+          },
+          {
+            "json_path": "values.graph_count",
+            "quantity_key": "graph_count"
+          }
+        ],
+        "script_sha256": "098487d8ea17d1d0e5f11a98e791dad5f4f429c9655ed077f4e639838e210c2f"
+      },
+      "scope": "4个5–6节点图家族与3个固定gamma，共12个用例；只检验成本层精确表示，不把辅助p=1解析式冒充独立论文发现。",
+      "target_alignment": {
+        "paper_claim_paraphrase": "目标论文给出QAOA成本门的精确RBM更新，每条边的成本作用可用新隐单元表示。",
+        "paper_location": "Methods, exact RBM representation of the QAOA cost unitary",
+        "rationale": "冻结Action直接调用作者RBM.UC/RZZ路径，对12个用例计算完整归一化RBM幅并与独立Cirq状态向量比较。",
+        "status": "reported_target_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "小图上的完整p=2 RBM管线在成本层精确、混合门近似和层间压缩后仍保持高全态保真度。",
+      "independent_reconstruction_method": "Frozen evaluator recomputation: verification/recompute/B.py",
+      "non_exhaustive_validation_anchor": true,
+      "object": "作者RBM在两层QAOA中经历精确成本层、近似混合门和层间压缩后的全态保真度",
+      "one_liner": "三个6比特图的p=2 RBM管线中，p=1最低保真度为0.980595，压缩为0.999180，p=2为0.975604，单门终值为0.990405。",
+      "perturbation_bindings": [
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition_frozen.py",
+          "script_sha256": "a6b2643191dbda2a43b7d3ded4e98fda9b9f763bbcc586fbe9e02895859bc8f3"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method_frozen.py",
+          "script_sha256": "8162e624119e18ed4fd6a7aa0f2b4d3b2acac4b0e79e35527c5082d411f7659c"
+        },
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample_frozen.py",
+          "script_sha256": "b3679ec3424d83c6a88585931dab8c6629bf1a3f4ce7a984b0f8f6a2c6e99f8c"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "measurement: \"在预注册新6比特图种子上运行同一p=2 RBM管线并计算p=1、压缩和p=2全态保真度\"; expected_range: [0.92, 1.0]; failure_criterion: \"p=1保真度低于0.94，压缩低于0.95，或p=2低于0.92\""
+      },
+      "quantities": [
+        {
+          "key": "case_count",
+          "role": "supporting",
+          "tolerance_rel": 0,
+          "unit": "case",
+          "value": 3
+        },
+        {
+          "key": "minimum_p1_final_fidelity",
+          "role": "core",
+          "tolerance_rel": 0.01,
+          "unit": "fidelity",
+          "value": 0.9805953975270472
+        },
+        {
+          "key": "minimum_compression_exact_fidelity",
+          "role": "core",
+          "tolerance_rel": 0.005,
+          "unit": "fidelity",
+          "value": 0.9991800836013702
+        },
+        {
+          "key": "minimum_p2_final_fidelity",
+          "role": "core",
+          "tolerance_rel": 0.01,
+          "unit": "fidelity",
+          "value": 0.9756043403530013
+        },
+        {
+          "key": "minimum_gate_terminal_fidelity",
+          "role": "core",
+          "tolerance_rel": 0.01,
+          "unit": "fidelity",
+          "value": 0.9904045325288312
+        },
+        {
+          "key": "graph_seed_count",
+          "role": "supporting",
+          "tolerance_rel": 0,
+          "unit": "graph",
+          "value": 3
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "values": [
+          {
+            "json_path": "values.case_count",
+            "quantity_key": "case_count"
+          },
+          {
+            "json_path": "values.minimum_p1_final_fidelity",
+            "quantity_key": "minimum_p1_final_fidelity"
+          },
+          {
+            "json_path": "values.minimum_compression_exact_fidelity",
+            "quantity_key": "minimum_compression_exact_fidelity"
+          },
+          {
+            "json_path": "values.minimum_p2_final_fidelity",
+            "quantity_key": "minimum_p2_final_fidelity"
+          },
+          {
+            "json_path": "values.minimum_gate_terminal_fidelity",
+            "quantity_key": "minimum_gate_terminal_fidelity"
+          },
+          {
+            "json_path": "values.graph_seed_count",
+            "quantity_key": "graph_seed_count"
+          }
+        ],
+        "script_sha256": "998957d6cca48e3067e514126e73a26182b3fe65e61f9e327f1d8bdbdd88737a"
+      },
+      "scope": "三个固定随机种子的6比特3正则图，固定优化器、MCMC与角度输入；不验证论文20/54比特规模性声称。",
+      "target_alignment": {
+        "paper_claim_paraphrase": "目标论文报告RBM可在小规模精确基准上以高保真度近似低深度QAOA状态。",
+        "paper_location": "Results and Methods, variational RBM simulation of low-depth QAOA",
+        "rationale": "冻结Action扩展为三个预定图，使用作者优化器与RBM完整经过两层管线，逐图与精确状态比较；规模性结论明确排除。",
+        "status": "source_data_extension",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "Two verified validation anchors for blind-rediscovery diagnostics; not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2020-03-30",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Physics_07_variational_circuit_simulation",
+  "release": "V1.0"
+}

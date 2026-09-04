@@ -1,0 +1,21 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "classical simulation quantum approximate optimization low depth circuit analytic",
+        "variational Monte Carlo simulation quantum optimization circuit cost gradient"
+      ]
+    },
+    "B": {
+      "queries": [
+        "restricted Boltzmann machine quantum circuit state simulation approximate optimization",
+        "neural network quantum states simulate variational quantum algorithms fidelity"
+      ]
+    }
+  },
+  "provider": "frozen_bibliographic_snapshot",
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2020-03-30",
+  "task_id": "Physics_07_variational_circuit_simulation",
+  "release": "V1.0"
+}

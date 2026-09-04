@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Information_03_signal_surface_invariants",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition.py",
+      "script_sha256": "0698fdf30bbdd739a251cffc23c921b7e8f39bf1f2d70b1c2de2aa89b9e20673"
+    },
+    {
+      "script": "verification/perturb/A/method.py",
+      "script_sha256": "e5f1e25559dbe50bfce51a1682272fa11bfb225581285140fdcb77c4e2f5446b"
+    },
+    {
+      "script": "verification/perturb/A/sample.py",
+      "script_sha256": "00ae08378e82c31aeb88f7f4fb121a01019d72d0fc2b754bd581be6ab0831646"
+    },
+    {
+      "script": "verification/perturb/B/definition.py",
+      "script_sha256": "ead61d3c825b896142f96e8e506a9b1816d1c61d6a18040a3db9a4e1f9c4501a"
+    },
+    {
+      "script": "verification/perturb/B/method.py",
+      "script_sha256": "fdb7e46f7caad0c6b6e19f57885db69aa5e1493b6233ec87750efe99bb305645"
+    },
+    {
+      "script": "verification/perturb/B/sample.py",
+      "script_sha256": "027c6399fa9498d048370f3642b21c1de568eeb4b123c798d3c060b190ce1436"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "e3945a6fb89ffb4dd3802622f3172b6cb41307da5f675612a658b5a81fb2402d"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "af2e25d990956a7c3f774513a55a887f8eb8de74d98e7c012049a438d8049285"
+    }
+  ],
+  "verification_tree_sha256": "b3bb995097d7c8b443065d6a58c1a97b22e44bf05ec7f3c173a9ff87097d58a6",
+  "verification_file_count": 8,
+  "shared_runtime_tree_sha256": "d8710168f8a9c9ce1fd4946fdcfa0a279806376236feda46a5384b7f302428e9",
+  "shared_runtime_file_count": 4
+}

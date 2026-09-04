@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Life_08_environmental_transfer_boundary",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition.py",
+      "script_sha256": "a525b0bda901ef3b9bffa2300801835b9696353c60b0730ede3e02890f1116a4"
+    },
+    {
+      "script": "verification/perturb/A/method.py",
+      "script_sha256": "68c5d57eda18603e763968a193d8f128c14780b120a019021e74a5212ce8ea77"
+    },
+    {
+      "script": "verification/perturb/A/sample.py",
+      "script_sha256": "f0aa149191d44db194553a1233f30b51e77a01bfc9bfb98a5af1b0ec01b72639"
+    },
+    {
+      "script": "verification/perturb/B/definition.py",
+      "script_sha256": "952ed5dac0c4a880124445d6dc381ba550fb83f2f8f672b3e17150ec276f39c9"
+    },
+    {
+      "script": "verification/perturb/B/method.py",
+      "script_sha256": "890aeebdef352b2612cc7db902a35693932989846d07090bd61d5cb81e217dac"
+    },
+    {
+      "script": "verification/perturb/B/sample.py",
+      "script_sha256": "b85567abe57271863e96b2b7093ce7d2cf7eefc390c66f4383cb190d3256d760"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "9cc85ce678803eeb9ceba34bbe93d08a3d5a809fc037e579922b8d3d6c8514ca"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "3063648e9dbd44a49d6b6606df91cd55a5dad3a570f9f113263de2263a04b795"
+    }
+  ],
+  "verification_tree_sha256": "737318fba649f4b1f2af48fc4970d05c54224b592a3b60cf75d7853afb6b4edb",
+  "verification_file_count": 8,
+  "shared_runtime_tree_sha256": "d8710168f8a9c9ce1fd4946fdcfa0a279806376236feda46a5384b7f302428e9",
+  "shared_runtime_file_count": 4
+}

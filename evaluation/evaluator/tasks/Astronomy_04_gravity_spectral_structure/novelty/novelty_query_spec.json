@@ -1,0 +1,27 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "planet gravity Doppler residual oscillation structured model",
+        "spacecraft gravity residual normal modes"
+      ]
+    },
+    "B": {
+      "queries": [
+        "giant planet normal mode 1000 microhertz gravity",
+        "planet oscillation amplitude spectrum p modes"
+      ]
+    }
+  },
+  "frozen_at": "2026-08-22",
+  "provider": "OpenAlex_primary_with_Crossref_fallback",
+  "provider_api": [
+    "https://api.openalex.org/works",
+    "https://api.crossref.org/works"
+  ],
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2022-01-01",
+  "target_doi_excluded": "10.1038/s41467-022-32299-9",
+  "task_id": "Astronomy_04_gravity_spectral_structure",
+  "release": "V1.0"
+}

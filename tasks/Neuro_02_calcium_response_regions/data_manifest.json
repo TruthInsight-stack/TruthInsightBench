@@ -1,0 +1,51 @@
+{
+  "schema": "truthinsightbench-data-manifest",
+  "task_id": "Neuro_02_calcium_response_regions",
+  "title": "Region-, Condition-, and Batch-Dependent Calcium Response Structure",
+  "domain": "neuroscience",
+  "t0": "2020-01-01",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "scientific_scope": "All frozen per-cell calcium response summaries across anonymous anatomical regions, conditions, recording batches, slices, and ages.",
+  "analysis_unit": "One cell nested within a recording slice, batch, and biological source; cells from a shared slice are not independent animals.",
+  "missingness": "No curator-imposed row deletion, random subsampling, or imputation is applied within the frozen task boundary.",
+  "license_boundary": "The selected source-data workbook is CC BY and all retained per-cell measurements are bundled after region and recording identity removal.",
+  "warnings": [
+    "Cell-level differences cannot substitute for biological-source or recording-batch replication.",
+    "Region, condition, age, slice, and batch effects may be confounded and require grouped checks."
+  ],
+  "variable_dictionary": {
+    "cellular_calcium_response_summaries.tsv": [
+      "observation_id",
+      "recording_batch_id",
+      "animal_age_days",
+      "slice_id",
+      "condition",
+      "anatomical_region_id",
+      "mean_amplitude_dff0",
+      "mean_time_to_peak_s",
+      "mean_peak_width_s",
+      "mean_peak_prominence_dff0",
+      "mean_peak_frequency_hz",
+      "mean_auc_au"
+    ]
+  },
+  "source_projection_inventory": [],
+  "files": [
+    {
+      "path": "cellular_calcium_response_summaries.tsv",
+      "bytes": 161023,
+      "sha256": "671e26682bb4c21e9cbd65a5531c07ac316f690a4c9df40d30e4c5a6e22add80",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

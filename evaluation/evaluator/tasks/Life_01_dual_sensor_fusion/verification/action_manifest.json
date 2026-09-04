@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Life_01_dual_sensor_fusion",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/method_median.py",
+      "script_sha256": "205b11a9103f1d7436d47bfe6dd81f334261b58e144a3fdd98e264c24bffc5fa"
+    },
+    {
+      "script": "verification/perturb/A/sample_leave_one_out.py",
+      "script_sha256": "a65b3089480a6557836f52964cc8a9839673bf7187e76b94fa322dafa95abe94"
+    },
+    {
+      "script": "verification/perturb/A/window_first_frame.py",
+      "script_sha256": "b55eaeb92e2993f59e0a86da4c613a85db6cefa45b0d5514c4ba694cd1363b1c"
+    },
+    {
+      "script": "verification/perturb/B/definition_20uM.py",
+      "script_sha256": "5430f9df04ddfc949eafaf3db12e5d575d0be65acbfb115ea17f09058b9e659c"
+    },
+    {
+      "script": "verification/perturb/B/method_median.py",
+      "script_sha256": "ec69e7229b47741e27a0b4e1b87b0a07881f1b6d684e9646c5dbbb6685efaefb"
+    },
+    {
+      "script": "verification/perturb/B/sample_leave_one_out.py",
+      "script_sha256": "6278402e0e35155fe078eb0cf3ded78744f8bee10ba6af369f31cfba12eef1de"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "e7024ecb6765121d35f262ef628c468aa3b01fb634949b0104e7aab10945ac91"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "8e709fbd880d006fac714078a94bc1410c4f90f911d79ac9593ae424e3d7371c"
+    }
+  ],
+  "verification_tree_sha256": "ba5a982c0e04fa3e6d1716eb261da1758837119bd208c37fba7598267843db0c",
+  "verification_file_count": 9,
+  "shared_runtime_tree_sha256": "d8710168f8a9c9ce1fd4946fdcfa0a279806376236feda46a5384b7f302428e9",
+  "shared_runtime_file_count": 4
+}

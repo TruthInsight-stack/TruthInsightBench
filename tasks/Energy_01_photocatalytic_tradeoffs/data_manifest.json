@@ -1,0 +1,79 @@
+{
+  "schema": "truthinsightbench-data-manifest",
+  "task_id": "Energy_01_photocatalytic_tradeoffs",
+  "title": "Cross-Modal Performance and Kinetic Tradeoffs in Photocatalytic Formulations",
+  "domain": "energy",
+  "t0": "2022-01-01",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "scientific_scope": "All frozen numerical series for the four task modalities: product-evolution time courses, optical/action spectra, ultrafast transient traces, and cofactor-loading response.",
+  "analysis_unit": "One complete formulation time course, spectrum, transient trace, or loading condition; neighboring curve points are not independent replicates.",
+  "missingness": "No curator-imposed row deletion, random subsampling, or imputation is applied within the frozen task boundary.",
+  "license_boundary": "The archived target article and source-data workbook are CC BY; every numerical row in the four frozen task modalities is bundled after identity-neutral projection.",
+  "warnings": [
+    "Cross-modal association does not by itself establish a unique charge-transfer mechanism.",
+    "The loading scan has few settings, so an apparent optimum must be treated as a bounded observation rather than a universal optimum."
+  ],
+  "variable_dictionary": {
+    "conversion_timecourses.tsv": [
+      "formulation_id",
+      "illumination_time_h",
+      "gaseous_product_umol"
+    ],
+    "optical_action_spectra.tsv": [
+      "measurement_role",
+      "wavelength_nm",
+      "response_au_or_percent"
+    ],
+    "ultrafast_transient_traces.tsv": [
+      "formulation_id",
+      "delay_ps",
+      "normalized_transient_signal"
+    ],
+    "cofactor_loading_response.tsv": [
+      "cofactor_loading_percent",
+      "product_evolution_rate_umol_h"
+    ]
+  },
+  "files": [
+    {
+      "path": "conversion_timecourses.tsv",
+      "bytes": 541,
+      "sha256": "90b25f070700e1b926ec71e669db37e0cb1db96da8316bcbfebc1fd81b5d3ffa",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "optical_action_spectra.tsv",
+      "bytes": 21737,
+      "sha256": "0d00c837f3ec48c009337ee5301a81e9ab4fd6db4063417ebf3809af06282c70",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "ultrafast_transient_traces.tsv",
+      "bytes": 6132,
+      "sha256": "11a903bb232d1e0ed013552de915686100c4a59bcac919d8a43ef8ceb58a88bc",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "cofactor_loading_response.tsv",
+      "bytes": 102,
+      "sha256": "7989d5ace46bebde92e71ddf5b52f94373cf8cef2d466e9a2d77f687567dabac",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

@@ -1,0 +1,164 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "两个观测在同一窄区间共同开启，支持相关作用驱动的有限采样候选边界",
+      "independent_reconstruction_method": "Frozen evaluator recomputation: verification/recompute/A.py",
+      "non_exhaustive_validation_anchor": true,
+      "object": "同一多体数值模型的两份独立能隙样控制参数扫描",
+      "one_liner": "两份独立能隙样扫描均在控制比0.8–0.9之间由负转正。",
+      "perturbation_bindings": [
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition_frozen.py",
+          "script_sha256": "7afb78625944bc6587008ff38bd160009b16d6ee4314f18c7e595d9897d8b836"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method_frozen.py",
+          "script_sha256": "96f6ed17821cb138a0ab74ed12c899cbed2b45f79c6cd5f8191b37d1ddb96d6c"
+        },
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample_frozen.py",
+          "script_sha256": "6bc0100e245cf98d73b91a53e2dc66d64a3f02fa8ed34f98f0793b00e9aa351d"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "measurement: \"在控制比0.8与0.9之间增加至少三个等距点，并对两份能隙样观测按冻结汇总复算\"; expected_range: [0.8, 0.9]; failure_criterion: \"任一观测的稳定过零点落在0.8–0.9之外，或加密扫描只支持无边界的平滑基线\""
+      },
+      "quantities": [
+        {
+          "key": "common_onset_lower",
+          "role": "core",
+          "tolerance_rel": 0.01,
+          "unit": "control_ratio",
+          "value": 0.8
+        },
+        {
+          "key": "common_onset_upper",
+          "role": "core",
+          "tolerance_rel": 0.01,
+          "unit": "control_ratio",
+          "value": 0.9
+        },
+        {
+          "key": "common_onset_midpoint",
+          "role": "supporting",
+          "tolerance_rel": 0.02,
+          "unit": "control_ratio",
+          "value": 0.85
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "values": [
+          {
+            "json_path": "values.common_onset_lower",
+            "quantity_key": "common_onset_lower"
+          },
+          {
+            "json_path": "values.common_onset_upper",
+            "quantity_key": "common_onset_upper"
+          },
+          {
+            "json_path": "values.common_onset_midpoint",
+            "quantity_key": "common_onset_midpoint"
+          }
+        ],
+        "script_sha256": "63054e2b7b19ab6dd34dc2df0dcf9be98e50499a86590ca49ebb30d2e03dcfa5"
+      },
+      "scope": "控制比0–8的完整有序扫描；以每个控制点的中位数和零阈值冻结候选边界",
+      "target_alignment": {
+        "paper_claim_paraphrase": "目标论文报告电子关联超过阈值后 Haldane gap 开启，并以多类观测定位同一转变区间。",
+        "paper_location": "Results, opening of the Haldane gap and the threshold interaction",
+        "rationale": "冻结复算器从作者完整图数据的两份能隙扫描独立重算共同过零区间。",
+        "status": "reported_target_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "拓扑样谱重组已经广泛出现，而局域量尚未饱和，支持非单一局域幅度驱动的关联重组",
+      "independent_reconstruction_method": "Frozen evaluator recomputation: verification/recompute/B.py",
+      "non_exhaustive_validation_anchor": true,
+      "object": "候选边界附近的离散谱简并、总磁矩和电荷涨落",
+      "one_liner": "在候选开启点控制比0.9000，离散谱多重简并比例为0.9000，而总磁矩仅达高控制端的0.5436。",
+      "perturbation_bindings": [
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition_frozen.py",
+          "script_sha256": "8fb60a753c8391088fa74be9166b4e8caf92e2d8461d86e41ce38ba08f125c15"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method_frozen.py",
+          "script_sha256": "6a156429555e2d013d96c7f58c73ad58554c0f07b452fc3db02f177a529e5a2e"
+        },
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample_frozen.py",
+          "script_sha256": "07cbe35d8ec170bd76092ae4234d512d4f19cc5788911c60976b4d08004eff37"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "measurement: \"在候选区间新增更密的控制点，同时测量谱简并比例和局域量相对高控制端的比例\"; expected_range: [0.8, 0.95]; failure_criterion: \"谱多重简并比例低于0.75，或局域量已达到高控制端的0.95以上，使两类观测不再分离\""
+      },
+      "quantities": [
+        {
+          "key": "onset_control_ratio",
+          "role": "supporting",
+          "tolerance_rel": 0.01,
+          "unit": "control_ratio",
+          "value": 0.9
+        },
+        {
+          "key": "multifold_spectrum_fraction_at_onset",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "fraction",
+          "value": 0.9
+        },
+        {
+          "key": "local_observable_high_control_fraction_at_onset",
+          "role": "core",
+          "tolerance_rel": 0.03,
+          "unit": "fraction",
+          "value": 0.5435618941
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "values": [
+          {
+            "json_path": "values.onset_control_ratio",
+            "quantity_key": "onset_control_ratio"
+          },
+          {
+            "json_path": "values.multifold_spectrum_fraction_at_onset",
+            "quantity_key": "multifold_spectrum_fraction_at_onset"
+          },
+          {
+            "json_path": "values.local_observable_high_control_fraction_at_onset",
+            "quantity_key": "local_observable_high_control_fraction_at_onset"
+          }
+        ],
+        "script_sha256": "7d321f9f143597ffbd418c166a789a4f8dbf21e59831f3f2b568b72d478f84a3"
+      },
+      "scope": "控制比0.9的50个谱条目及同一点总磁矩；以控制比8的总磁矩作高控制端参照",
+      "target_alignment": {
+        "paper_claim_paraphrase": "目标论文强调 Haldane phase 在局域磁矩尚未充分形成时已经由电子关联建立。",
+        "paper_location": "Results and figures on local moments, gap opening and entanglement-spectrum degeneracy",
+        "rationale": "冻结验证器将谱简并比例与同一点的局域量直接对齐，而不把单一曲线过零冒充完整机制。",
+        "status": "reported_target_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "Two verified validation anchors for blind-rediscovery diagnostics; not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2023-04-21",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Physics_02_multiorbital_transition",
+  "release": "V1.0"
+}

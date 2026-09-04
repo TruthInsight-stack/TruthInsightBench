@@ -1,0 +1,427 @@
+{
+  "all_queries_completed": true,
+  "api_cutoff": "2021-12-31",
+  "cards": {
+    "A": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "An age-depth model for laminated sediments of Lake Soppensee is constructed using radiocarbon ages of macrofossils and a depositional model of the OxCal v 4.1 program with the updated IntCal09 data set. The resulting calendar chronology is compared with the varve chronology that was built for this record in a previous study (Hajdas 1993); there is a very good agreement between the 2 approaches. This illustrates the potential of high-resolution 14 C dating for construction of reliable, high-resolution calendar timescales for sedimentary records. Based on the age-depth model of this study, the Vasset/Killian tephra found in sediment of Soppensee dates to a calendar age of 9291–9412 cal BP (2-σ range) while the Lachersee tephra dates to 12,735–12,871 cal BP (2-σ range). Precise dating of the Late Glacial boundaries is possible with this chronology but requires more precise correlation between proxies and records than typically practiced.",
+              "doi": "https://doi.org/10.1017/s0033822200046117",
+              "id": "https://doi.org/10.1017/s0033822200046117",
+              "landing_page_url": "https://doi.org/10.1017/s0033822200046117",
+              "publication_date": "2016-07-18",
+              "publication_year": 2016,
+              "source_name": "Radiocarbon",
+              "title": "Age-Depth Model of Lake Soppensee (Switzerland) Based on the High-Resolution <sup>14</sup>C Chronology Compared with Varve Chronology",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "The Holocene varve chronology of annually laminated sediment sequences from Lake Meerfelder Maar agree for most of the record with dendro-calibrated accelerator mass spectronomy radiocarbon dates from the same site. Only between 9710 and 9950 cal BP does an offset of 240 yr appear between both data sets. At this position, a micro-disturbance in the varve succession has been detected by thin section analyses and was quantified in terms of missing varves. A comparison with the nearby record from Lake Holzmaar, as well providing high resolution AMS 14 C and varve chronologies, revealed that such gaps (ca. 2% in time for the entire Holocene) are exceptional for these long-varved maar lake records. Moreover, since sections of missing years appear for both profiles at different stratigraphic positions, a combination of both the Meerfelder Maar and Holzmaar records enables us to bridge erroneous zones in varve chronologies. This confirms the high potential of two long-varved records in close vicinity to each other for the elimination of dating errors and for increasing chronological precision at a time resolution that is normally regarded as within the counting errors. Late Glacial varve and 14 C data beyond the dendro-calibration from Meerfelder Maar and their tentative tele-connections to other high resolution data sets reveal unexplained age discrepancies in the calendar year time scale of about 200 years.",
+              "doi": "https://doi.org/10.1017/s0033822200030307",
+              "id": "https://doi.org/10.1017/s0033822200030307",
+              "landing_page_url": "https://doi.org/10.1017/s0033822200030307",
+              "publication_date": "2016-07-18",
+              "publication_year": 2016,
+              "source_name": "Radiocarbon",
+              "title": "AMS Radiocarbon and Varve Chronology from the Annually Laminated Sediment Record of Lake Meerfelder Maar, Germany",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "This article is a rejoinder to a recent paper in this journal by van der Plicht et al. (2009) who use radiocarbon determinations from several sites in Israel, Italy, Spain, and Tunisia to advocate a High Chronology system for the entire Mediterranean Basin. We contend that they reached mistaken conclusions due to problematic selection of sites and data. We argue that a reliable way to provide absolute dates for the Iron Age in the central and western Mediterranean is by employing a combination of well-identified Greek pottery found in well-stratified sites and radiometric results from short-lived samples. For the time being, this combination exists only in the Levant, and provides an anchor for Greek chronology, which supports the Conventional Chronology for the Aegean Basin, which corresponds to the Low Chronology in the Levant.",
+              "doi": "https://doi.org/10.1017/s0033822200034469",
+              "id": "https://doi.org/10.1017/s0033822200034469",
+              "landing_page_url": "https://doi.org/10.1017/s0033822200034469",
+              "publication_date": "2016-07-18",
+              "publication_year": 2016,
+              "source_name": "Radiocarbon",
+              "title": "Iron Age Mediterranean Chronology: A Rejoinder",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Since Marcel Edouard Mariën and his 1952 masterpiece synthesis Oud-België van de eerste landbouwers tot de komst van Caesar , the beginning of the Late Bronze Age in Belgium has been situated around 1100 BC, corresponding to the phase Ha A2. The scarcity of artifacts from Reinecke's phases Bz C and Ha Al seemed to confirm this theory. Based on an axe's hoard (Maaseik, Belgium) and the presence of grooved ware, the potential existence of a Bz D/Ha Al phase has been suggested but certainly not certified. Currently, a large campaign of analyses on bones from several Late Bronze Age sites is shedding new light on Bronze Age chronology.",
+              "doi": "https://doi.org/10.1017/s0033822200049523",
+              "id": "https://doi.org/10.1017/s0033822200049523",
+              "landing_page_url": "https://doi.org/10.1017/s0033822200049523",
+              "publication_date": "2016-02-09",
+              "publication_year": 2016,
+              "source_name": "Radiocarbon",
+              "title": "A New Perception of the Late Bronze Age Chronology in Belgium",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Since Marcel Edouard Mariën and his 1952 masterpiece synthesis Oud-België van de eerste landbouwers tot de komst van Caesar , the beginning of the Late Bronze Age in Belgium has been situated around 1100 BC, corresponding to the phase Ha A2. The scarcity of artifacts from Reinecke's phases Bz C and Ha Al seemed to confirm this theory. Based on an axe's hoard (Maaseik, Belgium) and the presence of grooved ware, the potential existence of a Bz D/Ha Al phase has been suggested but certainly not certified. Currently, a large campaign of analyses on bones from several Late Bronze Age sites is shedding new light on Bronze Age chronology.",
+              "doi": "https://doi.org/10.2458/56.17448",
+              "id": "https://doi.org/10.2458/56.17448",
+              "landing_page_url": "https://doi.org/10.2458/56.17448",
+              "publication_date": "2016-02-09",
+              "publication_year": 2016,
+              "source_name": "Radiocarbon",
+              "title": "A New Perception of the Late Bronze Age Chronology in Belgium",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Several articles reporting radiocarbon dates of Early Bronze Age (EB) material from excavations in the southern Levant have been published over the last 30 yr. The excavations conducted at Tell el-Hesi have produced material from which 2 additional 14 C dates have been extracted to date. The 2 samples confirm the EB dating of Field VI material and suggest EB III settlement at Hesi might be earlier than previously reported based on pottery typology.",
+              "doi": "https://doi.org/10.1017/s0033822200035426",
+              "id": "https://doi.org/10.1017/s0033822200035426",
+              "landing_page_url": "https://doi.org/10.1017/s0033822200035426",
+              "publication_date": "2016-07-18",
+              "publication_year": 2016,
+              "source_name": "Radiocarbon",
+              "title": "Southern Palestinian Chronology: Two Radiocarbon Dates for the Early Bronze Age at Tell El-Hesi (Israel)",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Over the years, 40 radiocarbon samples (charcoal and seeds) have been measured from the site of Tel Yarmuth. These samples originate from 3 major archaeological periods: Final Early Bronze Age (henceforth EB) I, EB II, and EB IIIB-C. The samples are further on divided into 8 separate archaeological phases. Bayesian modeling analyses were performed on the data. Separate models were run with seeds and charcoals to detect a possible old-wood effect. Outliers were detected, and finally models with gaps were run to account for the lack of samples from 2 archaeological layers. The results suggest that at Tel Yarmuth the end of the EB II occurred ∼2950–2880 BC, and that the EB III ended at the latest ∼2450 BC, perhaps before 2500 BC. Although these dates are somewhat earlier than traditionally assumed, they are in close accordance with the new analysis of other 14 C dates for the Early Bronze Age in the southern Levant (Regev et al., these proceedings).",
+              "doi": "https://doi.org/10.1017/s0033822200047238",
+              "id": "https://doi.org/10.1017/s0033822200047238",
+              "landing_page_url": "https://doi.org/10.1017/s0033822200047238",
+              "publication_date": "2016-07-18",
+              "publication_year": 2016,
+              "source_name": "Radiocarbon",
+              "title": "Early Bronze Age Chronology: Radiocarbon Dates and Chronological Models from Tel Yarmuth (Israel)",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "This article is a reply to the preceding rejoinder by Fantalkin et al., which they wrote in response to our article concerning radiocarbon dates of Iron Age sites in the Mediterranean region measured at Groningen (van der Plicht et al. 2009). We do not agree with much of their criticism. Our reply is presented in detail with new viewpoints and evaluations concerning a number of sites in the Levant, including Tel Dan, Megiddo Stratum VIA (= K/4), Horvat Haluqim, Tell el-Qudeirat, Khirbet en-Nahas, Tel Rehov, as well as sites in the central and western Mediterranean region, particularly Carthage and Huelva. Our main conclusions are that 14 C dating supports an Iron Age High Chronology for the above sites, though more 14 C dating is required, particularly in Greece and the central and western Mediterranean region, to substantiate and refine the current state of knowledge. We prefer detailed investigations per individual site, evaluating both 14 C dates and site stratigraphy, rather than the wholesale averaging of strata over many sites, which may lead to oversimplification and erroneous results, also on stratigraphic grounds. Contrary to Fantalkin et al. (2011), we emphasize the importance of 14 C dating as an independent methodology—chronostratigraphy—to evaluate site stratigraphy. The 14 C dates of Megiddo Stratum VIA (=K/4) clearly indicate field-stratigraphic problems at this site.",
+              "doi": "https://doi.org/10.1017/s0033822200034470",
+              "id": "https://doi.org/10.1017/s0033822200034470",
+              "landing_page_url": "https://doi.org/10.1017/s0033822200034470",
+              "publication_date": "2016-07-18",
+              "publication_year": 2016,
+              "source_name": "Radiocarbon",
+              "title": "Iron Age Mediterranean Chronology: A Reply",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "sediment core age model coordinate agreement radiocarbon chronology",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=sediment+core+age+model+coordinate+agreement+radiocarbon+chronology&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        },
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1575/1912/bco-dmo.784480.1",
+              "id": "https://doi.org/10.1575/1912/bco-dmo.784480.1",
+              "landing_page_url": "https://doi.org/10.1575/1912/bco-dmo.784480.1",
+              "publication_date": "2019-12-20",
+              "publication_year": 2019,
+              "source_name": "Biological and Chemical Oceanography Data Management Office",
+              "title": "Calculated power from the oxidation of necromass that is produced in marine sediment on a global scale.",
+              "type": "dataset"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0025-3227(82)90084-6",
+              "id": "https://doi.org/10.1016/0025-3227(82)90084-6",
+              "landing_page_url": "https://doi.org/10.1016/0025-3227(82)90084-6",
+              "publication_date": "1982-04-01",
+              "publication_year": 1982,
+              "source_name": "Marine Geology",
+              "title": "Mixing, sedimentation rates and age dating for sediment cores",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.margeo.2020.106361",
+              "id": "https://doi.org/10.1016/j.margeo.2020.106361",
+              "landing_page_url": "https://doi.org/10.1016/j.margeo.2020.106361",
+              "publication_date": "2020-12-01",
+              "publication_year": 2020,
+              "source_name": "Marine Geology",
+              "title": "Modelling flocculation: Towards an integration in large-scale sediment transport models",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0025-3227(83)90064-6",
+              "id": "https://doi.org/10.1016/0025-3227(83)90064-6",
+              "landing_page_url": "https://doi.org/10.1016/0025-3227(83)90064-6",
+              "publication_date": "1983-07-01",
+              "publication_year": 1983,
+              "source_name": "Marine Geology",
+              "title": "Mixing, sedimentation rates and age dating for sediment cores — Reply II",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0025-3227(83)90062-2",
+              "id": "https://doi.org/10.1016/0025-3227(83)90062-2",
+              "landing_page_url": "https://doi.org/10.1016/0025-3227(83)90062-2",
+              "publication_date": "1983-07-01",
+              "publication_year": 1983,
+              "source_name": "Marine Geology",
+              "title": "Mixing, sedimentation rates and age dating for sediment cores — Comment",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.margeo.2020.106400",
+              "id": "https://doi.org/10.1016/j.margeo.2020.106400",
+              "landing_page_url": "https://doi.org/10.1016/j.margeo.2020.106400",
+              "publication_date": "2021-02-01",
+              "publication_year": 2021,
+              "source_name": "Marine Geology",
+              "title": "Corrigendum to “Modelling flocculation: Towards an integration in large-scale sediment transport models”, Marine Geology, 430, (2020), 106361",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.margeo.2004.03.011",
+              "id": "https://doi.org/10.1016/j.margeo.2004.03.011",
+              "landing_page_url": "https://doi.org/10.1016/j.margeo.2004.03.011",
+              "publication_date": "2004-06-01",
+              "publication_year": 2004,
+              "source_name": "Marine Geology",
+              "title": "Review of methods to measure short time scale sediment accumulation",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0025-3227(83)90063-4",
+              "id": "https://doi.org/10.1016/0025-3227(83)90063-4",
+              "landing_page_url": "https://doi.org/10.1016/0025-3227(83)90063-4",
+              "publication_date": "1983-07-01",
+              "publication_year": 1983,
+              "source_name": "Marine Geology",
+              "title": "Mixing, sedimentation rates and age dating for sediment cores — Reply I",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "marine sediment dual age scale uncertainty alignment",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=marine+sediment+dual+age+scale+uncertainty+alignment&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        }
+      ],
+      "search_completed": true
+    },
+    "B": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "&amp;lt;p&amp;gt;Reconstruction of ancient climate variability relies on inference from paleoclimate proxy data. However, such data often suffers from large uncertainties in particular concerning the age assigned to measured proxy values, which makes the derivation of clear conclusions challenging. Especially in the study of abrupt climatic shifts, dating uncertainties in the proxy archives merit increased attention, since they frequently happen to be of the same order of magnitude as the dynamics of interest. Yet, analyses of paleoclimate proxy reconstructions tend to focus on mean values and thereby conceal the full range of uncertainty. In addition, the statistical significance of the reported results is sometimes not or at least not accurately tested. Here we discuss both, methods for rigorous propagation of uncertainties and for hypothesis testing with applications to the Dansgaard-Oeschger (DO) events of the last glacial interval and their varying timings in different proxy variables and archives. We scrutinized the mathematical analysis of different paleoclimate records evidencing the DO events and provide results that take into account the full range of uncertainties. We discuss several possibilities of testing the significance of apparent leads and lags between transitions found in proxy data evidencing DO events within and across different ice core archives from Greenland and Antarctica.&amp;lt;/p&amp;gt;",
+              "doi": "https://doi.org/10.5194/egusphere-egu2020-15148",
+              "id": "https://doi.org/10.5194/egusphere-egu2020-15148",
+              "landing_page_url": "https://doi.org/10.5194/egusphere-egu2020-15148",
+              "publication_date": "2020-03-23",
+              "publication_year": 2020,
+              "source_name": null,
+              "title": "Hypothesis testing and uncertainty propagation in paleo climate proxy data evidencing abrupt climate shifts",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1126/science.260.5110.890",
+              "id": "https://doi.org/10.1126/science.260.5110.890",
+              "landing_page_url": "https://doi.org/10.1126/science.260.5110.890",
+              "publication_date": "1993-05-14",
+              "publication_year": 1993,
+              "source_name": "Science",
+              "title": "How Ice Age Climate Got the Shakes",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1093/actrade/9780199580699.003.0010",
+              "id": "https://doi.org/10.1093/actrade/9780199580699.003.0010",
+              "landing_page_url": "https://doi.org/10.1093/actrade/9780199580699.003.0010",
+              "publication_date": "2014-01-23",
+              "publication_year": 2014,
+              "source_name": "The Ice Age",
+              "title": "9. Ice cores, abrupt climate shifts, and ecosystem change",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-3-642-69317-5_8",
+              "id": "https://doi.org/10.1007/978-3-642-69317-5_8",
+              "landing_page_url": "https://doi.org/10.1007/978-3-642-69317-5_8",
+              "publication_date": "1984-01-01",
+              "publication_year": 1984,
+              "source_name": "Patterns of Change in Earth Evolution",
+              "title": "Gradual and Abrupt Shifts in Ocean Chemistry During Phanerozoic Time",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1111/2041-210x.13567/v1/review2",
+              "id": "https://doi.org/10.1111/2041-210x.13567/v1/review2",
+              "landing_page_url": "https://doi.org/10.1111/2041-210x.13567/v1/review2",
+              "publication_date": "2020-07-28",
+              "publication_year": 2020,
+              "source_name": null,
+              "title": "Review for \"Telemetry validated nitrogen stable isotope clocks identify ocean‐to‐estuarine habitat shifts in mobile organisms\"",
+              "type": "peer-review"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1111/2041-210x.13567/v2/review2",
+              "id": "https://doi.org/10.1111/2041-210x.13567/v2/review2",
+              "landing_page_url": "https://doi.org/10.1111/2041-210x.13567/v2/review2",
+              "publication_date": "2020-12-11",
+              "publication_year": 2020,
+              "source_name": null,
+              "title": "Review for \"Telemetry validated nitrogen stable isotope clocks identify ocean‐to‐estuarine habitat shifts in mobile organisms\"",
+              "type": "peer-review"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.quaint.2012.07.266",
+              "id": "https://doi.org/10.1016/j.quaint.2012.07.266",
+              "landing_page_url": "https://doi.org/10.1016/j.quaint.2012.07.266",
+              "publication_date": "2012-11-01",
+              "publication_year": 2012,
+              "source_name": "Quaternary International",
+              "title": "Abrupt climatic events during Oxygen Isotope Stage 3 recorded in terrestrial sediments in the Netherlands: a multi-proxy approach",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1111/2041-210x.13567/v2/review1",
+              "id": "https://doi.org/10.1111/2041-210x.13567/v2/review1",
+              "landing_page_url": "https://doi.org/10.1111/2041-210x.13567/v2/review1",
+              "publication_date": "2020-12-08",
+              "publication_year": 2020,
+              "source_name": null,
+              "title": "Review for \"Telemetry validated nitrogen stable isotope clocks identify ocean‐to‐estuarine habitat shifts in mobile organisms\"",
+              "type": "peer-review"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "ocean isotope proxy abrupt shifts block median age trend",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=ocean+isotope+proxy+abrupt+shifts+block+median+age+trend&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        },
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.ecocom.2007.07.005",
+              "id": "https://doi.org/10.1016/j.ecocom.2007.07.005",
+              "landing_page_url": "https://doi.org/10.1016/j.ecocom.2007.07.005",
+              "publication_date": "2008-03-01",
+              "publication_year": 2008,
+              "source_name": "Ecological Complexity",
+              "title": "Identification of regime shifts in time series using neighborhood statistics",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Bitcoin time series dataset recording individual transactions denominated in Euro at the COINBASE market between April 23, 2015 and August 15, 2016 is analyzed. Markov switching model is applied to classify the regions of varying volatility represented by three hidden state regimes using univariate autoregressive model and dependent mixture model. Causality extraction and price prediction of daily BTCEUR exchange rates is performed by means of a recurrent neural network using the standard Elman model. Strong correlations is found between the normalized mean squared error of the Elman network (out-of-sample 5-day-ahead prediction) and the realized volatility (sum of minute returns squared throughout the trading day). The present approach is calibrated using simulated regime change in standard econometric models. Our results clearly demonstrate the applicability of recurrent neural networks to causality extraction even in the case of highly volatile cryptocurrency exchange rate time series data.",
+              "doi": "https://doi.org/10.12955/cbup.v5.954",
+              "id": "https://doi.org/10.12955/cbup.v5.954",
+              "landing_page_url": "https://doi.org/10.12955/cbup.v5.954",
+              "publication_date": "2017-09-23",
+              "publication_year": 2017,
+              "source_name": "CBU International Conference Proceedings",
+              "title": "REGIME CHANGE AND TREND PREDICTION FOR BITCOIN TIME SERIES DATA",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "There has always been a great interest in learning about changes in the volatility patterns of stocks and other time series due to exogenous shocks. Researchers and investors have also been curious to study the effect of unanticipated shocks on persistence of volatility over time. This paper studies three major indexes and utilizes the Iterated Cumulative Sums of Squares (ICSS) algorithm to capture time periods of sudden changes in volatility. The findings suggest that persistence of shocks to volatility is not as high as generally perceived. Volatility persistence declines significantly when regime shifts are combined with a Generalized Autoregressive Conditional Heteroskedasticity (GARCH) model. This paper provides important implications for investors and financial researchers.",
+              "doi": "https://doi.org/10.5430/ijfr.v8n4p127",
+              "id": "https://doi.org/10.5430/ijfr.v8n4p127",
+              "landing_page_url": "https://doi.org/10.5430/ijfr.v8n4p127",
+              "publication_date": "2017-09-14",
+              "publication_year": 2017,
+              "source_name": "International Journal of Financial Research",
+              "title": "A Time Series Analysis of Major Indexes Using GARCH Model with Regime Shifts",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.2307/j.ctv14jx6sm.25",
+              "id": "https://doi.org/10.2307/j.ctv14jx6sm.25",
+              "landing_page_url": "https://doi.org/10.2307/j.ctv14jx6sm.25",
+              "publication_date": "2020-09-01",
+              "publication_year": 2020,
+              "source_name": "Time Series Analysis",
+              "title": "Modeling Time Series with Changes in Regime",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "This article offers an updated and extended attribution analysis based on recently published versions of temperature and forcing datasets. It shows that both temperature and radiative forcing variables can be best represented as trend stationary processes with structural changes occurring in the slope of their trend functions and that they share a common secular trend and common breaks, largely determined by the anthropogenic radiative forcing. The common nonlinear trend is isolated, and further evidence on the possible causes of the current slowdown in warming is presented. Our analysis offers interesting results in relation to the recent literature. Changes in the anthropogenic forcings are directly responsible for the hiatus, while natural variability modes such as the Atlantic Multidecadal Oscillation, as well as new temperature adjustments, contribute to weaken the signal. In other words, natural variability and data adjustments do not explain in any way the hiatus; they simply mask its presence.",
+              "doi": "https://doi.org/10.1111/jtsa.12246",
+              "id": "https://doi.org/10.1111/jtsa.12246",
+              "landing_page_url": "https://doi.org/10.1111/jtsa.12246",
+              "publication_date": "2017-07-26",
+              "publication_year": 2017,
+              "source_name": "Journal of Time Series Analysis",
+              "title": "Extracting and Analyzing the Warming Trend in Global and Hemispheric Temperatures",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1111/j.1467-9892.2010.00670.x",
+              "id": "https://doi.org/10.1111/j.1467-9892.2010.00670.x",
+              "landing_page_url": "https://doi.org/10.1111/j.1467-9892.2010.00670.x",
+              "publication_date": "2010-06-23",
+              "publication_year": 2010,
+              "source_name": "Journal of Time Series Analysis",
+              "title": "A Bayesian regime-switching time-series model",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "During the past decades, seasonal autoregressive integrated moving average (SARIMA) had become one of a prevalent linear models in time series and forecasting. Empirical research advocated that forecasting with non-linear models can be an encouraging alternative to traditional linear models. Linear models are often compared to non-linear models with mixed conclusions in terms of superiority in forecasting performance. Therefore, the aim of this study is to build an early warning system (EWS) model for extreme daily losses for financial stock markets. A logistic model tree (LMT) is used in collaboration with a seasonal autoregressive integrated moving average-Markov-Switching exponential generalised autoregressive conditional heteroscedasticity-generalised extreme value distribution (SARIMA-MS-EGARCH-GEVD) estimates. A time series of the study is a five-day financial time series exchange/Johannesburg stock exchange-all share index (FTSE/JSE-ALSI) for the period of 4 January 2010 to 31 July 2020. The study is set into a two-stage framework. Firstly, SARIMA model is fitted to stock returns in order to obtain independently and identically distributed (i.i.d) residuals and fit the MS(k)-EGARCH(p,q)-GEVD to i.i.d residuals; while, in the second stage, we set-up an EWS model. The results of the estimated MS(2)-EGARCH(1,1) -GEVD revealed that the conditional distribution of returns is highly volatile giving the expected duration to approximately 36 months and 4 days in regime one and 58 months and 2 days in regime two. We further found that any degree losses above 25% implies that there will be no further losses. Using the seven statistical loss functions, the estimated SARIMA(2,1,0)×(2,1,0)240−MS(2)−EGARCH(1,1)−GEVD proved to be the most appropriate model for predicting extreme regimes losses as it was ranked at 71%. Finally, the results of EWS model exhibit reasonably an overall performance of 98%, sensitivity of 79.89% and specificity of 98.40% respectively. The model further indicated a success classification rate of 89% and a prediction rate of 95%. This is a promising technique for EWS. The findings also confirmed 63% and 51% of extreme losses for both training sample and validation sample to be correctly classified. The findings of this study are useful for decision makers and financial sector for future use and planning. Furthermore, a base for future researchers for conducting studies on emerging markets, have been contributed. These results are also important to risk managers and and investors.",
+              "doi": "https://doi.org/10.3390/ijfs9020018",
+              "id": "https://doi.org/10.3390/ijfs9020018",
+              "landing_page_url": "https://doi.org/10.3390/ijfs9020018",
+              "publication_date": "2021-03-25",
+              "publication_year": 2021,
+              "source_name": "International Journal of Financial Studies",
+              "title": "Predicting Extreme Daily Regime Shifts in Financial Time Series Exchange/Johannesburg Stock Exchange—All Share Index",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1080/00036846.2015.1080805",
+              "id": "https://doi.org/10.1080/00036846.2015.1080805",
+              "landing_page_url": "https://doi.org/10.1080/00036846.2015.1080805",
+              "publication_date": "2015-09-22",
+              "publication_year": 2015,
+              "source_name": "Applied Economics",
+              "title": "An investigation of regime shifts in UK commercial property returns: a time series analysis",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "sediment isotope time series regime shifts weak global trend",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=sediment+isotope+time+series+regime+shifts+weak+global+trend&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        }
+      ],
+      "search_completed": true
+    }
+  },
+  "generated_at": "2026-08-22",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "aa644443eabaebfb59091b96c494a59d16180dd9fde10e4cdbc03e978aca032e",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Searches are frozen reproducible retrieval evidence within the declared provider, queries, cutoff, and result depth. They do not certify absence from all literature.",
+  "strict_before": "2022-01-01",
+  "target_doi_excluded": "10.1038/s41467-022-33206-y",
+  "task_id": "EarthScience_05_ocean_thermal_coupling",
+  "release": "V1.0"
+}

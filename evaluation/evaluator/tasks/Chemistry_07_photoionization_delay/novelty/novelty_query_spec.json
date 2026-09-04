@@ -1,0 +1,27 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "molecular photoionization angular time delay shape resonance",
+        "angle resolved photoemission delay attosecond"
+      ]
+    },
+    "B": {
+      "queries": [
+        "photoionization time delay energy derivative phase",
+        "Wigner delay dipole phase derivative molecular"
+      ]
+    }
+  },
+  "frozen_at": "2026-08-22",
+  "provider": "OpenAlex_primary_with_Crossref_fallback",
+  "provider_api": [
+    "https://api.openalex.org/works",
+    "https://api.crossref.org/works"
+  ],
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2021-01-01",
+  "target_doi_excluded": "10.1038/s41467-021-27360-y",
+  "task_id": "Chemistry_07_photoionization_delay",
+  "release": "V1.0"
+}

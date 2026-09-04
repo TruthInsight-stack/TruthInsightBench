@@ -1,0 +1,175 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "缓冲量越接近临界值，延误增长速度越接近0；跨过阈值后延误不再系统累积",
+      "independent_reconstruction_method": "Frozen evaluator recomputation: verification/recompute/A.py",
+      "non_exhaustive_validation_anchor": true,
+      "object": "平均场时序调度系统中延误增长速度随每条连边缓冲量的变化",
+      "one_liner": "延误增长速度在缓冲量3.67318附近线性趋于停滞，低于阈值的斜率为-0.999862。",
+      "perturbation_bindings": [
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition_frozen.py",
+          "script_sha256": "c073a6ce4582b6cfd986c6916aedfcc1e8118d0d2e5041df478d75085245b8f8"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method_frozen.py",
+          "script_sha256": "1211789c2e4ba9f9f762f61e6d46f2bd994a02d9be4f1a50ee20b2057319839d"
+        },
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample_frozen.py",
+          "script_sha256": "c04ca5b454064da72f92fa0d3ffae3b85a38300282cc67a4ea0090992bfd17cc"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "measurement: \"对预冻结的新随机种子模拟重复扫描缓冲量，拟合延误增长速度过零点\"; expected_range: [3.64, 3.71]; failure_criterion: \"新重复的过零缓冲不在3.64–3.71，或低于阈值的速度斜率绝对值低于0.90\""
+      },
+      "quantities": [
+        {
+          "key": "critical_buffer",
+          "role": "core",
+          "tolerance_rel": 0.005,
+          "unit": "buffer_units",
+          "value": 3.6731755126534407
+        },
+        {
+          "key": "velocity_slope",
+          "role": "core",
+          "tolerance_rel": 0.01,
+          "unit": "velocity_per_buffer",
+          "value": -0.999862085910722
+        },
+        {
+          "key": "r_squared",
+          "role": "supporting",
+          "tolerance_rel": 0.001,
+          "unit": "fraction",
+          "value": 0.9999942926466322
+        },
+        {
+          "key": "post_transition_max_abs_velocity",
+          "role": "supporting",
+          "tolerance_rel": 0.1,
+          "unit": "velocity",
+          "value": 4.9115014312367385e-05
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "values": [
+          {
+            "json_path": "values.critical_buffer",
+            "quantity_key": "critical_buffer"
+          },
+          {
+            "json_path": "values.velocity_slope",
+            "quantity_key": "velocity_slope"
+          },
+          {
+            "json_path": "values.r_squared",
+            "quantity_key": "r_squared"
+          },
+          {
+            "json_path": "values.post_transition_max_abs_velocity",
+            "quantity_key": "post_transition_max_abs_velocity"
+          }
+        ],
+        "script_sha256": "098487d8ea17d1d0e5f11a98e791dad5f4f429c9655ed077f4e639838e210c2f"
+      },
+      "scope": "仅限随题完整Figure 2平均场数据和预注册拟合窗口；不把该数值外推到任意现实调度网络",
+      "target_alignment": {
+        "paper_claim_paraphrase": "目标论文报告延误速度在临界缓冲附近趋近0，并给出约3.674的有限系统临界值。",
+        "paper_location": "Results, Figure 2 and Characterising timeliness criticality",
+        "rationale": "冻结Action直接读取公开完整源数据，拟合阈值下斜率、过零点并验收阈值上停滞。",
+        "status": "reported_target_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "缓冲量从上方接近临界点时，相关时间按正指数幂律发散",
+      "independent_reconstruction_method": "Frozen evaluator recomputation: verification/recompute/B.py",
+      "non_exhaustive_validation_anchor": true,
+      "object": "五个缓冲条件下平均延误自相关曲线的时间轴标度因子",
+      "one_liner": "临界点上方的相关时间标度满足归一化幂律崩塌：临界缓冲=3.675522，指数γ=1.693568。",
+      "perturbation_bindings": [
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition_frozen.py",
+          "script_sha256": "a6b2643191dbda2a43b7d3ded4e98fda9b9f763bbcc586fbe9e02895859bc8f3"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method_frozen.py",
+          "script_sha256": "8162e624119e18ed4fd6a7aa0f2b4d3b2acac4b0e79e35527c5082d411f7659c"
+        },
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample_frozen.py",
+          "script_sha256": "b3679ec3424d83c6a88585931dab8c6629bf1a3f4ce7a984b0f8f6a2c6e99f8c"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "measurement: \"用预冻结的新随机重复估计五个缓冲条件的相关时间并重拟合归一化幂律指数\"; expected_range: [1.55, 1.85]; failure_criterion: \"新重复的指数超出1.55–1.85，或留一缓冲条件后无法保持正向发散\""
+      },
+      "quantities": [
+        {
+          "key": "critical_buffer",
+          "role": "core",
+          "tolerance_rel": 0.001,
+          "unit": "buffer_units",
+          "value": 3.675522073301091
+        },
+        {
+          "key": "exponent_gamma",
+          "role": "core",
+          "tolerance_rel": 0.03,
+          "unit": "dimensionless",
+          "value": 1.6935683420034209
+        },
+        {
+          "key": "rmse",
+          "role": "supporting",
+          "tolerance_rel": 0.05,
+          "unit": "scale_factor",
+          "value": 0.12133508864065051
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "values": [
+          {
+            "json_path": "values.critical_buffer",
+            "quantity_key": "critical_buffer"
+          },
+          {
+            "json_path": "values.exponent_gamma",
+            "quantity_key": "exponent_gamma"
+          },
+          {
+            "json_path": "values.rmse",
+            "quantity_key": "rmse"
+          }
+        ],
+        "script_sha256": "998957d6cca48e3067e514126e73a26182b3fe65e61f9e327f1d8bdbdd88737a"
+      },
+      "scope": "仅限Figure 3a全部五个缓冲条件及论文预定义的归一化幂律；不声称指数对其他网络普适",
+      "target_alignment": {
+        "paper_claim_paraphrase": "目标论文报告Bc约3.6755且相关时间以γ约1.6936发散。",
+        "paper_location": "Results, Figure 3a and Temporal correlations",
+        "rationale": "冻结Action在全部五个尺度因子上拟合归一化幂律，并用留一条件和对数空间目标函数交叉核验。",
+        "status": "reported_target_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "Two verified validation anchors for blind-rediscovery diagnostics; not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2023-09-25",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Physics_05_temporal_delay_transition",
+  "release": "V1.0"
+}

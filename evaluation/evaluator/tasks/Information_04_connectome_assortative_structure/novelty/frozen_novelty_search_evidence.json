@@ -1,0 +1,427 @@
+{
+  "all_queries_completed": true,
+  "api_cutoff": "2022-12-31",
+  "cards": {
+    "A": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2022-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1089/brain.2017.0506",
+              "id": "https://doi.org/10.1089/brain.2017.0506",
+              "landing_page_url": "https://doi.org/10.1089/brain.2017.0506",
+              "publication_date": "2017-08-01",
+              "publication_year": 2017,
+              "source_name": "Brain Connectivity",
+              "title": "Altered Brain Wiring in Parkinson's Disease: A Structural Connectome-Based Analysis",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract How is the brain wired during development? Here we look at some of the characteristics of the adult Drosophila brain, a result of this development process. From this we can speculate on at least some aspects of how the wiring was done. A common hypothesis is that surface proteins direct synapse formation among touching neurons. Assuming that surface proteins are specific to cell types, we find support for this hypothesis. The brain in general supports a wide variety of connections of different degrees of reciprocity, with ratios up to a thousand to one in the two directions of synapses between types. However, contacts between cells of the same type are always bi-directional and nearly equal strength. Furthermore, among similar cell types, at least in the mushroom body, the closer the cell type by morphology, the closer the inter-type contacts are to symmetrical. These findings are all consistent with the hypothesis that surface proteins specific to cell types determine the directivity of connections. Next we look at synapses per area, and find this varies widely and is roughly log-normally distributed. In most cases, the number of synapses saturates at higher areas, though other forms are seen - linear, flat, or decreasing with increasing area. Evidence suggests that at least some of this distinction is post-synaptic.",
+              "doi": "https://doi.org/10.1101/2021.05.15.444029",
+              "id": "https://doi.org/10.1101/2021.05.15.444029",
+              "landing_page_url": "https://doi.org/10.1101/2021.05.15.444029",
+              "publication_date": "2021-05-16",
+              "publication_year": 2021,
+              "source_name": null,
+              "title": "Evidence of wiring development processes from the connectome of adult\n                  <i>Drosophila</i>",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "Using neuroimaging, researchers are succesfully mapping neural connectivity and in the process creating vivid \"brainbows.\"",
+              "doi": "https://doi.org/10.1145/2000775.2000782",
+              "id": "https://doi.org/10.1145/2000775.2000782",
+              "landing_page_url": "https://doi.org/10.1145/2000775.2000782",
+              "publication_date": "2011-09-01",
+              "publication_year": 2011,
+              "source_name": "XRDS: Crossroads, The ACM Magazine for Students",
+              "title": "The connectome project",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/b978-0-12-407908-3.00004-2",
+              "id": "https://doi.org/10.1016/b978-0-12-407908-3.00004-2",
+              "landing_page_url": "https://doi.org/10.1016/b978-0-12-407908-3.00004-2",
+              "publication_date": "2016-01-01",
+              "publication_year": 2016,
+              "source_name": "Fundamentals of Brain Network Analysis",
+              "title": "Node Degree and Strength",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "Recent studies proposed the use of Total Correlation to describe functional connectivity among brain regions as a multivariate alternative to conventional pairwise measures such as correlation or mutual information. In this work, we build on this idea to infer a large-scale (whole-brain) connectivity network based on Total Correlation and show the possibility of using this kind of network as biomarkers of brain alterations. In particular, this work uses Correlation Explanation (CorEx) to estimate Total Correlation. First, we prove that CorEx estimates of Total Correlation and clustering results are trustable compared to ground truth values. Second, the inferred large-scale connectivity network extracted from the more extensive open fMRI datasets is consistent with existing neuroscience studies, but, interestingly, can estimate additional relations beyond pairwise regions. And finally, we show how the connectivity graphs based on Total Correlation can also be an effective tool to aid in the discovery of brain diseases.",
+              "doi": "https://doi.org/10.3390/e24121725",
+              "id": "https://doi.org/10.3390/e24121725",
+              "landing_page_url": "https://doi.org/10.3390/e24121725",
+              "publication_date": "2022-11-25",
+              "publication_year": 2022,
+              "source_name": "Entropy",
+              "title": "Functional Connectome of the Human Brain with Total Correlation",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3389/fnana.2012.00042",
+              "id": "https://doi.org/10.3389/fnana.2012.00042",
+              "landing_page_url": "https://doi.org/10.3389/fnana.2012.00042",
+              "publication_date": "2012-01-01",
+              "publication_year": 2012,
+              "source_name": "Frontiers in Neuroanatomy",
+              "title": "Communication and wiring in the cortical connectome",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1201/b11450-10",
+              "id": "https://doi.org/10.1201/b11450-10",
+              "landing_page_url": "https://doi.org/10.1201/b11450-10",
+              "publication_date": "2016-04-19",
+              "publication_year": 2016,
+              "source_name": "Astrocytes",
+              "title": "- Neuroglial Networks: Glial Wiring Also Matters",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "Significance We analyzed a large dataset of tract tracing experiments to investigate the topological and spatial properties of the mouse brain connectome. We found expensive, topologically integrative hub nodes, which could not be explained by global minimization of wiring cost alone. These “high-participation” hubs mediated communication between functionally specialized and anatomically localized network modules and were associated with high expression of genes involved in cognitive and behavioral processes. We propose that the mouse brain network is selected by simultaneous competitive pressures for wiring-cost minimization and hub-mediated information exchange between network modules. High-participation hubs are expensive but central to global integration of information and, thus, essential for adaptive “higher order” brain functions.",
+              "doi": "https://doi.org/10.1073/pnas.1420315112",
+              "id": "https://doi.org/10.1073/pnas.1420315112",
+              "landing_page_url": "https://doi.org/10.1073/pnas.1420315112",
+              "publication_date": "2015-07-27",
+              "publication_year": 2015,
+              "source_name": "Proceedings of the National Academy of Sciences",
+              "title": "Wiring cost and topological participation of the mouse brain connectome",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "brain connectome node strength wiring distance correlation",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=brain+connectome+node+strength+wiring+distance+correlation&filter=until-pub-date%3A2022-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2023-01-01"
+        },
+        {
+          "api_cutoff": "2022-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.patrec.2018.08.026",
+              "id": "https://doi.org/10.1016/j.patrec.2018.08.026",
+              "landing_page_url": "https://doi.org/10.1016/j.patrec.2018.08.026",
+              "publication_date": "2018-09-01",
+              "publication_year": 2018,
+              "source_name": "Pattern Recognition Letters",
+              "title": "Embedding the node-to-node mappings to learn the Graph edit distance parameters",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/ieeeconf53345.2021.9723404",
+              "id": "https://doi.org/10.1109/ieeeconf53345.2021.9723404",
+              "landing_page_url": "https://doi.org/10.1109/ieeeconf53345.2021.9723404",
+              "publication_date": "2021-10-31",
+              "publication_year": 2021,
+              "source_name": "2021 55th Asilomar Conference on Signals, Systems, and Computers",
+              "title": "Node Embedding based on the Free Energy Distance",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "Role is a fundamental concept in the analysis of the behavior and function of interacting entities in complex networks. Role discovery is the task of uncovering the hidden roles of nodes within a network. Node roles are commonly defined in terms of equivalence classes. Two nodes have the same role if they fall within the same equivalence class. Automorphic equivalence, where two nodes are equivalent when they can swap their labels to form an isomorphic graph, captures this notion of role. The binary concept of equivalence is too restrictive, and nodes in real‐world networks rarely belong to the same equivalence class. Instead, a relaxed definition in terms of similarity or distance is commonly used to compute the degree to which two nodes are equivalent. In this paper, we propose a novel distance metric called automorphic distance, which measures how far two nodes are from being automorphically equivalent. We also study its application to node embedding, showing how our metric can be used to generate role‐preserving vector representations of nodes. Our experiments confirm that the proposed automorphic distance metric outperforms a state‐of‐the‐art automorphic equivalence‐based metric and different state‐of‐the‐art techniques for the generation of node embeddings in different role‐related tasks.",
+              "doi": "https://doi.org/10.1155/2021/5571006",
+              "id": "https://doi.org/10.1155/2021/5571006",
+              "landing_page_url": "https://doi.org/10.1155/2021/5571006",
+              "publication_date": "2021-10-13",
+              "publication_year": 2021,
+              "source_name": "Complexity",
+              "title": "An Automorphic Distance Metric and Its Application to Node Embedding for Role Mining",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/access.2018.2869994",
+              "id": "https://doi.org/10.1109/access.2018.2869994",
+              "landing_page_url": "https://doi.org/10.1109/access.2018.2869994",
+              "publication_date": "2018-01-01",
+              "publication_year": 2018,
+              "source_name": "IEEE Access",
+              "title": "Spatial-Temporal Distance Metric Embedding for Time-Specific POI Recommendation",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1145/3557915.3560974",
+              "id": "https://doi.org/10.1145/3557915.3560974",
+              "landing_page_url": "https://doi.org/10.1145/3557915.3560974",
+              "publication_date": "2022-11-22",
+              "publication_year": 2022,
+              "source_name": "Proceedings of the 30th International Conference on Advances in Geographic Information Systems",
+              "title": "Region2Vec",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "Abstract Graph is a generic model of various networks in real-world applications. And, graph embedding aims to represent nodes (edges or graphs) as low-dimensional vectors which can be fed into machine learning algorithms for downstream graph analysis tasks. However, existing random walk-based node embedding methods often map some nodes with (dis)similar local structures to (near) far vectors. To overcome this issue, this paper proposes to implement node embedding by constructing a context graph via a new defined ripple distance over ripple vectors, whose components are the hitting times of fully condensed neighborhoods and thus characterize their structures as pure quantities. The distance is able to capture the (dis)similarities of nodes’ local neighborhood structures and satisfies the triangular inequality. The neighbors of each node in the context graph are defined via the ripple distance, which makes the short random walks from a given node over the context graph only visit its similar nodes in the original graph. This property guarantees that the proposed method, named as $$\\mathsf {ripple2vec}$$ ripple 2 vec , is able to map (dis)similar nodes to (far) near vectors. Experimental results on real datasets, where labels are mainly related to nodes’ local structures, show that the results of $$\\mathsf {ripple2vec}$$ ripple 2 vec behave better than those of state-of-the-art methods, in node clustering and node classification, and are competitive to other methods in link prediction.",
+              "doi": "https://doi.org/10.1007/s41019-022-00184-6",
+              "id": "https://doi.org/10.1007/s41019-022-00184-6",
+              "landing_page_url": "https://doi.org/10.1007/s41019-022-00184-6",
+              "publication_date": "2022-04-15",
+              "publication_year": 2022,
+              "source_name": "Data Science and Engineering",
+              "title": "ripple2vec: Node Embedding with Ripple Distance of Structures",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract Resting-state functional magnetic resonance imaging ( rs-fmri ) is widely used in connectomics for studying the functional relationships between regions of the human brain. rs-fmri connectomics, however, has inherent analytical challenges, such as accounting for negative correlations. In addition, functional relationships between brain regions do not necessarily correspond to their anatomical distance, making the intrinsic geometry of the functional connectome less well understood. Recent techniques in natural language processing and machine learning, such as word2vec, have used embedding methods to map high-dimensional data into meaningful vector spaces. Inspired by this approach, we have developed a graph embedding pipeline, rest2vec, for studying the intrinsic geometry of functional connectomes. We demonstrate how rest2vec uses the phase angle spatial embedding ( phase ) method with dimensionality reduction techniques to embed the functional connectome into lower dimensions. Rest2vec can also be linked to the maximum mean discrepancy ( mmd ) metric to assign functional modules of the connectome in a continuous manner, improving upon traditional binary classification methods. Together, this allows for studying the functional connectome such that the full range of correlative information is preserved and gives a more informed understanding of the functional organization of the brain.",
+              "doi": "https://doi.org/10.1101/2020.05.10.085332",
+              "id": "https://doi.org/10.1101/2020.05.10.085332",
+              "landing_page_url": "https://doi.org/10.1101/2020.05.10.085332",
+              "publication_date": "2020-05-12",
+              "publication_year": 2020,
+              "source_name": null,
+              "title": "rest2vec: Vectorizing the resting-state functional connectome using graph embedding",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-981-32-9523-0_5",
+              "id": "https://doi.org/10.1007/978-981-32-9523-0_5",
+              "landing_page_url": "https://doi.org/10.1007/978-981-32-9523-0_5",
+              "publication_date": "2019-11-13",
+              "publication_year": 2019,
+              "source_name": "Pattern Analysis of the Human Connectome",
+              "title": "Locally Linear Embedding of Functional Connectivity for Classification",
+              "type": "book-chapter"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "connectome spatial embedding node strength distance",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=connectome+spatial+embedding+node+strength+distance&filter=until-pub-date%3A2022-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2023-01-01"
+        }
+      ],
+      "search_completed": true
+    },
+    "B": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2022-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/s0920-9964(12)70630-8",
+              "id": "https://doi.org/10.1016/s0920-9964(12)70630-8",
+              "landing_page_url": "https://doi.org/10.1016/s0920-9964(12)70630-8",
+              "publication_date": "2012-04-01",
+              "publication_year": 2012,
+              "source_name": "Schizophrenia Research",
+              "title": "Poster #58 INCREASED ASSORTATIVITY OF GYRIFICATION BASED BRAIN CONNECTOME IN SCHIZOPHRENIA",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.5220/0005790602390246",
+              "id": "https://doi.org/10.5220/0005790602390246",
+              "landing_page_url": "https://doi.org/10.5220/0005790602390246",
+              "publication_date": "2016-01-01",
+              "publication_year": 2016,
+              "source_name": "Proceedings of the 12th International Conference on Web Information Systems and Technologies",
+              "title": "Interest Assortativity in Twitter",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/bigdata.2018.8622521",
+              "id": "https://doi.org/10.1109/bigdata.2018.8622521",
+              "landing_page_url": "https://doi.org/10.1109/bigdata.2018.8622521",
+              "publication_date": "2018-12-01",
+              "publication_year": 2018,
+              "source_name": "2018 IEEE International Conference on Big Data (Big Data)",
+              "title": "Trimming the Hairball: Edge Cutting Strategies for Making Dense Graphs Usable",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "Non-Intrusive Load Monitoring (NILM) enables the disaggregation of the global power consumption of multiple loads, taken from a single smart electrical meter, into appliance-level details. State-of-the-Art approaches are based on Machine Learning methods and exploit the fusion of time- and frequency-domain features from current and voltage sensors. Unfortunately, these methods are compute-demanding and memory-intensive. Therefore, running low-latency NILM on low-cost, resource-constrained MCU-based meters is currently an open challenge. This paper addresses the optimization of the feature spaces as well as the computational and storage cost reduction needed for executing State-of-the-Art (SoA) NILM algorithms on memory- and compute-limited MCUs. We compare four supervised learning techniques on different classification scenarios and characterize the overall NILM pipeline’s implementation on a MCU-based Smart Measurement Node. Experimental results demonstrate that optimizing the feature space enables edge MCU-based NILM with 95.15% accuracy, resulting in a small drop compared to the most-accurate feature vector deployment (96.19%) while achieving up to 5.45x speed-up and 80.56% storage reduction. Furthermore, we show that low-latency NILM relying only on current measurements reaches almost 80% accuracy, allowing a major cost reduction by removing voltage sensors from the hardware design.",
+              "doi": "https://doi.org/10.36227/techrxiv.14636919",
+              "id": "https://doi.org/10.36227/techrxiv.14636919",
+              "landing_page_url": "https://doi.org/10.36227/techrxiv.14636919",
+              "publication_date": "2021-05-28",
+              "publication_year": 2021,
+              "source_name": null,
+              "title": "TRIMMING FEATURE EXTRACTION AND INFERENCE FOR MCU-BASED EDGE NILM: A SYSTEMATIC APPROACH",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "&lt;div class=\"htmlview paragraph\"&gt;The work presented here illustrates the wear behavior of CVD diamond coated carbide tools during the machining of carbon fiber-reinforced composites. Cutting experiments were conducted on a CNC milling machine for edge trimming of a 9-mm thick multi-layered carbon fiber-reinforced epoxy laminate in a climb cutting configuration. The effects of feed speed and diamond film thickness on the wear behavior of the coated tools were determined. In addition, characteristics of the worn cutting edge were studied using optical and scanning electron microscopes. It was shown that diamond coated tools generally performed better than the uncoated tools under all conditions. Uniform wear by abrasion of the diamond film, without exposing the substrate, was obtained when cutting at low feed speeds with thicker coatings. At higher feed speeds the wear of the coated tools was characterized by abrasion through the diamond film and exposure and wear of the substrate. Surface roughness obtained with diamond coated tools was comparable to or lower than that of uncoated tools.&lt;/div&gt;",
+              "doi": "https://doi.org/10.4271/2002-01-1526",
+              "id": "https://doi.org/10.4271/2002-01-1526",
+              "landing_page_url": "https://doi.org/10.4271/2002-01-1526",
+              "publication_date": "2002-04-16",
+              "publication_year": 2002,
+              "source_name": "SAE Technical Paper Series",
+              "title": "Edge Trimming of CFRP Composites with Diamond Coated Tools: Edge Wear and Surface Characteristics",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "Non-Intrusive Load Monitoring (NILM) enables the disaggregation of the global power consumption of multiple loads, taken from a single smart electrical meter, into appliance-level details. State-of-the-Art approaches are based on Machine Learning methods and exploit the fusion of time- and frequency-domain features from current and voltage sensors. Unfortunately, these methods are compute-demanding and memory-intensive. Therefore, running low-latency NILM on low-cost, resource-constrained MCU-based meters is currently an open challenge. This paper addresses the optimization of the feature spaces as well as the computational and storage cost reduction needed for executing State-of-the-Art (SoA) NILM algorithms on memory- and compute-limited MCUs. We compare four supervised learning techniques on different classification scenarios and characterize the overall NILM pipeline’s implementation on a MCU-based Smart Measurement Node. Experimental results demonstrate that optimizing the feature space enables edge MCU-based NILM with 95.15% accuracy, resulting in a small drop compared to the most-accurate feature vector deployment (96.19%) while achieving up to 5.45x speed-up and 80.56% storage reduction. Furthermore, we show that low-latency NILM relying only on current measurements reaches almost 80% accuracy, allowing a major cost reduction by removing voltage sensors from the hardware design.",
+              "doi": "https://doi.org/10.36227/techrxiv.14636919.v1",
+              "id": "https://doi.org/10.36227/techrxiv.14636919.v1",
+              "landing_page_url": "https://doi.org/10.36227/techrxiv.14636919.v1",
+              "publication_date": "2021-05-28",
+              "publication_year": 2021,
+              "source_name": null,
+              "title": "TRIMMING FEATURE EXTRACTION AND INFERENCE FOR MCU-BASED EDGE NILM: A SYSTEMATIC APPROACH",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "Composites find lot of applications in aerospace, defence, automotive and medical industries due to its high strength to stiffness and weight ratio. After the composites are demoulded, trimming the edges is the first machining operation to be carried out. The heterogeneity and anisotropy of the composite materials make machining difficult and accompanied with different damages. The accuracy of the surface profile is one of the important components of both dimensional and geometric accuracy and play a significant role in achieving overall product quality because it is often directly related to the product’s functional performance. The defects in the free edges are mainly influenced by the machining parameters (such as speed, feed, depth of cut and fibre orientation) and the type of machining (orthogonal cutting and oblique cutting). This paper presents some observations like feed force, normal force and surface roughness made on the orthogonal and oblique cutting of unidirectional carbon fiber reinforced plastics.",
+              "doi": "https://doi.org/10.4028/www.scientific.net/amr.984-985.207",
+              "id": "https://doi.org/10.4028/www.scientific.net/amr.984-985.207",
+              "landing_page_url": "https://doi.org/10.4028/www.scientific.net/amr.984-985.207",
+              "publication_date": "2014-07-16",
+              "publication_year": 2014,
+              "source_name": "Advanced Materials Research",
+              "title": "Experimental Study on Edge Trimming of Unidirectional CFRP Composites",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.procir.2018.08.285",
+              "id": "https://doi.org/10.1016/j.procir.2018.08.285",
+              "landing_page_url": "https://doi.org/10.1016/j.procir.2018.08.285",
+              "publication_date": "2018-01-01",
+              "publication_year": 2018,
+              "source_name": "Procedia CIRP",
+              "title": "Edge trimming of carbon fibre reinforced plastic",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "connectome assortativity edge trimming sensitivity",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=connectome+assortativity+edge+trimming+sensitivity&filter=until-pub-date%3A2022-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2023-01-01"
+        },
+        {
+          "api_cutoff": "2022-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/cec.2009.4982985",
+              "id": "https://doi.org/10.1109/cec.2009.4982985",
+              "landing_page_url": "https://doi.org/10.1109/cec.2009.4982985",
+              "publication_date": "2009-05-01",
+              "publication_year": 2009,
+              "source_name": "2009 IEEE Congress on Evolutionary Computation",
+              "title": "The effect of assortative mixing on emerging cooperation in an evolutionary network game",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "We investigate assortativity of functional brain networks before, during, and after one-hundred epileptic seizures with different anatomical onset locations. We construct binary functional networks from multi-channel electroencephalographic data recorded from 60 epilepsy patients; and from time-resolved estimates of the assortativity coefficient, we conclude that positive degree-degree correlations are inherent to seizure dynamics. While seizures evolve, an increasing assortativity indicates a segregation of the underlying functional network into groups of brain regions that are only sparsely interconnected, if at all. Interestingly, assortativity decreases already prior to seizure end. Together with previous observations of characteristic temporal evolutions of global statistical properties and synchronizability of epileptic brain networks, our findings may help to gain deeper insights into the complicated dynamics underlying generation, propagation, and termination of seizures.",
+              "doi": "https://doi.org/10.1063/1.4821915",
+              "id": "https://doi.org/10.1063/1.4821915",
+              "landing_page_url": "https://doi.org/10.1063/1.4821915",
+              "publication_date": "2013-09-20",
+              "publication_year": 2013,
+              "source_name": "Chaos: An Interdisciplinary Journal of Nonlinear Science",
+              "title": "Assortative mixing in functional brain networks during epileptic seizures",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "The wiring of the brain connects micro-architecturally diverse neuronal populations. The conventional graph model encodes macroscale brain connectivity as a network of nodes and edges, but abstracts away the rich biological detail of each regional node. Regions are different in terms of their microscale attributes, many of which are readily available through modern technological advances and data-sharing initiatives. How is macroscale connectivity related to nodal attributes? Here we investigate the systematic arrangement of white-matter connectivity with respect to multiple biological annotations. Namely, we formally study assortative mixing in annotated connectomes by quantifying the tendency for regions to be connected with each other based on the similarity of their micro-architectural attributes. We perform all experiments using four cortico-cortical connectome datasets from three different species (human, macaque and mouse), and consider a range of molecular, cellular and laminar annotations, including gene expression, neurotransmitter receptors, neuron density, laminar thickness and intracortical myelin. Importantly, we disentangle the relationship between neural wiring, regional heterogeneity and spatial embedding using spatial autocorrelation-preserving null models. We show that mixing between micro-architecturally diverse neuronal populations is supported by long-distance connections. Using meta-analytic decoding, we find that the arrangement of connectivity patterns with respect to biological annotations shape patterns of regional functional specialization. Specifically, regions that connect to biologically similar regions are associated with executive function; conversely, regions that connect with biologically dissimilar regions are associated with memory function. By bridging scales of cortical organization, from microscale attributes to macroscale connectivity, this work lays the foundation for next-generation annotated connectomics.",
+              "doi": "https://doi.org/10.1101/2022.05.31.494070",
+              "id": "https://doi.org/10.1101/2022.05.31.494070",
+              "landing_page_url": "https://doi.org/10.1101/2022.05.31.494070",
+              "publication_date": "2022-06-01",
+              "publication_year": 2022,
+              "source_name": null,
+              "title": "Assortative mixing in micro-architecturally annotated brain connectomes",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.geb.2020.12.008",
+              "id": "https://doi.org/10.1016/j.geb.2020.12.008",
+              "landing_page_url": "https://doi.org/10.1016/j.geb.2020.12.008",
+              "publication_date": "2021-03-01",
+              "publication_year": 2021,
+              "source_name": "Games and Economic Behavior",
+              "title": "The value of network information: Assortative mixing makes the difference",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/s11192-009-0147-2",
+              "id": "https://doi.org/10.1007/s11192-009-0147-2",
+              "landing_page_url": "https://doi.org/10.1007/s11192-009-0147-2",
+              "publication_date": "2009-12-31",
+              "publication_year": 2009,
+              "source_name": "Scientometrics",
+              "title": "Collaboration in sensor network research: an in-depth longitudinal analysis of assortative mixing patterns",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3389/fnhum.2015.00462",
+              "id": "https://doi.org/10.3389/fnhum.2015.00462",
+              "landing_page_url": "https://doi.org/10.3389/fnhum.2015.00462",
+              "publication_date": "2015-08-20",
+              "publication_year": 2015,
+              "source_name": "Frontiers in Human Neuroscience",
+              "title": "Time-dependent degree-degree correlations in epileptic brain networks: from assortative to dissortative mixing",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1140/epjb/e2006-00170-5",
+              "id": "https://doi.org/10.1140/epjb/e2006-00170-5",
+              "landing_page_url": "https://doi.org/10.1140/epjb/e2006-00170-5",
+              "publication_date": "2006-05-17",
+              "publication_year": 2006,
+              "source_name": "The European Physical Journal B",
+              "title": "Modeling network growth with assortative mixing",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.physa.2004.02.033",
+              "id": "https://doi.org/10.1016/j.physa.2004.02.033",
+              "landing_page_url": "https://doi.org/10.1016/j.physa.2004.02.033",
+              "publication_date": "2004-07-01",
+              "publication_year": 2004,
+              "source_name": "Physica A: Statistical Mechanics and its Applications",
+              "title": "Social network growth with assortative mixing",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "brain network assortative mixing distance threshold reversal",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=brain+network+assortative+mixing+distance+threshold+reversal&filter=until-pub-date%3A2022-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2023-01-01"
+        }
+      ],
+      "search_completed": true
+    }
+  },
+  "generated_at": "2026-08-22",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "b27f05a9de5bc7865c95a32fca718db903c10008afea858ba8e3d69b59182fa4",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Searches are frozen reproducible retrieval evidence within the declared provider, queries, cutoff, and result depth. They do not certify absence from all literature.",
+  "strict_before": "2023-01-01",
+  "target_doi_excluded": "10.1038/s41467-023-38585-4",
+  "task_id": "Information_04_connectome_assortative_structure",
+  "release": "V1.0"
+}

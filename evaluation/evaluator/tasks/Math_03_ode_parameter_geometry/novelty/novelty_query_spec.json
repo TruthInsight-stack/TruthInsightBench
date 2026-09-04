@@ -1,0 +1,27 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "ODE model optimization parameter convergence solver mini batch",
+        "large scale ODE training parameter distance convergence"
+      ]
+    },
+    "B": {
+      "queries": [
+        "ODE parameter identifiability singular value spectrum simulation fit",
+        "dynamical system parameter sloppiness singular spectrum measurement simulation"
+      ]
+    }
+  },
+  "frozen_at": "2026-08-22",
+  "provider": "OpenAlex_primary_with_Crossref_fallback",
+  "provider_api": [
+    "https://api.openalex.org/works",
+    "https://api.crossref.org/works"
+  ],
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2022-01-01",
+  "target_doi_excluded": "10.1038/s41467-021-27374-6",
+  "task_id": "Math_03_ode_parameter_geometry",
+  "release": "V1.0"
+}

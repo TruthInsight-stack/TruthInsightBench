@@ -1,0 +1,27 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "hippocampal ripple pre event activity timing inhibition",
+        "pre ripple signal event time correlation hippocampus"
+      ]
+    },
+    "B": {
+      "queries": [
+        "hippocampal ripple unit distance latency variability spatial",
+        "neuronal pair distance ripple timing variability"
+      ]
+    }
+  },
+  "frozen_at": "2026-08-22",
+  "provider": "OpenAlex_primary_with_Crossref_fallback",
+  "provider_api": [
+    "https://api.openalex.org/works",
+    "https://api.crossref.org/works"
+  ],
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2022-01-01",
+  "target_doi_excluded": "10.1038/s41467-022-28890-9",
+  "task_id": "Neuro_05_temporal_geometry",
+  "release": "V1.0"
+}

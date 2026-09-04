@@ -1,0 +1,126 @@
+{
+  "schema": "truthinsightbench-data-manifest",
+  "task_id": "Information_04_connectome_assortative_structure",
+  "title": "Assortative Structure and Spatial Boundaries in Annotated Networks",
+  "domain": "information",
+  "t0": "2023-01-01",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "scientific_scope": "All frozen node summaries, three annotation profiles, and trimming-sensitivity measurements for the anonymous network systems.",
+  "analysis_unit": "One network system or complete node profile; nodes within a network and repeated annotations are dependent observations.",
+  "missingness": "No curator-imposed row deletion, random subsampling, or imputation is applied within the frozen task boundary.",
+  "license_boundary": "The source-data tables are from a CC BY article archive and are bundled with system and anatomical identities removed.",
+  "warnings": [
+    "Node-level associations do not establish developmental or causal mechanisms.",
+    "Inference must respect network-level clustering and test trimming and spatial-distance sensitivity."
+  ],
+  "variable_dictionary": {
+    "network_node_summary.tsv": [
+      "region_index",
+      "mean_homophily",
+      "node_strength",
+      "mean_connection_distance"
+    ],
+    "network_profile_a.tsv": [
+      "region_index",
+      "coord_x",
+      "coord_y",
+      "coord_z",
+      "annotation_1",
+      "annotation_2",
+      "annotation_3",
+      "annotation_4",
+      "annotation_5"
+    ],
+    "network_profile_b.tsv": [
+      "region_index",
+      "coord_x",
+      "coord_y",
+      "coord_z",
+      "annotation_1"
+    ],
+    "network_profile_c.tsv": [
+      "region_index",
+      "coord_x",
+      "coord_y",
+      "coord_z",
+      "annotation_1",
+      "annotation_2",
+      "annotation_3"
+    ],
+    "trimming_sensitivity.tsv": [
+      "system_index",
+      "annotation_index",
+      "result_kind",
+      "trim_percent_1",
+      "trim_percent_2",
+      "trim_percent_3",
+      "trim_percent_4",
+      "trim_percent_5",
+      "trim_percent_6",
+      "trim_percent_7",
+      "trim_percent_8",
+      "trim_percent_9",
+      "trim_percent_10",
+      "trim_percent_11",
+      "trim_percent_12",
+      "trim_percent_13",
+      "trim_percent_14",
+      "trim_percent_15",
+      "trim_percent_16",
+      "trim_percent_17",
+      "trim_percent_18",
+      "trim_percent_19"
+    ]
+  },
+  "source_projection_inventory": [],
+  "files": [
+    {
+      "path": "network_node_summary.tsv",
+      "bytes": 46733,
+      "sha256": "19a2df56ddedb003c441013862b4e03fda18655a838312de9c5ef3a06d700036",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "network_profile_a.tsv",
+      "bytes": 102280,
+      "sha256": "29dd0b793c39f574f1fb0b3440e7d2d0b807645189dbb0bff2475e7c6d076ab5",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "network_profile_b.tsv",
+      "bytes": 8377,
+      "sha256": "7cb7f7d6f7afea59514a3b53d27a9402237760b3af4a0720e639af0d6f99f0aa",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "network_profile_c.tsv",
+      "bytes": 4445,
+      "sha256": "30e94a239c0ce766849b56d08366cce9af79c0ca0edef7a50a65768acaf854e6",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "trimming_sensitivity.tsv",
+      "bytes": 9400,
+      "sha256": "0a00e978aa4afce377d2d25ea3aa774179b5fc8820162e84d1f9529e94285028",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

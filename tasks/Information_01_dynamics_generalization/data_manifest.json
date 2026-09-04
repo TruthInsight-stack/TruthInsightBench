@@ -1,0 +1,141 @@
+{
+  "analysis_unit": "One graph panel, one state distribution, one persisted model, and one paired support shift.",
+  "domain": "information",
+  "files": [
+    {
+      "bundled": true,
+      "bytes": 17578,
+      "materialization_required": false,
+      "path": "source_data/computational_observations.json",
+      "role": "structured_scientific_data",
+      "sha256": "e800c69b7075d3fd816f518fa2bd366e4722f62a3537fde439f61a3b3a4767bd"
+    },
+    {
+      "bundled": true,
+      "bytes": 80128,
+      "materialization_required": false,
+      "path": "source_data/er_n_100_p_01.npy",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "d9b5123e8a09e273524991d28f988a07197fa7a4e2b3230a70bf04914f841c8d"
+    },
+    {
+      "bundled": true,
+      "bytes": 80128,
+      "materialization_required": false,
+      "path": "source_data/er_n_100_p_01_alt.npy",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "4f8c6604ff870ce43667e3affe1da01dc7971f7acd552ca29363d2e3435ca1d8"
+    },
+    {
+      "bundled": true,
+      "bytes": 80128,
+      "materialization_required": false,
+      "path": "source_data/er_n_100_p_06.npy",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "ad03d570f668538e16afb936135f2ddc5423ecf09be9c3c46e3868c12d414ffd"
+    },
+    {
+      "bundled": true,
+      "bytes": 40780,
+      "materialization_required": false,
+      "path": "source_data/results/er_experiment_MAK_0_size_100_std_reg_1.0_self_int_True_nbr_int_True_self_hidden_1_nbr_hidden_1_single_gnnlayer_True/adjacency_matrix_0.pt",
+      "role": "scientific_data",
+      "sha256": "d1f1195268ae6e76dbfde63127b0f044111fdf7f0a4abfb789a2a519da9e5715"
+    },
+    {
+      "bundled": true,
+      "bytes": 1057633,
+      "materialization_required": false,
+      "path": "source_data/results/er_experiment_MAK_0_size_100_std_reg_1.0_self_int_True_nbr_int_True_self_hidden_1_nbr_hidden_1_single_gnnlayer_True/data.pkl",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "ce0c51c46988b7ddaca4e439d8a4d564feec4fc7797b8895b21ea2466c5d1854"
+    },
+    {
+      "bundled": true,
+      "bytes": 180,
+      "materialization_required": false,
+      "path": "source_data/results/er_experiment_MAK_0_size_100_std_reg_1.0_self_int_True_nbr_int_True_self_hidden_1_nbr_hidden_1_single_gnnlayer_True/dynamics_config.pkl",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "9576b920514fdb2da3f8236f4b214c331f6cbf6256d2cb96f7b031d666b774d6"
+    },
+    {
+      "bundled": true,
+      "bytes": 5,
+      "materialization_required": false,
+      "path": "source_data/results/er_experiment_MAK_0_size_100_std_reg_1.0_self_int_True_nbr_int_True_self_hidden_1_nbr_hidden_1_single_gnnlayer_True/loss.pkl",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "ec0a6ccf9debf1c16781445c4b9106080d00478b0559469336db7c7b7b9711c8"
+    },
+    {
+      "bundled": true,
+      "bytes": 16947,
+      "materialization_required": false,
+      "path": "source_data/results/er_experiment_MAK_0_size_100_std_reg_1.0_self_int_True_nbr_int_True_self_hidden_1_nbr_hidden_1_single_gnnlayer_True/neural_network.pth",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "b65065f32baa7764cb4397ee976a43ea1ab2453d52344171ba886334fc6de336"
+    },
+    {
+      "bundled": true,
+      "bytes": 1330,
+      "materialization_required": false,
+      "path": "source_data/results/er_experiment_MAK_0_size_100_std_reg_1.0_self_int_True_nbr_int_True_self_hidden_1_nbr_hidden_1_single_gnnlayer_True/training_config.pkl",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "ee7fe62a009cb1be74c66871e1998625e903f120bdc4c5edb6c529592468ea5f"
+    }
+  ],
+  "freeze_status": "frozen",
+  "license_boundary": "The exact source-data record declares CC BY 4.0.",
+  "missingness": "The complete frozen source boundary is bundled.",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "schema": "truthinsightbench-data-manifest",
+  "scientific_scope": "All graph, state, persisted-model, and computational-observation files in the complete frozen source boundary.",
+  "t0": "2024-10-02",
+  "task_id": "Information_01_dynamics_generalization",
+  "title": "Cross-Graph and Cross-State Generalization of Network Dynamics Models",
+  "variable_dictionary": [
+    {
+      "file_or_pattern": "source_data/er_n_100_p_*.npy",
+      "measures": [
+        "undirected_adjacency_matrix",
+        "node_count",
+        "mean_degree"
+      ]
+    },
+    {
+      "file_or_pattern": "source_data/results/**/data.pkl",
+      "measures": [
+        "stored_state",
+        "true_dynamics_derivative"
+      ]
+    },
+    {
+      "file_or_pattern": "source_data/results/**/neural_network.pth",
+      "measures": [
+        "persisted_model_parameters"
+      ]
+    },
+    {
+      "file_or_pattern": "source_data/computational_observations.json",
+      "measures": [
+        "panel_relative_error",
+        "paired_domain_shift_error",
+        "test_statistics"
+      ]
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "warnings": [
+    "The task material first appeared after T0; do not search for the hidden target identity.",
+    "Same-source blind rediscovery is not independent-data replication.",
+    "The result concerns one supplied persisted model unless independent model replicates are explicitly present.",
+    "Use computational_observations.json and the NumPy graph matrices for portable analysis. The pickle and Torch checkpoint files require a compatible PyTorch runtime; report model replay only if it was actually executed.",
+    "Pickle and checkpoint files can execute code when loaded. Treat them as non-portable source artifacts unless they are opened only inside an appropriately isolated, trusted runtime."
+  ],
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

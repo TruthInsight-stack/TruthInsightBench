@@ -1,0 +1,729 @@
+{
+  "all_queries_completed": true,
+  "cards": {
+    "A": {
+      "queries": [
+        {
+          "api_cutoff": "2019-10-17",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "Computational de novo design of new drugs and materials requires rigorous and unbiased exploration of chemical compound space. However, large uncharted territories persist due to its size scaling combinatorially with molecular size. We report computed geometric, energetic, electronic, and thermodynamic properties for 134k stable small organic molecules made up of CHONF. These molecules correspond to the subset of all 133,885 species with up to nine heavy atoms (CONF) out of the GDB-17 chemical universe of 166 billion organic molecules. We report geometries minimal in energy, corresponding harmonic frequencies, dipole moments, polarizabilities, along with energies, enthalpies, and free energies of atomization. All properties were calculated at the B3LYP/6-31G(2df,p) level of quantum chemistry. Furthermore, for the predominant stoichiometry, C7H10O2, there are 6,095 constitutional isomers among the 134k molecules. We report energies, enthalpies, and free energies of atomization at the more accurate G4MP2 level of theory for all of them. As such, this data set provides quantum chemical properties for a relevant, consistent, and comprehensive chemical space of small organic molecules. This database may serve the benchmarking of existing methods, development of new methods, such as hybrid quantum mechanics/machine learning, and systematic identification of structure-property relationships.",
+              "also_returned_by": [
+                "semantic_scholar"
+              ],
+              "alternate_ids": [
+                "S2:89655dc3c3a794cb25e055aed79424c66301d70f"
+              ],
+              "date": "2014-08-04",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/sdata.2014.22",
+              "id": "https://openalex.org/W2080635178",
+              "provider": "openalex",
+              "title": "Quantum chemistry structures and properties of 134 kilo molecules"
+            },
+            {
+              "abstract": "Machine learning algorithms are generally developed in computer science or adjacent disciplines and find their way into chemical modeling by a process of diffusion. Though particular machine learning methods are popular in chemoinformatics and quantitative structure-activity relationships (QSAR), many others exist in the technical literature. This discussion is methods-based and focused on some algorithms that chemoinformatics researchers frequently use. It makes no claim to be exhaustive. We concentrate on methods for supervised learning, predicting the unknown property values of a test set of instances, usually molecules, based on the known values for a training set. Particularly relevant approaches include Artificial Neural Networks, Random Forest, Support Vector Machine, k-Nearest Neighbors and naïve Bayes classifiers.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2014-02-24",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/wcms.1183",
+              "id": "https://openalex.org/W2171830166",
+              "provider": "openalex",
+              "title": "Machine learning methods in chemoinformatics"
+            },
+            {
+              "abstract": "Models that combine quantum mechanics (QM) with machine learning (ML) promise to deliver the accuracy of QM at the speed of ML. This hands‐on tutorial introduces the reader to QM/ML models based on kernel learning, an elegant, systematically nonlinear form of ML. Pseudocode and a reference implementation are provided, enabling the reader to reproduce results from recent publications where atomization energies of small organic molecules are predicted using kernel ridge regression. © 2015 Wiley Periodicals, Inc.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-07-04",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/qua.24954",
+              "id": "https://openalex.org/W1584846110",
+              "provider": "openalex",
+              "title": "Machine learning for quantum mechanics in a nutshell"
+            },
+            {
+              "abstract": "Materials development has historically been driven by human needs and desires, and this is likely to continue in the foreseeable future. The global population is expected to reach ten billion by 2050, which will promote increasingly large demands for clean and high-efficiency energy, personalized consumer products, secure food supplies, and professional healthcare. New functional materials that are made and tailored for targeted properties or behaviors will be the key to tackling this challenge. Traditionally, advanced materials are found empirically or through experimental trial-and-error approaches. As big data generated by modern experimental and computational techniques is becoming more readily available, data-driven or machine learning (ML) methods have opened new paradigms for the discovery and rational design of materials. In this review article, we provide a brief introduction on various ML methods and related software or tools. Main ideas and basic procedures for employing ML approaches in materials research are highlighted. We then summarize recent important applications of ML for the large-scale screening and optimal design of polymer and porous materials, catalytic materials, and energetic materials. Finally, concluding remarks and an outlook are provided.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-08-21",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.eng.2019.02.011",
+              "id": "https://openalex.org/W2969222270",
+              "provider": "openalex",
+              "title": "Big Data Creates New Opportunities for Materials Research: A Review on Methods and Applications of Machine Learning for Materials Design"
+            },
+            {
+              "abstract": "We introduce machine learning models of quantum mechanical observables of atoms in molecules. Instant out-of-sample predictions for proton and carbon nuclear chemical shifts, atomic core level excitations, and forces on atoms reach accuracies on par with density functional theory reference. Locality is exploited within nonlinear regression via local atom-centered coordinate systems. The approach is validated on a diverse set of 9 k small organic molecules. Linear scaling of computational cost in system size is demonstrated for saturated polymers with up to submesoscale lengths.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-08-04",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/acs.jpclett.5b01456",
+              "id": "https://openalex.org/W1843396089",
+              "provider": "openalex",
+              "title": "Machine Learning for Quantum Mechanical Properties of Atoms in Molecules"
+            },
+            {
+              "abstract": "The atomic simulation environment (ASE) is a software package written in the Python programming language with the aim of setting up, steering, and analyzing atomistic simulations. In ASE, tasks are fully scripted in Python. The powerful syntax of Python combined with the NumPy array library make it possible to perform very complex simulation tasks. For example, a sequence of calculations may be performed with the use of a simple 'for-loop' construction. Calculations of energy, forces, stresses and other quantities are performed through interfaces to many external electronic structure codes or force fields using a uniform interface. On top of this calculator interface, ASE provides modules for performing many standard simulation tasks such as structure optimization, molecular dynamics, handling of constraints and performing nudged elastic band calculations.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-03-21",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/1361-648x/aa680e",
+              "id": "https://openalex.org/W2601081289",
+              "provider": "openalex",
+              "title": "The atomic simulation environment—a Python library for working with atoms"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2019-10-17",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 146,
+              "query": "large scale organic bond dissociation enthalpy database machine learning",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8050",
+                "reset_seconds": "26711"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2019-10-17",
+                  "per_page": "6",
+                  "search": "large scale organic bond dissociation enthalpy database machine learning",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2019-10-18"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2019-10-17",
+              "attempts": 1,
+              "locally_excluded_uncertain_or_not_strictly_before": 0,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 1,
+              "query": "large scale organic bond dissociation enthalpy database machine learning",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "6",
+                  "query": "large scale organic bond dissociation enthalpy database machine learning",
+                  "year": "1900-2019"
+                }
+              },
+              "strict_before": "2019-10-18"
+            }
+          },
+          "query": "large scale organic bond dissociation enthalpy database machine learning",
+          "strict_before": "2019-10-18"
+        },
+        {
+          "api_cutoff": "2019-10-17",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "We present the GMTKN55 benchmark database for general main group thermochemistry, kinetics and noncovalent interactions. Compared to its popular predecessor GMTKN30 [Goerigk and Grimme J. Chem. Theory Comput., 2011, 7, 291], it allows assessment across a larger variety of chemical problems-with 13 new benchmark sets being presented for the first time-and it also provides reference values of significantly higher quality for most sets. GMTKN55 comprises 1505 relative energies based on 2462 single-point calculations and it is accessible to the user community via a dedicated website. Herein, we demonstrate the importance of better reference values, and we re-emphasise the need for London-dispersion corrections in density functional theory (DFT) treatments of thermochemical problems, including Minnesota methods. We assessed 217 variations of dispersion-corrected and -uncorrected density functional approximations, and carried out a detailed analysis of 83 of them to identify robust and reliable approaches. Double-hybrid functionals are the most reliable approaches for thermochemistry and noncovalent interactions, and they should be used whenever technically feasible. These are, in particular, DSD-BLYP-D3(BJ), DSD-PBEP86-D3(BJ), and B2GPPLYP-D3(BJ). The best hybrids are ωB97X-V, M052X-D3(0), and ωB97X-D3, but we also recommend PW6B95-D3(BJ) as the best conventional global hybrid. At the meta-generalised-gradient (meta-GGA) level, the SCAN-D3(BJ) method can be recommended. Other meta-GGAs are outperformed by the GGA functionals revPBE-D3(BJ), B97-D3(BJ), and OLYP-D3(BJ). We note th",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1039/c7cp04913g",
+              "id": "https://openalex.org/W2766033847",
+              "provider": "openalex",
+              "title": "A look at the density functional theory zoo with the advanced GMTKN55 database for general main group thermochemistry, kinetics and noncovalent interactions"
+            },
+            {
+              "abstract": "The 14 Minnesota density functionals published between the years 2005 and early 2016 are benchmarked on a comprehensive database of 4986 data points (84 data sets) involving molecules composed of main-group elements. The database includes noncovalent interactions, isomerization energies, thermochemistry, and barrier heights, as well as equilibrium bond lengths and equilibrium binding energies of noncovalent dimers. Additionally, the sensitivity of the Minnesota density functionals to the choice of basis set and integration grid is explored for both noncovalent interactions and thermochemistry. Overall, the main strength of the hybrid Minnesota density functionals is that the best ones provide very good performance for thermochemistry (e.g., M06-2X), barrier heights (e.g., M08-HX, M08-SO, MN15), and systems heavily characterized by self-interaction error (e.g., M06-2X, M08-HX, M08-SO, MN15), while the main weakness is that none of them are state-of-the-art for the full spectrum of noncovalent interactions and isomerization energies (although M06-2X is recommended from the 10 hybrid Minnesota functionals). Similarly, the main strength of the local Minnesota density functionals is that the best ones provide very good performance for thermochemistry (e.g., MN15-L), barrier heights (e.g., MN12-L), and systems heavily characterized by self-interaction error (e.g., MN12-L and MN15-L), while the main weakness is that none of them are state-of-the-art for the full spectrum of noncovalent interactions and isomerization energies (although M06-L is clearly the best from the four local ",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-08-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/acs.jctc.6b00637",
+              "id": "https://openalex.org/W2511380352",
+              "provider": "openalex",
+              "title": "How Accurate Are the Minnesota Density Functionals for Noncovalent Interactions, Isomerization Energies, Thermochemistry, and Barrier Heights Involving Molecules Composed of Main-Group Elements?"
+            },
+            {
+              "abstract": "The structural elucidation of small molecules using mass spectrometry plays an important role in modern life sciences and bioanalytical approaches. This review covers different soft and hard ionization techniques and figures of merit for modern mass spectrometers, such as mass resolving power, mass accuracy, isotopic abundance accuracy, accurate mass multiple-stage MS(n) capability, as well as hybrid mass spectrometric and orthogonal chromatographic approaches. The latter part discusses mass spectral data handling strategies, which includes background and noise subtraction, adduct formation and detection, charge state determination, accurate mass measurements, elemental composition determinations, and complex data-dependent setups with ion maps and ion trees. The importance of mass spectral library search algorithms for tandem mass spectra and multiple-stage MS(n) mass spectra as well as mass spectral tree libraries that combine multiple-stage mass spectra are outlined. The successive chapter discusses mass spectral fragmentation pathways, biotransformation reactions and drug metabolism studies, the mass spectral simulation and generation of in silico mass spectra, expert systems for mass spectral interpretation, and the use of computational chemistry to explain gas-phase phenomena. A single chapter discusses data handling for hyphenated approaches including mass spectral deconvolution for clean mass spectra, cheminformatics approaches and structure retention relationships, and retention index predictions for gas and liquid chromatography. The last section reviews the curre",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2010-08-20",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s12566-010-0015-9",
+              "id": "https://openalex.org/W2101257438",
+              "provider": "openalex",
+              "title": "Advances in structure elucidation of small molecules using mass spectrometry"
+            },
+            {
+              "abstract": "BACKGROUND: The rapid access to intrinsic physicochemical properties of molecules is highly desired for large scale chemical data mining explorations such as mass spectrum prediction in metabolomics, toxicity risk assessment and drug discovery. Large volumes of data are being produced by quantum chemistry calculations, which provide increasing accurate estimations of several properties, e.g. by Density Functional Theory (DFT), but are still too computationally expensive for those large scale uses. This work explores the possibility of using large amounts of data generated by DFT methods for thousands of molecular structures, extracting relevant molecular properties and applying machine learning (ML) algorithms to learn from the data. Once trained, these ML models can be applied to new structures to produce ultra-fast predictions. An approach is presented for homolytic bond dissociation energy (BDE). RESULTS: Machine learning models were trained with a data set of >12,000 BDEs calculated by B3LYP/6-311++G(d,p)//DFTB. Descriptors were designed to encode atom types and connectivity in the 2D topological environment of the bonds. The best model, an Associative Neural Network (ASNN) based on 85 bond descriptors, was able to predict the BDE of 887 bonds in an independent test set (covering a range of 17.67-202.30 kcal/mol) with RMSD of 5.29 kcal/mol, mean absolute deviation of 3.35 kcal/mol, and R (2) = 0.953. The predictions were compared with semi-empirical PM6 calculations, and were found to be superior for all types of bonds in the data set, except for O-H, N-H, and N-N bonds",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2013-07-12",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1186/1758-2946-5-34",
+              "id": "https://openalex.org/W2102965080",
+              "provider": "openalex",
+              "title": "A big data approach to the ultra-fast prediction of DFT-calculated bond energies"
+            },
+            {
+              "abstract": "Lignin is an abundant biopolymer with a high carbon content and high aromaticity. Despite its potential as a raw material for the fuel and chemical industries, lignin remains the most poorly utilised of the lignocellulosic biopolymers. Effective valorisation of lignin requires careful fine-tuning of multiple \"upstream\" (i.e., lignin bioengineering, lignin isolation and \"early-stage catalytic conversion of lignin\") and \"downstream\" (i.e., lignin depolymerisation and upgrading) process stages, demanding input and understanding from a broad array of scientific disciplines. This review provides a \"beginning-to-end\" analysis of the recent advances reported in lignin valorisation. Particular emphasis is placed on the improved understanding of lignin's biosynthesis and structure, differences in structure and chemical bonding between native and technical lignins, emerging catalytic valorisation strategies, and the relationships between lignin structure and catalyst performance.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-06-17",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/anie.201510351",
+              "id": "https://openalex.org/W2441647337",
+              "provider": "openalex",
+              "title": "Paving the Way for Lignin Valorisation: Recent Advances in Bioengineering, Biorefining and Catalysis"
+            },
+            {
+              "abstract": "Significance Catalytic hydrogenation and dehydrogenation reactions are extremely important in organic chemistry and recently for energy storage in the form of chemical bonds. Although catalysts are known which catalyze both reactions, the rates and conditions required for the two are frequently very different due to the differences associated with the bonds to be activated (C–H/O–H/N–H and C = O/C = N/H–H). The use of a bifunctional catalyst would substantially simplify the design of processes related to energy storage. In this work, organometallic complexes of iron and iridium are shown to act as catalysts for reversible dehydrogenation of alcohols to carbonyl compounds. This finding opens a pathway to the development of catalysts for direct reversible electrochemical dehydrogenation of organic fuels in energy generation and storage reactions.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-01-14",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1073/pnas.1420199112",
+              "id": "https://openalex.org/W2089448252",
+              "provider": "openalex",
+              "title": "Reversible catalytic dehydrogenation of alcohols for energy storage"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-01-28",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s00894-019-3930-x",
+              "id": "S2:c22ba042155f441e59f62413bfb12361525e0dc7",
+              "provider": "semantic_scholar",
+              "title": "Benchmark DFT studies on C–CN homolytic cleavage and screening the substitution effect on bond dissociation energy",
+              "url": "https://www.semanticscholar.org/paper/c22ba042155f441e59f62413bfb12361525e0dc7?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1986-05-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/j100402a054",
+              "id": "S2:44d26fb8883a339c70d98d116cdde72ebc151836",
+              "provider": "semantic_scholar",
+              "title": "A new mass spectrometric method for the determination of the dissociation energy of the (R-H) chemical bond of organic molecules",
+              "url": "https://www.semanticscholar.org/paper/44d26fb8883a339c70d98d116cdde72ebc151836?utm_source=api"
+            },
+            {
+              "abstract": "Recent experimental and computational advances have heralded huge progress in the range and the detail of the database pertaining to photoinduced C-H bond fission processes. This Perspective provides a snapshot of the current state of knowledge as determined via gas phase (i.e. isolated molecule) studies of the primary photochemistry of families of hydrocarbon molecules (alkynes, alkenes, alkanes, aromatics and selected heteroatom containing analogues) and the corresponding radicals (including saturated and unsaturated hydrocarbon radicals). Different families show different and, in many cases, understandable propensities for dissociating from an excited electronic state or following non-adiabatic coupling (i.e. internal conversion) to high vibrational levels of the ground electronic state. The Perspective seeks to emphasise the potentially vast range of behaviours (dissociation timescales, product energy disposals, etc.) that can be expected to accompany internal conversion, reflecting the extent to which the tuning coordinate (i.e. the nuclear motions that tune the energy separation between the excited and ground state) projects onto the dissociation coordinate of interest (i.e. the breaking of the C-H bond).",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-07-14",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1039/c8cp07454b",
+              "id": "S2:63f164a38c10207f4d86fd9ad0ddab9c6e50d6cb",
+              "provider": "semantic_scholar",
+              "title": "Photoinduced C-H bond fission in prototypical organic molecules and radicals.",
+              "url": "https://www.semanticscholar.org/paper/63f164a38c10207f4d86fd9ad0ddab9c6e50d6cb?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2003-01-28",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/AR020230D",
+              "id": "S2:3aaecb82c2ece7f77647ce525290bf3d9d4eb750",
+              "provider": "semantic_scholar",
+              "title": "Bond dissociation energies of organic molecules.",
+              "url": "https://www.semanticscholar.org/paper/3aaecb82c2ece7f77647ce525290bf3d9d4eb750?utm_source=api"
+            },
+            {
+              "abstract": "Abstract Numerous reactions between sulfenyl chlorides and organic molecules proceed by way of radical reactions, in which homolytic cleavage of the S Cl bond is a key step. Owing to the lack of data concerning the quantitative effect of substituents in governing the strength of S Cl bonds toward homolytic cleavage, the present article reports an extensive dataset of gas-phase S Cl bond dissociation enthalpies (BDEs) obtained using the high-level G4 thermochemical protocol. The BDEs of the species in this set range from 207.2 (ONSCl) to 279.7 kJ mol−1 (tBuSCl), with HSCl having a BDE of 267.6 kJ mol−1. In addition, the gas-phase S Cl BDEs of six sulfonyl chlorides have also been reported, and these range from 267.2 kJ mol–1 (CF3SO2Cl) to 283.0 kJ mol−1 (FSO2Cl).",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-02-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/J.CDC.2019.100180",
+              "id": "S2:5d8a2005bc6aeba1388278542e10479ed1dbd421",
+              "provider": "semantic_scholar",
+              "title": "Homolytic S Cl bond dissociation enthalpies of sulfenyl chlorides – a high-level G4 thermochemical study",
+              "url": "https://www.semanticscholar.org/paper/5d8a2005bc6aeba1388278542e10479ed1dbd421?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2019-10-17",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 368,
+              "query": "homolytic bond dissociation energy database organic molecules",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8040",
+                "reset_seconds": "26709"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2019-10-17",
+                  "per_page": "6",
+                  "search": "homolytic bond dissociation energy database organic molecules",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2019-10-18"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2019-10-17",
+              "attempts": 1,
+              "locally_excluded_uncertain_or_not_strictly_before": 1,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 606,
+              "query": "homolytic bond dissociation energy database organic molecules",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "6",
+                  "query": "homolytic bond dissociation energy database organic molecules",
+                  "year": "1900-2019"
+                }
+              },
+              "strict_before": "2019-10-18"
+            }
+          },
+          "query": "homolytic bond dissociation energy database organic molecules",
+          "strict_before": "2019-10-18"
+        }
+      ]
+    },
+    "B": {
+      "queries": [
+        {
+          "api_cutoff": "2019-10-17",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "Computational de novo design of new drugs and materials requires rigorous and unbiased exploration of chemical compound space. However, large uncharted territories persist due to its size scaling combinatorially with molecular size. We report computed geometric, energetic, electronic, and thermodynamic properties for 134k stable small organic molecules made up of CHONF. These molecules correspond to the subset of all 133,885 species with up to nine heavy atoms (CONF) out of the GDB-17 chemical universe of 166 billion organic molecules. We report geometries minimal in energy, corresponding harmonic frequencies, dipole moments, polarizabilities, along with energies, enthalpies, and free energies of atomization. All properties were calculated at the B3LYP/6-31G(2df,p) level of quantum chemistry. Furthermore, for the predominant stoichiometry, C7H10O2, there are 6,095 constitutional isomers among the 134k molecules. We report energies, enthalpies, and free energies of atomization at the more accurate G4MP2 level of theory for all of them. As such, this data set provides quantum chemical properties for a relevant, consistent, and comprehensive chemical space of small organic molecules. This database may serve the benchmarking of existing methods, development of new methods, such as hybrid quantum mechanics/machine learning, and systematic identification of structure-property relationships.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2014-08-04",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/sdata.2014.22",
+              "id": "https://openalex.org/W2080635178",
+              "provider": "openalex",
+              "title": "Quantum chemistry structures and properties of 134 kilo molecules"
+            },
+            {
+              "abstract": "Machine learning algorithms are generally developed in computer science or adjacent disciplines and find their way into chemical modeling by a process of diffusion. Though particular machine learning methods are popular in chemoinformatics and quantitative structure-activity relationships (QSAR), many others exist in the technical literature. This discussion is methods-based and focused on some algorithms that chemoinformatics researchers frequently use. It makes no claim to be exhaustive. We concentrate on methods for supervised learning, predicting the unknown property values of a test set of instances, usually molecules, based on the known values for a training set. Particularly relevant approaches include Artificial Neural Networks, Random Forest, Support Vector Machine, k-Nearest Neighbors and naïve Bayes classifiers.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2014-02-24",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/wcms.1183",
+              "id": "https://openalex.org/W2171830166",
+              "provider": "openalex",
+              "title": "Machine learning methods in chemoinformatics"
+            },
+            {
+              "abstract": "Models that combine quantum mechanics (QM) with machine learning (ML) promise to deliver the accuracy of QM at the speed of ML. This hands‐on tutorial introduces the reader to QM/ML models based on kernel learning, an elegant, systematically nonlinear form of ML. Pseudocode and a reference implementation are provided, enabling the reader to reproduce results from recent publications where atomization energies of small organic molecules are predicted using kernel ridge regression. © 2015 Wiley Periodicals, Inc.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-07-04",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/qua.24954",
+              "id": "https://openalex.org/W1584846110",
+              "provider": "openalex",
+              "title": "Machine learning for quantum mechanics in a nutshell"
+            },
+            {
+              "abstract": "We introduce machine learning models of quantum mechanical observables of atoms in molecules. Instant out-of-sample predictions for proton and carbon nuclear chemical shifts, atomic core level excitations, and forces on atoms reach accuracies on par with density functional theory reference. Locality is exploited within nonlinear regression via local atom-centered coordinate systems. The approach is validated on a diverse set of 9 k small organic molecules. Linear scaling of computational cost in system size is demonstrated for saturated polymers with up to submesoscale lengths.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-08-04",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/acs.jpclett.5b01456",
+              "id": "https://openalex.org/W1843396089",
+              "provider": "openalex",
+              "title": "Machine Learning for Quantum Mechanical Properties of Atoms in Molecules"
+            },
+            {
+              "abstract": "Materials development has historically been driven by human needs and desires, and this is likely to continue in the foreseeable future. The global population is expected to reach ten billion by 2050, which will promote increasingly large demands for clean and high-efficiency energy, personalized consumer products, secure food supplies, and professional healthcare. New functional materials that are made and tailored for targeted properties or behaviors will be the key to tackling this challenge. Traditionally, advanced materials are found empirically or through experimental trial-and-error approaches. As big data generated by modern experimental and computational techniques is becoming more readily available, data-driven or machine learning (ML) methods have opened new paradigms for the discovery and rational design of materials. In this review article, we provide a brief introduction on various ML methods and related software or tools. Main ideas and basic procedures for employing ML approaches in materials research are highlighted. We then summarize recent important applications of ML for the large-scale screening and optimal design of polymer and porous materials, catalytic materials, and energetic materials. Finally, concluding remarks and an outlook are provided.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-08-21",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.eng.2019.02.011",
+              "id": "https://openalex.org/W2969222270",
+              "provider": "openalex",
+              "title": "Big Data Creates New Opportunities for Materials Research: A Review on Methods and Applications of Machine Learning for Materials Design"
+            },
+            {
+              "abstract": "The atomic simulation environment (ASE) is a software package written in the Python programming language with the aim of setting up, steering, and analyzing atomistic simulations. In ASE, tasks are fully scripted in Python. The powerful syntax of Python combined with the NumPy array library make it possible to perform very complex simulation tasks. For example, a sequence of calculations may be performed with the use of a simple 'for-loop' construction. Calculations of energy, forces, stresses and other quantities are performed through interfaces to many external electronic structure codes or force fields using a uniform interface. On top of this calculator interface, ASE provides modules for performing many standard simulation tasks such as structure optimization, molecular dynamics, handling of constraints and performing nudged elastic band calculations.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-03-21",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/1361-648x/aa680e",
+              "id": "https://openalex.org/W2601081289",
+              "provider": "openalex",
+              "title": "The atomic simulation environment—a Python library for working with atoms"
+            },
+            {
+              "abstract": "A DFT-SOFM-RBFNN method is proposed to improve the accuracy of DFT calculations on Y-NO (Y = C, N, O, S) homolysis bond dissociation energies (BDE) by combining density functional theory (DFT) and artificial intelligence/machine learning methods, which consist of self-organizing feature mapping neural networks (SOFMNN) and radial basis function neural networks (RBFNN). A descriptor refinement step including SOFMNN clustering analysis and correlation analysis is implemented. The SOFMNN clustering analysis is applied to classify descriptors, and the representative descriptors in the groups are selected as neural network inputs according to their closeness to the experimental values through correlation analysis. Redundant descriptors and intuitively biased choices of descriptors can be avoided by this newly introduced step. Using RBFNN calculation with the selected descriptors, chemical accuracy (≤1 kcal·mol−1) is achieved for all 92 calculated organic Y-NO homolysis BDE calculated by DFT-B3LYP, and the mean absolute deviations (MADs) of the B3LYP/6-31G(d) and B3LYP/STO-3G methods are reduced from 4.45 and 10.53 kcal·mol−1 to 0.15 and 0.18 kcal·mol−1, respectively. The improved results for the minimal basis set STO-3G reach the same accuracy as those of 6-31G(d), and thus B3LYP calculation with the minimal basis set is recommended to be used for minimizing the computational cost and to expand the applications to large molecular systems. Further extrapolation tests are performed with six molecules (two containing Si-NO bonds and two containing fluorine), and the accuracy of the tests was within 1 kcal·mol−1. This study shows that DFT-SOFM-RBFNN is an efficient and highly accurate method for Y-NO homolysis BDE. The method may be used as a tool to design new NO carrier molecules.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2012-06-28",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3390/ijms13078051",
+              "id": "S2:3a97d4af7354b1a87b839ea7f52eb31fe43f98c2",
+              "provider": "semantic_scholar",
+              "title": "A Promising Tool to Achieve Chemical Accuracy for Density Functional Theory Calculations on Y-NO Homolysis Bond Dissociation Energies",
+              "url": "https://www.semanticscholar.org/paper/3a97d4af7354b1a87b839ea7f52eb31fe43f98c2?utm_source=api"
+            },
+            {
+              "abstract": "We\npresent the first application of machine learning on per- and polyfluoroalkyl substances (PFAS) for predicting and rationalizing carbon-fluorine (C–F)\nbond dissociation energies to aid in their efficient treatment and removal. Using\na variety of machine learning algorithms (including Random Forest, Least\nAbsolute Shrinkage and Selection Operator Regression, and Feed-forward Neural\nNetworks), we were able to obtain extremely accurate predictions for C–F bond dissociation energies (with\ndeviations less than 0.70 kcal/mol) that are within chemical accuracy of\nthe PFAS reference data. In addition, we show that our machine learning\napproach is extremely efficient (requiring less than 10 minutes to train the\ndata and less than a second to predict the C–F bond dissociation energy of a\nnew compound) and only needs knowledge\nof the simple chemical connectivity in a PFAS structure to yield reliable\nresults – without recourse to a computationally expensive quantum\nmechanical calculation or a three-dimensional structure. Finally, we present an\nunsupervised machine learning algorithm that can automatically classify and\nrationalize chemical trends in PFAS structures that would otherwise have been\ndifficult to humanly visualize/process manually. Collectively, these studies (1)\ncomprise the first application\nof machine learning techniques for PFAS structures to predict/rationalize C–F bond dissociation energies and (2) show immense\npromise for assisting experimentalists in the targeted defluorination of\nspecific bonds in PFAS structures (or other unknown environmental contaminants)\nof increasing complexity.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-09-03",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.26434/chemrxiv.9756557.v1",
+              "id": "S2:5ea5c792f914bfb43364981db303c91cad48485d",
+              "provider": "semantic_scholar",
+              "title": "A Machine Learning Approach for Predicting Defluorination of Per- and Polyfluoroalkyl Substances (PFAS) for Their Efficient Treatment and Removal",
+              "url": "https://www.semanticscholar.org/paper/5ea5c792f914bfb43364981db303c91cad48485d?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2008-09-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.jmgm.2008.04.005",
+              "id": "S2:4e5110ebd264d183ae0acb7e5bfe06ed3f58e6f7",
+              "provider": "semantic_scholar",
+              "title": "Prediction of bond dissociation enthalpy of antioxidant phenols by support vector machine.",
+              "url": "https://www.semanticscholar.org/paper/4e5110ebd264d183ae0acb7e5bfe06ed3f58e6f7?utm_source=api"
+            },
+            {
+              "abstract": "Machine learning (ML) of quantum mechanical properties shows promise for accelerating chemical discovery. For transition metal chemistry where accurate calculations are computationally costly and available training data sets are small, the molecular representation becomes a critical ingredient in ML model predictive accuracy. We introduce a series of revised autocorrelation functions (RACs) that encode relationships of the heuristic atomic properties (e.g., size, connectivity, and electronegativity) on a molecular graph. We alter the starting point, scope, and nature of the quantities evaluated in standard ACs to make these RACs amenable to inorganic chemistry. On an organic molecule set, we first demonstrate superior standard AC performance to other presently available topological descriptors for ML model training, with mean unsigned errors (MUEs) for atomization energies on set-aside test molecules as low as 6 kcal/mol. For inorganic chemistry, our RACs yield 1 kcal/mol ML MUEs on set-aside test molecules in spin-state splitting in comparison to 15-20× higher errors for feature sets that encode whole-molecule structural information. Systematic feature selection methods including univariate filtering, recursive feature elimination, and direct optimization (e.g., random forest and LASSO) are compared. Random-forest- or LASSO-selected subsets 4-5× smaller than the full RAC set produce sub- to 1 kcal/mol spin-splitting MUEs, with good transferability to metal-ligand bond length prediction (0.004-5 Å MUE) and redox potential on a smaller data set (0.2-0.3 eV MUE). Evaluation of feature selection results across property sets reveals the relative importance of local, electronic descriptors (e.g., electronegativity, atomic number) in spin-splitting and distal, steric effects in redox potential and bond lengths.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-08-20",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/acs.jpca.7b08750",
+              "id": "S2:866e436ae5fc6ad06073ef78aa25ea5467e3ff21",
+              "provider": "semantic_scholar",
+              "title": "Resolving Transition Metal Chemical Space: Feature Selection for Machine Learning and Structure-Property Relationships.",
+              "url": "https://www.semanticscholar.org/paper/866e436ae5fc6ad06073ef78aa25ea5467e3ff21?utm_source=api"
+            },
+            {
+              "abstract": "We investigate the impact of choosing regressors and molecular representations for the construction of fast machine learning (ML) models of thirteen electronic ground-state properties of organic molecules. The performance of each regressor/representation/property combination is assessed using learning curves which report out-of-sample errors as a function of training set size with up to $\\sim$117k distinct molecules. Molecular structures and properties at hybrid density functional theory (DFT) level of theory used for training and testing come from the QM9 database [Ramakrishnan et al, {\\em Scientific Data} {\\bf 1} 140022 (2014)] and include dipole moment, polarizability, HOMO/LUMO energies and gap, electronic spatial extent, zero point vibrational energy, enthalpies and free energies of atomization, heat capacity and the highest fundamental vibrational frequency. Various representations from the literature have been studied (Coulomb matrix, bag of bonds, BAML and ECFP4, molecular graphs (MG)), as well as newly developed distribution based variants including histograms of distances (HD), and angles (HDA/MARAD), and dihedrals (HDAD). Regressors include linear models (Bayesian ridge regression (BR) and linear regression with elastic net regularization (EN)), random forest (RF), kernel ridge regression (KRR) and two types of neural net works, graph convolutions (GC) and gated graph networks (GG). We present numerical evidence that ML model predictions deviate from DFT less than DFT deviates from experiment for all properties. Furthermore, our out-of-sample prediction errors with respect to hybrid DFT reference are on par with, or close to, chemical accuracy. Our findings suggest that ML models could be more accurate than hybrid DFT if explicitly electron correlated quantum (or experimental) data was available.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-02-17",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:ee608d5c3713e4ec56fe15b3e05f2bca6036c226",
+              "provider": "semantic_scholar",
+              "title": "Machine learning prediction errors better than DFT accuracy",
+              "url": "https://www.semanticscholar.org/paper/ee608d5c3713e4ec56fe15b3e05f2bca6036c226?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2019-10-17",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 198,
+              "query": "machine learning organic bond dissociation enthalpy chemical accuracy",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8030",
+                "reset_seconds": "26705"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2019-10-17",
+                  "per_page": "6",
+                  "search": "machine learning organic bond dissociation enthalpy chemical accuracy",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2019-10-18"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2019-10-17",
+              "attempts": 3,
+              "locally_excluded_uncertain_or_not_strictly_before": 1,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 22,
+              "query": "machine learning organic bond dissociation enthalpy chemical accuracy",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "6",
+                  "query": "machine learning organic bond dissociation enthalpy chemical accuracy",
+                  "year": "1900-2019"
+                }
+              },
+              "strict_before": "2019-10-18"
+            }
+          },
+          "query": "machine learning organic bond dissociation enthalpy chemical accuracy",
+          "strict_before": "2019-10-18"
+        },
+        {
+          "api_cutoff": "2019-10-17",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "The development of interatomic potentials employing artificial neural networks has seen tremendous progress in recent years. While until recently the applicability of neural network potentials (NNPs) has been restricted to low-dimensional systems, this limitation has now been overcome and high-dimensional NNPs can be used in large-scale molecular dynamics simulations of thousands of atoms. NNPs are constructed by adjusting a set of parameters using data from electronic structure calculations, and in many cases energies and forces can be obtained with very high accuracy. Therefore, NNP-based simulation results are often very close to those gained by a direct application of first-principles methods. In this review, the basic methodology of high-dimensional NNPs will be presented with a special focus on the scope and the remaining limitations of this approach. The development of NNPs requires substantial computational effort as typically thousands of reference calculations are required. Still, if the problem to be studied involves very large systems or long simulation times this overhead is regained quickly. Further, the method is still limited to systems containing about three or four chemical elements due to the rapidly increasing complexity of the configuration space, although many atoms of each species can be present. Due to the ability of NNPs to describe even extremely complex atomic configurations with excellent accuracy irrespective of the nature of the atomic interactions, they represent a general and therefore widely applicable technique, e.g. for addressing problems",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2014-04-23",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/0953-8984/26/18/183001",
+              "id": "https://openalex.org/W1984087004",
+              "provider": "openalex",
+              "title": "Representing potential energy surfaces by high-dimensional neural network potentials"
+            },
+            {
+              "abstract": "CHARMM (Chemistry at HARvard Molecular Mechanics) is a highly versatile and widely used molecular simulation program. It has been developed over the last three decades with a primary focus on molecules of biological interest, including proteins, peptides, lipids, nucleic acids, carbohydrates, and small molecule ligands, as they occur in solution, crystals, and membrane environments. For the study of such systems, the program provides a large suite of computational tools that include numerous conformational and path sampling methods, free energy estimators, molecular minimization, dynamics, and analysis techniques, and model-building capabilities. The CHARMM program is applicable to problems involving a much broader class of many-particle systems. Calculations with CHARMM can be performed using a number of different energy functions and models, from mixed quantum mechanical-molecular mechanical force fields, to all-atom classical potential energy functions with explicit solvent and various boundary conditions, to implicit solvent and membrane models. The program has been ported to numerous platforms in both serial and parallel architectures. This article provides an overview of the program as it exists today with an emphasis on developments since the publication of the original CHARMM article in 1983.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2009-05-14",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/jcc.21287",
+              "id": "https://openalex.org/W2132262459",
+              "provider": "openalex",
+              "title": "CHARMM: The biomolecular simulation program"
+            },
+            {
+              "abstract": ", support vector regression and kernel ridge regression), demonstrating particularly improved performance in transferability, as measured by prediction errors on the diverse test set. We establish the value of new uncertainty quantification tools to estimate ANN prediction uncertainty in computational chemistry, and we provide additional heuristics for identification of when a compound of interest is likely to be poorly predicted by the ANN. The ANNs developed in this work provide a strategy for screening transition metal complexes both with direct ANN prediction and with improved structure generation for validation with first principles simulation.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1039/c7sc01247k",
+              "id": "https://openalex.org/W2598115655",
+              "provider": "openalex",
+              "title": "Predicting electronic structure properties of transition metal complexes with neural networks"
+            },
+            {
+              "abstract": "High-throughput computational screening has emerged as a critical component of materials discovery. Direct density functional theory (DFT) simulation of inorganic materials and molecular transition metal complexes is often used to describe subtle trends in inorganic bonding and spin-state ordering, but these calculations are computationally costly and properties are sensitive to the exchange-correlation functional employed. To begin to overcome these challenges, we trained artificial neural networks (ANNs) to predict quantum-mechanically-derived properties, including spin-state ordering, sensitivity to Hartree-Fock exchange, and spin-state specific bond lengths in transition metal complexes. Our ANN is trained on a small set of inorganic-chemistry-appropriate empirical inputs that are both maximally transferable and do not require precise three-dimensional structural information for prediction. Using these descriptors, our ANN predicts spin-state splittings of single-site transition metal complexes (i.e., Cr-Ni) at arbitrary amounts of Hartree-Fock exchange to within 3 kcal mol-1 accuracy of DFT calculations. Our exchange-sensitivity ANN enables improved predictions on a diverse test set of experimentally-characterized transition metal complexes by extrapolation from semi-local DFT to hybrid DFT. The ANN also outperforms other machine learning models (i.e., support vector regression and kernel ridge regression), demonstrating particularly improved performance in transferability, as measured by prediction errors on the diverse test set. We establish the value of new uncertai",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-03-01",
+              "date_precision": "day",
+              "doi": null,
+              "id": "https://openalex.org/W3099937095",
+              "provider": "openalex",
+              "title": "Predicting electronic structure properties of transition metal complexes with neural networks"
+            },
+            {
+              "abstract": "Over the past decade, pharmaceutical companies have seen a decline in the number of drug candidates successfully passing through clinical trials, though billions are still spent on drug development. Poor aqueous solubility leads to low bio-availability, reducing pharmaceutical effectiveness. The human cost of inefficient drug candidate testing is of great medical concern, with fewer drugs making it to the production line, slowing the development of new treatments. In biochemistry and biophysics, water mediated reactions and interactions within active sites and protein pockets are an active area of research, in which methods for modelling solvated systems are continually pushed to their limits. Here, we discuss a multitude of methods aimed towards solvent modelling and solubility prediction, aiming to inform the reader of the options available, and outlining the various advantages and disadvantages of each approach.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1039/c5cp00288e",
+              "id": "https://openalex.org/W2169527365",
+              "provider": "openalex",
+              "title": "A review of methods for the calculation of solution free energies and the modelling of systems in solution"
+            },
+            {
+              "abstract": "Simultaneously accurate and efficient prediction of molecular properties throughout chemical compound space is a critical ingredient toward rational compound design in chemical and pharmaceutical industries. Aiming toward this goal, we develop and apply a systematic hierarchy of efficient empirical methods to estimate atomization and total energies of molecules. These methods range from a simple sum over atoms, to addition of bond energies, to pairwise interatomic force fields, reaching to the more sophisticated machine learning approaches that are capable of describing collective interactions between many atoms or bonds. In the case of equilibrium molecular geometries, even simple pairwise force fields demonstrate prediction accuracy comparable to benchmark energies calculated using density functional theory with hybrid exchange-correlation functionals; however, accounting for the collective many-body interactions proves to be essential for approaching the “holy grail” of chemical accuracy of 1 kcal/mol for both equilibrium and out-of-equilibrium geometries. This remarkable accuracy is achieved by a vectorized representation of molecules (so-called Bag of Bonds model) that exhibits strong nonlocality in chemical space. In addition, the same representation allows us to predict accurate electronic properties of molecules, such as their polarizability and molecular frontier orbital energies.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-06-04",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/acs.jpclett.5b00831",
+              "id": "https://openalex.org/W1531674615",
+              "provider": "openalex",
+              "title": "Machine Learning Predictions of Molecular Properties: Accurate Many-Body Potentials and Nonlocality in Chemical Space"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-03-17",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:2e996039f755beb49ac651b8aef9347fb82d8d51",
+              "provider": "semantic_scholar",
+              "title": "Using Fuzzy Artificial Neural Network TSK (Takagi, Sugeno, Kang) for Approximation and Prediction of Dissociation Energy of C-X-Bonds (X=F, Cl, Br, I) in Halogenated Hydrocarbons",
+              "url": "https://www.semanticscholar.org/paper/2e996039f755beb49ac651b8aef9347fb82d8d51?utm_source=api"
+            },
+            {
+              "abstract": "The excitation of electron–hole pairs in reactive scattering of molecules at metal surfaces often affects the physical and dynamical observables of interest, including the reaction probability. Here, we study the influence of electron–hole pair excitation on the dissociative chemisorption of N2 on Ru(0001) using the local density friction approximation method. The effect of surface atom motion has also been taken into account by a high-dimensional neural network potential. Our nonadiabatic molecular dynamics simulations with electronic friction show that the reaction of N2 is more strongly affected by the energy transfer to surface phonons than by the energy loss to electron–hole pairs. The discrepancy between the computed reaction probabilities and experimental results is within the experimental error both with and without friction; however, the incorporation of electron–hole pairs yields somewhat better agreement with experiments, especially at high collision energies. We also calculate the vibrational efficacy for the N2 + Ru(0001) reaction and demonstrate that the N2 reaction is more enhanced by exciting the molecular vibrations than by adding an equivalent amount of energy into translation.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-09-20",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/acs.jpcc.8b06729",
+              "id": "S2:1c2be0a05573f3ea1ed968b87c4bcf5dfb42a1e3",
+              "provider": "semantic_scholar",
+              "title": "Analysis of Energy Dissipation Channels in a Benchmark System of Activated Dissociation: N2 on Ru(0001)",
+              "url": "https://www.semanticscholar.org/paper/1c2be0a05573f3ea1ed968b87c4bcf5dfb42a1e3?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2012-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:e2e22589edf766a782477f4b0dfbe812633aa643",
+              "provider": "semantic_scholar",
+              "title": "Improving the Accuracy of DFT Calculation for Homolysis Bond Dissociation Energies of Y—NO Bond via Back Propagation Neural Network Based on Mean Impact Value",
+              "url": "https://www.semanticscholar.org/paper/e2e22589edf766a782477f4b0dfbe812633aa643?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1998-02-19",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/S0166-1280(97)00129-2",
+              "id": "S2:f3aeb9bb47d1b4e757db976c31b8d341c4a9b3fe",
+              "provider": "semantic_scholar",
+              "title": "Prediction of bond dissociation energies using neural network, statistical, and quantum mechanical approaches",
+              "url": "https://www.semanticscholar.org/paper/f3aeb9bb47d1b4e757db976c31b8d341c4a9b3fe?utm_source=api"
+            },
+            {
+              "abstract": "We propose a generalized regression neural network (GRNN) approach based on grey relational analysis (GRA) and principal component analysis (PCA) (GP-GRNN) to improve the accuracy of density functional theory (DFT) calculation for homolysis bond dissociation energies (BDE) of Y-NO bond. As a demonstration, this combined quantum chemistry calculation with the GP-GRNN approach has been applied to evaluate the homolysis BDE of 92 Y-NO organic molecules. The results show that the ull-descriptor GRNN without GRA and PCA (F-GRNN) and with GRA (G-GRNN) approaches reduce the root-mean-square (RMS) of the calculated homolysis BDE of 92 organic molecules from 5.31 to 0.49 and 0.39 kcal mol−1 for the B3LYP/6-31G (d) calculation. Then the newly developed GP-GRNN approach further reduces the RMS to 0.31 kcal mol−1. Thus, the GP-GRNN correction on top of B3LYP/6-31G (d) can improve the accuracy of calculating the homolysis BDE in quantum chemistry and can predict homolysis BDE which cannot be obtained experimentally.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2011-04-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3390/ijms12042242",
+              "id": "S2:88bf2daf4baa05d2ffe718aadc12411205e55358",
+              "provider": "semantic_scholar",
+              "title": "Improving the Accuracy of Density Functional Theory (DFT) Calculation for Homolysis Bond Dissociation Energies of Y-NO Bond: Generalized Regression Neural Network Based on Grey Relational Analysis and Principal Component Analysis",
+              "url": "https://www.semanticscholar.org/paper/88bf2daf4baa05d2ffe718aadc12411205e55358?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2019-10-17",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 290,
+              "query": "graph neural network bond dissociation energy experimental benchmark",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8020",
+                "reset_seconds": "26682"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2019-10-17",
+                  "per_page": "6",
+                  "search": "graph neural network bond dissociation energy experimental benchmark",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2019-10-18"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2019-10-17",
+              "attempts": 1,
+              "locally_excluded_uncertain_or_not_strictly_before": 1,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 25,
+              "query": "graph neural network bond dissociation energy experimental benchmark",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "6",
+                  "query": "graph neural network bond dissociation energy experimental benchmark",
+                  "year": "1900-2019"
+                }
+              },
+              "strict_before": "2019-10-18"
+            }
+          },
+          "query": "graph neural network bond dissociation energy experimental benchmark",
+          "strict_before": "2019-10-18"
+        }
+      ]
+    }
+  },
+  "generated_at": "2026-08-12T16:35:20.432491+00:00",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "1d04a5b33b6a90d8d2fe25e4c7f2d348a48ba023078ea7a17b8f89b715124b48",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Migrated without changing the frozen pre-t0 query results; non-detection is scoped, not universal priority.",
+  "strict_before": "2019-10-18",
+  "task_id": "Chemistry_04_bond_enthalpy_domain",
+  "release": "V1.0"
+}

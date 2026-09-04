@@ -1,0 +1,427 @@
+{
+  "all_queries_completed": true,
+  "api_cutoff": "2021-12-31",
+  "cards": {
+    "A": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "During early cardiac development, progenitors of the valves and septa of the heart are formed by an epithelial-mesenchymal cell transformation of endothelial cells of the atrioventricular (AV) canal. We have previously shown that this event is due to an interaction between the endothelium and products of the myocardium found within the extracellular matrix. The present study examines signal transduction mechanisms governing this differentiation of AV canal endothelium. Activators of protein kinase C (PKC), phorbol myristate acetate (PMA) and mezerein, both produced an incomplete phenotypic transformation of endothelial cells in an in vitro bioassay for transformation. On the other hand, inhibitors of PKC (H-7 and staurosporine) and tyrosine kinase (genistein) blocked cellular transformation in response to the native myocardium or a myocardially-conditioned medium. Intracellular free calcium concentration ([Ca2+]i) was measured in single endothelial cells by microscopic digital analysis of fura 2 fluorescence. Addition of a myocardial conditioned medium containing the transforming stimulus produced a specific increase in [Ca2+]i in \"competent\" AV canal, but not ventricular, endothelial cells. Epithelial-mesenchymal cell transformation was inhibited by pertussis toxin but not cholera toxin. These data lead to the hypothesis that signal transduction of this tissue interaction is mediated by a G protein and one or more kinase activities. In response to receptor activation, competent AV canal endothelial cells demonstrate an increase in [Ca2+]i. Together, the data provide direct evidence for a regional and temporal regulation of signal transduction processes which mediate a specific extracellular matrix-mediated tissue interaction in the embryo.",
+              "doi": "https://doi.org/10.1091/mbc.1.3.301",
+              "id": "https://doi.org/10.1091/mbc.1.3.301",
+              "landing_page_url": "https://doi.org/10.1091/mbc.1.3.301",
+              "publication_date": "1990-02-01",
+              "publication_year": 1990,
+              "source_name": "Cell Regulation",
+              "title": "Signal transduction of a tissue interaction during embryonic heart development.",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.mod.2017.04.443",
+              "id": "https://doi.org/10.1016/j.mod.2017.04.443",
+              "landing_page_url": "https://doi.org/10.1016/j.mod.2017.04.443",
+              "publication_date": "2017-07-01",
+              "publication_year": 2017,
+              "source_name": "Mechanisms of Development",
+              "title": "Cell Matching during Drosophila embryonic heart formation",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.devcel.2016.01.003",
+              "id": "https://doi.org/10.1016/j.devcel.2016.01.003",
+              "landing_page_url": "https://doi.org/10.1016/j.devcel.2016.01.003",
+              "publication_date": "2016-02-01",
+              "publication_year": 2016,
+              "source_name": "Developmental Cell",
+              "title": "Cell Size Determines the Strength of the Spindle Assembly Checkpoint during Embryonic Development",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "ABSTRACT Rationale Cardiac neural crest cells (CNCCs) contribute greatly to cardiovascular development. A thorough understanding of the cell lineages, transcriptomic states and regulatory networks of CNCC derivatives during normal development is essential for deciphering the pathogenesis of CNCC-associated congenital anomalies. However, the transcriptomic landscape of CNCC derivatives during development has not yet been examined at a single-cell resolution. Objective We sought to systematically characterize the cell lineages, define the developmental chronology and elucidate the transcriptomic dynamics of CNCC derivatives during embryonic and neonatal development. Methods and Results We performed single-cell transcriptomic sequencing of 34,131 CNCC-derived cells in mouse hearts from eight developmental stages between E10.5 and P7. Through single-cell analyses and single-molecule fluorescence in situ hybridization, we confirmed the presence of CNCC-derived mural cells. Furthermore, we found the transition from CNCC-derived pericytes to microvascular smooth muscle cells, and identified the genes that were significantly regulated during this transition through pseudo-temporal analysis. CNCC-derived neurons first appeared at E10.5, which was earlier than previously recognized. In addition, the CNCC derivatives switched from a proliferative to a quiescent state with the progression of development. Gradual loss of the neural crest molecular signature with development was also observed in the CNCC derivatives. Our data suggested that many CNCC-derivatives had already committed or differentiated to a specific lineage when migrating to the heart. Finally, we characterized some previously unknown subpopulations of CNCC derivatives during development. For example, we found that Penk + cells, which were mainly localized in outflow tract cushions, were all derived from CNCCs. Conclusions Our study provides novel insights into the cell lineages, molecular signatures, developmental chronology and state change dynamics of CNCC derivatives during embryonic and neonatal development. Our dataset constitutes a valuable resource that will facilitate future efforts in exploring the role of CNCC derivatives in development and disease.",
+              "doi": "https://doi.org/10.1101/759118",
+              "id": "https://doi.org/10.1101/759118",
+              "landing_page_url": "https://doi.org/10.1101/759118",
+              "publication_date": "2019-09-05",
+              "publication_year": 2019,
+              "source_name": null,
+              "title": "Single-cell transcriptomic landscape of cardiac neural crest cell derivatives during embryonic and neonatal development",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.26226/morressier.573c1511d462b80296c983bb",
+              "id": "https://doi.org/10.26226/morressier.573c1511d462b80296c983bb",
+              "landing_page_url": "https://doi.org/10.26226/morressier.573c1511d462b80296c983bb",
+              "publication_date": "2016-06-23",
+              "publication_year": 2016,
+              "source_name": null,
+              "title": "Aberrant cell division in early-stage human embryos observed by time-lapse monitoring and its negative impacts on subsequent embryonic development",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "ABSTRACT The cleavage behaviour of cells isolated from 1- to 8-cell-stage mouse embryos was studied with time-lapse video equipment; changes in cellular dimensions and their timing were recorded. The division of an isolated cell results in the formation of a twin-cell pair. The divisions of these two cells were always asynchronous. In each division the volume of a daughter cell was approximately half of that of the parental cell but its apparent surface area was 59–65 % of that of the parental cell. Consequently, the ratio of apparent surface area to volume increased in each division by 25–30%. The most noticeable changes were observed in the relationship between the two daughter cells of each division. After cytokinesis, the intercellular contact area gradually increased during the following cell cycle in the 2/8- and 2/16-cell pairs, whereas it hardly changed in the 2/2- and 2/4-cell pairs. The comparison of the behaviour of the daughter cells on different substrates suggested that the zona pellucida and the mid body might have a role in the contact development at the early stages. Scanning electron microscopy was used for studying changes in the density of cell surface microvilli in an attempt to explain how the cells regulate their intercellular contacts.",
+              "doi": "https://doi.org/10.1242/dev.58.1.231",
+              "id": "https://doi.org/10.1242/dev.58.1.231",
+              "landing_page_url": "https://doi.org/10.1242/dev.58.1.231",
+              "publication_date": "1980-08-01",
+              "publication_year": 1980,
+              "source_name": "Development",
+              "title": "Changes in cell dimensions and intercellular contacts during cleavage-stage cell cycles in mouse embryonic cells",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/bf00216493",
+              "id": "https://doi.org/10.1007/bf00216493",
+              "landing_page_url": "https://doi.org/10.1007/bf00216493",
+              "publication_date": "1987-06-01",
+              "publication_year": 1987,
+              "source_name": "Cell and Tissue Research",
+              "title": "Immunohistochemical study of atrial natriuretic polypeptides in the embryonic, fetal and neonatal rat heart",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Formation of the human heart involves complex biological signals, interactions, specification of myocardial progenitor cells, and heart tube looping. To facilitate survival in the hypoxemic intrauterine environment, the fetus possesses structural, physiological, and functional cardiovascular adaptations that are fundamentally different from the neonate. At birth, upon separation from the placental circulation, the neonatal cardiovascular system takes over responsibility of vital processes for survival. The transition from the fetal to neonatal circulation is considered to be a period of intricate physiological, anatomical, and biochemical changes in the cardiovascular system. With a successful cardiopulmonary transition to the extrauterine environment, the fetal shunts are functionally modified or eliminated, enabling independent life. Investigations using medical imaging tools such as ultrasound and magnetic resonance imaging have helped to define normal and abnormal patterns of cardiac remodeling both in utero and ex utero. This has not only allowed for a better understanding of how congenital cardiac malformations alter the hemodynamic transition to the extrauterine environment but also how other more common complications during pregnancy including intrauterine growth restriction, preeclampsia, and preterm delivery adversely affect offspring cardiac remodeling during this early transitional period. This review article describes key cardiac progenitors involved in embryonic heart development; the cellular, physiological, and anatomical changes during the transition from fetal to neonatal circulation; as well as the unique impact that different pregnancy complications have on cardiac remodeling.",
+              "doi": "https://doi.org/10.1159/000501906",
+              "id": "https://doi.org/10.1159/000501906",
+              "landing_page_url": "https://doi.org/10.1159/000501906",
+              "publication_date": "2019-09-18",
+              "publication_year": 2019,
+              "source_name": "Fetal Diagnosis and Therapy",
+              "title": "The Transitional Heart: From Early Embryonic and Fetal Development to Neonatal Life",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "embryonic neonatal heart cell interaction strength development stage",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=embryonic+neonatal+heart+cell+interaction+strength+development+stage&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        },
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/b978-0-12-394447-4.30098-0",
+              "id": "https://doi.org/10.1016/b978-0-12-394447-4.30098-0",
+              "landing_page_url": "https://doi.org/10.1016/b978-0-12-394447-4.30098-0",
+              "publication_date": "2016-01-01",
+              "publication_year": 2016,
+              "source_name": "Encyclopedia of Cell Biology",
+              "title": "Single Molecule Methods to Measure Receptor–Ligand Interaction in Immunological Synapses",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.devcel.2012.04.007",
+              "id": "https://doi.org/10.1016/j.devcel.2012.04.007",
+              "landing_page_url": "https://doi.org/10.1016/j.devcel.2012.04.007",
+              "publication_date": "2012-06-01",
+              "publication_year": 2012,
+              "source_name": "Developmental Cell",
+              "title": "Optical Tweezers Studies on Notch: Single-Molecule Interaction Strength Is Independent of Ligand Endocytosis",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/s1534-5807(02)00115-6",
+              "id": "https://doi.org/10.1016/s1534-5807(02)00115-6",
+              "landing_page_url": "https://doi.org/10.1016/s1534-5807(02)00115-6",
+              "publication_date": "2002-02-01",
+              "publication_year": 2002,
+              "source_name": "Developmental Cell",
+              "title": "Direct Interaction between Rab3b and the Polymeric Immunoglobulin Receptor Controls Ligand-Stimulated Transcytosis in Epithelial Cells",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.21236/ada374764",
+              "id": "https://doi.org/10.21236/ada374764",
+              "landing_page_url": "https://doi.org/10.21236/ada374764",
+              "publication_date": "1999-08-01",
+              "publication_year": 1999,
+              "source_name": null,
+              "title": "Tumor Specific CD4+ T-Cell Costimulation Through a Novel Receptor/Ligand Interaction",
+              "type": "report"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.21236/ada359629",
+              "id": "https://doi.org/10.21236/ada359629",
+              "landing_page_url": "https://doi.org/10.21236/ada359629",
+              "publication_date": "1998-08-01",
+              "publication_year": 1998,
+              "source_name": null,
+              "title": "Tumor Specific CD4+ T-Cell Costimulation Through a Novel Receptor Ligand Interaction.",
+              "type": "report"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1093/rheumatology/keu119",
+              "id": "https://doi.org/10.1093/rheumatology/keu119",
+              "landing_page_url": "https://doi.org/10.1093/rheumatology/keu119",
+              "publication_date": "2014-04-03",
+              "publication_year": 2014,
+              "source_name": "Rheumatology",
+              "title": "Cell receptor-ligand interaction, signalling activation and apoptosis",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "The human germ cell lineage originates from primordial germ cells (PGCs), which are specified at approximately the third week of development. Our understanding of the signaling pathways that control this event has significantly increased in recent years and that has enabled the generation of PGC-like cells (PGCLCs) from pluripotent stem cells in vitro . However, the signaling pathways that drive the transition of PGCs into gonia (prospermatogonia in males or premeiotic oogonia in females) remain unclear, and we are presently unable to mimic this step in vitro in the absence of gonadal tissue. Therefore, we have analyzed single-cell transcriptomics data of human fetal gonads to map the molecular interactions during the sex-specific transition from PGCs to gonia. The CellPhoneDB algorithm was used to identify significant ligand–receptor interactions between germ cells and their sex-specific neighboring gonadal somatic cells, focusing on four major signaling pathways WNT, NOTCH, TGFβ/BMP, and receptor tyrosine kinases (RTK). Subsequently, the expression and intracellular localization of key effectors for these pathways were validated in human fetal gonads by immunostaining. This approach provided a systematic analysis of the signaling environment in developing human gonads and revealed sex-specific signaling pathways during human premeiotic germ cell development. This work serves as a foundation to understand the transition from PGCs to premeiotic oogonia or prospermatogonia and identifies sex-specific signaling pathways that are of interest in the step-by-step reconstitution of human gametogenesis in vitro.",
+              "doi": "https://doi.org/10.3389/fcell.2021.661243",
+              "id": "https://doi.org/10.3389/fcell.2021.661243",
+              "landing_page_url": "https://doi.org/10.3389/fcell.2021.661243",
+              "publication_date": "2021-06-18",
+              "publication_year": 2021,
+              "source_name": "Frontiers in Cell and Developmental Biology",
+              "title": "Ligand–Receptor Interactions Elucidate Sex-Specific Pathways in the Trajectory From Primordial Germ Cells to Gonia During Human Development",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1093/rheumatology/44.suppl_1.i35",
+              "id": "https://doi.org/10.1093/rheumatology/44.suppl_1.i35",
+              "landing_page_url": "https://doi.org/10.1093/rheumatology/44.suppl_1.i35",
+              "publication_date": "2005-03-01",
+              "publication_year": 2005,
+              "source_name": "Rheumatology",
+              "title": "Cell receptor-ligand interaction, signalling, activation and apoptosis [20-23]",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "single cell ligand receptor interaction developmental trajectory heart",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=single+cell+ligand+receptor+interaction+developmental+trajectory+heart&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        }
+      ],
+      "search_completed": true
+    },
+    "B": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "It remains unclear whether γδ T-cell fate is instructed or reinforced by the γδTCR. Prospective isolation of a multi-potent γδ cell progenitor (“the γδ stem cell”) and precisely assessing when the γδTCR is displayed in relation to developmental emergence of multi-lineage reconstitution could resolve this question but there is a lack of reliable cell surface markers for the γδ stem cell. The double-negative 3a stage (“DN3a”) is a critical intermediate cell-state during the transition from non-committed T-lymphocyte progenitor to mature γδ or 𝛂β T-cell, as γδTcr rearrangements and β-selection can theoretically temporally co-exist during this time in lymphocyte development. In this study I compared the transcriptomes of murine stage DN3a thymocytes to that of γδ T-cells (Tγδ) to illustrate the key transcriptional differences during this developmental transition. The analyses here revealed a series of cell surface markers, transcription factors, cytokine receptors, cell adhesion genes and non-coding RNA that represent some of the major transcriptional differences between γδ T-cells and the cells that they might arise from.",
+              "doi": "https://doi.org/10.31219/osf.io/wmj29",
+              "id": "https://doi.org/10.31219/osf.io/wmj29",
+              "landing_page_url": "https://doi.org/10.31219/osf.io/wmj29",
+              "publication_date": "2019-09-15",
+              "publication_year": 2019,
+              "source_name": null,
+              "title": "Developmental stage-specific gene expression distinguishes the murine γδ T-cell lineage",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.4161/cc.27511",
+              "id": "https://doi.org/10.4161/cc.27511",
+              "landing_page_url": "https://doi.org/10.4161/cc.27511",
+              "publication_date": "2013-12-13",
+              "publication_year": 2013,
+              "source_name": "Cell Cycle",
+              "title": "Developmental stage-specific transformation of neural progenitors",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3389/fcell.2019.00250",
+              "id": "https://doi.org/10.3389/fcell.2019.00250",
+              "landing_page_url": "https://doi.org/10.3389/fcell.2019.00250",
+              "publication_date": "2019-10-24",
+              "publication_year": 2019,
+              "source_name": "Frontiers in Cell and Developmental Biology",
+              "title": "Developmental Stage-Specific Distribution of Macrophages in Mouse Mammary Gland",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-1-4757-2778-4_23",
+              "id": "https://doi.org/10.1007/978-1-4757-2778-4_23",
+              "landing_page_url": "https://doi.org/10.1007/978-1-4757-2778-4_23",
+              "publication_date": "1998-01-01",
+              "publication_year": 1998,
+              "source_name": "Molecular Biology of B-Cell and T-Cell Development",
+              "title": "Developmental Stage-Specific Responses to Ligation of CD3-Containing Complexes",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.devcel.2014.04.032",
+              "id": "https://doi.org/10.1016/j.devcel.2014.04.032",
+              "landing_page_url": "https://doi.org/10.1016/j.devcel.2014.04.032",
+              "publication_date": "2014-05-01",
+              "publication_year": 2014,
+              "source_name": "Developmental Cell",
+              "title": "Deciphering Developmental Processes from Single-Cell Transcriptomes",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.devcel.2004.05.004",
+              "id": "https://doi.org/10.1016/j.devcel.2004.05.004",
+              "landing_page_url": "https://doi.org/10.1016/j.devcel.2004.05.004",
+              "publication_date": "2004-06-01",
+              "publication_year": 2004,
+              "source_name": "Developmental Cell",
+              "title": "Genomic cis-Regulatory Architecture and trans-Acting Regulators of a Single Interneuron-Specific Gene Battery in C. elegans",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/s1534-5807(02)00268-x",
+              "id": "https://doi.org/10.1016/s1534-5807(02)00268-x",
+              "landing_page_url": "https://doi.org/10.1016/s1534-5807(02)00268-x",
+              "publication_date": "2002-09-01",
+              "publication_year": 2002,
+              "source_name": "Developmental Cell",
+              "title": "Small GTPases Take the Stage",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.stem.2013.10.001",
+              "id": "https://doi.org/10.1016/j.stem.2013.10.001",
+              "landing_page_url": "https://doi.org/10.1016/j.stem.2013.10.001",
+              "publication_date": "2014-01-01",
+              "publication_year": 2014,
+              "source_name": "Cell Stem Cell",
+              "title": "Polycomb Repressive Complex 2 Regulates Normal Hematopoietic Stem Cell Function in a Developmental-Stage-Specific Manner",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "cell interaction persistence stage specific developmental single cell",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=cell+interaction+persistence+stage+specific+developmental+single+cell&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        },
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3389/fnbeh.2013.00195",
+              "id": "https://doi.org/10.3389/fnbeh.2013.00195",
+              "landing_page_url": "https://doi.org/10.3389/fnbeh.2013.00195",
+              "publication_date": "2013-01-01",
+              "publication_year": 2013,
+              "source_name": "Frontiers in Behavioral Neuroscience",
+              "title": "Oxytocin receptor ligand binding in embryonic tissue and postnatal brain development of the C57BL/6J mouse",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.21236/ada390487",
+              "id": "https://doi.org/10.21236/ada390487",
+              "landing_page_url": "https://doi.org/10.21236/ada390487",
+              "publication_date": "2000-04-01",
+              "publication_year": 2000,
+              "source_name": null,
+              "title": "Development of Novel Ligand Binding Assay for Estrogen Receptor",
+              "type": "report"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.32388/so4065",
+              "id": "https://doi.org/10.32388/so4065",
+              "landing_page_url": "https://doi.org/10.32388/so4065",
+              "publication_date": "2020-02-02",
+              "publication_year": 2020,
+              "source_name": "Definitions",
+              "title": "Persistent Embryonic Structure",
+              "type": "reference-entry"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.21236/ada398353",
+              "id": "https://doi.org/10.21236/ada398353",
+              "landing_page_url": "https://doi.org/10.21236/ada398353",
+              "publication_date": "2001-07-01",
+              "publication_year": 2001,
+              "source_name": null,
+              "title": "Development of Strategies to Manipulate ErbB Receptor Heterodimerization from a Quantitative Analysis of Receptor/Ligand Relationships",
+              "type": "report"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.21236/ada421346",
+              "id": "https://doi.org/10.21236/ada421346",
+              "landing_page_url": "https://doi.org/10.21236/ada421346",
+              "publication_date": "2002-04-01",
+              "publication_year": 2002,
+              "source_name": null,
+              "title": "Development of a Novel Ligand Binding Assay for Estrogen Receptor",
+              "type": "report"
+            },
+            {
+              "abstract": "ABSTRACT Immunochemical analysis of the 9-day chick brain with 9-day brain antiserum reveals significant amounts of two different groups of antigens. One group consists of at least three antigens. The other group consists of at least two antigens. Comparison of 9-day brain with other 9-day organs and with adult organs, including adult brain, reveals that the group of three antigens are common antigens and that one of them is transient and disappears by hatching. It is further shown that of the group of two antigens at least one is neural-specific and transient and disappears from the brain by hatching.",
+              "doi": "https://doi.org/10.1242/dev.12.3.511",
+              "id": "https://doi.org/10.1242/dev.12.3.511",
+              "landing_page_url": "https://doi.org/10.1242/dev.12.3.511",
+              "publication_date": "1964-09-01",
+              "publication_year": 1964,
+              "source_name": "Development",
+              "title": "Transient embryonic antigens in the chick",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1126/science.8171316",
+              "id": "https://doi.org/10.1126/science.8171316",
+              "landing_page_url": "https://doi.org/10.1126/science.8171316",
+              "publication_date": "1994-04-29",
+              "publication_year": 1994,
+              "source_name": "Science",
+              "title": "Unraveling Function in the TNF Ligand and Receptor Families",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1186/s12929-018-0484-7",
+              "id": "https://doi.org/10.1186/s12929-018-0484-7",
+              "landing_page_url": "https://doi.org/10.1186/s12929-018-0484-7",
+              "publication_date": "2018-11-19",
+              "publication_year": 2018,
+              "source_name": "Journal of Biomedical Science",
+              "title": "A novel ligand-receptor relationship between families of ribonucleases and receptor tyrosine kinases",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "ligand receptor families persistent transient embryonic development",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=ligand+receptor+families+persistent+transient+embryonic+development&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        }
+      ],
+      "search_completed": true
+    }
+  },
+  "generated_at": "2026-08-22",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "628b883a33e99beb01bde9b1d5f4b5ebf17874d015c35a346e2ab82a2528fcea",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Searches are frozen reproducible retrieval evidence within the declared provider, queries, cutoff, and result depth. They do not certify absence from all literature.",
+  "strict_before": "2022-01-01",
+  "target_doi_excluded": "10.1038/s41467-022-35691-7",
+  "task_id": "Life_09_developmental_interaction_structure",
+  "release": "V1.0"
+}

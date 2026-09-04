@@ -1,0 +1,1177 @@
+{
+  "all_queries_completed": true,
+  "cards": {
+    "A": {
+      "queries": [
+        {
+          "api_cutoff": "2024-06-25",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "The canonical example of a quantum-mechanical two-level system is spin. The simplest picture of spin is a magnetic moment pointing up or down. The full quantum properties of spin become apparent in phenomena such as superpositions of spin states, entanglement among spins, and quantum measurements. Many of these phenomena have been observed in experiments performed on ensembles of particles with spin. Only in recent years have systems been realized in which individual electrons can be trapped and their quantum properties can be studied, thus avoiding unnecessary ensemble averaging. This review describes experiments performed with quantum dots, which are nanometer-scale boxes defined in a semiconductor host material. Quantum dots can hold a precise but tunable number of electron spins starting with 0, 1, 2, etc. Electrical contacts can be made for charge transport measurements and electrostatic gates can be used for controlling the dot potential. This system provides virtually full control over individual electrons. This new, enabling technology is stimulating research on individual spins. This review describes the physics of spins in quantum dots containing one or two electrons, from an experimentalist's viewpoint. Various methods for extracting spin properties from experiment are presented, restricted exclusively to electrical measurements. Furthermore, experimental techniques are discussed that allow for (1) the rotation of an electron spin into a superposition of up and down, (2) the measurement of the quantum state of an individual spin, and (3) the control of the intera",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2007-10-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/revmodphys.79.1217",
+              "id": "https://openalex.org/W2147195941",
+              "provider": "openalex",
+              "title": "Spins in few-electron quantum dots"
+            },
+            {
+              "abstract": "Single electron spins coupled to multiple nuclear spins provide promising multi-qubit registers for quantum sensing and quantum networks. The obtainable level of control is determined by how well the electron spin can be selectively coupled to, and decoupled from, the surrounding nuclear spins. Here we realize a coherence time exceeding a second for a single nitrogen-vacancy electron spin through decoupling sequences tailored to its microscopic nuclear-spin environment. First, we use the electron spin to probe the environment, which is accurately described by seven individual and six pairs of coupled carbon-13 spins. We develop initialization, control and readout of the carbon-13 pairs in order to directly reveal their atomic structure. We then exploit this knowledge to store quantum states in the electron spin for over a second by carefully avoiding unwanted interactions. These results provide a proof-of-principle for quantum sensing of complex multi-spin systems and an opportunity for multi-qubit quantum registers with long coherence times.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-06-25",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41467-018-04916-z",
+              "id": "https://openalex.org/W2781890679",
+              "provider": "openalex",
+              "title": "One-second coherence for a single electron spin coupled to a multi-qubit nuclear-spin environment"
+            },
+            {
+              "abstract": "A series of 37 dinitroxide biradicals have been prepared and their performance studied as polarizing agents in cross-effect DNP NMR experiments at 9.4 T and 100 K in 1,1,2,2-tetrachloroethane (TCE). We observe that in this regime the DNP performance is strongly correlated with the substituents on the polarizing agents, and electron and nuclear spin relaxation times, with longer relaxation times leading to better enhancements. We also observe that deuteration of the radicals generally leads to better DNP enhancement but with longer build-up time. One of the new radicals introduced here provides the best performance obtained so far under these conditions.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-10-13",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1039/c5sc02921j",
+              "id": "https://openalex.org/W1757514335",
+              "provider": "openalex",
+              "title": "Rational design of dinitroxide biradicals for efficient cross-effect dynamic nuclear polarization"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-04-26",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41578-021-00306-y",
+              "id": "https://openalex.org/W3157873136",
+              "provider": "openalex",
+              "title": "Quantum guidelines for solid-state spin defects"
+            },
+            {
+              "abstract": "Dynamic nuclear polarization (DNP) solid-state nuclear magnetic resonance (NMR) has developed into an invaluable tool for the investigation of a wide range of materials. However, the sensitivity gain achieved with many polarizing agents suffers from an unfavorable field and magic angle spinning (MAS) frequency dependence. We present a series of new hybrid biradicals, soluble in organic solvents, that consist of an isotropic narrow electron paramagnetic resonance line radical, α,γ-bisdiphenylene-β-phenylallyl (BDPA), tethered to a broad line nitroxide. By tuning the distance between the two electrons and the substituents at the nitroxide moiety, correlations between the electron–electron interactions and the electron spin relaxation times on one hand and the DNP enhancement factors on the other hand are established. The best radical in this series has a short methylene linker and bears bulky phenyl spirocyclohexyl ligands. In a 1.3 mm prototype DNP probe, it yields enhancements of up to 185 at 18.8 T (800 MHz 1 H resonance frequency) and 40 kHz MAS. We show that this radical gives enhancement factors of over 60 in 3.2 mm sapphire rotors at both 18.8 and 21.1 T (900 MHz 1 H resonance frequency), the highest magnetic field available today for DNP. The effect of the rotor size and of the microwave irradiation inside the MAS rotor is discussed. Finally, we demonstrate the potential of this new series of polarizing agents by recording high field 27 Al and 29 Si DNP surface enhanced NMR spectra of amorphous aluminosilicates and 17 O NMR on silica nanoparticles.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-09-25",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/jacs.8b08081",
+              "id": "https://openalex.org/W2892437373",
+              "provider": "openalex",
+              "title": "BDPA-Nitroxide Biradicals Tailored for Efficient Dynamic Nuclear Polarization Enhanced Solid-State NMR at Magnetic Fields up to 21.1 T"
+            },
+            {
+              "abstract": "The interaction between a confined electron and the nuclei of an optically active quantum dot provides a uniquely rich manifestation of the central spin problem. Coherent qubit control combines with an ultrafast spin-photon interface to make these confined spins attractive candidates for quantum optical networks. Reaching the full potential of spin coherence has been hindered by the lack of knowledge of the key irreversible environment dynamics. Through all-optical Hahn echo decoupling we now recover the intrinsic coherence time set by the interaction with the inhomogeneously strained nuclear bath. The high-frequency nuclear dynamics are directly imprinted on the electron spin coherence, resulting in a dramatic jump of coherence times from few tens of nanoseconds to the microsecond regime between 2 and 3 T magnetic field and an exponential decay of coherence at high fields. These results reveal spin coherence can be improved by applying large magnetic fields and reducing strain inhomogeneity.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-09-12",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/ncomms12745",
+              "id": "https://openalex.org/W2519592883",
+              "provider": "openalex",
+              "title": "Quantum dot spin coherence governed by a strained nuclear environment"
+            },
+            {
+              "abstract": "The development of magic-angle spinning dynamic nuclear polarization (MAS DNP) has allowed atomic-level characterization of materials for which conventional solid-state NMR is impractical due to the lack of sensitivity. The rapid progress of MAS DNP has been largely enabled through the understanding of rational design concepts for more efficient polarizing agents (PAs). Here, we identify a new design principle which has so far been overlooked. We find that the local geometry around the unpaired electron can change the DNP enhancement by an order of magnitude for two otherwise identical conformers. We present a set of 13 new stable mono- and dinitroxide PAs for MAS DNP NMR where this principle is demonstrated. The radicals are divided into two groups of isomers, named open (O-) and closed (C-), based on the ring conformations in the vicinity of the N-O bond. In all cases, the open conformers exhibit dramatically improved DNP performance as compared to the closed counterparts. In particular, a new urea-based biradical named HydrOPol and a mononitroxide O-MbPyTol yield enhancements of 330 ± 60 and 119 ± 25, respectively, at 9.4 T and 100 K, which are the highest enhancements reported so far in the aqueous solvents used here. We find that while the conformational changes do not significantly affect electron spin-spin distances, they do affect the distribution of the exchange couplings in these biradicals. Electron spin echo envelope modulation (ESEEM) experiments suggest that the improved performance of the open conformers is correlated with higher solvent accessibility.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-08-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/jacs.0c04911",
+              "id": "https://openalex.org/W3056815938",
+              "provider": "openalex",
+              "title": "Open and Closed Radicals: Local Geometry around Unpaired Electrons Governs Magic-Angle Spinning Dynamic Nuclear Polarization Performance"
+            },
+            {
+              "abstract": "Abstract Long coherence times are key to the performance of quantum bits (qubits). Here, we experimentally and theoretically show that the Hahn-echo coherence time of electron spins associated with divacancy defects in 4 H –SiC reaches 1.3 ms, one of the longest Hahn-echo coherence times of an electron spin in a naturally isotopic crystal. Using a first-principles microscopic quantum-bath model, we find that two factors determine the unusually robust coherence. First, in the presence of moderate magnetic fields (30 mT and above), the 29 Si and 13 C paramagnetic nuclear spin baths are decoupled. In addition, because SiC is a binary crystal, homo-nuclear spin pairs are both diluted and forbidden from forming strongly coupled, nearest-neighbour spin pairs. Longer neighbour distances result in fewer nuclear spin flip-flops, a less fluctuating intra-crystalline magnetic environment, and thus a longer coherence time. Our results point to polyatomic crystals as promising hosts for coherent qubits in the solid state.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-09-29",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/ncomms12935",
+              "id": "https://openalex.org/W2410085339",
+              "provider": "openalex",
+              "title": "Quantum decoherence dynamics of divacancy spins in silicon carbide"
+            },
+            {
+              "abstract": "We probe dephasing mechanisms within a quantum network node consisting of a single nitrogen-vacancy center electron spin that is hyperfine coupled to surrounding $^{13}\\mathrm{C}$ nuclear-spin quantum memories. Previous studies have analyzed memory dephasing caused by the stochastic electron-spin reset process, which is a component of optical internode entangling protocols. Here, we find, by using dynamical decoupling techniques and exploiting phase matching conditions in the electron-nuclear dynamics, that control infidelities and quasistatic noise are the major contributors to memory dephasing induced by the entangling sequence. These insights enable us to demonstrate a 19-fold improved memory performance which is still not limited by the electron reinitialization process. We further perform pump-probe studies to investigate the spin-flip channels during the optical electron spin reset. We find that spin flips occur via decay from the metastable singlet states with a branching ratio of 8(1):1:1, in contrast with previous work. These results allow us to formulate straightforward improvements to diamond-based quantum networks and similar architectures.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-06-20",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/physreva.97.062330",
+              "id": "https://openalex.org/W2785536939",
+              "provider": "openalex",
+              "title": "Dephasing mechanisms of diamond-based nuclear-spin memories for quantum networks"
+            },
+            {
+              "abstract": "A promising approach for multi-qubit quantum registers is to use optically addressable spins to control multiple dark electron-spin defects in the environment. While recent experiments have observed signatures of coherent interactions with such dark spins, it is an open challenge to realize the individual control required for quantum information processing. Here, we demonstrate the heralded initialisation, control and entanglement of individual dark spins associated to multiple P1 centers, which are part of a spin bath surrounding a nitrogen-vacancy center in diamond. We realize projective measurements to prepare the multiple degrees of freedom of P1 centers-their Jahn-Teller axis, nuclear spin and charge state-and exploit these to selectively access multiple P1s in the bath. We develop control and single-shot readout of the nuclear and electron spin, and use this to demonstrate an entangled state of two P1 centers. These results provide a proof-of-principle towards using dark electron-nuclear spin defects as qubits for quantum sensing, computation and networks.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-06-09",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41467-021-23454-9",
+              "id": "https://openalex.org/W3105861616",
+              "provider": "openalex",
+              "title": "Entanglement of dark electron-nuclear spin defects in diamond"
+            },
+            {
+              "abstract": "We report here on the implementation of arbitrary waveform generation (AWG) capabilities at ∼200 GHz into an Electron Paramagnetic Resonance (EPR) and Dynamic Nuclear Polarization (DNP) instrument platform operating at 7 Tesla. This is achieved with the integration of a 1 GHz, 2 channel, digital to analogue converter (DAC) board that enables the generation of coherent arbitrary waveforms at Ku-band frequencies with 1ns resolution into an existing architecture of a solid state amplifier multiplier chain (AMC). This allows for the generation of arbitrary phase- and amplitude-modulated waveforms at 200 GHz with > 150 mW power. We find that the non-linearity of the AMC poses significant difficulties in generating amplitude-modulated pulses at 200 GHz. We demonstrate that in the power-limited regime of ω1 < 1MHz phase-modulated pulses were sufficient to achieve significant improvements in broadband (>10MHz) spin manipulation in incoherent (inversion), as well as coherent (echo formation) experiments. Highlights include the improvement by one order of magnitude in inversion bandwidth compared to that of conventional rectangular pulses, as well as a factor of two in improvement in the refocused echo intensity at 200GHz.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-04-27",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.jmr.2017.04.016",
+              "id": "S2:026216413adec0e68d4d09ad3fd7ace4d1e080b8",
+              "provider": "semantic_scholar",
+              "title": "Arbitrary waveform modulated pulse EPR at 200 GHz",
+              "url": "https://www.semanticscholar.org/paper/026216413adec0e68d4d09ad3fd7ace4d1e080b8?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-09-13",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:8dacbc97d15af23ad6e2072b28adc352cf8c99f2",
+              "provider": "semantic_scholar",
+              "title": "Phase shift of electron spin echo signal caused by polarization of nuclear spins: revealing the quantum nature of spin environment",
+              "url": "https://www.semanticscholar.org/paper/8dacbc97d15af23ad6e2072b28adc352cf8c99f2?utm_source=api"
+            },
+            {
+              "abstract": "Specific spin labeling allows the site-selective investigation of biomolecules by EPR and DNP enhanced NMR spectroscopy. A novel spin labeling strategy for commercially available Fmoc-amino acids is developed. In this approach, the PROXYL spin label is covalently attached to the hydroxyl side chain of three amino acids hydroxyproline (Hyp), serine (Ser) and tyrosine (Tyr) by a simple three-step synthesis route. The obtained PROXYL containing building-blocks are N-terminally protected by the Fmoc-protection group, which makes them applicable for the use in solid-phase peptide synthesis (SPPS). This approach allows the insertion of the spin label at any desired position during SPPS, which makes it more versatile than the widely used post synthetic spin labeling strategies. For the final building-blocks, the radical activity is proven by EPR. DNP enhanced solid-state NMR experiments employing these building-blocks in a TCE solution show enhancement factors of up to 26 for 1 H and 13 C (1 H→13 C cross-polarization). To proof the viability of the presented building-blocks for insertion of the spin label during SPPS the penta-peptide Acetyl-Gly-Ser(PROXYL)-Gly-Gly-Gly was synthesized employing the spin labeled Ser building-block. This peptide could successfully be isolated and the spin label activity proved by EPR and DNP NMR measurements, showing enhancement factors of 12.1±0.1 for 1 H and 13.9±0.5 for 13 C (direct polarization).",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-05-13",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/cphc.201900211",
+              "id": "S2:0596a9498254cd49c4d85559fb9731c920441f68",
+              "provider": "semantic_scholar",
+              "title": "Efficient Building Blocks for Solid-Phase Peptide Synthesis of Spin Labeled Peptides for Electron Paramagnetic Resonance and Dynamic Nuclear Polarization Applications.",
+              "url": "https://www.semanticscholar.org/paper/0596a9498254cd49c4d85559fb9731c920441f68?utm_source=api"
+            },
+            {
+              "abstract": "The coherent transfer of electron spin polarization to nuclei by means of a microwave pulse sequence is a promising new approach to enhancing the sensitivity of solid-state nuclear magnetic resonance (NMR). The development of pulse sequences for dynamic nuclear polarization (DNP) of bulk nuclei is far from complete, as is the understanding of what makes a good DNP sequence. In this context, we introduce a new sequence, termed Two-Pulse Phase Modulation (TPPM) DNP. We provide a general theoretical description for electron-proton polarization transfer by periodic DNP pulse sequences and find it in excellent agreement with numerical simulations. In experiments at 1.2 T, TPPM DNP generates a higher gain in sensitivity than existing sequences XiX (X-inverse-X) and TOP (Time-Optimized Pulsed) DNP but does so at relatively high nutation frequencies. In contrast, we find that the XiX sequence performs very well at nutation frequencies as low as 7 MHz. A combination of theoretical analysis and experimental investigation makes clear that fast electron-proton polarization transfer, due to a well-preserved dipolar coupling in the effective Hamiltonian, correlates with a short build-up time of the dynamic nuclear polarization of the bulk. Experiments further show that the performances of XiX and TOP DNP are affected differently by the concentration of the polarizing agent. These results constitute important reference points for the development of new and better DNP sequences.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2023-07-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1063/5.0153053",
+              "id": "S2:b7ebec410882ef2c5c628a253372b1745b77c2ed",
+              "provider": "semantic_scholar",
+              "title": "Dynamic nuclear polarization by two-pulse phase modulation.",
+              "url": "https://www.semanticscholar.org/paper/b7ebec410882ef2c5c628a253372b1745b77c2ed?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1990-05-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/0022-2364(90)90308-V",
+              "id": "S2:5cab4fbb6da92534fcdcf547f0f8ecb86e47716a",
+              "provider": "semantic_scholar",
+              "title": "A loop-gap resonator for microwave-induced optical nuclear polarization, electron spin-echo experiments, and dynamic nuclear polarization",
+              "url": "https://www.semanticscholar.org/paper/5cab4fbb6da92534fcdcf547f0f8ecb86e47716a?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2002-12-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/BF03166193",
+              "id": "S2:3a65833d5c5c1fac42411427a5cb4bb4f1892527",
+              "provider": "semantic_scholar",
+              "title": "Dynamic nuclear polarization in electron spin echo",
+              "url": "https://www.semanticscholar.org/paper/3a65833d5c5c1fac42411427a5cb4bb4f1892527?utm_source=api"
+            },
+            {
+              "abstract": "Dissolution dynamic nuclear polarization (dDNP) is a method of choice for preparing hyperpolarized 13C metabolites such as 1-13C-pyruvate used for in vivo applications, including the real-time monitoring of cancer cell metabolism in human patients. The approach consists of transferring the high polarization of electron spins to nuclear spins via microwave irradiation at low temperatures (1.0-1.5 K) and moderate magnetic fields (3.3-7 T). The solid sample is then dissolved and transferred to an NMR spectrometer or MRI scanner for detection in the liquid state. Common dDNP protocols use direct hyperpolarization of 13C spins reaching polarizations of >50% in ∼1-2 h. Alternatively, 1H spins are polarized before transferring their polarization to 13C spins using cross-polarization, reaching polarization levels similar to those of direct DNP in only ∼20 min. However, it relies on more complex instrumentation, requiring highly skilled personnel. Here, we explore an alternative route using 1H dDNP followed by inline adiabatic magnetic field inversion in the liquid state during the transfer. 1H polarizations of >70% in the solid state are obtained in ∼5-10 min. As the hyperpolarized sample travels from the dDNP polarizer to the NMR spectrometer, it goes through a field inversion chamber, which causes the 1H → 13C polarization transfer. This transfer is made possible by the J-coupling between the heteronuclei, which mixes the Zeeman states at zero-field and causes an antilevel crossing. We report liquid-state 13C polarization up to ∼17% for 3-13C-pyruvate and 13C-formate. The instrumentation needed to perform this experiment in addition to a conventional dDNP polarizer is simple and readily assembled.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2023-12-06",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/jacs.3c09209",
+              "id": "S2:c22db2437f008b7cda059338d5a5990167a8ba38",
+              "provider": "semantic_scholar",
+              "title": "Rapid and Simple 13C-Hyperpolarization by 1H Dissolution Dynamic Nuclear Polarization Followed by an Inline Magnetic Field Inversion.",
+              "url": "https://www.semanticscholar.org/paper/c22db2437f008b7cda059338d5a5990167a8ba38?utm_source=api"
+            },
+            {
+              "abstract": "Dynamic nuclear polarization (DNP) takes center stage in nuclear magnetic resonance (NMR) as a tool to amplify its signal by orders of magnitude through the transfer of polarization from electron to nuclear spins. In contrast to modern NMR and electron paramagnetic resonance (EPR) that extensively rely on pulses for spin manipulation in the time domain, the current mainstream DNP technology exclusively relies on monochromatic continuous wave (CW) irradiation. This study introduces arbitrary phase shaped pulses that constitute a train of coherent chirp pulses in the time domain at 200 GHz (7 T) to dramatically enhance the saturation bandwidth and DNP performance compared to CW DNP, yielding up to 500-fold in NMR signal enhancements. The observed improvement is attributed to the recruitment of additional electron spins contributing to DNP via the cross-effect mechanism, as experimentally confirmed by two-frequency pump-probe electron-electron double resonance (ELDOR).",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-05-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/acs.jpclett.8b01413",
+              "id": "S2:b83d39631b896e23217f6422d8bd8e75bbd45d8b",
+              "provider": "semantic_scholar",
+              "title": "Amplification of Dynamic Nuclear Polarization at 200 GHz by Arbitrary Pulse Shaping of the Electron Spin Saturation Profile.",
+              "url": "https://www.semanticscholar.org/paper/b83d39631b896e23217f6422d8bd8e75bbd45d8b?utm_source=api"
+            },
+            {
+              "abstract": "Dynamic nuclear polarization can improve the sensitivity of magic-angle spinning solid-state NMR experiments by 1-2 orders of magnitude. In aqueous media, experiments are usually performed using the so-called DNP juice, a glycerol-d8/D2O/H2O mixture (60/30/10, v/v/v) that can form a homogeneous glass at cryogenic temperatures. This acts as a cryoprotectant and prevents phase separation of the paramagnetic polarizing agents (PAs) that are added to the mixture to provide the source of electron spin polarization required for DNP. Here, we show that relatively high 1H DNP enhancements (∼60) can also be obtained in water without glycerol (or other glass forming agents) simply by dissolving high concentrations of electrolytes (such as NaCl or LiCl), which perturb the otherwise unavoidable ice crystallization observed upon cooling, thereby reducing PA phase separation and restoring DNP efficiency.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2023-10-23",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/acs.jpclett.3c02455",
+              "id": "S2:78bcabe8908b4ef612522c8e0eea3e8397e60b66",
+              "provider": "semantic_scholar",
+              "title": "Polarization Amplification in Dynamic Nuclear Polarization Magic-Angle Spinning Solid-State Nuclear Magnetic Resonance by Solubilizing Traditional Ionic Salts.",
+              "url": "https://www.semanticscholar.org/paper/78bcabe8908b4ef612522c8e0eea3e8397e60b66?utm_source=api"
+            },
+            {
+              "abstract": "Single-qubit sensing protocols can be used to measure qubit-bath coupling parameters. However, for sufficiently large coupling, the sensing protocol itself perturbs the bath, which is predicted to result in a characteristic response in the sensing measurements. Here, we observe this bath perturbation, also known as a quantum quench, by preparing the nuclear spin bath of a nitrogen-vacancy (NV) center in polarized initial states and performing phase-resolved spin echo measurements on the NV electron spin. These measurements reveal a time-dependent phase determined by the initial state of the bath. We derive the relationship between sensor phase and Gaussian spin bath polarization, and apply it to reconstruct both the axial and transverse polarization components. Using this insight, we optimize the transfer efficiency of our dynamic nuclear polarization sequence. This technique for directly measuring bath polarization may assist in preparing high-fidelity quantum memory states, improving nanoscale NMR methods, and investigating non-Gaussian quantum baths.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2023-03-03",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/prxquantum.4.040315",
+              "id": "S2:5e45cf1269a113f9d7995c5ac1b5074e6e72540a",
+              "provider": "semantic_scholar",
+              "title": "Detecting Spin-Bath Polarization with Quantum Quench Phase Shifts of Single Spins in Diamond",
+              "url": "https://www.semanticscholar.org/paper/5e45cf1269a113f9d7995c5ac1b5074e6e72540a?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2024-06-25",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 1528,
+              "query": "dynamic nuclear polarization echo phase inversion electron nuclear spin",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "9590",
+                "reset_seconds": "78150"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2024-06-25",
+                  "per_page": "10",
+                  "search": "dynamic nuclear polarization echo phase inversion electron nuclear spin",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2024-06-26"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2024-06-25",
+              "attempts": 2,
+              "locally_excluded_uncertain_or_not_strictly_before": 0,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 218,
+              "query": "dynamic nuclear polarization echo phase inversion electron nuclear spin",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "dynamic nuclear polarization echo phase inversion electron nuclear spin",
+                  "year": "1900-2024"
+                }
+              },
+              "strict_before": "2024-06-26"
+            }
+          },
+          "query": "dynamic nuclear polarization echo phase inversion electron nuclear spin",
+          "strict_before": "2024-06-26"
+        },
+        {
+          "api_cutoff": "2024-06-25",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2006-11-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.physrep.2006.09.003",
+              "id": "https://openalex.org/W2032873922",
+              "provider": "openalex",
+              "title": "Dynamics of Loschmidt echoes and fidelity decay"
+            },
+            {
+              "abstract": "The idea of the out-of-time-order correlator (OTOC) has recently emerged in the study of both condensed matter systems and gravitational systems. It not only plays a key role in investigating the holographic duality between a strongly interacting quantum system and a gravitational system, it also diagnoses the chaotic behavior of many-body quantum systems and characterizes information scrambling. Based on OTOCs, three different concepts-quantum chaos, holographic duality, and information scrambling-are found to be intimately related to each other. Despite its theoretical importance, the experimental measurement of the OTOC is quite challenging, and thus far there is no experimental measurement of the OTOC for local operators. Here, we report the measurement of OTOCs of local operators for an Ising spin chain on a nuclear magnetic resonance quantum simulator. We observe that the OTOC behaves differently in the integrable and nonintegrable cases. Based on the recent discovered relationship between OTOCs and the growth of entanglement entropy in the many-body system, we extract the entanglement entropy from the measured OTOCs, which clearly shows that the information entropy oscillates in time for integrable models and scrambles for nonintgrable models. With the measured OTOCs, we also obtain the experimental result of the butterfly velocity, which measures the speed of correlation propagation. Our experiment paves a way for experimentally studying quantum chaos, holographic duality, and information scrambling in many-body quantum systems with quantum simulators.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-07-19",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/physrevx.7.031011",
+              "id": "https://openalex.org/W2509670081",
+              "provider": "openalex",
+              "title": "Measuring Out-of-Time-Order Correlators on a Nuclear Magnetic Resonance Quantum Simulator"
+            },
+            {
+              "abstract": "An ingenious pulse sequence devised by Zhang, S., Meier, B. H., and Ernst, R. R., 1992, Phys. Rev. Lett., 69, 2149 reverses the time evolution (‘spin diffusion’) of the local polarization in a dipolar coupled 1H spin system. This refocusing originates a polarization echo, whose amplitude attenuates by increasing the time t R elapsed until the dynamics are reversed. Different functional attenuations are found for a set of dipolar coupled systems: ferrocene, (C5H5)2Fe, cymantrene, (C5H5)Mn(CO)3, and cobaltocene, (C5H5)2Co. To control a relevant variable involved in this attenuation a pulse sequence has been devised to progressively reduce the dipolar dynamics. Since it reduces the evolution of the polarization echo it is referred to as the REPE sequence. Two extreme behaviours were found while characterizing the materials. In systems with a strong source of relaxation and slow dynamics the attenuation follows an exponential law (cymantrene). In systems with strong dipolar dynamics the attenuation is mainly Gaussian. By the application of the REPE sequence the characteristic time of the Gaussian decay is increased until the presence of an underlying dissipative mechanism is revealed (cobaltocene). For ferrocene, however, the attenuation remains Gaussian within the experimental timescale. These two types of behaviour suggest that the many-body quantum dynamics present an extreme intrinsic instability which, in the presence of small perturbations, leads to the onset of irreversibility. This experimental conclusion is consistent with the tendencies displayed by the numerical solu",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1998-12-20",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1080/00268979809483253",
+              "id": "https://openalex.org/W1986392050",
+              "provider": "openalex",
+              "title": "Gaussian to exponential crossover in the attenuation of polarization echoes in NMR"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-09-30",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/nnano.2016.170",
+              "id": "https://openalex.org/W2253892996",
+              "provider": "openalex",
+              "title": "Notch filtering the nuclear environment of a spin qubit"
+            },
+            {
+              "abstract": "Control of electron spin decoherence in contact with a mesoscopic bath of many interacting nuclear spins in an InAs quantum dot is studied by solving the coupled quantum dynamics. The nuclear spin bath, because of its bifurcated evolution predicated on the electron spin up or down state, measures the which-state information of the electron spin and hence diminishes its coherence. The many-body dynamics of the nuclear spin bath is solved with a pair-correlation approximation. In the relevant timescale, nuclear pair-wise flip–flops, as elementary excitations in the mesoscopic bath, can be mapped into the precession of non-interacting pseudo-spins. Such mapping provides a geometrical picture for understanding the decoherence and for devising control schemes. A close examination of nuclear bath dynamics reveals a wealth of phenomena and new possibilities of controlling the electron spin decoherence. For example, when the electron spin is flipped by a π-pulse at τ, its coherence will partially recover at as a consequence of quantum disentanglement from the mesoscopic bath. In contrast to the re-focusing of inhomogeneously broadened phases by conventional spin-echoes, the disentanglement is realized through shepherding quantum evolution of the bath state via control of the quantum object. A concatenated construction of pulse sequences can eliminate the decoherence with arbitrary accuracy, with the nuclear–nuclear spin interaction strength acting as the controlling small parameter.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2007-07-11",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/1367-2630/9/7/226",
+              "id": "https://openalex.org/W2093909315",
+              "provider": "openalex",
+              "title": "Control of electron spin decoherence caused by electron–nuclear spin dynamics in a quantum dot"
+            },
+            {
+              "abstract": "The ability to select a discrete region within the body for signal acquisition is a fundamental requirement of in vivo NMR spectroscopy. Ideally, it should be possible to tailor the selected volume to coincide exactly with the lesion or tissue of interest, without loss of signal from within this volume or contamination with extraneous signals. Many techniques have been developed over the past 25 years employing a combination of RF coil properties, static magnetic field gradients and pulse sequence design in an attempt to meet these goals. This review presents a comprehensive survey of these techniques, their various advantages and disadvantages, and implications for clinical applications. Particular emphasis is placed on the reliability of the techniques in terms of signal loss, contamination and the effect of nuclear relaxation and J-coupling. The survey includes techniques based on RF coil and pulse design alone, those using static magnetic field gradients, and magnetic resonance spectroscopic imaging. Although there is an emphasis on techniques currently in widespread use (PRESS, STEAM, ISIS and MRSI), the review also includes earlier techniques, in order to provide historical context, and techniques that are promising for future use in clinical and biomedical applications.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2006-07-26",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/0031-9155/51/16/r01",
+              "id": "https://openalex.org/W1997546428",
+              "provider": "openalex",
+              "title": "Spatial localization in nuclear magnetic resonance spectroscopy"
+            },
+            {
+              "abstract": "Due to finite size effects, such as the high surface-to-volume ratio and different crystal structures, magnetic nanoparticles are found to exhibit interesting and considerably different magnetic properties than those found in their corresponding bulk materials. These nanoparticles can be synthesized in several ways (e.g., chemical and physical) with controllable sizes enabling their comparison to biological organisms from cells (10-100 μm), viruses, genes, down to proteins (3-50 nm). The optimization of the nanoparticles' size, size distribution, agglomeration, coating, and shapes along with their unique magnetic properties prompted the application of nanoparticles of this type in diverse fields. Biomedicine is one of these fields where intensive research is currently being conducted. In this review, we will discuss the magnetic properties of nanoparticles which are directly related to their applications in biomedicine. We will focus mainly on surface effects and ferrite nanoparticles, and on one diagnostic application of magnetic nanoparticles as magnetic resonance imaging contrast agents.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2013-10-25",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3390/ijms141121266",
+              "id": "https://openalex.org/W2066030159",
+              "provider": "openalex",
+              "title": "Magnetic Nanoparticles: Surface Effects and Properties Related to Biomedicine Applications"
+            },
+            {
+              "abstract": "Abstract Recommendations are given concerning the terminology of concepts and methods used in spectroscopy in analytical chemistry, covering nuclear magnetic resonance spectroscopy, atomic spectroscopy, and vibrational spectroscopy.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-06-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1515/pac-2019-0203",
+              "id": "https://openalex.org/W3182920629",
+              "provider": "openalex",
+              "title": "Glossary of methods and terms used in analytical spectroscopy (IUPAC Recommendations 2019)"
+            },
+            {
+              "abstract": "Nitrogen-vacancy (NV) centers in diamond carry spin degrees of freedom that enable their use for sensing of weak magnetic fields with high spatial resolution and under ambient conditions . This article reviews measurement technologies and identifies the physical mechanisms that limit the sensitivity with a focus on NV ensembles. Present-day NV sensors are far from theoretical limits imposed by quantum mechanics, and strategies are suggested for improvement of methods and materials.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-03-31",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/revmodphys.92.015004",
+              "id": "https://openalex.org/W3014097088",
+              "provider": "openalex",
+              "title": "Sensitivity optimization for NV-diamond magnetometry"
+            },
+            {
+              "abstract": "Spin echo is a fundamental tool for quantum registers and biomedical imaging. It is believed that a strong magnetic field is needed for the spin echo to provide long memory and high resolution, since a degenerate spin cannot be controlled or addressed under a zero magnetic field. While a degenerate spin is never subject to dynamic control, it is still subject to geometric control. Here we show the spin echo of a degenerate spin subsystem, which is geometrically controlled via a mediating state split by the crystal field, in a nitrogen vacancy centre in diamond. The demonstration reveals that the degenerate spin is protected by inherent symmetry breaking called zero-field splitting. The geometric spin echo under zero field provides an ideal way to maintain the coherence without any dynamics, thus opening the way to pseudo-static quantum random access memory and non-invasive biosensors.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-05-19",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/ncomms11668",
+              "id": "https://openalex.org/W2295945246",
+              "provider": "openalex",
+              "title": "Geometric spin echo under zero field"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-08-03",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1063/1.4927453",
+              "id": "S2:7cb0f3296599a86e52ffd7561183a63d471c269c",
+              "provider": "semantic_scholar",
+              "title": "A peripheral component interconnect express-based scalable and highly integrated pulsed spectrometer for solution state dynamic nuclear polarization.",
+              "url": "https://www.semanticscholar.org/paper/7cb0f3296599a86e52ffd7561183a63d471c269c?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2010-06-02",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1063/1.3428665",
+              "id": "S2:eebc41d7f525fbdeaaaf5aff9a96c3a9b980b34f",
+              "provider": "semantic_scholar",
+              "title": "EPR detected polarization transfer between Gd3+ and protons at low temperature and 3.3 T: the first step of dynamic nuclear polarization.",
+              "url": "https://www.semanticscholar.org/paper/eebc41d7f525fbdeaaaf5aff9a96c3a9b980b34f?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2011-04-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.jmr.2010.12.010",
+              "id": "S2:34f853772ef409a04774735d189135749afa7122",
+              "provider": "semantic_scholar",
+              "title": "A Dynamic Nuclear Polarization spectrometer at 95 GHz/144 MHz with EPR and NMR excitation and detection capabilities.",
+              "url": "https://www.semanticscholar.org/paper/34f853772ef409a04774735d189135749afa7122?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1998-06-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1063/1.476435",
+              "id": "S2:1bde9caf734a4e5af7863ba0390800142ec3f10e",
+              "provider": "semantic_scholar",
+              "title": "Time-reversal of cross-polarization in nuclear magnetic resonance",
+              "url": "https://www.semanticscholar.org/paper/1bde9caf734a4e5af7863ba0390800142ec3f10e?utm_source=api"
+            },
+            {
+              "abstract": "We demonstrate time reversal of nuclear spin dynamics in highly magnetized dilute liquid (3)He-(4)He mixtures through effective inversion of long-range dipolar interactions. These experiments, which involve using magic sandwich NMR pulse sequences to generate spin echoes, probe the spatiotemporal development of turbulent spin dynamics and promise to serve as a versatile tool for the study and control of dynamic magnetization instabilities. We also show that a repeated magic sandwich pulse sequence can be used to dynamically stabilize modes of nuclear precession that are otherwise intrinsically unstable. To date, we have extended the effective precession lifetimes of our magnetized samples by more than three orders of magnitude.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2007-09-27",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PhysRevLett.99.137602",
+              "id": "S2:e2e13ee149f1d9ee00559c9d4e202d3db6a359a4",
+              "provider": "semantic_scholar",
+              "title": "NMR time reversal as a probe of incipient turbulent spin dynamics.",
+              "url": "https://www.semanticscholar.org/paper/e2e13ee149f1d9ee00559c9d4e202d3db6a359a4?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1996-01-01",
+              "date_precision": "year",
+              "doi": "https://doi.org/10.1016/B978-012066320-0/50004-5",
+              "id": "S2:b83286e33c49407ed6758d7bceed6787c1fb6500",
+              "provider": "semantic_scholar",
+              "title": "CHAPTER 2 – Spin-Echo and Polarization Transfer",
+              "url": "https://www.semanticscholar.org/paper/b83286e33c49407ed6758d7bceed6787c1fb6500?utm_source=api"
+            },
+            {
+              "abstract": "Dynamical decoupling is a technique for preserving the coherence of quantum-mechanical states in the presence of a noisy environment. It uses sequences of inversion pulses to suppress the environmental perturbations by periodically refocusing them. It has been shown that different sequences of inversion pulses show vastly different performance, in particular also concerning the correction of experimental pulse imperfections. Here, we investigate specifically the role of time-reversal symmetry in the building blocks of the pulse sequence. We show that using time-symmetric building blocks often improves the performance of the sequence compared to sequences formed by time-asymmetric building blocks. Using quantum state tomography of the echoes generated by the sequences, we analyze the mechanisms that lead to loss of fidelity and show how they can be compensated by suitable concatenation of symmetry-related blocks of decoupling pulses.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2011-10-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PhysRevA.85.032306",
+              "id": "S2:c39d7da56b036200b1ba53bc0bb53f0354c9aba6",
+              "provider": "semantic_scholar",
+              "title": "Effects of time-reversal symmetry in dynamical decoupling",
+              "url": "https://www.semanticscholar.org/paper/c39d7da56b036200b1ba53bc0bb53f0354c9aba6?utm_source=api"
+            },
+            {
+              "abstract": "The reversal of the time evolution of the local polarization in an interacting spin system involves a sign change of the effective dipolar Hamiltonian which refocuses the “spin diffusion” process generating a polarization echo. Here, the attenuation of these echo amplitudes as a function of evolution time is presented for cymantrene and ferrocene polycrystalline samples, involving one and two five spin rings per molecule, respectively. We calculate the fraction of polarization which is not refocused because only the secular part of the dipolar Hamiltonian is inverted. The results indicate that, as long as the spin dynamics is restricted to a single ring, the non-inverted part of the Hamiltonian is not able by itself to explain the whole decay of the polarization echoes. A crossover from exponential (cymantrene) to Gaussian (ferrocene) attenuation is experimentally observed. This is attributed to an increase of the relative importance of the spin dynamics, as compared with irreversible interactions, which ...",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1997-08-21",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1063/1.475664",
+              "id": "S2:3fa88c63430254c2525113cc91e5c4074d99f40d",
+              "provider": "semantic_scholar",
+              "title": "Attenuation of polarization echoes in nuclear magnetic resonance: A study of the emergence of dynamical irreversibility in many-body quantum systems",
+              "url": "https://www.semanticscholar.org/paper/3fa88c63430254c2525113cc91e5c4074d99f40d?utm_source=api"
+            },
+            {
+              "abstract": "Nuclear magnetic resonance (NMR) measurements are performed with the pulse sequence and acquisition parameters set by the operator, which cannot be adjusted in real time according to sample characteristics. In one acquisition cycle, usually thousands of high-power pulses are transmitted and thousands of echo points are acquired. The power consumption cause the RF amplifier to overheat, and large amounts of acquired data may be invalid. Therefore, the optimization of excitation and acquisition processes is necessary to improve measurement efficiency. We explore a scheme for the real-time measurement of the samples by adaptively regulating the pulse sequence, which adapts the variable TE pulse sequence as the reconnaissance mode. The appropriate pulse sequence and reasonable parameters ( NE , TE ) can be selected according to the relaxation characteristics of the samples.This adaptive control strategy has great significance in guiding both dynamic and static measurements, and it is especially suitable for occasions where low magnetic field gradients and diffusion terms can be ignored. We also design a test circuit for adaptive control, which has the function of automatic parameter adjustment. By adjusting parameters such as the number of refocusing pulses, echo spacing, etc., the effective measurement of the samples can be achieved in practice.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2023-03-14",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41598-023-31031-x",
+              "id": "S2:b23b9219dec567d22e9788aff83251a6026ec56b",
+              "provider": "semantic_scholar",
+              "title": "Adaptive control for downhole nuclear magnetic resonance excitation",
+              "url": "https://www.semanticscholar.org/paper/b23b9219dec567d22e9788aff83251a6026ec56b?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2024-06-25",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 189,
+              "query": "pulsed dynamic nuclear polarization time reversal refocusing echo",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "9580",
+                "reset_seconds": "78143"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2024-06-25",
+                  "per_page": "10",
+                  "search": "pulsed dynamic nuclear polarization time reversal refocusing echo",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2024-06-26"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2024-06-25",
+              "attempts": 2,
+              "locally_excluded_uncertain_or_not_strictly_before": 1,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 62,
+              "query": "pulsed dynamic nuclear polarization time reversal refocusing echo",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "pulsed dynamic nuclear polarization time reversal refocusing echo",
+                  "year": "1900-2024"
+                }
+              },
+              "strict_before": "2024-06-26"
+            }
+          },
+          "query": "pulsed dynamic nuclear polarization time reversal refocusing echo",
+          "strict_before": "2024-06-26"
+        }
+      ]
+    },
+    "B": {
+      "queries": [
+        {
+          "api_cutoff": "2024-06-25",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "The field of dynamic nuclear polarization has undergone tremendous developments and diversification since its inception more than 6 decades ago. In this review we provide an in-depth overview of the relevant topics involved in DNP-enhanced MAS NMR spectroscopy. This includes the theoretical description of DNP mechanisms as well as of the polarization transfer pathways that can lead to a uniform or selective spreading of polarization between nuclear spins. Furthermore, we cover historical and state-of-the art aspects of dedicated instrumentation, polarizing agents, and optimization techniques for efficient MAS DNP. Finally, we present an extensive overview on applications in the fields of structural biology and materials science, which underlines that MAS DNP has moved far beyond the proof-of-concept stage and has become an important tool for research in these fields.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-07-23",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.pnmrs.2017.06.002",
+              "id": "https://openalex.org/W2738810944",
+              "provider": "openalex",
+              "title": "Dynamic nuclear polarization for sensitivity enhancement in modern solid-state NMR"
+            },
+            {
+              "abstract": "In this work, we show how to obtain efficient dynamic nuclear polarization (DNP) enhanced <sup>35</sup> Cl solid-state NMR (SSNMR) spectra at 9.4 T and demonstrate how they can be used to characterize the molecular-level structure of hydrochloride salts of active pharmaceutical ingredients (APIs) in both bulk and low wt% API dosage forms.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1039/c6cp04353d",
+              "id": "https://openalex.org/W2515226319",
+              "provider": "openalex",
+              "title": "<sup>35</sup> Cl dynamic nuclear polarization solid-state NMR of active pharmaceutical ingredients"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-05-27",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.ssnmr.2019.05.009",
+              "id": "https://openalex.org/W2947389293",
+              "provider": "openalex",
+              "title": "Recent developments in MAS DNP-NMR of materials"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2001-10-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/s0005-2728(01)00210-9",
+              "id": "https://openalex.org/W2084152794",
+              "provider": "openalex",
+              "title": "Pulsed EPR spectroscopy on short-lived intermediates in Photosystem I"
+            },
+            {
+              "abstract": "Studying disease models at the molecular level is vital for drug development in order to improve treatment and prevent a wide range of human pathologies. Microbial infections are still a major challenge because pathogens rapidly and continually evolve developing drug resistance. Cancer cells also change genetically, and current therapeutic techniques may be (or may become) ineffective in many cases. The pathology of many neurological diseases remains an enigma, and the exact etiology and underlying mechanisms are still largely unknown. Viral infections spread and develop much more quickly than does the corresponding research needed to prevent and combat these infections; the present and most relevant outbreak of SARS-CoV-2, which originated in Wuhan, China, illustrates the critical and immediate need to improve drug design and development techniques. Modern day drug discovery is a time-consuming, expensive process. Each new drug takes in excess of 10 years to develop and costs on average more than a billion US dollars. This demonstrates the need of a complete redesign or novel strategies. Nuclear Magnetic Resonance (NMR) has played a critical role in drug discovery ever since its introduction several decades ago. In just three decades, NMR has become a \"gold standard\" platform technology in medical and pharmacology studies. In this review, we present the major applications of NMR spectroscopy in medical drug discovery and development. The basic concepts, theories, and applications of the most commonly used NMR techniques are presented. We also summarize the advantages and l",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-10-09",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3390/molecules25204597",
+              "id": "https://openalex.org/W3092122663",
+              "provider": "openalex",
+              "title": "NMR as a “Gold Standard” Method in Drug Design and Discovery"
+            },
+            {
+              "abstract": "We introduce a novel NMR approach that extends the capabilities of indirect dynamic nuclear polarization (DNP) under magic-angle spinning to probe the local environment of half-integer spin quadrupolar nuclei. Compared to cross-polarization, this novel method based on the refocused INEPT scheme with adiabatic dipolar recoupling is easier to optimize and does not distort the quadrupolar line shapes. Furthermore, the use of this technique, instead of the PRESTO (Phase-shifted Recoupling Effects a Smooth Transfer of Order) scheme or direct DNP, greatly improves the sensitivity of DNP-NMR for the detection of quadrupolar isotopes with small dipolar couplings to protons, including notably those located in the subsurface of inorganic materials or with low gyromagnetic ratio (γ). This technique has been applied to identify the atomic-level structure of Brønsted acid sites of hydrated titania-supported MoO 3, MoO 3 /TiO 2, a widely used heterogeneous catalyst. The spectra of protonated and unprotonated 17 O sites, acquired in natural abundance, indicate the presence of various oxomolybdate species as well as HOMo 2 and HOMo 3 Brønsted acid sites. The enhanced sensitivity of this new method has also enabled the acquisition of the first DNP-enhanced spectra of 95 Mo and 47,49 Ti low-γ quadrupolar isotopes. This possibility has been demonstrated by detecting the signals of these nuclei near the surface of MoO 3 /TiO 2 . This technique has allowed the observation of 49 Ti surface sites, which are absent from the bulk region of TiO 2 . Furthermore, both 95 Mo and 47,49 Ti DNP spectra ha",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-05-19",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/jacs.9b13838",
+              "id": "https://openalex.org/W3026675491",
+              "provider": "openalex",
+              "title": "Observation of Low-γ Quadrupolar Nuclei by Surface-Enhanced NMR Spectroscopy"
+            },
+            {
+              "abstract": "A detailed knowledge of the complex processes that make cells and organisms alive is fundamental in order to understand diseases and to develop novel drugs and therapeutic treatments. To this aim, biological macromolecules should ideally be characterized at atomic resolution directly within the cellular environment. Among the existing structural techniques, solution NMR stands out as the only one able to investigate at high resolution the structure and dynamic behavior of macromolecules directly in living cells. With the advent of more sensitive NMR hardware and new biotechnological tools, modern in-cell NMR approaches have been established since the early 2000s. At the coming of age of in-cell NMR, we provide a detailed overview of its developments and applications in the 20 years that followed its inception. We review the existing approaches for cell sample preparation and isotopic labeling, the application of in-cell NMR to important biological questions, and the development of NMR bioreactor devices, which greatly increase the lifetime of the cells allowing real-time monitoring of intracellular metabolites and proteins. Finally, we share our thoughts on the future perspectives of the in-cell NMR methodology.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-01-21",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/acs.chemrev.1c00790",
+              "id": "https://openalex.org/W4205242565",
+              "provider": "openalex",
+              "title": "Radio Signals from Live Cells: The Coming of Age of In-Cell Solution NMR"
+            },
+            {
+              "abstract": "Nitrogen-vacancy (NV) centers in diamond carry spin degrees of freedom that enable their use for sensing of weak magnetic fields with high spatial resolution and under ambient conditions . This article reviews measurement technologies and identifies the physical mechanisms that limit the sensitivity with a focus on NV ensembles. Present-day NV sensors are far from theoretical limits imposed by quantum mechanics, and strategies are suggested for improvement of methods and materials.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-03-31",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/revmodphys.92.015004",
+              "id": "https://openalex.org/W3014097088",
+              "provider": "openalex",
+              "title": "Sensitivity optimization for NV-diamond magnetometry"
+            },
+            {
+              "abstract": "Abstract Signal enhancements of up to two orders of magnitude in protein NMR can be achieved by employing HDO as a vector to introduce hyperpolarization into folded or intrinsically disordered proteins. In this approach, hyperpolarized HDO produced by dissolution-dynamic nuclear polarization (D-DNP) is mixed with a protein solution waiting in a high-field NMR spectrometer, whereupon amide proton exchange and nuclear Overhauser effects (NOE) transfer hyperpolarization to the protein and enable acquisition of a signal-enhanced high-resolution spectrum. To date, the use of this strategy has been limited to 1D and 1 H- 15 N 2D correlation experiments. Here we introduce 2D 13 C-detected D-DNP, to reduce exchange-induced broadening and other relaxation penalties that can adversely affect proton-detected D-DNP experiments. We also introduce hyperpolarized 3D spectroscopy, opening the possibility of D-DNP studies of larger proteins and IDPs, where assignment and residue-specific investigation may be impeded by spectral crowding. The signal enhancements obtained depend in particular on the rates of chemical and magnetic exchange of the observed residues, thus resulting in non-uniform ‘hyperpolarization-selective’ signal enhancements. The resulting spectral sparsity, however, makes it possible to resolve and monitor individual amino acids in IDPs of over 200 residues at acquisition times of just over a minute. We apply the proposed experiments to two model systems: the compactly folded protein ubiquitin, and the intrinsically disordered protein (IDP) osteopontin (OPN).",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-02-10",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s10858-020-00301-5",
+              "id": "https://openalex.org/W3006079932",
+              "provider": "openalex",
+              "title": "Sensitivity-enhanced three-dimensional and carbon-detected two-dimensional NMR of proteins using hyperpolarized water"
+            },
+            {
+              "abstract": "Abstract Glassy ionic conductors have attained considerable importance in the solid state battery technology field. To understand the influence of composition on ionic mobility and transport, information about the local and dynamic environments of the mobile ions in glasses is required. Solid state NMR spectroscopy is one of the most powerful tools for addressing these questions. Our research effort in this area comprises (1) the development of efficient techniques and strategies for the study of disordered materials, (2) the detailed application of optimized measurement and data analysis protocols to different glass systems under systematic compositional variation, and (3) the comprehensive interpretation of the results obtained in the overall literature context. This article attempts to convey a concise overview of our contribution to this field over the period from 2004 to 2010, to describe the most significant insights obtained and to place them into the overall field of Solid State Ionics .",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2010-11-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1524/zpch.2010.0030",
+              "id": "https://openalex.org/W2063661187",
+              "provider": "openalex",
+              "title": "Short and Medium Range Order in Ion-Conducting Glasses Studied by Modern Solid State NMR Techniques"
+            },
+            {
+              "abstract": "Dynamic nuclear polarization (DNP) is a powerful method to enhance NMR sensitivity. Much progress has been achieved recently to optimize DNP performance at high magnetic fields in solid-state samples, mostly by utilizing the solid or the cross effect. In liquids, only the Overhauser mechanism is active, which exhibits a DNP field profile matching the EPR line shape of the radical, distinguishable from other DNP mechanisms. Here, we observe DNP enhancements with a field profile indicative of the solid effect and thermal mixing at ∼320 K and a magnetic field of 9.4 T in the fluid phase of 1,2-dimyristoyl-sn-glycero-3-phosphocholine (DMPC) lipid bilayers doped with the radical BDPA (1,3-bis(diphenylene)-2-phenylallyl). This interesting observation might open up new perspectives for DNP applications in macromolecular systems at ambient temperatures.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-01-14",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/jacs.1c12837",
+              "id": "S2:0d1eda6ffb7799b8e1aeeeda160ad523e21b907d",
+              "provider": "semantic_scholar",
+              "title": "Solid-like Dynamic Nuclear Polarization Observed in the Fluid Phase of Lipid Bilayers at 9.4 T.",
+              "url": "https://www.semanticscholar.org/paper/0d1eda6ffb7799b8e1aeeeda160ad523e21b907d?utm_source=api"
+            },
+            {
+              "abstract": "Dynamic nuclear polarization (DNP) takes center stage in nuclear magnetic resonance (NMR) as a tool to amplify its signal by orders of magnitude through the transfer of polarization from electron to nuclear spins. In contrast to modern NMR and electron paramagnetic resonance (EPR) that extensively rely on pulses for spin manipulation in the time domain, the current mainstream DNP technology exclusively relies on monochromatic continuous wave (CW) irradiation. This study introduces arbitrary phase shaped pulses that constitute a train of coherent chirp pulses in the time domain at 200 GHz (7 T) to dramatically enhance the saturation bandwidth and DNP performance compared to CW DNP, yielding up to 500-fold in NMR signal enhancements. The observed improvement is attributed to the recruitment of additional electron spins contributing to DNP via the cross-effect mechanism, as experimentally confirmed by two-frequency pump-probe electron-electron double resonance (ELDOR).",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-05-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/acs.jpclett.8b01413",
+              "id": "S2:b83d39631b896e23217f6422d8bd8e75bbd45d8b",
+              "provider": "semantic_scholar",
+              "title": "Amplification of Dynamic Nuclear Polarization at 200 GHz by Arbitrary Pulse Shaping of the Electron Spin Saturation Profile.",
+              "url": "https://www.semanticscholar.org/paper/b83d39631b896e23217f6422d8bd8e75bbd45d8b?utm_source=api"
+            },
+            {
+              "abstract": "Hyperfine decoupling and pulsed dynamic nuclear polarization (DNP) are promising techniques to improve high field DNP NMR. We explore experimental and theoretical considerations to implement them with magic angle spinning (MAS). Microwave field simulations using the high frequency structural simulator (HFSS) software suite are performed to characterize the inhomogeneous phase independent microwave field throughout a 198 GHz MAS DNP probe. Our calculations show that a microwave power input of 17 W is required to generate an average EPR nutation frequency of 0.84 MHz. We also present a detailed calculation of microwave heating from the HFSS parameters and find that 7.1% of the incident microwave power contributes to dielectric sample heating. Voltage tunable gyrotron oscillators are proposed as a class of frequency agile microwave sources to generate microwave frequency sweeps required for the frequency modulated cross effect, electron spin inversions, and hyperfine decoupling. Electron spin inversions of stable organic radicals are simulated with SPINEVOLUTION using the inhomogeneous microwave fields calculated by HFSS. We calculate an electron spin inversion efficiency of 56% at a spinning frequency of 5 kHz. Finally, we demonstrate gyrotron acceleration potentials required to generate swept microwave frequency profiles for the frequency modulated cross effect and electron spin inversions.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-10-09",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.ssnmr.2015.10.001",
+              "id": "S2:33976d455297e44f1bd9f9af0f757c220c4d47db",
+              "provider": "semantic_scholar",
+              "title": "Frequency swept microwaves for hyperfine decoupling and time domain dynamic nuclear polarization",
+              "url": "https://www.semanticscholar.org/paper/33976d455297e44f1bd9f9af0f757c220c4d47db?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2013-08-20",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/ja405813t",
+              "id": "S2:398b5f2d7e74219e97409d89dbcd6f8d9829eb89",
+              "provider": "semantic_scholar",
+              "title": "Large molecular weight nitroxide biradicals providing efficient dynamic nuclear polarization at temperatures up to 200 K.",
+              "url": "https://www.semanticscholar.org/paper/398b5f2d7e74219e97409d89dbcd6f8d9829eb89?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:a2971cb9250690544dc56668ac7d43714ab364b5",
+              "provider": "semantic_scholar",
+              "title": "Sample Ripening through Nanophase Separation Influences the Performance of Dynamic Nuclear Polarization",
+              "url": "https://www.semanticscholar.org/paper/a2971cb9250690544dc56668ac7d43714ab364b5?utm_source=api"
+            },
+            {
+              "abstract": "We report here on the implementation of arbitrary waveform generation (AWG) capabilities at ∼200 GHz into an Electron Paramagnetic Resonance (EPR) and Dynamic Nuclear Polarization (DNP) instrument platform operating at 7 Tesla. This is achieved with the integration of a 1 GHz, 2 channel, digital to analogue converter (DAC) board that enables the generation of coherent arbitrary waveforms at Ku-band frequencies with 1ns resolution into an existing architecture of a solid state amplifier multiplier chain (AMC). This allows for the generation of arbitrary phase- and amplitude-modulated waveforms at 200 GHz with > 150 mW power. We find that the non-linearity of the AMC poses significant difficulties in generating amplitude-modulated pulses at 200 GHz. We demonstrate that in the power-limited regime of ω1 < 1MHz phase-modulated pulses were sufficient to achieve significant improvements in broadband (>10MHz) spin manipulation in incoherent (inversion), as well as coherent (echo formation) experiments. Highlights include the improvement by one order of magnitude in inversion bandwidth compared to that of conventional rectangular pulses, as well as a factor of two in improvement in the refocused echo intensity at 200GHz.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-04-27",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.jmr.2017.04.016",
+              "id": "S2:026216413adec0e68d4d09ad3fd7ace4d1e080b8",
+              "provider": "semantic_scholar",
+              "title": "Arbitrary waveform modulated pulse EPR at 200 GHz",
+              "url": "https://www.semanticscholar.org/paper/026216413adec0e68d4d09ad3fd7ace4d1e080b8?utm_source=api"
+            },
+            {
+              "abstract": "In solid-state NMR spectroscopy, the through-space transfer of magnetization from protons to quadrupolar nuclei is employed to probe proximities between those isotopes. Furthermore, such transfer, in conjunction with Dynamic Nuclear Polarization (DNP), can enhance the NMR sensitivity of quadrupolar nuclei, as it allows the transfer of DNP-enhanced 1H polarization to surrounding nuclei. We compare here the performances of two approaches to achieve such transfer: PRESTO (Phase-shifted Recoupling Effects a Smooth Transfer of Order), which is currently the method of choice to achieve the magnetization transfer from protons to quadrupolar nuclei and which has been shown to supersede Cross-Polarization under Magic-Angle Spinning (MAS) for quadrupolar nuclei and D-RINEPT (Dipolar-mediated Refocused Insensitive Nuclei Enhanced by Polarization Transfer) using symmetry-based SR412 recoupling, which has already been employed to transfer the magnetization in the reverse way from half-integer quadrupolar spin to protons. We also test the PRESTO sequence with R1676 recoupling using 270090180 composite π-pulses as inversion elements. This recoupling scheme, which has previously been proposed to reintroduce 1H Chemical Shift Anisotropy (CSA) at high MAS frequencies with high robustness to rf-field inhomogeneity, has not so far been employed to reintroduce dipolar couplings with protons. These various techniques to transfer magnetization from protons to quadrupolar nuclei are analyzed using (i) an average Hamiltonian theory, (ii) numerical simulations of spin dynamics, and (iii) experimental 1H → 27Al and 1H → 17O transfers in as-synthesized AlPO4-14 and 17O-labelled fumed silica, respectively. The experiments and simulations are done at two magnetic fields (9.4 and 18.8 T) and several spinning speeds (15, 18-24 and 60 kHz). This analysis indicates that owing to its γ-encoded character, PRESTO yields the highest transfer efficiency at low magnetic fields and MAS frequencies, whereas owing to its higher robustness to rf-field inhomogeneity and chemical shifts, D-RINEPT is more sensitive at high fields and MAS frequencies, notably for protons exhibiting large offset or CSA, such as those involved in hydrogen bonds.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-02-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.jmr.2018.12.016",
+              "id": "S2:47d4f75d2f0c8b2000c26d683643b422af5c788e",
+              "provider": "semantic_scholar",
+              "title": "Magnetization transfer from protons to quadrupolar nuclei in solid-state NMR using PRESTO or dipolar-mediated refocused INEPT methods.",
+              "url": "https://www.semanticscholar.org/paper/47d4f75d2f0c8b2000c26d683643b422af5c788e?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2007-01-01",
+              "date_precision": "year",
+              "doi": "https://doi.org/10.1002/9780470173350",
+              "id": "S2:4109b985bd0e9333631ba3e9593bb3dbb4daf316",
+              "provider": "semantic_scholar",
+              "title": "NMR spectroscopy explained : simplified theory, applications and examples for organic chemistry and structural biology",
+              "url": "https://www.semanticscholar.org/paper/4109b985bd0e9333631ba3e9593bb3dbb4daf316?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-05-13",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/acs.jpcb.5b02964",
+              "id": "S2:c02b6e6cf58fac3ced3803b7d6035bac92c93594",
+              "provider": "semantic_scholar",
+              "title": "Coherence Transfer by Passage Pulses in Electron Paramagnetic Resonance Spectroscopy.",
+              "url": "https://www.semanticscholar.org/paper/c02b6e6cf58fac3ced3803b7d6035bac92c93594?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:f89b0dbb00d7daadb8c04dfb24be4842e67591ca",
+              "provider": "semantic_scholar",
+              "title": "Magnetic Resonance Conference on Methods and Applications",
+              "url": "https://www.semanticscholar.org/paper/f89b0dbb00d7daadb8c04dfb24be4842e67591ca?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2024-06-25",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 169,
+              "query": "dynamic nuclear polarization refocusing observed EPR NMR phase inversion",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "9570",
+                "reset_seconds": "78136"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2024-06-25",
+                  "per_page": "10",
+                  "search": "dynamic nuclear polarization refocusing observed EPR NMR phase inversion",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2024-06-26"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2024-06-25",
+              "attempts": 2,
+              "locally_excluded_uncertain_or_not_strictly_before": 0,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 14,
+              "query": "dynamic nuclear polarization refocusing observed EPR NMR phase inversion",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "dynamic nuclear polarization refocusing observed EPR NMR phase inversion",
+                  "year": "1900-2024"
+                }
+              },
+              "strict_before": "2024-06-26"
+            }
+          },
+          "query": "dynamic nuclear polarization refocusing observed EPR NMR phase inversion",
+          "strict_before": "2024-06-26"
+        },
+        {
+          "api_cutoff": "2024-06-25",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "This paper presents a study of coherent dynamic nuclear polarization (DNP) using frequency swept pulses at 94 GHz which optimize the polarization transfer efficiency. Accordingly, an enhancement ε ∼ 496 was observed using 10 mM trityl-OX063 as the polarizing agent in a standard 6:3:1 d 8 -glycerol/D 2 O/H 2 O glassing matrix at 70 K. At present, this is the largest DNP enhancement reported at this microwave frequency and temperature. Furthermore, the frequency swept pulses enhance the nuclear magnetic resonance (NMR) signal and reduce the recycle delay, accelerating the NMR signal acquisition.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2023-05-15",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/acs.jpclett.3c00726",
+              "id": "https://openalex.org/W4376610950",
+              "provider": "openalex",
+              "title": "Coherent Dynamic Nuclear Polarization using Chirped Pulses"
+            },
+            {
+              "abstract": "Abstract The silicon metal-oxide-semiconductor (MOS) material system is a technologically important implementation of spin-based quantum information processing. However, the MOS interface is imperfect leading to concerns about 1/ f trap noise and variability in the electron g -factor due to spin–orbit (SO) effects. Here we advantageously use interface–SO coupling for a critical control axis in a double-quantum-dot singlet–triplet qubit. The magnetic field-orientation dependence of the g -factors is consistent with Rashba and Dresselhaus interface–SO contributions. The resulting all-electrical, two-axis control is also used to probe the MOS interface noise. The measured inhomogeneous dephasing time, $$T_{{\\mathrm{2m}}}^ \\star$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:msubsup> <mml:mrow> <mml:mi>T</mml:mi> </mml:mrow> <mml:mrow> <mml:mi>2m</mml:mi> </mml:mrow> <mml:mrow> <mml:mo>⋆</mml:mo> </mml:mrow> </mml:msubsup> </mml:math> , of 1.6 μs is consistent with 99.95% 28 Si enrichment. Furthermore, when tuned to be sensitive to exchange fluctuations, a quasi-static charge noise detuning variance of 2 μeV is observed, competitive with low-noise reports in other semiconductor qubits. This work, therefore, demonstrates that the MOS interface inherently provides properties for two-axis qubit control, while not increasing noise relative to other material choices.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-04-26",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41467-018-04200-0",
+              "id": "https://openalex.org/W3102695755",
+              "provider": "openalex",
+              "title": "A silicon metal-oxide-semiconductor electron spin-orbit qubit"
+            },
+            {
+              "abstract": "Dissolution dynamic nuclear polarization (dDNP) increases the sensitivity of magnetic resonance imaging by more than 10,000 times, enabling in vivo metabolic imaging to be performed noninvasively in real time. Here, we are developing a group of dDNP polarized tracers based on nicotinamide (NAM). We synthesized 1- 15 N-NAM and 1- 15 N nicotinic acid and hyperpolarized them with dDNP, reaching (13.0 ± 1.9)% 15 N polarization. We found that the lifetime of hyperpolarized 1- 15 N-NAM is strongly field- and pH-dependent, with T 1 being as long as 41 s at a pH of 12 and 1 T while as short as a few seconds at neutral pH and fields below 1 T. The remarkably short 1- 15 N lifetime at low magnetic fields and neutral pH drove us to establish a unique pH neutralization procedure. Using 15 N dDNP and an inexpensive rodent imaging probe designed in-house, we acquired a 15 N MRI of 1- 15 N-NAM (previously hyperpolarized for more than an hour) in less than 1 s.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2023-08-23",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1126/sciadv.add3643",
+              "id": "https://openalex.org/W4386112073",
+              "provider": "openalex",
+              "title": "Nitrogen-15 dynamic nuclear polarization of nicotinamide derivatives in biocompatible solutions"
+            },
+            {
+              "abstract": "Dynamic nuclear polarization (DNP) utilizing narrow-line electron spin clusters (ESCs) to achieve nuclear spin resonance matching (ESC-DNP) by microwave irradiation is a promising way to achieve NMR signal enhancements with a wide design scope requiring low microwave power at high magnetic field. Here we present the design for a trityl-based tetra-radical (TetraTrityl) to achieve DNP for 1 H NMR at 7 T, supported by experimental data and quantum mechanical simulations. A slow-relaxing ( T 1 e ≈ 1 ms) 4-ESC is found to require at least two electron spin pairs at <8 Å e–e spin distance to yield 1 H ESC-DNP enhancement, while squeezing the rest of the e–e spin distances to <12 Å results in optimal 1 H ESC-DNP enhancements. Fast-relaxing ESCs ( T 1 e ≈ 10 μs) are found to require a weakly coupled narrow-line radical (sensitizer) to extract polarization from the ESC. These results provide design principles for achieving a power-efficient DNP at high field via ESC-DNP.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2024-05-12",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/acs.jpclett.4c00182",
+              "id": "https://openalex.org/W4396847609",
+              "provider": "openalex",
+              "title": "Dynamic Nuclear Polarization Using Electron Spin Cluster"
+            },
+            {
+              "abstract": "Metabolism is a fundamental process that underlies human health and diseases. Nuclear magnetic resonance (NMR) techniques offer a powerful approach to identify metabolic processes and track the flux of metabolites at the molecular level in living systems. An in vitro study through in-cell NMR tracks metabolites in real time and investigates protein structures and dynamics in a state close to their most natural environment. This technique characterizes metabolites and proteins involved in metabolic pathways in prokaryotic and eukaryotic cells. In vivo magnetic resonance spectroscopy (MRS) enables whole-organism metabolic monitoring by visualizing the spatial distribution of metabolites and targeted proteins. One limitation of these NMR techniques is the sensitivity, for which a possible improved approach is through isotopic enrichment or hyperpolarization methods, including dynamic nuclear polarization (DNP) and parahydrogen-induced polarization (PHIP). DNP involves the transfer of high polarization from electronic spins of radicals to surrounding nuclear spins for signal enhancements, allowing the detection of low-abundance metabolites and real-time monitoring of metabolic activities. PHIP enables the transfer of nuclear spin polarization from parahydrogen to other nuclei for signal enhancements, particularly in proton NMR, and has been applied in studies of enzymatic reactions and cell signaling. This review provides an overview of in-cell NMR, in vivo MRS, and hyperpolarization techniques, highlighting their applications in metabolic studies and discussing challenges and ",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2024-01-19",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s00216-024-05137-8",
+              "id": "https://openalex.org/W4391034568",
+              "provider": "openalex",
+              "title": "NMR spectroscopy for metabolomics in the living system: recent progress and future challenges"
+            },
+            {
+              "abstract": "A noninvasive method for in vivo measurement of the oxygen concentration has been developed. By introducing a novel contrast medium (CM) based on a single electron substance, it is possible to enhance the proton signal through the Overhauser effect. A low-field magnetic resonance scanner is used to image the proton nuclei of the object. The electron spin transition of the CM is saturated using rf irradiation. As a consequence, the nuclear polarization becomes enhanced through dipole-dipole interaction. The signal enhancement is a function of rf power and of the EPR line width of the substance, which is influenced by the oxygen concentration. The maximum in vivo enhancement has been measured to 60. Image data, generated with different scanning parameters, is used in a postprocessing method to generate images showing pO(2) and the contrast medium concentration, respectively. The mathematical foundation of the postprocessing algorithm is outlined. The results from phantom experiments and animal experiments, in which the oxygen content of the inspired gas was varied, are presented. The potential for human imaging is discussed. J. Magn. Reson. Imaging 2000;12:929-938.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2000-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/1522-2586(200012)12:6<929::aid-jmri17>3.0.co;2-j",
+              "id": "https://openalex.org/W2121669013",
+              "provider": "openalex",
+              "title": "Dynamic in vivo oxymetry using overhauser enhanced MR imaging"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-01-15",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.jmr.2022.107143",
+              "id": "https://openalex.org/W4205987388",
+              "provider": "openalex",
+              "title": "Monitoring electron spin fluctuations with paramagnetic relaxation enhancement"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-12-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.nima.2018.12.047",
+              "id": "https://openalex.org/W2905175983",
+              "provider": "openalex",
+              "title": "A transportable neutron spin filter"
+            },
+            {
+              "abstract": "As a complementary analysis tool to conventional high-field nuclear magnetic resonance (NMR), zero- to ultralow-field (ZULF) NMR detects nuclear magnetization signals in the sub-microtesla regime. Spin-exchange relaxation-free (SERF) atomic magnetometers provide a new generation of sensitive detectors for ZULF NMR. Owing to features such as low cost, high resolution, and portability, ZULF NMR has recently attracted considerable attention in chemistry, biology, medicine, and tests of fundamental physics. This review describes the basic principles, methodology, and recent experimental and theoretical development of ZULF NMR as well as its applications in spectroscopy, quantum control, imaging, NMR-based quantum devices, and tests of fundamental physics. The future prospects of ZULF NMR are also discussed.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.fmre.2020.12.007",
+              "id": "https://openalex.org/W3123241924",
+              "provider": "openalex",
+              "title": "Zero- to ultralow-field nuclear magnetic resonance and its applications"
+            },
+            {
+              "abstract": "Nuclear Magnetic Resonance (NMR) is a powerful technique to probe the local environment of atoms bearing a nuclear spin. Interfaces in a rechargeable battery, within multi-component electrode or electrolytes or between the electrodes and the electrolyte, are key to its function and lifetime. NMR spectroscopy of the solid phases in the battery participate in the understanding of the processes at these interfaces. The solid-state NMR community is still highly active for ex situ measurements. Dynamic Nuclear Polarization attracted interest thanks to its enhanced sensitivity. In situ spectroscopy and imaging prospered in the context of metallic Li or Na deposition, either as an ageing process in conventional Li or Na batteries, or as the primary process in a metal battery.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-12-31",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.cocis.2022.101675",
+              "id": "https://openalex.org/W4313400091",
+              "provider": "openalex",
+              "title": "Nuclear magnetic resonance for interfaces in rechargeable batteries"
+            },
+            {
+              "abstract": "Magic angle spinning (MAS) dynamic nuclear polarization (DNP) is widely used to increase nuclear magnetic resonance (NMR) signal intensity. Frequency-chirped microwaves yield superior control of electron spins and are expected to play a central role in the development of DNP MAS experiments. Time domain electron control with MAS has considerable promise to improve DNP performance at higher fields and temperatures. We have recently demonstrated that pulsed electron decoupling using frequency-chirped microwaves improves MAS DNP experiments by partially attenuating detrimental hyperfine interactions. The continued development of pulsed electron decoupling will enable a new suite of MAS DNP experiments that transfer polarization directly to observed spins. Time domain DNP transfers to nuclear spins in conjunction with pulsed electron decoupling is described as a viable avenue toward DNP-enhanced, high-resolution NMR spectroscopy over a range of temperatures from <6 to 320 K.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-09-04",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/acs.jpclett.8b01695",
+              "id": "S2:68330ced81cc6574fe7d9132539e106131f50ef4",
+              "provider": "semantic_scholar",
+              "title": "Pulsed Electron Decoupling and Strategies for Time Domain Dynamic Nuclear Polarization with Magic Angle Spinning",
+              "url": "https://www.semanticscholar.org/paper/68330ced81cc6574fe7d9132539e106131f50ef4?utm_source=api"
+            },
+            {
+              "abstract": "TOP-DNP is an innovative pulsed DNP method that efficiently enhances NMR signals with moderate microwave power at high fields. Pulsed dynamic nuclear polarization (DNP) techniques can accomplish electron-nuclear polarization transfer efficiently with an enhancement factor that is independent of the Zeeman field. However, they often require large Rabi frequencies and, therefore, high-power microwave irradiation. Here, we propose a new low-power DNP sequence for static samples that is composed of a train of microwave pulses of length τp spaced with delays d. A particularly robust DNP condition using a period τm = τp + d set to ~1.25 times the Larmor period τLarmor is investigated which is a time-optimized pulsed DNP sequence (TOP-DNP). At 0.35 T, we obtained an enhancement of ~200 using TOP-DNP compared to ~172 with nuclear spin orientation via electron spin locking (NOVEL), a commonly used pulsed DNP sequence, while using only ~7% microwave power required for NOVEL. Experimental data and simulations at higher fields suggest a field-independent enhancement factor, as predicted by the effective Hamiltonian.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1126/sciadv.aav6909",
+              "id": "S2:9e3aa78e5c0d994788e2cff2d565bffbcf8a5063",
+              "provider": "semantic_scholar",
+              "title": "Time-optimized pulsed dynamic nuclear polarization",
+              "url": "https://www.semanticscholar.org/paper/9e3aa78e5c0d994788e2cff2d565bffbcf8a5063?utm_source=api"
+            },
+            {
+              "abstract": "The coherent transfer of electron spin polarization to nuclei by means of a microwave pulse sequence is a promising new approach to enhancing the sensitivity of solid-state nuclear magnetic resonance (NMR). The development of pulse sequences for dynamic nuclear polarization (DNP) of bulk nuclei is far from complete, as is the understanding of what makes a good DNP sequence. In this context, we introduce a new sequence, termed Two-Pulse Phase Modulation (TPPM) DNP. We provide a general theoretical description for electron-proton polarization transfer by periodic DNP pulse sequences and find it in excellent agreement with numerical simulations. In experiments at 1.2 T, TPPM DNP generates a higher gain in sensitivity than existing sequences XiX (X-inverse-X) and TOP (Time-Optimized Pulsed) DNP but does so at relatively high nutation frequencies. In contrast, we find that the XiX sequence performs very well at nutation frequencies as low as 7 MHz. A combination of theoretical analysis and experimental investigation makes clear that fast electron-proton polarization transfer, due to a well-preserved dipolar coupling in the effective Hamiltonian, correlates with a short build-up time of the dynamic nuclear polarization of the bulk. Experiments further show that the performances of XiX and TOP DNP are affected differently by the concentration of the polarizing agent. These results constitute important reference points for the development of new and better DNP sequences.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2023-07-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1063/5.0153053",
+              "id": "S2:b7ebec410882ef2c5c628a253372b1745b77c2ed",
+              "provider": "semantic_scholar",
+              "title": "Dynamic nuclear polarization by two-pulse phase modulation.",
+              "url": "https://www.semanticscholar.org/paper/b7ebec410882ef2c5c628a253372b1745b77c2ed?utm_source=api"
+            },
+            {
+              "abstract": "Dynamic nuclear polarization (DNP) takes center stage in nuclear magnetic resonance (NMR) as a tool to amplify its signal by orders of magnitude through the transfer of polarization from electron to nuclear spins. In contrast to modern NMR and electron paramagnetic resonance (EPR) that extensively rely on pulses for spin manipulation in the time domain, the current mainstream DNP technology exclusively relies on monochromatic continuous wave (CW) irradiation. This study introduces arbitrary phase shaped pulses that constitute a train of coherent chirp pulses in the time domain at 200 GHz (7 T) to dramatically enhance the saturation bandwidth and DNP performance compared to CW DNP, yielding up to 500-fold in NMR signal enhancements. The observed improvement is attributed to the recruitment of additional electron spins contributing to DNP via the cross-effect mechanism, as experimentally confirmed by two-frequency pump-probe electron-electron double resonance (ELDOR).",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-05-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/acs.jpclett.8b01413",
+              "id": "S2:b83d39631b896e23217f6422d8bd8e75bbd45d8b",
+              "provider": "semantic_scholar",
+              "title": "Amplification of Dynamic Nuclear Polarization at 200 GHz by Arbitrary Pulse Shaping of the Electron Spin Saturation Profile.",
+              "url": "https://www.semanticscholar.org/paper/b83d39631b896e23217f6422d8bd8e75bbd45d8b?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2010-06-02",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1063/1.3428665",
+              "id": "S2:eebc41d7f525fbdeaaaf5aff9a96c3a9b980b34f",
+              "provider": "semantic_scholar",
+              "title": "EPR detected polarization transfer between Gd3+ and protons at low temperature and 3.3 T: the first step of dynamic nuclear polarization.",
+              "url": "https://www.semanticscholar.org/paper/eebc41d7f525fbdeaaaf5aff9a96c3a9b980b34f?utm_source=api"
+            },
+            {
+              "abstract": "Dynamic nuclear polarization (DNP) is used to improve the inherently poor sensitivity of nuclear magnetic resonance (NMR) spectroscopy by transferring spin polarization from electrons to nuclei. However, DNP radicals within the sample can have detrimental effects on nuclear spins close to the polarizing agent. Chirped microwave pulses and electron decoupling (eDEC) attenuate these effects in model systems, but this approach has yet to be applied to intact cells or cellular lysates. Here, we demonstrate for the first time exceptionally fast 1H T1DNP times of just 200 ms and 300 ms at 90 K and 6 K, respectively, using a newly synthesized methylated trityl radical within intact human cells. We further demonstrate that eDEC can also be applied to intact human cells and human and bacterial cell lysates. We investigate eDEC efficiency at different temperatures, with different solvents, and with two trityl radical derivatives. At 90 K, eDEC yields a 13C signal intensity increase of 8% in intact human cells and 10% in human and bacterial cell lysates. At 6 K, eDEC provides larger intensity increases of 15% and 39% in intact human cells and cell lysates, respectively. Combining the manipulation of electron spins with frequency-chirped pulses and sample temperatures approaching absolute zero is a promising avenue for executing rapid, high-sensitivity magic angle spinning DNP in complex cellular environments.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-02-21",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1021/acs.jpcb.9b10494",
+              "id": "S2:70ecbc10d885661c39b85031356b2703caff24c0",
+              "provider": "semantic_scholar",
+              "title": "Dynamic Nuclear Polarization With Electron Decoupling in Intact Human Cells and Cell Lysates.",
+              "url": "https://www.semanticscholar.org/paper/70ecbc10d885661c39b85031356b2703caff24c0?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:80a2da4c3a1dd20ac7d7c86ece35d23db3e2d58c",
+              "provider": "semantic_scholar",
+              "title": "Triple resonant electromagnetic structures for polarization transfer in DNP",
+              "url": "https://www.semanticscholar.org/paper/80a2da4c3a1dd20ac7d7c86ece35d23db3e2d58c?utm_source=api"
+            },
+            {
+              "abstract": "Dynamic nuclear polarization (DNP) under magic-angle spinning (MAS) is transforming the scope of solid-state NMR by enormous signal amplification through transfer of polarization from electron spins to nuclear spins. Contemporary MAS-DNP exclusively relies on monochromatic continuous-wave (CW) irradiation of the electron spin resonance. This limits control on electron spin dynamics which renders the DNP process inefficient, especially at higher magnetic fields and non-cryogenic temperatures. Pulse shaped microwave irradiation of the electron spins is predicted to overcome these challenges, but hitherto has never been implemented under MAS. Here, we debut pulse shaped microwave irradiation using arbitrary-waveform generation (AWG) which allows controlled recruitment of more number of electron spins per unit time, favorable for MAS-DNP. Experiments and quantum mechanical simulations demonstrate that pulse shaped DNP is superior to CW-DNP for mixed radical system, especially when the electron spin resonance is heterogeneously broadened and/or when its spin-lattice relaxation is fast compared to the MAS rotor period, opening new prospects for MAS-DNP.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-09-11",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.26434/chemrxiv.9788471",
+              "id": "S2:193f642336747452707477485171cc6a644c5f56",
+              "provider": "semantic_scholar",
+              "title": "Pulse Shaped Dynamic Nuclear Polarization under Magic-Angle Spinning.",
+              "url": "https://www.semanticscholar.org/paper/193f642336747452707477485171cc6a644c5f56?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-08-03",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1063/1.4927453",
+              "id": "S2:7cb0f3296599a86e52ffd7561183a63d471c269c",
+              "provider": "semantic_scholar",
+              "title": "A peripheral component interconnect express-based scalable and highly integrated pulsed spectrometer for solution state dynamic nuclear polarization.",
+              "url": "https://www.semanticscholar.org/paper/7cb0f3296599a86e52ffd7561183a63d471c269c?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2024-06-25",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 77,
+              "query": "electron nuclear polarization transfer echo time reversal pulsed DNP",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "9560",
+                "reset_seconds": "78128"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2024-06-25",
+                  "per_page": "10",
+                  "search": "electron nuclear polarization transfer echo time reversal pulsed DNP",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2024-06-26"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2024-06-25",
+              "attempts": 2,
+              "locally_excluded_uncertain_or_not_strictly_before": 1,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 42,
+              "query": "electron nuclear polarization transfer echo time reversal pulsed DNP",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "electron nuclear polarization transfer echo time reversal pulsed DNP",
+                  "year": "1900-2024"
+                }
+              },
+              "strict_before": "2024-06-26"
+            }
+          },
+          "query": "electron nuclear polarization transfer echo time reversal pulsed DNP",
+          "strict_before": "2024-06-26"
+        }
+      ]
+    }
+  },
+  "generated_at": "2026-08-12T02:18:01.032167+00:00",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "3e8fd02ccddd0f2e14ca81c316d6f1725951713bf8dfa676baf1ad9fe1549223",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Migrated without changing the frozen pre-t0 query results; non-detection is scoped, not universal priority.",
+  "strict_before": "2024-06-26",
+  "task_id": "Physics_01_dynamic_nuclear_polarization_echoes",
+  "release": "V1.0"
+}

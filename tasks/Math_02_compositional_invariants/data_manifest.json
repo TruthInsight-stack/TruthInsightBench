@@ -1,0 +1,69 @@
+{
+  "schema": "truthinsightbench-data-manifest",
+  "task_id": "Math_02_compositional_invariants",
+  "title": "Compositional Invariants and Bias Boundaries in Sparse Count Systems",
+  "domain": "computational_mathematics",
+  "t0": "2020-01-01",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "scientific_scope": "All frozen anonymous feature-count rows, sample covariates, and bias-scenario metrics within the selected composition-analysis boundary.",
+  "analysis_unit": "One complete sample composition or one complete simulated bias scenario; features within a composition share a closure constraint.",
+  "missingness": "No curator-imposed row deletion, random subsampling, or imputation is applied within the frozen task boundary.",
+  "license_boundary": "The frozen article-linked repository is MIT licensed; anonymous scientific matrices and scenario metrics are bundled with source identity isolated privately.",
+  "warnings": [
+    "Relative counts are compositional and cannot be analyzed as unconstrained independent features.",
+    "Sample- and scenario-level splits are required; random feature-row validation leaks composition identity."
+  ],
+  "variable_dictionary": {
+    "anonymous_feature_counts.tsv": [
+      "feature_id",
+      "sample_id",
+      "relative_count"
+    ],
+    "anonymous_sample_covariates.tsv": [
+      "sample_id",
+      "continuous_covariate",
+      "coarse_group_id"
+    ],
+    "bias_scenario_metrics.tsv": [
+      "scenario_id",
+      "condition_id",
+      "metric_id",
+      "metric_value"
+    ]
+  },
+  "source_projection_inventory": [],
+  "files": [
+    {
+      "path": "anonymous_feature_counts.tsv",
+      "bytes": 2451213,
+      "sha256": "7fe18cf02bfd14691e5c157b8b81a0658263d2c1cc2f965b37121d373beddf92",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "anonymous_sample_covariates.tsv",
+      "bytes": 12226,
+      "sha256": "cefd666d112289f07a9fb641b481514410043df9df61831aafb77a9b0ee2c1e9",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "bias_scenario_metrics.tsv",
+      "bytes": 103433,
+      "sha256": "a256a68457a2ca53ed2fa48c2277f716a1e7192c97e568315af7291a0f852893",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

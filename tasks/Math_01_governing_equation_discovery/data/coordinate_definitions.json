@@ -1,0 +1,25 @@
+{
+  "schema": "truthinsightbench-coordinate-definitions-v1",
+  "task_id": "Math_01_governing_equation_discovery",
+  "synthetic_field": {
+    "time_coordinate": "dimensionless simulation time",
+    "space_coordinate": "dimensionless simulation position",
+    "field": "dimensionless simulated response"
+  },
+  "experimental_field": {
+    "time_coordinate": "hours",
+    "time_values": [
+      0,
+      12,
+      24,
+      36,
+      48
+    ],
+    "space_coordinate": "source assay coordinate",
+    "retained_values": "25 through 1875 in 50-unit increments",
+    "source_domain": "0 through 1900 with zero-flux boundary coordinates",
+    "physical_space_unit": "not encoded in the retained author MAT array; do not invent a unit",
+    "field": "cell-density profile in source measurement units",
+    "channel_role": "three identically prepared replicate profiles"
+  }
+}

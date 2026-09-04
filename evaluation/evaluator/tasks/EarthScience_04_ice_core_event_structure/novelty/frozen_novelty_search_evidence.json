@@ -1,0 +1,427 @@
+{
+  "all_queries_completed": true,
+  "api_cutoff": "2018-12-31",
+  "cards": {
+    "A": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2018-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "Quantitative knowledge of external climate forcing is required for accurately attributing past climatic changes. Information on volcanic activity over the past millennium has primarily been drawn from high‐latitude ice cores. A few large events with distinct signatures in the ice are well known and they are commonly used as marker events to synchronize time scales in individual ice cores. Over the past decade different efforts have been undertaken to systematically identify lesser known eruptions and to develop time series of past volcanic forcing. Here we mathematically quantify the distribution of the magnitude of volcanic events that have a climatic relevance during the past millennium. Volcanic sulfate magnitudes of such events clearly exhibit a “heavy tailed” extreme value distribution. Indeed, the climatically relevant eruptions are only the extremes of global volcanic activity. This characterization of volcanic amplitude is a fundamental step in detection and attribution studies of past natural forcing and of its effects on climate.",
+              "doi": "https://doi.org/10.1029/2004gl021732",
+              "id": "https://doi.org/10.1029/2004gl021732",
+              "landing_page_url": "https://doi.org/10.1029/2004gl021732",
+              "publication_date": "2005-03-12",
+              "publication_year": 2005,
+              "source_name": "Geophysical Research Letters",
+              "title": "Statistical distributions of ice core sulfate from climatically relevant volcanic eruptions",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract This work presents measurements of time‐resolved mass‐independently fractionated sulfate of volcanic origin from Antarctic ice core records that cover the last 2,600 years. These measurements are used to evaluate the time dependence of the deposited isotopic signal and to extract the isotopic characteristics of the reactions yielding sulfate from stratospheric volcanic eruptions in the modern atmosphere. Time evolution of the signal in snow (years) with respect to the fast SO 2 oxidation in the stratosphere suggests that photochemically produced condensed phase is rapidly and continuously separated from the gas phase and preserved during transportation and deposition on the polar ice cap. On some eruptions, a nonzero isotopic mass balance highlights that a part of the signal can be lost during transport and/or deposition. The large number of volcanic events studied allows the Δ 33 S versus Δ 36 S and δ 34 S versus Δ 33 S slopes to be constrained at −1.56 (1 σ = 0.25) and 0.09 (1 σ = 0.02), respectively. The Δ 33 S versus Δ 36 S slope refines a prior determinations of Δ 36 S/Δ 33 S = −4 and overlaps the range observed for sulfur seen in early Earth samples (Archean). In recent volcanogenic sulfate, the Δ 33 S versus δ 34 S differs, however, from the Archean record. The similitude for Δ 36 S/Δ 33 S and the difference for Δ 33 S /δ 34 S suggest similar mass‐independently fractionated sulfate processes to the Archean atmosphere. Using a simple model, we highlight that a combination of several mechanisms is needed to reproduce the observed isotopic trends and suggest a greater contribution from mass‐dependent oxidation by OH in the modern atmosphere.",
+              "doi": "https://doi.org/10.1029/2018jd028456",
+              "id": "https://doi.org/10.1029/2018jd028456",
+              "landing_page_url": "https://doi.org/10.1029/2018jd028456",
+              "publication_date": "2018-09-04",
+              "publication_year": 2018,
+              "source_name": "Journal of Geophysical Research: Atmospheres",
+              "title": "<scp>SO<sub>2</sub></scp> Oxidation Kinetics Leave a Consistent Isotopic Imprint on Volcanic Ice Core Sulfate",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract. Various attempts have been made to link tree-ring and ice-core records, something vital for the understanding of the environmental response to major volcanic eruptions in the past. Here we demonstrate that, by taking note of the spacing between events, it is possible to clarify linkages between tree-response, as witnessed by frost rings in bristlecone pines from Western North America and volcanic acid deposition in ice cores. The results demonstrate that in the 6th and 7th centuries of the current era, and presumably for all earlier dates, the key European ice chronologies from the North Greenland Ice Core Project, namely Dye3, GRIP, NGRIP and NEEM appear to have been wrongly dated by 7 years, with the ice dates being too old. Similar offsets are observed for the Antarctic Law Dome and West Antarctic Ice Sheet Divide WDC06A ice-core chronologies that have been linked to the Greenland record. Importantly, the results clarify which frost rings in bristlecone pines are related to volcanic activity and which may be the result of other causes. In addition, it is possible to show that ice core researchers have used inappropriate linkages to tree effects to justify their chronology.",
+              "doi": "https://doi.org/10.5194/cpd-10-1799-2014",
+              "id": "https://doi.org/10.5194/cpd-10-1799-2014",
+              "landing_page_url": "https://doi.org/10.5194/cpd-10-1799-2014",
+              "publication_date": "2014-04-15",
+              "publication_year": 2014,
+              "source_name": null,
+              "title": "Tree ring effects and ice core acidities clarify the volcanic record of the 1st millennium",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1111/j.1475-4754.1989.tb01059.x",
+              "id": "https://doi.org/10.1111/j.1475-4754.1989.tb01059.x",
+              "landing_page_url": "https://doi.org/10.1111/j.1475-4754.1989.tb01059.x",
+              "publication_date": "2007-08-23",
+              "publication_year": 2007,
+              "source_name": "Archaeometry",
+              "title": "ICE‐CORE ACIDITY PEAKS, RETARDED TREE GROWTH AND PUTATIVE ERUPTIONS",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "A detailed history of Holocene volcanism was reconstructed using the sulfate record of the European Project for Ice Coring in Antarctica Dome C (EDC96) ice core. This first complete Holocene volcanic record from an Antarctic core provides a reliable database to compare with long records from Antarctic and Greenland ice cores. A threshold method based on statistical treatment of the lognormal sulfate flux distribution was used to differentiate volcanic sulfate spikes from sulfate background concentrations. Ninety‐six eruptions were identified in the EDC96 ice core during the Holocene, with a mean of 7.9 events per millennium. The frequency distribution (events per millennium) showed that the last 2000 years were a period of enhanced volcanic activity. EDC96 volcanic signatures for the last millennium are in good agreement with those recorded in other Antarctic ice cores. For older periods, comparison is in some cases less reliable, mainly because of dating uncertainties. Sulfate depositional fluxes of individual volcanic events vary greatly among the different cores. A volcanic flux normalization (volcanic flux/Tambora flux ratio) was used to evaluate the relative intensity of the same event recorded at different sites in the last millennium. Normalized flux variability for the same event showed the highest value in the 1100–1500 AD period. This pattern could mirror changes in regional transport linked to climatic variations such as slight warming stages in the Southern Hemisphere (Southern Hemisphere Medieval Warming–like period?).",
+              "doi": "https://doi.org/10.1029/2004jd005259",
+              "id": "https://doi.org/10.1029/2004jd005259",
+              "landing_page_url": "https://doi.org/10.1029/2004jd005259",
+              "publication_date": "2005-03-25",
+              "publication_year": 2005,
+              "source_name": "Journal of Geophysical Research: Atmospheres",
+              "title": "Holocene volcanic history as recorded in the sulfate stratigraphy of the European Project for Ice Coring in Antarctica Dome C (EDC96) ice core",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract. We found extremely good synchronization of volcanic eruption signals between a shallow ice core drilled at Dome Fuji in 2001 (DF01 core) and the B32 shallow ice core from Dronning Maud Land, East Antarctica. We then applied volcanic signature matching to transfer the B32 chronology constructed by annual layer counting to a portion of the DF01 core for which annual layer counting was difficult because of the low precipitation rate. Matching was done by careful comparison of non-sea-salt sulfate (nssSO42−) data, which have a temporal resolution of about 1 yr, between the DF01 and B32 cores. The newly obtained chronology is called DFS1 (Dome Fuji Shallow ice core 1). In total, 31 volcanic eruptions were synchronized from AD 1900 back to AD 187, the earliest volcanic eruption date in the B32 core. The mean accumulation rate between synchronized volcanic horizons of the Dome Fuji core relative to rates at the B32 core drilling site did not differ significantly between these dates, increasing our confidence in this matching approach. We also used the B32-correlated EDML1/EDC3 chronology obtained from the top part of the EPICA Dronning Maud Land (DML) deep ice core to date a portion of the DF01 core. This new chronology, called DFS2 (Dome Fuji Shallow ice core 2), uses the correlations between B32 and EDML1/EDC3 ages to date the DF01 core from AD 1900 back to AD 199; moreover, four volcanic eruption dates from the EDML1/EDC3 chronology were used to date the interval from AD 199 back to AD 1. Because the EDML1/EDC3 ages were determined by adopting the B32 chronology back to AD 1170, DFS1 and DFS2 dates are identical between AD 1170 and 1900. These two methods enabled us to obtain a detailed chronology of the DF01 core, in particular the part before the last millennium, which has been difficult before this. We also present the absolute mean accumulation rates at Dome Fuji between AD 1 and 1900, based on the DFS1 and DFS2 chronologies.",
+              "doi": "https://doi.org/10.5194/tcd-8-769-2014",
+              "id": "https://doi.org/10.5194/tcd-8-769-2014",
+              "landing_page_url": "https://doi.org/10.5194/tcd-8-769-2014",
+              "publication_date": "2014-01-27",
+              "publication_year": 2014,
+              "source_name": null,
+              "title": "Dating of a Dome Fuji (Antarctica) shallow ice core by volcanic signal synchronization with B32 and EDML1 chronologies",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.strusafe.2012.09.003",
+              "id": "https://doi.org/10.1016/j.strusafe.2012.09.003",
+              "landing_page_url": "https://doi.org/10.1016/j.strusafe.2012.09.003",
+              "publication_date": "2013-01-01",
+              "publication_year": 2013,
+              "source_name": "Structural Safety",
+              "title": "Statistics of local ice load peaks on ship hulls",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.quaint.2012.08.1693",
+              "id": "https://doi.org/10.1016/j.quaint.2012.08.1693",
+              "landing_page_url": "https://doi.org/10.1016/j.quaint.2012.08.1693",
+              "publication_date": "2012-11-01",
+              "publication_year": 2012,
+              "source_name": "Quaternary International",
+              "title": "Southern Annular Mode response to volcanic eruptions: implications for ice-core proxies",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "ice core sulfate volcanic horizons local peaks",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=ice+core+sulfate+volcanic+horizons+local+peaks&filter=until-pub-date%3A2018-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2019-01-01"
+        },
+        {
+          "api_cutoff": "2018-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.5194/esd-2017-114-rc1",
+              "id": "https://doi.org/10.5194/esd-2017-114-rc1",
+              "landing_page_url": "https://doi.org/10.5194/esd-2017-114-rc1",
+              "publication_date": "2018-02-20",
+              "publication_year": 2018,
+              "source_name": null,
+              "title": "Review of \"Moisture Transport and Antarctic sea ice: Austral spring 2016 event\"",
+              "type": "peer-review"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.22323/1.236.0110",
+              "id": "https://doi.org/10.22323/1.236.0110",
+              "landing_page_url": "https://doi.org/10.22323/1.236.0110",
+              "publication_date": "2016-08-18",
+              "publication_year": 2016,
+              "source_name": "Proceedings of The 34th International Cosmic Ray Conference  — PoS(ICRC2015)",
+              "title": "The AD 775 cosmic ray event shown in Beryllium-10 data from Antarctic Dome Fuji ice core",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1029/ar002p0267",
+              "id": "https://doi.org/10.1029/ar002p0267",
+              "landing_page_url": "https://doi.org/10.1029/ar002p0267",
+              "publication_date": "2013-03-14",
+              "publication_year": 2013,
+              "source_name": "Antarctic Research Series",
+              "title": "Distribution of Particulate Matter in a Firn Core from Eights Station, Antarctica<sup>1</sup>",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1071/ec12522",
+              "id": "https://doi.org/10.1071/ec12522",
+              "landing_page_url": "https://doi.org/10.1071/ec12522",
+              "publication_date": "2013-01-01",
+              "publication_year": 2013,
+              "source_name": "ECOS",
+              "title": "Antarctic ice core project to reveal detail of past climate change",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/b978-0-444-53643-3.00320-4",
+              "id": "https://doi.org/10.1016/b978-0-444-53643-3.00320-4",
+              "landing_page_url": "https://doi.org/10.1016/b978-0-444-53643-3.00320-4",
+              "publication_date": "2013-01-01",
+              "publication_year": 2013,
+              "source_name": "Encyclopedia of Quaternary Science",
+              "title": "ICE CORE RECORDS | Antarctic Stable Isotopes",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.5194/esd-2017-114-rc2",
+              "id": "https://doi.org/10.5194/esd-2017-114-rc2",
+              "landing_page_url": "https://doi.org/10.5194/esd-2017-114-rc2",
+              "publication_date": "2018-03-18",
+              "publication_year": 2018,
+              "source_name": null,
+              "title": "Review of: \"Moisture transport and Antarctic sea ice: Austral spring 2016 event\" by Ionita et al.",
+              "type": "peer-review"
+            },
+            {
+              "abstract": "Abstract Measurements of δ 34 S covering the years 1935–76 and including the 1963 Agung (Indonesia) eruption were made on a West Antarctic firn core, RIDSA (78.73˚ S, 116.33˚ W; 1740ma.s.l.), and results are used to unravel potential source functions in the sulfur cycle over West Antarctica. The δ 34 S values of SO42– range from 3.1‰ to 9.9‰. These values are lower than those reported for central Antarctica, from near South Pole station, of 9.3–18.1‰ (Patris and others, 2000). While the Agung period is isotopically distinct at South Pole, it is not in the RIDSA dataset, suggesting differences in the source associations for the sulfur cycle between these two regions. Given the relatively large input of marine aerosols at RIDSA (determined from Na + data and the seasonal SO42– cycle), there is likely a large marine biogenic SO42– influence. The δ 34 S values indicate, however, that this marine biogenic SO42–, with a well-established δ 34 S of 18‰, is mixing with SO42– that has extremely negative δ 34 S values to produce the measured isotope values in the RIDSA core. We suggest that the transport and deposition of stratospheric SO42– in West Antarctica, combined with local volcanic input, accounts for the observed variance in δ 34 S values.",
+              "doi": "https://doi.org/10.3189/172756404781814339",
+              "id": "https://doi.org/10.3189/172756404781814339",
+              "landing_page_url": "https://doi.org/10.3189/172756404781814339",
+              "publication_date": "2017-09-14",
+              "publication_year": 2017,
+              "source_name": "Annals of Glaciology",
+              "title": "Sulfur isotopic measurements from a West Antarctic ice core: implications for sulfate source and transport",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1063/pt.5.028930",
+              "id": "https://doi.org/10.1063/pt.5.028930",
+              "landing_page_url": "https://doi.org/10.1063/pt.5.028930",
+              "publication_date": "2015-06-04",
+              "publication_year": 2015,
+              "source_name": "Physics Today",
+              "title": "Antarctic climate models could help locate important ice-core records",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "Antarctic ice core sulfate event detection",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=Antarctic+ice+core+sulfate+event+detection&filter=until-pub-date%3A2018-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2019-01-01"
+        }
+      ],
+      "search_completed": true
+    },
+    "B": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2018-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "Quantitative knowledge of external climate forcing is required for accurately attributing past climatic changes. Information on volcanic activity over the past millennium has primarily been drawn from high‐latitude ice cores. A few large events with distinct signatures in the ice are well known and they are commonly used as marker events to synchronize time scales in individual ice cores. Over the past decade different efforts have been undertaken to systematically identify lesser known eruptions and to develop time series of past volcanic forcing. Here we mathematically quantify the distribution of the magnitude of volcanic events that have a climatic relevance during the past millennium. Volcanic sulfate magnitudes of such events clearly exhibit a “heavy tailed” extreme value distribution. Indeed, the climatically relevant eruptions are only the extremes of global volcanic activity. This characterization of volcanic amplitude is a fundamental step in detection and attribution studies of past natural forcing and of its effects on climate.",
+              "doi": "https://doi.org/10.1029/2004gl021732",
+              "id": "https://doi.org/10.1029/2004gl021732",
+              "landing_page_url": "https://doi.org/10.1029/2004gl021732",
+              "publication_date": "2005-03-12",
+              "publication_year": 2005,
+              "source_name": "Geophysical Research Letters",
+              "title": "Statistical distributions of ice core sulfate from climatically relevant volcanic eruptions",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract This work presents measurements of time‐resolved mass‐independently fractionated sulfate of volcanic origin from Antarctic ice core records that cover the last 2,600 years. These measurements are used to evaluate the time dependence of the deposited isotopic signal and to extract the isotopic characteristics of the reactions yielding sulfate from stratospheric volcanic eruptions in the modern atmosphere. Time evolution of the signal in snow (years) with respect to the fast SO 2 oxidation in the stratosphere suggests that photochemically produced condensed phase is rapidly and continuously separated from the gas phase and preserved during transportation and deposition on the polar ice cap. On some eruptions, a nonzero isotopic mass balance highlights that a part of the signal can be lost during transport and/or deposition. The large number of volcanic events studied allows the Δ 33 S versus Δ 36 S and δ 34 S versus Δ 33 S slopes to be constrained at −1.56 (1 σ = 0.25) and 0.09 (1 σ = 0.02), respectively. The Δ 33 S versus Δ 36 S slope refines a prior determinations of Δ 36 S/Δ 33 S = −4 and overlaps the range observed for sulfur seen in early Earth samples (Archean). In recent volcanogenic sulfate, the Δ 33 S versus δ 34 S differs, however, from the Archean record. The similitude for Δ 36 S/Δ 33 S and the difference for Δ 33 S /δ 34 S suggest similar mass‐independently fractionated sulfate processes to the Archean atmosphere. Using a simple model, we highlight that a combination of several mechanisms is needed to reproduce the observed isotopic trends and suggest a greater contribution from mass‐dependent oxidation by OH in the modern atmosphere.",
+              "doi": "https://doi.org/10.1029/2018jd028456",
+              "id": "https://doi.org/10.1029/2018jd028456",
+              "landing_page_url": "https://doi.org/10.1029/2018jd028456",
+              "publication_date": "2018-09-04",
+              "publication_year": 2018,
+              "source_name": "Journal of Geophysical Research: Atmospheres",
+              "title": "<scp>SO<sub>2</sub></scp> Oxidation Kinetics Leave a Consistent Isotopic Imprint on Volcanic Ice Core Sulfate",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract. Various attempts have been made to link tree-ring and ice-core records, something vital for the understanding of the environmental response to major volcanic eruptions in the past. Here we demonstrate that, by taking note of the spacing between events, it is possible to clarify linkages between tree-response, as witnessed by frost rings in bristlecone pines from Western North America and volcanic acid deposition in ice cores. The results demonstrate that in the 6th and 7th centuries of the current era, and presumably for all earlier dates, the key European ice chronologies from the North Greenland Ice Core Project, namely Dye3, GRIP, NGRIP and NEEM appear to have been wrongly dated by 7 years, with the ice dates being too old. Similar offsets are observed for the Antarctic Law Dome and West Antarctic Ice Sheet Divide WDC06A ice-core chronologies that have been linked to the Greenland record. Importantly, the results clarify which frost rings in bristlecone pines are related to volcanic activity and which may be the result of other causes. In addition, it is possible to show that ice core researchers have used inappropriate linkages to tree effects to justify their chronology.",
+              "doi": "https://doi.org/10.5194/cpd-10-1799-2014",
+              "id": "https://doi.org/10.5194/cpd-10-1799-2014",
+              "landing_page_url": "https://doi.org/10.5194/cpd-10-1799-2014",
+              "publication_date": "2014-04-15",
+              "publication_year": 2014,
+              "source_name": null,
+              "title": "Tree ring effects and ice core acidities clarify the volcanic record of the 1st millennium",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1111/j.1475-4754.1989.tb01059.x",
+              "id": "https://doi.org/10.1111/j.1475-4754.1989.tb01059.x",
+              "landing_page_url": "https://doi.org/10.1111/j.1475-4754.1989.tb01059.x",
+              "publication_date": "2007-08-23",
+              "publication_year": 2007,
+              "source_name": "Archaeometry",
+              "title": "ICE‐CORE ACIDITY PEAKS, RETARDED TREE GROWTH AND PUTATIVE ERUPTIONS",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "A detailed history of Holocene volcanism was reconstructed using the sulfate record of the European Project for Ice Coring in Antarctica Dome C (EDC96) ice core. This first complete Holocene volcanic record from an Antarctic core provides a reliable database to compare with long records from Antarctic and Greenland ice cores. A threshold method based on statistical treatment of the lognormal sulfate flux distribution was used to differentiate volcanic sulfate spikes from sulfate background concentrations. Ninety‐six eruptions were identified in the EDC96 ice core during the Holocene, with a mean of 7.9 events per millennium. The frequency distribution (events per millennium) showed that the last 2000 years were a period of enhanced volcanic activity. EDC96 volcanic signatures for the last millennium are in good agreement with those recorded in other Antarctic ice cores. For older periods, comparison is in some cases less reliable, mainly because of dating uncertainties. Sulfate depositional fluxes of individual volcanic events vary greatly among the different cores. A volcanic flux normalization (volcanic flux/Tambora flux ratio) was used to evaluate the relative intensity of the same event recorded at different sites in the last millennium. Normalized flux variability for the same event showed the highest value in the 1100–1500 AD period. This pattern could mirror changes in regional transport linked to climatic variations such as slight warming stages in the Southern Hemisphere (Southern Hemisphere Medieval Warming–like period?).",
+              "doi": "https://doi.org/10.1029/2004jd005259",
+              "id": "https://doi.org/10.1029/2004jd005259",
+              "landing_page_url": "https://doi.org/10.1029/2004jd005259",
+              "publication_date": "2005-03-25",
+              "publication_year": 2005,
+              "source_name": "Journal of Geophysical Research: Atmospheres",
+              "title": "Holocene volcanic history as recorded in the sulfate stratigraphy of the European Project for Ice Coring in Antarctica Dome C (EDC96) ice core",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract. We found extremely good synchronization of volcanic eruption signals between a shallow ice core drilled at Dome Fuji in 2001 (DF01 core) and the B32 shallow ice core from Dronning Maud Land, East Antarctica. We then applied volcanic signature matching to transfer the B32 chronology constructed by annual layer counting to a portion of the DF01 core for which annual layer counting was difficult because of the low precipitation rate. Matching was done by careful comparison of non-sea-salt sulfate (nssSO42−) data, which have a temporal resolution of about 1 yr, between the DF01 and B32 cores. The newly obtained chronology is called DFS1 (Dome Fuji Shallow ice core 1). In total, 31 volcanic eruptions were synchronized from AD 1900 back to AD 187, the earliest volcanic eruption date in the B32 core. The mean accumulation rate between synchronized volcanic horizons of the Dome Fuji core relative to rates at the B32 core drilling site did not differ significantly between these dates, increasing our confidence in this matching approach. We also used the B32-correlated EDML1/EDC3 chronology obtained from the top part of the EPICA Dronning Maud Land (DML) deep ice core to date a portion of the DF01 core. This new chronology, called DFS2 (Dome Fuji Shallow ice core 2), uses the correlations between B32 and EDML1/EDC3 ages to date the DF01 core from AD 1900 back to AD 199; moreover, four volcanic eruption dates from the EDML1/EDC3 chronology were used to date the interval from AD 199 back to AD 1. Because the EDML1/EDC3 ages were determined by adopting the B32 chronology back to AD 1170, DFS1 and DFS2 dates are identical between AD 1170 and 1900. These two methods enabled us to obtain a detailed chronology of the DF01 core, in particular the part before the last millennium, which has been difficult before this. We also present the absolute mean accumulation rates at Dome Fuji between AD 1 and 1900, based on the DFS1 and DFS2 chronologies.",
+              "doi": "https://doi.org/10.5194/tcd-8-769-2014",
+              "id": "https://doi.org/10.5194/tcd-8-769-2014",
+              "landing_page_url": "https://doi.org/10.5194/tcd-8-769-2014",
+              "publication_date": "2014-01-27",
+              "publication_year": 2014,
+              "source_name": null,
+              "title": "Dating of a Dome Fuji (Antarctica) shallow ice core by volcanic signal synchronization with B32 and EDML1 chronologies",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.quaint.2012.08.1693",
+              "id": "https://doi.org/10.1016/j.quaint.2012.08.1693",
+              "landing_page_url": "https://doi.org/10.1016/j.quaint.2012.08.1693",
+              "publication_date": "2012-11-01",
+              "publication_year": 2012,
+              "source_name": "Quaternary International",
+              "title": "Southern Annular Mode response to volcanic eruptions: implications for ice-core proxies",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract. Current volcanic reconstructions based on ice core analysis have significantly improved over the last decades. Relying on limited and disparate sulfate profiles at first, they have progressively incorporated multi cores analysis with high temporal resolution from different parts of the Polar Regions. Regional patterns of volcanic deposition flux are now based on composite records, built from several cores taken at both poles. However, it is worth mentioning that most of the time only a single record at a given site is used for such reconstructions. This implicitly assumes that transport and regional meteorological patterns are the only source of the dispersion of the volcanic-products. In the present work, we evaluate the local scale variability of a sulfate profile in a low accumulation site (Dome C, Antarctica), in order to assess the representativeness of one core for such reconstruction. We evaluate the depth variability, statistical occurrence, and sulfate flux deposition variability of volcanic eruptions detected on 5 ice cores, drilled 1 m away from each other. Local scale variability, essentially attributed to snow drift and surface roughness at Dome C, can lead to a non-exhaustive record of volcanic events when a single core is used as the site reference with a bulk probability of 30 % of missing volcanic events and 60 % uncertainty on the volcanic flux estimation. Averaging multiple records almost erases the probability of missing volcanic events and can reduce by half the uncertainty pertaining to the deposition flux.",
+              "doi": "https://doi.org/10.5194/cpd-11-3973-2015",
+              "id": "https://doi.org/10.5194/cpd-11-3973-2015",
+              "landing_page_url": "https://doi.org/10.5194/cpd-11-3973-2015",
+              "publication_date": "2015-08-27",
+              "publication_year": 2015,
+              "source_name": null,
+              "title": "Variability of sulfate signal in ice-core records based on five replicate cores",
+              "type": "posted-content"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "ice core sulfate background episodic volcanic peaks",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=ice+core+sulfate+background+episodic+volcanic+peaks&filter=until-pub-date%3A2018-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2019-01-01"
+        },
+        {
+          "api_cutoff": "2018-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.5194/amt-2017-387-rc1",
+              "id": "https://doi.org/10.5194/amt-2017-387-rc1",
+              "landing_page_url": "https://doi.org/10.5194/amt-2017-387-rc1",
+              "publication_date": "2018-03-13",
+              "publication_year": 2018,
+              "source_name": null,
+              "title": "Review Keller et al: Calculating uncertainty for the RICE ice core continuous flow analysis water isotope record",
+              "type": "peer-review"
+            },
+            {
+              "abstract": "The 800‐year sulfate record from Lomonosovfonna was analyzed by a novel multiple linear regression algorithm that attempts to explain sulfate variability in terms of other chemical species measured in the core and sulfur emission inventories. We use three statistical approaches to determine sulfate sources. We examine trends using singular spectrum analysis with confidence intervals, finding clear evidence that anthropogenic sources are important but not dominant; we use cross‐wavelet coherence to examine significant multidecadal covariance in terrestrial sulfate; but our main tool is multiple regression analysis of the sulfate dependency on other ions and anthropogenic emission inventories. Models are fitted in a moving time window of typically 50 years length, explaining 80% of the sulfate variance. A suite of model predictors are examined, and the variation in relative magnitudes of the model coefficients along the core can be used to infer variations in the strength of various sulfate sources. We observe large changes in sulfate sources at the end of the Little Ice Age associated with changes in Barents Sea marine productivity, changes in North Atlantic sulfate input and a long‐lasting period of disturbance caused by the large Laki volcanic eruption. Modeling sulfur emission inventories shows that western Europe contributes about 15% of the sulfate budget, with essentially no input from other regions, in contrast with predictions from global circulation models incorporating sulfur chemistry. Multidecadal cycles are mainly confined to the Little Ice Age and most likely associated with increased storminess and enhanced deposition of both marine aerosol and biogenic sulfate from the Atlantic Ocean. The model residuals do not show a normal distribution but display very large spikes. Unexpectedly, those significant at the 99% level can be closely matched to major volcanic eruptions using independent dating methods. The 20th century sulfate in the core is inventoried as sea salt (15%), terrestrial (10%), volcanic (5–10%), western European anthropogenic (10–25%), Barents Sea biogenic (20–40%), and Atlantic biogenic (10–15%).",
+              "doi": "https://doi.org/10.1029/2005jd006453",
+              "id": "https://doi.org/10.1029/2005jd006453",
+              "landing_page_url": "https://doi.org/10.1029/2005jd006453",
+              "publication_date": "2006-08-10",
+              "publication_year": 2006,
+              "source_name": "Journal of Geophysical Research: Atmospheres",
+              "title": "Sulfate source inventories from a Svalbard ice core record spanning the Industrial Revolution",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "A high‐resolution sulfate record from a Col du Dôme (CDD, 4250 m above sea level, French Alps) ice core was used to investigate the impact of growing SO 2 emissions on the midtroposphere sulfate levels over Europe since 1925. The large annual snow accumulation rate at the CDD site permits examination of the summer and winter sulfate trends separately. Being close to 80±10 ng g −1 in preindustrial summer ice, sulfate CDD summer levels then increase at a mean rate of 6 ng g −1 per year from 1925 to 1960. From 1960 to 1980 the increase continued at a rate of 24 ng g −1 per year. Concentrations reach a maximum of 860 ng g −1 in 1980 and subsequently decrease to 600 ng g −1 in the 1990s. These summer sulfate changes closely follow the course of growing SO 2 emissions from source regions located within 700–1000 km around the Alps (France, Italy, Spain, and to a lesser extent, former West Germany). In winter the CDD sulfate levels are 3 to 8 times lower than in summer because of more limited upward transport of air masses from the boundary layer at that season. Being close to 20 ng g −1 in the preindustrial ice, winter levels were regularly enhanced at a mean annual rate of 1.2 ng g −1 from 1925 to 1980. The weak winter change from the preindustrial era to 1980 (a factor of 4 instead of 10 in summer) reflects a limited contamination of the free troposphere which, in contrast to summer, occurs at a larger scale (total Europe/former USSR). Intimately connected to Europe, these long‐term changes in the Alps clearly differ in time and amplitude with the ones revealed by Greenland ice cores which indicate an increase by a factor of 3 between 1880 and 1970 in relation with long‐range transport of pollutants from Eurasia as well as from North America. Furthermore, because of a lower natural contribution to the total sulfate level the anthropogenic changes can be more accurately derived in the Alps than in Greenland. Using the observed relationship between present‐day concentrations in air and snowpack, the CDD ice core record permits reconstruction of present and past atmospheric sulfate concentrations at 4300 m above sea level over Europe in summer and winter. These data are compared with the sulfate levels simulated by current global sulfur models at 600 hPa for which uncertainties still range within a factor of 2. Together with observations made at lower elevation in the early 1990s the atmospheric levels derived for the CDD site (∼20 and 400 ng m −3 STP in winter and summer, respectively) document the vertical sulfate distribution between the ground and 4300 m elevation over western Europe at that time. In this way, data gained at high‐elevation Alpine sites are powerful in evaluating the recent role of sulfate aerosol in forcing the climate over Europe.",
+              "doi": "https://doi.org/10.1029/2001jd000792",
+              "id": "https://doi.org/10.1029/2001jd000792",
+              "landing_page_url": "https://doi.org/10.1029/2001jd000792",
+              "publication_date": "2001-12-01",
+              "publication_year": 2001,
+              "source_name": "Journal of Geophysical Research: Atmospheres",
+              "title": "Sulfate trends in a Col du Dôme (French Alps) ice core: A record of anthropogenic sulfate levels in the European midtroposphere over the twentieth century",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Methanesulfonate (MSA) in ice cores has attracted attention as a possible tracer of past oceanic emissions of dimethylsulfide (DMS). After sulfate MSA is the second most prevalent aerosol oxidation product of DMS, but in contrast to sulfate, DMS oxidation is the only known source of MSA. The hypothesis by Charlson et al., [1987] of a climate feedback mechanism with sulfur emissions from marine phytoplankton influencing the cloud albedo adds to the interest in establishing long records of MSA and non‐seasalt sulfate spanning large climatic changes. Records of MSA and non‐seasalt sulfate covering time periods from a few years to thousands of year have been extracted from antarctic ice cores [Ivey et al., 1986; Saigne and Legrand, 1987; Legrand and Feniet‐Saigne, 1991; Mulvaney et al., 1992] but only the record from the Vostok ice core [Legrand et al., 1991] covers a full glacial cycle. The concentrations of MSA and non‐seasalt sulfate in Antarctica have been found to increase under glacial conditions. Here we present the first Northern Hemisphere record of MSA, and the first continuous record of non‐seasalt sulfate, both extracted from the Renland ice core, East Greenland. The records are extending from the Holocene to the Eem interglacial 130,000 years B.P. The contrast to the Southern Hemisphere records is striking, with a decreasing concentration of MSA with the advance of glaciation but an increasing concentration of non‐seasalt sulfate. A strong linear relationship is found in the Renland ice core between the ratio of MSA to non‐seasalt sulfate and the temperature, with higher ratios associated with warmer climatic stages, while the opposite relationship to temperature is found in the Vostok ice core. A more complicated picture is emerging of the use of MSA in ice cores as a quantitative tracer which suggests that previous interpretations can have been overly simplistic.",
+              "doi": "https://doi.org/10.1029/93gl00910",
+              "id": "https://doi.org/10.1029/93gl00910",
+              "landing_page_url": "https://doi.org/10.1029/93gl00910",
+              "publication_date": "2012-12-07",
+              "publication_year": 2012,
+              "source_name": "Geophysical Research Letters",
+              "title": "The first Greenland ice core record of methanesulfonate and sulfate over a full glacial cycle",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1126/science.aan7237",
+              "id": "https://doi.org/10.1126/science.aan7237",
+              "landing_page_url": "https://doi.org/10.1126/science.aan7237",
+              "publication_date": "2017-08-15",
+              "publication_year": 2017,
+              "source_name": "Science",
+              "title": "Record-shattering 2.7-million-year-old ice core reveals start of the ice ages",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "For several years. Geophysical Survey Systems, Inc has been using an impulse radar system as a shallow subsurface exploration tool for engineering applications. Recently this system has been applied to the measurement of ice thicknesses both on sea-water and fresh-water ice. In the course of a feasibility study performed in December 1972, thebasic operating parameters and limitations of the tool when operated on ice were determined. Following the feasibility study, operational surveys were performed totalling approximately 11 crew-months and covering in excess of 1 500 km of survey route at several locations in the Canadian Arctic. The technique is known as Electromagnetic Subsurface Profiling (ESP), and it can be considered the electromagnetic equivalent of the single-trace acoustic profiling methods used for marine subbottom profiling. In practice, ice-thickness profiling is done by towing a sled-mounted antenna behind a tracked vehicle containing the impulse system (Fig 1). Real-time profile data are displayed graphically on a strip-chart recorder. The data may also be recorded on magnetic tape for later processing and playback.",
+              "doi": "https://doi.org/10.1017/s0032247400031326",
+              "id": "https://doi.org/10.1017/s0032247400031326",
+              "landing_page_url": "https://doi.org/10.1017/s0032247400031326",
+              "publication_date": "2009-10-27",
+              "publication_year": 2009,
+              "source_name": "Polar Record",
+              "title": "A continuous profile of sea ice and freshwater ice thickness by impulse radar",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1063/pt.5.023136",
+              "id": "https://doi.org/10.1063/pt.5.023136",
+              "landing_page_url": "https://doi.org/10.1063/pt.5.023136",
+              "publication_date": "2009-03-09",
+              "publication_year": 2009,
+              "source_name": "Physics Today",
+              "title": "Ice core may record supernovae and solar cycles",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract During the 18th Chinese National Antarctic Research Expedition (CHINARE-18, 2001–2002), a 102.18 m ice core was drilled at site LGB69 (70°50′06.6′′S, 77°04′28.9′′E, 1850 m a.s.l., accumulation rate 70 cm yr -1 ), located to the east of the Lambert Glacier basin. This ice core has been analysed for chemical composition. Based on the high definition of seasonal variations of major ions, the ice core was dated to cover 293 years ( ad 1708–2001), with errors at the bottom end within ± 2 years. The non-sea salt SO 4 2- time series provides a proxy for historical volcanic eruptions preserved in the core, and high non-sea salt SO 4 2- concentrations are well correlated to some documented volcanic events, such as Tambora ( ad 1815), Cosiguina ( ad 1835), Krakatoa ( ad 1883) and Tarawera ( ad 1886).",
+              "doi": "https://doi.org/10.1017/s0954102011000897",
+              "id": "https://doi.org/10.1017/s0954102011000897",
+              "landing_page_url": "https://doi.org/10.1017/s0954102011000897",
+              "publication_date": "2012-01-24",
+              "publication_year": 2012,
+              "source_name": "Antarctic Science",
+              "title": "A continuous 293-year record of volcanic events in an ice core from Lambert Glacier basin, East Antarctica",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "continuous sulfate record robust background ice core",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=continuous+sulfate+record+robust+background+ice+core&filter=until-pub-date%3A2018-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2019-01-01"
+        }
+      ],
+      "search_completed": true
+    }
+  },
+  "generated_at": "2026-08-22",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "4374efd71e515ea3a1df77f368c47db3e0646bef5e09c258253a4353c5d148de",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Searches are frozen reproducible retrieval evidence within the declared provider, queries, cutoff, and result depth. They do not certify absence from all literature.",
+  "strict_before": "2019-01-01",
+  "target_doi_excluded": "10.1038/s41467-019-08357-0",
+  "task_id": "EarthScience_04_ice_core_event_structure",
+  "release": "V1.0"
+}

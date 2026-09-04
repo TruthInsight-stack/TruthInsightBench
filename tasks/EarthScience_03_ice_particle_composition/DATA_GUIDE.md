@@ -1,0 +1,32 @@
+# Data Guide: Depth-Resolved Particle Abundance and Composition in Ice Samples
+
+- Task ID: `EarthScience_03_ice_particle_composition`
+- T0: `2018-01-01`
+- Payload mode: `bundled`
+- Complete source-data boundary: `true`
+
+## Scientific scope
+
+All 30 frozen sample-depth rows, their grouped environmental covariates, total concentration and uncertainty, polymer composition, and particle-size bins.
+
+## Independent analysis unit
+
+One sampled depth interval, clustered within a collection group; intervals from one group are repeated observations rather than independent sites.
+
+## Variables and file groups
+
+- `particle_composition_profiles.tsv`: `sample_id`, `collection_group_id`, `depth_min_m`, `depth_max_m`, `particle_total_per_L`, `polymer_count_PE_per_L`, `polymer_PE_percent`, `polymer_count_varnish_per_L`, `polymer_varnish_percent`, `polymer_count_PA_per_L`, `polymer_PA_percent`, `polymer_count_EVA_per_L`, `polymer_EVA_percent`, `polymer_count_CE_alkylated_per_L`, `polymer_CE_alkylated_percent`, `polymer_count_PES_per_L`, `polymer_PES_percent`, `polymer_count_PP_per_L`, `polymer_PP_percent`, `polymer_count_PE_Cl_per_L`, `polymer_PE_Cl_percent`, `polymer_count_PS_per_L`, `polymer_PS_percent`, `polymer_count_PC_per_L`, `polymer_PC_percent`, `polymer_count_PVC_per_L`, `polymer_PVC_percent`, `polymer_count_nitrile_rubber_per_L`, `polymer_nitrile_rubber_percent`, `polymer_count_PCL_per_L`, `polymer_PCL_percent`, `polymer_count_rubber_per_L`, `polymer_rubber_percent`, `polymer_count_AB_per_L`, `polymer_AB_percent`, `polymer_count_PLA_per_L`, `polymer_PLA_percent`, `polymer_count_PI_per_L`, `polymer_PI_percent`, `particle_size_11um_per_L`, `particle_size_11um_percent`, `particle_size_11_25um_per_L`, `particle_size_11_25um_percent`, `particle_size_25_50um_per_L`, `particle_size_25_50um_percent`, `particle_size_50_75um_per_L`, `particle_size_50_75um_percent`, `particle_size_75_100um_per_L`, `particle_size_75_100um_percent`, `particle_size_100_125um_per_L`, `particle_size_100_125um_percent`, `particle_size_125_150um_per_L`, `particle_size_125_150um_percent`, `particle_size_150_175um_per_L`, `particle_size_150_175um_percent`, `particle_size_175_200um_per_L`, `particle_size_175_200um_percent`, `particle_size_200_225um_per_L`, `particle_size_200_225um_percent`, `particle_size_225_250um_per_L`, `particle_size_225_250um_percent`, `particle_size_250_275um_per_L`, `particle_size_250_275um_percent`, `particle_size_275_300um_per_L`, `particle_size_275_300um_percent`, `particle_size_300_325um_per_L`, `particle_size_300_325um_percent`, `particle_size_325_350um_per_L`, `particle_size_325_350um_percent`, `particle_size_350_375um_per_L`, `particle_size_350_375um_percent`, `particle_size_375_400um_per_L`, `particle_size_375_400um_percent`, `particle_size_400_425um_per_L`, `particle_size_400_425um_percent`, `particle_size_425_450um_per_L`, `particle_size_425_450um_percent`, `particle_size_450_475um_per_L`, `particle_size_450_475um_percent`, `particle_size_475_500um_per_L`, `particle_size_475_500um_percent`, `particle_size_gt_500um_per_L`, `particle_size_gt_500um_percent`
+- `sample_environment_profiles.tsv`: `sample_id`, `collection_group_id`, `latitude_deg`, `longitude_deg`, `ice_regime`, `depth_min_m`, `depth_max_m`, `temperature_C`, `salinity_PSU`, `chlorophyll_a_ug_L`, `particulate_organic_carbon_mg_L`, `particle_total_per_L`, `particle_total_std_or_error_per_L`, `particulate_organic_nitrogen_ug_L`, `carbon_to_nitrogen_ratio`
+
+## Missingness
+
+No curator-imposed row deletion, random subsampling, or imputation is applied within the frozen task boundary.
+
+## Warnings
+
+- Composition percentages and total concentration are coupled representations of the same sample and are not independent evidence by themselves.
+- Observational differences across depth or group do not establish transport causality.
+
+## Distribution boundary
+
+The complete frozen PANGAEA table is CC BY 3.0; task tables retain all 30 sample rows, all environmental fields used in the record, all 17 polymer count/percentage pairs, and all 22 particle-size count/percentage pairs while replacing source identity labels.

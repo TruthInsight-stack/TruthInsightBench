@@ -1,0 +1,184 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "Zero-field branch separation decreases strongly with temperature and is over an order of magnitude larger at 300 K than 870 K.",
+      "independent_reconstruction_method": "Strict cross-zero branch segmentation with branch-preserving systematic thinning, local linear/quadratic zero estimators, and low-field branch-gap windows.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Three complete magnetic field scans with strict cross-zero branch segmentation.",
+      "one_liner": "Branch-separated low-field magnetic response is much larger at 300 K than at 860–870 K.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample.py",
+          "script_sha256": "f0ca51c2a04be339f7559b337c38f041461d1fe86f8dc9b459aa59176bb63bd4"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method.py",
+          "script_sha256": "1364a738c4b497febee6bad1598ebf6eb28613cb9c3c344ff922cf5dfc3e3197"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition.py",
+          "script_sha256": "136f47737825e20a3de50887b8b8b1c9dc77864e435519e1305a1fd04b4493b1"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A replicate full scan supports the relationship if its predeclared 300 K branch separation exceeds the 870 K separation under every admitted zero estimator; equality or reversal under any admitted estimator is failure."
+      },
+      "quantities": [
+        {
+          "key": "zero_field_branch_separation_300K_emu",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "emu",
+          "value": 0.0008535856653512765
+        },
+        {
+          "key": "zero_field_branch_separation_860K_emu",
+          "role": "supporting",
+          "tolerance_rel": 0.08,
+          "unit": "emu",
+          "value": 7.771448585323045e-05
+        },
+        {
+          "key": "zero_field_branch_separation_870K_emu",
+          "role": "supporting",
+          "tolerance_rel": 0.08,
+          "unit": "emu",
+          "value": 4.957382655625761e-05
+        },
+        {
+          "key": "branch_separation_ratio_300K_to_870K",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "fold",
+          "value": 17.218474437969927
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "script_sha256": "2d375fbe70f5f39cb45b073fd7f5d108bd1bdc2e925e51a0bc29c57207f11b9c",
+        "values": [
+          {
+            "json_path": "values.zero_field_branch_separation_300K_emu",
+            "quantity_key": "zero_field_branch_separation_300K_emu"
+          },
+          {
+            "json_path": "values.zero_field_branch_separation_860K_emu",
+            "quantity_key": "zero_field_branch_separation_860K_emu"
+          },
+          {
+            "json_path": "values.zero_field_branch_separation_870K_emu",
+            "quantity_key": "zero_field_branch_separation_870K_emu"
+          },
+          {
+            "json_path": "values.branch_separation_ratio_300K_to_870K",
+            "quantity_key": "branch_separation_ratio_300K_to_870K"
+          }
+        ]
+      },
+      "scope": "One sample source; branch separation is evidence of loop-like response, not proof of a universal material mechanism.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports magnetically ordered behavior at ambient conditions and a high-temperature boundary.",
+        "paper_location": "Bulk magnetometry Results and temperature-dependent source-data scans.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "Opposing sweep branches differ at zero coordinate and enclose a nonzero signed area after linear detrending.",
+      "independent_reconstruction_method": "The non-crossing initial segment is excluded; one full cross-zero sweep and the terminal return branch with a measured zero endpoint are retained, with branch-preserving thinning and closed-path area perturbations.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Complete raw current-voltage-like and corrected switching sequences.",
+      "one_liner": "Both supplied electrical sequences contain direction-dependent branch separation and nonzero loop area.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample.py",
+          "script_sha256": "04f5849b0c9dbad26b023b5e96290f0d06ba05220baa577795adb69e4ef0bba3"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method.py",
+          "script_sha256": "a284bdd8779caf113d2c828dcca1774c57ba274d475cd5aee8151d156fa36461"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition.py",
+          "script_sha256": "f47b39913ba13fb51c875d7d1cdf3ac47a524f46345485e42e773cd74777be9c"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A repeat sequence supports the relationship only if its full crossing and terminal zero-return branches retain corrected separation above 0.30 and raw separation above 10 under branch-preserving thinning; either threshold failing is failure. A non-crossing initial segment is excluded."
+      },
+      "quantities": [
+        {
+          "key": "corrected_branch_zero_separation",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "polarization_like_units",
+          "value": 0.332393060198125
+        },
+        {
+          "key": "corrected_absolute_loop_area",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "sequence_area_units",
+          "value": 9.128641266374256
+        },
+        {
+          "key": "raw_branch_zero_separation",
+          "role": "supporting",
+          "tolerance_rel": 0.05,
+          "unit": "signal_units",
+          "value": 12.878323677777779
+        },
+        {
+          "key": "raw_absolute_loop_area",
+          "role": "supporting",
+          "tolerance_rel": 0.05,
+          "unit": "sequence_area_units",
+          "value": 35673.68532450001
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "script_sha256": "05c4902d3fc4dc79f98e25b6b63d1ebd618250d38390b84c3dbe1509b7e28809",
+        "values": [
+          {
+            "json_path": "values.corrected_branch_zero_separation",
+            "quantity_key": "corrected_branch_zero_separation"
+          },
+          {
+            "json_path": "values.corrected_absolute_loop_area",
+            "quantity_key": "corrected_absolute_loop_area"
+          },
+          {
+            "json_path": "values.raw_branch_zero_separation",
+            "quantity_key": "raw_branch_zero_separation"
+          },
+          {
+            "json_path": "values.raw_absolute_loop_area",
+            "quantity_key": "raw_absolute_loop_area"
+          }
+        ]
+      },
+      "scope": "Loop-like electrical evidence from one sample; leakage and baseline alternatives remain possible.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports switchable polarization under an external field.",
+        "paper_location": "Electrical switching Results and source-data sequences.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "These two cards are verified reference discoveries for blind-rediscovery diagnostics and are not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2022-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Material_02_temperature_response_boundaries",
+  "release": "V1.0"
+}

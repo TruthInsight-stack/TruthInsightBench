@@ -1,0 +1,171 @@
+{
+  "analysis_unit": "One complete scan under a fixed phase-inversion condition per MAT file; time points within a scan are correlated repeated measurements.",
+  "domain": "physics",
+  "files": [
+    {
+      "bundled": true,
+      "bytes": 1691,
+      "materialization_required": false,
+      "path": "comparison_manifest.json",
+      "role": "structured_scientific_data",
+      "sha256": "803eec7fefbce8c88fdab33f2786aaedc9ac7791de9b201a4c0cdac93f6b64b9"
+    },
+    {
+      "bundled": true,
+      "bytes": 885560,
+      "materialization_required": false,
+      "path": "raw/20240424_1547_dnpdata_nmr_only.mat",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "21d8ddead3568549e78e863da1991e2aaec29a5869b6e5f7e71c972c8521bfd0"
+    },
+    {
+      "bundled": true,
+      "bytes": 369217,
+      "materialization_required": false,
+      "path": "raw/20240522_125527_dnp_echo_pp_length_2.mat",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "11ba1cc18b975b1d46efa79a3b1bf960fabb7b9a890fdf74b591aa238a5d3935"
+    },
+    {
+      "bundled": true,
+      "bytes": 363782,
+      "materialization_required": false,
+      "path": "raw/20240522_130805_dnp_echo_pp_length_2.mat",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "2586271e3721e1ac1d547c3f9e3cae36b319253d1dc1c6104bf391b50766341b"
+    },
+    {
+      "bundled": true,
+      "bytes": 357326,
+      "materialization_required": false,
+      "path": "raw/20240522_130914_dnp_echo_pp_length_2.mat",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "8061a82531bb740b92eefeac81147b853213d9bbc5df5d40499239ca8560a7bd"
+    },
+    {
+      "bundled": true,
+      "bytes": 351168,
+      "materialization_required": false,
+      "path": "raw/20240522_131018_dnp_echo_pp_length_2.mat",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "a7f2cd0f75ef88669a4c524d52762a0e4e1e3566c3d11de8c28c415de3c6c3d0"
+    },
+    {
+      "bundled": true,
+      "bytes": 350390,
+      "materialization_required": false,
+      "path": "raw/20240522_131142_dnp_echo_pp_length_2.mat",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "7c3875bc6a46a935c07c03375a21caedaa3284eaa65f05ac11c3e683f2856ef3"
+    },
+    {
+      "bundled": true,
+      "bytes": 342492,
+      "materialization_required": false,
+      "path": "raw/20240522_131404_dnp_echo_pp_length_2.mat",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "ef10c2bf4789109be0a64665e62520cb76983ef3563ca6f83061d870b658b900"
+    },
+    {
+      "bundled": true,
+      "bytes": 873371,
+      "materialization_required": false,
+      "path": "raw/20240522_1404_dnpdata_dnp_contact_swp.mat",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "2ace5b6c0593bda645fd2e018608aa9718f6364bcb39d2d0eb56bee8387062cd"
+    },
+    {
+      "bundled": true,
+      "bytes": 873702,
+      "materialization_required": false,
+      "path": "raw/20240522_1434_dnpdata_dnp_contact_swp.mat",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "a88a16a44385647ad2aafa228be866b9b29a8258d8a98b948995d13436e26294"
+    },
+    {
+      "bundled": true,
+      "bytes": 875976,
+      "materialization_required": false,
+      "path": "raw/20240522_1505_dnpdata_dnp_contact_swp.mat",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "a287ebd999dabfaa700e9bdd4f8069df5421ab609ce4f9a6962751a9fa59c852"
+    },
+    {
+      "bundled": true,
+      "bytes": 875867,
+      "materialization_required": false,
+      "path": "raw/20240522_1535_dnpdata_dnp_contact_swp.mat",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "77240a4a63263f31a25fa9ae9a2c8e067631659b0851b8a4cf7f15e5e80e23f5"
+    },
+    {
+      "bundled": true,
+      "bytes": 875643,
+      "materialization_required": false,
+      "path": "raw/20240523_0954_dnpdata_dnp_contact_swp.mat",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "e151b6fd905f17fe498f9d10a2a1a977f931865ee50681b8df412a02dce00872"
+    },
+    {
+      "bundled": true,
+      "bytes": 873751,
+      "materialization_required": false,
+      "path": "raw/20240523_1308_dnpdata_dnp_contact_swp.mat",
+      "role": "structured_or_binary_scientific_data",
+      "sha256": "501c5b027290bc1051d8d61a2b3dab34354f3e786c0e1f15c3e1ba038d79ca2a"
+    }
+  ],
+  "freeze_status": "frozen",
+  "license_boundary": "Article and raw data/processing scripts in the frozen data record: CC BY 4.0.",
+  "missingness": "All files in the frozen scientific-data record are present.",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "schema": "truthinsightbench-data-manifest",
+  "scientific_scope": "All 13 raw MAT experiment files in the frozen data record are included. Author processing scripts are outside the scientific payload.",
+  "t0": "2024-06-26",
+  "task_id": "Physics_01_dynamic_nuclear_polarization_echoes",
+  "title": "Electron and Nuclear Spin Dynamics under Phase Inversion",
+  "variable_dictionary": [
+    {
+      "file_or_pattern": "raw/*dnp_echo*.mat",
+      "measures": [
+        "EPR raw traces",
+        "indirect time axis",
+        "inversion and detection metadata"
+      ]
+    },
+    {
+      "file_or_pattern": "raw/*dnpdata_dnp_contact*.mat",
+      "measures": [
+        "eight-step phase cycles",
+        "indirect time axis",
+        "NMR direct time axis"
+      ]
+    },
+    {
+      "file_or_pattern": "raw/*dnpdata_nmr_only*.mat",
+      "measures": [
+        "NMR reference scan for phase and normalization"
+      ]
+    },
+    {
+      "file_or_pattern": "raw/*.mat",
+      "measures": [
+        "complete no-inversion and phase-inversion EPR/NMR scans"
+      ]
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "warnings": [
+    "Times and pulse metadata in filenames are not observations; process the raw waveforms.",
+    "EPR requires signal parsing, down-conversion, echo-window selection, and phase correction; NMR requires eight-step phase cycling, reference phase, and normalization.",
+    "Time points within a scan are correlated and must not inflate confidence as independent samples.",
+    "Validate processing-window, phase-reference, and normalization choices with prespecified alternatives."
+  ],
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

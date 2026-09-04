@@ -1,0 +1,19 @@
+{
+  "schema": "truthinsightbench-submission-contract",
+  "release": "V1.0",
+  "submission_type": "directory",
+  "root_report": "Result.md (case-insensitive, exactly one root Markdown report)",
+  "registered_finding_count": {
+    "minimum": 2,
+    "maximum": 5,
+    "consecutive_numbering": true
+  },
+  "required_semantic_roles": [
+    "authoritative_findings",
+    "executed_analysis_source",
+    "inspectable_result_evidence",
+    "reproduction_trace",
+    "finding_to_evidence_traceability"
+  ],
+  "internal_layout_policy": "agent_native_layout_allowed"
+}

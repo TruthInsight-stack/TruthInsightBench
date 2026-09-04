@@ -1,0 +1,13 @@
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+agents/runtime/
+evaluation/evaluator/work/
+runs/
+evaluations/

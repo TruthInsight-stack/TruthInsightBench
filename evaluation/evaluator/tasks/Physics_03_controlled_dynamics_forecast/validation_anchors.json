@@ -1,0 +1,208 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "预测通道稳定保留频率水位和控制响应方向，频域外推在给定范围内成立",
+      "independent_reconstruction_method": "Frozen evaluator recomputation: verification/recompute/A.py",
+      "non_exhaustive_validation_anchor": true,
+      "object": "三个连续控制轴上的参考频率和预测频率",
+      "one_liner": "三组控制扫描的参考—预测频率相关最低0.97745，最大MAE仅0.09766，3/3扫描的响应斜率方向一致。",
+      "perturbation_bindings": [
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition_frozen.py",
+          "script_sha256": "7afb78625944bc6587008ff38bd160009b16d6ee4314f18c7e595d9897d8b836"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method_frozen.py",
+          "script_sha256": "96f6ed17821cb138a0ab74ed12c899cbed2b45f79c6cd5f8191b37d1ddb96d6c"
+        },
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample_frozen.py",
+          "script_sha256": "6bc0100e245cf98d73b91a53e2dc66d64a3f02fa8ed34f98f0793b00e9aa351d"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "measurement: \"在未参与冻结的连续控制区间同时取得参考与预测频率\"; expected_range: [0.95, 1.0]; failure_criterion: \"任一完整扫描相关低于0.90、MAE高于0.20，或预测斜率方向与参考相反\""
+      },
+      "quantities": [
+        {
+          "key": "minimum_frequency_correlation",
+          "role": "core",
+          "tolerance_rel": 0.02,
+          "unit": "correlation",
+          "value": 0.9774496567
+        },
+        {
+          "key": "maximum_frequency_mae",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "frequency_unit",
+          "value": 0.09765625
+        },
+        {
+          "key": "matching_slope_direction_count",
+          "role": "core",
+          "tolerance_rel": 0.0,
+          "unit": "scan",
+          "value": 3
+        },
+        {
+          "key": "control_scan_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "scan",
+          "value": 3
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "values": [
+          {
+            "json_path": "values.minimum_frequency_correlation",
+            "quantity_key": "minimum_frequency_correlation"
+          },
+          {
+            "json_path": "values.maximum_frequency_mae",
+            "quantity_key": "maximum_frequency_mae"
+          },
+          {
+            "json_path": "values.matching_slope_direction_count",
+            "quantity_key": "matching_slope_direction_count"
+          },
+          {
+            "json_path": "values.control_scan_count",
+            "quantity_key": "control_scan_count"
+          }
+        ],
+        "script_sha256": "63054e2b7b19ab6dd34dc2df0dcf9be98e50499a86590ca49ebb30d2e03dcfa5"
+      },
+      "scope": "三条完整有序扫描；逐扫描计算相关、MAE与线性响应方向",
+      "target_alignment": {
+        "paper_claim_paraphrase": "目标论文报告学习动力学能够预测未见内部参数下的振荡频率和响应趋势。",
+        "paper_location": "Results, parameter-dependent oscillation frequencies",
+        "rationale": "冻结验证器在三个完整参数扫描上对齐两通道，且以连续点留出、秩相关和归一化误差交叉检验。",
+        "status": "reported_target_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "预测通道在更远条件中逐步丢失波形保真，说明频域水位可预测不等于全动力学可靠",
+      "independent_reconstruction_method": "Frozen evaluator recomputation: verification/recompute/B.py",
+      "non_exhaustive_validation_anchor": true,
+      "object": "三个有序控制条件下的参考与预测完整时间轨迹",
+      "one_liner": "三个有序条件下的完整轨迹保真度系统下降：相关为0.959、0.859、0.669，NRMSE为0.282、0.511、0.744。",
+      "perturbation_bindings": [
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition_frozen.py",
+          "script_sha256": "8fb60a753c8391088fa74be9166b4e8caf92e2d8461d86e41ce38ba08f125c15"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method_frozen.py",
+          "script_sha256": "6a156429555e2d013d96c7f58c73ad58554c0f07b452fc3db02f177a529e5a2e"
+        },
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample_frozen.py",
+          "script_sha256": "07cbe35d8ec170bd76092ae4234d512d4f19cc5788911c60976b4d08004eff37"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "measurement: \"在条件2与3之间增加一个完整控制条件并同时保存参考和预测轨迹\"; expected_range: [0.67, 0.86]; failure_criterion: \"新增条件的相关不落在0.67–0.86，或条件顺序下相关与NRMSE不再呈相反单调趋势\""
+      },
+      "quantities": [
+        {
+          "key": "condition_1_correlation",
+          "role": "core",
+          "tolerance_rel": 0.02,
+          "unit": "correlation",
+          "value": 0.9594796365
+        },
+        {
+          "key": "condition_2_correlation",
+          "role": "core",
+          "tolerance_rel": 0.03,
+          "unit": "correlation",
+          "value": 0.8594904361
+        },
+        {
+          "key": "condition_3_correlation",
+          "role": "core",
+          "tolerance_rel": 0.04,
+          "unit": "correlation",
+          "value": 0.6686789205
+        },
+        {
+          "key": "condition_1_nrmse",
+          "role": "core",
+          "tolerance_rel": 0.03,
+          "unit": "nrmse",
+          "value": 0.2819102257
+        },
+        {
+          "key": "condition_2_nrmse",
+          "role": "core",
+          "tolerance_rel": 0.03,
+          "unit": "nrmse",
+          "value": 0.5114505196
+        },
+        {
+          "key": "condition_3_nrmse",
+          "role": "core",
+          "tolerance_rel": 0.03,
+          "unit": "nrmse",
+          "value": 0.7436989629
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "values": [
+          {
+            "json_path": "values.condition_1_correlation",
+            "quantity_key": "condition_1_correlation"
+          },
+          {
+            "json_path": "values.condition_2_correlation",
+            "quantity_key": "condition_2_correlation"
+          },
+          {
+            "json_path": "values.condition_3_correlation",
+            "quantity_key": "condition_3_correlation"
+          },
+          {
+            "json_path": "values.condition_1_nrmse",
+            "quantity_key": "condition_1_nrmse"
+          },
+          {
+            "json_path": "values.condition_2_nrmse",
+            "quantity_key": "condition_2_nrmse"
+          },
+          {
+            "json_path": "values.condition_3_nrmse",
+            "quantity_key": "condition_3_nrmse"
+          }
+        ],
+        "script_sha256": "7d321f9f143597ffbd418c166a789a4f8dbf21e59831f3f2b568b72d478f84a3"
+      },
+      "scope": "每条15000点完整轨迹；按条件分别计算相关和以参考标准差归一化的RMSE",
+      "target_alignment": {
+        "paper_claim_paraphrase": "目标论文展示在多种内部参数下预测完整动力学，并讨论训练范围之外的泛化。",
+        "paper_location": "Results and supplementary held-out trajectories",
+        "rationale": "冻结验证器把三条源轨迹放在同一误差尺度上，显式量化目标叙事中未汇总为单一数字的退化边界。",
+        "status": "source_data_extension",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "Two verified validation anchors for blind-rediscovery diagnostics; not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2021-04-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Physics_03_controlled_dynamics_forecast",
+  "release": "V1.0"
+}

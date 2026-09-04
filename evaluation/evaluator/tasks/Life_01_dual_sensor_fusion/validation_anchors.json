@@ -1,0 +1,197 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "加入高剂量传感器B后总融合保持，但快速同步分量大幅减少，表现为融合延迟而非融合能力丧失",
+      "independent_reconstruction_method": "Frozen evaluator recomputation: verification/recompute/A.py",
+      "non_exhaustive_validation_anchor": true,
+      "object": "含传感器A的囊泡在无传感器B与1:200传感器B条件下的钙触发融合",
+      "one_liner": "高剂量传感器B几乎不改变5秒总融合（+1.118个百分点），却使前两帧融合减少55.888个百分点",
+      "perturbation_bindings": [
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method_median.py",
+          "script_sha256": "205b11a9103f1d7436d47bfe6dd81f334261b58e144a3fdd98e264c24bffc5fa"
+        },
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample_leave_one_out.py",
+          "script_sha256": "a65b3089480a6557836f52964cc8a9839673bf7187e76b94fa322dafa95abe94"
+        },
+        {
+          "family": "window",
+          "script": "verification/perturb/A/window_first_frame.py",
+          "script_sha256": "b55eaeb92e2993f59e0a86da4c613a85db6cefa45b0d5514c4ba694cd1363b1c"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "measurement: \"新一批独立融合实验中，1:200传感器B相对无传感器B的前两帧融合下降幅度\"; expected_range: [45.0, 65.0]; failure_criterion: \"前两帧融合下降低于45个百分点，或总融合差的绝对值超过10个百分点\""
+      },
+      "quantities": [
+        {
+          "key": "total_fusion_change_pp",
+          "role": "core",
+          "tolerance_rel": 0.35,
+          "unit": "percentage_point",
+          "value": 1.118
+        },
+        {
+          "key": "early_fusion_drop_pp",
+          "role": "core",
+          "tolerance_rel": 0.12,
+          "unit": "percentage_point",
+          "value": 55.888
+        },
+        {
+          "key": "total_fusion_none_pct",
+          "role": "supporting",
+          "tolerance_rel": 0.05,
+          "unit": "%",
+          "value": 88.826
+        },
+        {
+          "key": "total_fusion_high_pct",
+          "role": "supporting",
+          "tolerance_rel": 0.05,
+          "unit": "%",
+          "value": 89.944
+        },
+        {
+          "key": "early_fusion_none_pct",
+          "role": "supporting",
+          "tolerance_rel": 0.08,
+          "unit": "%",
+          "value": 64.214
+        },
+        {
+          "key": "early_fusion_high_pct",
+          "role": "supporting",
+          "tolerance_rel": 0.2,
+          "unit": "%",
+          "value": 8.326
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "values": [
+          {
+            "json_path": "values.total_fusion_change_pp",
+            "quantity_key": "total_fusion_change_pp"
+          },
+          {
+            "json_path": "values.early_fusion_drop_pp",
+            "quantity_key": "early_fusion_drop_pp"
+          },
+          {
+            "json_path": "values.total_fusion_none_pct",
+            "quantity_key": "total_fusion_none_pct"
+          },
+          {
+            "json_path": "values.total_fusion_high_pct",
+            "quantity_key": "total_fusion_high_pct"
+          },
+          {
+            "json_path": "values.early_fusion_none_pct",
+            "quantity_key": "early_fusion_none_pct"
+          },
+          {
+            "json_path": "values.early_fusion_high_pct",
+            "quantity_key": "early_fusion_high_pct"
+          }
+        ],
+        "script_sha256": "e7024ecb6765121d35f262ef628c468aa3b01fb634949b0104e7aab10945ac91"
+      },
+      "scope": "100 µM钙到达后5秒总融合和最初两帧（约300 ms）融合；每组5个独立run",
+      "target_alignment": {
+        "paper_claim_paraphrase": "作者报告传感器B不影响约85%的5秒总融合能力，但以浓度依赖方式显著减少钙到达后前两帧的融合比例",
+        "paper_location": "Results and Fig. 1b–c, especially the Fig. 1 legend",
+        "rationale": "两个核心效应量是对Fig. 1每组5个独立run的精确复算，对象、条件和方向均与原文一致",
+        "status": "reported_target_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "竞争物升高时目标结合量下降，在30 µM时已接近完全抑制",
+      "independent_reconstruction_method": "Frozen evaluator recomputation: verification/recompute/B.py",
+      "non_exhaustive_validation_anchor": true,
+      "object": "固定在树脂上的目标传感器与30 µM融合复合物的结合，以另一传感器作为浓度梯度竞争物",
+      "one_liner": "高竞争边界使目标传感器与融合复合物的结合降至1.345 µM，相对零竞争条件下降90.271%",
+      "perturbation_bindings": [
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition_20uM.py",
+          "script_sha256": "5430f9df04ddfc949eafaf3db12e5d575d0be65acbfb115ea17f09058b9e659c"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method_median.py",
+          "script_sha256": "ec69e7229b47741e27a0b4e1b87b0a07881f1b6d684e9646c5dbbb6685efaefb"
+        },
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample_leave_one_out.py",
+          "script_sha256": "6278402e0e35155fe078eb0cf3ded78744f8bee10ba6af369f31cfba12eef1de"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "measurement: \"新的独立pull-down实验中，30 µM竞争物条件下的目标结合下降率\"; expected_range: [80.0, 98.0]; failure_criterion: \"30 µM时结合下降率低于80%\""
+      },
+      "quantities": [
+        {
+          "key": "binding_30uM_uM",
+          "role": "core",
+          "tolerance_rel": 0.2,
+          "unit": "uM",
+          "value": 1.345
+        },
+        {
+          "key": "binding_drop_pct",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "%",
+          "value": 90.271248
+        },
+        {
+          "key": "binding_zero_uM",
+          "role": "supporting",
+          "tolerance_rel": 0.08,
+          "unit": "uM",
+          "value": 13.825
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "values": [
+          {
+            "json_path": "values.binding_30uM_uM",
+            "quantity_key": "binding_30uM_uM"
+          },
+          {
+            "json_path": "values.binding_drop_pct",
+            "quantity_key": "binding_drop_pct"
+          },
+          {
+            "json_path": "values.binding_zero_uM",
+            "quantity_key": "binding_zero_uM"
+          }
+        ],
+        "script_sha256": "8e709fbd880d006fac714078a94bc1410c4f90f911d79ac9593ae424e3d7371c"
+      },
+      "scope": "竞争物0–50 µM的体外pull-down/蛋白印迹实验；金标边界为30 µM，每个浓度4个独立run",
+      "target_alignment": {
+        "paper_claim_paraphrase": "作者报告加入竞争传感器会破坏目标传感器–SNARE互作，在竞争物浓度≥30 µM时几乎完全消除结合，直接支持竞争结合",
+        "paper_location": "Results, Fig. 3c and the paragraph beginning 'We then examined the binding'",
+        "rationale": "1.345 µM和90.271%均是Fig. 3c的4个独立run重算值，不是从文字中猜测",
+        "status": "reported_target_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "Two verified validation anchors for blind-rediscovery diagnostics; not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2024-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Life_01_dual_sensor_fusion",
+  "release": "V1.0"
+}

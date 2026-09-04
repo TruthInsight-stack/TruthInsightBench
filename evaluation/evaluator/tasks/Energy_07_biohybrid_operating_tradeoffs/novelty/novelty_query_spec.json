@@ -1,0 +1,27 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "artificial photosynthesis biohybrid response decline time perturbation",
+        "biotic abiotic hybrid CO2 conversion time stability"
+      ]
+    },
+    "B": {
+      "queries": [
+        "artificial photosynthesis dose response optimum biohybrid",
+        "biohybrid energy module dose response three level"
+      ]
+    }
+  },
+  "frozen_at": "2026-08-22",
+  "provider": "OpenAlex_primary_with_Crossref_fallback",
+  "provider_api": [
+    "https://api.openalex.org/works",
+    "https://api.crossref.org/works"
+  ],
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2023-01-01",
+  "target_doi_excluded": "10.1038/s41467-023-42591-x",
+  "task_id": "Energy_07_biohybrid_operating_tradeoffs",
+  "release": "V1.0"
+}

@@ -1,0 +1,9 @@
+{
+  "schema": "truthinsightbench-source-attribution",
+  "release": "V1.0",
+  "task_id": "Life_08_environmental_transfer_boundary",
+  "title": "Detection of air and surface contamination by SARS-CoV-2 in hospital rooms of infected patients",
+  "doi": "10.1038/s41467-020-16670-2",
+  "first_publication_date": "2020-05-29",
+  "raw_data_record": "Europe PMC OA supplementary archive for PMC7260225 (CC-BY)"
+}

@@ -1,0 +1,230 @@
+Latitude	Longitude	Hash	Lithology	Age	Age Uncert	Unparsed Lithology
+53.3443	-1.87818	53.3443;-1.87818	sed, 	341.04999999999995	18.0	sedimentary rocks | paleozoic sedimentary rocks | 
+67.18026	25.40585	67.18026;25.40585	plut, ign, 	2050.0	450.0	intrusive igneous rocks | paleoproterozoic intrusive rocks | 
+62.28011	8.68988	62.28011;8.68988	sed, volc, ign, met, 	1519.4	981.0	orthogneiss/paragneiss/metavolcanic gneiss | proterozoic crystalline metamorphic rocks | 
+61.59991	-143.06951	61.59991;-143.06951	basalt, volc, ign, 	226.601	25.0	mafic volcanic rocks | mesozoic volcanic rocks | 
+45.99144	7.49477	45.99144;7.49477	sed, basalt, volc, ign, met, 	133.65	68.0	blueschist grade metasedimentary/metavolcanic schist | mesozoic crystalline metamorphic rocks | 
+77.56008	15.48453	77.56008;15.48453		NaN	NaN	na | na | na
+67.83612	15.03983	67.83612;15.03983	sed, met, 	1459.6	1040.0	metasedimentary schist | precambrian-phanerozoic crystalline metamorphic rocks | 
+47.12264	9.20298	47.12264;9.20298	sed, 	173.15	28.0	sedimentary rocks | mesozoic sedimentary rocks | 
+69.2167	-49.9857	69.2167;-49.9857	gabbro, granodiorite, ign, met, 	2850.0	350.0	granodiorite gneiss; amphibolite grade orthogneiss | archean crystalline metamorphic rocks | 
+49.75957	-94.55158	49.75957;-94.55158	plut, ign, 	2650.0	150.0	intrusive igneous rocks | archean intrusive rocks | 
+64.75	-19.98333	64.75;-19.98333		NaN	NaN	 |  | 
+64.81667	-18.81667	64.81667;-18.81667		NaN	NaN	 |  | 
+65.7763	-22.39488	65.7763;-22.39488	basalt, volc, ign, 	34.29	32.0	mafic volcanic rocks | cenozoic volcanic rocks | 
+63.66666	-19.1	63.66666;-19.1		NaN	NaN	 |  | 
+63.06682	-151.00673	63.06682;-151.00673	sed, 	133.65	68.0	sedimentary rocks | mesozoic sedimentary rocks | 
+35.88029	76.51263	35.88029;76.51263	sed, 	305.40099999999995	53.0	sedimentary rocks | paleozoic sedimentary rocks | 
+28.59419	83.9889	28.59419;83.9889	met, 	721.9	278.0	crystalline metamorphic rocks | precambrian-phanerozoic crystalline metamorphic rocks | 
+35.23708	74.58927	35.23708;74.58927	sed, 	721.9	278.0	sedimentary rocks | precambrian-phanerozoic sedimentary rocks | 
+72.4	20.0	72.4;20		NaN	NaN	na | na | na
+76.0	20.0	76;20		NaN	NaN	na | na | na
+64.15332	-16.40858	64.15332;-16.40858		NaN	NaN	 |  | 
+64.84	-18.38	64.84;-18.38	basalt, volc, ign, 	34.29	32.0	mafic volcanic rocks | cenozoic volcanic rocks | 
+65.0	-14.0	65;-14	basalt, volc, ign, 	34.29	32.0	mafic volcanic rocks | cenozoic volcanic rocks | 
+64.5	-16.0	64.5;-16		NaN	NaN	 |  | 
+66.44895	-65.64205	66.44895;-65.64205	plut, ign, 	2050.0	450.0	intrusive igneous rocks | paleoproterozoic intrusive rocks | 
+67.011	-50.72	67.011;-50.72	granite, ign, met, 	2850.0	350.0	granitoid gneiss; granulite grade orthogneiss | archean crystalline metamorphic rocks | 
+80.0167	-21.0	80.0167;-21	sed, 	769.4	231.0	sedimentary rocks | neoproterozoic sedimentary rocks | 
+66.7422	-53.5639	66.7422;-53.5639		NaN	NaN	na | na | na
+46.00489	7.53182	46.00489;7.53182	sed, basalt, volc, ign, met, 	133.65	68.0	blueschist grade metasedimentary/metavolcanic schist | mesozoic crystalline metamorphic rocks | 
+46.0517	7.5153	46.0517;7.5153	sed, basalt, volc, ign, met, 	133.65	68.0	blueschist grade metasedimentary/metavolcanic schist | mesozoic crystalline metamorphic rocks | 
+46.0054	7.7457	46.0054;7.7457	basalt, volc, ign, 	305.40099999999995	53.0	ophiolite complex; mafic volcanic rocks | paleozoic volcanic and intrusive rocks | 
+45.9767	7.5625	45.9767;7.5625	sed, basalt, volc, ign, met, 	133.65	68.0	blueschist grade metasedimentary/metavolcanic schist | mesozoic crystalline metamorphic rocks | 
+46.6067	8.3311	46.6067;8.3311	met, 	1492.7	1007.0	crystalline metamorphic rocks | precambrian-phanerozoic crystalline metamorphic rocks | 
+46.1167	7.3819	46.1167;7.3819	met, 	1492.7	1007.0	crystalline metamorphic rocks | precambrian-phanerozoic crystalline metamorphic rocks | 
+46.6463	8.2547	46.6463;8.2547	met, 	1492.7	1007.0	crystalline metamorphic rocks | precambrian-phanerozoic crystalline metamorphic rocks | 
+46.108	7.0921	46.108;7.0921	plut, ign, 	305.40099999999995	53.0	intrusive igneous rocks | paleozoic intrusive rocks | 
+61.5136	7.2647	61.5136;7.2647	sed, volc, ign, met, 	1519.4	981.0	orthogneiss/paragneiss/metavolcanic gneiss | proterozoic crystalline metamorphic rocks | 
+78.1947	15.62	78.1947;15.62	siliciclast, shale, carb, sed, 	49.95	16.0	mudstone-carbonate-sandstone | cenozoic sedimentary rocks | 
+78.0587	15.7446	78.0587;15.7446	siliciclast, shale, carb, sed, 	49.95	16.0	mudstone-carbonate-sandstone | cenozoic sedimentary rocks | 
+60.9824	7.2265	60.9824;7.2265	plut, ign, 	538.8	NaN	intrusive igneous rocks | precambrian intrusive rocks | 
+61.5652	6.3602	61.5652;6.3602	sed, volc, ign, met, 	1519.4	981.0	orthogneiss/paragneiss/metavolcanic gneiss | proterozoic crystalline metamorphic rocks | 
+60.69	6.6792	60.69;6.6792	sed, volc, ign, met, 	538.8	NaN	orthogneiss/paragneiss/metavolcanic gneiss | precambrian crystalline metamorphic rocks | 
+78.0956	15.7331	78.0956;15.7331	siliciclast, shale, carb, sed, 	49.95	16.0	mudstone-carbonate-sandstone | cenozoic sedimentary rocks | 
+61.5828	8.32275	61.5828;8.32275	plut, ign, 	538.8	NaN	intrusive igneous rocks | precambrian intrusive rocks | 
+67.8556	15.5942	67.8556;15.5942	sed, met, 	1459.6	1040.0	metasedimentary schist | precambrian-phanerozoic crystalline metamorphic rocks | 
+60.006	6.551	60.006;6.551	sed, granite, ign, met, 	1519.4	981.0	granitoid gneiss; orthogneiss/paragneiss | proterozoic crystalline metamorphic rocks | 
+61.2871	7.9121	61.2871;7.9121	plut, ign, 	538.8	NaN	intrusive igneous rocks | precambrian intrusive rocks | 
+61.641	7.7698	61.641;7.7698	sed, volc, ign, met, 	1519.4	981.0	orthogneiss/paragneiss/metavolcanic gneiss | proterozoic crystalline metamorphic rocks | 
+61.4456	7.1814	61.4456;7.1814	sed, met, 	1459.6	1040.0	metasedimentary schist | precambrian-phanerozoic crystalline metamorphic rocks | 
+78.1775	15.6536	78.1775;15.6536	siliciclast, shale, carb, sed, 	49.95	16.0	mudstone-carbonate-sandstone | cenozoic sedimentary rocks | 
+58.8045	-137.15675	58.8045;-137.15675	sed, 	105.5	40.0	sedimentary rocks | mesozoic sedimentary rocks | 
+59.03702	-136.5477	59.03702;-136.5477	plut, ign, 	154.25	9.0	intrusive igneous rocks | mesozoic intrusive rocks | 
+60.67736	-144.69218	60.67736;-144.69218		NaN	NaN	na | na | na
+60.07272	-139.31007	60.07272;-139.31007	basalt, volc, ign, 	105.5	40.0	mafic volcanic rocks | mesozoic volcanic rocks | 
+42.05364	-70.40718	42.05364;-70.40718		NaN	NaN	na | na | na
+42.14763	78.2716	42.14763;78.2716	sed, 	305.40099999999995	53.0	sedimentary rocks | paleozoic sedimentary rocks | 
+39.15356	68.34603	39.15356;68.34603	sed, 	401.35	42.0	sedimentary rocks | paleozoic sedimentary rocks | 
+38.69479	72.09867	38.69479;72.09867	sed, 	305.40099999999995	53.0	sedimentary rocks | paleozoic sedimentary rocks | 
+38.78915	72.23871	38.78915;72.23871	sed, 	305.40099999999995	53.0	sedimentary rocks | paleozoic sedimentary rocks | 
+39.32454	69.39521	39.32454;69.39521	sed, 	401.35	42.0	sedimentary rocks | paleozoic sedimentary rocks | 
+78.2562	15.5117	78.2562;15.5117		NaN	NaN	na | na | na
+35.34966	74.62258	35.34966;74.62258	sed, 	721.9	278.0	sedimentary rocks | precambrian-phanerozoic sedimentary rocks | 
+61.5792	7.3147	61.5792;7.3147	sed, volc, ign, met, 	1519.4	981.0	orthogneiss/paragneiss/metavolcanic gneiss | proterozoic crystalline metamorphic rocks | 
+51.73558	-119.45687	51.73558;-119.45687	plut, ign, 	105.5	40.0	intrusive igneous rocks | mesozoic intrusive rocks | 
+-43.12281	170.91657	-43.12281;170.91657	shale, sed, basalt, volc, gabbro, ign, met, 	250.1	49.0	metawacke; greenschist/almandine amphibolite grade metasedimentary/metavolcanic schist | paleozoic-mesozoic crystalline metamorphic rocks | 
+60.00564	-139.27454	60.00564;-139.27454	basalt, volc, ign, 	105.5	40.0	mafic volcanic rocks | mesozoic volcanic rocks | 
+58.9269	-133.9081	58.9269;-133.9081	sed, 	335.551	84.0	sedimentary rocks | paleozoic sedimentary rocks | 
+58.7439	-137.0567	58.7439;-137.0567	sed, 	105.5	40.0	sedimentary rocks | mesozoic sedimentary rocks | 
+58.8673	-137.1467	58.8673;-137.1467	sed, 	105.5	40.0	sedimentary rocks | mesozoic sedimentary rocks | 
+58.66551	-137.49458	58.66551;-137.49458		NaN	NaN	na | na | na
+61.775	6.92	61.775;6.92	sed, volc, ign, met, 	1519.4	981.0	orthogneiss/paragneiss/metavolcanic gneiss | proterozoic crystalline metamorphic rocks | 
+65.25	-14.0	65.25;-14	basalt, volc, ign, 	34.29	32.0	mafic volcanic rocks | cenozoic volcanic rocks | 
+59.04806	-137.04277	59.04806;-137.04277		NaN	NaN	na | na | na
+60.04325	-140.55359	60.04325;-140.55359		NaN	NaN	 | phanerozoic ice | 
+59.0894	-141.7181	59.0894;-141.7181		NaN	NaN	na | na | na
+58.7633	-136.5567	58.7633;-136.5567		NaN	NaN	na | na | na
+58.372	-133.9612	58.372;-133.9612	plut, ign, 	44.515	21.0	intrusive igneous rocks | cenozoic intrusive rocks | 
+58.62174	-137.41356	58.62174;-137.41356	basalt, volc, ign, 	105.5	40.0	mafic volcanic rocks | mesozoic volcanic rocks | 
+78.1993	16.1172	78.1993;16.1172	siliciclast, shale, carb, sed, 	122.75	22.0	mudstone-carbonate-sandstone | mesozoic sedimentary rocks | 
+78.1746	15.5514	78.1746;15.5514	siliciclast, shale, carb, sed, 	49.95	16.0	mudstone-carbonate-sandstone | cenozoic sedimentary rocks | 
+71.5	-74.5	71.5;-74.5	met, 	2850.0	350.0	crystalline metamorphic rocks | archean crystalline metamorphic rocks | 
+56.2771	-134.26297	56.2771;-134.26297		NaN	NaN	na | na | na
+46.02	7.5768	46.02;7.5768	sed, basalt, volc, ign, met, 	133.65	68.0	blueschist grade metasedimentary/metavolcanic schist | mesozoic crystalline metamorphic rocks | 
+46.8646	10.9789	46.8646;10.9789	met, 	1492.7	1007.0	crystalline metamorphic rocks | precambrian-phanerozoic crystalline metamorphic rocks | 
+40.024	-105.6479	40.024;-105.6479	sed, ign, met, 	2050.0	450.0	orthogneiss/paragneiss | paleoproterozoic crystalline metamorphic rocks | 
+62.02685	4.98675	62.02685;4.98675		NaN	NaN	na | na | na
+67.88396	18.56302	67.88396;18.56302	volc, gabbro, ign, met, 	709.6	290.0	amphibolite; metavolcanic gneiss | precambrian-phanerozoic crystalline metamorphic rocks | 
+-74.8386	-113.4006	-74.8386;-113.4006		NaN	NaN	 | phanerozoic ice | 
+65.77	-22.37	65.77;-22.37	basalt, volc, ign, 	34.29	32.0	mafic volcanic rocks | cenozoic volcanic rocks | 
+27.97887	86.83426	27.97887;86.83426	met, 	721.9	278.0	crystalline metamorphic rocks | precambrian-phanerozoic crystalline metamorphic rocks | 
+27.98969	86.69017	27.98969;86.69017	met, 	721.9	278.0	crystalline metamorphic rocks | precambrian-phanerozoic crystalline metamorphic rocks | 
+27.91433	86.95458	27.91433;86.95458	met, 	721.9	278.0	crystalline metamorphic rocks | precambrian-phanerozoic crystalline metamorphic rocks | 
+32.25	77.36	32.25;77.36	met, 	721.9	278.0	crystalline metamorphic rocks | precambrian-phanerozoic crystalline metamorphic rocks | 
+30.75031	79.36068	30.75031;79.36068	met, 	721.9	278.0	crystalline metamorphic rocks | precambrian-phanerozoic crystalline metamorphic rocks | 
+35.7576	76.6169	35.7576;76.6169	sed, 	305.40099999999995	53.0	sedimentary rocks | paleozoic sedimentary rocks | 
+32.16617	77.68744	32.16617;77.68744	met, 	721.9	278.0	crystalline metamorphic rocks | precambrian-phanerozoic crystalline metamorphic rocks | 
+28.6291	84.03506	28.6291;84.03506	met, 	721.9	278.0	crystalline metamorphic rocks | precambrian-phanerozoic crystalline metamorphic rocks | 
+54.0	-89.0	54;-89	basalt, volc, ign, 	3000.0	200.0	bimodal-mainly mafic volcanic rocks | archean volcanic rocks | 
+60.62139	-144.11889	60.62139;-144.11889	sed, 	105.5	40.0	sedimentary rocks | mesozoic sedimentary rocks | 
+60.6518	-143.69723	60.6518;-143.69723	sed, 	105.5	40.0	sedimentary rocks | mesozoic sedimentary rocks | 
+60.175	-142.01472	60.175;-142.01472	sed, 	44.515	21.0	sedimentary rocks | cenozoic sedimentary rocks | 
+61.64881	-141.86646	61.64881;-141.86646	volc, ign, 	66.0	NaN	intermediate volcanic rocks | cenozoic volcanic rocks | 
+60.52562	-144.12595	60.52562;-144.12595	sed, 	44.515	21.0	sedimentary rocks | cenozoic sedimentary rocks | 
+60.14583	-142.15167	60.14583;-142.15167	sed, 	44.515	21.0	sedimentary rocks | cenozoic sedimentary rocks | 
+60.08454	-140.23327	60.08454;-140.23327	basalt, volc, ign, 	105.5	40.0	mafic volcanic rocks | mesozoic volcanic rocks | 
+60.0782	-140.1907	60.0782;-140.1907	basalt, volc, ign, 	105.5	40.0	mafic volcanic rocks | mesozoic volcanic rocks | 
+59.99967	-140.02178	59.99967;-140.02178	basalt, volc, ign, 	105.5	40.0	mafic volcanic rocks | mesozoic volcanic rocks | 
+60.0429	-139.68086	60.0429;-139.68086	basalt, volc, ign, 	105.5	40.0	mafic volcanic rocks | mesozoic volcanic rocks | 
+60.11705	-139.49238	60.11705;-139.49238	basalt, volc, ign, 	105.5	40.0	mafic volcanic rocks | mesozoic volcanic rocks | 
+60.20417	-139.46972	60.20417;-139.46972	sed, 	105.5	40.0	sedimentary rocks | mesozoic sedimentary rocks | 
+60.56842	-143.84022	60.56842;-143.84022	sed, 	44.515	21.0	sedimentary rocks | cenozoic sedimentary rocks | 
+60.76893	-143.6901	60.76893;-143.6901	sed, 	105.5	40.0	sedimentary rocks | mesozoic sedimentary rocks | 
+60.17583	-141.65222	60.17583;-141.65222	sed, 	44.515	21.0	sedimentary rocks | cenozoic sedimentary rocks | 
+60.16713	-140.95253	60.16713;-140.95253	sed, 	44.515	21.0	sedimentary rocks | cenozoic sedimentary rocks | 
+60.16679	-140.84473	60.16679;-140.84473	sed, 	44.515	21.0	sedimentary rocks | cenozoic sedimentary rocks | 
+60.51861	-143.09972	60.51861;-143.09972	basalt, volc, ign, 	44.515	21.0	mafic volcanic rocks | cenozoic volcanic rocks | 
+60.30556	-141.72694	60.30556;-141.72694	sed, 	44.515	21.0	sedimentary rocks | cenozoic sedimentary rocks | 
+60.17926	-141.1625	60.17926;-141.1625	sed, 	44.515	21.0	sedimentary rocks | cenozoic sedimentary rocks | 
+60.53297	-143.80898	60.53297;-143.80898	sed, 	44.515	21.0	sedimentary rocks | cenozoic sedimentary rocks | 
+60.30222	-143.41972	60.30222;-143.41972	sed, 	44.515	21.0	sedimentary rocks | cenozoic sedimentary rocks | 
+60.25917	-142.29944	60.25917;-142.29944	sed, 	44.515	21.0	sedimentary rocks | cenozoic sedimentary rocks | 
+60.46026	-143.50376	60.46026;-143.50376	sed, 	44.515	21.0	sedimentary rocks | cenozoic sedimentary rocks | 
+60.19394	-140.38914	60.19394;-140.38914	basalt, volc, ign, 	105.5	40.0	mafic volcanic rocks | mesozoic volcanic rocks | 
+60.47803	-143.56213	60.47803;-143.56213	sed, 	44.515	21.0	sedimentary rocks | cenozoic sedimentary rocks | 
+78.9325	11.835	78.9325;11.835	siliciclast, shale, carb, sed, 	287.551	36.0	mudstone-carbonate-sandstone | paleozoic sedimentary rocks | 
+78.18546	15.76243	78.18546;15.76243	siliciclast, shale, carb, sed, 	49.95	16.0	mudstone-carbonate-sandstone | cenozoic sedimentary rocks | 
+49.03568	-122.71367	49.03568;-122.71367	sed, 	2.58	NaN	sedimentary rocks | cenozoic sedimentary rocks | 
+43.7844	-88.7879	43.7844;-88.7879	sed, 	395.351	143.0	sedimentary rocks | paleozoic sedimentary rocks | 
+36.56961	74.61982	36.56961;74.61982	plut, ign, 	158.951	93.0	intrusive igneous rocks | mesozoic intrusive rocks | 
+44.54366	-72.83489	44.54366;-72.83489	siliciclast, shale, carb, sed, 	721.9	278.0	mudstone-carbonate-sandstone-conglomerate | precambrian-phanerozoic sedimentary rocks | 
+79.7067	21.6183	79.7067;21.6183	siliciclast, shale, carb, sed, 	287.551	36.0	mudstone-carbonate-sandstone | paleozoic sedimentary rocks | 
+-80.5	76.0	-80.5;76		NaN	NaN	 | phanerozoic ice | 
+-77.49563	162.35247	-77.49563;162.35247	plut, ign, 	395.351	143.0	intrusive igneous rocks | paleozoic intrusive rocks | 
+37.87077	-119.37766	37.87077;-119.37766	plut, ign, 	105.5	40.0	intrusive igneous rocks | mesozoic intrusive rocks | 
+37.74215	-119.57548	37.74215;-119.57548	plut, ign, 	105.5	40.0	intrusive igneous rocks | mesozoic intrusive rocks | 
+44.1168	7.11299	44.1168;7.11299	ign, met, 	491.29999999999995	47.0	orthogneiss | paleozoic crystalline metamorphic rocks | 
+70.9489	-71.1574	70.9489;-71.1574	met, 	2850.0	350.0	crystalline metamorphic rocks | archean crystalline metamorphic rocks | 
+42.77139	0.13895	42.77139;0.13895	sed, 	389.04999999999995	30.0	sedimentary rocks | paleozoic sedimentary rocks | 
+50.79185	-124.00293	50.79185;-124.00293	plut, ign, 	83.25	17.0	intrusive igneous rocks | mesozoic intrusive rocks | 
+63.11533	19.0529	63.11533;19.0529		NaN	NaN	na | na | na
+51.33574	-125.26976	51.33574;-125.26976	sed, ign, met, 	NaN	NaN	orthogneiss/paragneiss | precambrian-phanerozoic crystalline metamorphic rocks | 
+43.89452	-71.60311	43.89452;-71.60311	siliciclast, shale, carb, sed, 	401.35	42.0	mudstone-carbonate-sandstone-conglomerate | paleozoic sedimentary and volcanic rocks | 
+-54.53373	-69.57207	-54.53373;-69.57207	met, 	418.84999999999997	120.0	low-medium grade unclassified metamorphic rock | paleozoic crystalline metamorphic rocks | 
+-64.87	-63.065	-64.87;-63.065		NaN	NaN	na | na | na
+-65.0	-70.0	-65;-70		NaN	NaN	na | na | na
+64.83333	62.65	64.83333;62.65	sed, 	105.5	40.0	sedimentary rocks | mesozoic sedimentary rocks | 
+-67.65	-62.7167	-67.65;-62.7167		NaN	NaN	na | na | na
+-50.25	-74.2	-50.25;-74.2		NaN	NaN	na | na | na
+-64.95	-62.6167	-64.95;-62.6167	sed, 	280.1	79.0	sedimentary rocks | paleozoic-mesozoic sedimentary rocks | 
+-47.6358	-72.8425	-47.6358;-72.8425	met, 	418.84999999999997	120.0	low-medium grade unclassified metamorphic rock | paleozoic crystalline metamorphic rocks | 
+-46.6071	-74.0377	-46.6071;-74.0377	sed, 	66.0	NaN	sedimentary rocks | cenozoic sedimentary rocks | 
+57.0614	-3.60606	57.0614;-3.60606	plut, ign, 	395.351	143.0	intrusive igneous rocks | paleozoic intrusive rocks | 
+45.37422	7.05711	45.37422;7.05711	basalt, volc, ign, 	305.40099999999995	53.0	ophiolite complex; mafic volcanic rocks; basalt | paleozoic volcanic and intrusive rocks | 
+45.45359	6.70162	45.45359;6.70162	sed, 	173.15	28.0	sedimentary rocks | mesozoic sedimentary rocks | 
+45.52829	6.78551	45.52829;6.78551	sed, 	173.15	28.0	sedimentary rocks | mesozoic sedimentary rocks | 
+45.52697	6.78726	45.52697;6.78726	sed, 	173.15	28.0	sedimentary rocks | mesozoic sedimentary rocks | 
+44.681	6.697	44.681;6.697	sed, 	173.15	28.0	sedimentary rocks | mesozoic sedimentary rocks | 
+44.719	6.762	44.719;6.762	sed, 	173.15	28.0	sedimentary rocks | mesozoic sedimentary rocks | 
+45.45374	6.69739	45.45374;6.69739	sed, 	173.15	28.0	sedimentary rocks | mesozoic sedimentary rocks | 
+44.778	6.86	44.778;6.86	sed, basalt, volc, ign, met, 	133.65	68.0	blueschist grade metasedimentary/metavolcanic schist | mesozoic crystalline metamorphic rocks | 
+45.41417	6.14452	45.41417;6.14452	met, 	389.04999999999995	30.0	crystalline metamorphic rocks | paleozoic crystalline metamorphic rocks | 
+45.38345	6.09737	45.38345;6.09737	met, 	389.04999999999995	30.0	crystalline metamorphic rocks | paleozoic crystalline metamorphic rocks | 
+45.39033	6.25483	45.39033;6.25483	met, 	389.04999999999995	30.0	crystalline metamorphic rocks | paleozoic crystalline metamorphic rocks | 
+45.5487	6.4662	45.5487;6.4662	met, 	389.04999999999995	30.0	crystalline metamorphic rocks | paleozoic crystalline metamorphic rocks | 
+45.5874	6.46035	45.5874;6.46035	met, 	389.04999999999995	30.0	crystalline metamorphic rocks | paleozoic crystalline metamorphic rocks | 
+45.49377	6.32131	45.49377;6.32131	met, 	389.04999999999995	30.0	crystalline metamorphic rocks | paleozoic crystalline metamorphic rocks | 
+28.69644	84.16647	28.69644;84.16647	met, 	721.9	278.0	crystalline metamorphic rocks | precambrian-phanerozoic crystalline metamorphic rocks | 
+46.6216	8.40399	46.6216;8.40399	met, 	1492.7	1007.0	crystalline metamorphic rocks | precambrian-phanerozoic crystalline metamorphic rocks | 
+NaN	NaN	NaN;NaN		NaN	NaN	na | na | na
+60.26449	-139.10915	60.26449;-139.10915	sed, 	422.15	63.0	sedimentary rocks | paleozoic sedimentary rocks | 
+60.4266	18.186	60.4266;18.186		NaN	NaN	na | na | na
+63.74989	18.1544	63.74989;18.1544	sed, 	2050.0	450.0	sedimentary rocks | paleoproterozoic sedimentary rocks | 
+74.514365	-20.624344	74.514365;-20.624344	siliciclast, shale, carb, sed, 	159.55	15.0	marl,conglomerate,sandstone,shale | mesozoic sedimentary rocks | 
+74.510159	-20.645018	74.510159;-20.645018	siliciclast, shale, carb, sed, 	159.55	15.0	marl,conglomerate,sandstone,shale | mesozoic sedimentary rocks | 
+28.58436	83.98884	28.58436;83.98884	met, 	721.9	278.0	crystalline metamorphic rocks | precambrian-phanerozoic crystalline metamorphic rocks | 
+-43.4607	170.1861	-43.4607;170.1861	siliciclast, shale, sed, 	2.58	NaN	unconsolidated sand, gravel and mud | cenozoic sedimentary rocks | 
+78.9099	11.8083	78.9099;11.8083	siliciclast, shale, carb, sed, 	287.551	36.0	mudstone-carbonate-sandstone | paleozoic sedimentary rocks | 
+78.2934	16.4094	78.2934;16.4094	siliciclast, shale, carb, sed, 	122.75	22.0	mudstone-carbonate-sandstone | mesozoic sedimentary rocks | 
+80.50038	-59.51339	80.50038;-59.51339		NaN	NaN	 | phanerozoic ice | 
+-73.0	68.0	-73;68		NaN	NaN	 | phanerozoic ice | 
+-46.51339	-72.03758	-46.51339;-72.03758	volc, ign, 	133.65	68.0	volcanic rocks | mesozoic volcanic rocks | 
+60.1755	-141.1577	60.1755;-141.1577	sed, 	44.515	21.0	sedimentary rocks | cenozoic sedimentary rocks | 
+-65.5667	-63.7667	-65.5667;-63.7667		NaN	NaN	 | phanerozoic ice | 
+-65.6167	-63.7833	-65.6167;-63.7833		NaN	NaN	 | phanerozoic ice | 
+-64.6667	-61.6333	-64.6667;-61.6333	sed, 	280.1	79.0	sedimentary rocks | paleozoic-mesozoic sedimentary rocks | 
+-64.3333	-60.9667	-64.3333;-60.9667	sed, 	280.1	79.0	sedimentary rocks | paleozoic-mesozoic sedimentary rocks | 
+-65.5	-63.6667	-65.5;-63.6667	sed, 	280.1	79.0	sedimentary rocks | paleozoic-mesozoic sedimentary rocks | 
+-64.9333	-62.5833	-64.9333;-62.5833	sed, 	280.1	79.0	sedimentary rocks | paleozoic-mesozoic sedimentary rocks | 
+-65.0167	-62.9667	-65.0167;-62.9667	sed, 	280.1	79.0	sedimentary rocks | paleozoic-mesozoic sedimentary rocks | 
+-62.2167	-58.6667	-62.2167;-58.6667	basalt, volc, ign, 	66.0	NaN	mafic volcanic rocks | cenozoic volcanic rocks | 
+-48.1348	-73.4278	-48.1348;-73.4278	met, 	418.84999999999997	120.0	low-medium grade unclassified metamorphic rock | paleozoic crystalline metamorphic rocks | 
+-50.9961	-73.6558	-50.9961;-73.6558		NaN	NaN	 | phanerozoic ice | 
+-46.7631	-73.8184	-46.7631;-73.8184		NaN	NaN	 | phanerozoic ice | 
+77.07824	15.30863	77.07824;15.30863	sed, volc, ign, 	769.4	231.0	sedimentary and volcanic rocks | neoproterozoic sedimentary and volcanic rocks | 
+45.86605	6.8593	45.86605;6.8593	plut, ign, 	305.40099999999995	53.0	intrusive igneous rocks | paleozoic intrusive rocks | 
+44.04642	7.00557	44.04642;7.00557	sed, 	173.15	28.0	sedimentary rocks | mesozoic sedimentary rocks | 
+70.0	-30.0	70;-30		NaN	NaN	 | phanerozoic ice | 
+61.12586	6.52565	61.12586;6.52565		NaN	NaN	na | na | na
+61.11503	6.49212	61.11503;6.49212		NaN	NaN	na | na | na
+72.5	-38.45	72.5;-38.45		NaN	NaN	 | phanerozoic ice | 
+57.1601	-3.82319	57.1601;-3.82319	sed, met, 	251.902	NaN	metasedimentary schist | precambrian-phanerozoic crystalline metamorphic rocks | 
+66.66613	13.89531	66.66613;13.89531	sed, granite, ign, met, 	1519.4	981.0	granitoid gneiss; orthogneiss/paragneiss | proterozoic crystalline metamorphic rocks | 
+61.02561	-145.67664	61.02561;-145.67664	sed, 	105.5	40.0	sedimentary rocks | mesozoic sedimentary rocks | 
+0.3854	29.87004	0.3854;29.87004	met, 	3200.0	400.0	crystalline metamorphic rocks | archean crystalline metamorphic rocks | 
+-75.0	-111.0	-75;-111		NaN	NaN	 | phanerozoic ice | 
+66.46491	13.62579	66.46491;13.62579	sed, granite, ign, met, 	1519.4	981.0	granitoid gneiss; orthogneiss/paragneiss | proterozoic crystalline metamorphic rocks | 
+-71.0	70.0	-71;70		NaN	NaN	na | na | na
+45.3707	22.9043	45.3707;22.9043	met, 	2050.0	450.0	crystalline metamorphic rocks | paleoproterozoic crystalline metamorphic rocks | 
+44.16757	-123.58236	44.16757;-123.58236	sed, 	44.95	11.0	sedimentary rocks | cenozoic sedimentary rocks | 
+60.49829	-139.50556	60.49829;-139.50556	sed, 	422.15	63.0	sedimentary rocks | paleozoic sedimentary rocks | 
+51.75	-125.0975	51.75;-125.0975	plut, ign, 	83.25	17.0	intrusive igneous rocks | mesozoic intrusive rocks | 
+-44.79836	167.95005	-44.79836;167.95005	basalt, volc, ign, 	275.40099999999995	23.0	fault-bound remnant; mafic-intermediate volcanic rocks; spilite | paleozoic volcanic and intrusive rocks | 
+-84.99878	-160.00245	-84.99878;-160.00245		NaN	NaN	na | na | na
+-79.0	-80.0	-79;-80		NaN	NaN	na | na | na
+-75.2536	-100.8701	-75.2536;-100.8701		NaN	NaN	na | na | na
+61.16691	-145.33329	61.16691;-145.33329	sed, 	105.5	40.0	sedimentary rocks | mesozoic sedimentary rocks | 
+-34.0	-70.2	-34;-70.2	volc, ign, 	173.15	28.0	volcanic rocks | mesozoic volcanic rocks | 
+46.31966	7.22648	46.31966;7.22648	sed, 	173.15	28.0	sedimentary rocks | mesozoic sedimentary rocks | 
+46.6646	8.37038	46.6646;8.37038	met, 	1492.7	1007.0	crystalline metamorphic rocks | precambrian-phanerozoic crystalline metamorphic rocks | 
+46.90655	9.1572	46.90655;9.1572	met, 	1492.7	1007.0	crystalline metamorphic rocks | precambrian-phanerozoic crystalline metamorphic rocks | 
+-83.74999	170.92619	-83.74999;170.92619	sed, 	869.4	331.0	sedimentary rocks | mesoproterozoic-neoproterozoic sedimentary rocks | 
+67.24603	-49.81962	67.24603;-49.81962		NaN	NaN	 | phanerozoic ice | 
+-80.50029	-25.00024	-80.50029;-25.00024	met, 	512.0999999999999	27.0	crystalline metamorphic rocks | paleozoic crystalline metamorphic rocks | 
+45.5742	24.63862	45.5742;24.63862	sed, 	66.0	NaN	sedimentary rocks | cenozoic sedimentary rocks | 
+-82.41741	59.15345	-82.41741;59.15345		NaN	NaN	 | phanerozoic ice | 
+72.11807	-76.80117	72.11807;-76.80117		NaN	NaN	 | phanerozoic ice | 
+59.56226	-64.38593	59.56226;-64.38593	plut, ign, 	2050.0	450.0	intrusive igneous rocks | paleoproterozoic intrusive rocks | 
+-47.48506	-73.41106	-47.48506;-73.41106	plut, ign, 	101.94000000000001	99.0	intrusive igneous rocks | mesozoic-cenozoic intrusive rocks | 
+51.40887	-125.80937	51.40887;-125.80937	plut, ign, 	83.25	17.0	intrusive igneous rocks | mesozoic intrusive rocks | 

@@ -1,0 +1,195 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "Both recordings have negative Pearson and rank correlations that survive contiguous halves and time trimming.",
+      "independent_reconstruction_method": "Separate-recording correlations, contiguous event halves, five-percent time trimming, and sign-group medians.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "All 35 events in recording A and 556 events in recording B.",
+      "one_liner": "Event-relative time is negatively associated with pre-event signal in both independent recording sets.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample.py",
+          "script_sha256": "65c30691e84af95df502fe22e6e8553d0493f3e3216113c06f7e5944553b3bcf"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method.py",
+          "script_sha256": "31a4f26fa112c7bce028f3537535e6631fa7a324cd0187b31fc340f9dcb69794"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition.py",
+          "script_sha256": "be576d227c8888f7a0d226e75e1d53451556ffd9e9cb0c38f7a4af6d77bdc795"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A new recording supports the relationship if each contiguous half has rank correlation below −0.20 and negative-time signal median exceeds nonnegative-time median; otherwise it fails."
+      },
+      "quantities": [
+        {
+          "key": "recording_A_time_signal_spearman",
+          "role": "core",
+          "tolerance_rel": 0.12,
+          "unit": "fraction",
+          "value": -0.40896358543417366
+        },
+        {
+          "key": "recording_B_time_signal_spearman",
+          "role": "core",
+          "tolerance_rel": 0.1,
+          "unit": "fraction",
+          "value": -0.3084764400212764
+        },
+        {
+          "key": "recording_A_time_signal_pearson",
+          "role": "supporting",
+          "tolerance_rel": 0.12,
+          "unit": "fraction",
+          "value": -0.3343548941204458
+        },
+        {
+          "key": "recording_B_time_signal_pearson",
+          "role": "supporting",
+          "tolerance_rel": 0.1,
+          "unit": "fraction",
+          "value": -0.31499501232095933
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "script_sha256": "3e2fedbef3ec09c5ef5c64776d50aa6835b800aeb158d5a47ebeca7528c1fa5c",
+        "values": [
+          {
+            "json_path": "values.recording_A_time_signal_spearman",
+            "quantity_key": "recording_A_time_signal_spearman"
+          },
+          {
+            "json_path": "values.recording_B_time_signal_spearman",
+            "quantity_key": "recording_B_time_signal_spearman"
+          },
+          {
+            "json_path": "values.recording_A_time_signal_pearson",
+            "quantity_key": "recording_A_time_signal_pearson"
+          },
+          {
+            "json_path": "values.recording_B_time_signal_pearson",
+            "quantity_key": "recording_B_time_signal_pearson"
+          }
+        ]
+      },
+      "scope": "Event-level timing association with within-recording dependence; it does not identify a named cellular mechanism.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports relationships between pre-event state and event timing across recordings.",
+        "paper_location": "Event-state timing Results and two recording-set source-data panels.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "Rank and linear correlations are small under unit splits and distance-endpoint trimming.",
+      "independent_reconstruction_method": "Spearman/Pearson tests, disjoint unit parity, and one-to-four distance-endpoint trimming.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "All 41 unit pairs in the mean-latency and variability tables.",
+      "one_liner": "The supplied unit summaries do not support a strong simple monotone relationship of pair distance with mean latency or latency variability.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample.py",
+          "script_sha256": "f83270f1985f98fdc7bebb4098af95c515a3c1c57ca495d5d56696c1f12735c7"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method.py",
+          "script_sha256": "38706e48d9fbdf92f48e6cb79ebf8768b6bd17fccfd7b6cc5bd27313d01cf504"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition.py",
+          "script_sha256": "59681f8bb26ac8690b42c5c4c6b5530db6cf27c30a7260698d217b1d8a6a4351"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A new unit set preserves the weak monotone boundary if all predeclared absolute correlations remain below 0.30; any value at or above 0.30 falsifies the null boundary and requires a directional model."
+      },
+      "quantities": [
+        {
+          "key": "mean_latency_spearman",
+          "role": "core",
+          "tolerance_rel": 0.15,
+          "unit": "fraction",
+          "value": -0.1383275261324042
+        },
+        {
+          "key": "variability_spearman",
+          "role": "core",
+          "tolerance_rel": 0.2,
+          "unit": "fraction",
+          "value": -0.020052317995818594
+        },
+        {
+          "key": "mean_latency_pearson",
+          "role": "supporting",
+          "tolerance_rel": 0.15,
+          "unit": "fraction",
+          "value": -0.1929626197560845
+        },
+        {
+          "key": "variability_pearson",
+          "role": "supporting",
+          "tolerance_rel": 0.2,
+          "unit": "fraction",
+          "value": 0.06556760460405088
+        },
+        {
+          "key": "unit_pair_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 41
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "script_sha256": "7807fb46b35c0d45e8c6863dc13ae2fbaf0f180b4478b04908220d5579cb9424",
+        "values": [
+          {
+            "json_path": "values.mean_latency_spearman",
+            "quantity_key": "mean_latency_spearman"
+          },
+          {
+            "json_path": "values.variability_spearman",
+            "quantity_key": "variability_spearman"
+          },
+          {
+            "json_path": "values.mean_latency_pearson",
+            "quantity_key": "mean_latency_pearson"
+          },
+          {
+            "json_path": "values.variability_pearson",
+            "quantity_key": "variability_pearson"
+          },
+          {
+            "json_path": "values.unit_pair_count",
+            "quantity_key": "unit_pair_count"
+          }
+        ]
+      },
+      "scope": "A null/weak monotone boundary; nonlinear or multivariate spatial organization remains unresolved.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source evaluates spatial organization of event timing at the unit-pair level.",
+        "paper_location": "Unit-distance latency and variability source-data panels.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "These two cards are verified reference discoveries for blind-rediscovery diagnostics and are not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2022-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Neuro_05_temporal_geometry",
+  "release": "V1.0"
+}

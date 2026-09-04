@@ -1,0 +1,427 @@
+{
+  "all_queries_completed": true,
+  "api_cutoff": "2019-12-31",
+  "cards": {
+    "A": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.cmet.2010.03.011",
+              "id": "https://doi.org/10.1016/j.cmet.2010.03.011",
+              "landing_page_url": "https://doi.org/10.1016/j.cmet.2010.03.011",
+              "publication_date": "2010-04-01",
+              "publication_year": 2010,
+              "source_name": "Cell Metabolism",
+              "title": "Phosphatase 2A Puts the Brakes on mTORC1 Nutrient Signaling",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.placenta.2012.05.010",
+              "id": "https://doi.org/10.1016/j.placenta.2012.05.010",
+              "landing_page_url": "https://doi.org/10.1016/j.placenta.2012.05.010",
+              "publication_date": "2012-11-01",
+              "publication_year": 2012,
+              "source_name": "Placenta",
+              "title": "The emerging role of mTORC1 signaling in placental nutrient-sensing",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Much of the mammalian skeleton is derived from a cartilage template that undergoes rapid growth during embryogenesis, but the molecular mechanism of growth regulation is not well understood. Signaling by mammalian target of rapamycin complex 1 (mTORC1) is an evolutionarily conserved mechanism that controls cellular growth. Here we report that mTORC1 signaling is activated during limb cartilage development in the mouse embryo. Disruption of mTORC1 signaling through deletion of either mTOR or the associated protein Raptor greatly diminishes embryonic skeletal growth associated with severe delays in chondrocyte hypertrophy and bone formation. The growth reduction of cartilage is not due to changes in chondrocyte proliferation or survival, but is caused by a reduction in cell size and in the amount of cartilage matrix. Metabolic labeling reveals a notable deficit in the rate of protein synthesis in Raptor-deficient chondrocytes. Thus, mTORC1 signaling controls limb skeletal growth through stimulation of protein synthesis in chondrocytes.",
+              "doi": "https://doi.org/10.1242/dev.108811",
+              "id": "https://doi.org/10.1242/dev.108811",
+              "landing_page_url": "https://doi.org/10.1242/dev.108811",
+              "publication_date": "2014-07-15",
+              "publication_year": 2014,
+              "source_name": "Development",
+              "title": "mTORC1 signaling controls mammalian skeletal growth through stimulation of protein synthesis",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/9781118338032.ch3",
+              "id": "https://doi.org/10.1002/9781118338032.ch3",
+              "landing_page_url": "https://doi.org/10.1002/9781118338032.ch3",
+              "publication_date": "2012-07-27",
+              "publication_year": 2012,
+              "source_name": "Sarcopenia",
+              "title": "Muscle Biology and mTORC1 Signaling in Aging",
+              "type": "other"
+            },
+            {
+              "abstract": "Summary To coordinate development and growth with nutrient availability, animals must sense nutrients and acquire food from the environment once energy is depleted. A notable exception are reef-building corals that form a stable symbiosis with intracellular photosynthetic dinoflagellates (family Symbiodiniaceae (LaJeunesse et al., 2018)). Symbionts reside in ‘symbiosomes’ and transfer key nutrients to support nutrition and growth of their coral host in nutrient-poor environments (Muscatine, 1990; Yellowlees et al., 2008). To date, it is unclear how symbiont-provided nutrients are sensed to adapt host physiology to this endosymbiotic life-style. Here we use the symbiosis model Exaiptasia pallida (hereafter Aiptasia ) to address this. Aiptasia larvae, similar to their coral relatives, are naturally non-symbiotic and phagocytose symbionts anew each generation into their endodermal cells (Bucher et al., 2016; Grawunder et al., 2015; Hambleton et al., 2014). Using cell-specific transcriptomics, we find that symbiosis establishment results in downregulation of various catabolic pathways, including autophagy in host cells. This metabolic switch is likely triggered by the highly-conserved mTORC1 (mechanistic target of rapamycin complex 1) signaling cascade, shown to integrate lysosomal nutrient abundance with animal development (Perera and Zoncu, 2016). Specifically, symbiosomes are LAMP1-positive and recruit mTORC1 kinase. In symbiotic anemones, mTORC1 signaling is elevated when compared to non-symbiotic animals, resembling a feeding response. Moreover, symbiosis establishment enhances lipid content and cell proliferation in Aiptasia larvae. Challenging the prevailing belief that symbiosomes are early arrested phagosomes (Mohamed et al., 2016), we propose a model in which symbiosomes functionally resemble lysosomes as core nutrient sensing and signaling hubs that have co-opted the evolutionary ancient mTORC1 pathway to promote growth in endosymbiotic cnidarians.",
+              "doi": "https://doi.org/10.1101/723312",
+              "id": "https://doi.org/10.1101/723312",
+              "landing_page_url": "https://doi.org/10.1101/723312",
+              "publication_date": "2019-08-02",
+              "publication_year": 2019,
+              "source_name": null,
+              "title": "Nutrient-dependent mTORC1 signaling in coral-algal symbiosis",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1096/fasebj.29.1_supplement.819.9",
+              "id": "https://doi.org/10.1096/fasebj.29.1_supplement.819.9",
+              "landing_page_url": "https://doi.org/10.1096/fasebj.29.1_supplement.819.9",
+              "publication_date": "2015-04-01",
+              "publication_year": 2015,
+              "source_name": "The FASEB Journal",
+              "title": "The mTORC1 Repressor REDD1 Governs Nutrient Induced Stimulation of Protein Synthesis in Skeletal Muscle",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Summary In the tissue microenvironment, stem cell functions are modulated by extrinsic signaling cues such as peptide hormones and dietary nutrients. These signaling cues maintain the balance between self-renewal and differentiation of its resident stem cells. The mechanistic Target of Rapamycin Complex 1 (mTORC1) is implicated to play an important role in regulating this balance, although its downstream effectors in stem cells have been elusive. We have recently shown that the PASK protein kinase phosphorylates Wdr5 to stimulate muscle stem cell differentiation by epigenetically activating the Myogenin promoter. Here, we show that the PASK-Wdr5 signaling pathway is a nutrient-sensitive downstream target of mTORC1 in muscle stem cells. We show that phosphorylation of PASK, and in turn of Wdr5, by mTORC1 is required for the activation of Myogenin transcription, exit from the self-renewal and induction of the myogenesis program. Thus, mTOR connects the diverse extrinsic signaling cues to a central epigenetic process to regulate the muscle stem cell fate between self-renewal and differentiation.",
+              "doi": "https://doi.org/10.1101/232173",
+              "id": "https://doi.org/10.1101/232173",
+              "landing_page_url": "https://doi.org/10.1101/232173",
+              "publication_date": "2017-12-10",
+              "publication_year": 2017,
+              "source_name": null,
+              "title": "mTORC1 activates PASK-Wdr5 signaling to epigenetically connect the nutrient status with myogenesis",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1080/15384101.2015.1056947",
+              "id": "https://doi.org/10.1080/15384101.2015.1056947",
+              "landing_page_url": "https://doi.org/10.1080/15384101.2015.1056947",
+              "publication_date": "2015-08-14",
+              "publication_year": 2015,
+              "source_name": "Cell Cycle",
+              "title": "Cellular adaptation to nutrient deprivation: crosstalk between the mTORC1 and eIF2α signaling pathways and implications for autophagy",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "nutrient stimulation mTORC1 signaling kinetics 20 minutes",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=nutrient+stimulation+mTORC1+signaling+kinetics+20+minutes&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        },
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1271/bbb.120737",
+              "id": "https://doi.org/10.1271/bbb.120737",
+              "landing_page_url": "https://doi.org/10.1271/bbb.120737",
+              "publication_date": "2014-05-22",
+              "publication_year": 2014,
+              "source_name": "Bioscience, Biotechnology, and Biochemistry",
+              "title": "Differential Dose Response of mTOR Signaling to Oral Administration of Leucine in Skeletal Muscle and Liver of Rats",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "The protein kinase mammalian target of rapamycin (mTOR) is well established as a key regulator of skeletal muscle size. In this study, we determined that the stress responsive gene REDD2 (regulated in development and DNA damage responses 2) is a negative regulator of mTOR signaling and is expressed predominantly in skeletal muscle. Overexpression of REDD2 in muscle cells significantly inhibited basal mTOR signaling and diminished the response of mTOR to leucine addition or mechanical stretch. The inhibitory function of REDD2 on mTOR signaling seems to be mediated downstream or independent of Akt signaling and upstream of Rheb (Ras homolog enriched in brain). Knock down of tuberous sclerosis complex 2 (TSC2) using small interfering (si)RNA potently activated mTOR signaling and was sufficient to rescue REDD2 inhibition of mTOR activity, suggesting that REDD2 functions by modulating TSC2 function. Immunoprecipitation assays demonstrated that REDD2 does not directly interact with either TSC1 or TSC2. However, we found that REDD2 forms a complex with 14-3-3 protein and that increasing expression of REDD2 acts to competitively dissociate TSC2 from 14-3-3 and inhibits mTOR signaling. These findings demonstrate that REDD2 is a skeletal muscle specific inhibitory modulator of mTOR signaling and identify TSC2 and 14-3-3 as key molecular links between REDD2 and mTOR function.",
+              "doi": "https://doi.org/10.1152/ajpcell.00464.2008",
+              "id": "https://doi.org/10.1152/ajpcell.00464.2008",
+              "landing_page_url": "https://doi.org/10.1152/ajpcell.00464.2008",
+              "publication_date": "2009-03-01",
+              "publication_year": 2009,
+              "source_name": "American Journal of Physiology-Cell Physiology",
+              "title": "REDD2 is enriched in skeletal muscle and inhibits mTOR signaling in response to leucine and stretch",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jss.2004.07.145",
+              "id": "https://doi.org/10.1016/j.jss.2004.07.145",
+              "landing_page_url": "https://doi.org/10.1016/j.jss.2004.07.145",
+              "publication_date": "2004-10-01",
+              "publication_year": 2004,
+              "source_name": "Journal of Surgical Research",
+              "title": "Leucine inhibits proteolysis by the mTOR kinase signaling pathway in skeletal muscle",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract Introduction: The coupling and timing of pro‐ and anti‐inflammatory processes in skeletal muscle injury is poorly understood. We investigated the temporal response and regulated processes of extracellular signal–regulated kinases 1 and 2 (ERK1/2), p38, and IkappaB kinase (IKK) α/β signaling pathways after traumatic injury. Methods: Traumatic freeze injury was delivered to the tibialis anterior (TA) muscle in C57BL/6J mice, and injured and uninjured TA muscles were analyzed 3–72 h into the recovery period. Results: Significant increases in pro‐inflammatory cytokine transcription accompanied IKKβ phosphorylation, robust ERK pathway activation, and reduced heat shock protein (Hsp) protein expression at 3–24 h. At 24 h, ERK activation was abolished concomitantly with a significant increase in mitogen‐activated protein kinase phosphatase‐1 (MKP‐1). After 24 h, cytokine transcription along with ERK1/2 and IKKβ phosphorylation remained suppressed, whereas Hsp protein expression rose to significant levels by 72 h and associated with IKKβ. Conclusions: Results indicate a bimodal regulation of ERK1/2 in acute inflammation in which it is supportive from 3 to 24 h, and suppressive from 24 to 72 h. Muscle Nerve, 2012",
+              "doi": "https://doi.org/10.1002/mus.22323",
+              "id": "https://doi.org/10.1002/mus.22323",
+              "landing_page_url": "https://doi.org/10.1002/mus.22323",
+              "publication_date": "2012-03-16",
+              "publication_year": 2012,
+              "source_name": "Muscle &amp; Nerve",
+              "title": "Time‐course analysis of injured skeletal muscle suggests a critical involvement of ERK1/2 signaling in the acute inflammatory response",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1096/fasebj.29.1_supplement.819.2",
+              "id": "https://doi.org/10.1096/fasebj.29.1_supplement.819.2",
+              "landing_page_url": "https://doi.org/10.1096/fasebj.29.1_supplement.819.2",
+              "publication_date": "2015-04-01",
+              "publication_year": 2015,
+              "source_name": "The FASEB Journal",
+              "title": "L‐Leucine Increases Skeletal Muscle IGF‐1 Peptide But Has No Effect on Akt/mTOR Signaling in Response to Resistance Exercise in Trained Men",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/s00726-014-1836-6",
+              "id": "https://doi.org/10.1007/s00726-014-1836-6",
+              "landing_page_url": "https://doi.org/10.1007/s00726-014-1836-6",
+              "publication_date": "2014-09-14",
+              "publication_year": 2014,
+              "source_name": "Amino Acids",
+              "title": "Sepsis-induced changes in amino acid transporters and leucine signaling via mTOR in skeletal muscle",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract Endotoxin (i.e., lipopolysaccharide, LPS) impairs skeletal muscle protein synthesis. Although this impairment is not acutely associated with a decreased plasma concentration of total amino acids, LPS may blunt the anabolic response to amino acids. To examine this hypothesis, rats were injected intraperitoneally with LPS or saline (Sal) and 4 h thereafter were orally administered either leucine (Leu) or Sal. The gastrocnemius was removed 20 min later to assess signaling components important in the translational control of protein synthesis. In the Sal‐Leu group phosphorylation of 4E‐BP1 in muscle was markedly increased, compared to values from time‐matched saline‐treated control rats. This change was associated with a redistribution of eukaryotic initiation factor (eIF) 4E from the inactive eIF4E · 4E‐BP1 complex to the active eIF4E · eIF4G complex. In LPS‐treated rats, the Leu‐induced phosphorylation of 4E‐BP1 and changes in eIF4E distribution were partially or completely abrogated. LPS also antagonized the Leu‐induced increase in phosphorylation of S6K1, ribosomal protein S6 and mTOR. Neither LPS nor leu altered the total amount or phosphorylation of TSC2 in muscle. The ability of LPS to blunt the anabolic effects of Leu could not be attributed to differences in the plasma concentrations of insulin or Leu between groups. Furthermore, the replacement of plasma insulin‐like growth factor (IGF)‐I in LPS‐treated rats to basal levels also did not ameliorate the defect in leucine‐induced phosphorylation of S6K1 or S6, although it did reverse the LPS‐induced decrease in the constitutive phosphorylation of mTOR, S6 and 4E‐BP1. Pretreatment with the glucocorticoid receptor antagonist RU486 was unable to prevent the LPS‐induced leucine resistance. In contrast, to the abovementioned results with leucine, LPS did not prevent the ability of pharmacological levels of IGF‐I to phosphorylate 4E‐BP1, S6K1, mTOR or alter the availability of eIF4E. Hence, LPS working via a glucocorticoid‐independent mechanism produces a leucine resistance in skeletal muscle that might be expected to impair the ability of this amino acid to stimulate translation intiation and protein synthesis. © 2004 Wiley‐Liss, Inc.",
+              "doi": "https://doi.org/10.1002/jcp.20207",
+              "id": "https://doi.org/10.1002/jcp.20207",
+              "landing_page_url": "https://doi.org/10.1002/jcp.20207",
+              "publication_date": "2004-09-10",
+              "publication_year": 2004,
+              "source_name": "Journal of Cellular Physiology",
+              "title": "Endotoxin disrupts the leucine‐signaling pathway involving phosphorylation of mTOR, 4E‐BP1, and S6K1 in skeletal muscle",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "It has been previously demonstrated that administration of leucine to animals in vivo or cells in culture, enhances signaling through the mammalian target of rapamycin (mTOR) pathway, leading to phosphorylation of downstream targets, such as ribosomal protein S6 (S6K)1 and eukaryotic initiation factor (eIF4E) binding protein (4E‐BP)1. Similarly, activation of phospholipase D in cells in culture increases mTOR‐dependent phosphorylation of S6K1 and 4E‐BP1. To determine whether or not leucine enhances signaling through mTOR in a phospholipase D‐dependent manner, Rat2 cells were deprived of serum and leucine for 2 h and then leucine was returned to the culture medium in the presence or absence of 1‐butanol, an inhibitor of phospholipase D function. As previously reported, leucine enhanced signaling through mTOR was assessed by phosphorylation of S6K1 and 4E‐BP1. Similarly, lysophosphatidic acid (LPA) promoted phosphorylation of S6K1 and 4E‐BP1 in serum‐ and leucine‐deprived cells. Administration of 1‐butanol significantly attenuated both leucine‐ and LPA‐dependent mTOR activation, suggesting leucine acts to enhance signaling through mTOR in a phospholipase D‐dependent manner. To establish the role of phospholipase D1 versus phospholipase D2 in the effect, siRNA is currently being used to repress the expression of the enzymes alone, and in combination. Overall, the results suggest a novel role for phospholipase D in the regulation of mTOR by leucine. (Supported by NIH Grants DK‐13499 and DK‐15658)",
+              "doi": "https://doi.org/10.1096/fasebj.20.4.a162-c",
+              "id": "https://doi.org/10.1096/fasebj.20.4.a162-c",
+              "landing_page_url": "https://doi.org/10.1096/fasebj.20.4.a162-c",
+              "publication_date": "2006-03-06",
+              "publication_year": 2006,
+              "source_name": "The FASEB Journal",
+              "title": "Leucine‐Induced Signaling through mTOR is Inhibited by 1‐Butanol: A Possible Role for Phospholipase D in Leucine Signaling",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "leucine signaling time course muscle mTOR response",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=leucine+signaling+time+course+muscle+mTOR+response&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        }
+      ],
+      "search_completed": true
+    },
+    "B": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "The uptake of 3 H‐leucine by leaf fragments of Lycopersicon esculentum Mill. cv. Rutgers and L. hirsutum Humb. &amp; Bonpl., a wild tomato, was studied. Two altitudinal races of L. hirsutum were used which differed in chilling tolerance. The temperature dependence of uptake was initially similar for all plant varieties. However, at temperatures below about 11°C, uptake progressively decreased in the more chilling‐sensitive varieties ( L. esculentum , Low‐altitude L. hirsutum ), but not in the more chilling‐tolerant (high‐altitude L. hirsutum ) with increasing preincubation time. More than 60 min preincubation was required for this effect, and it was greatest at the lower temperatures. When leaf fragments, chilled for short periods of time (&gt;22 h), were returned to 22°C, initial rates of uptake were recovered within 2 h. The relationship between membrane lipid changes and membrane protein activity under chill stress is discussed.",
+              "doi": "https://doi.org/10.1111/j.1399-3054.1982.tb04903.x",
+              "id": "https://doi.org/10.1111/j.1399-3054.1982.tb04903.x",
+              "landing_page_url": "https://doi.org/10.1111/j.1399-3054.1982.tb04903.x",
+              "publication_date": "2006-04-28",
+              "publication_year": 2006,
+              "source_name": "Physiologia Plantarum",
+              "title": "Leucine uptake by tomato leaf tissue under low temperature: Preincubation dependence of uptake reduction",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/bf00238296",
+              "id": "https://doi.org/10.1007/bf00238296",
+              "landing_page_url": "https://doi.org/10.1007/bf00238296",
+              "publication_date": "1983-08-01",
+              "publication_year": 1983,
+              "source_name": "Cell and Tissue Research",
+              "title": "Tissue uptake of circulating hyaluronic acid",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract The uptake and incorporation of radioactive leucine by Convolvulus arvensis L. suspension culture cells were studied under various osmotic conditions to provide information about the effects of osmotic stress at the cellular level and about the suitability of various osmotica for stabilizing protoplasts. When manitol, sorbitol, sucrose, or a mixture of CaCl 2 and KCl was added to the cells at a concentration normally used to stabilize protoplasts, the uptake of leucine was inhibited by 50 to 60% and incorporation by 37% with no major differences detected among these osmotica. NaNO 3 of a similar osmotic strength exerted considerably more inhibition, an inhibition that was reversed by as little as 10 m M simultaneous CaCl 2 . None of the osmotica altered leucine or protein leakage from the tissue. In general, external solute concentrations below 0.36 osmolal slightly enhanced uptake and incorporation. At successively higher concentrations, uptake and incorporation decreased in a linear fashion, with no apparent discontinuity in the rate of decrease as the cells plasmolyzed. Cycloheximide inhibited both the uptake and the incorporation of leucine in all osmotic situations tested, exerting a much stronger inhibition upon the uptake by control tissue than upon that by cells in osmotica. Different cellulase enzyme preparations varied considerably in their effects on subsequent leucine uptake and incorporation.",
+              "doi": "https://doi.org/10.1111/j.1399-3054.1978.tb01612.x",
+              "id": "https://doi.org/10.1111/j.1399-3054.1978.tb01612.x",
+              "landing_page_url": "https://doi.org/10.1111/j.1399-3054.1978.tb01612.x",
+              "publication_date": "2006-04-28",
+              "publication_year": 2006,
+              "source_name": "Physiologia Plantarum",
+              "title": "Leucine Uptake and Incorporation by <i>Convolvulus</i> Tissue Culture Cells and Protoplasts under Severe Osmotic Stress",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Avena coleoptile sections were incubated with or without cycloheximide (CHI) in solutions containing indoleacetic acid (IAA), fusicoccin (FC), or IAA and FC. Resulting growth, incorporation of [ 3 H]leucine into protein, and uptake of [ 3 H]leucine into an ethanol-soluble fraction were determined. FC-stimulated growth was greater and less sensitive to CHI treatment than IAA dependant growth which was virtually eliminated by CHI. IAA alone had little or no influence on [ 3 H]leucine utilization, whereas FC treatment stimulated [ 3 H]leucine incorporation into protein by 36% and uptake into the ethanol-soluble fraction by 75%. CHI inhibited the incorporation of [ 3 H]leucine label into protein such that no significant difference was observed in radioactivity in protein from control, FC-, or IAA-treated tissue. However, CHI did not inhibit the FC-stimulated uptake of [ 3 H]leucine into the ethanol soluble fraction. Total uptake of [ 3 H]leucine obtained from the sum of radioactivities in the protein and ethanol-soluble fractions was stimulated by FC approximately 54% in the absence of CHI and 92% in the presence of CHI. IAA in combination with FC stimulated a further increase in leucine uptake. It is proposed that IAA and FC stimulate growth through processes which differ in their dependency on protein synthesis, and that FC-stimulated incorporation of label into protein results from FC-stimulated leucine uptake, not FC-stimulated protein synthesis.",
+              "doi": "https://doi.org/10.1139/b80-273",
+              "id": "https://doi.org/10.1139/b80-273",
+              "landing_page_url": "https://doi.org/10.1139/b80-273",
+              "publication_date": "1980-11-15",
+              "publication_year": 1980,
+              "source_name": "Canadian Journal of Botany",
+              "title": "Protein synthesis and leucine uptake during fusicoccin-stimulated growth of oat coleoptile tissue",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Epididymal fat incubated in the presence of glucose and dl-leucine-2-C 14 incorporated C 14 into fatty acids and CO 2 . Insulin at physiological concentrations increased leucine uptake and conversion to fatty acids and usually decreased oxidation to C 14 O 2 . In the absence of glucose, lipogenesis was sharply curtailed, but oxidation of leucine to C 14 O 2 was unchanged. In this situation, insulin failed to increase lipogenesis from leucine, although its stimulatory action on leucine uptake remained. Virtually all the leucine C 14 taken up under the influence of insulin now appeared as C 14 O 2 . Insulin similarly increased the uptake and conversion of acetate-2-C 14 to fatty acids and decreased C 14 O 2 production in the presence of glucose but not in its absence. Addition of α-aminoisobutyric acid to the medium blocked the stimulatory effect of insulin on leucine uptake. From these observations it is suggested that insulin may affect the synthesis of fatty acids from leucine in two ways: directly by increasing the transport of leucine into the cell and indirectly by increasing the availability of glucose and hence channeling the acetate derived from leucine into fatty acids.",
+              "doi": "https://doi.org/10.1152/ajplegacy.1964.206.1.129",
+              "id": "https://doi.org/10.1152/ajplegacy.1964.206.1.129",
+              "landing_page_url": "https://doi.org/10.1152/ajplegacy.1964.206.1.129",
+              "publication_date": "1964-01-01",
+              "publication_year": 1964,
+              "source_name": "American Journal of Physiology-Legacy Content",
+              "title": "Stimulatory action of insulin on leucine uptake and metabolism in adipose tissue",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0031-9384(76)90145-1",
+              "id": "https://doi.org/10.1016/0031-9384(76)90145-1",
+              "landing_page_url": "https://doi.org/10.1016/0031-9384(76)90145-1",
+              "publication_date": "1976-03-01",
+              "publication_year": 1976,
+              "source_name": "Physiology &amp; Behavior",
+              "title": "Shock avoidance conditioning and 3H-leucine uptake in a simple vertebrate system",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/bf00225415",
+              "id": "https://doi.org/10.1007/bf00225415",
+              "landing_page_url": "https://doi.org/10.1007/bf00225415",
+              "publication_date": "1985-12-01",
+              "publication_year": 1985,
+              "source_name": "Cell and Tissue Research",
+              "title": "Uptake of circulating hyaluronic acid by the rat liver",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0197-0186(88)90153-2",
+              "id": "https://doi.org/10.1016/0197-0186(88)90153-2",
+              "landing_page_url": "https://doi.org/10.1016/0197-0186(88)90153-2",
+              "publication_date": "1988-01-01",
+              "publication_year": 1988,
+              "source_name": "Neurochemistry International",
+              "title": "A novel sodium-dependent uptake system for l-leucine in rat brain synaptosomes",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "circulating leucine tissue uptake system state",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=circulating+leucine+tissue+uptake+system+state&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        },
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-94-011-0455-5_68",
+              "id": "https://doi.org/10.1007/978-94-011-0455-5_68",
+              "landing_page_url": "https://doi.org/10.1007/978-94-011-0455-5_68",
+              "publication_date": "1995-01-01",
+              "publication_year": 1995,
+              "source_name": "Nutrient Uptake and Cycling in Forest Ecosystems",
+              "title": "Experimental manipulation of water and nutrient input to a Norway spruce plantation at Klosterhede, Denmark",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-94-011-0455-5_69",
+              "id": "https://doi.org/10.1007/978-94-011-0455-5_69",
+              "landing_page_url": "https://doi.org/10.1007/978-94-011-0455-5_69",
+              "publication_date": "1995-01-01",
+              "publication_year": 1995,
+              "source_name": "Nutrient Uptake and Cycling in Forest Ecosystems",
+              "title": "Experimental manipulations of water and nutrient input to a Norway spruce plantation at Klosterhede, Denmark",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-94-011-0455-5_67",
+              "id": "https://doi.org/10.1007/978-94-011-0455-5_67",
+              "landing_page_url": "https://doi.org/10.1007/978-94-011-0455-5_67",
+              "publication_date": "1995-01-01",
+              "publication_year": 1995,
+              "source_name": "Nutrient Uptake and Cycling in Forest Ecosystems",
+              "title": "Experimental manipulations of water and nutrient input to a Norway spruce plantation at Klosterhede, Denmark",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/s0146-6291(77)80003-9",
+              "id": "https://doi.org/10.1016/s0146-6291(77)80003-9",
+              "landing_page_url": "https://doi.org/10.1016/s0146-6291(77)80003-9",
+              "publication_date": "1977-03-01",
+              "publication_year": 1977,
+              "source_name": "Deep Sea Research",
+              "title": "Use of the perturbation technique to measure nutrient uptake rates of natural phytoplankton populations",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract Soil microbes are drivers of global ecosystem functionality and are continuously subjected to external perturbations. It is fundamental for ecologists and environmental scientists to understand and further predict the microbes’ responses to these perturbations. A major and ubiquitous perturbation is the addition of chemical nutrients, including fertilizers and animal urine, to soil. Recent biogeographical studies suggest that soil nutrient stoichiometry (i.e., nutritional balance) determines microbial community structure and its functions with regard to material circulation. Given this information, here, we show that soil nutrient stoichiometry, or the bioavailable C:P ratio, determines the impact of nutrient addition on the soil’s microbial communities. We sampled two soils with similar carbon and nitrogen concentrations but with a 20-fold difference in phosphorus bioavailability. Soil microcosms with carbon and nitrogen amendments were constructed for both the soils. The phosphorus-depleted soil received prolonged effect from carbon and nitrogen amendments: the phosphatase activity gradually increased over a 24-day incubation period and the microbial community structure did not present recovery to its initial state. In contrast, in the other soil, both phosphatase activity and microbial community structure gradually returned to those of the control samples. Phosphorus depletion mitigated carbon and nitrogen intake; therefore, the effects of carbon and nitrogen amendment lasted longer. Our results demonstrate that nutritional stoichiometry is a strong predictor of microbial community dynamics in response to trophic perturbation, particularly when considering the length of time the trait of perturbation persists in the soil.",
+              "doi": "https://doi.org/10.1101/323709",
+              "id": "https://doi.org/10.1101/323709",
+              "landing_page_url": "https://doi.org/10.1101/323709",
+              "publication_date": "2018-05-28",
+              "publication_year": 2018,
+              "source_name": null,
+              "title": "Soil nutrient stoichiometry affects the initial response of microbial community to trophic perturbation",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.4324/9780203765265-9",
+              "id": "https://doi.org/10.4324/9780203765265-9",
+              "landing_page_url": "https://doi.org/10.4324/9780203765265-9",
+              "publication_date": "2013-04-15",
+              "publication_year": 2013,
+              "source_name": "Language Experience and Early Language Development",
+              "title": "From Input to Uptake: Traversing a Methodological Minefield",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1094/grow-soy-06-09-032",
+              "id": "https://doi.org/10.1094/grow-soy-06-09-032",
+              "landing_page_url": "https://doi.org/10.1094/grow-soy-06-09-032",
+              "publication_date": "2009-06-01",
+              "publication_year": 2009,
+              "source_name": "Grow: Plant Health Exchange",
+              "title": "Soybean Fertility: Nutrient Uptake and Utilization (Part 2)",
+              "type": "dataset"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.7554/elife.31981.019",
+              "id": "https://doi.org/10.7554/elife.31981.019",
+              "landing_page_url": "https://doi.org/10.7554/elife.31981.019",
+              "publication_date": "2017-11-10",
+              "publication_year": 2017,
+              "source_name": null,
+              "title": "Decision letter: The yeast H+-ATPase Pma1 promotes Rag/Gtr-dependent TORC1 activation in response to H+-coupled nutrient uptake",
+              "type": "peer-review"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "nutrient input uptake tissue response perturbation",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=nutrient+input+uptake+tissue+response+perturbation&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        }
+      ],
+      "search_completed": true
+    }
+  },
+  "generated_at": "2026-08-22",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "b801ee3d2c8d9e3d376ab529fdbf1de0fdc037d5a42eccc4f294ae4f72d719a1",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Searches are frozen reproducible retrieval evidence within the declared provider, queries, cutoff, and result depth. They do not certify absence from all literature.",
+  "strict_before": "2020-01-01",
+  "target_doi_excluded": "10.1038/s41467-019-13889-6",
+  "task_id": "Life_07_nutrient_response_kinetics",
+  "release": "V1.0"
+}

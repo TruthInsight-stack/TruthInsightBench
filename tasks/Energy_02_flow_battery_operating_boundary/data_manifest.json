@@ -1,0 +1,68 @@
+{
+  "schema": "truthinsightbench-data-manifest",
+  "task_id": "Energy_02_flow_battery_operating_boundary",
+  "title": "Rate, Efficiency, Power, and Cycling Boundaries in a Flow-Electrochemical System",
+  "domain": "energy",
+  "t0": "2022-01-01",
+  "payload_mode": "bundled",
+  "payload_ready_after_checkout": true,
+  "scientific_scope": "All frozen charge-like and discharge-like curves, rate-dependent efficiency and power summaries, and the complete long-cycle capacity sequence in the task boundary.",
+  "analysis_unit": "One complete rate curve or the complete ordered cycling experiment; state-of-charge points and adjacent cycles are repeated observations.",
+  "missingness": "No curator-imposed row deletion, random subsampling, or imputation is applied within the frozen task boundary.",
+  "license_boundary": "The archived target article and source-data workbook are CC BY; the task bundles every numerical point in the frozen rate, summary, and cycling series.",
+  "warnings": [
+    "Anonymous rate labels preserve ordering but not source-device identity; interpretations must stay within the supplied system.",
+    "Short-rate curves and long-cycle data probe different failure modes and should not be treated as duplicate evidence."
+  ],
+  "variable_dictionary": {
+    "rate_dependent_voltage_curves.tsv": [
+      "scan_role",
+      "anonymous_rate_setting",
+      "state_of_charge_percent",
+      "cell_voltage_V"
+    ],
+    "rate_tradeoff_summaries.tsv": [
+      "summary_role",
+      "anonymous_rate_value",
+      "response_value",
+      "response_unit_role"
+    ],
+    "long_cycle_capacity.tsv": [
+      "cycle_index",
+      "capacity_like_value"
+    ]
+  },
+  "files": [
+    {
+      "path": "rate_dependent_voltage_curves.tsv",
+      "bytes": 39477,
+      "sha256": "ad25c508e67a6e6655e8ad26627138ce43f4b14a7c2d106586e2f45473595942",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "rate_tradeoff_summaries.tsv",
+      "bytes": 580,
+      "sha256": "8109ae000e3f6e91842d1b6d9f90ddcddc3cb737a668b74dce07f763158233b5",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    },
+    {
+      "path": "long_cycle_capacity.tsv",
+      "bytes": 8837,
+      "sha256": "f6febffe04971b6b0e280361937419153f40c57f71b255a18f65729215f9e853",
+      "role": "tabular_or_text_scientific_data",
+      "bundled": true,
+      "materialization_required": false
+    }
+  ],
+  "visibility": {
+    "agent_visible": true,
+    "answer_bearing_fields_present": false,
+    "target_identity_present": false
+  },
+  "task_evidence_boundary_complete": true,
+  "source_coverage_statement": "The bundled files are complete within the scientific_scope declared for this task. This does not assert that every variable, record, or file in the upstream scientific source is included."
+}

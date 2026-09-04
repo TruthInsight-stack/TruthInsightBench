@@ -1,0 +1,27 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "synthetic covalent modification cycle replicated response surface robust",
+        "mammalian cell signal processing tunable robust response"
+      ]
+    },
+    "B": {
+      "queries": [
+        "phosphoregulation normalized input output response invariant",
+        "synthetic signaling output channels normalized response shape"
+      ]
+    }
+  },
+  "frozen_at": "2026-08-22",
+  "provider": "OpenAlex_primary_with_Crossref_fallback",
+  "provider_api": [
+    "https://api.openalex.org/works",
+    "https://api.crossref.org/works"
+  ],
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2022-01-01",
+  "target_doi_excluded": "10.1038/s41467-022-29338-w",
+  "task_id": "Information_03_signal_surface_invariants",
+  "release": "V1.0"
+}
