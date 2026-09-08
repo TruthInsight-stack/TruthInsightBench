@@ -1,0 +1,427 @@
+{
+  "all_queries_completed": true,
+  "api_cutoff": "2021-12-31",
+  "cards": {
+    "A": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "Abstract Quantitative dynamical models are widely used to study cellular signal processing. A critical step in modeling is the estimation of unknown model parameters from experimental data. As model sizes and datasets are steadily growing, established parameter optimization approaches for mechanistic models become computationally extremely challenging. However, mini-batch optimization methods, as employed in deep learning, have better scaling properties. In this work, we adapt, apply, and benchmark mini-batch optimization for ordinary differential equation (ODE) models thereby establishing a direct link between dynamic modeling and machine learning. On our main application example, a large-scale model of cancer signaling, we benchmark mini-batch optimization against established methods, achieving better optimization results and reducing computation by more than an order of magnitude. We expect that our work will serve as a first step towards mini-batch optimization tailored to ODE models and enable modeling of even larger and more complex systems than what is currently possible.",
+              "doi": "https://doi.org/10.1101/859884",
+              "id": "https://doi.org/10.1101/859884",
+              "landing_page_url": "https://doi.org/10.1101/859884",
+              "publication_date": "2019-11-30",
+              "publication_year": 2019,
+              "source_name": null,
+              "title": "Mini-batch optimization enables training of ODE models on large-scale datasets",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1201/9780367473549-4",
+              "id": "https://doi.org/10.1201/9780367473549-4",
+              "landing_page_url": "https://doi.org/10.1201/9780367473549-4",
+              "publication_date": "2020-05-28",
+              "publication_year": 2020,
+              "source_name": "ODE/PDE Analysis of Multiple Myeloma",
+              "title": "ODE/PDE Model Parameter Analysis",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.2172/5294527",
+              "id": "https://doi.org/10.2172/5294527",
+              "landing_page_url": "https://doi.org/10.2172/5294527",
+              "publication_date": "1977-11-01",
+              "publication_year": 1977,
+              "source_name": null,
+              "title": "Starting an ODE solver. [Selection of initial step size]",
+              "type": "report"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1201/9781003240167-5",
+              "id": "https://doi.org/10.1201/9781003240167-5",
+              "landing_page_url": "https://doi.org/10.1201/9781003240167-5",
+              "publication_date": "2021-10-18",
+              "publication_year": 2021,
+              "source_name": "Stochastic Optimization for Large-scale Machine Learning",
+              "title": "Mini-batch and Block-coordinate Approach",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.7236/ijasc.2016.5.3.40",
+              "id": "https://doi.org/10.7236/ijasc.2016.5.3.40",
+              "landing_page_url": "https://doi.org/10.7236/ijasc.2016.5.3.40",
+              "publication_date": "2016-09-30",
+              "publication_year": 2016,
+              "source_name": "International journal of advanced smart convergence",
+              "title": "Mini-Batch Ensemble Method on Keystroke Dynamics based User Authentication",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1201/9781003240167-9",
+              "id": "https://doi.org/10.1201/9781003240167-9",
+              "landing_page_url": "https://doi.org/10.1201/9781003240167-9",
+              "publication_date": "2021-10-18",
+              "publication_year": 2021,
+              "source_name": "Stochastic Optimization for Large-scale Machine Learning",
+              "title": "Mini-batch Block-coordinate Newton Method",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/cso.2010.117",
+              "id": "https://doi.org/10.1109/cso.2010.117",
+              "landing_page_url": "https://doi.org/10.1109/cso.2010.117",
+              "publication_date": "2010-01-01",
+              "publication_year": 2010,
+              "source_name": "2010 Third International Joint Conference on Computational Science and Optimization",
+              "title": "Dynamic Analysis of Tall-Pier Aqueduct Using ODE Solver",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/cdc.2017.8264077",
+              "id": "https://doi.org/10.1109/cdc.2017.8264077",
+              "landing_page_url": "https://doi.org/10.1109/cdc.2017.8264077",
+              "publication_date": "2017-12-01",
+              "publication_year": 2017,
+              "source_name": "2017 IEEE 56th Annual Conference on Decision and Control (CDC)",
+              "title": "Mini-batch gradient descent: Faster convergence under data sparsity",
+              "type": "proceedings-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "ODE model optimization parameter convergence solver mini batch",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=ODE+model+optimization+parameter+convergence+solver+mini+batch&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        },
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "Abstract Quantitative dynamical models are widely used to study cellular signal processing. A critical step in modeling is the estimation of unknown model parameters from experimental data. As model sizes and datasets are steadily growing, established parameter optimization approaches for mechanistic models become computationally extremely challenging. However, mini-batch optimization methods, as employed in deep learning, have better scaling properties. In this work, we adapt, apply, and benchmark mini-batch optimization for ordinary differential equation (ODE) models thereby establishing a direct link between dynamic modeling and machine learning. On our main application example, a large-scale model of cancer signaling, we benchmark mini-batch optimization against established methods, achieving better optimization results and reducing computation by more than an order of magnitude. We expect that our work will serve as a first step towards mini-batch optimization tailored to ODE models and enable modeling of even larger and more complex systems than what is currently possible.",
+              "doi": "https://doi.org/10.1101/859884",
+              "id": "https://doi.org/10.1101/859884",
+              "landing_page_url": "https://doi.org/10.1101/859884",
+              "publication_date": "2019-11-30",
+              "publication_year": 2019,
+              "source_name": null,
+              "title": "Mini-batch optimization enables training of ODE models on large-scale datasets",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.5194/wcd-2020-57-rc2",
+              "id": "https://doi.org/10.5194/wcd-2020-57-rc2",
+              "landing_page_url": "https://doi.org/10.5194/wcd-2020-57-rc2",
+              "publication_date": "2021-03-13",
+              "publication_year": 2021,
+              "source_name": null,
+              "title": "Review on Atmospheric convergence zones stemming from large-scale mixing",
+              "type": "peer-review"
+            },
+            {
+              "abstract": "The Covid-19 pandemic provoked a paradigm shift never imagined by higher education institutions in the world, but especially in developing countries. Drawing on findings from a PhD study, this article aims to highlight the way in which Covid-19 accelerated professional development and training and technology adoption by academics in higher education institutions and large-scale open and distance learning institutions in Africa. A total of 20 academics and relevant stakeholders from two of Africa’s largest open and distance learning institutions were interviewed, and their views are reported. The data were analysed using thematic analysis. The findings show an increase in training and professional development of academics during the pandemic. The study also reveals the way in which Covid-19 fostered the speed and ease with which technology was adopted and used by academics for teaching and learning. The results of this research study may contribute to research of various topics on technology adoption and academics’ professional development and training and future approaches post-Covid-19.",
+              "doi": "https://doi.org/10.25159/unisarxiv/000016.v1",
+              "id": "https://doi.org/10.25159/unisarxiv/000016.v1",
+              "landing_page_url": "https://doi.org/10.25159/unisarxiv/000016.v1",
+              "publication_date": "2021-05-27",
+              "publication_year": 2021,
+              "source_name": null,
+              "title": "Covid-19 as an Accelerator for Training and Technology Adoption by Academics in Large-Scale Open and Distance Learning Institutions in Africa",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1080/0158791840050109",
+              "id": "https://doi.org/10.1080/0158791840050109",
+              "landing_page_url": "https://doi.org/10.1080/0158791840050109",
+              "publication_date": "2011-02-11",
+              "publication_year": 2011,
+              "source_name": "Distance Education",
+              "title": "Small‐scale and large‐scale organisational models of distance education: a discussion",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.21236/ada258182",
+              "id": "https://doi.org/10.21236/ada258182",
+              "landing_page_url": "https://doi.org/10.21236/ada258182",
+              "publication_date": "1992-10-01",
+              "publication_year": 1992,
+              "source_name": null,
+              "title": "Methods and Convergence Analysis in Large Scale Nonlinear Optimization",
+              "type": "report"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.2172/1086604",
+              "id": "https://doi.org/10.2172/1086604",
+              "landing_page_url": "https://doi.org/10.2172/1086604",
+              "publication_date": "2013-07-01",
+              "publication_year": 2013,
+              "source_name": null,
+              "title": "Large-Scale Wind Training Program",
+              "type": "report"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/tcns.2021.3068372",
+              "id": "https://doi.org/10.1109/tcns.2021.3068372",
+              "landing_page_url": "https://doi.org/10.1109/tcns.2021.3068372",
+              "publication_date": "2021-09-01",
+              "publication_year": 2021,
+              "source_name": "IEEE Transactions on Control of Network Systems",
+              "title": "Totally Asynchronous Large-Scale Quadratic Programming: Regularization, Convergence Rates, and Parameter Selection",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-1-4684-6754-3_7",
+              "id": "https://doi.org/10.1007/978-1-4684-6754-3_7",
+              "landing_page_url": "https://doi.org/10.1007/978-1-4684-6754-3_7",
+              "publication_date": "1987-01-01",
+              "publication_year": 1987,
+              "source_name": "Large Scale Scientific Computing",
+              "title": "Numerical Pathfollowing Beyond Critical Points in ODE Models",
+              "type": "book-chapter"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "large scale ODE training parameter distance convergence",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=large+scale+ODE+training+parameter+distance+convergence&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        }
+      ],
+      "search_completed": true
+    },
+    "B": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/s00285-013-0724-0",
+              "id": "https://doi.org/10.1007/s00285-013-0724-0",
+              "landing_page_url": "https://doi.org/10.1007/s00285-013-0724-0",
+              "publication_date": "2013-08-30",
+              "publication_year": 2013,
+              "source_name": "Journal of Mathematical Biology",
+              "title": "Parameter non-identifiability of the Gyllenberg–Webb ODE model",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1201/9781315120003-3",
+              "id": "https://doi.org/10.1201/9781315120003-3",
+              "landing_page_url": "https://doi.org/10.1201/9781315120003-3",
+              "publication_date": "2020-05-10",
+              "publication_year": 2020,
+              "source_name": "Parameter Redundancy and Identifiability",
+              "title": "Parameter Redundancy and Identifiability Definitions and Theory",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1201/9781315120003-5",
+              "id": "https://doi.org/10.1201/9781315120003-5",
+              "landing_page_url": "https://doi.org/10.1201/9781315120003-5",
+              "publication_date": "2020-05-10",
+              "publication_year": 2020,
+              "source_name": "Parameter Redundancy and Identifiability",
+              "title": "Detecting Parameter Redundancy and Identifiability in Complex Models",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1201/9781315120003-4",
+              "id": "https://doi.org/10.1201/9781315120003-4",
+              "landing_page_url": "https://doi.org/10.1201/9781315120003-4",
+              "publication_date": "2020-05-10",
+              "publication_year": 2020,
+              "source_name": "Parameter Redundancy and Identifiability",
+              "title": "Practical General Methods for Detecting Parameter Redundancy and Identifiability",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1201/9781315120003-6",
+              "id": "https://doi.org/10.1201/9781315120003-6",
+              "landing_page_url": "https://doi.org/10.1201/9781315120003-6",
+              "publication_date": "2020-05-10",
+              "publication_year": 2020,
+              "source_name": "Parameter Redundancy and Identifiability",
+              "title": "Bayesian Identifiability",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1017/9781108755528.003",
+              "id": "https://doi.org/10.1017/9781108755528.003",
+              "landing_page_url": "https://doi.org/10.1017/9781108755528.003",
+              "publication_date": "2020-01-23",
+              "publication_year": 2020,
+              "source_name": "Foundations of Data Science",
+              "title": "Best-Fit Subspaces and Singular Value Decomposition (SVD)",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0378-4754(82)90647-4",
+              "id": "https://doi.org/10.1016/0378-4754(82)90647-4",
+              "landing_page_url": "https://doi.org/10.1016/0378-4754(82)90647-4",
+              "publication_date": "1982-12-01",
+              "publication_year": 1982,
+              "source_name": "Mathematics and Computers in Simulation",
+              "title": "Parameter identifiability for partial differential equations",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract This paper investigates the singular Dirichlet problem –𝑢″ = 𝑓(𝑡, 𝑢, 𝑢′), 𝑢(0) = 0, 𝑢(𝑇) = 0, where 𝑓 satisfies the Carathéodory conditions on the set and . The function 𝑓(𝑡, 𝑥, 𝑦) can have time singularities at 𝑡 = 0 and 𝑡 = 𝑇 and space singularities at 𝑥 = 0 and 𝑦 = 0. The existence principle for the above problem is given and its application is presented here. The paper provides conditions which guarantee the existence of a solution which is positive on (0 ; T ) and which has the absolutely continuous first derivative on [0, 𝑇].",
+              "doi": "https://doi.org/10.1515/gmj.2007.325",
+              "id": "https://doi.org/10.1515/gmj.2007.325",
+              "landing_page_url": "https://doi.org/10.1515/gmj.2007.325",
+              "publication_date": "2010-03-10",
+              "publication_year": 2010,
+              "source_name": "gmj",
+              "title": "Singular Dirichlet Boundary Value Problem for Second Order Ode",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "ODE parameter identifiability singular value spectrum simulation fit",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=ODE+parameter+identifiability+singular+value+spectrum+simulation+fit&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        },
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1360/n112016-00054",
+              "id": "https://doi.org/10.1360/n112016-00054",
+              "landing_page_url": "https://doi.org/10.1360/n112016-00054",
+              "publication_date": "2016-12-09",
+              "publication_year": 2016,
+              "source_name": "SCIENTIA SINICA Informationis",
+              "title": "Pole assignment for a singular distributed parameter system coupled with a singular lumped parameter system}{Pole assignment for a singular distributed parameter system coupled with a singular lumped parameter system",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/cdc42340.2020.9304055",
+              "id": "https://doi.org/10.1109/cdc42340.2020.9304055",
+              "landing_page_url": "https://doi.org/10.1109/cdc42340.2020.9304055",
+              "publication_date": "2020-12-14",
+              "publication_year": 2020,
+              "source_name": "2020 59th IEEE Conference on Decision and Control (CDC)",
+              "title": "Nonlinear Dynamical Analysis for an Ethanol Steam Reformer: A Singular Distributed Parameter System",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1080/0232929031000106507",
+              "id": "https://doi.org/10.1080/0232929031000106507",
+              "landing_page_url": "https://doi.org/10.1080/0232929031000106507",
+              "publication_date": "2003-08-01",
+              "publication_year": 2003,
+              "source_name": "Systems Analysis Modelling Simulation",
+              "title": "Non-Regular, Incomplete And Singular Dynamical Systems: Impasse Points In Dynamical Systems",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/incos.2016.28",
+              "id": "https://doi.org/10.1109/incos.2016.28",
+              "landing_page_url": "https://doi.org/10.1109/incos.2016.28",
+              "publication_date": "2016-09-01",
+              "publication_year": 2016,
+              "source_name": "2016 International Conference on Intelligent Networking and Collaborative Systems (INCoS)",
+              "title": "Numerical Investigation of Initial Condition and Singular Perturbation Parameter Value Influence on the Dynamical System Oscillatory Behaviour",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1080/03610918.2016.1217010",
+              "id": "https://doi.org/10.1080/03610918.2016.1217010",
+              "landing_page_url": "https://doi.org/10.1080/03610918.2016.1217010",
+              "publication_date": "2017-04-17",
+              "publication_year": 2017,
+              "source_name": "Communications in Statistics - Simulation and Computation",
+              "title": "A comparison of stepwise common singular spectrum analysis and horizontal multi-channel singular spectrum analysis",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.measurement.2018.10.069",
+              "id": "https://doi.org/10.1016/j.measurement.2018.10.069",
+              "landing_page_url": "https://doi.org/10.1016/j.measurement.2018.10.069",
+              "publication_date": "2019-02-01",
+              "publication_year": 2019,
+              "source_name": "Measurement",
+              "title": "Multi-parameter dynamical measuring system using fibre Bragg grating sensors for industrial hydraulic piping",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1142/9789814542241",
+              "id": "https://doi.org/10.1142/9789814542241",
+              "landing_page_url": "https://doi.org/10.1142/9789814542241",
+              "publication_date": "2016-05-30",
+              "publication_year": 2016,
+              "source_name": "Dynamical Systems and Singular Phenomena",
+              "title": "DYNAMICAL SYSTEMS AND SINGULAR PHENOMENA",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1515/9781400852758.223",
+              "id": "https://doi.org/10.1515/9781400852758.223",
+              "landing_page_url": "https://doi.org/10.1515/9781400852758.223",
+              "publication_date": "2014-12-31",
+              "publication_year": 2014,
+              "source_name": "Multi-parameter Singular Integrals",
+              "title": "4. Multi-parameter Singular Integrals I: Examples",
+              "type": "book-chapter"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "dynamical system parameter sloppiness singular spectrum measurement simulation",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=dynamical+system+parameter+sloppiness+singular+spectrum+measurement+simulation&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        }
+      ],
+      "search_completed": true
+    }
+  },
+  "generated_at": "2026-08-22",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "020b85245eeff867a92d0f59d25bba7241c8f046ef4be836610f566e3ba25510",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Searches are frozen reproducible retrieval evidence within the declared provider, queries, cutoff, and result depth. They do not certify absence from all literature.",
+  "strict_before": "2022-01-01",
+  "target_doi_excluded": "10.1038/s41467-021-27374-6",
+  "task_id": "Math_03_ode_parameter_geometry",
+  "release": "V1.0"
+}

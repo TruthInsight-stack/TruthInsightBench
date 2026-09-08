@@ -1,0 +1,8 @@
+{
+  "schema": "truthinsightbench-source-attribution",
+  "release": "V1.0",
+  "task_id": "Physics_03_controlled_dynamics_forecast",
+  "title": "Forecasting the outcome of spintronic experiments with Neural Ordinary Differential Equations",
+  "doi": "10.1038/s41467-022-28571-7",
+  "first_publication_date": "2022-02-23"
+}

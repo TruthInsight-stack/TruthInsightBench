@@ -1,0 +1,27 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "astrocyte calcium peak width receptor stimulation brain region",
+        "region specific astrocyte calcium response peak duration"
+      ]
+    },
+    "B": {
+      "queries": [
+        "astrocyte calcium event frequency prominence regional subtype",
+        "calcium imaging region response profile peak width frequency"
+      ]
+    }
+  },
+  "frozen_at": "2026-08-22",
+  "provider": "OpenAlex_primary_with_Crossref_fallback",
+  "provider_api": [
+    "https://api.openalex.org/works",
+    "https://api.crossref.org/works"
+  ],
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2020-01-01",
+  "target_doi_excluded": "10.1038/s41467-019-14198-8",
+  "task_id": "Neuro_02_calcium_response_regions",
+  "release": "V1.0"
+}

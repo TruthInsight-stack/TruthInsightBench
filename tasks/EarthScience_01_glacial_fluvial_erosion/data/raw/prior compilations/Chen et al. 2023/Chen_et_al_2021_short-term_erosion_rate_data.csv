@@ -1,0 +1,1522 @@
+Country,Location,Station ID,Short-term erosion rate (mm kyr^-1),Basin area (km^2),Latitude,Longitude,Koppen¡VGeiger classification,Aridity Index,Aridity Index category,Reference
+Bolivia,SIR,,2800,270,-16.453119,-67.260455,Cf,0.9256,Semi-arid,Aalto et al. 2006 
+Bolivia,TAM,,950,950,-16.675232,-67.089213,Cf,0.817,Semi-arid,Aalto et al. 2006 
+Bolivia,VBA,,1550,1900,-17.03055,-66.99166,Cw,0.7033,Humid,Aalto et al. 2006 
+Bolivia,HUL,,1530,17,-16.520669,-67.863177,Cw,0.6525,Humid,Aalto et al. 2006 
+Bolivia,ACH,,2000,38,-16.442118,-67.43696,Cf,0.7752,Humid,Aalto et al. 2006 
+Bolivia,LUR,,2980,810,-16.983579,-67.664867,Cw,0.4698,Semi-arid,Aalto et al. 2006 
+Bolivia,POR,,1250,240,-16.911908,-67.596507,Cw,0.4057,Semi-arid,Aalto et al. 2006 
+Bolivia,VER,,30,140,-16.864313,-67.504867,Cw,0.5298,Dry sub-humid,Aalto et al. 2006 
+Bolivia,MIG,,50,360,-16.855235,-67.528119,Cw,0.4297,Semi-arid,Aalto et al. 2006 
+Bolivia,CAJ,,6910,6500,-17.019454,-66.695035,Cw,0.7245,Humid,Aalto et al. 2006 
+Bolivia,COT,,2730,5600,-16.820792,-66.849332,Cw,0.7627,Humid,Aalto et al. 2006 
+Bolivia,MIS,,10,350,-16.966878,-66.771099,Cw,0.7816,Semi-arid,Aalto et al. 2006 
+Bolivia,VIN,,20,50,-17.056067,-66.718078,Cw,0.7081,Humid,Aalto et al. 2006 
+Bolivia,LOC,,1260,200,-17.334535,-65.896804,Cw,0.5781,Humid,Aalto et al. 2006 
+Bolivia,SPE,,4130,320,-17.326073,-65.860209,Cw,0.7244,Humid,Aalto et al. 2006 
+Bolivia,ICO,,1870,2300,-17.263954,-65.901148,Cw,1.005,Humid,Aalto et al. 2006 
+Bolivia,BER,,470,480,-18.182876,-63.558096,Aw,0.6129,Dry sub-humid,Aalto et al. 2006 
+Bolivia,ELV,,180,64,-17.880736,-63.336416,Aw,0.7746,Humid,Aalto et al. 2006 
+Bolivia,EPS,,780,203,-17.872036,-63.29513,Aw,0.7712,Humid,Aalto et al. 2006 
+Bolivia,AMO,,5170,9200,-17.723845,-66.232655,BSk,0.3114,Semi-arid,Aalto et al. 2006 
+Bolivia,HUR,,480,11200,-18.338545,-65.466712,Cw,0.3743,Semi-arid,Aalto et al. 2006 
+Bolivia,PNA,,2500,31200,-18.463728,-64.366111,BSh,0.4298,Semi-arid,Aalto et al. 2006 
+Bolivia,MIZ,,490,10800,-18.460624,-64.356253,BSh,0.3903,Semi-arid,Aalto et al. 2006 
+Bolivia,PAZ,,190,4360,-20.092672,-63.894546,BSh,0.4785,Semi-arid,Aalto et al. 2006 
+Bolivia,SAN,,980,7500,-20.343639,-63.043456,Aw,0.4086,Semi-arid,Aalto et al. 2006 
+Bolivia,AT,,710,6340,-19.036109,-65.398446,Cw,0.4601,Semi-arid,Aalto et al. 2006 
+Bolivia,NU,,260,1600,-19.26653,-65.293784,BSk,0.3751,Semi-arid,Aalto et al. 2006 
+Bolivia,VQ,,630,13200,-19.36306,-64.906863,BSk,0.326,Semi-arid,Aalto et al. 2006 
+Bolivia,SL,,40,4200,-20.170268,-65.875017,BSk,0.2024,Semi-arid,Aalto et al. 2006 
+Bolivia,EP,,50,20100,-21.151333,-65.20441,BSk,0.2897,Semi-arid,Aalto et al. 2006 
+Bolivia,CH,,120,42900,-21.020216,-64.973511,BSk,0.3288,Semi-arid,Aalto et al. 2006 
+Bolivia,SJ,,250,47500,-21.148714,-64.208674,Cw,0.4997,Semi-arid,Aalto et al. 2006 
+Bolivia,VI,,330,81300,-21.291901,-63.426782,Cw,0.4407,Semi-arid,Aalto et al. 2006 
+Bolivia,CAB,,80,230,-21.335109,-64.601616,Cw,0.3431,Semi-arid,Aalto et al. 2006 
+Bolivia,OB,,160,920,-21.445043,-64.63953,Cw,0.3375,Semi-arid,Aalto et al. 2006 
+Bolivia,TO,,1230,460,-21.479739,-64.659219,Cw,0.3382,Semi-arid,Aalto et al. 2006 
+Bolivia,SA,,80,290,-21.57527,-64.144271,Cw,0.4843,Semi-arid,Aalto et al. 2006 
+Bolivia,PA,,190,220,-21.561074,-64.152017,Cw,0.502,Semi-arid,Aalto et al. 2006 
+Bolivia,AQM,,1470,9400,-16.32861,-67.555,Cf,0.8073,Humid,Aalto et al. 2006 
+Bolivia,SRC,,570,4700,-16.72666,-67.1925,Cf,0.8171,Humid,Aalto et al. 2006 
+Bolivia,AIN,,1430,29900,-16.69888,-66.73083,Cf,0.7959,Humid,Aalto et al. 2006 
+Bolivia,AB,,1210,67500,-15.88722,-66.84861,Cf,1.2256,Humid,Aalto et al. 2006 
+Bolivia,LBE,,300,2880,-17.733042,-63.201786,Aw,0.7767,Humid,Aalto et al. 2006 
+Nepal,Bhote Koshi,,100,2308,27.75,85.26,Cw,2.0686,Humid,Andermann et al. 2012
+Nepal,Upper Karnali,,400,21121,28.95,81.44,Cw,0.8692,Humid,Andermann et al. 2012
+Nepal,Karnali,,900,45967,28.64,81.29,Cw,1.2202,Humid,Andermann et al. 2012
+Nepal,Saradha,,200,808,27.64,82.02,Cw,0.8117,Humid,Andermann et al. 2012
+Nepal,Upper Rapti,,1900,3648,27.9,82.85,Cw,0.9382,Humid,Andermann et al. 2012
+Nepal,Rapti,,1000,5197,27.95,82.23,Cw,0.9949,Humid,Andermann et al. 2012
+Nepal,Kali-Gandaki,,2800,7170,28.01,83.6,Cw,1.2938,Humid,Andermann et al. 2012
+Nepal,Trishuli,,300,4428,27.97,85.18,Cw,1.3848,Humid,Andermann et al. 2012
+Nepal,Narayani,,1500,32002,27.71,84.43,Cw,1.3008,Humid,Andermann et al. 2012
+Nepal,Bagmati,,600,2849,27.11,85.48,Cw,1.2319,Humid,Andermann et al. 2012
+Nepal,Sapta-Koshi,,900,54024,28.87,87.16,Cw,0.323,Semi-arid,Andermann et al. 2012
+Nepal,Kankai Mai,,500,1172,26.7,87.88,Cw,1.6664,Humid,Andermann et al. 2012
+US,Rio Puerco New Mexico,,405.625,1117,35.60088,-107.16661,Df,0.1869,Arid,Bierman et al. 2005
+US,Rio Puerco New Mexico,,437.5,2220,35.59225,-107.18944,Df,0.1774,Arid,Bierman et al. 2005
+US,Rio Puerco New Mexico,,151.25,16153,34.41027,-106.85444,BSk,0.14,Arid,Bierman et al. 2005
+US,Rio Puerco New Mexico,,290.625,14946,34.79388,-106.98888,BWk,0.1455,Arid,Bierman et al. 2005
+US,Rio Puerco New Mexico,,42.5,7122,34.96805,-107.18638,BWk,0.1605,Arid,Bierman et al. 2005
+US,Luquillo Forest Puerto Rico,,126.25,3.26,18.27722,-65.78583,Af,2.2135,Humid,Brown et al. 1995
+Israel,Nahal Yael,,78.4375,0.6,29.589716,34.945205,BWh,0.0207,Hyper-arid,Clapp et al. 2000
+Taiwan,Fengshan,,3004.807692,208,24.82568199,121.065689,Cf,1.6489,Humid,Dadson et al. 2005
+Taiwan,Taan,,6911.532385,633,24.34237015,120.7378687,Cf,1.5632,Humid,Dadson et al. 2005
+Taiwan,Tachia,,1498.800959,417,24.29176851,121.251931,Cf,2.8108,Humid,Dadson et al. 2005
+Taiwan,Choshui,,11291.40181,2989,23.83663005,120.3986595,Cf,1.0228,Humid,Dadson et al. 2005
+Taiwan,Pachang,,8503.401361,441,23.32845915,120.2526709,Cf,1.1777,Humid,Dadson et al. 2005
+Taiwan,Tsengwen,,13504.75367,1157,23.10740932,120.2064148,Cf,1.298,Humid,Dadson et al. 2005
+Taiwan,Peinan,,34722.22222,1584,22.792183,121.145926,Cf,1.4557,Humid,Dadson et al. 2005
+Taiwan,Hsiukuluan,,8934.372969,1539,23.48497392,121.4046949,Cf,1.7083,Humid,Dadson et al. 2005
+Taiwan,Hualien,,12865.20584,1506,23.92272245,121.5995978,Cf,1.6392,Humid,Dadson et al. 2005
+Taiwan,Hoping,,16952.98373,553,24.32453858,121.7433818,Cf,2.3217,Humid,Dadson et al. 2005
+Taiwan,Tanshui (1140H058),,742.280285,842,25.07871558,121.6895426,Cf,3.3785,Humid,Dadson et al. 2005
+Taiwan,Tanshui (1140H066),,1498.002663,751,24.98943188,121.5290823,Cf,2.1312,Humid,Dadson et al. 2005
+Taiwan,Tanshui (1140H067),,5208.333333,204,24.94498386,121.3533713,Cf,1.8017,Humid,Dadson et al. 2005
+Taiwan,Nankang,,512.295082,122,25.05595866,121.2811767,Cf,1.614,Humid,Dadson et al. 2005
+Taiwan,Touchien,,1878.757515,499,24.80788118,121.0194744,Cf,1.593,Humid,Dadson et al. 2005
+Taiwan,Chungkang,,6060.606061,165,24.64277882,120.9568968,Cf,1.7381,Humid,Dadson et al. 2005
+Taiwan,Houlung,,3840.042373,472,24.59488816,120.8255058,Cf,1.4695,Humid,Dadson et al. 2005
+Taiwan,Wu,,3091.872792,1981,24.10594951,120.5822001,Cf,1.2207,Humid,Dadson et al. 2005
+Taiwan,Peikang,,2303.18258,597,23.56276545,120.3011779,Cf,1.1671,Humid,Dadson et al. 2005
+Taiwan,Potzu,,4541.522491,289,23.46822812,120.2285628,Cf,1.139,Humid,Dadson et al. 2005
+Taiwan,Chishui,,4955.947137,227,23.29586614,120.3129898,Cf,1.3544,Humid,Dadson et al. 2005
+Taiwan,Yenshui,,4708.90411,146,23.0583003,120.2768764,Cf,1.3479,Humid,Dadson et al. 2005
+Taiwan,Kaoping,,9956.111834,3076,22.65075329,120.4392524,Cf,1.5765,Humid,Dadson et al. 2005
+Taiwan,Tungkang,,1428.571429,175,22.5685104,120.5437687,Cf,1.9312,Humid,Dadson et al. 2005
+Taiwan,Linpien,,6653.225806,310,22.4619907,120.5501721,Cf,1.8084,Humid,Dadson et al. 2005
+Taiwan,Chihpen,,13554.21687,166,22.69461651,121.0219169,Cf,1.8145,Humid,Dadson et al. 2005
+Taiwan,Nanao,,8823.529412,170,24.46025479,121.7885742,Cf,2.4986,Humid,Dadson et al. 2005
+US,Arroyo de los Frijoles Watershed New Mexico,,86.875,0.155,35.75833,-106.025,Df,0.2786,Semi-arid,Gellis et al. 2005
+US,Volcano Hill Wash New Mexico,,372.5,9.3,34.836173,-107.366331,BSk,0.1653,Arid,Gellis et al. 2012
+US,Arroyo Chavez New Mexico,,748.125,2.11,35.650265,-107.080279,Df,0.2022,Semi-arid,Gellis et al. 2012
+Sri Lanka,Atabage oya Upper Mahaweli catchment,,224.375,44,7.134602,80.597586,Af,1.8971,Humid,Hewawasam et al. 2003
+Sri Lanka,Nilambe oya Upper Mahaweli catchment,,83.75,62,7.188371,80.631262,Af,1.7432,Humid,Hewawasam et al. 2003
+Sri Lanka,Huluganga Upper Mahaweli catchment,,140,123,7.32811,80.744407,Am,1.5742,Humid,Hewawasam et al. 2003
+Sri Lanka,Maha oya Upper Mahaweli catchment,,246.875,107,7.193483,80.765285,Am,1.7305,Humid,Hewawasam et al. 2003
+Sri Lanka,Belihul oya Upper Mahaweli catchment,,345.625,146,7.166347,80.842949,Cf,1.5897,Humid,Hewawasam et al. 2003
+Sri Lanka,Uma oya (1) Upper Mahaweli catchment,,1325,740,7.191092,80.946123,Am,1.2316,Humid,Hewawasam et al. 2003
+Sri Lanka,Uma oya (2) Upper Mahaweli catchment,,1007.5,98,6.906155,80.909621,Cf,1.3102,Humid,Hewawasam et al. 2003
+Sri Lanka,Peradeniya Upper Mahaweli catchment,,279.375,565,7.264146,80.593624,Af,1.4234,Humid,Hewawasam et al. 2003
+Sri Lanka,Polgolla Upper Mahaweli catchment,,253.125,721,7.321843,80.645263,Am,1.2307,Humid,Hewawasam et al. 2003
+Sri Lanka,Victoria Upper Mahaweli catchment,,318.75,16,7.241098,80.785,Am,1.7839,Humid,Hewawasam et al. 2003
+India,Ganga Ganga basin,,11643.83562,32650,26.613,80.276,Cw,0.502,Dry sub-humid,Hewawasam et al. 2003
+India,Karnali Ganga basin,,624.7087912,72010,25.78,84.631,Cw,0.6305,Dry sub-humid,Hewawasam et al. 2003
+India,Narayani/Gandak Ganga basin,,1172.25625,34450,25.679,85.194,Cw,0.6383,Dry sub-humid,Hewawasam et al. 2003
+India,Kosi Ganga basin,,864,56210,25.543,86.725,Cw,0.7087,Humid,Hewawasam et al. 2003
+India,Ganga Bangladesh Ganga basin,,651.5151515,220150,24.053,89.025,Cw,1.0553,Humid,Hewawasam et al. 2003
+Germany,Iller Kempten,,108.0625,953,47.725019,10.322808,Cf,1.3337,Humid,Hinderer 2001
+Germany,Tiroler Ache Marquartstein,,154,945,47.757631,12.464313,Df,1.2597,Humid,Hinderer 2001
+Germany,Inn Reisach,,159.25,9756,47.663058,12.184265,Df,1.1359,Humid,Hinderer 2001
+Italy,Sarca Ponte Pia,,75.375,575,46.054163,10.817747,Df,0.9806,Humid,Hinderer 2001
+Germany,Ammer Weilheim,,71,,47.847526,11.135716,Df,1.2183,Humid,Hinderer et al. 2013
+Germany,Iller Krugzell,,123,,47.798584,10.270678,Df,1.3249,Humid,Hinderer et al. 2013
+Germany,Iller Wiblingen,,25,,48.368076,9.992858,Cf,0.9935,Humid,Hinderer et al. 2013
+Germany,Isar Sylvenstein,,72,1100,47.585664,11.549304,Df,1.2768,Humid,Hinderer et al. 2013
+Germany,Isar Munchen,,18,,48.146096,11.596351,Df,1.1889,Humid,Hinderer et al. 2013
+Germany,Isar Plattling,,12,,48.770532,12.882603,Df,1.0061,Humid,Hinderer et al. 2013
+Germany,Kotlaine,,1022,,47.684116,11.445567,Df,1.4074,Humid,Hinderer et al. 2013
+Germany,Lainbach,,327,,47.698062,11.426035,Df,1.304,Humid,Hinderer et al. 2013
+Germany,Lech Feldheim,,17,,48.728138,10.92143,Cf,0.9591,Humid,Hinderer et al. 2013
+Germany,Loisach Schlehdorf,,41,,47.668086,11.324406,Df,1.2027,Humid,Hinderer et al. 2013
+Germany,Saalach Unterjettenburg,,186,,47.682504,12.820497,Df,1.3594,Humid,Hinderer et al. 2013
+Germany,Tiroler Achen Staudach,,113,,47.78111,12.467267,Df,1.2639,Humid,Hinderer et al. 2013
+Germany,Traun Altenmarkt/Stein,,46,,47.99212,12.54144,Df,1.281,Humid,Hinderer et al. 2013
+Germany,Weissach Tegernsee,,50,,47.692274,11.748789,Df,1.2744,Humid,Hinderer et al. 2013
+Germany,Wertach Turkheim,,22,,48.062858,10.651972,Cf,1.2426,Humid,Hinderer et al. 2013
+Germany,Wertach Schwabmunchen,,63,,48.176039,10.730824,Cf,1.1794,Humid,Hinderer et al. 2013
+Germany,Inn Kufstein,,92,,47.580624,12.165343,Df,1.1356,Humid,Hinderer et al. 2013
+Germany,Inn Oberaudorf,,74,,47.651167,12.193516,Df,1.1358,Humid,Hinderer et al. 2013
+Germany,Inn Rosenheim,,84,,47.850843,12.138252,Df,1.1406,Humid,Hinderer et al. 2013
+Germany,Inn Wasserburg,,96,,48.059009,12.231856,Df,1.153,Humid,Hinderer et al. 2013
+Germany,Inn Neuotting,,102,,48.250044,12.691742,Df,1.1859,Humid,Hinderer et al. 2013
+Germany,Inn Passau,,64,,48.572081,13.467219,Df,1.0935,Humid,Hinderer et al. 2013
+Germany,Salzach Laufen,,118,,47.940483,12.931802,Df,1.3211,Humid,Hinderer et al. 2013
+Germany,Salzach Burghausen,,131,,48.159071,12.83486,Df,1.2436,Humid,Hinderer et al. 2013
+Switzerland,Emme Wiler,,21,,47.177015,7.562246,Df,1.1546,Humid,Hinderer et al. 2013
+Switzerland,Thur Halden,,81,,47.505568,9.211388,Df,1.3402,Humid,Hinderer et al. 2013
+Switzerland,LArve Geneve,,179,,46.180465,6.159181,Df,1.0771,Humid,Hinderer et al. 2013
+Switzerland,Dongia Valle di Blenio,,20,,46.431282,8.974472,Df,1.6172,Humid,Hinderer et al. 2013
+Switzerland,Val Roseg Pontresina,,184,,46.486734,9.906245,Df,2.0756,Humid,Hinderer et al. 2013
+Switzerland,Ticino Bellinzona,,102,1515,46.19411,9.012322,Df,1.5194,Humid,Hinderer et al. 2013
+Switzerland,Maggia Locarno,,82,,46.168867,8.772829,Df,1.4728,Humid,Hinderer et al. 2013
+Switzerland,Moesa Lumino,,35,,46.223092,9.055264,Df,1.6428,Humid,Hinderer et al. 2013
+Austria,Drau Rosegg,,76,,46.582718,14.04108,Df,1.3267,Humid,Hinderer et al. 2013
+Austria,Enns Liezen,,48,,47.552163,14.250557,Df,1.7125,Humid,Hinderer et al. 2013
+Austria,Enns Grobreifling,,43,,47.668005,14.713764,Df,1.1676,Humid,Hinderer et al. 2013
+Austria,Gail Gailitz,,90,,46.57082,13.721433,Df,1.5017,Humid,Hinderer et al. 2013
+Austria,Steyr Steyrdurchbruch,,46,,47.863882,14.19713,Df,1.2582,Humid,Hinderer et al. 2013
+France,Rhone mouth Mediterranean,,136,,43.424545,4.739944,Cs,0.6419,Dry sub-humid,Hinderer et al. 2013
+France,Durance Mirabeau,,440,,43.693134,5.674058,Cs,0.7441,Humid,Hinderer et al. 2013
+France,Isere,,128,,45.197896,5.733174,Df,0.9346,Humid,Hinderer et al. 2013
+France,Asse,,254,,43.879708,5.90294,Cs,0.7698,Humid,Hinderer et al. 2013
+France,Bleone,,244,,44.044039,6.035379,Cs,0.8315,Humid,Hinderer et al. 2013
+France,Ferrand,,137,,45.053256,6.141536,Df,1.1988,Humid,Hinderer et al. 2013
+France,Romanche,,226,,45.03862,6.183521,Df,1.3283,Humid,Hinderer et al. 2013
+Italy,Adda Tirano,,103,,46.212283,10.166247,Df,0.9723,Humid,Hinderer et al. 2013
+Italy,Adda Pizzighettone,,68,,45.18722,9.8018,Cf,0.8147,Humid,Hinderer et al. 2013
+Italy,Dora Baltea Tavagnasco,,301,,45.548028,7.828094,Df,0.9339,Humid,Hinderer et al. 2013
+Italy,Oglio Marcaria,,18,,45.113008,10.529328,Cf,0.8504,Humid,Hinderer et al. 2013
+Italy,Po Casale Monferrato,,20,,45.142801,8.45022,Cf,0.962,Humid,Hinderer et al. 2013
+Italy,Po Becca,,43,,45.138388,9.218711,Cf,0.9676,Humid,Hinderer et al. 2013
+Italy,Sesia Vercelli,,40,,45.332646,8.444666,Cf,0.984,Humid,Hinderer et al. 2013
+Italy,Brenta Bassano,,25,,45.764639,11.726152,Cf,1.002,Humid,Hinderer et al. 2013
+Italy,Cismon Cismon,,213,,45.931642,11.737937,Cf,1.0243,Humid,Hinderer et al. 2013
+Italy,Etsch/Adige Trento,,91,,46.071235,11.116136,Df,0.8936,Humid,Hinderer et al. 2013
+Italy,Rio Cordon Dolomites,,59,,46.451994,12.0964,Df,1.566,Humid,Hinderer et al. 2013
+Italy,Sauglio Turin,,63,,44.993172,7.747066,Cf,0.8786,Humid,Hinderer et al. 2013
+Italy,Sextenbach Dolomites,,129,,46.712562,12.324371,Df,1.1238,Humid,Hinderer et al. 2013
+Italy,Tanaro Nucetto,,82,375,44.339008,8.060108,Cs,0.9726,Humid,Hinderer et al. 2013
+Italy,Tanaro Clavesana,,112,,44.481524,7.900587,Cf,0.8463,Humid,Hinderer et al. 2013
+Italy,Tanaro Farigliano,,87,1522,44.509576,7.911549,Cf,0.8413,Humid,Hinderer et al. 2013
+Italy,Tanaro Alessandria,,74,,44.918511,8.608884,Cf,1.0187,Humid,Hinderer et al. 2013
+Italy,Tanaro Montecastello,,120,7985,44.946434,8.682633,Cf,1.0372,Humid,Hinderer et al. 2013
+US,West Fork Horse Creek Idaho,,3.125,17,45.407823,-114.72055,Df,0.3878,Semi-arid,Kirchner et al. 2001
+US,East Fork Horse Creek Idaho,,1.5625,14,45.990356,-115.332391,Df,0.7314,Humid,Kirchner et al. 2001
+US,Tailholt Creek Idaho,,8.75,6.6,45.042555,-115.677516,Ds,0.5779,Dry sub-humid,Kirchner et al. 2001
+US,Circle End Creek Idaho,,4.0625,3.8,45.046822,-115.667324,Ds,0.5584,Dry sub-humid,Kirchner et al. 2001
+US,Trapper Creek Idaho,,6.125,20,42.182814,-113.941374,BSk,0.2684,Semi-arid,Kirchner et al. 2001
+US,South Fork Red River Idaho,,5,98,45.711007,-115.344867,Df,0.7104,Humid,Kirchner et al. 2001
+US,Johns Creek Idaho,,4.75,293,45.823778,-115.890082,Df,0.6028,Dry sub-humid,Kirchner et al. 2001
+US,Johns Creek Idaho,,4.75,2149,46.145386,-115.981344,Ds,0.543,Dry sub-humid,Kirchner et al. 2001
+US,Lochsa River Idaho,,16.4375,3055,46.142431,-115.59806,Ds,0.6184,Dry sub-humid,Kirchner et al. 2001
+US,Selway River Idaho,,15.3125,4945,46.141427,-115.598015,Ds,0.6184,Dry sub-humid,Kirchner et al. 2001
+US,Salmon River Idaho,,8.5625,35079,45.856232,-116.793851,Df,0.3836,Semi-arid,Kirchner et al. 2001
+India,Yamuna Ganga basin,,3446.153846,7620,30.443,77.674,Cw,1.2304,Humid,Lupker et al. 2012
+US,Bryson City Tuckasegee River North Carolina,,65,1700,35.4286,-83.446,Cf,1.1371,Humid,Matmon et al. 2003 
+US,Little River North Carolina,,21,490,35.763333,-83.85,Cf,1.0207,Humid,Matmon et al. 2003 
+Canada,Annapolis Wilmott,,4.5853125,546,45.6,-64.7,Df,1.6374,Humid,Meybeck et al 2003
+Canada,Chaudiere St Lambert,,35.359375,5805,46.833333,-71.166667,Df,1.5248,Humid,Meybeck et al 2003
+Canada,Liard River mouth,,82.58125,275000,61.7,-121.2,Df,0.6109,Dry sub-humid,Meybeck et al 2003
+Canada,Peace Peace River,,198.0125,186000,56.25,-117.316667,Df,0.498,Dry sub-humid,Meybeck et al 2003
+Canada,Peace Peace Point,,76.19375,293000,59.1,-112.4,Df,0.6245,Dry sub-humid,Meybeck et al 2003
+Canada,Red Deer Red Deer,,18.934375,11570,52.166667,-113.666667,Df,0.601,Dry sub-humid,Meybeck et al 2003
+Canada,South Saskatchewan Lemsford,,50.1875,179000,51.016667,-109.116667,Df,0.3872,Semi-arid,Meybeck et al 2003
+Canada,South Saskatchewan Saskatoon,,10.356875,141000,52.1,-106.6,Df,0.4678,Semi-arid,Meybeck et al 2003
+US,Chena Fairbanks,,34.21875,5125,64.833333,-147.833333,Df,0.5551,Dry sub-humid,Meybeck et al 2003
+US,Elm Fork Red Magnum,,438,1940,34.9,-99.516667,Cf,0.4445,Semi-arid,Meybeck et al 2003
+US,Little Colorado Cameron,,110.4125,70600,35.25,-111.416667,Ds,0.3296,Semi-arid,Meybeck et al 2003
+US,Pecos Santa Rosa,,54.065625,7490,34.933333,-104.7,BSk,0.2427,Semi-arid,Meybeck et al 2003
+US,Salt Fork Red Mangum,,47.90625,3150,34.9,-99.516667,Cf,0.4445,Semi-arid,Meybeck et al 2003
+US,Walla Walla Touchet,,515.5625,4279,46.083333,-118.3,Cs,0.3869,Semi-arid,Meybeck et al 2003
+Bolivia,Piray Taruma,,542.9375,1590,-18.108208,-63.457413,Aw,0.6842,Humid,Meybeck et al 2003
+France,Grand Morin Villier,,9.58125,1200,48.866667,3,Cf,0.7997,Humid,Meybeck et al 2003
+France,Lot Clairac,,46.309375,11500,44.4,-0.6,Cf,1.0245,Humid,Meybeck et al 2003
+France,Marne Noisiel,,5.703125,12500,48.85,2.616667,Cf,0.7836,Humid,Meybeck et al 2003
+France,Melarchez Melarchez,,9.125,7,48.816667,3.083333,Cf,0.7395,Humid,Meybeck et al 2003
+Thailand,Nam Mae Pai Sop Mae Samat,,31.025,5530,19.233333,97.933333,Aw,0.6815,Humid,Meybeck et al 2003
+Thailand,Nam Mae Pai Ban Na Chalong,,52.240625,369,19.4,98.45,Aw,0.6787,Humid,Meybeck et al 2003
+Thailand,Huai Mae Ya Sop Huai Mae Ya,,62.278125,84.8,19.733333,98.483333,Aw,0.7898,Humid,Meybeck et al 2003
+Thailand,Khlong Mala Hat Som Paem,,116.34375,188,10.683333,98.05,Am,2.0097,Humid,Meybeck et al 2003
+Thailand,Khlong Sok Ban Cheo Sai,,75.053125,892,8.816667,98.833333,Am,1.5293,Humid,Meybeck et al 2003
+Mali,Bani Douna,,2.418125,102000,14.733333,-1.633333,BSh,0.1919,Arid,Meybeck et al 2003
+Algeria,El Abid,,999.1875,2635,32.25,6.333333,BWh,0.0277,Hyper-arid,Meybeck et al 2003
+Ivory Coast,Nzi Zienoa,,3.3534375,33150,6.083333,-4.75,Aw,0.7474,Humid,Meybeck et al 2003
+France,Somme,,2.965625,5560,50.192638,1.623557,Cf,0.9042,Humid,Meybeck et al 2003
+France,Adour,,1140.625,7830,43.529358,-1.522602,Cf,1.539,Humid,Meybeck et al 2003
+Canada,St. Lewis,,3.125,2000,52.33435,-55.816757,Df,2.2437,Humid,Milliman and Farnsworth 2013
+Canada,Saguenay,,2.840909091,88000,48.126885,-69.703829,Df,1.5198,Humid,Milliman and Farnsworth 2013
+Canada,Severn,,1.375,100000,56.06732,-87.561957,Df,1.0296,Humid,Milliman and Farnsworth 2013
+US,Alsea,,116.2790698,860,44.422967,-124.08301,Cs,2.8363,Humid,Milliman and Farnsworth 2013
+US,Androscoggin,,12.07386364,8800,43.976526,-69.856838,Df,1.3115,Humid,Milliman and Farnsworth 2013
+US,Calleguas,,744.047619,840,34.101763,-119.093751,Cs,0.2854,Semi-arid,Milliman and Farnsworth 2013
+US,Connecticut,,5.580357143,28000,41.278293,-72.338932,Df,1.3472,Humid,Milliman and Farnsworth 2013
+US,Coos,,74.21875,1600,43.384386,-124.182439,Cs,2.0148,Humid,Milliman and Farnsworth 2013
+US,Coquille,,67.12962963,2700,43.122928,-124.426956,Cs,1.9601,Humid,Milliman and Farnsworth 2013
+US,Duwamish,,125,1200,47.584829,-122.359629,Cs,1.2354,Humid,Milliman and Farnsworth 2013
+US,Edisto,,1.666666667,7500,32.498724,-80.352527,Cf,0.9622,Humid,Milliman and Farnsworth 2013
+US,Guadalupe,,7.211538462,26000,28.407887,-96.775506,Cf,0.7102,Humid,Milliman and Farnsworth 2013
+US,Gualala,,187.5,900,38.768803,-123.534042,Cs,1.0768,Humid,Milliman and Farnsworth 2013
+US,Hoh,,692.3076923,650,47.751499,-124.438968,Cf,3.8228,Humid,Milliman and Farnsworth 2013
+US,Housatonic,,74.4047619,4200,41.170719,-73.109427,Df,1.2757,Humid,Milliman and Farnsworth 2013
+US,James,,23.80952381,21000,36.98609,-76.284162,Cf,0.9189,Humid,Milliman and Farnsworth 2013
+US,Kennebeck,,25.390625,16000,43.751479,-69.775183,Df,1.3341,Humid,Milliman and Farnsworth 2013
+US,Los Angeles,,71.42857143,2100,33.755294,-118.188294,Cs,0.2486,Semi-arid,Milliman and Farnsworth 2013
+US,Matolle,,750,1000,40.302131,-124.353964,Cs,2.2157,Humid,Milliman and Farnsworth 2013
+US,Merrimack,,10.41666667,12000,42.819577,-70.813279,Df,1.1863,Humid,Milliman and Farnsworth 2013
+US,Mobile,,25.56818182,110000,30.667876,-88.031323,Cf,1.1437,Humid,Milliman and Farnsworth 2013
+US,Navarro,,187.5,800,39.191926,-123.761097,Cs,1.1156,Humid,Milliman and Farnsworth 2013
+US,Neches,,13.5,25000,29.968414,-93.855167,Cf,1.0409,Humid,Milliman and Farnsworth 2013
+US,Nehalem,,62.5,2200,45.655744,-123.941506,Cs,2.5182,Humid,Milliman and Farnsworth 2013
+US,Nooksak,,500,2000,48.772716,-122.584769,Cs,1.231,Humid,Milliman and Farnsworth 2013
+US,Nueces,,10.31976744,43000,27.837259,-97.488265,Cf,0.5654,Dry sub-humid,Milliman and Farnsworth 2013
+US,Pajaro,,60.48387097,3100,36.84537,-121.807564,Cs,0.4077,Semi-arid,Milliman and Farnsworth 2013
+US,Pascagoula,,35,25000,30.355719,-88.60421,Cf,1.2267,Humid,Milliman and Farnsworth 2013
+US,Passaic,,9.868421053,1900,40.715607,-74.119353,Df,1.2098,Humid,Milliman and Farnsworth 2013
+US,Patuxent,,10.41666667,2400,38.312322,-76.421273,Cf,0.9308,Humid,Milliman and Farnsworth 2013
+US,Penobscot,,28.67647059,17000,44.503034,-68.799489,Df,1.2778,Humid,Milliman and Farnsworth 2013
+US,Rogue,,102.6785714,14000,42.421929,-124.430043,Cs,2.1948,Humid,Milliman and Farnsworth 2013
+US,Sacramento,,19.96527778,72000,38.061436,-121.793736,Cs,0.261,Semi-arid,Milliman and Farnsworth 2013
+US,St. John's,,19.39655172,8700,30.401088,-81.400045,Cf,0.9175,Humid,Milliman and Farnsworth 2013
+US,Salinas,,130.6818182,11000,36.750879,-121.804463,Cs,0.3492,Semi-arid,Milliman and Farnsworth 2013
+US,San Diego,,14.20454545,1100,32.756623,-117.252222,BSk,0.2514,Semi-arid,Milliman and Farnsworth 2013
+US,San Dieguito,,10.41666667,900,32.975111,-117.270375,Cs,0.2947,Semi-arid,Milliman and Farnsworth 2013
+US,San Joaquin,,2.635542169,83000,38.026247,-121.78287,Cs,0.2542,Semi-arid,Milliman and Farnsworth 2013
+US,Santa Ana,,15.87301587,6300,33.629149,-117.958479,BSk,0.2372,Semi-arid,Milliman and Farnsworth 2013
+US,Santa Margarita,,39.47368421,1900,33.232287,-117.416905,BSk,0.2162,Semi-arid,Milliman and Farnsworth 2013
+US,Santa Maria,,129.1666667,4500,34.970833,-120.650278,Cs,0.3717,Semi-arid,Milliman and Farnsworth 2013
+US,Santa Ynez,,625,2000,34.693078,-120.602867,Cs,0.3515,Semi-arid,Milliman and Farnsworth 2013
+US,Siletz,,72.11538462,520,44.927043,-124.022893,Cs,2.9138,Humid,Milliman and Farnsworth 2013
+US,Siuslaw,,39.16666667,1500,44.017284,-124.13713,Cs,2.6097,Humid,Milliman and Farnsworth 2013
+US,Sixes,,812.5,300,42.854865,-124.54338,Cs,2.1447,Humid,Milliman and Farnsworth 2013
+US,Smith,,3333.333333,300,41.939556,-124.203882,Cs,2.1596,Humid,Milliman and Farnsworth 2013
+US,Snohomish,,36.85897436,3900,48.019714,-122.211725,Cs,1.2805,Humid,Milliman and Farnsworth 2013
+US,Tijuana,,65.27777778,4500,32.552006,-117.126948,BSk,0.2,Arid,Milliman and Farnsworth 2013
+US,Tillamook,,81.96721311,610,45.4875,-123.901667,Cs,3.2963,Humid,Milliman and Farnsworth 2013
+US,Umpqua,,72.91666667,12000,43.66976,-124.205207,Cs,2.1274,Humid,Milliman and Farnsworth 2013
+US,York,,4.595588235,6800,37.238807,-76.396718,Cf,0.9173,Humid,Milliman and Farnsworth 2013
+US,Chilkat,,789.4736842,1900,59.238555,-135.540388,Ds,1.8192,Humid,Milliman and Farnsworth 2013
+US,Knik,,1465.517241,2900,61.482588,-149.262422,Ds,0.7441,Humid,Milliman and Farnsworth 2013
+US,Matanuska,,707.5471698,5300,61.490259,-149.269869,Ds,0.7549,Humid,Milliman and Farnsworth 2013
+US,Speel,,2586.206897,580,58.013975,-133.757936,Df,3.5521,Humid,Milliman and Farnsworth 2013
+US,Wailuku,,19.23076923,650,19.728228,-155.087798,Af,2.4483,Humid,Milliman and Farnsworth 2013
+Fiji,Rewa,,1293.103448,2900,-18.125385,178.529932,Af,2.3087,Humid,Milliman and Farnsworth 2013
+Mexico,Actopan,,550,2500,19.416695,-96.322293,Am,0.6254,Humid,Milliman and Farnsworth 2013
+Mexico,Ameca,,218.75,12000,20.672846,-105.280739,Aw,0.6601,Humid,Milliman and Farnsworth 2013
+Mexico,Antigua,,132.5757576,3300,19.310451,-96.284961,Am,0.7079,Humid,Milliman and Farnsworth 2013
+Mexico,Balsas,,57.29166667,120000,17.945391,-102.134879,Aw,0.521,Dry sub-humid,Milliman and Farnsworth 2013
+Mexico,Coahuayana,,383.3333333,7500,18.684962,-103.738197,BSh,0.5048,Dry sub-humid,Milliman and Farnsworth 2013
+Mexico,Culiacan,,55.55555556,18000,24.493649,-107.732203,BSh,0.2541,Semi-arid,Milliman and Farnsworth 2013
+Mexico,Diego,,50,1000,15.564426,-93.298743,Aw,1.193,Humid,Milliman and Farnsworth 2013
+Mexico,Grijalva,,16.25,50000,18.600452,-92.692867,Aw,1.0373,Humid,Milliman and Farnsworth 2013
+Mexico,Jamapa,,75.75757576,3300,19.10123,-96.101859,Aw,0.7445,Humid,Milliman and Farnsworth 2013
+Mexico,La Union,,26.78571429,1400,17.911716,-101.86227,Aw,0.5121,Dry sub-humid,Milliman and Farnsworth 2013
+Mexico,Maraquelia,,110.2941176,1700,16.555005,-98.814684,Aw,0.6512,Dry sub-humid,Milliman and Farnsworth 2013
+Mexico,Mayo,,41.96428571,14000,26.729928,-109.793814,BWh,0.1607,Arid,Milliman and Farnsworth 2013
+Mexico,Misantia,,275.7352941,680,19.894245,-96.497381,Cf,0.9849,Humid,Milliman and Farnsworth 2013
+Mexico,Mocorito,,107.1428571,2800,25.08453,-108.070107,BSh,0.3577,Semi-arid,Milliman and Farnsworth 2013
+Mexico,Panuco,,48.52941176,85000,22.258859,-97.792701,Aw,0.7127,Humid,Milliman and Farnsworth 2013
+Mexico,Papaloapan,,93.75,46000,18.748534,-95.750492,Aw,0.9569,Humid,Milliman and Farnsworth 2013
+Mexico,Piaxtla,,227.2727273,11000,23.705524,-106.811614,BSh,0.3752,Semi-arid,Milliman and Farnsworth 2013
+Mexico,San Fernando,,125,18000,24.966694,-97.753949,BSh,0.4015,Semi-arid,Milliman and Farnsworth 2013
+Mexico,San Lorenzo,,150,10000,24.247511,-107.41525,BSh,0.2475,Semi-arid,Milliman and Farnsworth 2013
+Mexico,Suchiate,,173.6111111,1800,14.532088,-92.227352,BWh,0.717,Dry sub-humid,Milliman and Farnsworth 2013
+Mexico,Tehuantepec,,261.3636364,11000,16.190066,-95.145203,Aw,0.534,Dry sub-humid,Milliman and Farnsworth 2013
+Mexico,Usumacinta,,75.98039216,51000,18.648712,-92.467941,Aw,0.9468,Humid,Milliman and Farnsworth 2013
+Mexico,Verde,,266.4473684,19000,15.985244,-97.788099,BSh,0.6778,Humid,Milliman and Farnsworth 2013
+Guatemala,Motagua,,312.5,15000,15.74353,-88.269697,Af,1.1836,Humid,Milliman and Farnsworth 2013
+El Salvador,Lempa,,243.0555556,18000,13.256714,-88.82363,Am,0.9919,Humid,Milliman and Farnsworth 2013
+Honduras,Coco,,150.462963,27000,14.998171,-83.138578,Am,1.9798,Humid,Milliman and Farnsworth 2013
+Nicaragua,Escondido,,244.7916667,12000,12.054489,-83.738355,Af,3.3442,Humid,Milliman and Farnsworth 2013
+Nicaragua,Grande de Matagalpa,,164.0625,20000,12.909772,-83.513342,Af,2.0227,Humid,Milliman and Farnsworth 2013
+Nicaragua,Prinza Polka,,204.5454545,11000,13.411483,-83.560869,Af,2.3017,Humid,Milliman and Farnsworth 2013
+Nicaragua,San Juan,,78.52564103,39000,10.939941,-83.698425,Af,3.4319,Humid,Milliman and Farnsworth 2013
+Costa Rica,Grande de Terraba,,247.3958333,4800,8.964322,-83.623931,Am,1.2433,Humid,Milliman and Farnsworth 2013
+US,Guanajibo,,90.72580645,310,18.168229,-67.180914,Af,0.9604,Humid,Milliman and Farnsworth 2013
+Colombia,Ancho,,34.72222222,540,11.262217,-73.485142,BSh,0.9461,Humid,Milliman and Farnsworth 2013
+Colombia,Atrato,,190.9722222,36000,8.201429,-76.922805,Af,1.5743,Humid,Milliman and Farnsworth 2013
+Colombia,Don Diego,,27.64423077,520,11.257992,-73.70388,BSh,1.134,Humid,Milliman and Farnsworth 2013
+Colombia,Leon,,729.1666667,1200,7.938632,-76.750427,Af,1.6856,Humid,Milliman and Farnsworth 2013
+Colombia,Mira,,638.1578947,9500,1.639353,-79.004499,Cf,1.743,Humid,Milliman and Farnsworth 2013
+Colombia,Mulatos,,131.25,1000,8.64689,-76.731918,Af,1.2471,Humid,Milliman and Farnsworth 2013
+Colombia,Patia,,546.875,24000,2.644956,-78.320976,Cf,2.9057,Humid,Milliman and Farnsworth 2013
+Colombia,Rancheria,,28.40909091,2200,11.554884,-72.903764,BWh,0.3931,Semi-arid,Milliman and Farnsworth 2013
+Colombia,San Juan,,625,16000,4.122224,-77.515721,Af,4.2333,Humid,Milliman and Farnsworth 2013
+Colombia,Sinu,,175,15000,9.440193,-75.948316,Aw,0.799,Humid,Milliman and Farnsworth 2013
+Colombia,Turbo,,285.15625,160,8.122089,-76.75585,Af,1.6204,Humid,Milliman and Farnsworth 2013
+Chile,Aconcagua,,148.8095238,2100,-32.914908,-71.508094,Cs,0.4157,Semi-arid,Milliman and Farnsworth 2013
+Argentina,Chubut,,9.375,40000,-43.342112,-65.055815,BWk,0.1606,Arid,Milliman and Farnsworth 2013
+Argentina,Coig,,4.166666667,15000,-50.942145,-69.165889,BSk,0.2287,Semi-arid,Milliman and Farnsworth 2013
+Argentina,Deseado,,22.32142857,14000,-47.760191,-65.870232,BSk,0.2462,Semi-arid,Milliman and Farnsworth 2013
+Argentina,Gallegos,,12.25490196,5100,-51.595428,-68.970719,BSk,0.3018,Semi-arid,Milliman and Farnsworth 2013
+Argentina,Santa Cruz,,18.22916667,24000,-50.130815,-68.347626,BSk,0.2335,Semi-arid,Milliman and Farnsworth 2013
+Brazil,Araguari,,7.26744186,43000,1.236588,-49.902755,Aw,1.8697,Humid,Milliman and Farnsworth 2013
+Brazil,Contas,,1.116071429,56000,-14.274496,-38.991823,Af,1.5403,Humid,Milliman and Farnsworth 2013
+Brazil,Doce,,82.23684211,76000,-19.643161,-39.812525,Am,0.8252,Humid,Milliman and Farnsworth 2013
+Brazil,Gurupi,,156.25,40000,-1.096063,-46.047329,Am,1.3394,Humid,Milliman and Farnsworth 2013
+Brazil,Itajai-Acu,,31.66666667,15000,-26.912905,-48.641769,Cf,1.2143,Humid,Milliman and Farnsworth 2013
+Brazil,Itapicuru,,0.145348837,43000,-2.771987,-44.162924,Af,1.129,Humid,Milliman and Farnsworth 2013
+Brazil,Jaguaribe,,0.462962963,81000,-4.423692,-37.766836,Af,0.5807,Humid,Milliman and Farnsworth 2013
+Brazil,Jequitinhonha,,45.95588235,68000,-15.844448,-38.85599,Af,1.1628,Humid,Milliman and Farnsworth 2013
+Brazil,Mearim,,4.375,100000,-2.411742,-44.331017,Af,1.0925,Humid,Milliman and Farnsworth 2013
+Brazil,Mucuri,,104.1666667,15000,-18.095474,-39.549505,Af,0.9615,Humid,Milliman and Farnsworth 2013
+Brazil,Paraguacu,,2.083333333,60000,-12.833597,-38.795147,Af,1.0305,Humid,Milliman and Farnsworth 2013
+Brazil,Paraiba do Sul,,43.85964912,57000,-21.617266,-41.015913,Af,0.7192,Humid,Milliman and Farnsworth 2013
+Brazil,Parnaiba,,5.514705882,340000,-2.739427,-41.794705,Af,0.7488,Humid,Milliman and Farnsworth 2013
+Brazil,Tocantins,,61.67763158,760000,-0.469972,-48.231489,Am,1.9475,Humid,Milliman and Farnsworth 2013
+French Guiana,Approuague,,11.36363636,11000,4.682366,-51.956231,Am,2.4793,Humid,Milliman and Farnsworth 2013
+French Guiana,Mana,,5.208333333,12000,5.730195,-53.839812,Af,1.4326,Humid,Milliman and Farnsworth 2013
+French Guiana,Marowijne,,13.25757576,66000,5.741104,-53.97205,Af,1.5038,Humid,Milliman and Farnsworth 2013
+French Guiana,Oyapoc,,10.41666667,30000,4.473873,-51.642382,Am,2.389,Humid,Milliman and Farnsworth 2013
+Suriname,Coppename,,12.5,20000,5.833692,-55.949985,Af,1.0545,Humid,Milliman and Farnsworth 2013
+Suriname,Nickerie,,12.88659794,9700,5.970295,-57.015093,Af,1.1803,Humid,Milliman and Farnsworth 2013
+Suriname,Saramacca,,7.8125,16000,5.839439,-55.934054,Af,1.0546,Humid,Milliman and Farnsworth 2013
+Suriname,Suriname,,11.71875,16000,5.925563,-55.155067,Af,1.2627,Humid,Milliman and Farnsworth 2013
+Guyana,Berbice,,11.36363636,11000,6.297873,-57.527465,Af,0.8607,Humid,Milliman and Farnsworth 2013
+Guyana,Corantijn,,9.548611111,72000,6.017254,-57.082827,Af,1.1394,Humid,Milliman and Farnsworth 2013
+Guyana,Essequibo,,41.97761194,67000,6.977858,-58.398455,Af,1.6486,Humid,Milliman and Farnsworth 2013
+Turkey,Asi,,9.782608696,23000,36.045586,35.963,Cs,1.0767,Humid,Milliman and Farnsworth 2013
+Turkey,Buyuk Menderes,,24.375,20000,37.540172,27.168979,Cs,0.6368,Dry sub-humid,Milliman and Farnsworth 2013
+Turkey,Devrekani,,102.2727273,1100,41.881287,32.936472,Cf,0.78,Humid,Milliman and Farnsworth 2013
+Turkey,Gediz,,45.13888889,18000,38.588935,26.815915,Cs,0.5364,Dry sub-humid,Milliman and Farnsworth 2013
+Turkey,Harsit,,125,2600,41.009935,38.844453,Cf,0.9354,Humid,Milliman and Farnsworth 2013
+Turkey,Iyidere,,133.9285714,840,40.98749,40.329704,Cf,1.1454,Humid,Milliman and Farnsworth 2013
+Turkey,Karasu,,8.620689655,2900,41.881789,35.120036,Cf,0.7458,Humid,Milliman and Farnsworth 2013
+Turkey,Kucuk Menderes,,104.1666667,3600,37.958781,27.263645,Cs,0.58,Dry sub-humid,Milliman and Farnsworth 2013
+Turkey,Melet,,168.75,1000,40.984684,37.933501,Cf,0.9508,Humid,Milliman and Farnsworth 2013
+Georgia,Bzybi,,200,1500,43.186211,40.280592,Cf,1.5422,Humid,Milliman and Farnsworth 2013
+Georgia,Chorokhi,,232.9545455,22000,41.603552,41.574287,Cf,1.6568,Humid,Milliman and Farnsworth 2013
+Georgia,Inguri,,19.81707317,4100,42.391644,41.559024,Cf,1.828,Humid,Milliman and Farnsworth 2013
+Georgia,Khobi,,216.3461538,1300,42.275576,41.632198,Cf,1.8567,Humid,Milliman and Farnsworth 2013
+Georgia,Kodori,,256.25,2000,42.820797,41.132088,Cf,1.5806,Humid,Milliman and Farnsworth 2013
+Georgia,Supsa,,142.0454545,1100,42.019296,41.752919,Cf,1.948,Humid,Milliman and Farnsworth 2013
+Yemen,Wadi Siham,,357.1428571,4900,14.806137,43.147516,BWh,0.0385,Arid,Milliman and Farnsworth 2013
+Yemen,Wadi Tuban,,288.4615385,6500,12.826067,44.943739,BWh,0.0298,Hyper-arid,Milliman and Farnsworth 2013
+Algeria,Agrioun,,4545.454545,660,36.642105,5.339367,Cs,0.7102,Humid,Milliman and Farnsworth 2013
+Algeria,Kebir,,125,1100,36.871264,6.082906,Cs,0.9019,Humid,Milliman and Farnsworth 2013
+Algeria,Mazafran,,986.8421053,1900,36.699109,2.803673,Cs,0.6208,Humid,Milliman and Farnsworth 2013
+Algeria,Sebaou,,300,2500,36.911644,3.855057,Cs,0.9464,Humid,Milliman and Farnsworth 2013
+Algeria,Seybousse,,136.3636364,5500,36.867823,7.773277,Cs,0.613,Dry sub-humid,Milliman and Farnsworth 2013
+Algeria,Soumman,,301.4705882,8500,36.729133,5.076761,Cs,0.8449,Humid,Milliman and Farnsworth 2013
+Algeria,Tafna,,71.02272727,8800,35.29777,-1.471771,Cs,0.3793,Semi-arid,Milliman and Farnsworth 2013
+Morroco,Bou Regreg,,299.744898,9800,34.035274,-6.834977,Cs,0.417,Semi-arid,Milliman and Farnsworth 2013
+Morroco,Draa,,76.75438596,114000,28.682675,-11.119443,BWh,0.0862,Arid,Milliman and Farnsworth 2013
+Morroco,Loukos,,625,1800,35.202164,-6.152,Cs,0.5022,Dry sub-humid,Milliman and Farnsworth 2013
+Morroco,Massa,,263.1578947,3800,30.078068,-9.672679,BSh,0.1576,Arid,Milliman and Farnsworth 2013
+Morroco,Mellah,,347.2222222,1800,33.704004,-7.411262,Cs,0.3401,Semi-arid,Milliman and Farnsworth 2013
+Morroco,Mharhar,,729.1666667,180,35.570359,-5.99479,Cs,0.6103,Dry sub-humid,Milliman and Farnsworth 2013
+Morroco,Nekor,,2215.189873,790,35.199436,-3.823802,Cs,0.25,Semi-arid,Milliman and Farnsworth 2013
+Morroco,Oum Er Rbia,,137.5,30000,33.318453,-8.338531,Cs,0.3066,Semi-arid,Milliman and Farnsworth 2013
+Tunisia,Majardah,,267.0454545,22000,37.012167,10.191849,Cs,0.3701,Semi-arid,Milliman and Farnsworth 2013
+Tunisia,Miliane,,281.25,2000,36.764369,10.299026,Cs,0.3573,Semi-arid,Milliman and Farnsworth 2013
+Gambia,Gambia,,1.623376623,77000,13.555954,-16.603662,Aw,0.4302,Semi-arid,Milliman and Farnsworth 2013
+Guinea,Konkoure,,14.84375,16000,9.808569,-13.754742,Am,1.9204,Humid,Milliman and Farnsworth 2013
+Liberia,Cavally,,118.3035714,28000,4.364008,-7.527642,Af,1.7716,Humid,Milliman and Farnsworth 2013
+Ivory Coast,Agneby,,105.3370787,8900,5.300934,-4.334999,Aw,1.1377,Humid,Milliman and Farnsworth 2013
+Ivory Coast,Bandama,,7.731958763,97000,5.142561,-4.964466,Aw,1.1024,Humid,Milliman and Farnsworth 2013
+Ivory Coast,Comoe,,72.11538462,78000,5.192149,-3.721962,Am,1.2606,Humid,Milliman and Farnsworth 2013
+Ivory Coast,Sassandra,,22.94303797,79000,4.959375,-6.077322,Aw,1.049,Humid,Milliman and Farnsworth 2013
+Ghana,Ankobra,,181.4516129,6200,4.896276,-2.270434,Am,1.4175,Humid,Milliman and Farnsworth 2013
+Ghana,Ayensu,,55.14705882,1700,5.357663,-0.591759,Aw,0.7054,Humid,Milliman and Farnsworth 2013
+Ghana,Pra,,39.47368421,38000,5.01885,-1.625738,Aw,1.0357,Humid,Milliman and Farnsworth 2013
+Benin,Mono,,34.48275862,29000,6.283788,1.838832,Aw,0.6273,Dry sub-humid,Milliman and Farnsworth 2013
+Benin,Oueme,,30,50000,6.451825,2.52781,Aw,0.8607,Humid,Milliman and Farnsworth 2013
+Nigeria,Cross,,78.125,60000,4.762956,8.344794,Am,1.871,Humid,Milliman and Farnsworth 2013
+Nigeria,Ogun,,14.62765957,47000,6.593725,3.460286,Aw,1.1136,Humid,Milliman and Farnsworth 2013
+Cameroon,Nyong,,2.232142857,28000,3.260359,9.905852,Af,1.9166,Humid,Milliman and Farnsworth 2013
+South Africa,Keurbooms,,113.6363636,1100,-34.020636,23.397196,Cf,0.7234,Humid,Milliman and Farnsworth 2013
+South Africa,Kromme,,125,900,-34.143444,24.840557,Cf,0.6331,Humid,Milliman and Farnsworth 2013
+South Africa,Matigulu,,137.5,1000,-29.112417,31.615537,Cf,0.7787,Humid,Milliman and Farnsworth 2013
+South Africa,Tugela,,189.6551724,29000,-29.22603,31.49745,Cf,0.7727,Humid,Milliman and Farnsworth 2013
+South Africa,Umfolozi,,150,10000,-28.661699,32.257002,Cf,0.863,Humid,Milliman and Farnsworth 2013
+South Africa,Umgeni,,241.4772727,4400,-29.812405,31.041575,Cf,0.7668,Humid,Milliman and Farnsworth 2013
+South Africa,Umhlantuzi,,185.8108108,3700,-28.80934,32.088803,Cf,0.8286,Humid,Milliman and Farnsworth 2013
+South Africa,Umkomazi,,232.5581395,4300,-30.200301,30.802991,Cf,0.8624,Humid,Milliman and Farnsworth 2013
+South Africa,Umtamvuna,,179.1666667,1500,-31.081485,30.195688,Cf,1.0503,Humid,Milliman and Farnsworth 2013
+South Africa,Umvoti,,180.8035714,2800,-29.38668,31.336383,Cf,0.7513,Humid,Milliman and Farnsworth 2013
+South Africa,Umzimvubu,,85.9375,16000,-31.621444,29.549247,Cf,0.9917,Humid,Milliman and Farnsworth 2013
+Madagascar,Ikopa,,312.5,30000,-15.709678,46.283407,Aw,0.8879,Humid,Milliman and Farnsworth 2013
+Madagascar,Mangoky,,105.9322034,59000,-21.439332,43.461213,BSh,0.3419,Semi-arid,Milliman and Farnsworth 2013
+Madagascar,Tsiribihina,,166.6666667,45000,-19.641578,44.421168,BSh,0.5521,Dry sub-humid,Milliman and Farnsworth 2013
+Philippines,Pasig,,62.5,600,14.595575,120.958961,Aw,1.4954,Humid,Milliman and Farnsworth 2013
+Philippines,Tagum,,201.6129032,3100,7.343798,125.783603,Af,1.3793,Humid,Milliman and Farnsworth 2013
+Indonesia,Seraju,,1520.27027,3700,-7.685303,109.112492,Af,1.9359,Humid,Milliman and Farnsworth 2013
+Indonesia,Serang,,822.3684211,5700,-6.664899,111.187664,Am,0.9728,Humid,Milliman and Farnsworth 2013
+Papua New Guinea,Jaba,,35326.08696,460,-6.395813,155.195832,Af,2.7978,Humid,Milliman and Farnsworth 2013
+Australia,Adelaide,,41.11842105,7600,-12.219651,131.230477,Aw,0.8121,Humid,Milliman and Farnsworth 2013
+Australia,Baffle Creek,,64.1025641,3900,-24.515029,152.058865,Cf,0.7756,Humid,Milliman and Farnsworth 2013
+Australia,Black,,113.6363636,1100,-19.178561,146.651691,Aw,0.6825,Humid,Milliman and Farnsworth 2013
+Australia,Boyne,,75,2500,-23.937209,151.35614,Cf,0.6301,Dry sub-humid,Milliman and Farnsworth 2013
+Australia,Brisbane,,12.94642857,14000,-27.396621,153.153092,Cf,0.8997,Humid,Milliman and Farnsworth 2013
+Australia,Burnett,,13.25757576,33000,-24.756617,152.398834,Cf,0.7902,Humid,Milliman and Farnsworth 2013
+Australia,Burrum,,56.81818182,3300,-25.179411,152.61473,Cf,0.7845,Humid,Milliman and Farnsworth 2013
+Australia,Calliope,,54.34782609,2300,-23.824435,151.218384,Cf,0.5856,Dry sub-humid,Milliman and Farnsworth 2013
+Australia,Daintree,,357.1428571,2100,-16.284306,145.45378,Am,1.3432,Humid,Milliman and Farnsworth 2013
+Australia,Derwent,,7.472826087,9200,-42.908575,147.384453,Cf,0.7436,Humid,Milliman and Farnsworth 2013
+Australia,East Fitzroy,,13.39285714,140000,-23.518735,150.87032,Cf,0.5646,Dry sub-humid,Milliman and Farnsworth 2013
+Australia,Endeavour,,213.0681818,2200,-15.460719,145.245409,Aw,1.2532,Humid,Milliman and Farnsworth 2013
+Australia,Finniss,,395.8333333,9000,-12.884328,130.338149,Aw,0.8,Humid,Milliman and Farnsworth 2013
+Australia,Flinders,,52.84090909,110000,-17.596916,140.595595,Aw,0.4533,Semi-arid,Milliman and Farnsworth 2013
+Australia,Haughton,,69.44444444,3600,-19.410182,147.129181,Aw,0.6586,Humid,Milliman and Farnsworth 2013
+Australia,Hawkesbury,,42.61363636,22000,-33.56147,151.308081,Cf,1.0519,Humid,Milliman and Farnsworth 2013
+Australia,Herbert,,100,10000,-18.507247,146.275901,Am,1.4683,Humid,Milliman and Farnsworth 2013
+Australia,Hunter,,312.5,22000,-32.919409,151.79218,Cf,0.8777,Humid,Milliman and Farnsworth 2013
+Australia,Jardine,,143.9393939,3300,-10.920492,142.210824,Aw,1.2508,Humid,Milliman and Farnsworth 2013
+Australia,Jeannie,,164.4736842,3800,-14.658686,144.921216,Aw,0.8823,Humid,Milliman and Farnsworth 2013
+Australia,Johnson,,516.3043478,2300,-17.508651,146.07102,Af,2.4939,Humid,Milliman and Farnsworth 2013
+Australia,Kolan,,62.5,3000,-24.6475,152.184722,Cf,0.7412,Humid,Milliman and Farnsworth 2013
+Australia,Lockhart,,133.9285714,2800,-12.881266,143.381415,Aw,1.2299,Humid,Milliman and Farnsworth 2013
+Australia,Macleay,,5.681818182,11000,-30.872901,153.02411,Cf,1.0634,Humid,Milliman and Farnsworth 2013
+Australia,Mary,,58.59375,9600,-25.432136,152.927999,Cf,0.9194,Humid,Milliman and Farnsworth 2013
+Australia,Mitchell,,3.732638889,72000,-15.198488,141.58656,Aw,0.6708,Humid,Milliman and Farnsworth 2013
+Australia,Normanby,,120.5357143,14000,-14.401454,144.144507,Aw,0.6822,Humid,Milliman and Farnsworth 2013
+Australia,Pascoe,,174.4186047,4300,-12.495384,143.272092,Am,1.1786,Humid,Milliman and Farnsworth 2013
+Australia,Plane Creek,,127.3148148,2700,-21.399649,149.281164,Cw,1.1228,Humid,Milliman and Farnsworth 2013
+Australia,Prosperpine,,25,2500,-20.482782,148.720774,Aw,0.9441,Humid,Milliman and Farnsworth 2013
+Australia,Ross,,104.1666667,1800,-19.268891,146.835555,Aw,0.644,Humid,Milliman and Farnsworth 2013
+Australia,Shoalhaven,,72.65625,8000,-34.88291,150.736453,Cf,1.3336,Humid,Milliman and Farnsworth 2013
+Australia,Shoalwater Creek,,50.67567568,3700,-23.225667,150.798394,Cf,0.7062,Humid,Milliman and Farnsworth 2013
+Australia,South Alligator,,2.604166667,12000,-12.189068,132.392717,Aw,0.7819,Humid,Milliman and Farnsworth 2013
+Australia,Stewart,,111.6071429,2800,-14.068212,143.693017,Aw,0.8069,Humid,Milliman and Farnsworth 2013
+Australia,Styx,,60.48387097,3100,-22.38393,149.7803,Cf,0.6374,Humid,Milliman and Farnsworth 2013
+Australia,Tamar,,7.291666667,12000,-41.075108,146.781141,Cf,0.964,Humid,Milliman and Farnsworth 2013
+Australia,Tully,,441.1764706,1700,-18.026575,146.052837,Am,1.7315,Humid,Milliman and Farnsworth 2013
+Australia,Water Park Creek,,98.68421053,1900,-22.928243,150.741118,Cf,0.8835,Humid,Milliman and Farnsworth 2013
+Australia,Wildman,,39.0625,4800,-12.300514,132.066448,Aw,0.7623,Humid,Milliman and Farnsworth 2013
+Australia,Yarra,,22.86585366,4100,-37.850211,144.905296,Cf,0.5935,Dry sub-humid,Milliman and Farnsworth 2013
+New Zealand,Hutt,,188.9534884,430,-41.240966,174.899496,Cf,1.7014,Humid,Milliman and Farnsworth 2013
+New Zealand,Kaituna,,20.83333333,1200,-37.748283,176.415683,Cf,1.39,Humid,Milliman and Farnsworth 2013
+New Zealand,Manawatu,,395.8333333,6000,-40.477424,175.214357,Cf,0.9859,Humid,Milliman and Farnsworth 2013
+New Zealand,Mokau,,275,1500,-38.705648,174.61529,Cf,1.9251,Humid,Milliman and Farnsworth 2013
+New Zealand,Otaki,,81.73076923,1300,-40.760605,175.100303,Cf,1.1501,Humid,Milliman and Farnsworth 2013
+New Zealand,Pahaoa,,474.137931,580,-41.396775,175.72102,Cf,1.2224,Humid,Milliman and Farnsworth 2013
+New Zealand,Patea,,193.75,1000,-39.773472,174.488655,Cf,1.2666,Humid,Milliman and Farnsworth 2013
+New Zealand,Piako,,14.58333333,1500,-37.192877,175.498646,Cf,1.1949,Humid,Milliman and Farnsworth 2013
+New Zealand,Porangahau,,305.0595238,840,-40.254846,176.700009,Cf,1.1288,Humid,Milliman and Farnsworth 2013
+New Zealand,Rangitaiki,,21.73913043,2300,-37.908942,176.881891,Cf,1.2788,Humid,Milliman and Farnsworth 2013
+New Zealand,Rangitikei,,176.2820513,3900,-40.3005,175.224801,Cf,0.9352,Humid,Milliman and Farnsworth 2013
+New Zealand,Tarawera,,39.77272727,1100,-37.889818,176.787903,Cf,1.3018,Humid,Milliman and Farnsworth 2013
+New Zealand,Turakina,,193.2989691,970,-40.066866,175.127483,Cf,0.9913,Humid,Milliman and Farnsworth 2013
+New Zealand,Uawa,,5681.818182,550,-38.375259,178.306315,Cf,1.326,Humid,Milliman and Farnsworth 2013
+New Zealand,Waihou,,50,2000,-37.167455,175.538303,Cf,1.2373,Humid,Milliman and Farnsworth 2013
+New Zealand,Waikato,,16.51785714,14000,-37.361821,174.69936,Cf,1.46,Humid,Milliman and Farnsworth 2013
+New Zealand,Wairoa,,793.9189189,3700,-39.062797,177.42105,Cf,1.4549,Humid,Milliman and Farnsworth 2013
+New Zealand,Wairua,,190.9722222,3600,-36.183814,174.060142,Cf,1.1445,Humid,Milliman and Farnsworth 2013
+New Zealand,Waitara,,551.1363636,1100,-38.98828,174.228243,Cf,1.6506,Humid,Milliman and Farnsworth 2013
+New Zealand,Waitotara,,250,1200,-39.850338,174.684835,Cf,1.049,Humid,Milliman and Farnsworth 2013
+New Zealand,Whangaehu,,226.9736842,1900,-40.041153,175.100115,Cf,1.0218,Humid,Milliman and Farnsworth 2013
+New Zealand,Whareama,,1046.875,400,-41.015766,176.106994,Cf,1.0751,Humid,Milliman and Farnsworth 2013
+New Zealand,Aparima,,35.15625,1600,-46.333557,168.018143,Cf,1.3568,Humid,Milliman and Farnsworth 2013
+New Zealand,Arawata,,4838.709677,930,-43.993996,168.672252,Cf,4.4115,Humid,Milliman and Farnsworth 2013
+New Zealand,Ashburton,,113.9705882,1700,-44.050742,171.805101,Cf,0.7457,Humid,Milliman and Farnsworth 2013
+New Zealand,Ashley,,43.26923077,1300,-43.276651,172.72323,Cf,0.7349,Humid,Milliman and Farnsworth 2013
+New Zealand,Awatere,,82.03125,1600,-41.607702,174.167269,Cf,0.6978,Humid,Milliman and Farnsworth 2013
+New Zealand,Clarence,,123.1060606,3300,-42.168356,173.936588,Cf,1.0667,Humid,Milliman and Farnsworth 2013
+New Zealand,Clutha,,11.60714286,21000,-46.336855,169.823644,Cf,0.9133,Humid,Milliman and Farnsworth 2013
+New Zealand,Grey,,336.5384615,3900,-42.441317,171.194507,Cf,4.3018,Humid,Milliman and Farnsworth 2013
+New Zealand,Hurunui,,447.6351351,740,-42.904792,173.291523,Cf,1.0446,Humid,Milliman and Farnsworth 2013
+New Zealand,Kakanui,,77.24719101,890,-45.18879,170.899172,Cf,0.6876,Humid,Milliman and Farnsworth 2013
+New Zealand,Mataura,,79.86111111,5400,-46.581941,168.796914,Cf,1.5707,Humid,Milliman and Farnsworth 2013
+New Zealand,Mokihinui,,241.6666667,750,-41.521732,171.936898,Cf,2.3941,Humid,Milliman and Farnsworth 2013
+New Zealand,Motueka,,128.6764706,1700,-41.08036,173.022307,Cf,1.7706,Humid,Milliman and Farnsworth 2013
+New Zealand,Opihi,,41.66666667,2400,-44.280064,171.350321,Cf,0.7004,Humid,Milliman and Farnsworth 2013
+New Zealand,Orari,,46.875,800,-44.242568,171.408248,Cf,0.7189,Humid,Milliman and Farnsworth 2013
+New Zealand,Oreti,,46.42857143,3500,-46.461834,168.301047,Cf,1.3345,Humid,Milliman and Farnsworth 2013
+New Zealand,Taieri,,35.0877193,5700,-45.991227,170.145132,Cf,0.8696,Humid,Milliman and Farnsworth 2013
+New Zealand,Takaka,,168.2692308,260,-40.817969,172.801886,Cf,3.0416,Humid,Milliman and Farnsworth 2013
+New Zealand,Taramakau,,1375,1000,-42.563301,171.12568,Cf,3.7336,Humid,Milliman and Farnsworth 2013
+New Zealand,Waiho,,7327.586207,290,-43.289072,170.048398,Cf,4.7766,Humid,Milliman and Farnsworth 2013
+New Zealand,Waipara,,50.67567568,740,-43.15408,172.797368,Cf,0.7317,Humid,Milliman and Farnsworth 2013
+New Zealand,Wairau,,125,4200,-41.50505,174.05758,Cf,0.6938,Humid,Milliman and Farnsworth 2013
+New Zealand,Waitaha,,5468.75,320,-42.956197,170.660161,Cf,3.8551,Humid,Milliman and Farnsworth 2013
+New Zealand,Waitaki,,17.70833333,12000,-44.936933,171.144361,Cf,0.7077,Humid,Milliman and Farnsworth 2013
+New Zealand,Whataroa,,5084.745763,590,-43.118694,170.252181,Cf,4.702,Humid,Milliman and Farnsworth 2013
+Iceland,Austari-Vestari,,131.5789474,1900,65.748452,-19.41375,Ds,2.1016,Humid,Milliman and Farnsworth 2013
+Iceland,Blanda,,183.8235294,1700,65.661948,-20.300186,Ds,2.352,Humid,Milliman and Farnsworth 2013
+Iceland,Hvita,,71.02272727,2200,64.584154,-21.761729,Df,2.381,Humid,Milliman and Farnsworth 2013
+Iceland,Olfusa,,92.21311475,6100,63.877148,-21.208293,Df,3.1327,Humid,Milliman and Farnsworth 2013
+Iceland,Skjalfandafljot,,47.34848485,3300,65.984081,-17.59285,Ds,1.8,Humid,Milliman and Farnsworth 2013
+Norway,Drammenselva,,66.17647059,17000,59.731797,10.23739,Df,1.4705,Humid,Milliman and Farnsworth 2013
+Norway,Glomma,,223.2142857,42000,59.175102,10.95494,Df,1.5079,Humid,Milliman and Farnsworth 2013
+Norway,Mandalselva,,0.367647059,1700,58.020375,7.456342,Cf,3.4168,Humid,Milliman and Farnsworth 2013
+Norway,Skiensvassdraget,,93.75,10000,59.015436,9.776886,Df,1.5691,Humid,Milliman and Farnsworth 2013
+Sweden,Angerman,,1.171875,32000,62.794958,17.943509,Df,1.2826,Humid,Milliman and Farnsworth 2013
+Sweden,Dalalven,,0.646551724,29000,60.643471,17.446724,Df,1.0536,Humid,Milliman and Farnsworth 2013
+Sweden,Gota alv,,1.625,50000,57.682815,11.851331,Df,1.3657,Humid,Milliman and Farnsworth 2013
+Sweden,Indalsalven,,3.25,25000,62.50663,17.449407,Df,1.2133,Humid,Milliman and Farnsworth 2013
+Sweden,Kalixalven,,1.388888889,18000,65.812549,23.214773,Df,1.0956,Humid,Milliman and Farnsworth 2013
+Sweden,Ljungan,,0.480769231,13000,62.337485,17.386453,Df,1.32,Humid,Milliman and Farnsworth 2013
+Sweden,Lule,,1,25000,65.556629,22.189909,Df,1.0338,Humid,Milliman and Farnsworth 2013
+Sweden,Ore,,6.25,3000,63.522095,19.735463,Df,1.1276,Humid,Milliman and Farnsworth 2013
+Sweden,Pite,,2.272727273,11000,65.227104,21.529997,Df,1.1331,Humid,Milliman and Farnsworth 2013
+Sweden,Rane,,0.304878049,4100,65.833428,22.347741,Df,1.0496,Humid,Milliman and Farnsworth 2013
+Sweden,Skellefte,,0.46875,12000,64.683636,21.203709,Df,1.1151,Humid,Milliman and Farnsworth 2013
+Sweden,Torne,,1.5625,40000,65.810335,24.152123,Df,1.1858,Humid,Milliman and Farnsworth 2013
+Finland,Ahtavanjoki,,3.125,2000,63.670115,22.821479,Df,1.0093,Humid,Milliman and Farnsworth 2013
+Finland,Iijoki,,0.625,14000,65.340897,25.259965,Df,1.0021,Humid,Milliman and Farnsworth 2013
+Finland,Kalajoki,,5.952380952,4200,64.289757,23.909286,Df,1.0294,Humid,Milliman and Farnsworth 2013
+Finland,Karjaanjoki,,0.625,2000,60.092772,23.560242,Df,1.0987,Humid,Milliman and Farnsworth 2013
+Finland,Kemijoki,,0.857843137,51000,65.767604,24.444261,Df,1.1516,Humid,Milliman and Farnsworth 2013
+Finland,Kiiminkijoki,,1.644736842,3800,65.203099,25.277825,Df,0.979,Humid,Milliman and Farnsworth 2013
+Finland,Kokemanjoki,,1.388888889,27000,61.567089,21.661866,Df,1.1003,Humid,Milliman and Farnsworth 2013
+Finland,Kyronjoki,,6.37755102,4900,63.185416,21.970545,Df,0.9906,Humid,Milliman and Farnsworth 2013
+Finland,Lapuanjoki,,4.573170732,4100,63.573703,22.482872,Df,1.0074,Humid,Milliman and Farnsworth 2013
+Finland,Oulujoki,,0.6,25000,65.003878,25.397273,Df,0.9707,Humid,Milliman and Farnsworth 2013
+Finland,Paimionjoki,,51.13636364,1100,60.402953,22.64338,Df,1.1269,Humid,Milliman and Farnsworth 2013
+Finland,Perhonjoki,,2.314814815,2700,63.893866,23.138916,Df,1.0075,Humid,Milliman and Farnsworth 2013
+Finland,Pyhajoki,,27.02702703,3700,64.486245,24.215591,Df,1.0259,Humid,Milliman and Farnsworth 2013
+Finland,Siikajoki,,0.284090909,4400,64.857431,24.691493,Df,0.9938,Humid,Milliman and Farnsworth 2013
+Finland,Simojoki,,1.3671875,3200,65.620283,25.046737,Df,1.0619,Humid,Milliman and Farnsworth 2013
+Estonia,Narva,,6.25,56000,59.471891,28.042279,Df,1.1295,Humid,Milliman and Farnsworth 2013
+Latvia,Daugava,,3.338068182,88000,57.061812,24.026512,Df,1.1672,Humid,Milliman and Farnsworth 2013
+Latvia,Venta,,4.518072289,8300,57.395825,21.544278,Df,1.197,Humid,Milliman and Farnsworth 2013
+Lithuania,Nemanus,,4.209183673,98000,55.337075,21.248023,Df,1.2025,Humid,Milliman and Farnsworth 2013
+Poland,Parsenta,,2.5,3000,54.187177,15.552525,Df,0.9122,Humid,Milliman and Farnsworth 2013
+Poland,Rega,,3.846153846,2600,54.15887,15.388165,Df,0.8933,Humid,Milliman and Farnsworth 2013
+Poland,Slupa,,5.803571429,1400,54.588933,16.852191,Df,1,Humid,Milliman and Farnsworth 2013
+Netherlands,Maas,,12.15277778,36000,51.868727,4.007791,Cf,1.2302,Humid,Milliman and Farnsworth 2013
+Netherlands,Rhine,,0.198863636,220000,51.97951,4.092648,Cf,1.2487,Humid,Milliman and Farnsworth 2013
+UK,Conon,,3.90625,960,57.600558,-4.391715,Cf,1.6753,Humid,Milliman and Farnsworth 2013
+UK,Dee,,10.41666667,1800,53.242865,-3.09539,Cf,1.2224,Humid,Milliman and Farnsworth 2013
+UK,Deveron,,6.578947368,950,57.664344,-2.513113,Cf,1.3927,Humid,Milliman and Farnsworth 2013
+UK,Don,,14.42307692,1300,57.175951,-2.077404,Cf,1.416,Humid,Milliman and Farnsworth 2013
+UK,Earn,,48.07692308,780,56.353338,-3.298854,Cf,1.1856,Humid,Milliman and Farnsworth 2013
+UK,Findhorn,,32.05128205,780,57.661617,-3.626361,Cf,1.1365,Humid,Milliman and Farnsworth 2013
+UK,Ness,,6.944444444,1800,57.493576,-4.237293,Cf,1.4159,Humid,Milliman and Farnsworth 2013
+UK,Ouse,,7.724719101,8900,53.562088,0.132225,Cf,0.9829,Humid,Milliman and Farnsworth 2013
+UK,Thames,,1.666666667,15000,51.48815,0.751108,Cf,0.7973,Humid,Milliman and Farnsworth 2013
+UK,Trent,,5.263157895,9500,53.697071,-0.695304,Cf,0.9324,Humid,Milliman and Farnsworth 2013
+Ireland,Barrow,,1.979166667,12000,52.235382,-6.954445,Cf,1.5908,Humid,Milliman and Farnsworth 2013
+Ireland,Blackwater,,3.787878788,3300,51.942416,-7.8376,Cf,2.0301,Humid,Milliman and Farnsworth 2013
+Ireland,Boyne,,2.083333333,3300,53.722287,-6.246637,Cf,1.3365,Humid,Milliman and Farnsworth 2013
+Ireland,Erne,,2.450980392,5100,54.5112,-8.254701,Cf,2.2698,Humid,Milliman and Farnsworth 2013
+Ireland,Lee,,5.208333333,1200,51.796577,-8.268358,Cf,1.8773,Humid,Milliman and Farnsworth 2013
+Ireland,Liffey,,1.785714286,1400,53.343339,-6.188805,Cf,1.2253,Humid,Milliman and Farnsworth 2013
+Ireland,Moy,,2.976190476,2100,54.180199,-9.1377,Cf,2.0339,Humid,Milliman and Farnsworth 2013
+Ireland,Shannon,,17.39130435,23000,52.677173,-8.751468,Cf,1.619,Humid,Milliman and Farnsworth 2013
+Ireland,Slaney,,2.083333333,1800,52.338417,-6.456066,Cf,1.5912,Humid,Milliman and Farnsworth 2013
+France,Argens,,7.211538462,2600,43.409812,6.736405,Cs,0.9054,Humid,Milliman and Farnsworth 2013
+France,Aude,,7.415254237,5900,43.212833,3.240029,Cs,0.6411,Dry sub-humid,Milliman and Farnsworth 2013
+France,Charente,,13.73626374,9100,45.954094,-1.076714,Cf,0.9469,Humid,Milliman and Farnsworth 2013
+France,Herault,,19.39655172,2900,43.282899,3.443885,Cs,0.6467,Dry sub-humid,Milliman and Farnsworth 2013
+France,Orb,,17.36111111,1800,43.24651,3.298177,Cs,0.6564,Dry sub-humid,Milliman and Farnsworth 2013
+France,Tet,,195.3125,1600,42.715021,3.039399,Cs,0.5878,Dry sub-humid,Milliman and Farnsworth 2013
+France,Var,,2232.142857,2800,43.655463,7.19921,Cs,0.923,Humid,Milliman and Farnsworth 2013
+France,Vilaine,,11.36363636,11000,47.496645,-2.445126,Cf,1.0785,Humid,Milliman and Farnsworth 2013
+France,Golo,,1.388888889,900,42.5225,9.53447,Cs,0.7549,Humid,Milliman and Farnsworth 2013
+Spain,Adra,,125,750,36.738873,-2.978693,BSk,0.3173,Semi-arid,Milliman and Farnsworth 2013
+Spain,Andarax,,51.13636364,2200,36.811326,-2.429222,BWk,0.2298,Semi-arid,Milliman and Farnsworth 2013
+Spain,Besaya,,62.5,1000,43.435144,-4.034985,Cf,1.232,Humid,Milliman and Farnsworth 2013
+Spain,Bidasoa,,132.0422535,710,43.377965,-1.789142,Cf,1.5835,Humid,Milliman and Farnsworth 2013
+Spain,Deba,,37.5,500,43.300102,-2.355185,Cf,1.4495,Humid,Milliman and Farnsworth 2013
+Spain,Deva,,67.70833333,1200,43.393445,-4.512346,Cf,1.0469,Humid,Milliman and Farnsworth 2013
+Spain,Guadalfeo,,38.46153846,1300,36.723348,-3.579418,Cs,0.307,Semi-arid,Milliman and Farnsworth 2013
+Spain,Guadalhorce,,17.578125,3200,36.665643,-4.454512,Cs,0.5008,Semi-arid,Milliman and Farnsworth 2013
+Spain,Guadiaro,,16.66666667,1500,36.282996,-5.275995,Cs,0.6817,Humid,Milliman and Farnsworth 2013
+Spain,Jucar,,22.72727273,22000,39.151286,-0.238552,Cs,0.4256,Semi-arid,Milliman and Farnsworth 2013
+Spain,Llobregat,,8.413461538,5200,41.29869,2.137647,Cs,0.765,Humid,Milliman and Farnsworth 2013
+Spain,Narcea,,48.46938776,4900,43.564493,-6.077091,Cf,0.9797,Humid,Milliman and Farnsworth 2013
+Spain,Navia,,31.25,2600,43.556226,-6.725057,Cf,0.9189,Humid,Milliman and Farnsworth 2013
+Spain,Nervion,,26.78571429,1400,43.327016,-3.020628,Cf,1.4765,Humid,Milliman and Farnsworth 2013
+Spain,Oria,,50.87209302,860,43.29154,-2.132734,Cf,1.451,Humid,Milliman and Farnsworth 2013
+Spain,Segura,,36.18421053,19000,38.111258,-0.641605,BSk,0.2302,Semi-arid,Milliman and Farnsworth 2013
+Spain,Sella,,14.42307692,1300,43.467291,-5.06513,Cf,0.9635,Humid,Milliman and Farnsworth 2013
+Portugal,Douro,,11.47959184,98000,41.14553,-8.674247,Cs,1.2612,Humid,Milliman and Farnsworth 2013
+Portugal,Guadiana,,0.607638889,72000,37.174357,-7.401025,Cs,0.4379,Semi-arid,Milliman and Farnsworth 2013
+Portugal,Tagus,,3.125,80000,38.667871,-9.281594,Cs,0.7532,Humid,Milliman and Farnsworth 2013
+Italy,Agri,,156.25,280,40.222281,16.740998,Cs,0.5593,Dry sub-humid,Milliman and Farnsworth 2013
+Italy,Crati,,312.5,2400,39.724379,16.529765,Cs,0.6878,Humid,Milliman and Farnsworth 2013
+Italy,Fortore,,852.2727273,1100,41.919875,15.292924,Cf,0.614,Dry sub-humid,Milliman and Farnsworth 2013
+Italy,Magra,,260.4166667,1200,44.048093,9.988265,Cs,1.1199,Humid,Milliman and Farnsworth 2013
+Italy,Marecchia,,1666.666667,600,44.076268,12.563112,Cf,0.7286,Humid,Milliman and Farnsworth 2013
+Italy,Ofanto,,208.3333333,2700,41.358866,16.197638,Cf,0.5004,Semi-arid,Milliman and Farnsworth 2013
+Italy,Ombrone,,371.09375,3200,42.658927,11.013374,Cs,0.6259,Dry sub-humid,Milliman and Farnsworth 2013
+Italy,Potenza,,273.4375,800,43.423979,13.670644,Cs,0.8968,Humid,Milliman and Farnsworth 2013
+Italy,Sinni,,1420.454545,1100,40.152815,16.691754,Cs,0.5781,Dry sub-humid,Milliman and Farnsworth 2013
+Italy,Tavo,,100,250,42.526413,14.152056,Cf,0.7876,Humid,Milliman and Farnsworth 2013
+Italy,Trigno,,218.75,1200,42.063043,14.797015,Cf,0.7895,Humid,Milliman and Farnsworth 2013
+Italy,Volturno,,477.2727273,5500,41.023755,13.926243,Cs,0.8453,Humid,Milliman and Farnsworth 2013
+Italy,Gela,,338.5416667,240,37.058126,14.260645,Cs,0.4199,Semi-arid,Milliman and Farnsworth 2013
+Italy,Gornalunga,,81.52173913,230,37.385286,15.09024,Cs,0.4558,Semi-arid,Milliman and Farnsworth 2013
+Albania,Mat,,706.5217391,2300,41.637521,19.572298,Cs,1.364,Humid,Milliman and Farnsworth 2013
+Albania,Vijose,,762.8676471,6800,40.644177,19.318591,Cs,0.988,Humid,Milliman and Farnsworth 2013
+Croatia,Neretva,,673.0769231,13000,43.020606,17.446933,Cf,1.2749,Humid,Milliman and Farnsworth 2013
+Greece,Acheloos,,381.9444444,5400,38.344818,21.107673,Cs,0.7436,Humid,Milliman and Farnsworth 2013
+Greece,Alfios,,506.7567568,3700,37.612908,21.451968,Cs,0.6847,Humid,Milliman and Farnsworth 2013
+Greece,Aliakmon,,289.4736842,9500,40.473404,22.651955,BSk,0.3746,Semi-arid,Milliman and Farnsworth 2013
+Greece,Arachthos,,2401.315789,1900,39.016914,21.05018,Cs,0.8747,Humid,Milliman and Farnsworth 2013
+Greece,Axios,,122.3958333,24000,40.504051,22.719407,BSk,0.3757,Semi-arid,Milliman and Farnsworth 2013
+Greece,Evros,,151.7857143,35000,40.738516,26.034993,Cs,0.5554,Dry sub-humid,Milliman and Farnsworth 2013
+Greece,Gallikos,,2.777777778,900,40.630627,22.843507,Cf,0.3814,Semi-arid,Milliman and Farnsworth 2013
+Greece,Kalamas,,659.7222222,1800,39.5294,20.144927,Cs,1.0332,Humid,Milliman and Farnsworth 2013
+Greece,Louros,,625,800,39.047003,20.778414,Cs,0.8177,Humid,Milliman and Farnsworth 2013
+Greece,Nestos,,100.8064516,6200,40.847221,24.804322,Cs,0.5143,Dry sub-humid,Milliman and Farnsworth 2013
+Greece,Pinios,,250,11000,39.935155,22.718017,BSk,0.3644,Semi-arid,Milliman and Farnsworth 2013
+Greece,Sperchios,,486.1111111,1800,38.874132,22.56059,Cs,0.5464,Dry sub-humid,Milliman and Farnsworth 2013
+Greece,Strimonas,,147.0588235,17000,40.786007,23.849145,Cs,0.467,Semi-arid,Milliman and Farnsworth 2013
+Russia,Anabar,,2.5,100000,73.53979,113.473927,Df,0.6923,Humid,Milliman and Farnsworth 2013
+Russia,Anadyr,,11.25,200000,64.50008,178.337879,Ds,1.2331,Humid,Milliman and Farnsworth 2013
+Russia,Gizhiga,,17.1875,12000,61.942588,160.377803,Df,0.8085,Humid,Milliman and Farnsworth 2013
+Russia,Kamchatka,,34.59821429,56000,56.210119,162.492108,Df,1.547,Humid,Milliman and Farnsworth 2013
+Russia,Kem,,1.5625,28000,64.955546,34.675296,Df,1.0521,Humid,Milliman and Farnsworth 2013
+Russia,Khatanga,,2.951388889,360000,73.24447,106.744796,Df,0.8362,Humid,Milliman and Farnsworth 2013
+Russia,Mezen,,7.211538462,78000,66.189231,43.958795,Df,1.146,Humid,Milliman and Farnsworth 2013
+Russia,Mzymta,,187.5,1000,43.415921,39.92375,Cf,1.5169,Humid,Milliman and Farnsworth 2013
+Russia,Nadym,,6.8359375,64000,66.22893,72.103507,Df,1.2969,Humid,Milliman and Farnsworth 2013
+Russia,Neva,,4.222972973,74000,59.964788,30.21585,Df,1.1687,Humid,Milliman and Farnsworth 2013
+Russia,Niva,,33.65384615,13000,67.131034,32.420779,Df,1.3043,Humid,Milliman and Farnsworth 2013
+Russia,Olenyok,,3.125,220000,73.019374,119.747301,Df,0.5859,Dry sub-humid,Milliman and Farnsworth 2013
+Russia,Onega,,2.74122807,57000,63.929824,37.993288,Df,1.1653,Humid,Milliman and Farnsworth 2013
+Russia,Penzhina,,8.561643836,73000,62.466952,165.10884,Df,1.0944,Humid,Milliman and Farnsworth 2013
+Russia,Pyr,,3.977272727,110000,67.563519,77.780571,Df,1.4415,Humid,Milliman and Farnsworth 2013
+Russia,Tauyo,,12,25000,59.633905,149.097859,Dw,1.1385,Humid,Milliman and Farnsworth 2013
+Russia,Taz,,2.5,150000,67.555682,78.581839,Df,1.4504,Humid,Milliman and Farnsworth 2013
+Russia,Tugur,,7.8125,12000,53.757044,136.784274,Df,0.9609,Humid,Milliman and Farnsworth 2013
+Russia,Uda,,9.528688525,61000,54.723035,135.288381,Df,1.2541,Humid,Milliman and Farnsworth 2013
+India,Achenkovil,,24.16666667,1500,9.311116,76.382036,Am,2.1054,Humid,Milliman and Farnsworth 2013
+India,Bharathpuzha,,21.16935484,6200,10.788055,75.913417,Am,1.9223,Humid,Milliman and Farnsworth 2013
+India,Brahmani,,84.13461538,52000,20.705833,87.000083,Aw,1.0019,Humid,Milliman and Farnsworth 2013
+India,Cauweri,,2.840909091,88000,11.360566,79.830991,Aw,0.7816,Humid,Milliman and Farnsworth 2013
+India,Chalakudi,,25.73529412,1700,10.177198,76.164449,Am,2.0944,Humid,Milliman and Farnsworth 2013
+India,Chaliyar,,105.6034483,2900,11.162136,75.802639,Am,2.0658,Humid,Milliman and Farnsworth 2013
+India,Gundlakamma,,7.352941176,8500,15.541202,80.228087,Aw,0.4683,Semi-arid,Milliman and Farnsworth 2013
+India,Kadalundi,,340.9090909,1100,11.124464,75.825584,Am,2.1119,Humid,Milliman and Farnsworth 2013
+India,Kalinadi,,84.13461538,5200,14.842723,74.1214,Am,2.3819,Humid,Milliman and Farnsworth 2013
+India,Kallada,,33.08823529,1700,8.93441,76.537849,Am,1.8498,Humid,Milliman and Farnsworth 2013
+India,Mahi,,35.71428571,35000,22.210522,72.765582,BSh,0.434,Semi-arid,Milliman and Farnsworth 2013
+India,Muvatupuzha,,15.41666667,1500,9.828644,76.381865,Am,2.3366,Humid,Milliman and Farnsworth 2013
+India,Nagavali,,66.4893617,9400,18.211948,83.940224,Aw,0.748,Humid,Milliman and Farnsworth 2013
+India,Netravati,,208.3333333,4200,12.843439,74.829889,Am,2.6999,Humid,Milliman and Farnsworth 2013
+India,Pamba,,71.02272727,2200,9.517276,76.379304,Am,2.1247,Humid,Milliman and Farnsworth 2013
+India,Penner,,20.45454545,55000,14.581643,80.192414,Aw,0.5298,Dry sub-humid,Milliman and Farnsworth 2013
+India,Periyar,,28.93518519,5400,10.178854,76.164053,Am,2.0944,Humid,Milliman and Farnsworth 2013
+India,Ponnaiyar,,2.734375,16000,11.773662,79.793303,Aw,0.7269,Humid,Milliman and Farnsworth 2013
+India,Rushikulya,,97.4025974,7700,19.379673,85.084029,Aw,0.8913,Humid,Milliman and Farnsworth 2013
+India,Sabarmati,,5.952380952,21000,22.353078,72.408378,BSh,0.3655,Semi-arid,Milliman and Farnsworth 2013
+India,Shetrunji,,68.18181818,5500,21.302512,72.110759,BSh,0.3956,Semi-arid,Milliman and Farnsworth 2013
+India,Subarnarekha,,98.68421053,19000,21.559173,87.378358,Aw,1.0033,Humid,Milliman and Farnsworth 2013
+India,Tamraparni,,104.1666667,6000,8.649775,78.127314,Aw,0.3863,Semi-arid,Milliman and Farnsworth 2013
+India,Tapti,,192.3076923,65000,21.097431,72.695763,Aw,0.6542,Humid,Milliman and Farnsworth 2013
+India,Valapattanam,,85.52631579,1900,11.944884,75.296059,Am,2.4812,Humid,Milliman and Farnsworth 2013
+India,Vamsadhara,,386.3636364,11000,18.342504,84.133218,Aw,0.7874,Humid,Milliman and Farnsworth 2013
+Myanmar,Salween,,416.6666667,270000,16.153795,97.56403,Am,3.2885,Humid,Milliman and Farnsworth 2013
+Malaysia,Kelantan,,130.2083333,12000,6.216032,102.235425,Am,1.629,Humid,Milliman and Farnsworth 2013
+Malaysia,Langat,,150,2500,2.802237,101.408754,Af,1.3615,Humid,Milliman and Farnsworth 2013
+Malaysia,Muda,,7.601351351,7400,5.577125,100.338862,Af,1.3043,Humid,Milliman and Farnsworth 2013
+Malaysia,Muar,,13.671875,3200,2.052589,102.548137,Af,1.1777,Humid,Milliman and Farnsworth 2013
+Malaysia,Pahang,,98.68421053,19000,3.528358,103.469347,Af,1.8034,Humid,Milliman and Farnsworth 2013
+Malaysia,Perak,,43.26923077,13000,4.000947,100.754313,Af,1.259,Humid,Milliman and Farnsworth 2013
+Malaysia,Selangor,,17.578125,3200,3.337213,101.230353,Af,1.3312,Humid,Milliman and Farnsworth 2013
+Malaysia,Terengganu,,109.8484848,3300,5.34031,103.146598,Af,2.0347,Humid,Milliman and Farnsworth 2013
+Malaysia,Rajang,,367.6470588,51000,2.420637,111.295727,Af,1.7835,Humid,Milliman and Farnsworth 2013
+Thailand,Khlong Phum Duang,,25,3000,13.488974,100.814157,Aw,0.8961,Humid,Milliman and Farnsworth 2013
+Thailand,Mae Klong,,163.3064516,31000,13.361405,100.006395,Aw,0.7266,Humid,Milliman and Farnsworth 2013
+Thailand,Pattani,,54.6875,4000,6.900835,101.246394,Am,1.0503,Humid,Milliman and Farnsworth 2013
+Vietnam,Ba,,44.64285714,14000,13.088018,109.328143,Aw,1.0069,Humid,Milliman and Farnsworth 2013
+Vietnam,Ca,,92.59259259,27000,18.765267,105.766274,Am,1.2379,Humid,Milliman and Farnsworth 2013
+Vietnam,Ma,,66.96428571,28000,19.786722,105.933575,Cw,1.2511,Humid,Milliman and Farnsworth 2013
+Vietnam,Sai Gon,,42.61363636,44000,10.413341,106.799228,Aw,0.9757,Humid,Milliman and Farnsworth 2013
+Vietnam,Thai Binh,,41.66666667,15000,20.673064,106.711439,Cw,1.3926,Humid,Milliman and Farnsworth 2013
+Vietnam,Thu Bon,,125,10000,15.873002,108.393254,Aw,1.3779,Humid,Milliman and Farnsworth 2013
+Brunei,Tutong,,67.93478261,2300,4.771089,114.595714,Af,2.2615,Humid,Milliman and Farnsworth 2013
+China,Guanhe,,68.359375,6400,34.465317,119.790691,Cw,0.7825,Humid,Milliman and Farnsworth 2013
+China,Hanjiang,,150,30000,23.448184,116.872332,Cf,1.3068,Humid,Milliman and Farnsworth 2013
+China,Jianjiang,,98.68421053,9500,21.242983,110.646591,Cw,1.2584,Humid,Milliman and Farnsworth 2013
+China,Jinjiang,,136.3636364,11000,24.851169,118.651194,Cf,1.0177,Humid,Milliman and Farnsworth 2013
+China,Jiulongjiang,,129.1666667,15000,24.424125,117.925691,Cf,1.1802,Humid,Milliman and Farnsworth 2013
+China,Luanhe,,266.2037037,54000,39.432451,119.300182,Dw,0.6128,Dry sub-humid,Milliman and Farnsworth 2013
+China,Majiahe,,5.028735632,8700,38.204035,117.970889,Dw,0.5255,Dry sub-humid,Milliman and Farnsworth 2013
+China,Minjiang,,24.59016393,61000,26.07442,119.683261,Cf,1.3145,Humid,Milliman and Farnsworth 2013
+China,Moyangjiang,,81.96721311,6100,21.781147,112.039367,Cw,1.7251,Humid,Milliman and Farnsworth 2013
+China,Nanliujiang,,104.1666667,6600,21.595491,109.07804,Cw,1.5069,Humid,Milliman and Farnsworth 2013
+China,Oujiang,,93.75,18000,27.946087,120.918766,Cf,1.5674,Humid,Milliman and Farnsworth 2013
+China,Qiantangjiang,,65.47619048,42000,30.465587,121.88372,Cf,1.0366,Humid,Milliman and Farnsworth 2013
+China,Tuhaihe,,16.44736842,19000,38.157747,118.077581,Dw,0.5263,Dry sub-humid,Milliman and Farnsworth 2013
+China,Yalujiang,,46.875,64000,39.913603,124.296595,Dw,1.1369,Humid,Milliman and Farnsworth 2013
+China,Changhuajiang,,9.803921569,5100,19.302095,108.659225,Aw,0.7516,Humid,Milliman and Farnsworth 2013
+China,Nandujiang,,104.1666667,6600,20.079858,110.381852,Cw,1.2625,Humid,Milliman and Farnsworth 2013
+Japan,Agano,,73.05194805,7700,37.95956,139.12968,Cf,2.051,Humid,Milliman and Farnsworth 2013
+Japan,Goumo,,8.493589744,3900,35.024139,132.226727,Cf,1.9403,Humid,Milliman and Farnsworth 2013
+Japan,Iwaki,,140,2500,41.014374,140.364586,Df,1.563,Humid,Milliman and Farnsworth 2013
+Japan,Jintsu,,5.555555556,2700,36.760781,137.221933,Cf,2.395,Humid,Milliman and Farnsworth 2013
+Japan,Kiso,,150,5000,35.03187,136.746336,Cf,1.6034,Humid,Milliman and Farnsworth 2013
+Japan,Kitakami,,68.75,10000,38.57442,141.45819,Df,1.4125,Humid,Milliman and Farnsworth 2013
+Japan,Kumano,,338.5416667,2400,33.726749,136.014835,Cf,3.2697,Humid,Milliman and Farnsworth 2013
+Japan,Kurobe,,220.5882353,680,36.920528,137.427683,Cf,2.3062,Humid,Milliman and Farnsworth 2013
+Japan,Kuzuryo,,8.405172414,2900,36.22014,136.133888,Cf,2.5401,Humid,Milliman and Farnsworth 2013
+Japan,Mogami,,285.7142857,7000,38.924878,139.808509,Cf,2.1683,Humid,Milliman and Farnsworth 2013
+Japan,Omono,,9.441489362,4700,39.691363,140.061173,Df,2.04,Humid,Milliman and Farnsworth 2013
+Japan,Ooi,,913.4615385,1300,34.769533,138.293996,Cf,2.2087,Humid,Milliman and Farnsworth 2013
+Japan,Shinano,,83.33333333,12000,37.667437,138.774714,Cf,2.3275,Humid,Milliman and Farnsworth 2013
+Japan,Shou,,572.9166667,1200,36.789421,137.075957,Cf,2.4905,Humid,Milliman and Farnsworth 2013
+Japan,Tenryu,,612.745098,5100,34.64709,137.800064,Cf,2.1019,Humid,Milliman and Farnsworth 2013
+Japan,Yura,,3.947368421,1900,35.516592,135.28873,Cf,1.9246,Humid,Milliman and Farnsworth 2013
+Japan,Chikugo,,387.9310345,2900,33.142981,130.343068,Cf,1.6424,Humid,Milliman and Farnsworth 2013
+South Korea,Mankyong,,250,1600,35.786936,126.759488,Df,1.2454,Humid,Milliman and Farnsworth 2013
+South Korea,Sapgyo,,47.79411765,1700,36.88384,126.844309,Dw,1.224,Humid,Milliman and Farnsworth 2013
+South Korea,Seumjin,,255.1020408,4900,34.939512,127.774182,Cw,1.4919,Humid,Milliman and Farnsworth 2013
+South Korea,Yeongsan,,156.25,2800,34.775499,126.37743,Cf,1.1879,Humid,Milliman and Farnsworth 2013
+US,Hudson,,31.25,20000,40.609738,-74.046649,Df,1.1676,Humid,Milliman and Meade 1983
+US,Brazos,,90.90909091,110000,28.939334,-95.298489,Cf,0.997,Humid,Milliman and Meade 1983
+US,Eel,,1093.75,8000,40.648032,-124.309546,Cs,1.5411,Humid,Milliman and Meade 1983
+US,Copper,,729.1666667,60000,60.314686,-144.996481,Df,3.5555,Humid,Milliman and Meade 1983
+US,Susitna,,312.5,50000,61.282587,-150.575584,Df,1.0055,Humid,Milliman and Meade 1983
+Canada,Fraser,,56.81818182,220000,49.1177,-123.186763,Cs,1.5697,Humid,Milliman and Meade 1983
+Peru,Chira,,1250,20000,-4.901139,-81.145548,BWh,0.0262,Hyper-arid,Milliman and Meade 1983
+Colombia,Magdalena,,572.9166667,240000,11.049054,-74.830596,BSh,0.4741,Dry sub-humid,Milliman and Meade 1983
+Argentina,Negro,,81.25,100000,-41.025523,-62.785559,BSk,0.2812,Semi-arid,Milliman and Meade 1983
+Albania,Drini,,937.5,10000,41.849441,19.374763,Cs,1.5899,Humid,Milliman and Meade 1983
+Russia,Severnay Dvina,,8.035714286,350000,64.696471,40.239522,Df,1.1349,Humid,Milliman and Meade 1983
+China,Liaohe,,150.7352941,170000,40.864739,121.808242,Dw,0.6876,Humid,Milliman and Meade 1983
+China,Daling,,1125,20000,40.858933,121.557775,Dw,0.6637,Humid,Milliman and Meade 1983
+China,Haihe,,1012.5,50000,38.956208,117.802065,Dw,0.5402,Dry sub-humid,Milliman and Meade 1983
+China,Huaihe,,33.65384615,260000,33.195535,118.619254,Cw,0.7715,Humid,Milliman and Meade 1983
+China,Pearl (Zhu Jiang),,98.01136364,440000,22.656398,113.717158,Cw,1.4096,Humid,Milliman and Meade 1983
+Myanmar,Irrawaddy,,385.1744186,430000,15.786768,95.071888,Am,1.8329,Humid,Milliman and Meade 1983
+India,Mahanadi,,9.615384615,130000,20.29248,86.706052,Aw,0.9853,Humid,Milliman and Meade 1983
+India,Damodar,,875,20000,22.215272,88.042666,Aw,1.0118,Humid,Milliman and Meade 1983
+India,Godavari,,193.5483871,310000,16.723714,82.33317,Aw,0.7693,Humid,Milliman and Meade 1983
+Mozambique,Limpopo,,50.30487805,410000,-25.205353,33.516305,Aw,0.5594,Dry sub-humid,Milliman and Meade 1983
+Tanzania,Rufiji,,59.02777778,180000,-7.756119,39.318659,Aw,0.8643,Humid,Milliman and Meade 1983
+Kenya,Tana,,625,32000,-2.528923,40.52156,Aw,0.722,Humid,Milliman and Meade 1983
+New Zealand,Haast,,8125,1000,-43.836011,169.034069,Cf,4.7104,Humid,Milliman and Meade 1983
+Papua New Guinea,Fly,,307.3770492,61000,-8.481832,143.491251,Af,1.8078,Humid,Milliman and Meade 1983
+Papua New Guinea,Purari,,1612.903226,31000,-7.833033,145.025636,Af,2.1761,Humid,Milliman and Meade 1983
+Papua New Guinea,Aure,,6875,4500,-7.074757,145.313908,Af,3.4173,Humid,Milliman and Syvitski 1992
+New Zealand,Cleddau,,8125,150,-44.678132,167.924199,Cf,3.6693,Humid,Milliman and Syvitski 1992
+New Zealand,Hokitika,,10625,350,-42.721653,170.951039,Cf,3.8191,Humid,Milliman and Syvitski 1992
+Indonesia,Cijolang,,1187.5,380,-6.912291,107.944977,Am,1.507,Humid,Milliman and Syvitski 1992
+Philippines,Angat,,5000,570,14.769131,120.750076,Am,1.5122,Humid,Milliman and Syvitski 1992
+Indonesia,Cimuntur,,1875,580,-6.322626,108.137456,Aw,1.0158,Humid,Milliman and Syvitski 1992
+Indonesia,Cilutung,,7500,600,-6.814619,108.161945,Am,1.5857,Humid,Milliman and Syvitski 1992
+Philippines,Agno,,2718.75,1200,16.04364,120.197039,Am,1.4882,Humid,Milliman and Syvitski 1992
+Indonesia,Citanduy,,2312.5,2500,-7.674444,108.801667,Af,2.0205,Humid,Milliman and Syvitski 1992
+New Zealand,Waiau,,812.5,2000,-42.777228,173.373061,Cf,1.0011,Humid,Milliman and Syvitski 1992
+New Zealand,Rakaia,,1000,2600,-43.898337,172.212798,Cf,0.7311,Humid,Milliman and Syvitski 1992
+New Zealand,Waimakariri,,1062.5,3200,-43.390808,172.709161,Cf,0.7028,Humid,Milliman and Syvitski 1992
+Indonesia,Cimanuk,,4875,3200,-6.748149,108.151745,Am,1.5204,Humid,Milliman and Syvitski 1992
+Indonesia,Kali Brantas,,600,8500,-7.564225,112.869027,Aw,0.8267,Humid,Milliman and Syvitski 1992
+Indonesia,Porong,,1062.5,12000,-7.562834,112.868278,Aw,0.8267,Humid,Milliman and Syvitski 1992
+Indonesia,Solo,,750,16000,-6.850575,112.575012,Aw,0.9345,Humid,Milliman and Syvitski 1992
+India,Narmada,,875,89000,21.619347,72.577443,BSh,0.4209,Semi-arid,Milliman and Syvitski 1992
+Vietnam,Hungho,,687.5,120000,20.273893,106.570134,Cw,1.3457,Humid,Milliman and Syvitski 1992
+Thailand,Chao Phraya,,42.5,160000,13.532871,100.597709,Aw,0.9015,Humid,Milliman and Syvitski 1992
+India,Krishna,,162.5,250000,15.730763,80.92729,Aw,0.6153,Humid,Milliman and Syvitski 1992
+Italy,Aso,,375,280,43.103421,13.8413,Cs,0.8511,Humid,Milliman and Syvitski 1992
+Algeria,Djer,,1062.5,390,36.593765,2.741978,Cs,0.6716,Dry sub-humid,Milliman and Syvitski 1992
+Algeria,El Harrach,,1000,390,36.742829,3.132142,Cs,0.5568,Dry sub-humid,Milliman and Syvitski 1992
+Italy,Tenna,,562.5,490,43.288757,13.725262,Cs,0.8303,Humid,Milliman and Syvitski 1992
+Italy,Lamone,,1500,520,44.527161,12.279878,Cf,0.72,Humid,Milliman and Syvitski 1992
+Italy,Savio,,1187.5,600,44.319939,12.342116,Cf,0.7036,Humid,Milliman and Syvitski 1992
+US,Carmel,,396.875,630,36.536263,-121.928352,Cs,0.4385,Dry sub-humid,Milliman and Syvitski 1992
+Italy,Foglia,,750,700,43.92299,12.904095,Cf,0.8252,Humid,Milliman and Syvitski 1992
+US,Redwood Creek,,1062.5,730,41.29257,-124.091373,Cs,1.7722,Humid,Milliman and Syvitski 1992
+Japan,Hii,,612.5,920,33.595397,130.35697,Cf,1.6095,Humid,Milliman and Syvitski 1992
+US,Mad,,1250,1200,40.972552,-124.121932,Cs,1.6025,Humid,Milliman and Syvitski 1992
+Italy,Tronto,,562.5,1200,42.894002,13.916415,Cf,0.7929,Humid,Milliman and Syvitski 1992
+Italy,Esino,,500,1200,43.642656,13.373081,Cs,0.8831,Humid,Milliman and Syvitski 1992
+Italy,Biferno,,1062.5,1300,41.979644,15.028087,Cf,0.7383,Humid,Milliman and Syvitski 1992
+Italy,Metauro,,543.75,1400,43.829099,13.054674,Cs,0.8532,Humid,Milliman and Syvitski 1992
+Turkey,Tarsus,,58.125,1400,36.790369,34.830987,Cs,0.6146,Dry sub-humid,Milliman and Syvitski 1992
+Italy,Simeto,,1250,1800,37.400269,15.089111,Cs,0.4575,Semi-arid,Milliman and Syvitski 1992
+Albania,Shkumbini,,2250,1900,41.040115,19.443066,Cs,1.0947,Humid,Milliman and Syvitski 1992
+Japan,Nagara,,131.25,2000,35.032618,136.733376,Cf,1.6122,Humid,Milliman and Syvitski 1992
+Albania,Osumi,,1750,2000,40.812652,19.858583,Cs,0.9613,Humid,Milliman and Syvitski 1992
+Morocco,Bou Sellem,,62.5,2300,34.03537,-6.834451,Cs,0.417,Semi-arid,Milliman and Syvitski 1992
+Venezuela,Maticora,,1375,2500,11.014733,-71.165855,BSh,0.4673,Semi-arid,Milliman and Syvitski 1992
+Italy,Bradano,,625,2700,40.386426,16.85935,BSk,0.4941,Semi-arid,Milliman and Syvitski 1992
+Italy,Pescara,,184.375,3100,42.468166,14.227303,Cf,0.7953,Humid,Milliman and Syvitski 1992
+Italy,Reno,,500,3400,44.591737,12.27998,Cf,0.7262,Humid,Milliman and Syvitski 1992
+Canada,Squamish,,362.5,3600,49.688277,-123.176048,Df,1.8957,Humid,Milliman and Syvitski 1992
+Algeria,Isser,,1062.5,3600,36.839175,3.6678,Cs,0.7243,Humid,Milliman and Syvitski 1992
+US,Santa Clara,,875,4200,34.229107,-119.263229,Cs,0.3518,Semi-arid,Milliman and Syvitski 1992
+Madagascar,Morondava,,1000,4200,-20.304499,44.26342,BSh,0.4568,Semi-arid,Milliman and Syvitski 1992
+Australia,Ord,,393.75,46000,-15.043466,128.147244,BSh,0.407,Semi-arid,Milliman and Syvitski 1992
+Albania,Semani,,2625,5200,40.82363,19.366996,Cs,0.9804,Humid,Milliman and Syvitski 1992
+Canada,Homathko,,468.75,5700,50.930971,-124.860183,Ds,1.4733,Humid,Milliman and Syvitski 1992
+Canada,Kliniklim,,481.25,6500,51.092222,-125.626111,Ds,1.9575,Humid,Milliman and Syvitski 1992
+Venezuela,Tuy,,1125,6600,10.236643,-66.645305,Aw,0.7022,Humid,Milliman and Syvitski 1992
+Italy,Arno,,168.75,8100,43.680228,10.280692,Cs,0.9338,Humid,Milliman and Syvitski 1992
+South Korea,Kuem,,350,10000,35.998983,126.666975,Df,1.2876,Humid,Milliman and Syvitski 1992
+Turkey,Goksu,,156.25,10000,36.298051,34.04784,Cs,0.5711,Dry sub-humid,Milliman and Syvitski 1992
+Japan,Ishikari,,93.75,13000,43.27034,141.371459,Df,1.5376,Humid,Milliman and Syvitski 1992
+Georgia,Rioni,,393.75,13000,42.200199,41.642504,Cf,1.8813,Humid,Milliman and Syvitski 1992
+Turkey,Filyos,,200,13000,41.579201,32.048779,Cf,0.9663,Humid,Milliman and Syvitski 1992
+Italy,Tiber,,218.75,16000,41.740705,12.23443,Cs,0.7014,Humid,Milliman and Syvitski 1992
+Morocco,Sous,,162.5,16000,30.364762,-9.604227,BSh,0.1848,Arid,Milliman and Syvitski 1992
+US,Stikine,,687.5,18000,56.626393,-132.377506,Df,3.0335,Humid,Milliman and Syvitski 1992
+Turkey,Seyhan,,168.75,19000,36.726308,34.908169,Cs,0.5866,Dry sub-humid,Milliman and Syvitski 1992
+Turkey,Ceyhan,,171.875,20000,36.565492,35.559503,Cs,0.6299,Humid,Milliman and Syvitski 1992
+Turkey,Coruh,,250,20000,41.604507,41.574528,Cf,1.6568,Humid,Milliman and Syvitski 1992
+Algeria,Cheliff,,87.5,22000,36.039173,0.134045,Cs,0.3953,Semi-arid,Milliman and Syvitski 1992
+US,Klamath,,100,22000,41.543001,-124.072548,Cs,1.7733,Humid,Milliman and Syvitski 1992
+Argentina,Colorado,,187.5,23000,-39.687401,-62.089656,Cf,0.3559,Semi-arid,Milliman and Syvitski 1992
+South Korea,Nakdong,,250,24000,35.090022,128.934889,Cw,1.4709,Humid,Milliman and Syvitski 1992
+South Korea,Han,,250,26000,37.762271,126.18932,Dw,1.2232,Humid,Milliman and Syvitski 1992
+US,San Juan,,100,31000,37.179243,-110.895404,BWk,0.0774,Arid,Milliman and Syvitski 1992
+US,Russian,,425,36000,38.450576,-123.129083,Cs,0.9664,Humid,Milliman and Syvitski 1992
+Turkey,Yesil-Irmak,,350,34000,41.380758,36.659423,Cf,0.9471,Humid,Milliman and Syvitski 1992
+Morocco,Sebou,,581.25,40000,34.263764,-6.673103,Cs,0.4631,Semi-arid,Milliman and Syvitski 1992
+Canada,Skeena,,162.5,42000,54.131635,-130.094829,Df,3.9561,Humid,Milliman and Syvitski 1992
+Turkey,Sakarya,,125,46000,41.12667,30.648624,Cs,0.9334,Humid,Milliman and Syvitski 1992
+Russia,Kuban,,100,48000,45.349554,37.399783,Cf,0.6799,Humid,Milliman and Syvitski 1992
+Morocco,Moulouya,,81.25,51000,35.122552,-2.339059,Cs,0.2857,Semi-arid,Milliman and Syvitski 1992
+Turkey,Kizil-Irmak,,193.75,74000,41.734866,35.956125,Cf,0.8566,Humid,Milliman and Syvitski 1992
+Spain,Ebro,,131.25,85000,40.722502,0.867177,Cs,0.5345,Dry sub-humid,Milliman and Syvitski 1992
+Azerbaijan,Kura,,125,180000,39.331836,49.363184,BSk,0.381,Semi-arid,Milliman and Syvitski 1992
+France,Ardour,,11.25,16000,46.114422,1.43447,Cf,1.072,Humid,Milliman and Syvitski 1992
+Canada,Babbage,,43.75,50000,69.211844,-138.394756,Ds,0.6523,Dry sub-humid,Milliman and Syvitski 1992
+France,Garonne,,27.5,55000,45.594115,-1.058571,Cf,0.9965,Humid,Milliman and Syvitski 1992
+US,Kuskokwim,,62.5,80000,60.18675,-162.427597,Df,1.2219,Humid,Milliman and Syvitski 1992
+Italy,Arzilla,,812.5,100,43.852802,13.009558,Cf,0.8385,Humid,Milliman and Syvitski 1992
+Italy,Tesino,,687.5,110,42.979312,13.876184,Cs,0.8398,Humid,Milliman and Syvitski 1992
+US,Gurabo,,1062.5,160,18.271919,-66.008621,Af,1.1365,Humid,Milliman and Syvitski 1992
+Italy,Ete Vivo,,1000,180,43.162739,13.811062,Cs,0.8141,Humid,Milliman and Syvitski 1992
+US,Grande,,1125,230,18.437719,-65.878277,Af,1.1885,Humid,Milliman and Syvitski 1992
+New Zealand,Esk,,687.5,250,-39.397556,176.8856,Cf,1.2554,Humid,Milliman and Syvitski 1992
+Italy,Misa,,812.5,380,43.72033,13.220624,Cs,0.8848,Humid,Milliman and Syvitski 1992
+New Zealand,Waioeka,,368.75,640,-37.992763,177.267661,Cf,1.3467,Humid,Milliman and Syvitski 1992
+New Zealand,Ruamahanga,,225,640,-41.371899,175.140069,Cf,1.4258,Humid,Milliman and Syvitski 1992
+Italy,Musone,,1062.5,640,43.474037,13.641797,Cs,0.8439,Humid,Milliman and Syvitski 1992
+Philippines,Pampanga,,812.5,830,14.776642,120.657155,Aw,1.5277,Humid,Milliman and Syvitski 1992
+New Zealand,Tutaekuri,,262.5,790,-39.565544,176.913689,Cf,0.7524,Humid,Milliman and Syvitski 1992
+UK,Usk,,28.75,910,51.548619,-2.984449,Cf,1.3972,Humid,Milliman and Syvitski 1992
+Venezuela,Neveri,,187.5,980,10.171111,-64.708913,BSh,0.3544,Semi-arid,Milliman and Syvitski 1992
+New Zealand,Karamea,,200,1200,-41.253125,172.097193,Cf,2.2738,Humid,Milliman and Syvitski 1992
+Italy,Chienti,,625,1300,43.294819,13.742775,Cs,0.8351,Humid,Milliman and Syvitski 1992
+New Zealand,Motu,,1250,1400,-37.853418,177.589921,Cf,1.4707,Humid,Milliman and Syvitski 1992
+New Zealand,Waiapu,,12500,1400,-37.776544,178.479333,Cf,2.1038,Humid,Milliman and Syvitski 1992
+New Zealand,Waipaoa,,3625,1600,-38.711884,177.940539,Cf,0.9433,Humid,Milliman and Syvitski 1992
+New Zealand,Whakatane,,1500,1600,-37.944386,177.009724,Cf,1.5355,Humid,Milliman and Syvitski 1992
+New Zealand,Ngaruroro,,293.75,1900,-39.568049,176.926487,Cf,0.7524,Humid,Milliman and Syvitski 1992
+US,Skykomish,,68.75,2200,47.82205,-122.031968,Cs,1.507,Humid,Milliman and Syvitski 1992
+New Zealand,Tukituki,,275,2400,-39.597058,176.944942,Cf,0.7434,Humid,Milliman and Syvitski 1992
+New Zealand,Mohaka,,231.25,2400,-39.125051,177.192102,Cf,1.3898,Humid,Milliman and Syvitski 1992
+New Zealand,Buller,,168.75,6300,-41.728854,171.589011,Cf,2.6666,Humid,Milliman and Syvitski 1992
+New Zealand,Whanganui,,206.25,6600,-43.035611,170.422383,Cf,4.3314,Humid,Milliman and Syvitski 1992
+Japan,Yodo,,168.75,7100,34.681,135.410192,Cf,1.3808,Humid,Milliman and Syvitski 1992
+US,Sabine,,36.25,13000,29.989887,-93.787691,Cf,1.0547,Humid,Milliman and Syvitski 1992
+Canada,Romaine,,6.875,14000,50.302222,-63.803333,Df,1.8537,Humid,Milliman and Syvitski 1992
+Japan,Tone,,156.25,12000,35.7412,140.846468,Cf,1.8665,Humid,Milliman and Syvitski 1992
+Canada,Saguanay,,3.125,78000,48.125003,-69.707351,Df,1.5328,Humid,Milliman and Syvitski 1992
+US,Skagit,,25.625,80000,48.312541,-122.387827,Cs,1.0703,Humid,Milliman and Syvitski 1992
+Sweden,Muonio Alv,,9.375,24000,67.180833,23.558333,Df,1.1157,Humid,Milliman and Syvitski 1992
+US,Savannah,,68.75,25000,32.027528,-80.87925,Cf,0.9431,Humid,Milliman and Syvitski 1992
+Ukraine,Dnester,,25,62000,46.320189,30.316254,Df,0.592,Dry sub-humid,Milliman and Syvitski 1992
+Poland,Oder,,0.75,110000,53.673127,14.5312,Df,0.8112,Humid,Milliman and Syvitski 1992
+Australia,Burdekin,,14.375,130000,-19.686538,147.584614,Aw,0.5829,Dry sub-humid,Milliman and Syvitski 1992
+Germany,Elbe,,3.75,130000,53.905099,8.860141,Cf,1.1856,Humid,Milliman and Syvitski 1992
+Poland,Vistula,,8.125,200000,54.348344,18.947483,Df,0.8906,Humid,Milliman and Syvitski 1992
+Uruguay,Uruguay,,28.125,240000,-34.016201,-58.330338,Cf,0.7417,Humid,Milliman and Syvitski 1992
+Russia,Pechora,,15.625,250000,68.267897,54.055035,Df,1.2087,Humid,Milliman and Syvitski 1992
+Russia,Indigirka,,24.375,360000,66.439471,143.147262,Df,0.4545,Dry sub-humid,Milliman and Syvitski 1992
+Ghana,Volta,,30,400000,5.780168,0.672739,Aw,0.6216,Dry sub-humid,Milliman and Syvitski 1992
+Russia,Don,,11.25,420000,47.09057,39.281285,Df,0.6305,Dry sub-humid,Milliman and Syvitski 1992
+Russia,Volga,,9.375,1400000,45.936133,48.795579,BSk,0.1973,Arid,Milliman and Syvitski 1992
+Taiwan,Erhjen,,22500,350,22.913503,120.176115,Cf,1.2916,Humid,Milliman and Syvitski 1992
+UK,Ystwyth,,102.5,170,52.406142,-4.08961,Cf,1.7833,Humid,Milliman and Syvitski 1992
+New Zealand,Rangitaiki,,51.875,230,-37.909444,176.881515,Cf,1.2788,Humid,Milliman and Syvitski 1992
+UK,Avon,,100.625,260,51.983906,-2.176632,Cf,0.9867,Humid,Milliman and Syvitski 1992
+UK,Esk,,36.25,310,54.491803,-0.61211,Cf,1.2415,Humid,Milliman and Syvitski 1992
+Venezuela,Manzanares,,156.25,830,10.470873,-64.191817,Aw,0.2802,Humid,Milliman and Syvitski 1992
+UK,Clyde,,37.5,1900,55.928118,-4.521775,Cf,2.9081,Humid,Milliman and Syvitski 1992
+UK,Tyne,,38.125,2200,55.011259,-1.41638,Cf,1.0523,Humid,Milliman and Syvitski 1992
+Ivory Coast,San Pedro,,13.75,3300,4.756196,-6.599681,Aw,0.9783,Humid,Milliman and Syvitski 1992
+US,Chehalis,,21.25,3400,46.959161,-123.836125,Cs,3.0887,Humid,Milliman and Syvitski 1992
+UK,Wye,,31.875,4000,51.616291,-2.661035,Cf,1.2338,Humid,Milliman and Syvitski 1992
+Canada,St. Jean,,30,5600,50.284159,-64.336629,Df,1.8642,Humid,Milliman and Syvitski 1992
+UK,Severn,,40.625,6800,51.551547,-2.728909,Cf,1.2384,Humid,Milliman and Syvitski 1992
+US,Cape Fear,,13.125,13000,33.885141,-78.009114,Cf,1.0623,Humid,Milliman and Syvitski 1992
+US,Rappahannock,,35,1600,37.598937,-76.362444,Cf,0.9199,Humid,Milliman and Syvitski 1992
+Ghana,Tano,,13.75,16000,5.103541,-2.936692,Am,1.3939,Humid,Milliman and Syvitski 1992
+US,Delaware,,24.375,17000,38.868526,-75.03082,Cf,1.0194,Humid,Milliman and Syvitski 1992
+US,Pearl,,28.75,17000,30.185289,-89.526557,Cf,1.1099,Humid,Milliman and Syvitski 1992
+Belgium,Scheldt,,28.125,22000,51.385712,4.213612,Cf,1.1474,Humid,Milliman and Syvitski 1992
+Canada,Abitibi,,3.75,24000,51.061509,-80.90907,Df,1.0914,Humid,Milliman and Syvitski 1992
+US,Potomac,,17.5,25000,38.015333,-76.369493,Cf,0.9408,Humid,Milliman and Syvitski 1992
+US,Roanoke,,50,25000,35.941535,-76.693812,Cf,0.9864,Humid,Milliman and Syvitski 1992
+US,Santee,,23.125,27000,33.135256,-79.258796,Cf,0.9895,Humid,Milliman and Syvitski 1992
+US,Altamaha,,44.375,35000,31.317802,-81.292019,Cf,0.9677,Humid,Milliman and Syvitski 1992
+Canada,Attawapiskat,,3.75,36000,52.965718,-82.258649,Df,0.9626,Humid,Milliman and Syvitski 1992
+Germany,Weser,,5,38000,53.528183,8.5641,Cf,1.1075,Humid,Milliman and Syvitski 1992
+Cameroon,Mbam,,53.125,42000,4.396617,11.272002,Aw,1.0608,Humid,Milliman and Syvitski 1992
+US,Tombigbee,,28.125,50000,31.137441,-87.943949,Cf,1.0606,Humid,Milliman and Syvitski 1992
+Poland,Y. Bug,,9.375,34000,52.508135,21.08408,Df,0.6716,Humid,Milliman and Syvitski 1992
+US,Alabama,,25,57000,31.137441,-87.943949,Cf,1.0606,Humid,Milliman and Syvitski 1992
+US,Susquehanna,,18.125,62000,39.549435,-76.080419,Cf,1.0661,Humid,Milliman and Syvitski 1992
+Canada,Moose,,4.375,60000,51.351591,-80.402424,Df,1.1054,Humid,Milliman and Syvitski 1992
+France,Seine,,11.25,65000,49.437845,0.168177,Cf,0.9308,Humid,Milliman and Syvitski 1992
+Canada,Nottaway,,9.375,66000,51.430069,-78.930536,Df,1.1501,Humid,Milliman and Syvitski 1992
+Cameroon,Sanaga,,12.5,130000,3.567373,9.650266,Am,2.12,Humid,Milliman and Syvitski 1992
+Senegal,Senegal,,5,270000,15.981126,-16.504152,BWh,0.1702,Arid,Milliman and Syvitski 1992
+UK,Creedy,,33.125,260,50.749952,-3.5493,Cf,1.4003,Humid,Milliman and Syvitski 1992
+UK,Welland,,8.75,530,52.933642,0.084021,Cf,0.8828,Humid,Milliman and Syvitski 1992
+UK,Exe,,15,600,50.614611,-3.421416,Cf,1.4583,Humid,Milliman and Syvitski 1992
+UK,Bristol Avon,,16.875,670,51.504001,-2.718249,Cf,1.3257,Humid,Milliman and Syvitski 1992
+UK,Swale,,15,1400,54.088277,-1.343516,Cf,0.9906,Humid,Milliman and Syvitski 1992
+UK,Nene,,6.875,1500,52.825805,0.217506,Cf,0.8766,Humid,Milliman and Syvitski 1992
+UK,Ely Ouse,,5,3600,52.808105,0.357039,Cf,0.8751,Humid,Milliman and Syvitski 1992
+US,Neuse,,7.5,6900,35.064281,-76.536153,Cf,1.1189,Humid,Milliman and Syvitski 1992
+US,Ogeechee,,5.625,6700,31.836669,-81.045243,Cf,0.9363,Humid,Milliman and Syvitski 1992
+US,Pamlico,,11.875,11000,35.328117,-76.447507,Cf,1.0788,Humid,Milliman and Syvitski 1992
+US,Peedee,,10.625,23000,33.36288,-79.265704,Cf,0.9571,Humid,Milliman and Syvitski 1992
+Finland,Kymijoki,,0.25,37000,60.47714,26.894093,Df,1.1054,Humid,Milliman and Syvitski 1992
+US,Apalachicola,,2.5,44000,29.724479,-84.978961,Cf,1.0832,Humid,Milliman and Syvitski 1992
+US,Tar,,1.25,57000,35.54807,-77.080975,Cf,0.9659,Humid,Milliman and Syvitski 1992
+US,Lucky Hills (102) Walnut Gulch Arizona,,144.375,0.0146,31.7421917,-110.052603,BSk,0.2211,Semi-arid,Nearing et al. 2007
+US,Lucky Hills (105) Walnut Gulch Arizona,,46.875,0.0018,31.7434305,-110.054842,BSk,0.2211,Semi-arid,Nearing et al. 2007
+US,Lucky Hills (106) Walnut Gulch Arizona,,50,0.0034,31.742028,-110.05369,BSk,0.2211,Semi-arid,Nearing et al. 2007
+US,Lucky Hills (121) Walnut Gulch Arizona,,91.25,0.0542,31.730242,-110.03607,BSk,0.225,Semi-arid,Nearing et al. 2007
+Panama,Upper Rio Chagres (CChC),,107,409,9.26751,-79.505379,Am,1.895,Humid,Nichols et al. 2004
+China,Danghewan Qilian Shan,,20,13762,39.65,94.88333,BWk,0.0459,Arid,Pan et al. 2010
+China,Changmabao Qilian Shan,,120,10910,39.65,96.85,BWk,0.4178,Semi-arid,Pan et al. 2010
+China,Binggou Qilian Shan,,50,6896,39.6,98,BWk,0.1501,Arid,Pan et al. 2010
+China,Xindi Qilian Shan,,200,1582,39.65,98.81666,BWk,0.083,Arid,Pan et al. 2010
+China,Liyuanbao Qilian Shan,,90,2231,38.96666,100,BWk,0.1469,Arid,Pan et al. 2010
+China,Zhamashike Qilian Shan,,120,4585,38.21666,99.98333,BSk,0.4468,Semi-arid,Pan et al. 2010
+China,Qilian Qilian Shan,,90,2413,38.2,100.21666,BSk,0.3484,Semi-arid,Pan et al. 2010
+China,Yingluoxia Qilian Shan,,110,10003,38.23333,100.18333,BSk,0.321,Semi-arid,Pan et al. 2010
+China,Jiutiaoling Qilian Shan,,90,1082,37.86666,102.05,BSk,0.3769,Semi-arid,Pan et al. 2010
+China,Zamusi Qilian Shan,,110,842,37.7,102.56666,BSk,0.2866,Semi-arid,Pan et al. 2010
+China,Shajintai Qilian Shan,,120,455,37.46666,102.6,Dw,0.3856,Semi-arid,Pan et al. 2010
+US,Lucky Hills (103) Walnut Gulch Arizona,,377,0.036826426,31.743303,-110.0546718,BSk,0.2211,Semi-arid,Pelletier et al. 2016
+US,Lucky Hills (104) Walnut Gulch Arizona,,91,0.045324832,31.741229,-110.0524126,BSk,0.2211,Semi-arid,Pelletier et al. 2016
+US,Kendall (112) Walnut Gulch Arizona,,5,0.018615556,31.737135,-109.943714,BSk,0.2583,Semi-arid,Pelletier et al. 2016
+Germany,Regenstauf Regen,,7,2658,49.128641,12.129443,Df,0.8335,Humid,Schaller et al. 2001
+Germany,Deizisau Neckar,,25,4010,48.717128,9.381864,Cf,0.8372,Humid,Schaller et al. 2001
+Germany,Poppenweiler Neckar,,27,5005,48.908024,9.258792,Cf,0.8312,Humid,Schaller et al. 2001
+Germany,Lauffen Neckar,,23,7916,49.07272,9.160582,Cf,0.7882,Humid,Schaller et al. 2001
+Germany,Rockenau Neckar,,27,12676,49.446793,9.001491,Cf,0.8443,Humid,Schaller et al. 2001
+Germany,Mannheim Neckar,,26,13966,49.489531,8.445279,Cf,0.7789,Humid,Schaller et al. 2001
+Belgium,Tailfer Meuse,,18,12484,50.398006,4.881966,Cf,1.0904,Humid,Schaller et al. 2001
+Belgium,Nameche Meuse,,18,15328,50.468233,4.994755,Cf,1.0993,Humid,Schaller et al. 2001
+Belgium,Liege Meuse,,17,21254,50.638269,5.576463,Cf,1.1135,Humid,Schaller et al. 2001
+Netherlands ,Eijsden Meuse,,17,21649,50.782888,5.691978,Cf,1.0994,Humid,Schaller et al. 2001
+Netherlands ,Heusden Meuse,,13,32711,51.740382,5.142948,Cf,1.1348,Humid,Schaller et al. 2001
+Netherlands ,Keizersveer Meuse,,11,33580,51.719703,4.890716,Cf,1.1465,Humid,Schaller et al. 2001
+France,Goudet Loire,,3,432,44.893807,3.918729,Df,0.8327,Humid,Schaller et al. 2001
+France,Bas Loire,,5,3234,45.30909,4.130214,Cf,0.7667,Humid,Schaller et al. 2001
+France,Feurs Loire,,5,4960,45.742382,4.212058,Cf,0.7911,Humid,Schaller et al. 2001
+France,Villerest Loire,,4,6584,45.995928,4.046326,Cf,0.7908,Humid,Schaller et al. 2001
+France,Decize Loire,,5,16519,46.828013,3.457871,Cf,0.8384,Humid,Schaller et al. 2001
+France,Nevers Loire,,7,18208,46.983685,3.158739,Cf,0.8446,Humid,Schaller et al. 2001
+France,Gien Loire,,10,35500,47.682772,2.631473,Cf,0.7815,Humid,Schaller et al. 2001
+France,Orleans Loire,,8,36966,47.896611,1.903854,Cf,0.7467,Humid,Schaller et al. 2001
+France,Chaumont Loire,,10,40600,47.485785,1.190193,Cf,0.7479,Humid,Schaller et al. 2001
+France,Langogne Allier,,3,324,44.734808,3.857722,Df,0.9104,Humid,Schaller et al. 2001
+France,Langeac Allier,,4,1781,45.100843,3.498687,Df,0.6876,Humid,Schaller et al. 2001
+France,Chatel Allier,,6,12430,46.402129,3.31761,Cf,0.7889,Humid,Schaller et al. 2001
+France,Villeneuve Allier,,8,13348,46.659168,3.228986,Cf,0.8216,Humid,Schaller et al. 2001
+France,Cuffy Allier,,8,14320,46.947834,3.073186,Cf,0.8391,Humid,Schaller et al. 2001
+Taiwan,Lanyang River (H001),,4500,446.7,24.64226,121.567568,Cf,2.7535,Humid,Siame et al. 2011
+Taiwan,Lanyang River (H006),,10450,820.69,24.714578,121.772009,Cf,2.363,Humid,Siame et al. 2011
+Taiwan,Lanyang River (H019),,4100,101.35,24.758077,121.74398,Cf,2.4132,Humid,Siame et al. 2011
+Brazil,Amazon,,82,5980000,0.384879,-50.026525,Aw,1.4002,Humid,Summerfield and Hulton 1994
+Brazil,Sao Francisco,,4,620000,-10.497804,-36.394521,Aw,0.7969,Humid,Summerfield and Hulton 1994
+Argentina,La Plata (Parana),,11,2860000,-35.236398,-56.709724,Cf,0.8648,Humid,Summerfield and Hulton 1994
+Venezuela,Orinoco,,66,920000,8.842815,-60.755759,Af,1.4138,Humid,Summerfield and Hulton 1994
+Mexico,Colorado,,89,700000,31.699168,-114.7114,BWh,0.0341,Arid,Summerfield and Hulton 1994
+US,Columbia,,18,670000,46.257555,-124.021911,Cs,2.9922,Humid,Summerfield and Hulton 1994
+US,Mississippi,,70,3200000,29.430388,-89.603727,Cf,1.22,Humid,Summerfield and Hulton 1994
+US,Rio Grande,,18,630000,25.953282,-97.149102,Cf,0.5,Dry sub-humid,Summerfield and Hulton 1994
+US,Yukon,,35,840000,62.604162,-164.815264,Df,1.4308,Humid,Summerfield and Hulton 1994
+Canada,Mackenzie,,23,1770000,69.31783,-133.979771,Df,0.5629,Semi-arid,Summerfield and Hulton 1994
+Canada,St. Lawrence,,1,1050000,49.387384,-66.734208,Df,1.7933,Humid,Summerfield and Hulton 1994
+Russia,Amur,,10,2040000,52.956139,141.134602,Df,1.2538,Humid,Summerfield and Hulton 1994
+Russia,Lena,,3,2450000,72.318533,126.580877,Df,0.7988,Humid,Summerfield and Hulton 1994
+Romania,Danube,,35,790000,45.233932,29.718825,Df,0.4591,Semi-arid,Summerfield and Hulton 1994
+Ukraine,Dnieper,,1,540000,46.498372,32.30173,Df,0.4965,Dry sub-humid,Summerfield and Hulton 1994
+Iraq,Shatt-Al-Arab,,21,890000,29.932673,48.614766,BWh,0.101,Arid,Summerfield and Hulton 1994
+Bangladesh,Brahmaputra,,670,640000,23.804406,89.773697,Cw,1.2326,Humid,Summerfield and Hulton 1994
+Bangladesh,Ganges,,257,980000,22.391133,91.002731,Am,1.9734,Humid,Summerfield and Hulton 1994
+China,Chiang Jiang (Yangtze River),,104,1730000,31.433489,121.856982,Cf,1.073,Humid,Summerfield and Hulton 1994
+China,Huang He (Yellow River),,47,790000,37.763671,119.156128,Dw,0.5332,Dry sub-humid,Summerfield and Hulton 1994
+Pakistan,Indus,,120,930000,24.018531,67.46893,BWh,0.1519,Arid,Summerfield and Hulton 1994
+Vietnam,Mekong,,86,760000,9.77558,106.482789,Am,1.097,Humid,Summerfield and Hulton 1994
+Egypt,Nile,,10,3630000,31.45237,30.377123,BWh,0.1031,Arid,Summerfield and Hulton 1994
+Democratic Republic of the Congo,Zaire,,5,3630000,-6.065313,12.438745,Aw,0.6017,Dry sub-humid,Summerfield and Hulton 1994
+Mozambique,Zambezi,,13,1410000,-18.852719,36.299452,Aw,0.75,Humid,Summerfield and Hulton 1994
+South Africa,Orange,,24,890000,-28.631913,16.454035,BWk,0.0448,Arid,Summerfield and Hulton 1994
+Nigeria,Niger,,7,2160000,5.137951,5.384938,Am,2.2959,Humid,Summerfield and Hulton 1994
+Australia,Murray,,11,1140000,-35.364166,139.364032,BSk,0.3133,Semi-arid,Summerfield and Hulton 1994
+Ecuador,Gordeleg Catchment,,93.75,1,-2.950511111,-78.89227778,Aw,0.6809,Humid,Vanacker et al. 2007
+Ecuador,Quingeo Catchment ,,4737.5,0.1,-3.040361111,-78.94827778,Aw,0.6011,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Quingeo Catchment ,,2906.25,0.8,-2.948388889,-78.92911111,Aw,0.5641,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Quingeo Catchment ,,131.25,12,-3.020777778,-78.91458333,Aw,0.6237,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Quingeo Catchment ,,43.75,5,-3.007194444,-78.92872222,Aw,0.5496,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Quingeo Catchment ,,212.5,7,-3.029527778,-78.91519444,Aw,0.5692,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Quingeo Catchment ,,406.25,4,-3.029638889,-78.91430556,Aw,0.584,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Quingeo Catchment ,,181.25,1,-3.02275,-78.90891667,Aw,0.6237,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Quingeo Catchment ,,406.25,0.6,-2.955805556,-78.92775,Aw,0.5596,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Quingeo Catchment ,,2412.5,0.3,-2.941444444,-78.92730556,Aw,0.5682,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Quingeo Catchment ,,1281.25,0.2,-2.950583333,-78.92969444,Aw,0.5641,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Jadan Catchment ,,1375,0.1,-2.870361111,-78.87955556,Aw,0.5903,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Jadan Catchment ,,1362.5,0.1,-2.869888889,-78.87897222,Aw,0.5903,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Jadan Catchment ,,87.5,9,-2.868722222,-78.87538889,Aw,0.5903,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Jadan Catchment ,,3625,0.3,-2.870305556,-78.87586111,Aw,0.5903,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Jadan Catchment ,,418.75,3,-2.91675,-78.86966667,Aw,0.6133,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Jadan Catchment ,,16.25,0.1,-2.869916667,-78.83875,Aw,0.6026,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Deleg Catchment ,,637.5,1,-2.794916667,-78.93075,Aw,0.6121,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Deleg Catchment ,,937.5,2,-2.797555556,-78.92944444,Aw,0.6019,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Deleg Catchment ,,543.75,3,-2.806138889,-78.91961111,Aw,0.5839,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Deleg Catchment ,,9437.5,1,-2.805138889,-78.90916667,Aw,0.583,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Deleg Catchment ,,1137.5,0.1,-2.799638889,-78.89786111,Aw,0.6047,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Deleg Catchment ,,931.25,0.1,-2.799722222,-78.89786111,Aw,0.6047,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Burgay Catchment ,,8562.5,0.1,-2.816388889,-78.87883333,Aw,0.5278,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Burgay Catchment ,,931.25,0.3,-2.71625,-78.89305556,Aw,0.5904,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Burgay Catchment ,,637.5,2,-2.713611111,-78.89211111,Aw,0.6031,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Burgay Catchment ,,1056.25,3,-2.714861111,-78.89313889,Aw,0.6031,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Burgay Catchment ,,1112.5,3,-2.714555556,-78.891,Aw,0.6031,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Burgay Catchment ,,1137.5,6,-2.714527778,-78.89025,Aw,0.6031,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Gualaceo Catchment ,,52.5,2,-2.988333333,-78.80919444,Aw,0.5503,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Gualaceo Catchment ,,268.75,3,-2.936361111,-78.79547222,Aw,0.569,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Gualaceo Catchment ,,2000,0.1,-3.002972222,-78.81175,Aw,0.5523,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Gualaceo Catchment ,,87.5,7,-2.925472222,-78.79441667,Aw,0.5667,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Gualaceo Catchment ,,381.25,0.6,-2.93325,-78.79580556,Aw,0.5606,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Gualaceo Catchment ,,100,16,-2.943972222,-78.79361111,Aw,0.5575,Dry sub-humid,Vanacker et al. 2007
+Ecuador,Gualaceo Catchment ,,68.75,2,-3.003361111,-78.85291667,Aw,0.7479,Humid,Vanacker et al. 2007
+Ecuador,Gualaceo Catchment ,,850,0.2,-2.945888889,-78.81527778,Aw,0.6095,Dry sub-humid,Vanacker et al. 2007
+Bolivia,Beni at Rurrenabaque,,1180,68000,-14.527,-67.497,Af,1.1085,Humid,Wittmann et al. 2009
+Bolivia,Beni at Riberalta,,390,119000,-11.212,-66.249,Aw,0.8963,Humid,Wittmann et al. 2009
+Bolivia,Madre de Dios at Miraflores,,230,124000,-11.112,-66.416,Aw,0.9175,Humid,Wittmann et al. 2009
+Bolivia,Orthon at Caracoles,,30,32000,-10.82,-66.11,Aw,0.9443,Humid,Wittmann et al. 2009
+Bolivia,Beni at Cachuela Esperanza,,260,283000,-10.55,-65.6,Aw,0.921,Humid,Wittmann et al. 2009
+Bolivia,Grande at Puente Arce,,2120,24000,-18.609,-65.162,Cw,0.3631,Semi-arid,Wittmann et al. 2009
+Bolivia,Pirai at Angostura,,770,1400,-18.082,-63.457,Aw,0.6966,Humid,Wittmann et al. 2009
+Bolivia,Paracti at Paracti,,4050,300,-17.217009,-65.818492,Cw,0.9673,Humid,Wittmann et al. 2009
+Bolivia,Grande at Abapo,,890,60000,-18.909,-63.41,Aw,0.4822,Semi-arid,Wittmann et al. 2009
+Bolivia,Ichilo at Puerto Villarroel,,470,7600,-16.841,-64.787,Am,2.0864,Humid,Wittmann et al. 2009
+Bolivia,Mamore at Puerto Ganadero,,160,159000,-14.864,-64.99,Am,1.0834,Humid,Wittmann et al. 2009
+Bolivia,Mamore at Puerto Siles,,90,216000,-12.804006,-65.004863,Aw,0.7846,Humid,Wittmann et al. 2009
+Bolivia,Mamore at Guayaramerin,,50,599000,-10.808,-65.346,Aw,0.8376,Humid,Wittmann et al. 2009
+Brazil,Madeira at Porto Velho,,90,954000,-8.77,-63.909,Am,1.2172,Humid,Wittmann et al. 2009
+Peru,Requena,,210,360000,-5.055194,-73.861609,Af,1.4466,Humid,Wittmann et al. 2011
+Peru,Tamshiyacu,,210,733000,-4.005518,-73.165844,Af,1.633,Humid,Wittmann et al. 2011
+Peru,Bellavista,,170,101000,-3.701793,-73.225131,Af,1.6538,Humid,Wittmann et al. 2011
+Brazil,Manacapuru,,110,2270000,-3.34256,-60.678913,Am,1.4136,Humid,Wittmann et al. 2011
+Brazil,Paricatuba,,6,832000,-3.018881,-60.482798,Am,1.537,Humid,Wittmann et al. 2011
+Brazil,Confluence,,10,213000,-1.358346,-61.868589,Am,1.2505,Humid,Wittmann et al. 2011
+Brazil,Amatari,,110,3154000,-3.289521,-58.883136,Am,1.2961,Humid,Wittmann et al. 2011
+Brazil,Fazenda Vista Allegre,,130,1336000,-3.909541,-59.161816,Am,1.3581,Humid,Wittmann et al. 2011
+Brazil,Itenez,,5,354000,-12.456097,-64.332791,Aw,0.8102,Humid,Wittmann et al. 2011
+Brazil,Obidos,,80,5088000,-1.920364,-55.525552,Am,1.1395,Humid,Wittmann et al. 2011
+Brazil,Itaituba,,6,598000,-4.282773,-55.973993,Am,1.2381,Humid,Wittmann et al. 2011
+US,YANTIC RIVER AT YANTIC CT,1127500,9.598045138,231.2859284,41.558611,-72.121944,Df,1.2538,Humid,USGS
+US,COGINCHAUG RIVER AT MIDDLEFIELD CT,1192883,5.698410383,77.1816424,41.520233,-72.706531,Df,1.2471,Humid,USGS
+US,SALMON RIVER NEAR EAST HAMPTON CT,1193500,41.15800788,258.9988,41.552222,-72.449722,Df,1.2489,Humid,USGS
+US,Passaic River near Chatham NJ,1379500,13.88963943,258.9988,40.726111,-74.389722,Df,1.1965,Humid,USGS
+US,Baldwins Creek at Baldwin Lake nr Pennington NJ,1400932,10.75871145,6.52676976,40.340556,-74.780556,Df,1.0863,Humid,USGS
+US,Great Egg Harbor River at Folsom NJ,1411000,1.70422681,147.8883148,39.594722,-74.851667,Df,1.0238,Humid,USGS
+US,Crosswicks Creek at Extonville NJ,1464500,13.04476135,211.084022,40.137222,-74.6,Df,1.0652,Humid,USGS
+US,Schuylkill River at Port Carbon PA,1467470,141.5054759,70.1886748,40.694444,-76.163889,Df,1.1817,Humid,USGS
+US,Schuylkill River at Berne PA,1470500,48.03957491,919.44574,40.5225932,-75.9982682,Df,1.0971,Humid,USGS
+US,French Creek near Phoenixville PA,1472157,15.95507949,153.0682908,40.151389,-75.601667,Df,1.0578,Humid,USGS
+US,Perkiomen Creek at Graterford PA,1473000,42.98741227,722.606652,40.2295473,-75.451567,Df,1.0425,Humid,USGS
+US,Valley Creek at PA Turnpike Br near Valley Forge,1473169,22.12179547,53.8717504,40.079167,-75.461111,Df,1.0568,Humid,USGS
+US,West Branch Brandywine Creek near Honey Brook PA,1480300,36.89804769,48.4327756,40.072778,-75.861111,Df,1.1259,Humid,USGS
+US,West Branch Brandywine Creek at Modena PA,1480617,23.42748936,142.44934,39.961667,-75.801667,Df,1.0854,Humid,USGS
+US,East Branch Brandywine Creek below Downingtown PA,1480870,21.64724199,232.8399212,39.968611,-75.673611,Df,1.0798,Humid,USGS
+US,Brandywine Creek at Chadds Ford PA,1481000,39.58981072,743.326556,39.8698328,-75.5932623,Df,1.08,Humid,USGS
+US,BRANDYWINE CREEK AT WILMINGTON DE,1481500,41.92397571,813.256232,39.7695081,-75.5766963,Df,1.0706,Humid,USGS
+US,CHOPTANK RIVER NEAR GREENSBORO MD,1491000,3.88827337,292.668644,38.9972023,-75.7858074,Cf,0.9785,Humid,USGS
+US,Corey Creek near Mainesburg PA,1516500,23.56629886,31.5978536,41.7909075,-77.0146877,Df,0.8283,Humid,USGS
+US,Elk Run near Mainesburg PA,1517000,30.48122292,26.4178776,41.8150742,-76.9649635,Df,0.83,Humid,USGS
+US,Blockhouse Creek Tributary at Liberty PA,1549100,64.18178532,2.79718704,41.567778,-77.101667,Df,0.9254,Humid,USGS
+US,Blockhouse Creek at Buttonwood PA,1549300,50.92683641,71.4836688,41.495278,-77.150556,Df,0.9913,Humid,USGS
+US,Steam Valley Run at Buttonwood PA,1549350,28.70197025,13.83053592,41.494167,-77.150833,Df,0.9753,Humid,USGS
+US,Blockhouse Creek near English Center PA,1549500,59.56330258,97.6425476,41.473611,-77.231111,Df,0.9334,Humid,USGS
+US,Conodoguinet Creek Trib No. 1 near Enola PA,1570100,37.74827238,1.99429076,40.290833,-76.993889,Df,0.9659,Humid,USGS
+US,Conodoguinet Creek Trib No. 3 near Enola PA,1570300,85.43882794,0.98419544,40.301389,-76.949167,Df,0.9705,Humid,USGS
+US,PATAPSCO RIVER AT HOLLOFIELD MD,1589000,46.1183215,738.14658,39.310306,-76.792417,Cf,0.9839,Humid,USGS
+US,PATAPSCO RIVER NEAR CATONSVILLE MD,1589025,69.65352072,779.586388,39.25125,-76.763778,Cf,0.9742,Humid,USGS
+US,PATAPSCO RIVER NEAR ELKRIDGE MD,1589035,68.53266809,808.076256,39.227333,-76.723,Cf,0.9541,Humid,USGS
+US,PATUXENT RIVER NEAR BOWIE MD,1594440,14.19341582,901.315824,38.955917,-76.693694,Cf,0.9658,Humid,USGS
+US,NORTH BRANCH POTOMAC RIVER NEAR CUMBERLAND MD,1603000,37.7535647,2271.419476,39.6218135,-78.7734195,Df,0.7828,Humid,USGS
+US,CONOCOCHEAGUE CREEK AT FAIRVIEW MD,1614500,28.71944262,1279.454072,39.7163969,-77.8247803,Df,0.8865,Humid,USGS
+US,MONOCACY R AT REICHS FORD BRIDGE NR FREDERICKMD,1643020,43.83781019,2116.020196,39.3878802,-77.377485,Df,0.8587,Humid,USGS
+US,SNAKEDEN BRANCH AT RESTON VA,1645784,250.2384554,2.04609052,38.93,-77.345278,Cf,0.8991,Humid,USGS
+US,NORTH BRANCH ROCK CREEK NEAR ROCKVILLE MD,1647740,10.53983289,32.37485,39.1026081,-77.1197016,Cf,0.9363,Humid,USGS
+US,NORTHWEST BRANCH ANACOSTIA RIVER NR COLESVILLE MD,1650500,154.4672775,54.389748,39.0656745,-77.0293356,Cf,0.9474,Humid,USGS
+US,S F QUANTICO CREEK NEAR INDEPENDENT HILL VA,1658500,19.8614313,19.73570856,38.5873427,-77.4285958,Cf,0.8817,Humid,USGS
+US,N BRANCH CHOPAWAMSIC CR NR INDEPENDENT HILL VA,1659000,14.15740087,14.73703172,38.565,-77.426111,Cf,0.8817,Humid,USGS
+US,RAPPAHANNOCK RIVER AT REMINGTON VA,1664000,34.95607336,1603.202572,38.53068,-77.8136045,Cf,0.8868,Humid,USGS
+US,RAPIDAN RIVER NEAR CULPEPER VA,1667500,34.9580816,1212.114384,38.350278,-77.975278,Cf,0.8989,Humid,USGS
+US,CHICOD CR AT SR1760 NEAR SIMPSON NC,2084160,12.6169024,116.54946,35.5616738,-77.2308355,Cf,0.9775,Humid,USGS
+US,SOUTH YADKIN RIVER NEAR MOCKSVILLE NC,2118000,50.39594573,792.536328,35.845,-80.658889,Cf,0.8902,Humid,USGS
+US,THIRD CREEK NR STONY POINT NC,2119400,20.53045519,12.53554192,35.8679108,-81.0664681,Cf,0.9583,Humid,USGS
+US,SHAVERS FORK ABOVE BOWDEN WV,3068600,21.87476945,357.418344,38.902778,-79.694722,Df,1.2309,Humid,USGS
+US,TAYLOR RUN AT BOWDEN WV,3068610,16.89181381,13.10533928,38.9075,-79.696944,Df,1.1785,Humid,USGS
+US,SHAVERS FORK BELOW BOWDEN WV,3068800,31.23467,391.088188,38.913056,-79.770556,Df,1.169,Humid,USGS
+US,Stony Fork Tributary near Gibbon Glade PA,3070420,65.28740437,2.40868884,39.7642431,-79.5869879,Df,1.1284,Humid,USGS
+US,Stony Fork near Elliottsville PA,3070455,51.62702436,19.26951072,39.768889,-79.609444,Df,1.1264,Humid,USGS
+US,Wheeling Creek below Blaine OH,3111548,72.92093108,253.0418276,40.066944,-80.808611,Df,0.9485,Humid,USGS
+US,Enlow Fork near West Finley PA,3111585,83.089255,98.6785428,39.968333,-80.448056,Df,0.9621,Humid,USGS
+US,Killbuck Creek at Killbuck OH,3139000,38.87640974,1201.754432,40.481389,-81.986111,Df,0.912,Humid,USGS
+US,Hocking River at Athens OH,3159500,42.39802477,2442.358684,39.328889,-82.087778,Df,0.8884,Humid,USGS
+US,BIG COAL RIVER NEAR ALUM CREEK WV,3198550,122.7938018,1152.54466,38.25,-81.798333,Cf,0.9607,Humid,USGS
+US,LITTLE COAL RIVER AT DANVILLE WV,3199000,134.1031528,696.706772,38.0798226,-81.8362346,Cf,0.9688,Humid,USGS
+US,LITTLE COAL RIVER AT JULIAN WV,3199400,134.3709223,823.616184,38.154722,-81.8525,Cf,0.9803,Humid,USGS
+US,COAL RIVER AT ALUM CREEK WV,3199700,130.9008537,2167.819956,38.286667,-81.806667,Cf,0.9481,Humid,USGS
+US,COAL RIVER AT TORNADO WV,3200500,109.8722729,2232.569656,38.3389831,-81.841518,Cf,0.9322,Humid,USGS
+US,GUYANDOTTE RIVER NEAR BAILEYSVILLE WV,3202400,91.99402725,792.536328,37.603889,-81.645278,Cf,1.0069,Humid,USGS
+US,LEVISA FORK AT BIG ROCK VA,3207800,327.4532165,769.226436,37.35372,-82.1956935,Cf,0.9338,Humid,USGS
+US,DICKS FORK AT PHYLLIS KY,3207962,65.37896083,2.12379016,37.449167,-82.337778,Cf,0.9522,Humid,USGS
+US,GRAPEVINE CREEK NEAR PHYLLIS KY,3207965,305.9310758,16.0579256,37.4325,-82.353889,Cf,0.9618,Humid,USGS
+US,JOHNS CREEK NEAR META KY,3210000,258.7385501,145.8163244,37.566944,-82.458056,Cf,0.9341,Humid,USGS
+US,TYGARTS CREEK NEAR GREENUP KY,3217000,58.26040595,626.777096,38.5642453,-82.9521158,Cf,0.8954,Humid,USGS
+US,Little Darby Creek at West Jefferson OH,3230310,28.35585023,419.578056,39.951111,-83.269444,Df,0.8906,Humid,USGS
+US,Hellbranch Run near Harrisburg OH,3230450,32.33751849,92.7215704,39.8478411,-83.1573375,Df,0.8953,Humid,USGS
+US,Big Darby Creek at Darbyville OH,3230500,44.76658957,1383.053592,39.700556,-83.110278,Df,0.8865,Humid,USGS
+US,Paint Creek near Bourneville OH,3234000,78.1726688,2090.120316,39.263611,-83.166944,Df,0.9074,Humid,USGS
+US,Little Miami River near Selma OH,3239000,20.58863639,126.6504132,39.81,-83.739167,Df,0.9446,Humid,USGS
+US,North Fork Little Miami River near Pitchin OH,3239500,9.111304794,74.8506532,39.827778,-83.777222,Df,0.9435,Humid,USGS
+US,Little Miami River near Oldtown OH,3240000,21.1348307,334.108452,39.748333,-83.931389,Df,0.9288,Humid,USGS
+US,Massies Creek at Wilberforce OH,3241500,32.44613457,163.6872416,39.722389,-83.882306,Df,0.9428,Humid,USGS
+US,Todd Fork near Roachester OH,3244000,121.6479427,567.207372,39.335278,-84.086667,Df,0.9658,Humid,USGS
+US,LICKING RIVER AT FARMERS KY,3249500,48.77779738,2141.920076,38.115278,-83.543333,Cf,0.97,Humid,USGS
+US,Great Miami River at Sidney OH,3261500,36.40834174,1401.183508,40.286944,-84.15,Df,0.9092,Humid,USGS
+US,Loramie Creek near Newport OH,3261950,39.08442733,393.678176,40.306944,-84.383889,Df,0.8945,Humid,USGS
+US,Stillwater River at Pleasant Hill OH,3265000,37.1836801,1302.763964,40.0578292,-84.3560589,Df,0.9017,Humid,USGS
+US,MIDDLE FORK KENTUCKY RIVER NEAR HYDEN KY,3280600,105.1384894,523.177576,37.146303,-83.381586,Cf,1.0181,Humid,USGS
+US,EAGLE CREEK AT GLENCOE KY,3291500,191.6797872,1131.824756,38.705,-84.823889,Df,0.9522,Humid,USGS
+US,PLUM CREEK AT WATERFORD KY,3297500,319.7144057,82.3616184,38.051389,-85.431944,Cf,0.9726,Humid,USGS
+US,EEL RIVER NEAR LOGANSPORT IN,3328500,40.03786451,2043.500532,40.781944,-86.263889,Df,0.9135,Humid,USGS
+US,BIG RACCOON CREEK NEAR FINCASTLE IN,3340800,419.0738539,360.008332,39.8125446,-86.9538988,Df,0.9644,Humid,USGS
+US,TRADEWATER RIVER AT OLNEY KY,3383000,13.90116989,637.137048,37.2239358,-87.7805659,Cf,1.0065,Humid,USGS
+US,CLOVER FORK AT HARLAN KY,3400990,130.1687524,574.977336,36.8473107,-83.3251815,Cf,1.0514,Humid,USGS
+US,YELLOW CREEK NEAR MIDDLESBORO KY,3402000,256.7149307,156.9532728,36.6681393,-83.6885271,Cf,1.0569,Humid,USGS
+US,CUMBERLAND RIVER NEAR PINEVILLE KY,3403000,19.22982052,2095.300292,36.8134197,-83.7660306,Cf,1.0354,Humid,USGS
+US,CUMBERLAND RIVER AT BARBOURVILLE KY,3403500,112.20415,2486.38848,36.8623097,-83.8874248,Cf,1.0217,Humid,USGS
+US,CANE BRANCH NEAR PARKERS LAKE KY,3407100,327.798261,1.73529196,36.868056,-84.449167,Cf,1.0754,Humid,USGS
+US,SMOKY CREEK AT HEMBREE TN,3407876,517.1693483,44.5477936,36.239528,-84.413042,Cf,1.1763,Humid,USGS
+US,SOUTH FORK CUMBERLAND RIVER NEAR STEARNS KY,3410500,62.68887367,2470.848552,36.626944,-84.533333,Cf,1.0727,Humid,USGS
+US,NOLICHUCKY RIVER AT EMBREEVILLE TN,3465500,165.7965791,2084.94034,36.176389,-82.4575,Cf,0.9473,Humid,USGS
+US,POWELL RIVER NEAR ARTHUR TN,3532000,64.5243988,1774.14178,36.542064,-83.630419,Cf,1.0372,Humid,USGS
+US,EMORY RIVER AT OAKDALE TN,3540500,42.65822766,1978.750832,35.983056,-84.558056,Cf,1.1147,Humid,USGS
+US,SEQUATCHIE RIVER NEAR WHITWELL TN,3571000,57.72699752,994.555392,35.206506,-85.497133,Cf,1.085,Humid,USGS
+US,MICHIGAMME RIVER NEAR WITCH LAKE MI,4062400,5.046709582,818.436208,46.246667,-88.0125,Df,0.9464,Humid,USGS
+US,SILVER CREEK AT SPAULDING ROAD NEAR GREEN LAKE WI,4073466,4.730928601,116.8084588,43.839722,-88.908333,Df,0.8471,Humid,USGS
+US,MENOMONEE RIVER AT WAUWATOSA WI,4087120,16.81452665,318.568524,43.045556,-87.999722,Df,0.9056,Humid,USGS
+US,CASS RIVER AT FRANKENMUTH MI,4151500,8.565446235,2178.179908,43.327778,-83.748056,Df,0.7926,Humid,USGS
+US,FISH CREEK NEAR ARTIC IN,4177810,8.671169139,253.818824,41.465,-84.814167,Df,0.879,Humid,USGS
+US,Eagle Creek above Findlay OH,4188496,55.31985142,132.089388,40.979167,-83.653333,Df,0.8891,Humid,USGS
+US,Portage River at Woodville OH,4195500,46.1312543,1108.514864,41.449444,-83.361389,Df,0.8594,Humid,USGS
+US,Rocky River near Berea OH,4201500,60.23897285,691.526796,41.4075,-81.882778,Df,0.9351,Humid,USGS
+US,Cuyahoga River at Old Portage OH,4206000,20.5197274,1046.355152,41.135556,-81.547222,Df,0.9313,Humid,USGS
+US,Tinkers Creek at Bedford OH,4207200,88.23330928,217.2999932,41.384444,-81.5275,Df,1.0093,Humid,USGS
+US,Cuyahoga River at Independence OH,4208000,72.27009901,1831.121516,41.3953309,-81.6298478,Df,0.9354,Humid,USGS
+US,Chagrin River at Willoughby OH,4209000,174.6398801,637.137048,41.630833,-81.403611,Df,1.0084,Humid,USGS
+US,Grand River near Painesville OH,4212100,50.66683272,1774.14178,41.7189339,-81.2278789,Df,1.0308,Humid,USGS
+US,SIXMILE CREEK AT BROOKTONDALE NY,4233286,87.10420453,69.929676,42.3813974,-76.3944467,Df,0.9967,Humid,USGS
+US,SIXMILE CREEK AT BETHEL GROVE NY,4233300,99.65226966,101.009532,42.4030641,-76.4350023,Df,0.9446,Humid,USGS
+US,WHETSTONE RIVER NEAR BIG STONE CITY SD,5291000,6.059248867,1030.815224,45.2916316,-96.487557,Df,0.5914,Dry sub-humid,USGS
+US,YELLOW BANK RIVER NEAR ODESSA MN,5293000,6.941841336,1188.804492,45.2269094,-96.3536651,Df,0.6002,Dry sub-humid,USGS
+US,WILLOW RIVER @ WILLOW R STATE PARK NR BURKHARDTWI,5341752,10.16692296,756.276496,45.011667,-92.708333,Df,0.8338,Humid,USGS
+US,WHITEWATER RIVER NEAR BEAVER MN,5376800,75.68637962,701.886748,44.150833,-92.004722,Df,0.8571,Humid,USGS
+US,SOUTH FORK ROOT RIVER NEAR HOUSTON MN,5385500,92.66091937,712.2467,43.738611,-91.563889,Df,0.8472,Humid,USGS
+US,Upper Iowa River at Decorah IA,5387500,77.21401668,1323.483868,43.304917,-91.795389,Df,0.8405,Humid,USGS
+US,Upper Iowa River near Dorchester IA,5388250,96.23985577,1994.29076,43.421111,-91.508611,Df,0.8489,Humid,USGS
+US,Bloody Run Creek near Marquette IA,5389400,27.64019427,88.39629044,43.0408175,-91.2065192,Df,0.8391,Humid,USGS
+US,DELL CREEK NEAR LAKE DELTON WI,5403700,3.772831432,116.2904612,43.552222,-89.8675,Df,0.8472,Humid,USGS
+US,BREWERY CREEK AT CROSS PLAINS WI,5406470,24.67810962,19.9429076,43.119167,-89.640278,Df,0.8563,Humid,USGS
+US,GARFOOT CREEK NEAR CROSS PLAINS WI,5406491,21.53712373,13.96003532,43.110278,-89.679444,Df,0.8506,Humid,USGS
+US,BLACK EARTH CREEK AT BLACK EARTH WI,5406500,16.14806868,110.8514864,43.1341747,-89.7322287,Df,0.8476,Humid,USGS
+US,KICKAPOO RIVER AT LA FARGE WI,5408000,34.56515047,688.936808,43.574167,-90.643056,Df,0.8437,Humid,USGS
+US,Sny Magill Creek near Clayton IA,5411400,36.55254045,71.4836688,42.9485971,-91.1862412,Df,0.8484,Humid,USGS
+US,GRANT RIVER AT BURTON WI,5413500,58.154038,696.706772,42.7202856,-90.8191734,Df,0.869,Humid,USGS
+US,YAHARA RIVER AT WINDSOR WI,5427718,7.503908015,95.829556,43.2088969,-89.3525064,Df,0.8347,Humid,USGS
+US,YAHARA RIVER AT STATE HIGHWAY 113 AT MADISON WI,5427850,4.866260754,200.4650712,43.1508413,-89.4019508,Df,0.8338,Humid,USGS
+US,PHEASANT BRANCH AT AIRPORT ROAD NEAR MIDDLETON WI,5427943,14.79813584,25.1228836,43.111111,-89.536111,Df,0.8485,Humid,USGS
+US,PHEASANT BRANCH AT MIDDLETON WI,5427948,23.6568639,44.23699504,43.1033413,-89.5116731,Df,0.8448,Humid,USGS
+US,WILLOW CREEK AT MADISON WI,5427970,47.24667754,8.1584622,43.074167,-89.4225,Df,0.8422,Humid,USGS
+US,RIDGEWAY BRANCH NEAR HOLLANDALE WI,5432695,16.10805278,49.209772,42.9405635,-89.9211176,Df,0.8873,Humid,USGS
+US,PLEASANT VALLEY CREEK @ CTH H NR BLANCHARDVILLEWI,5432927,13.54724477,49.9867684,42.8747302,-89.7991731,Df,0.89,Humid,USGS
+US,MOUNT VERNON CREEK NEAR MOUNT VERNON WI,5436000,22.70625957,42.4758032,42.920833,-89.620278,Df,0.8654,Humid,USGS
+US,SUGAR RIVER NEAR BRODHEAD WI,5436500,9.83911225,1354.563724,42.612306,-89.397972,Df,0.873,Humid,USGS
+US,Iowa River near Rowan IA,5449500,5.640680826,1111.104852,42.759972,-93.621639,Df,0.8421,Humid,USGS
+US,Ralston Creek at Iowa City IA,5455000,264.3455958,7.79586388,41.6639057,-91.5135014,Df,0.8723,Humid,USGS
+US,Fourmile Creek near Lincoln IA,5464130,144.6796531,35.69003464,42.225556,-92.610833,Df,0.8793,Humid,USGS
+US,Halfmile Creek near Gladbrook IA,5464133,43.13999849,3.44468404,42.211111,-92.610833,Df,0.8831,Humid,USGS
+US,Fourmile Creek near Traer IA,5464137,94.83196151,50.53066588,42.201944,-92.562222,Df,0.8758,Humid,USGS
+US,Squaw Creek near Colfax IA,5471040,92.69848336,47.6557792,41.6591556,-93.2707616,Df,0.8595,Humid,USGS
+US,South Skunk River at Colfax IA,5471050,107.2088999,2079.760364,41.681389,-93.246389,Df,0.8557,Humid,USGS
+US,East Fork Hardin Creek near Churdan IA,5483000,7.683334652,62.159712,42.1075,-94.37,Df,0.785,Humid,USGS
+US,Middle Raccoon River near Bayard IA,5483450,164.5165066,971.2455,41.779083,-94.492861,Df,0.8022,Humid,USGS
+US,Middle Raccoon River at Panora IA,5483600,10.48437583,1139.59472,41.687222,-94.370833,Df,0.803,Humid,USGS
+US,Middle River near Indianola IA,5486490,367.8170189,1267.540127,41.424167,-93.587222,Df,0.8224,Humid,USGS
+US,Walnut Creek near Prairie City IA,5487540,40.83324631,17.56011864,41.6008505,-93.295985,Df,0.8669,Humid,USGS
+US,Walnut Creek near Vandalia IA,5487550,96.17262718,52.5767564,41.5370353,-93.2589795,Df,0.8848,Humid,USGS
+US,White Breast Creek near Dallas IA,5487980,283.74151,862.466004,41.246639,-93.290167,Df,0.9215,Humid,USGS
+US,Middle Fabius River near Monticello MO,5498000,262.5489194,1017.865284,40.093556,-91.7355,Df,0.883,Humid,USGS
+US,North Fork Salt River near Shelbina MO,5502500,109.7009428,1245.784228,39.741278,-92.041028,Df,0.8531,Humid,USGS
+US,Middle Fork Salt River at Paris MO,5506500,99.56217964,922.035728,39.4835239,-92.0136651,Df,0.8611,Humid,USGS
+US,IROQUOIS RIVER AT IROQUOIS IL,5525000,18.09456483,1776.731768,40.822778,-87.581389,Df,0.9277,Humid,USGS
+US,NORTH MILL CREEK AT HICKORY CORNERS IL,5527900,22.64618773,52.3177576,42.465833,-88.009167,Df,0.966,Humid,USGS
+US,HASTINGS CREEK NEAR LINDENHURST IL,5527905,65.76915985,12.14704372,42.448056,-88.024722,Df,0.9618,Humid,USGS
+US,NORTH MILL CREEK NEAR MILBURN IL,5527910,29.78641344,73.5556592,42.444167,-88.000556,Df,0.9606,Humid,USGS
+US,DES PLAINES RIVER AT RIVERSIDE IL,5532500,18.49638294,1631.69244,41.8216745,-87.8219502,Df,0.9456,Humid,USGS
+US,MUSKEGO (BIG MUSKEGO) LAKE OUTLET NR WIND LAKE WI,5544385,2.4723822,87.8005932,42.8525,-88.130556,Df,0.9158,Humid,USGS
+US,NIPPERSINK CREEK ABOVE WONDER LAKE IL,5548105,22.29630615,218.853986,42.3852982,-88.3695355,Df,0.9271,Humid,USGS
+US,SENACHWINE CREEK AT CHILLICOTHE IL,5559700,209.6817822,218.853986,40.940278,-89.500556,Df,0.856,Humid,USGS
+US,BIG CREEK AT ST. DAVID IL,5570350,139.613253,72.519664,40.4975,-90.053333,Df,0.8969,Humid,USGS
+US,BIG CREEK NEAR BRYANT IL,5570370,119.5776797,106.7075056,40.4589294,-90.1334529,Df,0.881,Humid,USGS
+US,SLUG RUN NEAR BRYANTIL,5570380,24.32062925,18.44071456,40.473333,-90.143611,Df,0.8888,Humid,USGS
+US,KICKAPOO CREEK AT 2100E ROAD NEAR BLOOMINGTON IL,5579610,45.39674153,18.9069124,40.467778,-88.863889,Df,0.8781,Humid,USGS
+US,KICKAPOO CREEK TRIBUTARY NEAR BLOOMINGTON IL,5579620,136.7831304,9.8419544,40.472778,-88.879722,Df,0.8782,Humid,USGS
+US,KICKAPOO CREEK NEAR BLOOMINGTON IL,5579630,86.1437819,38.3318224,40.458333,-88.8775,Df,0.8809,Humid,USGS
+US,MCKEE CREEK AT CHAMBERSBURG IL,5585830,127.2424646,883.185908,39.817778,-90.654444,Df,0.8464,Humid,USGS
+US,PIASA CREEK NEAR MELVILLE IL,5587480,578.0165283,265.5773695,38.957778,-90.271667,Df,0.8523,Humid,USGS
+US,JUDYS BRANCH AT RTE 157 AT GLEN CARBON IL,5588720,570.4033682,21.57460004,38.7408406,-90.0019506,Df,0.8447,Humid,USGS
+US,KASKASKIA RIVER AT COOKS MILLS IL,5591200,22.33788248,1225.064324,39.5833666,-88.4133842,Df,0.8988,Humid,USGS
+US,L Prickly Pear C at Sieben Rnch nr Wolf Cr MT,6071100,5.626263684,701.886748,46.892781,-112.128317,BSk,0.3395,Semi-arid,USGS
+US,Muddy Creek near Vaughn MT,6088300,86.77253597,580.157312,47.625029,-111.6354184,BSk,0.3253,Semi-arid,USGS
+US,Muddy Creek at Vaughn MT,6088500,203.0901402,663.036928,47.5612735,-111.5417823,BSk,0.3367,Semi-arid,USGS
+US,Bluewater Creek near Bridger MT,6207800,23.0720102,72.7786628,45.331372,-108.801475,Df,0.3286,Semi-arid,USGS
+US,Bluewater C at Sanford Ranch nr Bridger MT,6207850,58.4860783,113.7004732,45.3375,-108.835278,Df,0.3145,Semi-arid,USGS
+US,Bluewater Creek near Fromberg MT,6207870,58.35065697,120.6934408,45.365,-108.866944,Df,0.318,Semi-arid,USGS
+US,FIVEMILE CREEK AB WYOMING CANAL NR PAVILLION WY,6244500,48.53510988,305.618584,43.3013466,-108.7028948,BSk,0.2188,Semi-arid,USGS
+US,FIVEMILE CREEK NEAR RIVERTON WY,6250000,364.5711828,922.035728,43.2038475,-108.3989939,BWk,0.1947,Arid,USGS
+US,FIVEMILE CREEK NEAR SHOSHONI WY,6253000,441.6961202,1082.614984,43.2219233,-108.2197057,BWk,0.1808,Arid,USGS
+US,BADWATER C AT LYSITE WY,6256650,143.9934908,1074.84502,43.264722,-107.695556,BWk,0.2112,Semi-arid,USGS
+US,BRIDGER CREEK NEAR LYSITE WYO.,6256800,58.31754647,471.377816,43.289444,-107.721111,BWk,0.21,Semi-arid,USGS
+US,BADWATER CREEK AT BONNEVILLE WY,6257000,181.8636701,2092.710304,43.2691247,-108.0800934,BWk,0.1832,Arid,USGS
+US,MUDDY CREEK NEAR PAVILLION WY,6257500,109.436538,691.526796,43.3627352,-108.6028908,BWk,0.2202,Semi-arid,USGS
+US,MUDDY CREEK NEAR SHOSHONI WY,6258000,180.7221721,859.876016,43.2860692,-108.2756554,BWk,0.1923,Arid,USGS
+US,FIFTEEN MILE CREEK NEAR WORLAND WY,6268500,285.5657271,1341.613784,44.0205623,-108.014178,BWk,0.1718,Arid,USGS
+US,CROW CREEK AT MOUTH AT PAHASKA WY,6279795,18.94827518,49.4687708,44.513333,-109.972778,Df,0.5482,Dry sub-humid,USGS
+US,MIDDLE FORK POWDER RIVER ABOVE KAYCEE WY,6309500,66.81485422,1165.4946,43.6475,-106.808056,Df,0.2942,Semi-arid,USGS
+US,BELLE FOURCHE R BL RATTLESNAKE C NR PINEY WY,6425720,0.535411768,1282.04406,43.984444,-105.387778,BSk,0.3506,Semi-arid,USGS
+US,BELLE FOURCHE R AB DRY C NR PINEY WY,6425780,3.77134999,1538.452872,44.025,-105.326389,BSk,0.3535,Semi-arid,USGS
+US,PLUM CREEK BELOW HAYES SD,6441110,204.63649,766.636448,44.210556,-100.726111,BSk,0.3904,Semi-arid,USGS
+US,Floyd River at James IA,6600500,99.80562701,2294.729368,42.576667,-96.311111,Df,0.6589,Humid,USGS
+US,West Fork Ditch at Hornick IA,6602020,209.2912863,1043.765164,42.2269351,-96.0780716,Df,0.677,Humid,USGS
+US,Monona-Harrison Ditch near Turin IA,6602400,924.3732454,2330.9892,41.9644323,-95.9919554,Df,0.6954,Humid,USGS
+US,Maple River at Mapleton IA,6607200,626.2429321,1732.701972,42.1569338,-95.810007,Df,0.6993,Humid,USGS
+US,Soldier River at Pisgah IA,6608500,2495.626827,1054.125116,41.8305436,-95.9313989,Df,0.7121,Humid,USGS
+US,Steer Creek near Magnolia IA,6609200,342.2806158,23.98328888,41.750278,-95.933889,Df,0.73,Humid,USGS
+US,Boyer River at Deloit IA,6609280,463.5530679,751.09652,42.094444,-95.311667,Df,0.7711,Humid,USGS
+US,East Boyer River at Denison IA,6609350,689.7370089,336.69844,42.010833,-95.365278,Df,0.7584,Humid,USGS
+US,Boyer River at Logan IA,6609500,1873.638368,2255.879548,41.6416185,-95.7822302,Df,0.7419,Humid,USGS
+US,Thompson Creek near Woodbine IA,6609590,433.8144231,18.05221636,41.735278,-95.808611,Df,0.7366,Humid,USGS
+US,Big Papillion Creek at Fort Street at Omaha Nebr.,6610732,483.1259513,334.108452,41.306667,-96.103889,Df,0.7243,Humid,USGS
+US,Little Papillion Creek at Irvington Nebr.,6610750,351.4994604,82.879616,41.310556,-96.0475,Df,0.73,Humid,USGS
+US,ROCK CREEK AT ATLANTIC CITY WYO,6637910,27.33180521,55.1667444,42.5130109,-108.7467795,Df,0.3974,Semi-arid,USGS
+US,CHERRY CREEK NEAR FRANKTOWN CO,6712000,16.57341132,437.707972,39.355833,-104.762778,BSk,0.363,Semi-arid,USGS
+US,CHERRY CREEK NEAR MELVIN CO,6712500,16.5960334,932.39568,39.605,-104.821944,BSk,0.3554,Semi-arid,USGS
+US,KIOWA CREEK AT KIOWA CO,6758200,142.1013185,287.488668,39.337222,-104.475,BSk,0.3626,Semi-arid,USGS
+US,SHELL CR .5 MI SW OF PLATTE CENTER NE,6795250,87.58985494,590.517264,41.5289002,-97.4958784,Df,0.639,Dry sub-humid,USGS
+US,Mule Creek near Malvern IA,6808000,365.3680681,27.4538728,40.943333,-95.595,Df,0.7822,Humid,USGS
+US,Davids Creek near Hamlin IA,6809000,350.9511846,67.339688,41.6735977,-94.8058156,Df,0.8055,Humid,USGS
+US,East Nishnabotna River at Red Oak IA,6809500,562.0581977,2315.449272,41.0086043,-95.2416582,Df,0.7899,Humid,USGS
+US,BROWNELL C SUBWATERSHED 1A NR SYRACUSE NEBR,6810900,103.9903503,0.49209772,40.671111,-96.125278,Df,0.7288,Humid,USGS
+US,BROWNELL C SUBWATERSHED 1 NR SYRACUSE NEBR,6811000,27.43173492,1.99429076,40.6725018,-96.1277857,Df,0.7288,Humid,USGS
+US,TURKEY C NR SENECA KS,6814000,904.8620497,714.836688,39.947778,-96.108333,Df,0.7281,Humid,USGS
+US,Nodaway River at Clarinda IA,6817000,655.5392189,1973.570856,40.7432851,-95.0142021,Df,0.8055,Humid,USGS
+US,Little Platte River at Smithville MO,6821150,226.1529164,606.057192,39.388056,-94.578889,Df,0.837,Humid,USGS
+US,MEDICINE CREEK AT MAYWOOD NEBR.,6839000,30.05248518,598.287228,40.656667,-100.611944,Df,0.4406,Semi-arid,USGS
+US,BRUSHY CREEK NEAR MAYWOOD NEBR.,6839500,133.6176636,336.69844,40.630833,-100.629722,Df,0.4406,Semi-arid,USGS
+US,FOX CREEK AT CURTIS NEBR.,6840000,228.4606389,192.954106,40.634722,-100.490278,Df,0.4369,Semi-arid,USGS
+US,MEDICINE CREEK ABOVE HARRY STRUNK LAKE NE,6841000,264.5095961,1372.69364,40.500556,-100.322778,Df,0.4486,Semi-arid,USGS
+US,MEDICINE CREEK AT CAMBRIDGE NEBR.,6843000,210.679434,2354.299092,40.2983402,-100.1769534,Df,0.4604,Semi-arid,USGS
+US,PRAIRIE DOG C AT NORTON KS,6848000,106.9886305,1771.551792,39.81,-99.921667,Df,0.4683,Semi-arid,USGS
+US,LYON C NR WOODBINE KS,6878500,247.3309722,595.69724,38.884722,-96.909722,Df,0.7045,Humid,USGS
+US,LINCOLN CREEK NEAR SEWARD NEBR.,6880000,16.49508893,1134.414744,40.916111,-97.145556,Df,0.6495,Humid,USGS
+US,VERMILLION C NR WAMEGO KS,6888000,334.3875169,629.367084,39.347778,-96.217222,Df,0.7468,Humid,USGS
+US,DELAWARE R NR MUSCOTAH KS,6890100,543.7398155,1116.284828,39.521389,-95.5325,Df,0.7931,Humid,USGS
+US,DELAWARE R AT VALLEY FALLS KS,6890500,853.4145749,2387.968936,39.350833,-95.454444,Df,0.8053,Humid,USGS
+US,WAKARUSA R NR LAWRENCE KS,6891500,197.6835568,1100.7449,38.911389,-95.260833,Df,0.8363,Humid,USGS
+US,STRANGER C NR TONGANOXIE KS,6892000,273.8952795,1051.535128,39.116389,-95.010556,Df,0.8337,Humid,USGS
+US,Blue River at Kansas City MO,6893500,265.6217737,486.917744,38.957,-94.558889,Df,0.8537,Humid,USGS
+US,LITTLE BLUE R. AT LONGVIEW ROAD IN KANS. CITY M,6893790,228.0171352,122.7654312,38.913611,-94.465833,Df,0.8636,Humid,USGS
+US,East Fork Big Creek near Bethany MO,6897000,7167.766683,246.04886,40.2972295,-94.0262296,Df,0.822,Humid,USGS
+US,Thompson River at Davis City IA,6898000,354.7543247,1815.581588,40.6402796,-93.8082796,Df,0.8462,Humid,USGS
+US,Thompson River at Mount Moriah MO,6898100,440.7231776,2307.679308,40.336333,-93.7685,Df,0.8201,Humid,USGS
+US,Weldon River at Mill Grove MO,6899000,742.2108543,1279.454072,40.309908,-93.594919,Df,0.8579,Humid,USGS
+US,Shoal Creek near Braymer MO,6899700,1051.659548,1012.685308,39.699525,-93.795872,Df,0.8217,Humid,USGS
+US,Locust Creek near Linneus MO,6901500,307.4522955,1424.4934,39.895944,-93.236528,Df,0.9015,Humid,USGS
+US,West Yellow Creek near Brookfield MO,6902200,198.7441576,349.64838,39.844444,-93.026667,Df,0.9038,Humid,USGS
+US,Chariton River near Rathbun IA,6903900,29.79310577,1421.903412,40.8218722,-92.8912543,Df,0.8654,Humid,USGS
+US,Chariton River near Centerville IA,6904000,95.02295082,1833.711504,40.738889,-92.801389,Df,0.8528,Humid,USGS
+US,Mussel Fork near Musselfork MO,6906000,215.9606441,691.526796,39.523528,-92.949639,Df,0.8967,Humid,USGS
+US,East Fork Little Chariton R. near Huntsville MO,6906300,130.5544132,569.79736,39.454917,-92.5685,Df,0.9036,Humid,USGS
+US,Moreau River near Jefferson City MO,6910750,109.0518654,1452.983268,38.529028,-92.192028,Df,0.834,Humid,USGS
+US,MARAIS DES CYGNES R AT MELVERN KS,6911000,157.377084,909.085788,38.516111,-95.696111,Df,0.7864,Humid,USGS
+US,DRAGOON C NR BURLINGAME KS,6911900,182.624676,295.258632,38.709167,-95.838056,Df,0.7793,Humid,USGS
+US,HUNDRED AND TEN MILE C NR QUENEMO KS,6912500,189.6099906,833.976136,38.645,-95.559444,Df,0.7958,Humid,USGS
+US,POTTAWATOMIE C NR GARNETT KS,6914000,150.7044377,865.055992,38.333611,-95.248611,Df,0.838,Humid,USGS
+US,BIG BULL C NR HILLSDALE KS,6915000,305.3092949,370.368284,38.656389,-94.896111,Df,0.8523,Humid,USGS
+US,MARMATON R NR FORT SCOTT KS,6917500,137.1929914,1004.915344,37.848889,-94.7025,Cf,0.8687,Humid,USGS
+US,Sac River near Dadeville MO,6918440,27.32790334,665.626916,37.443139,-93.684889,Cf,0.8826,Humid,USGS
+US,Pomme de Terre River near Bolivar MO,6921000,58.25114888,582.7473,37.60545,-93.31,Df,0.8776,Humid,USGS
+US,Pomme de Terre River near Polk MO,6921070,5.575301756,714.836688,37.682667,-93.370333,Df,0.8744,Humid,USGS
+US,NORTH REELFOOT CREEK AT HWY 22 NEAR CLAYTON TN,7026370,283.2987874,145.8163244,36.463889,-89.253611,Cf,1.0463,Humid,USGS
+US,St. Francis River near Saco MO,7036100,34.24833411,1719.752032,37.3845,-90.473861,Cf,0.8881,Humid,USGS
+US,Cross County Ditch near Birdeye AR,7047815,5848.41283,81.3256232,35.360556,-90.651389,Cf,0.9659,Humid,USGS
+US,Straight Slough near Birdeye AR,7047882,75.21605544,1186.214504,35.3625,-90.657222,Cf,0.9651,Humid,USGS
+US,Clark Corner Cut-Off near Colt AR,7047904,434.5991927,1424.4934,35.145,-90.655833,Cf,0.9837,Humid,USGS
+US,Little Black River below Fairdealing MO,7068510,17.86511574,502.457672,36.631667,-90.575278,Cf,0.9358,Humid,USGS
+US,Little Black River at Success AR,7068600,16.73401114,999.735368,36.456667,-90.725556,Cf,0.9311,Humid,USGS
+US,BADGER CREEK UPPER STATION NEAR HOWARD CO,7093740,11.05880726,274.538728,38.6588847,-105.8138942,Df,0.3543,Semi-arid,USGS
+US,BADGER CREEK LOWER STATION NEAR HOWARD CO.,7093775,22.10903605,546.487468,38.467222,-105.859444,Df,0.2299,Semi-arid,USGS
+US,MONUMENT CR ABV WOODMEN RD AT COLORADO SPRINGS CO,7103970,46.32599941,466.19784,38.9338817,-104.8171992,BSk,0.3705,Semi-arid,USGS
+US,COTTONWOOD CREEK AT MOUTH AT PIKEVIEW CO,7103990,352.3150976,48.9507732,38.927222,-104.814167,BSk,0.3683,Semi-arid,USGS
+US,MONUMENT CREEK AT BIJOU ST. AT COLO. SPRINGS CO,7104905,73.87739208,608.64718,38.837222,-104.828889,BSk,0.3499,Semi-arid,USGS
+US,FOUNTAIN CREEK AT COLORADO SPRINGS CO,7105500,128.0868413,1015.275296,38.816389,-104.822222,BSk,0.3473,Semi-arid,USGS
+US,SAND CREEK ABOVE MOUTH AT COLORADO SPRINGS CO,7105600,221.0137204,135.7153712,38.788333,-104.773333,BSk,0.3415,Semi-arid,USGS
+US,FOUNTAIN CREEK AT SECURITY CO,7105800,146.411088,1294.994,38.7294404,-104.7338611,BSk,0.3247,Semi-arid,USGS
+US,FOUNTAIN CREEK AT PUEBLO CO.,7106500,120.1693152,2395.7389,38.2877801,-104.6010849,BSk,0.2354,Semi-arid,USGS
+US,PURGATOIRE RIVER BELOW TRINIDAD LAKE CO.,7124410,10.75497301,1743.061924,37.143889,-104.547222,BSk,0.3052,Semi-arid,USGS
+US,Double Creek Sws 5 near Ramona OK,7175000,12.89776005,6.19007132,36.513889,-95.940278,Cf,0.7576,Humid,USGS
+US,SIXMILE C SWS 6 NR CHISMVILLE ARK,7252500,15.32229211,10.95564924,35.208989,-93.878247,Cf,0.7821,Humid,USGS
+US,HOTOPHA CREEK NR BATESVILLE MS,7273100,429.2980137,90.9085788,34.3638953,-89.8786169,Cf,1.038,Humid,USGS
+US,OTOUCALOFA CREEK CANAL NR WATER VALLEY MS,7274252,526.7916266,251.4878348,34.144173,-89.6525057,Cf,1.0416,Humid,USGS
+US,PETERS (LONG) CREEK NR POPE MS,7275530,693.7093771,205.1270496,34.2138952,-89.9819502,Cf,1.0266,Humid,USGS
+US,HICKAHALA CREEK NR SENATOBIA MS,7277700,350.5349315,313.388548,34.6319509,-89.9244502,Cf,1.0516,Humid,USGS
+US,NORTH FORK TILLATOBA CREEK NR TEASDALE MS,7280460,926.6324255,79.7716304,34.057778,-90.024722,Cf,1.0318,Humid,USGS
+US,YALOBUSHA RIVER AT DERMA MS,7281977,265.468152,414.39808,33.838056,-89.275833,Cf,1.0202,Humid,USGS
+US,TOPASHAW CREEK CANAL NR DERMA MS,7282090,411.2733269,163.169244,33.78,-89.246944,Cf,1.0187,Humid,USGS
+US,BATUPAN BOGUE AT GRENADA MS,7285400,446.2474626,621.59712,33.7740048,-89.7875859,Cf,1.0261,Humid,USGS
+US,ABIACA CREEK NR SEVEN PINES MS,7287150,216.3728859,246.5668576,33.3400062,-90.1513947,Cf,1.016,Humid,USGS
+US,ABIACA CREEK AT CRUGER MS,7287160,140.8978633,247.8618516,33.3416728,-90.237228,Cf,1.0153,Humid,USGS
+US,HARLAND CREEK NR HOWARD MS,7287404,692.4117871,160.8382548,33.1017942,-90.1734194,Cf,1.01,Humid,USGS
+US,Big Sandy Ck nr Bridgeport TX,8044000,17.14997286,862.466004,33.231667,-97.694444,Cf,0.5693,Dry sub-humid,USGS
+US,Elm Fk Trinity Rv nr Muenster TX,8050300,84.71132138,119.139448,33.6101078,-97.3827983,Cf,0.6476,Dry sub-humid,USGS
+US,Clear Ck nr Sanger TX,8051500,117.1198136,764.04646,33.336111,-97.179167,Cf,0.6673,Humid,USGS
+US,Little Elm Ck nr Celina TX,8052650,149.1749154,120.9524396,33.365278,-96.823611,Cf,0.7049,Humid,USGS
+US,Little Elm Ck nr Aubrey TX,8052700,134.8318258,195.544094,33.283333,-96.8925,Cf,0.6951,Humid,USGS
+US,Pin Oak Ck nr Hubbard TX,8063200,235.2973505,45.5837888,31.8004399,-96.7174899,Cf,0.6269,Dry sub-humid,USGS
+US,GALISTEO CREEK BELOW GALISTEO DAM NM,8317950,133.3631665,1543.632848,35.464653,-106.213389,Cf,0.2026,Semi-arid,USGS
+US,GALISTEO C AT DOMINGO NM,8318000,453.9310916,1657.59232,35.511944,-106.316944,Cf,0.1836,Arid,USGS
+US,RIO PUERCO ABV ARROYO CHICO NR GUADALUPE NM,8334000,386.6763089,1087.79496,35.6008946,-107.1666213,Df,0.1852,Arid,USGS
+US,WEST TENMILE CREEK AT COPPER MOUNTAIN CO.,9049200,29.30875089,54.389748,39.501111,-106.167778,Df,0.6653,Humid,USGS
+US,BLACK GORE CREEK NEAR VAIL CO.,9066050,17.82592587,50.7637648,39.623333,-106.279722,Df,0.4474,Semi-arid,USGS
+US,GORE CREEK AT VAIL CO.,9066250,10.1722002,148.4063124,39.643056,-106.345556,Df,0.4529,Semi-arid,USGS
+US,PARACHUTE CREEK AT PARACHUTE CO.,9093500,85.76349689,512.817624,39.453056,-108.059167,Df,0.247,Semi-arid,USGS
+US,ROAN CREEK NEAR DE BEQUE CO.,9095000,107.4020115,831.386148,39.453333,-108.316389,BSk,0.2727,Semi-arid,USGS
+US,DRY PINEY CREEK NEAR BIG PINEY WYO.,9207700,8.487168282,173.529196,42.390278,-110.2525,Df,0.2926,Semi-arid,USGS
+US,RED CREEK NEAR DUTCH JOHN UTAH,9234700,129.6381636,362.59832,40.969722,-109.236667,BSk,0.236,Semi-arid,USGS
+US,STEWART GULCH AB WEST FORK NR RIO BLANCO CO,9306022,0.77817329,113.959472,39.813333,-108.183333,Df,0.3602,Semi-arid,USGS
+US,WILLOW CREEK NEAR RIO BLANCO CO.,9306058,2.262769705,125.3554192,39.837222,-108.243611,Df,0.3353,Semi-arid,USGS
+US,PICEANCE CREEK AB HUNTER C NEAR RIO BLANCO CO.,9306061,44.80658664,800.306292,39.8505284,-108.2589747,Df,0.3234,Semi-arid,USGS
+US,BLACK SULPHUR CREEK NEAR RIO BLANCO CO.,9306175,8.01910526,266.768764,39.871389,-108.286944,Df,0.3154,Semi-arid,USGS
+US,CORRAL GULCH BELOW WATER GULCH NR RANGELY CO.,9306235,10.53377035,22.29979668,39.906111,-108.532222,Df,0.3866,Semi-arid,USGS
+US,WILLOW CREEK NEAR OURAY UTAH,9308000,47.2737998,2323.219236,39.938889,-109.647778,BSk,0.1586,Arid,USGS
+US,VIRGIN RIVER AT VIRGIN UT,9406000,313.1870831,2476.028528,37.204167,-113.18,BSk,0.2068,Semi-arid,USGS
+US,SANTA CLARA RIVER AB WINSOR DAM NR SANTA CLARA UT,9410000,113.8073047,875.415944,37.218056,-113.776389,BWk,0.1676,Arid,USGS
+US,LITTLE BEAR R BL DAVENPORT C NR AVON UT,10104700,15.94586133,159.5432608,41.5125,-111.811111,Ds,0.5013,Semi-arid,USGS
+US,SEVIER RIVER AT HATCH UT,10174500,7.968496142,880.59592,37.651111,-112.429444,Df,0.2681,Semi-arid,USGS
+US,UPPER TRUCKEE RV AT SOUTH LAKE TAHOE CA,10336610,13.09365589,142.1903412,38.9224078,-119.9915706,Ds,0.6438,Humid,USGS
+US,GENERAL C NR MEEKS BAY CA,10336645,6.813182842,19.26951072,39.051852,-120.1185209,Ds,0.8098,Humid,USGS
+US,BLACKWOOD C NR TAHOE CITY CA,10336660,42.38064501,29.0078656,38.9999084,-120.001015,Ds,0.6045,Dry sub-humid,USGS
+US,WARD C AT HWY 89 NR TAHOE PINES CA,10336676,27.33916037,25.1228836,39.1321292,-120.1576913,Ds,0.875,Humid,USGS
+US,SNOW C A TAHOE VISTA CA,10336689,2.958383808,11.47364684,39.238333,-120.038611,Ds,0.5968,Dry sub-humid,USGS
+US,THIRD CK NR CRYSTAL BAY NV,10336698,23.93952235,15.6694274,39.240556,-119.945556,Ds,0.4819,Semi-arid,USGS
+US,EDGEWOOD C NR STATELINE NV CA,10336759,8.344266543,8.2879616,38.963889,-119.923333,Ds,0.6027,Dry sub-humid,USGS
+US,TROUT CK NR TAHOE VALLEY CA,10336780,9.53114811,95.0525596,38.92,-119.971389,Ds,0.6288,Dry sub-humid,USGS
+US,TROUT C A SOUTH LAKE TAHOE CA,10336790,3.551461471,104.6355152,38.932222,-119.977778,Ds,0.6285,Dry sub-humid,USGS
+US,SAN DIEGO R NR SANTEE CA,11022500,2.147557611,976.425476,32.824722,-117.054722,Cs,0.2519,Semi-arid,USGS
+US,SAN LUIS REY R A OCEANSIDE CA,11042000,27.32478962,1442.623316,33.2180912,-117.3603162,BSk,0.2476,Semi-arid,USGS
+US,SANTA MARGARITA R A YSIDORA CA,11046000,102.773454,1872.561324,33.311111,-117.346389,BSk,0.2206,Semi-arid,USGS
+US,SAN JUAN C AT SAN JUAN CAPISTRANO CA,11046550,236.9315453,303.028596,33.4916935,-117.6631063,BSk,0.2391,Semi-arid,USGS
+US,ARROYO TRABUCO A SAN JUAN CAPISTRANO CA,11047300,44.08105038,140.1183508,33.498333,-117.665,BSk,0.2379,Semi-arid,USGS
+US,SAN DIEGO C AT CULVER DRIVE NR IRVINE CA,11048500,697.600752,108.2614984,33.6816868,-117.8094992,BSk,0.2345,Semi-arid,USGS
+US,SANTA ANA R NR MENTONE CA,11051500,35.91055554,543.89748,34.108333,-117.099722,Cs,0.2764,Semi-arid,USGS
+US,ARROYO SIMI NR SIMI CA,11105850,1168.248131,182.8531528,34.2730584,-118.7878711,Cs,0.333,Semi-arid,USGS
+US,SANTA CLARA RIVER AT L.A.-VENTURA CO. LINE CA,11108500,483.5781057,1618.7425,34.3997194,-118.7048126,Cs,0.2995,Semi-arid,USGS
+US,SESPE C NR FILLMORE,11113000,1719.653423,652.676976,34.4416618,-118.9273212,Cs,0.302,Semi-arid,USGS
+US,VENTURA R NR VENTURA,11118500,1217.701932,486.917744,34.3522204,-119.3084466,Cs,0.3421,Semi-arid,USGS
+US,LOPEZ C NR ARROYO GRANDE CA,11141280,177.7905531,54.1307492,35.235556,-120.471389,Cs,0.3935,Semi-arid,USGS
+US,SANTA RITA C TRIB NR TEMPLETON CA,11147040,553.0848667,7.6404646,35.534167,-120.846389,Cs,0.3624,Semi-arid,USGS
+US,SANTA RITA C NR TEMPLETON CA,11147070,270.4799101,47.1377816,35.523889,-120.765,Cs,0.3693,Semi-arid,USGS
+US,NACIMIENTO R NR BRYSON CA,11148800,298.3390907,380.728236,35.801667,-121.113889,Cs,0.1921,Arid,USGS
+US,SAN ANTONIO R NR LOCKWOOD CA,11149900,156.6377184,562.027396,35.896667,-121.087222,Cs,0.1859,Arid,USGS
+US,ARROYO SECO NR GREENFIELD CA,11151870,437.5738977,292.668644,36.2374616,-121.4816027,Cs,0.4074,Semi-arid,USGS
+US,UVAS C AB UVAS RES NR MORGAN HILL CA,11153900,116.6924102,54.389748,37.0927254,-121.7182818,Cs,0.4642,Semi-arid,USGS
+US,SAN LORENZO R A BIG TREES CA,11160500,606.4286321,274.538728,37.0443931,-122.0724641,Cs,0.6768,Humid,USGS
+US,COLMA C A SOUTH SAN FRANCISCO CA,11162720,964.1831438,27.9718704,37.653889,-122.425278,Cs,0.583,Dry sub-humid,USGS
+US,GUADALUPE R ABV HWY 101 A SAN JOSE CA,11169025,24.03738122,414.39808,37.373889,-121.931944,Cs,0.3049,Semi-arid,USGS
+US,COYOTE C NR GILROY CA,11169800,65.65556366,282.308692,37.0777229,-121.4943832,Cs,0.3777,Semi-arid,USGS
+US,COYOTE C AB HWY 237 A MILPITAS CA,11172175,8.2343714,826.206172,37.422222,-121.926389,Cs,0.2901,Semi-arid,USGS
+US,ALAMEDA C BL WELCH C NR SUNOL CA,11173575,31.37822053,385.908212,37.540556,-121.855278,Cs,0.3768,Semi-arid,USGS
+US,ARROYO VALLE BL LANG CYN NR LIVERMORE CA,11176400,28.85938821,336.69844,37.561389,-121.682778,Cs,0.3267,Semi-arid,USGS
+US,ARROYO DE LA LAGUNA A VERONA CA,11176900,43.45110976,1043.765164,37.626667,-121.881944,Cs,0.3102,Semi-arid,USGS
+US,ALAMEDA C NR NILES CA,11179000,44.10993648,1639.462404,37.5871568,-121.960793,Cs,0.3388,Semi-arid,USGS
+US,SAN LORENZO C AB DON CASTRO RES NR CASTRO V CA,11180825,525.2728278,46.619784,37.6952082,-122.044962,Cs,0.4373,Semi-arid,USGS
+US,CULL C AB CULL C RES NR CASTRO VALLEY CA,11180960,1287.636977,14.99603052,37.7177074,-122.0544067,Cs,0.4685,Semi-arid,USGS
+US,SAN LORENZO C A SAN LORENZO CA,11181040,227.5616962,115.5134648,37.684167,-122.138889,Cs,0.4726,Semi-arid,USGS
+US,SF CALAVERAS R NR SAN ANDREAS CA,11306000,8.342135307,305.618584,38.144444,-120.662778,Cs,0.4596,Semi-arid,USGS
+US,NF CALAVERAS R NR SAN ANDREAS CA,11308000,7.292088451,220.6669776,38.221389,-120.698333,Cs,0.4755,Semi-arid,USGS
+US,COSUMNES R A MICHIGAN BAR CA,11335000,63.33039751,1388.233568,38.500278,-121.044167,Cs,0.4036,Semi-arid,USGS
+US,COTTONWOOD C NR COTTONWOOD CA,11376000,229.5613554,2400.918876,40.387222,-122.2375,Cs,0.5468,Dry sub-humid,USGS
+US,THOMES C A PASKENTA CA,11382000,1704.130812,525.767564,39.887655,-122.5291655,Cs,0.423,Semi-arid,USGS
+US,DEER C NR SMARTSVILLE CA,11418500,15.30883495,219.1129848,39.224444,-121.2675,Cs,0.6853,Humid,USGS
+US,HIGHLAND C BL HIGHLAND CREEK DAM CA,11449010,19.98950005,36.7778296,38.9482323,-122.9019401,Cs,0.6732,Humid,USGS
+US,CACHE C AB RUMSEY CA,11451760,227.4406266,2473.43854,38.913056,-122.270556,Cs,0.4171,Semi-arid,USGS
+US,CORTE MADERA C A ROSS CA,11460000,190.4512235,46.8787828,37.963056,-122.555833,Cs,1.0112,Humid,USGS
+US,PENA C NR GEYSERVILLE CA,11465150,702.3177361,57.7567324,38.700556,-122.971111,Cs,0.811,Humid,USGS
+US,DRY C NR GEYSERVILLE CA,11465200,673.4541362,419.578056,38.698521,-122.9580539,Cs,0.806,Humid,USGS
+US,EEL R NR DOS RIOS CA,11472150,359.939091,1367.513664,39.6248796,-123.3414017,Cs,0.9258,Humid,USGS
+US,BLACK BUTTE R NR COVELO CA,11472900,995.8051076,419.578056,39.820833,-123.080556,Cs,0.7107,Humid,USGS
+US,MF EEL R BL BLACK BUTTE R NR COVELO CA,11473000,1779.535904,950.525596,39.826389,-123.091667,Cs,0.7264,Humid,USGS
+US,MF EEL R NR DOS RIOS CA,11473900,1068.389419,1929.54106,39.7062669,-123.3252913,Cs,0.8885,Humid,USGS
+US,SF EEL R NR BRANSCOMB CA,11475500,646.4424507,113.7004732,39.719167,-123.651667,Cs,1.3402,Humid,USGS
+US,MAD R NR ARCATA CA,11481000,1291.279752,1256.14418,40.9098497,-124.0606183,Cs,1.3745,Humid,USGS
+US,REDWOOD C NR BLUE LAKE CA,11481500,607.6053588,175.3421876,40.9059648,-123.815335,Cs,1.283,Humid,USGS
+US,REDWOOD C A ORICK CA,11482500,803.8754111,717.426676,41.2992896,-124.0511825,Cs,1.7598,Humid,USGS
+US,GRASS VALLEY C A FAWN LODGE NR LEWISTON CA,11525600,175.6505317,79.7716304,40.6762572,-122.8305783,Cs,0.7841,Humid,USGS
+US,TRINITY R BL LIMEKILN GULCH NR DOUGLAS CITY CA,11525655,12.46289637,2097.89028,40.6726453,-122.9205805,Cs,0.7371,Humid,USGS
+US,SF TRINITY R BL HYAMPOM CA,11528700,428.4918278,1978.750832,40.65,-123.493056,Cs,0.9841,Humid,USGS
+US,SF TRINITY R NR SALYER CA,11529000,496.3316485,2325.809224,40.841667,-123.566667,Cs,0.9702,Humid,USGS
+US,Fisher River near Libby MT,12302055,24.93507372,2180.769896,48.355603,-115.31465,Df,0.5235,Dry sub-humid,USGS
+US,Flathead River at Flathead British Columbia,12355000,36.63264619,1111.104852,49.001242,-114.475664,Df,0.7452,Humid,USGS
+US,TUCANNON RIVER NEAR STARBUCK WA,13344500,303.5977956,1116.284828,46.505556,-118.065278,Cs,0.3192,Semi-arid,USGS
+US,MILL CREEK BELOW BLUE CREEK NEAR WALLA WALLA WA,14013600,123.2421947,235.688908,46.081944,-118.190278,Cs,0.5065,Dry sub-humid,USGS
+US,FIR CREEK NEAR BRIGHTWOOD OR,14138870,5.783348644,14.14133448,45.480278,-122.024444,Cs,2.5905,Humid,USGS
+US,NORTH FORK BULL RUN RIVER NEAR MULTNOMAH FALLS OR,14138900,18.15862794,21.54870016,45.494444,-122.034722,Cs,2.4165,Humid,USGS
+US,SOUTH FORK BULL RUN RIVER NEAR BULL RUN OR,14139800,8.991992518,40.6628116,45.444722,-122.108333,Cs,2.5986,Humid,USGS
+US,NF TOUTLE RIVER BELOW SRS NEAR KID VALLEY WA,14240525,3526.51772,378.138248,46.3717753,-122.5789987,Cs,1.8637,Humid,USGS
+US,SOUTH FORK TOUTLE RIVER AT TOUTLE WA,14241500,1469.058889,310.79856,46.3220554,-122.6970551,Cs,1.5945,Humid,USGS
+US,TOUTLE RIVER AT TOWER ROAD NEAR SILVER LAKE WA,14242580,2609.57461,1284.634048,46.3350055,-122.840848,Cs,1.3719,Humid,USGS
+US,NEEDLE BRANCH NEAR SALADOOREG.,14306700,69.97811363,0.69929676,44.5095643,-123.8567801,Cs,2.5945,Humid,USGS
+US,FLYNN CREEK NEAR SALADOOREG.,14306800,62.82837422,2.02019064,44.5387306,-123.8526131,Cs,2.6131,Humid,USGS
+US,DEER CREEK NEAR SALADOOREG.,14306810,78.92358142,3.03028596,44.5345639,-123.8776138,Cs,2.718,Humid,USGS
+US,SIUSLAW RIVER NEAR MAPLETON OR,14307620,71.59490152,1522.912944,44.0625,-123.881944,Cs,2.0913,Humid,USGS
+US,Hanalei River nr Hanalei Kauai HI,16103000,230.4500267,47.94067788,22.179583,-159.466389,Af,1.7741,Humid,USGS
+US,Kaukonahua Stream blw Wahiawa Reservoir Oahu HI,16210200,7.057977602,43.2527996,21.50025,-158.051083,Aw,0.8586,Humid,USGS
+US,Kaukonahua Str at Waialua Oahu HI,16210500,22.13661375,101.6829289,21.565306,-158.120361,Aw,0.5997,Dry sub-humid,USGS
+US,Honouliuli Stream Tributary near Waipahu Oahu HI,16212480,44.72597597,4.81737768,21.401833,-158.066917,Aw,0.8252,Humid,USGS
+US,Kipapa Str nr Wahiawa Oahu HI,16212800,219.4117228,11.007449,21.4671146,-157.9587922,Aw,1.9082,Humid,USGS
+US,Waikele Str at Waipahu Oahu HI,16213000,149.4414658,116.9120583,21.3834757,-158.0109311,BSh,0.4555,Semi-arid,USGS
+US,N. Halawa Str nr Kaneohe Oahu HI,16225800,178.4036582,4.61017864,21.406111,-157.865556,Aw,2.8332,Humid,USGS
+US,N. Halawa Str nr Honolulu Oahu HI,16226200,201.3342241,10.41175176,21.3820035,-157.9033477,Aw,0.9436,Humid,USGS
+US,N. Halawa Str nr Quar. Stn. at Halawa Oahu HI,16226400,102.5765976,11.9139448,21.3718924,-157.9127366,Aw,0.74,Humid,USGS
+US,Moanalua Stream nr Kaneohe Oahu HI,16227500,31.78462834,2.38278896,21.388056,-157.848611,Aw,2.3023,Humid,USGS
+US,Makiki Stream at King St. bridge Oahu HI,16238000,50.80982279,6.39727036,21.296639,-157.83675,Aw,0.6324,Dry sub-humid,USGS
+US,Pukele Stream near Honolulu Oahu HI,16244000,112.9312668,2.9784862,21.306667,-157.788333,Aw,1.6019,Humid,USGS
+US,Manoa-Palolo Drainage Canal at Moiliili Oahu HI,16247100,80.94828032,26.4178776,21.286528,-157.818556,Aw,0.5713,Dry sub-humid,USGS
+US,RB of Kamooalii Str nr Kaneohe Oahu HI,16265600,126.1298902,2.82308692,21.3862924,-157.7928227,Aw,1.6538,Humid,USGS
+US,Luluku Str at alt 220 ft nr Kaneohe Oahu HI,16270900,98.28837947,1.26909412,21.3917812,-157.8094922,Aw,1.7036,Humid,USGS
+US,Kamooalii Str blw Luluku Str nr Kaneohe Oahu HI,16272200,60.44668445,9.89375416,21.3933924,-157.8037644,Aw,1.5618,Humid,USGS
+US,SF Kapunahala Str at Kaneohe Oahu HI,16273950,87.80658303,1.08779496,21.4026812,-157.8058783,Aw,1.6493,Humid,USGS
+US,Heeia Stream at Haiku Valley nr Kaneohe Oahu HI,16275000,259.480655,2.48638848,21.4092118,-157.823245,Aw,1.6546,Humid,USGS
+US,Kawela Gulch near Moku Molokai HI,16415600,222.1841677,13.67513664,21.069972,-156.948333,Aw,0.388,Semi-arid,USGS
+US,Wailuku River at Hilo HI,16713000,19.77286943,635.7902542,19.725542,-155.091669,Af,2.4483,Humid,USGS
+US,Ugum River above Talofofo Falls nr Talofofo Guam,16854500,304.8394443,15.33272896,13.322417,144.736139,Am,1.7712,Humid,USGS
+US,SILVER CREEK AT SOUTH KORO ROAD NEAR RIPON WI,40734644,4.930739747,93.7575656,43.858333,-88.871389,Df,0.8477,Humid,USGS
+US,FISHER CREEK AT HOWARDS GROVE WI,40854592,15.05230746,27.9718704,43.825,-87.833333,Df,0.9353,Humid,USGS
+US,OTTER CREEK AT WILLOW ROAD NEAR PLYMOUTH WI,40857005,17.14023581,24.604886,43.788889,-87.921389,Df,0.9354,Humid,USGS
+US,RIO GRANDE DE ARECIBO NR ADJUNTAS PR,50020500,774.4798277,32.8928476,18.181667,-66.736667,Af,1.4658,Humid,USGS
+US,RIO PELLEJAS ABV CENTRAL PELLEJAS PR,50021030,429.446384,17.79321756,18.204722,-66.703611,Af,1.3241,Humid,USGS
+US,RIO PELLEJAS NR UTUADO PR,50021500,1058.636059,24.7343854,18.231389,-66.715556,Af,1.2632,Humid,USGS
+US,RIO VIVI NR CENTRAL PELLEJAS PR,50023000,651.7336824,14.65933208,18.214444,-66.673611,Af,1.3952,Humid,USGS
+US,RIO GRANDE DE ARECIBO BLW UTUADO PR,50024950,1427.91299,169.9032128,18.302092,-66.704097,Af,1.2012,Humid,USGS
+US,RIO SALIENTE AT COABEY NR JAYUYA PR,50025155,186.595877,23.957389,18.212817,-66.563186,Af,1.3963,Humid,USGS
+US,RIO JAUCA AT PASO PALMA PR,50025850,408.149555,17.84501732,18.213889,-66.645556,Af,1.5003,Humid,USGS
+US,RIO CAONILLAS AT PASO PALMA PR,50026025,1611.248339,98.36774424,18.2314167,-66.6370889,Af,1.2528,Humid,USGS
+US,RIO YUNES AT HWY 140 NR FLORIDA PR,50026400,513.3582022,36.23393212,18.324167,-66.586944,Af,1.1552,Humid,USGS
+US,RIO LIMON ABV LAGO DOS BOCAS PR,50027000,553.3144965,85.9876016,18.326094,-66.621028,Af,1.1875,Humid,USGS
+US,RIO GRANDE DE ARECIBO ABV ARECIBO PR,50027750,74.9674504,453.2479,18.422778,-66.699444,Af,0.8566,Humid,USGS
+US,RIO TANAMA NR UTUADO PR,50028000,711.9153131,47.6557792,18.300725,-66.7830139,Af,1.3963,Humid,USGS
+US,RIO GRANDE DE MANATI NR MOROVIS PR,50031200,423.1708104,142.9673376,18.295714,-66.413736,Af,1.1825,Humid,USGS
+US,RIO GRANDE DE MANATI AT CIALES PR,50035000,321.3151822,331.518464,18.324431,-66.459953,Af,1.1153,Humid,USGS
+US,RIO DE LA PLATA AT COMERIO PR,50043800,696.5348802,281.013698,18.2221583,-66.2246194,Af,1.0824,Humid,USGS
+US,RIO GUADIANA AT GUADIANA PR,50044830,886.4942306,23.80198972,18.302222,-66.224722,Af,1.1829,Humid,USGS
+US,RIO DE LA PLATA BLW LA PLATA DAMSITE PR,50045010,517.7976598,448.067924,18.3460056,-66.2388139,Af,1.2655,Humid,USGS
+US,RIO DE BAYAMON BLW LAGO DE CIDRA DAM PR,50047560,304.5516973,21.54870016,18.202778,-66.139167,Af,1.2303,Humid,USGS
+US,RIO PIEDRAS AT EL SENORIAL PR,50048770,3634.193413,19.39901012,18.3632694,-66.0658028,Af,1.2334,Humid,USGS
+US,RIO PIEDRAS AT RIO PIEDRAS PR,50049000,2426.49343,32.37485,18.396667,-66.056667,Af,1.1619,Humid,USGS
+US,QUEBRADA BLANCA AT EL JAGUAL PR,50051150,736.9076086,8.417461,18.1611111,-65.9827778,Af,1.2664,Humid,USGS
+US,QUEBRADA SALVATIERRA NR SAN LORENZO PR,50051180,736.9501922,9.68655512,18.1733333,-65.9772222,Af,1.2565,Humid,USGS
+US,RIO GRANDE DE LOIZA AT HWY 183 SAN LORENZO PR,50051800,442.3600529,106.4226069,18.1857056,-65.9614472,Af,1.2725,Humid,USGS
+US,RIO TURABO ABV BORINQUEN PR,50053025,829.4781801,18.54431408,18.1622222,-66.04,Af,1.2844,Humid,USGS
+US,RIO GRANDE DE LOIZA AT CAGUAS PR,50055000,652.6576336,232.5809224,18.2426944,-66.0095889,Af,1.1216,Humid,USGS
+US,RIO CAGUITAS NR AGUAS BUENAS PR,50055100,366.0854178,13.7269364,18.2466667,-66.0936111,Af,1.2143,Humid,USGS
+US,RIO CAGUITAS NR CAGUAS PR,50055170,465.2522833,21.41920076,18.233056,-66.048056,Af,1.0851,Humid,USGS
+US,RIO CAGUITAS AT VILLA BLANCA AT CAGUAS PR,50055225,606.4083974,42.9938008,18.2487028,-66.0276333,Af,1.1048,Humid,USGS
+US,RIO BAIROA AT BAIROA PR,50055390,432.7358889,13.15713904,18.2588889,-66.04,Af,1.1149,Humid,USGS
+US,RIO GURABO BLW EL MANGO PR,50055750,335.6050207,57.7567324,18.2341528,-65.8853306,Af,1.279,Humid,USGS
+US,RIO VALENCIANO NR JUNCOS PR,50056400,1081.101784,42.4758032,18.2160722,-65.9261694,Af,1.2454,Humid,USGS
+US,RIO GURABO AT GURABO PR,50057000,685.9459432,155.9172776,18.2584889,-65.968075,Af,1.1552,Humid,USGS
+US,RIO CANAS AT RIO CANAS PR,50058350,930.4736148,19.50260964,18.2945,-66.0450889,Af,1.1442,Humid,USGS
+US,RIO GRANDE DE LOIZA BLW LOIZA DAMSITE PR,50059050,330.6601967,541.307492,18.3422694,-66.005975,Af,1.208,Humid,USGS
+US,RIO CANOVANAS NR CAMPO RICO PR,50061800,369.2369299,25.48548192,18.318478,-65.888914,Af,1.343,Humid,USGS
+US,RIO MAMEYES NR SABANA PR,50065500,175.5717089,17.81911744,18.3288139,-65.7508139,Af,1.4973,Humid,USGS
+US,RIO FAJARDO ABV FAJARDO PR,50070500,202.2799869,9.55705572,18.2725,-65.721667,Af,1.5867,Humid,USGS
+US,RIO FAJARDO NR FAJARDO PR,50071000,520.4336496,38.5908212,18.29895,-65.6938278,Af,1.3136,Humid,USGS
+US,RIO ICACOS NR NAGUABO PR,50075000,1350.02876,3.26338488,18.277222,-65.785833,Af,2.2135,Humid,USGS
+US,RIO TOA VACA ABV LAGO TOA VACA PR,50110900,489.3546391,36.7778296,18.1265,-66.4577833,Af,1.0329,Humid,USGS
+US,RIO PORTUGUES NR TIBES PR,50114900,1390.857942,18.82921276,18.099878,-66.642869,Af,1.2803,Humid,USGS
+US,RIO PORTUGUES NR PONCE PR,50115000,1692.427474,22.84369416,18.079167,-66.633611,Af,1.0256,Humid,USGS
+US,RIO ROSARIO NR HORMIGUEROS PR,50136400,549.0042498,47.3967804,18.1600861,-67.0857639,Af,1.0827,Humid,USGS
+US,JACKSON CREEK TRIBUTARY NEAR ELKHORN WI,54310157,15.69070503,11.24054792,42.6508485,-88.5509338,Df,0.917,Humid,USGS

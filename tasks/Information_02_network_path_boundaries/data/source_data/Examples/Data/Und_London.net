@@ -1,0 +1,689 @@
+*Vertices 317
+1 "Acton Town"
+2 "Aldgate"
+3 "Aldgate East"
+4 "All Saints"
+5 "Alperton"
+6 "Amersham"
+7 "Angel"
+8 "Archway"
+9 "Arnos Grove"
+10 "Arsenal"
+11 "Baker Street"
+12 "Balham"
+13 "Bank"
+14 "Barbican"
+15 "Barking"
+16 "Barkingside"
+17 "Barons Court"
+18 "Bayswater"
+19 "Beckton"
+20 "Beckton Park"
+21 "Becontree"
+22 "Belsize Park"
+23 "Bermondsey"
+24 "Bethnal Green"
+25 "Blackfriars[7]"
+26 "Blackhorse Road"
+27 "Blackwall"
+28 "Bond Street"
+29 "Borough"
+30 "Boston Manor"
+31 "Bounds Green"
+32 "Bow Church"
+33 "Bow Road"
+34 "Brent Cross"
+35 "Brixton"
+36 "Bromley-by-Bow"
+37 "Buckhurst Hill"
+38 "Burnt Oak"
+39 "Caledonian Road"
+40 "Camden Town"
+41 "Canada Water"
+42 "Canary Wharf"
+43 "Canary Wharf"
+44 "Canning Town"
+45 "Cannon Street"
+46 "Canons Park"
+47 "Chalfont & Latimer"
+48 "Chalk Farm"
+49 "Chancery Lane"
+50 "Charing Cross"
+51 "Chesham"
+52 "Chigwell"
+53 "Chiswick Park"
+54 "Chorleywood"
+55 "Clapham Common"
+56 "Clapham North"
+57 "Clapham South"
+58 "Cockfosters"
+59 "Colindale"
+60 "Colliers Wood"
+61 "Covent Garden"
+62 "Crossharbour"
+63 "Croxley"
+64 "Custom House"
+65 "Cutty Sarkfor Maritime Greenwich"
+66 "Cyprus"
+67 "Dagenham East"
+68 "Dagenham Heathway"
+69 "Debden"
+70 "Deptford Bridge"
+71 "Devons Road"
+72 "Dollis Hill"
+73 "Ealing Broadway"
+74 "Ealing Common"
+75 "Earl's Court"
+76 "East Acton"
+77 "East Finchley"
+78 "East Ham"
+79 "East India"
+80 "East Putney"
+81 "Eastcote"
+82 "Edgware"
+83 "Edgware Road"
+84 "Edgware Road"
+85 "Elephant & Castle"
+86 "Elm Park"
+87 "Elverson Road"
+88 "Embankment"
+89 "Epping"
+90 "Euston"
+91 "Euston Square"
+92 "Fairlop"
+93 "Farringdon"
+94 "Finchley Central"
+95 "Finchley Road"
+96 "Finsbury Park"
+97 "Fulham Broadway"
+98 "Gallions Reach"
+99 "Gants Hill"
+100 "Gloucester Road"
+101 "Golders Green"
+102 "Goldhawk Road"
+103 "Goodge Street"
+104 "Grange Hill"
+105 "Great Portland Street"
+106 "Greenford"
+107 "Green Park"
+108 "Greenwich"
+109 "Gunnersbury"
+110 "Hainault"
+111 "Hammersmith"
+112 "Hammersmith"
+113 "Hampstead"
+114 "Hanger Lane"
+115 "Harlesden"
+116 "Harrow & Wealdstone"
+117 "Harrow-on-the-Hill"
+118 "Hatton Cross"
+119 "Heathrow Terminals 1, 2, 3"
+120 "Heathrow Terminal 4"
+121 "Heathrow Terminal 5"
+122 "Hendon Central"
+123 "Heron Quays"
+124 "High Barnet"
+125 "Highbury & Islington"
+126 "Highgate"
+127 "High Street Kensington"
+128 "Hillingdon"
+129 "Holborn"
+130 "Holland Park"
+131 "Holloway Road"
+132 "Hornchurch"
+133 "Hounslow Central"
+134 "Hounslow East"
+135 "Hounslow West"
+136 "Hyde Park Corner"
+137 "Ickenham"
+138 "Island Gardens"
+139 "Kennington"
+140 "Kensal Green"
+141 "Kensington (Olympia)"
+142 "Kentish Town"
+143 "Kenton"
+144 "Kew Gardens"
+145 "Kilburn"
+146 "Kilburn Park"
+147 "King George V"
+148 "Kingsbury"
+149 "King's Cross St. Pancras"
+150 "Knightsbridge"
+151 "Ladbroke Grove"
+152 "Lambeth North"
+153 "Lancaster Gate"
+154 "Langdon Park"
+155 "Latimer Road"
+156 "Leicester Square"
+157 "Lewisham"
+158 "Leyton"
+159 "Leytonstone"
+160 "Limehouse"
+161 "Liverpool Street"
+162 "London Bridge"
+163 "London City Airport"
+164 "Loughton"
+165 "Maida Vale"
+166 "Manor House"
+167 "Mansion House"
+168 "Marble Arch"
+169 "Marylebone"
+170 "Mile End"
+171 "Mill Hill East"
+172 "Monument"
+173 "Moorgate"
+174 "Moor Park"
+175 "Morden"
+176 "Mornington Crescent"
+177 "Mudchute"
+178 "Neasden"
+179 "Newbury Park"
+180 "North Acton"
+181 "North Ealing"
+182 "North Greenwich"
+183 "North Harrow"
+184 "North Wembley"
+185 "Northfields"
+186 "Northolt"
+187 "Northwick Park"
+188 "Northwood"
+189 "Northwood Hills"
+190 "Notting Hill Gate"
+191 "Oakwood"
+192 "Old Street"
+193 "Osterley"
+194 "Oval"
+195 "Oxford Circus"
+196 "Paddington"
+197 "Park Royal"
+198 "Parsons Green"
+199 "Perivale"
+200 "Piccadilly Circus"
+201 "Pimlico"
+202 "Pinner"
+203 "Plaistow"
+204 "Pontoon Dock"
+205 "Poplar"
+206 "Preston Road"
+207 "Prince Regent"
+208 "Pudding Mill Lane"
+209 "Putney Bridge"
+210 "Queen's Park"
+211 "Queensbury"
+212 "Queensway"
+213 "Ravenscourt Park"
+214 "Rayners Lane"
+215 "Redbridge"
+216 "Regent's Park"
+217 "Richmond"
+218 "Rickmansworth"
+219 "Roding Valley"
+220 "Royal Albert"
+221 "Royal Oak"
+222 "Royal Victoria"
+223 "Ruislip"
+224 "Ruislip Gardens"
+225 "Ruislip Manor"
+226 "Russell Square"
+227 "St. James's Park"
+228 "St. John's Wood"
+229 "St. Paul's"
+230 "Seven Sisters"
+231 "Shadwell"
+232 "Shepherd's Bush"
+233 "Shepherd's Bush Market"
+234 "Sloane Square"
+235 "Snaresbrook"
+236 "South Ealing"
+237 "South Harrow"
+238 "South Kensington"
+239 "South Kenton"
+240 "South Quay"
+241 "South Ruislip"
+242 "South Wimbledon"
+243 "South Woodford"
+244 "Southfields"
+245 "Southgate"
+246 "Southwark"
+247 "Stamford Brook"
+248 "Stanmore"
+249 "Stepney Green"
+250 "Stockwell"
+251 "Stonebridge Park"
+252 "Stratford"
+253 "Sudbury Hill"
+254 "Sudbury Town"
+255 "Swiss Cottage"
+256 "Temple"
+257 "Theydon Bois"
+258 "Tooting Bec"
+259 "Tooting Broadway"
+260 "Tottenham Court Road"
+261 "Tottenham Hale"
+262 "Totteridge & Whetstone"
+263 "Tower Gateway"
+264 "Tower Hill"
+265 "Tufnell Park"
+266 "Turnham Green"
+267 "Turnpike Lane"
+268 "Upminster"
+269 "Upminster Bridge"
+270 "Upney"
+271 "Upton Park"
+272 "Uxbridge"
+273 "Vauxhall"
+274 "Victoria"
+275 "Walthamstow Central"
+276 "Wanstead"
+277 "Warren Street"
+278 "Warwick Avenue"
+279 "Waterloo"
+280 "Watford"
+281 "Wembley Central"
+282 "Wembley Park"
+283 "West Acton"
+284 "West Brompton"
+285 "West Finchley"
+286 "West Ham"
+287 "West Hampstead"
+288 "West Harrow"
+289 "West India Quay"
+290 "West Kensington"
+291 "West Ruislip"
+292 "West Silvertown"
+293 "Westbourne Park"
+294 "Westferry"
+295 "Westminster"
+296 "White City"
+297 "Whitechapel"
+298 "Willesden Green"
+299 "Willesden Junction"
+300 "Wimbledon"
+301 "Wimbledon Park"
+302 "Wood Green"
+303 "Wood Lane"
+304 "Woodford"
+305 "Woodside Park"
+306 "Woolwich Arsenal"
+307 "Clapham Junction"
+308 "Crystal Palace"
+309 "Dalston"
+310 "Gospel Oak"
+311 "New Cross"
+312 "Watford Junction"
+313 "West Croydon"
+314 "Abbey Road"
+315 "Star Lane"
+316 "Stratford High Street"
+317 "Stratford International"
+*Edges
+1 53 1
+1 74 1
+1 236 1
+1 266 1
+2 161 1
+2 264 1
+3 161 1
+3 264 1
+3 297 1
+4 154 1
+4 205 1
+5 197 1
+5 254 1
+6 47 1
+7 149 1
+7 192 1
+8 126 1
+8 265 1
+9 31 1
+9 245 1
+10 96 1
+10 131 1
+11 28 1
+11 84 1
+11 95 1
+11 105 1
+11 169 1
+11 216 1
+11 228 1
+12 57 1
+12 258 1
+13 161 1
+13 162 1
+13 173 1
+13 229 1
+13 231 1
+13 279 1
+14 93 1
+14 173 1
+15 78 1
+15 270 1
+15 310 1
+16 92 1
+16 179 1
+17 75 1
+17 111 1
+17 290 1
+18 190 1
+18 196 1
+19 98 1
+20 66 1
+20 220 1
+21 68 1
+21 270 1
+22 48 1
+22 113 1
+23 41 1
+23 162 1
+24 161 1
+24 170 1
+25 167 1
+25 256 1
+26 261 1
+26 275 1
+27 79 1
+27 205 1
+28 107 1
+28 168 1
+28 195 1
+29 85 1
+29 162 1
+30 185 1
+30 193 1
+31 302 1
+32 71 1
+32 208 1
+33 36 1
+33 170 1
+34 101 1
+34 122 1
+35 250 1
+36 286 1
+37 164 1
+37 304 1
+38 59 1
+38 82 1
+39 131 1
+39 149 1
+40 48 1
+40 142 1
+40 176 1
+41 42 1
+42 182 1
+43 123 1
+43 289 1
+44 79 1
+44 157 1
+44 182 1
+44 222 1
+44 286 1
+44 292 1
+44 315 1
+45 167 1
+45 172 1
+46 211 1
+46 248 1
+47 51 1
+47 54 1
+49 129 1
+49 229 1
+50 88 1
+50 156 1
+50 200 1
+52 104 1
+52 219 1
+53 266 1
+54 218 1
+55 56 1
+55 57 1
+56 250 1
+58 191 1
+59 122 1
+60 242 1
+60 259 1
+61 129 1
+61 156 1
+62 177 1
+62 240 1
+63 174 1
+63 280 1
+64 207 1
+64 222 1
+65 108 1
+65 138 1
+66 98 1
+67 68 1
+67 86 1
+69 164 1
+69 257 1
+70 87 1
+70 108 1
+71 154 1
+72 178 1
+72 298 1
+73 74 1
+73 283 1
+74 181 1
+75 100 1
+75 127 1
+75 141 1
+75 284 1
+75 290 1
+76 180 1
+76 296 1
+77 94 1
+77 126 1
+78 271 1
+80 209 1
+80 244 1
+81 214 1
+81 225 1
+83 169 1
+83 196 1
+84 196 1
+85 139 1
+85 152 1
+86 132 1
+87 157 1
+88 256 1
+88 279 1
+88 295 1
+89 257 1
+90 149 1
+90 176 1
+90 210 1
+90 277 1
+91 105 1
+91 149 1
+92 110 1
+93 149 1
+94 171 1
+94 285 1
+95 255 1
+95 282 1
+95 287 1
+96 125 1
+96 166 1
+96 230 1
+97 198 1
+97 284 1
+99 179 1
+99 215 1
+100 127 1
+100 238 1
+101 113 1
+102 112 1
+102 232 1
+102 233 1
+103 260 1
+103 277 1
+104 110 1
+106 186 1
+106 199 1
+107 136 1
+107 195 1
+107 200 1
+107 274 1
+107 295 1
+109 144 1
+109 266 1
+111 213 1
+111 266 1
+114 180 1
+114 199 1
+115 251 1
+115 299 1
+116 143 1
+116 299 1
+116 312 1
+117 183 1
+117 187 1
+117 288 1
+118 119 1
+118 120 1
+118 135 1
+119 120 1
+119 121 1
+123 240 1
+124 262 1
+125 149 1
+127 190 1
+128 137 1
+128 272 1
+129 226 1
+129 260 1
+130 190 1
+130 232 1
+132 269 1
+133 134 1
+133 135 1
+134 193 1
+136 150 1
+137 223 1
+138 177 1
+139 194 1
+139 279 1
+140 210 1
+140 299 1
+142 265 1
+143 239 1
+144 217 1
+145 287 1
+145 298 1
+146 165 1
+146 210 1
+147 163 1
+147 306 1
+148 211 1
+148 282 1
+149 226 1
+150 238 1
+151 155 1
+151 293 1
+152 279 1
+153 168 1
+153 212 1
+155 232 1
+155 303 1
+156 200 1
+156 260 1
+158 159 1
+158 252 1
+159 235 1
+159 276 1
+160 231 1
+160 294 1
+161 173 1
+162 246 1
+163 204 1
+165 278 1
+166 267 1
+170 249 1
+170 252 1
+172 264 1
+173 192 1
+174 188 1
+174 218 1
+175 242 1
+178 282 1
+180 283 1
+181 197 1
+183 202 1
+184 239 1
+184 281 1
+185 236 1
+186 241 1
+187 206 1
+188 189 1
+189 202 1
+190 212 1
+191 245 1
+194 250 1
+195 200 1
+195 216 1
+195 260 1
+195 277 1
+196 221 1
+196 278 1
+198 209 1
+201 273 1
+201 274 1
+203 271 1
+203 286 1
+204 292 1
+205 289 1
+205 294 1
+206 282 1
+207 220 1
+208 252 1
+210 299 1
+213 247 1
+214 237 1
+214 288 1
+215 276 1
+217 299 1
+219 304 1
+221 293 1
+223 225 1
+224 241 1
+224 291 1
+227 274 1
+227 295 1
+228 255 1
+230 261 1
+231 263 1
+232 296 1
+233 303 1
+234 238 1
+234 274 1
+235 243 1
+237 253 1
+243 304 1
+244 301 1
+246 279 1
+247 266 1
+249 297 1
+250 273 1
+251 281 1
+252 286 1
+252 309 1
+252 316 1
+252 317 1
+253 254 1
+258 259 1
+262 305 1
+267 302 1
+268 269 1
+279 295 1
+285 305 1
+286 314 1
+286 315 1
+289 294 1
+299 307 1
+299 310 1
+300 301 1
+308 309 1
+309 310 1
+309 311 1
+309 313 1
+314 316 1

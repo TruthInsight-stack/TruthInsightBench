@@ -1,0 +1,175 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "在训练状态支持域内，更换同度或更高度的图拓扑和输入分布仍保持低于1%的平均与95分位相对误差。",
+      "independent_reconstruction_method": "Frozen evaluator recomputation: verification/recompute/A.py",
+      "non_exhaustive_validation_anchor": true,
+      "object": "一个作者持久化网络动力学矢量场在已见和未见图上的相对预测误差",
+      "one_liner": "已冻结模型在6个域内面板的最大平均误差为0.522799%，最大95分位误差为0.650692%，面板均值极差仅0.040199个百分点。",
+      "perturbation_bindings": [
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition_frozen.py",
+          "script_sha256": "c073a6ce4582b6cfd986c6916aedfcc1e8118d0d2e5041df478d75085245b8f8"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method_frozen.py",
+          "script_sha256": "1211789c2e4ba9f9f762f61e6d46f2bd994a02d9be4f1a50ee20b2057319839d"
+        },
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample_frozen.py",
+          "script_sha256": "c04ca5b454064da72f92fa0d3ffae3b85a38300282cc67a4ea0090992bfd17cc"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "measurement: \"对预注册的新同度或高度图，在0到1状态支持域内计算同一相对误差的面板均值\"; expected_range: [0.0, 1.0]; failure_criterion: \"任一预注册面板的平均或95分位相对误差超过1%\""
+      },
+      "quantities": [
+        {
+          "key": "panel_count",
+          "role": "supporting",
+          "tolerance_rel": 0,
+          "unit": "panel",
+          "value": 6
+        },
+        {
+          "key": "maximum_panel_mean_percent",
+          "role": "core",
+          "tolerance_rel": 0.02,
+          "unit": "percent",
+          "value": 0.5227990772657924
+        },
+        {
+          "key": "maximum_panel_p95_percent",
+          "role": "core",
+          "tolerance_rel": 0.02,
+          "unit": "percent",
+          "value": 0.6506923258304596
+        },
+        {
+          "key": "panel_mean_spread_percent_points",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "percentage_point",
+          "value": 0.04019889282517963
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "values": [
+          {
+            "json_path": "values.panel_count",
+            "quantity_key": "panel_count"
+          },
+          {
+            "json_path": "values.maximum_panel_mean_percent",
+            "quantity_key": "maximum_panel_mean_percent"
+          },
+          {
+            "json_path": "values.maximum_panel_p95_percent",
+            "quantity_key": "maximum_panel_p95_percent"
+          },
+          {
+            "json_path": "values.panel_mean_spread_percent_points",
+            "quantity_key": "panel_mean_spread_percent_points"
+          }
+        ],
+        "script_sha256": "098487d8ea17d1d0e5f11a98e791dad5f4f429c9655ed077f4e639838e210c2f"
+      },
+      "scope": "六个固定面板：存储训练对、原图均匀分布、未见同度图的均匀/Beta分布、未见高度图的均匀/Beta分布；只有一个公开持久化模型，不冒充论文的20模型统计。",
+      "target_alignment": {
+        "paper_claim_paraphrase": "目标论文报告神经模型能在训练域内泛化到未见图结构和不同输入分布。",
+        "paper_location": "Results, generalization across network structures and input distributions",
+        "rationale": "冻结Action真实加载唯一公开持久化模型，在五组确定性生成面板和存储训练对上重算论文式误差。",
+        "status": "reported_target_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "状态支持域外平移使三种图的误差一致且显著上升，给出模型泛化的可执行边界。",
+      "independent_reconstruction_method": "Frozen evaluator recomputation: verification/recompute/B.py",
+      "non_exhaustive_validation_anchor": true,
+      "object": "同一持久化网络动力学模型在状态支持域内外的成对相对误差",
+      "one_liner": "将状态域由U(0,1)平移到U(0.2,1.2)后，三个图面板的平均误差至少放大3.395451倍，最大单侧配对p值为1.66293e-165。",
+      "perturbation_bindings": [
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition_frozen.py",
+          "script_sha256": "a6b2643191dbda2a43b7d3ded4e98fda9b9f763bbcc586fbe9e02895859bc8f3"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method_frozen.py",
+          "script_sha256": "8162e624119e18ed4fd6a7aa0f2b4d3b2acac4b0e79e35527c5082d411f7659c"
+        },
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample_frozen.py",
+          "script_sha256": "b3679ec3424d83c6a88585931dab8c6629bf1a3f4ce7a984b0f8f6a2c6e99f8c"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "measurement: \"在预注册新图上成对比较支持域内状态与+0.2平移状态的平均相对误差比\"; expected_range: [2.0, 5.0]; failure_criterion: \"误差比不大于1，或成对误差不再以至少95%样本同向增大\""
+      },
+      "quantities": [
+        {
+          "key": "graph_panel_count",
+          "role": "supporting",
+          "tolerance_rel": 0,
+          "unit": "panel",
+          "value": 3
+        },
+        {
+          "key": "minimum_mean_error_ratio",
+          "role": "core",
+          "tolerance_rel": 0.03,
+          "unit": "ratio",
+          "value": 3.3954505288034142
+        },
+        {
+          "key": "maximum_one_sided_p_value",
+          "role": "supporting",
+          "tolerance_rel": 0.1,
+          "unit": "p_value",
+          "value": 1.6629295594672565e-165
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "values": [
+          {
+            "json_path": "values.graph_panel_count",
+            "quantity_key": "graph_panel_count"
+          },
+          {
+            "json_path": "values.minimum_mean_error_ratio",
+            "quantity_key": "minimum_mean_error_ratio"
+          },
+          {
+            "json_path": "values.maximum_one_sided_p_value",
+            "quantity_key": "maximum_one_sided_p_value"
+          }
+        ],
+        "script_sha256": "998957d6cca48e3067e514126e73a26182b3fe65e61f9e327f1d8bdbdd88737a"
+      },
+      "scope": "原图、未见同度图和未见高度图，每图1000对同种子状态；这是单模型扩展检验，不声称重建论文的20模型置信检验。",
+      "target_alignment": {
+        "paper_claim_paraphrase": "目标论文指出模型在训练域外不再保持同等泛化能力。",
+        "paper_location": "Results and Discussion, out-of-domain generalization boundary",
+        "rationale": "冻结Action在公开单模型上对同一状态做+0.2成对平移，用误差比和单侧Wilcoxon检验执行化论文边界；不越界到未公开的20模型统计。",
+        "status": "source_data_extension",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "Two verified validation anchors for blind-rediscovery diagnostics; not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2024-10-02",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Information_01_dynamics_generalization",
+  "release": "V1.0"
+}

@@ -1,0 +1,1944 @@
+{
+  "status": "frozen",
+  "public_name_zh": "单条科学发现质量分",
+  "construct_zh": "在固定数据分析任务中，一条可检验的科学结论由正确输入、真实执行、可复算结果、稳健性检验、替代解释检验、分离证据、受控先例检索与下一步可证伪检验共同支持的完成程度。",
+  "scope_zh": "本尺用于可审计、可重放的数据驱动科学发现任务。100分表示完成本任务事先规定的全部证据评分项，不表示世界级重要性、绝对真理或跨领域等难度。",
+  "atomic_scoring_item": {
+    "name_zh": "原子评分项",
+    "definition_zh": "评分器一次只回答一个公开的底层判定问题，并为它生成一份回执。这里的‘原子’表示榜单不再把这一项拆成更多加分项，不表示题目卡里不能有多个必须逐一核对的对象、数量或检验；它是评测动作，不等于参赛系统的一次工具调用。",
+    "one_receipt_rule": "每条已登记发现必须恰好产生二十九份原子评分回执；每个评分项只出现一次，最终只贡献自己的公开权重。"
+  },
+  "normative_hierarchy": {
+    "rule_zh": "发生歧义时，以公开评分规范中的三级锚点为判分逻辑，以赛前题目动作卡填入对象、数据、阈值、次数和容差；示例只帮助理解，不能创造新条件或覆盖锚点。",
+    "order": [
+      "公开评分规范：固定分支、权重、三级锚点与状态机",
+      "赛前题目动作卡：实例化对象、数据、公式、阈值、次数、容差和证据位置",
+      "代码事实包：记录真实输入、运行、数值、时间、依赖和哈希",
+      "冻结模型判断：只在代码事实包内按零分→满分→半分顺序返回三个互斥的锚点布尔判断，不直接报等级",
+      "示例：仅作解释，不具备独立规范效力"
+    ]
+  },
+  "discovery_unit": {
+    "name_zh": "一条发现",
+    "definition_zh": "一个可以被单独检验的结论，必须写清研究对象、适用范围、关系或数量、方向或边界以及证据引用。若一句话中包含两个可以分别被推翻的主要结论，评分前拆成两条发现。",
+    "required_fields": [
+      "discovery_id",
+      "object",
+      "scope",
+      "relation_or_quantity",
+      "direction_shape_or_boundary",
+      "evidence_references",
+      "status",
+      "frozen_at"
+    ]
+  },
+  "discovery_lifecycle": {
+    "candidate": "探索中的临时候选不是提交发现，不进入评分；它可以被修改、合并或放弃。",
+    "asserted": "系统在结果提交前登记为asserted并冻结内容的每一条最终发现都进入二十九项评分、语义去重和汇总，不允许评分后撤回低分发现。",
+    "withdrawn": "系统在提交冻结前明确撤回的候选只留审计轨迹，不进入分数；若撤回过程本身形成了‘原关系在某范围内不成立’这一可检验负结果，必须另登记为新的asserted发现才能得分。",
+    "revision": "最终发现使用稳定discovery_id、frozen_at和supersedes记录修订关系；同一结论的多个版本由语义去重合并。"
+  },
+  "operational_limits": {
+    "max_asserted_discoveries_per_run": 100,
+    "reason_zh": "这是防止成对语义去重被超大输入拖垮的工程安全上限，不是鼓励提交100条，也不改变全部发现均评分、最高两条进入质量主体的科学规则。"
+  },
+  "scoring": {
+    "action_levels": [
+      0,
+      0.5,
+      1
+    ],
+    "action_points": "action.weight * action.level",
+    "discovery_score": "sum(action.weight * action.level)",
+    "gate": "none",
+    "rounding": "所有权重为整数，因此单条发现分只能以0.5分递增；内部不产生自由小数。",
+    "level_precedence": [
+      "先检查零分条件；任何明确的方向冲突、对象错误、未执行或证据不可验证都优先记0。",
+      "未触发零分时，再检查满分条件；全部满足才记1。",
+      "未满分但达到该动作明确写出的有效部分完成条件时记0.5。",
+      "其余情况记0，不允许评判模型自由折中。"
+    ],
+    "run_score": "clamp(0.60*S1 + 0.20*S2 + yield_bonus + hidden_target_recovery - deterministic_false_claim_penalty, 0, 100)",
+    "run_terms": {
+      "S1": "全部发现经语义去重后的最高单条发现分；没有发现时为0。",
+      "S2": "全部发现经语义去重后的第二高单条发现分；不足两条时为0。",
+      "yield_bonus": "去重后达到40分且未触发确定性错误的第1、2、3、4条发现依次加4、2、2、2分，最多10分。这里仅表示机械地达到40分，不命名为‘可靠发现’。",
+      "hidden_target_recovery": "两张隐藏参考目标分别按对象、适用范围、关系方向和核心数值比较；完整恢复、部分恢复或未恢复分别乘以1、0.5或0，每张目标卡5分，合计最多10分。目标来源隔离在发现质量分内独立结算，不作为目标恢复奖励的乘法门。",
+      "deterministic_false_claim_penalty": "只有执行或复算证据已经直接否定某个结论，最终报告仍把它写成成立时，每个去重结论扣5分，最多扣10分。普通缺证只在该发现内部失分。"
+    }
+  },
+  "execution_contract": {
+    "participant_missing_evidence": "评测器仍须为该动作生成完整回执，level=0，reason_code=participant_evidence_missing。",
+    "judge_failure": "模型服务、路径解析器或评分程序出现临时故障时，评测器在内部自动重试并保存错误日志，不向榜单输出特殊评分状态。服务或程序仍不可用时停止发布该次结果；冻结先例查询在约定重试次数后仍失败是唯一明确的评分降级例外，该新颖性动作记0，其他28项照常结算。",
+    "evidence_responsibility": "Agent应交付的根报告、引用代码、结果和复现材料确实缺失时，对应动作记0。评测器必须先穷尽容器路径重映射、工作目录推断、相对路径、后缀定位和安全通配符展开，不能把自身识别路径错误算成Agent失败。可选平台日志缺失不自动扣分；只有现有材料明确显示目标答案成为直接证据时，目标来源隔离动作才记0。",
+    "scoring_bridge": "评测框架先从根Result.md与真实中间产物生成哈希绑定的评分衔接包。模型只接收当前发现原文、其已解析中间产物、受信代码事实和当前一个原子规则；Agent文本统一标为untrusted evidence，不能覆盖系统指令、证据范围或输出合同。",
+    "model_authority": "模型只做结构化语义映射，并按条件顺序判断：先判零分；仅在零分未触发时判满分；仅在零分未触发且满分未满足时判半分。模型返回三个最多一个为true的原始布尔量，不能编造执行事实、覆盖哈希或数值检查、直接给等级或0–100印象分。",
+    "code_authority": "代码核对输入、哈希、运行、数值、容差、依赖、时间和完整ID集合；再按零分优先、满分其次、半分最后的固定状态机从原始锚点判断导出唯一等级并执行加法。",
+    "evidence_reuse": "同一份结果可以被不同、事先定义的科学问题引用，例如既用于复算数值也用于判断文字是否夸大；但题目卡必须冻结operation_id→scientific_predicate_id→action_id映射。同一运行跨动作计分时，必须证明它回答了两个不同且赛前冻结的科学谓词；同一操作回答同一谓词只能归一个动作，不能换名字重复计数。来源独立只在明确要求独立证据的动作中检查。",
+    "task_admission": "每道题发布前只需冻结题目允许的数据身份与哈希、时间边界、资源合同、两张隐藏参考目标及评价侧先例检索资产。评分器不要求题目预写标准科研路线，也不为每题手写二十九套评分逻辑；它从Agent的Result与中间产物中识别实际公式、基线、对照、替代解释和稳健性检验，再按同一套二十九项科学标准判断。题目数据身份、时间边界或隐藏目标本身不完整时，应在任务进入横评前修复，不能在评分时临场改权重。",
+    "deduplication": "一个冻结模型审阅同一系统—任务报告中的全部发现，并按对象、适用范围、关系类型、方向和关键证据依赖返回互不重叠的等价组；证据来源不同不能把同一结论拆成两条。代码校验发现编号、成员唯一性和最小组规模，未进入重复组的发现保留为单例。结构化分组结果无效时最多重试三次，仍无效则停止发布该次结果。"
+  },
+  "judge_profiles": {
+    "deterministic_code": "代码确定性判断；模型不得改分。",
+    "code_plus_model": "代码先生成可信事实包，一个冻结模型只判断科学语义，代码再按锚点结算。"
+  },
+  "families": [
+    {
+      "id": "evidence_validity",
+      "name_zh": "核心结论的证据有效性",
+      "weight": 45,
+      "plain_question_zh": "报告中最重要的那句话，是否真的来自规定数据上成功运行、可以追回并复算的结果？",
+      "actions": [
+        {
+          "id": "evidence.data_identity",
+          "number": "1.1",
+          "name_zh": "该发现绑定题目注册的冻结输入快照",
+          "weight": 4,
+          "judge_profile": "deterministic_code",
+          "plain_question_zh": "该发现是否绑定题目冻结的数据快照及具体的分析源码和结果产物？",
+          "why_zh": "注册任务输入发生变化，或发现无法追溯到具体分析源码和结果产物时，即使报告数字漂亮，也不能说明完成了这道发现任务。",
+          "judgment_boundary_zh": "本项只核对注册输入快照及该发现的源码—结果追溯链，不判断报告数值是否正确或结论是否成立；后两件事由1.5至1.7判断。",
+          "required_inputs": [
+            "注册任务清单与冻结输入哈希",
+            "运行前后的工作区完整性回执",
+            "发现所引用的分析源码路径",
+            "发现所引用的结果产物路径"
+          ],
+          "human_steps": [
+            "核验组装后的任务输入在执行前与注册清单一致。",
+            "核验执行后注册输入没有变化。",
+            "解析该发现引用的分析源码与结果产物。",
+            "根据完整性回执和发现级追溯链确定档位。"
+          ],
+          "anchors": {
+            "1": "工作区在执行前后均与注册的冻结输入快照一致，且该发现可解析到分析源码和结果产物。",
+            "0.5": "工作区与注册的冻结输入快照一致且分析源码可解析，但该发现的源码—结果追溯链不完整。",
+            "0": "注册快照缺失、发生变化或不匹配，或者无法解析分析源码。"
+          },
+          "examples": {
+            "1": "任务工作区在执行前后均匹配注册哈希，且该发现同时引用存在的分析脚本和它产生的结果文件。",
+            "0.5": "任务工作区匹配注册哈希且分析脚本存在，但该发现没有解析到具体结果产物。",
+            "0": "某个注册输入在执行中发生变化，或该发现没有可解析的分析源码。"
+          },
+          "pseudocode": [
+            "if not registered_input_integrity: return 0",
+            "if not analysis_source_resolves: return 0",
+            "if finding_source_result_trace_passes: return 1",
+            "return 0.5"
+          ],
+          "code_role_zh": "核验注册输入快照，并解析发现所引用的分析源码与结果产物。",
+          "model_role_zh": "无。",
+          "receipt_fields": [
+            "input_integrity_passed",
+            "changed_input_paths",
+            "missing_input_paths",
+            "analysis_source_paths",
+            "result_artifact_paths",
+            "finding_traceability_passed",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "注册任务输入保持不变并匹配冻结快照，同时该发现的分析源码与结果产物均可解析。得分为4×1=4分。",
+            "0.5": "注册任务输入保持不变且分析源码可解析，但该发现对应的结果链接不完整。得分为4×0.5=2分。",
+            "0": "注册输入完整性回执失败，或无法解析分析源码。得分为4×0=0分。"
+          }
+        },
+        {
+          "id": "evidence.analysis_scope",
+          "number": "1.2",
+          "name_zh": "研究对象、范围、单位与独立观测定义正确",
+          "weight": 4,
+          "judge_profile": "code_plus_model",
+          "plain_question_zh": "报告说研究了谁、什么时间、什么单位；程序真正分析的是否就是同一批对象和同一种单位？",
+          "why_zh": "对象错位、单位混淆或把同一对象的重复测量当成多个独立样本，会让关系方向和不确定性失真。",
+          "judgment_boundary_zh": "本项只核对‘分析的是谁、在哪个范围、以什么单位和什么算一份独立观测’，不判断观察到的关系强不强。",
+          "required_inputs": [
+            "结构化发现",
+            "题目范围卡及字段权重与关键标记",
+            "分析配置",
+            "样本与分组账本",
+            "单位映射",
+            "次要字段差异的敏感性复算回执"
+          ],
+          "human_steps": [
+            "从发现中标出对象、时间窗、群组、筛选、单位和独立观测单位。",
+            "让代码生成实际样本与分组摘要，并读取题目卡事先给每个字段的权重和关键标记。",
+            "逐字段比较并计算一致字段的冻结权重覆盖率；模型只负责把自然语言映射到字段。",
+            "如果要判半分，必须读取敏感性复算ID、输入、输出和核心判定比较；任一关键字段错位、总体覆盖不足50%或差异改变核心判定优先记0。"
+          ],
+          "anchors": {
+            "1": "100%冻结权重的对象、范围、筛选、单位和独立观测字段都与题目卡及实际数据一致。",
+            "0.5": "全部关键字段正确，一致字段的冻结权重达到50%但不足100%；不一致、缺失或记录不完整的项只能是题目卡事先标出的次要字段，且敏感性复算确认不改变核心判定。",
+            "0": "任一关键对象、主要范围、单位或独立观测定义错误，总体一致权重低于50%，次要字段差异会改变核心判定，或把同一对象的重复测量误当成多个独立样本。"
+          },
+          "examples": {
+            "1": "结论限定为20–40摄氏度的A型薄膜；程序正好分析这些样本，以薄膜而非单次读数为独立单位。",
+            "0.5": "对象、温度范围和薄膜级独立单位等关键字段都正确，共覆盖80%冻结权重；两个次要质量筛选说明不完整，但敏感性复算不改变核心判定。",
+            "0": "同一块薄膜被测100次，报告却把100次读数写成100个独立样本。"
+          },
+          "pseudocode": [
+            "claim_scope = model.extract(object, range, unit, independent_unit)",
+            "facts = code.build_actual_scope_summary_with_frozen_weights()",
+            "if any(critical_field_wrong) or pseudoreplication: return 0",
+            "coverage = sum(weight of exactly_matching fields) / sum(all frozen field weights)",
+            "if coverage == 1: return 1",
+            "if coverage >= 0.5 and every_mismatch_or_gap_is_prefrozen_minor and core_decision_unchanged: return 0.5",
+            "return 0"
+          ],
+          "code_role_zh": "生成真实样本集合、分组、单位和重复编号事实。",
+          "model_role_zh": "把报告中的对象和范围映射到冻结字段，不判断运行是否真实。",
+          "receipt_fields": [
+            "claim_scope",
+            "actual_scope",
+            "field_weights",
+            "critical_field_ids",
+            "field_comparison",
+            "weighted_field_coverage",
+            "independent_observation_check",
+            "sensitivity_recompute_id",
+            "sensitivity_inputs",
+            "sensitivity_outputs",
+            "core_decision_unchanged",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "结论、题目卡和实际分析都指向20–40摄氏度的A型薄膜，程序也以薄膜而不是单次读数作为独立观测；对象、范围、单位和独立观测等冻结字段100%一致，没有关键错位。得分为4×1=4分。",
+            "0.5": "对象、温度范围和薄膜级独立单位等关键字段全部正确，按题目卡冻结权重已有80%字段一致；缺口只在预先标为次要的质量筛选字段，且敏感性复算确认这些差异不改变核心判定，所以未命中零分但未达到100%满分。得分为4×0.5=2分。",
+            "0": "同一块薄膜的100次重复测量被当成100个独立样本，独立观测单位发生关键错误，直接命中零分条件；即使对象或温度范围写对，也不能进入半分或满分。得分为4×0=0分。"
+          }
+        },
+        {
+          "id": "evidence.execution_receipt",
+          "number": "1.3",
+          "name_zh": "生成核心结果的分析成功执行",
+          "weight": 6,
+          "judge_profile": "deterministic_code",
+          "plain_question_zh": "不是只交了代码，而是这段代码真的成功跑完并生成了报告引用的结果吗？",
+          "why_zh": "代码存在不等于实验执行；科学证据必须来自实际成功运行的过程。",
+          "judgment_boundary_zh": "本项只判断核心计算是否真实成功执行并产生产物；即使结果不支持结论，只要执行成功也可得本项分，结论解释由1.7和1.8判断。",
+          "required_inputs": [
+            "运行清单与平台退出码",
+            "规范输出校验回执",
+            "发现所引用的分析源码与结果产物",
+            "评价器对核心量的复算回执"
+          ],
+          "human_steps": [
+            "核验平台运行以退出码0完成。",
+            "核验规范输出通过结构校验。",
+            "解析该发现的分析源码与结果产物。",
+            "检查评价器能否复算支持报告主张的核心量。"
+          ],
+          "anchors": {
+            "1": "运行成功完成、规范输出校验通过、该发现可解析到分析源码和结果产物，且评价器验证了支持报告主张的核心复算。",
+            "0.5": "运行成功完成、规范输出校验通过、该发现可解析到分析源码和结果产物，但没有可用的支持性核心复算。",
+            "0": "运行失败、规范输出校验失败，或该发现无法同时解析到分析源码和结果产物。"
+          },
+          "examples": {
+            "1": "平台记录成功且校验通过的运行，发现把analysis.py链接到result.json，评价器复算并验证核心量。",
+            "0.5": "平台记录成功且校验通过的运行，发现把analysis.py链接到result.json，但核心量不在评价器复算白名单内。",
+            "0": "平台运行失败，或该发现没有引用具体结果产物。"
+          },
+          "pseudocode": [
+            "if not run_completed_with_valid_canonical_output: return 0",
+            "if not finding_source_result_trace_passes: return 0",
+            "if supporting_core_recomputation_verified: return 1",
+            "return 0.5"
+          ],
+          "code_role_zh": "核验运行状态、规范输出、发现级产物追溯和核心量复算。",
+          "model_role_zh": "无。",
+          "receipt_fields": [
+            "run_status",
+            "platform_exit_code",
+            "canonical_output_valid",
+            "finding_traceability_passed",
+            "analysis_source_paths",
+            "result_artifact_paths",
+            "core_recomputation_verified",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "运行与规范输出检查通过，发现的源码和结果均可解析，且评价器验证了支持性核心复算。得分为6×1=6分。",
+            "0.5": "运行与追溯检查通过，但没有可用的支持性核心复算。得分为6×0.5=3分。",
+            "0": "运行回执、规范输出或发现级源码—结果追溯失败。得分为6×0=0分。"
+          }
+        },
+        {
+          "id": "evidence.artifact_traceability",
+          "number": "1.4",
+          "name_zh": "核心结论可以逐项追回本次运行产物",
+          "weight": 4,
+          "judge_profile": "code_plus_model",
+          "plain_question_zh": "报告里的方向、数值和边界，审计者能否点回具体文件、表、行列和本次运行？",
+          "why_zh": "无法定位的数字不能复核，也无法排除从别次运行或文字中复制。",
+          "judgment_boundary_zh": "本项只判断‘报告数字指向哪里’，不在这里重新计算数字是否正确；复算由1.5和1.6完成。",
+          "required_inputs": [
+            "结构化发现",
+            "题目卡冻结的主张原子与权重",
+            "结果引用",
+            "产物哈希",
+            "表名与字段名",
+            "运行编号"
+          ],
+          "human_steps": [
+            "读取冻结主张原子、权重和方向关键标记。",
+            "为每个原子找到结果定位符。",
+            "代码验证定位符存在且属于本次运行。",
+            "先检查任一方向关键原子是否缺失或错指，再计算有效定位权重比例。"
+          ],
+          "anchors": {
+            "1": "100%冻结权重的主张原子均可定位到本次运行的具体结果字段，所有定位符有效。",
+            "0.5": "全部方向关键原子可定位，有效定位权重达到50%但不足100%；缺失项只能是赛前标记的非方向关键原子。",
+            "0": "任一方向关键原子无法定位、定位符不存在或指向别次运行，或有效定位权重低于50%。"
+          },
+          "examples": {
+            "1": "对象、20–40℃范围、下降方向和12%效应量的全部冻结主张原子，都指向run_07/result.parquet的具体字段，文件哈希和运行号均匹配。",
+            "0.5": "下降方向和12%都可定位；报告附带的一个次要样本数没有行级定位。",
+            "0": "报告写‘下降12%’，但所有结果文件中都找不到12%或对应方向。"
+          },
+          "pseudocode": [
+            "atoms = task_card.weighted_claim_atoms(final_claim)",
+            "locators = submission.claim_result_links",
+            "checks = code.validate_locator_for_each_atom(atoms, locators, this_run)",
+            "if any(direction_critical_atom_invalid_or_missing): return 0",
+            "coverage = sum(weight of atoms with valid locator) / sum(all atom weights)",
+            "if coverage == 1: return 1",
+            "if coverage >= 0.5 and every_missing_atom_is_prefrozen_nondirectional: return 0.5",
+            "return 0"
+          ],
+          "code_role_zh": "验证路径、哈希、行列、值和运行归属。",
+          "model_role_zh": "识别报告中需要定位的核心主张原子。",
+          "receipt_fields": [
+            "claim_atom_ids",
+            "claim_atom_weights",
+            "direction_critical_atom_ids",
+            "artifact_locators",
+            "invalid_locators",
+            "weighted_locator_coverage",
+            "run_binding",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "对象、20–40℃范围、下降方向和12%效应量等全部冻结主张原子，都能定位到run_07/result.parquet的具体字段，文件哈希与运行号也匹配本次运行；有效定位覆盖100%冻结权重。得分为4×1=4分。",
+            "0.5": "下降方向和12%效应量等全部方向关键原子都能定位，按题目卡权重有效定位达到至少50%但不足100%；唯一缺口是非方向关键的次要样本数没有行级定位，因此不触发零分，也达不到满分。得分为4×0.5=2分。",
+            "0": "报告中的“下降12%”既找不到对应结果字段，也找不到下降方向的产物定位，导致方向关键原子无法追回本次运行；这直接命中零分条件。得分为4×0=0分。"
+          }
+        },
+        {
+          "id": "evidence.directional_recompute",
+          "number": "1.5",
+          "name_zh": "决定核心判定的关键数量可以复算",
+          "weight": 10,
+          "judge_profile": "code_plus_model",
+          "plain_question_zh": "决定‘升还是降、是否无实质效应、是否越过边界’的关键数字，按冻结公式重算后会得到同一判定吗？",
+          "why_zh": "这是单条发现中权重最高的评分项，因为关键判定量错误会把上升、下降、无实质效应或越界结论变成另一种科学结论。",
+          "judgment_boundary_zh": "本项只复算会改变核心判定类别的冻结关键量；不只适用于升降方向，也适用于等效区间、零效应边界和阈值判定。范围与效应大小等辅助量放在1.6，数字能否推出文字结论放在1.7。",
+          "required_inputs": [
+            "题目关键量清单、权重及独立证据量/联合规则输入角色",
+            "冻结的核心联合决策规则",
+            "公式",
+            "单位",
+            "容差",
+            "重放输入",
+            "逐量对比表",
+            "联合决策规则复算回执"
+          ],
+          "human_steps": [
+            "模型把发现中的核心判定绑定到题目关键量编号和冻结决策规则；题目卡同时标出哪些量是联合规则不可缺的输入，哪些是可独立支持同一判定的平行证据量。",
+            "代码按冻结公式逐个复算，并首先确认核心联合决策规则的全部必需输入齐全、规则可执行。",
+            "应用同一决策规则，先检查复算后的判定类别是否与报告冲突；联合规则不可执行也优先记0。",
+            "只有核心判定可复算且无类别冲突时，才按冻结权重计算通过覆盖率。"
+          ],
+          "anchors": {
+            "1": "冻结的核心联合决策规则可完整复算；100%冻结权重的核心判定量都可复算，并按赛前规则得到与报告相同的判定类别。",
+            "0.5": "冻结的核心联合决策规则可完整复算；通过权重达到50%但不足100%，缺失项只能是题目卡标为平行证据量而非联合规则必需输入的量，且没有任何已复算关键量得到与报告冲突的判定类别。",
+            "0": "冻结核心联合决策规则因任一必需输入缺失而不可执行，通过权重低于50%，或任一关键量按冻结规则得到相反方向、落入等效区间却报告有效应、或越过相反边界。"
+          },
+          "examples": {
+            "1": "三个关键量权重50%、30%、20%，复算后分别落入冻结的下降判定区，和报告完全一致。",
+            "0.5": "冻结联合规则所需的效应估计与区间都可复算；另有权重30%的平行证据量缺失。现有通过权重70%，联合规则给出同一核心判定，因此得到5分。",
+            "0": "报告称存在显著下降，但复算置信区间完整落在题目冻结的‘无实质效应’等效区间内；判定类别冲突优先记0。"
+          },
+          "pseudocode": [
+            "mapped = model.bind_core_decision_to_frozen_quantity_ids()",
+            "checks = code.recompute_quantities(mapped)",
+            "core_decision_recomputable = code.run_frozen_joint_decision_rule(all_required_joint_inputs)",
+            "if not core_decision_recomputable or any(decision_class_conflict): return 0",
+            "coverage = sum(weight of passing quantities) / sum(frozen weights)",
+            "if coverage == 1: return 1",
+            "if coverage >= 0.5 and every_missing_quantity_is_parallel_not_joint_required: return 0.5",
+            "return 0"
+          ],
+          "code_role_zh": "复算、单位转换、容差比较和冻结权重汇总。",
+          "model_role_zh": "只把自然语言方向绑定到关键量编号。",
+          "receipt_fields": [
+            "quantity_bindings",
+            "quantity_roles",
+            "joint_rule_required_quantity_ids",
+            "frozen_decision_rules",
+            "per_quantity_checks",
+            "joint_decision_rule_execution_id",
+            "core_decision_recomputable",
+            "joint_decision_class",
+            "weighted_coverage",
+            "decision_class_conflicts",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "冻结联合决策规则的必需输入齐全，权重50%、30%、20%的三个关键量都能按冻结公式复算，并全部落入与报告相同的下降判定区；通过权重为100%，且没有方向或判定类别冲突。得分为10×1=10分。",
+            "0.5": "冻结联合规则必需的效应估计和区间都可复算，因此核心判定本身可执行并与报告一致；缺失的是题目卡标为平行证据量、而非联合规则必需输入的30%权重量，现有通过权重为70%，达到50%但不足100%，所以判半分。得分为10×0.5=5分。",
+            "0": "报告声称显著下降，但按冻结规则复算的置信区间完整落在“无实质效应”等效区间，复算判定类别与报告直接冲突；判定冲突优先命中零分，不再按覆盖率给半分。得分为10×0=0分。"
+          }
+        },
+        {
+          "id": "evidence.other_quantity_recompute",
+          "number": "1.6",
+          "name_zh": "支撑范围和效应大小的其他数量可以复算",
+          "weight": 5,
+          "judge_profile": "code_plus_model",
+          "plain_question_zh": "除了升降方向外，报告用来说明‘多大、在哪个范围、边界在哪里’的数字是否也算得出来？",
+          "why_zh": "方向正确但效应量、区间或边界夸大，仍会让发现被过度解释。",
+          "judgment_boundary_zh": "本项使用赛前数量注册表，只评价幅度、区间、范围或边界谓词；即使同一个数值也在1.5出现，这里不再奖励它的方向类别，只检查不同的幅度或边界谓词。",
+          "required_inputs": [
+            "赛前冻结的数量—谓词注册表、权重与主张类型映射",
+            "报告数量引用",
+            "公式",
+            "单位",
+            "容差"
+          ],
+          "human_steps": [
+            "用发现类型本体把当前主张机械映射到赛前数量—谓词注册表，不能由裁判临场挑量。",
+            "逐个定位并复算注册表中的幅度、区间、范围或边界谓词；记录各自冻结权重和类别。",
+            "先检查是否有改变结论边界或效应等级的冲突；同一数值若也供1.5判断方向，只能在本项评价不同的幅度/边界谓词。",
+            "再按注册表冻结权重计算通过覆盖率。"
+          ],
+          "anchors": {
+            "1": "100%冻结权重的辅助数量都可定位、复算并在容差内一致。",
+            "0.5": "通过权重达到50%但不足100%，剩余量缺失或不完整，且没有改变边界或效应等级的冲突。",
+            "0": "通过权重低于50%，或任何差异会改变报告中的范围、效应等级或边界。"
+          },
+          "examples": {
+            "1": "同一效应估计在1.5只用于判断‘下降’；本项另按冻结谓词复算其幅度12%、置信区间[-15%,-9%]和转折温度38℃，均与报告一致。",
+            "0.5": "幅度12%和区间可复算，转折温度缺失，但不存在改变已报告范围的相反边界。",
+            "0": "报告写转折温度38℃，复算为52℃，导致适用范围明显改变。"
+          },
+          "pseudocode": [
+            "predicates = task_card.quantity_predicate_registry.instantiate(discovery_type, final_claim)",
+            "assert every predicate has frozen weight, category, formula, unit and tolerance",
+            "checks = code.recompute_and_compare(predicates excluding direction_class predicate already scored in 1.5)",
+            "if any(boundary_or_effect_class_conflict): return 0",
+            "coverage = sum(weight of passing predicates) / sum(all instantiated predicate weights)",
+            "if coverage == 1: return 1",
+            "if coverage >= 0.5: return 0.5",
+            "return 0"
+          ],
+          "code_role_zh": "定位、复算和按容差结算。",
+          "model_role_zh": "识别报告中被用来支撑范围或效应大小的数量。",
+          "receipt_fields": [
+            "quantity_predicate_registry_id",
+            "quantity_predicate_ids",
+            "predicate_categories",
+            "predicate_weights",
+            "cross_check_with_1_5",
+            "per_quantity_checks",
+            "weighted_coverage",
+            "boundary_conflicts",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "本项不重复奖励1.5中的下降方向，而是另行复算12%幅度、置信区间[-15%,-9%]和38℃转折温度；这些冻结辅助谓词全部可定位、可复算且在容差内一致，覆盖100%权重。得分为5×1=5分。",
+            "0.5": "12%幅度和置信区间能够复算，按题目卡冻结权重合计达到至少50%但不足100%；转折温度缺失使其不能满分，但现有结果没有给出会改变报告范围、效应等级或边界的冲突，所以判半分。得分为5×0.5=2.5分。",
+            "0": "报告把转折温度写成38℃，冻结公式却复算为52℃，这一差异会直接改变报告的适用范围边界；命中“差异改变范围或边界”的零分条件，不再看其他数量覆盖率。得分为5×0=0分。"
+          }
+        },
+        {
+          "id": "evidence.claim_entailment",
+          "number": "1.7",
+          "name_zh": "执行结果足以支持报告中的结论强度",
+          "weight": 8,
+          "judge_profile": "code_plus_model",
+          "plain_question_zh": "结果到底支持报告写的那句话，还是报告把相关写成因果、把局部写成全部、把弱效应写成强规律？",
+          "why_zh": "数值可复算只说明数字没抄错；还必须判断这些数字能否推出所写的科学结论。",
+          "judgment_boundary_zh": "本项只比较形成当前结论的核心分析证据（1.1至1.6的受控事实包）与最终登记结论的强度，不重复吸收后续重复、扰动、对照或分离复核；后者统一由1.8判断。",
+          "required_inputs": [
+            "最终结构化发现",
+            "题目卡冻结的核心形成结果ID清单",
+            "1.1至1.6的复算事实包",
+            "题目判定规则",
+            "适用范围与限定词"
+          ],
+          "human_steps": [
+            "先由题目卡锁定哪些结果属于形成当前结论的核心证据；2至4分支的重复、扰动、对照和分离复核结果不得在本项重复进入。",
+            "按发现类型本体把最终登记结论机械拆成必填核心原子和允许出现的次要精度/边界原子；对象、范围、关系类型与方向等必填核心原子始终进入分母，不能靠删字缩短分母。",
+            "逐个原子与核心形成事实比较；对象、方向、关系类型冲突直接触发零分，再计算得到核心证据支持的冻结原子权重比例。",
+            "未验证的候选内容应放到假设或下一步计划，不作为asserted结论；若最终结论保留题目卡允许的不确定次要边界，必须明确写出不确定性才可能进入半分档。"
+          ],
+          "anchors": {
+            "1": "最终结论中100%冻结权重的主张原子均被执行结果支持；对象、范围、关系类型、方向和强度没有越过证据。",
+            "0.5": "不存在对象、方向或关系类型冲突；全部必填核心原子都进入分母，被支持权重达到50%但不足100%；未支持部分只能是题目卡允许以不确定形式报告的次要精度或边界原子，且已明确标出不确定性。",
+            "0": "被支持权重低于50%，或出现对象错位、方向相反、把相关写成因果、未支持范围外推、边界夸大等任一实质冲突。"
+          },
+          "examples": {
+            "1": "观察数据支持‘20–40℃内温度与电导率下降相关’，报告也只写相关关系。",
+            "0.5": "对象、范围、下降方向和相关关系等必填核心原子共占80%权重并得到支持；题目卡允许报告的转折温度精度占20%，目前仅能限定为35–45℃，最终结论明确写‘边界尚不确定’，因此得到4分。",
+            "0": "只做观察相关分析，却写成‘升温导致电导率下降’，因果强度超过证据。"
+          },
+          "pseudocode": [
+            "atoms = task_card.claim_ontology.instantiate_required_and_optional_atoms(discovery_type, final_claim)",
+            "assert every required_core_atom is present in denominator",
+            "facts = code.verified_core_formation_facts(excluding_branch_2_to_4_results)",
+            "checks = model.compare_each_atom_to_facts(atoms, facts)",
+            "if any(object_conflict or direction_conflict or relation_type_overclaim or unsupported_scope): return 0",
+            "coverage = sum(weight of supported atoms) / sum(weight of all instantiated atoms)",
+            "if coverage == 1: return 1",
+            "if coverage >= 0.5 and every_unsupported_atom_is_allowed_minor_uncertainty_and_explicitly_labeled: return 0.5",
+            "return 0"
+          ],
+          "code_role_zh": "只提供已验证数值、研究设计和范围事实，并执行固定结算。",
+          "model_role_zh": "在去指令化事实包上比较结论强度，不能推定未执行事实。",
+          "receipt_fields": [
+            "structured_claim",
+            "core_formation_result_ids",
+            "excluded_followup_result_ids",
+            "weighted_claim_atoms",
+            "verified_core_formation_facts",
+            "per_atom_checks",
+            "weighted_support_coverage",
+            "mismatch_types",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "执行事实只支持20–40℃内温度与电导率下降“相关”，最终结论也使用相同对象、范围、方向和相关关系，没有升级成因果或外推范围；全部冻结主张原子均由核心形成证据支持。得分为8×1=8分。",
+            "0.5": "对象、范围、下降方向和相关关系等必填核心原子全部得到支持，覆盖80%冻结权重；未充分支持的20%只是题目卡允许的不确定次要转折边界，最终结论也明确写成35–45℃且“边界尚不确定”，因此没有实质冲突但覆盖不足100%。得分为8×0.5=4分。",
+            "0": "分析设计只能证明观察相关，报告却写成“升温导致电导率下降”，把关系类型从相关升级为因果；这属于结论强度越过证据的实质冲突，直接命中零分条件。得分为8×0=0分。"
+          }
+        },
+        {
+          "id": "evidence.all_results_synthesis",
+          "number": "1.8",
+          "name_zh": "最终结论忠实吸收了全部已执行结果",
+          "weight": 4,
+          "judge_profile": "code_plus_model",
+          "plain_question_zh": "重复、扰动、对照或复核中出现失败时，最终结论有没有随证据收窄或放弃，而不是只挑成功结果？",
+          "why_zh": "科学发现不仅要运行检验，还要让检验结果真正改变结论，形成证据—修正闭环。",
+          "judgment_boundary_zh": "本项只判断最终结论是否忠实吸收核心形成证据之外、已经执行的重复、扰动、对照和分离复核结果；核心证据本身能否支撑主张只在1.7判断，各检验是否完成只在对应动作判断。",
+          "required_inputs": [
+            "题目卡冻结的核心形成结果ID与后续检验结果ID分区",
+            "2至4分支全部已执行结果矩阵",
+            "每个后续结果的结果ID、执行时间与产物哈希",
+            "相关结果权重与方向关键标记",
+            "失败日志",
+            "前验证主张版本ID与锁定时间",
+            "最终主张版本ID与冻结时间",
+            "最终结构化发现",
+            "主张修改记录"
+          ],
+          "human_steps": [
+            "代码排除已在1.7使用的核心形成结果，只列出2至4分支中在最终主张版本冻结前已经执行并有可审计产物的重复、扰动、对照和分离复核结果，包括失败和无效应，并按题目卡绑定冻结权重。",
+            "读取题目卡的方向关键结果ID；这里不临场发明‘决定性失败’。",
+            "若没有任何符合上一条条件的后续科学结果，本项直接记0；不能用空集合的0/0覆盖率拿满分。",
+            "逐项比较这些后续结果是否被最终结论反映，并计算被忠实反映的结果权重比例。",
+            "本项评‘后续证据是否改变主张’，不重复奖励前面检验本身的数量、强度或稳定性边界产物是否生成。"
+          ],
+          "anchors": {
+            "1": "100%冻结权重的相关成功、失败和无效应结果均在最终结论中得到正确反映。",
+            "0.5": "所有方向关键结果均已反映，被忠实反映的结果权重达到50%但不足100%；遗漏只能是不会改变方向或关系类型的次要边界。",
+            "0": "最终主张冻结前没有任何已执行且可审计的后续科学结果，任一题目卡冻结的方向关键后续结果被最终结论忽略，或被忠实反映的后续结果权重低于50%。"
+          },
+          "examples": {
+            "1": "样本扰动显示低温区不稳定，报告把结论限定为25–40℃并保留失败结果表。",
+            "0.5": "方向冲突已处理，但没有写清一个次要阈值附近的不确定区间。",
+            "0": "留出集显示没有下降，最终摘要仍写‘在新数据中稳定下降’，并不提失败。"
+          },
+          "pseudocode": [
+            "matrix = code.collect_branch_2_to_4_results_excluding_core_formation_results(executed_at <= final_asserted_frozen_at)",
+            "if matrix.valid_scientific_result_count == 0: return 0",
+            "checks = model.map_each_followup_result_to_final_claim(matrix, final_claim)",
+            "if any(prefrozen_direction_critical_followup_result_ignored): return 0",
+            "coverage = sum(weight of faithfully_reflected_followup_results) / sum(all_relevant_followup_result_weights)",
+            "if coverage == 1: return 1",
+            "if coverage >= 0.5 and every_omission_is_prefrozen_minor_boundary: return 0.5",
+            "return 0"
+          ],
+          "code_role_zh": "保证结果全集完整，标出执行状态和确定性冲突。",
+          "model_role_zh": "比较最终结论是否忠实表达结果全集。",
+          "receipt_fields": [
+            "core_formation_result_ids_excluded",
+            "followup_executed_result_ids",
+            "followup_result_executed_at",
+            "followup_result_artifact_sha256",
+            "relevant_followup_result_ids",
+            "followup_result_weights",
+            "direction_critical_followup_result_ids",
+            "faithfully_reflected_followup_ids",
+            "weighted_reflection_coverage",
+            "ignored_conflict_ids",
+            "prevalidation_claim_version_id",
+            "prevalidation_claim_locked_at",
+            "final_asserted_version_id",
+            "final_asserted_frozen_at",
+            "claim_revision_trace",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "样本扰动发现低温区不稳定后，最终报告把结论收窄为25–40℃并保留失败结果表，说明这个方向关键后续结果已真实改变主张；题目卡中的相关成功、失败和无效应结果均被反映，覆盖100%权重。得分为4×1=4分。",
+            "0.5": "会改变方向的冲突已经在最终结论中处理，因此没有遗漏方向关键结果；仍缺少的只是次要阈值附近的不确定区间，按题目卡权重忠实反映比例达到至少50%但不足100%，所以未满分而判半分。得分为4×0.5=2分。",
+            "0": "留出集已经显示没有下降，最终摘要却仍声称“在新数据中稳定下降”并完全不提失败，等于忽略题目卡冻结的方向关键后续结果；若最终主张冻结前根本没有任何已执行且可审计的后续结果，也同样是0分，而不是把空集合当成100%覆盖。得分为4×0=0分。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stability",
+      "name_zh": "不确定性、重复与稳健边界",
+      "weight": 15,
+      "plain_question_zh": "误差有多大，换一次样本或方法后还成立吗，在哪些条件下会失效？",
+      "actions": [
+        {
+          "id": "stability.uncertainty",
+          "number": "2.1",
+          "name_zh": "引用的可执行产物中包含不确定性或误差范围",
+          "weight": 3,
+          "judge_profile": "deterministic_code",
+          "plain_question_zh": "该发现引用的产物是否包含已计算的不确定性结果，且满分时能在分析源码中找到对应计算？",
+          "why_zh": "没有不确定性就无法判断观察到的差异是稳定信号还是采样波动。",
+          "judgment_boundary_zh": "本项核验该发现引用产物中的可识别不确定性计算与保存结果，不推断所有可能的科学误差来源是否均已覆盖。",
+          "required_inputs": [
+            "发现引用的分析源码",
+            "发现引用的结果产物"
+          ],
+          "human_steps": [
+            "解析本项引用的产物。",
+            "在结果中查找已保存的区间、标准误、标准差或等价误差量。",
+            "满分还需在关联源码中找到可识别的不确定性计算。"
+          ],
+          "anchors": {
+            "1": "引用结果包含不确定性或误差量，且关联源码包含可识别的对应计算。",
+            "0.5": "引用结果包含不确定性或误差量，但未在关联源码中找到对应计算。",
+            "0": "引用结果中没有可识别的不确定性或误差量。"
+          },
+          "examples": {
+            "1": "引用表格保存置信区间，关联脚本用bootstrap计算。",
+            "0.5": "引用结果保存标准误，但关联源码没有显示计算方法。",
+            "0": "只有点估计与文字判断。"
+          },
+          "pseudocode": [
+            "result_hit = uncertainty_output_pattern(cited_results)",
+            "source_hit = uncertainty_method_pattern(linked_sources)",
+            "if result_hit and source_hit: return 1",
+            "if result_hit: return 0.5",
+            "return 0"
+          ],
+          "code_role_zh": "解析引用产物并检测已保存的不确定性输出及关联源码计算。",
+          "model_role_zh": "无。",
+          "receipt_fields": [
+            "analysis_source_paths",
+            "result_artifact_paths",
+            "uncertainty_source_pattern_found",
+            "uncertainty_result_pattern_found",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "引用输出保存误差区间，关联源码包含可识别计算。得分为3×1=3分。",
+            "0.5": "引用输出保存误差量，但关联源码中未找到计算。得分为3×0.5=1.5分。",
+            "0": "引用结果中没有可识别误差输出。得分为3×0=0分。"
+          }
+        },
+        {
+          "id": "stability.replication",
+          "number": "2.2",
+          "name_zh": "结果产物保留不同的完整管线运行编号",
+          "weight": 3,
+          "judge_profile": "deterministic_code",
+          "plain_question_zh": "结果产物是否保留多个完整管线运行或种子编号？",
+          "why_zh": "随机计算重复可以暴露随机种子和重采样偶然性；它不是新样品、新实验室或新时间点的独立科学复现。",
+          "judgment_boundary_zh": "本项只统计结果产物中明确标记为完整管线或重复运行的不同编号；内部bootstrap样本不符合该编号合同。",
+          "required_inputs": [
+            "发现引用的结果产物",
+            "完整管线运行或种子编号"
+          ],
+          "human_steps": [
+            "解析本项引用的结果产物。",
+            "提取标记为完整管线或重复运行的运行编号或种子。",
+            "统计不同编号。"
+          ],
+          "anchors": {
+            "1": "保留至少三个不同的完整管线运行编号。",
+            "0.5": "保留恰好两个不同的完整管线运行编号。",
+            "0": "保留的不同完整管线运行编号少于两个。"
+          },
+          "examples": {
+            "1": "结果产物记录三个不同replicate_run_id。",
+            "0.5": "结果产物记录两个不同full_pipeline_seed。",
+            "0": "只有一个运行编号，或只有bootstrap迭代次数。"
+          },
+          "pseudocode": [
+            "ids = distinct_full_pipeline_ids(cited_results)",
+            "if count(ids) >= 3: return 1",
+            "if count(ids) == 2: return 0.5",
+            "return 0"
+          ],
+          "code_role_zh": "从引用结果产物中提取并统计不同完整管线运行编号。",
+          "model_role_zh": "无。",
+          "receipt_fields": [
+            "result_artifact_paths",
+            "distinct_full_pipeline_run_ids",
+            "run_count",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "保留三个不同完整管线运行编号。得分为3×1=3分。",
+            "0.5": "保留两个不同完整管线运行编号。得分为3×0.5=1.5分。",
+            "0": "符合合同的编号少于两个。得分为3×0=0分。"
+          }
+        },
+        {
+          "id": "stability.sample_perturbation",
+          "number": "2.3",
+          "name_zh": "样本构成扰动已执行并保存",
+          "weight": 3,
+          "judge_profile": "deterministic_code",
+          "plain_question_zh": "引用产物是否显示执行过样本构成扰动？",
+          "why_zh": "样本构成的细小变化可能制造或消除所谓发现。",
+          "judgment_boundary_zh": "本项核验结果中可识别的样本扰动，满分还要求在关联源码中找到对应实现。",
+          "required_inputs": [
+            "发现引用的分析源码",
+            "发现引用的结果产物"
+          ],
+          "human_steps": [
+            "解析本项引用产物。",
+            "检测已保存的留一、jackknife、子采样、降采样、批次删除或样本比例结果。",
+            "满分还需在关联源码中找到对应实现。"
+          ],
+          "anchors": {
+            "1": "保存了可识别的样本扰动结果，且关联源码中存在对应实现。",
+            "0.5": "保存了可识别的样本扰动结果，但关联源码中未找到对应实现。",
+            "0": "没有保存可识别的样本扰动结果。"
+          },
+          "examples": {
+            "1": "引用表格保存逐批留一结果，关联源码执行批次删除。",
+            "0.5": "引用结果报告子采样，但关联源码未实现。",
+            "0": "只用文字声称稳健。"
+          },
+          "pseudocode": [
+            "result_hit = sample_perturbation_pattern(cited_results)",
+            "source_hit = sample_perturbation_pattern(linked_sources)",
+            "if result_hit and source_hit: return 1",
+            "if result_hit: return 0.5",
+            "return 0"
+          ],
+          "code_role_zh": "检测已保存样本扰动结果及关联源码实现。",
+          "model_role_zh": "无。",
+          "receipt_fields": [
+            "analysis_source_paths",
+            "result_artifact_paths",
+            "sample_perturbation_source_found",
+            "sample_perturbation_result_found",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "同时找到实现与保存的样本扰动输出。得分为3×1=3分。",
+            "0.5": "存在保存的扰动结果，但未定位实现。得分为3×0.5=1.5分。",
+            "0": "未找到保存的样本扰动结果。得分为3×0=0分。"
+          }
+        },
+        {
+          "id": "stability.method_perturbation",
+          "number": "2.4",
+          "name_zh": "方法或阈值扰动已执行并保存",
+          "weight": 3,
+          "judge_profile": "deterministic_code",
+          "plain_question_zh": "引用产物是否显示执行过方法、求解器、归一化或阈值变化？",
+          "why_zh": "只在一个任意方法设定下出现的结果，可能是分析选择造成的。",
+          "judgment_boundary_zh": "本项核验结果中可识别的方法扰动，满分还要求在关联源码中找到对应实现。",
+          "required_inputs": [
+            "发现引用的分析源码",
+            "发现引用的结果产物"
+          ],
+          "human_steps": [
+            "解析本项引用产物。",
+            "检测已保存的方法、阈值、求解器、归一化、变换或估计器比较。",
+            "满分还需在关联源码中找到对应实现。"
+          ],
+          "anchors": {
+            "1": "保存了可识别的方法扰动结果，且关联源码中存在对应实现。",
+            "0.5": "保存了可识别的方法扰动结果，但关联源码中未找到对应实现。",
+            "0": "没有保存可识别的方法扰动结果。"
+          },
+          "examples": {
+            "1": "引用结果比较两个估计器，关联源码执行两者。",
+            "0.5": "保存了阈值敏感性结果，但未找到实现。",
+            "0": "只展示选中的方法。"
+          },
+          "pseudocode": [
+            "result_hit = method_perturbation_pattern(cited_results)",
+            "source_hit = method_perturbation_pattern(linked_sources)",
+            "if result_hit and source_hit: return 1",
+            "if result_hit: return 0.5",
+            "return 0"
+          ],
+          "code_role_zh": "检测已保存方法扰动结果及关联源码实现。",
+          "model_role_zh": "无。",
+          "receipt_fields": [
+            "analysis_source_paths",
+            "result_artifact_paths",
+            "method_perturbation_source_found",
+            "method_perturbation_result_found",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "同时找到实现与保存的方法变化输出。得分为3×1=3分。",
+            "0.5": "存在保存的方法变化结果，但未定位实现。得分为3×0.5=1.5分。",
+            "0": "未找到保存的方法扰动结果。得分为3×0=0分。"
+          }
+        },
+        {
+          "id": "stability.validity_boundary",
+          "number": "2.5",
+          "name_zh": "从完整稳健性矩阵计算明确适用边界",
+          "weight": 3,
+          "judge_profile": "code_plus_model",
+          "plain_question_zh": "系统是否把全部重复与扰动结果真正计算成可复算的成立区、失效点和未知区，而不是只留一句‘很稳健’？",
+          "why_zh": "发现的科学价值常来自边界；诚实报告失败区域比把所有结果说成稳健更严谨。",
+          "judgment_boundary_zh": "本项只判断是否从第2分支完整结果矩阵生成了正确、可复算的稳健性边界产物；最终主张有没有采用这个边界只在1.8判断，因此不会在这里因摘要措辞重复扣分。",
+          "required_inputs": [
+            "第2分支完整重复与扰动结果矩阵",
+            "矩阵中合法完成且可复算的单元数量",
+            "赛前冻结的边界计算规则",
+            "机器可读边界产物及其结果引用"
+          ],
+          "human_steps": [
+            "代码把每个冻结条件标为成立、失败、方向变化或不可判定，并确认矩阵没有选择性缺行。",
+            "先数出真正完成且可复算的矩阵单元；若数量为0，本项直接记0，不能靠把所有格子写成‘未测试’获得边界分。",
+            "按赛前冻结规则计算成立区、已观察失效点和未测试区。",
+            "模型只把机器可读边界产物中的自然语言条件映射回矩阵坐标，代码核验每个边界或失败点是否一致。",
+            "本项到边界产物生成即结束；最终发现是否随边界收窄统一交给1.8。"
+          ],
+          "anchors": {
+            "1": "至少有一个合法完成且可复算的矩阵单元；机器可读边界产物准确覆盖全部冻结变化的成立区、已观察失效区和未测试/不确定区；若已测范围内没有观察到失效，产物明确标出‘已测范围内未见失效、范围外未知’。",
+            "0.5": "至少有一个合法完成且可复算的矩阵单元；边界产物准确给出至少一个可复算局部边界或失败点，且没有任何已写边界与矩阵冲突，但尚未整合全部冻结变化。",
+            "0": "合法完成且可复算的矩阵单元为0，没有任何可复算且与矩阵一致的局部边界或失败点，只写‘鲁棒’‘基本稳定’，选择性遗漏矩阵，或任一已写边界与完整矩阵冲突。"
+          },
+          "examples": {
+            "1": "边界产物写‘样本量≥80且阈值0.2–0.4时成立；阈值>0.5时方向不确定’，与矩阵全部单元一致。另一种满分情形是全部已测网格均成立，产物标出‘已测网格内未观察到失效，网格外未知’。",
+            "0.5": "边界产物准确定位阈值>0.5这一失败点，但尚未整合批次变化；没有写出任何与矩阵冲突的更宽边界。",
+            "0": "三个扰动中两个失败，却没有生成局部失败点或边界产物，只留下‘结论对各种设定均稳健’。"
+          },
+          "pseudocode": [
+            "matrix = code.build_complete_branch_2_stability_matrix()",
+            "if matrix.valid_completed_cell_count == 0: return 0",
+            "computed_boundary = code.derive_prefrozen_boundary(matrix)",
+            "comparison = model.map_submitted_boundary_artifact_to_matrix(submitted_boundary_artifact, matrix)",
+            "if selective_matrix_omission or any_submitted_boundary_conflicts_with_matrix: return 0",
+            "if submitted_boundary_artifact_complete_match: return 1",
+            "if at_least_one_correct_recomputable_local_boundary_or_failure_point: return 0.5",
+            "return 0"
+          ],
+          "code_role_zh": "计算完整通过、失败和边界事实。",
+          "model_role_zh": "只把边界产物中的自然语言条件映射到矩阵坐标，不判断最终主张。",
+          "receipt_fields": [
+            "stability_matrix_id",
+            "matrix_completeness_check",
+            "valid_completed_cell_count",
+            "boundary_rule_id",
+            "computed_boundary",
+            "submitted_boundary_artifact_id",
+            "mapped_boundary_cells",
+            "conflicting_boundary_cells",
+            "unreported_cells",
+            "local_boundary_or_failure_point_ids",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "机器可读产物把样本量≥80、阈值0.2–0.4的成立区和阈值>0.5的方向不确定区都准确映射到完整矩阵；若网格内全成立，也明确把网格外标为未知，因此覆盖全部冻结变化且没有边界冲突。得分为3×1=3分。",
+            "0.5": "产物准确定位了阈值>0.5这一可复算失败点，并且没有写出与矩阵冲突的更宽边界；但批次变化尚未整合，未覆盖全部冻结变化，所以只能判半分。得分为3×0.5=1.5分。",
+            "0": "完整矩阵中三个扰动有两个失败，提交却没有生成任何可复算的局部失败点或边界，只写“对各种设定均稳健”；既缺少合格边界又与矩阵事实冲突，直接判零分。若所有格子都只是‘未测试’，合法完成单元数为0，也直接判0，不能靠完整填写未知矩阵得分。得分为3×0=0分。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "alternatives",
+      "name_zh": "对照、替代解释与证据互证",
+      "weight": 15,
+      "plain_question_zh": "这个现象是否胜过简单解释、负对照和最有竞争力的替代解释，并有不同证据通道支持？",
+      "actions": [
+        {
+          "id": "alternatives.simple_baseline",
+          "number": "3.1",
+          "name_zh": "与题目规定的简单基线实际比较",
+          "weight": 3,
+          "judge_profile": "code_plus_model",
+          "plain_question_zh": "题目规定的‘无效应’、均值预测或其他简单基线，是否真的在相同数据、范围和评价量上运行并完成可比结果？",
+          "why_zh": "没有简单基线，复杂模式可能只是常识、随机波动或数据平均值。",
+          "judgment_boundary_zh": "本项只判断规定基线是否在相同条件下真实、可比地运行；不要求复杂发现胜出。基线结果是否被最终结论忠实吸收统一由1.8判断，避免同一解释错误重复扣分。",
+          "required_inputs": [
+            "冻结基线清单与权重",
+            "操作—科学谓词—评分项映射",
+            "相同数据、范围与评价量",
+            "逐基线运行回执",
+            "全部尝试状态与比较表"
+          ],
+          "human_steps": [
+            "读取题目卡冻结的全部简单基线、权重和统一评价量；确认每个操作ID被映射到‘回答简单基线比较’这一科学问题。",
+            "逐条核对参赛系统是否在相同数据、范围和评价量上真实运行，把每条要求标为‘有效完成’、‘做了但不可比’或‘没有做’；不可比的尝试不进入分子。",
+            "确认全部有效、无效和失败尝试都保留；选择性隐藏优先记0，再按有效完成的预先固定权重计算覆盖率。",
+            "基线胜出不降低本项执行分；最终结论有没有忠实吸收该结果只在1.8判断。"
+          ],
+          "anchors": {
+            "1": "有效完成覆盖100%冻结基线权重；每项均在相同数据、范围和评价量上实际运行，结果完整可复算。额外无效尝试若完整披露，不改变满分。",
+            "0.5": "有效完成覆盖至少50%但不足100%冻结基线权重；已完成比较使用相同数据、范围和评价量，结果完整可复算，全部尝试均披露。",
+            "0": "有效完成覆盖不足50%、没有运行或选择性隐藏尝试。数据、范围或评价量不一致的尝试只记为invalid_attempt并从分子排除，不会单独把其他已达标的有效比较清零。"
+          },
+          "examples": {
+            "1": "无效应基线和常数均值基线都在相同样本和评价量上运行，结果可复算；即使发现只与基线持平，本项仍按完整执行得满分，文字解释另由1.8判断。",
+            "0.5": "两条冻结基线只完成一条且正确比较。",
+            "0": "只写‘明显优于随机’，但没有任何随机基线结果。"
+          },
+          "pseudocode": [
+            "checks = verify_each_frozen_baseline_and_operation_predicate_mapping()",
+            "if selectively_hidden_attempts: return 0",
+            "valid_weighted_coverage = sum(weight of valid_completed baselines) / sum(all frozen baseline weights)",
+            "if valid_weighted_coverage == 1: return 1",
+            "if valid_weighted_coverage >= 0.5: return 0.5",
+            "return 0"
+          ],
+          "code_role_zh": "运行基线并使用同一数据、单位和指标比较。",
+          "model_role_zh": "只判断自然语言基线名称与冻结基线ID、比较对象和评价量是否对应；不判断最终结论。",
+          "receipt_fields": [
+            "baseline_ids",
+            "baseline_weights",
+            "operation_predicate_action_mapping_id",
+            "operation_ids",
+            "comparison_data_scope",
+            "comparison_metric",
+            "per_baseline_status",
+            "valid_completed_baseline_ids",
+            "invalid_attempt_ids",
+            "all_attempts_retained",
+            "weighted_coverage",
+            "result_table",
+            "result_auditability",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "无效应基线和常数均值基线都在与发现相同的样本、范围和评价量上真实运行，结果完整可复算，覆盖100%冻结基线权重；发现即使只与基线持平也不影响本项执行满分。得分为3×1=3分。",
+            "0.5": "两条冻结基线中只完成一条，但该比较使用相同数据、范围和评价量且结果可复算；按题目卡权重，有效完成覆盖至少50%但不足100%，全部尝试也已披露，因此判半分。得分为3×0.5=1.5分。",
+            "0": "报告只有“明显优于随机”的文字，没有任何冻结随机基线运行或结果，有效完成覆盖为0%，低于50%；直接命中零分条件。得分为3×0=0分。"
+          }
+        },
+        {
+          "id": "alternatives.negative_control",
+          "number": "3.2",
+          "name_zh": "执行与主要错误机制对应的负对照",
+          "weight": 3,
+          "judge_profile": "code_plus_model",
+          "plain_question_zh": "Agent实际选择并执行的对照，是否真正切断当前主张或主要错误解释所依赖的关系？",
+          "why_zh": "有效负对照可以揭示管线偏差、泄漏和普遍伪相关；本基准不预设唯一科研路线，因此评价Agent真实选择的对照，而不是要求逐题照抄一张标准答案卡。",
+          "judgment_boundary_zh": "本项只评价实际对照的科学有效性、执行真实性、结果可审计性和覆盖程度；不要求对照必须得到无效应，也不因对照结果支持或反对主张而改变本项执行分。对照结果是否被最终结论吸收统一由1.8判断。",
+          "required_inputs": [
+            "当前发现的结构化对象、关系、范围与主要错误解释",
+            "Agent实际执行的对照操作及其科学目的",
+            "对照应切断的目标关系或错误机制",
+            "可用的阳性结果、灵敏度检查或同一管线成功检出记录",
+            "逐对照运行回执",
+            "全部尝试状态、结果与失败规则"
+          ],
+          "human_steps": [
+            "模型先说明当前对照具体切断哪一条目标关系或主要错误解释；只写‘做了对照’而说不清切断对象不算有效。",
+            "代码核验对照真实执行、输入和输出存在、引用路径可解析且结果可以从冻结产物追回；先修复路径定位和工作目录，再把真正的执行失败计入评分。",
+            "若存在阳性结果、灵敏度检查或同一管线在应检出条件下的成功记录，核验管线具备解释负对照的基本灵敏度；完全无法证明管线能检出任何信号时不能拿满分。",
+            "按有效完成的对照覆盖程度结算；对照出现意外效应仍可获得本项执行分，但该结果必须进入1.8的结论吸收判断。"
+          ],
+          "anchors": {
+            "1": "至少一个实际执行的对照明确切断当前主张或最主要错误解释，管线灵敏度有可审计依据，输入、运行和结果完整可追回；对照结果无论是否仍出现效应都不改变本项满分。",
+            "0.5": "实际执行了科学上相关且可审计的对照，但只切断部分错误机制、灵敏度依据不完整或覆盖明显有限；结果仍能定位且没有把未运行文字冒充执行。",
+            "0": "没有执行对照；所谓对照没有切断当前关系或主要错误解释；路径修复后仍无运行与结果；或者结果不可审计。"
+          },
+          "examples": {
+            "1": "研究关系声称只对SensorB成立；Agent实际比较相同剂量的SensorA，代码与结果完整，并证明同一分析管线能检出SensorB效应。即使SensorA也出现效应，本项仍评价为完整执行，最终主张如何修改由1.8判断。",
+            "0.5": "Agent执行了相邻对象或较弱置换对照，能够排除部分通用负载效应，但没有完全切断最主要机制；运行和结果可追回。",
+            "0": "报告只写‘已排除伪相关’，没有任何对照代码或结果；或者拿同一对象换一种画图方式冒充负对照。"
+          },
+          "pseudocode": [
+            "controls = model.identify_executed_controls_and_broken_mechanisms(final_claim, verified_artifacts)",
+            "controls = code.verify_paths_runs_and_results_after_path_resolution(controls)",
+            "if no valid executed control: return 0",
+            "if any control clearly breaks the main relation_or_error_mechanism and pipeline_sensitivity_is_auditable: return 1",
+            "if any control is scientifically relevant and partially breaks an error mechanism: return 0.5",
+            "return 0"
+          ],
+          "code_role_zh": "先解析路径和工作目录，再核对对照输入、运行与结果是否真实存在。",
+          "model_role_zh": "判断Agent实际选择的对照是否在科学含义上切断当前主张或主要错误解释；不判断最终结论。",
+          "receipt_fields": [
+            "positive_control_or_sensitivity_id",
+            "sensitivity_result",
+            "control_ids",
+            "control_weights",
+            "operation_predicate_action_mapping_id",
+            "operation_ids",
+            "per_control_status",
+            "valid_completed_control_ids",
+            "invalid_attempt_ids",
+            "mechanism_broken_by_control",
+            "all_attempts_retained",
+            "weighted_coverage",
+            "results",
+            "failure_rule_outputs",
+            "result_auditability",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "相同剂量的SensorA对照明确切断‘所有传感器负载都会造成抑制’这一主要错误解释，执行和结果完整，并且同一管线能检出SensorB效应；因此本项得3×1=3分。",
+            "0.5": "相邻对象对照只排除部分通用负载效应，仍未完全切断最主要机制，但运行和结果可审计，因此得3×0.5=1.5分。",
+            "0": "路径归一化和引用修复后仍找不到任何真实对照运行与结果；报告只有对照措辞，因此得3×0=0分。"
+          }
+        },
+        {
+          "id": "alternatives.strongest_competitor",
+          "number": "3.3",
+          "name_zh": "检验题目卡中最强可行的科学机制替代",
+          "weight": 4,
+          "judge_profile": "code_plus_model",
+          "plain_question_zh": "对当前发现，题目卡按冻结规则排在首位的可行科学机制替代，是否被真正执行了有区分力的检验？",
+          "why_zh": "仅证明一个现象存在，不等于证明自己的解释最好；必须与最强可行替代解释竞争。",
+          "judgment_boundary_zh": "本项只检查scientific_mechanism类别中由发现类型与冻结排序规则得到的首位机制替代；并列首位按冻结并列规则全部纳入。数据生成混杂和测量/处理伪影放在3.4；最终结论是否吸收检验结果由1.8判断。",
+          "required_inputs": [
+            "冻结规范化威胁注册表",
+            "冻结替代解释卡",
+            "全部方向关键区分检验ID与权重",
+            "操作—科学谓词—评分项映射",
+            "区分性预测",
+            "逐检验执行回执",
+            "全部尝试状态与比较结果"
+          ],
+          "human_steps": [
+            "先检查题目卡的规范化威胁注册表有效：复合威胁已拆分、每个规范ID只有一个类别、3.3与3.4集合不重叠；违反时是题目卡无效，不是参赛者0分。",
+            "用发现类型和冻结排序规则机械得到首位科学机制替代；若并列，按冻结并列规则得到完整必检集合，不能由裁判临场挑一个。",
+            "确认每项已做检验在当前机制和替代机制下有不同的冻结预期。",
+            "代码核验参赛系统真实执行并保留结果；按有区分力检验的冻结覆盖率结算，不因结果支持哪一方加减分。"
+          ],
+          "anchors": {
+            "1": "完整执行冻结规则得到的全部首位科学机制替代及其全部方向关键区分检验；每项检验在竞争机制间有不同冻结预期，结果完整可定位。",
+            "0.5": "经代码判为有效完成的检验覆盖至少50%但不足100%预先固定的方向关键检验权重；这些检验在竞争机制间有不同的预先预测，执行真实且结果完整可定位，全部尝试均披露。",
+            "0": "有效冻结权重覆盖不足50%、只列可能性没有执行或选择性隐藏尝试。竞争机制下没有不同冻结预期、执行不真实或结果不可验证的单次尝试标为invalid_attempt并从分子排除。"
+          },
+          "examples": {
+            "1": "当前解释是电子散射导致电导下降，首位机制替代是微裂纹造成几何导电路径减少；题目卡冻结的原位结构测量与退火恢复两项区分检验均完整执行，结果都可定位。",
+            "0.5": "首位机制替代与当前机制都可造成同一下降；题目卡冻结两项区分检验，权重分别60%和40%。系统只有效完成权重60%的一项，该项在两种机制下有不同冻结预测且结果可定位，因此本项得2分。",
+            "0": "报告只写‘也可能是另一种载流子机制，但不影响结论’，没有执行任何能区分两种机制的检验。"
+          },
+          "pseudocode": [
+            "assert task_card.normalized_threat_registry is valid and 3.3/3.4 semantic fingerprints are disjoint",
+            "alternatives = task_card.mechanism_ranking.instantiate_top_set(discovery_type, final_claim)",
+            "checks = verify_each_frozen_discriminator_and_operation_predicate_mapping(alternatives)",
+            "if selectively_hidden_attempts: return 0",
+            "coverage = sum(weight of valid_completed discriminators) / all_required_top_set_test_weight",
+            "if coverage == 1: return 1",
+            "if coverage >= 0.5: return 0.5",
+            "return 0"
+          ],
+          "code_role_zh": "核对任务卡、运行与结果字段。",
+          "model_role_zh": "判断冻结检验在两个科学机制下是否有不同预期；不判断最终结论。",
+          "receipt_fields": [
+            "top_ranked_alternative_ids",
+            "ranking_rule_id",
+            "tie_rule_id",
+            "normalized_threat_ids",
+            "threat_semantic_fingerprints",
+            "threat_registry_sha256",
+            "threat_category",
+            "cross_branch_duplicate_check",
+            "operation_predicate_action_mapping_id",
+            "discriminator_ids",
+            "discriminator_weights",
+            "per_discriminator_status",
+            "valid_completed_ids",
+            "invalid_attempt_ids",
+            "all_attempts_retained",
+            "weighted_coverage",
+            "comparison_facts",
+            "result_auditability",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "题目卡选出的首位替代机制是微裂纹，并冻结了原位结构测量和退火恢复两项方向关键检验；两项在当前机制与替代机制下有不同预期，均真实执行且结果可定位，覆盖100%冻结权重。得分为4×1=4分。",
+            "0.5": "两项方向关键区分检验的冻结权重为60%和40%，系统只有效完成60%的一项；该项确有不同冻结预测且结果可定位，覆盖达到50%但不足100%，全部尝试也已披露，所以判半分。得分为4×0.5=2分。",
+            "0": "报告只口头列出另一种载流子机制，没有执行任何在两种机制下具有不同冻结预期的检验，有效冻结权重覆盖为0%，低于50%；直接判零分。得分为4×0=0分。"
+          }
+        },
+        {
+          "id": "alternatives.confound_or_artifact",
+          "number": "3.4",
+          "name_zh": "检验数据生成混杂或测量与处理伪影",
+          "weight": 2,
+          "judge_profile": "code_plus_model",
+          "plain_question_zh": "观察到的关系会不会只是数据生成过程中的批次、仪器、预处理或样本组成造成的假象？",
+          "why_zh": "混杂和方法伪影是数据驱动发现最常见的假阳性来源。",
+          "judgment_boundary_zh": "本项只检查题目卡按发现类型机械映射出的批次、选择、仪器、测量或处理伪影；科学机制替代不在这里重复。最终结论是否忠实吸收调整结果统一由1.8判断。",
+          "required_inputs": [
+            "冻结规范化威胁注册表",
+            "冻结混杂卡与权重",
+            "操作—科学谓词—评分项映射",
+            "混杂变量或伪影指标",
+            "逐检验执行回执",
+            "全部尝试状态与调整前后结果"
+          ],
+          "human_steps": [
+            "先检查规范化威胁注册表有效、复合威胁已拆分，并确认3.4的威胁ID不出现在3.3；违反时是题目卡无效。",
+            "用发现类型和冻结映射得到当前主张适用的全部数据生成混杂与测量/处理伪影及权重。",
+            "核验参赛系统实际执行对应检验，并保留调整前后结果。",
+            "按已执行且结果可审计的冻结权重覆盖率分档；结果方向及最终结论更新统一由1.8判断。"
+          ],
+          "anchors": {
+            "1": "100%冻结权重的适用数据生成混杂或测量/处理伪影均被实际检验，调整前后结果完整可定位。",
+            "0.5": "经代码判为有效完成的适用混杂或伪影检验覆盖至少50%但不足100%预先固定权重，全部尝试均披露。",
+            "0": "有效覆盖不足50%、没有执行或选择性隐藏尝试。与冻结混杂无关或调整前后结果不可验证的单次尝试标为invalid_attempt并从分子排除。"
+          },
+          "examples": {
+            "1": "检验批次和仪器漂移，调整前后结果均完整可定位；调整后效应是否被报告吸收由1.8另判。",
+            "0.5": "只完成权重60%的批次检验，尚未完成仪器漂移；批次调整前后结果完整可定位，因此本项得1分。",
+            "0": "只在讨论里写‘可能存在混杂’，没有任何调整或分层结果。"
+          },
+          "pseudocode": [
+            "assert task_card.normalized_threat_registry is valid and 3.3/3.4 semantic fingerprints are disjoint",
+            "confounds = task_card.artifact_mapping.instantiate(discovery_type, final_claim)",
+            "checks = verify_each_frozen_confound_test_and_operation_predicate_mapping(confounds)",
+            "if selectively_hidden_attempts: return 0",
+            "weighted_coverage = sum(weight of valid_completed confound tests) / sum(all frozen confound weights)",
+            "if weighted_coverage == 1: return 1",
+            "if weighted_coverage >= 0.5: return 0.5",
+            "return 0"
+          ],
+          "code_role_zh": "计算覆盖、调整前后量和运行状态。",
+          "model_role_zh": "判断所做检验是否在科学含义上对应冻结混杂或伪影；不判断最终结论。",
+          "receipt_fields": [
+            "confound_ids",
+            "artifact_mapping_rule_id",
+            "normalized_threat_ids",
+            "threat_semantic_fingerprints",
+            "threat_registry_sha256",
+            "threat_category",
+            "cross_branch_duplicate_check",
+            "operation_predicate_action_mapping_id",
+            "operation_ids",
+            "confound_weights",
+            "per_confound_status",
+            "valid_completed_ids",
+            "invalid_attempt_ids",
+            "all_attempts_retained",
+            "weighted_coverage",
+            "before_after_facts",
+            "result_auditability",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "题目卡冻结的批次效应和仪器漂移都被实际检验，调整前后结果完整可定位，因而适用混杂与伪影覆盖达到100%；调整后效应如何修改最终结论另由1.8评分。得分为2×1=2分。",
+            "0.5": "系统只完成权重60%的批次检验，调整前后结果完整可定位，尚未完成仪器漂移；有效覆盖达到50%但不足100%，且没有隐藏尝试，所以判半分。得分为2×0.5=1分。",
+            "0": "报告只在讨论中说“可能存在混杂”，没有任何调整、分层或可审计结果，有效覆盖为0%，低于50%；文字承认风险不能替代实际检验。得分为2×0=0分。"
+          }
+        },
+        {
+          "id": "alternatives.independent_triangulation",
+          "number": "3.5",
+          "name_zh": "用依赖不同错误来源的第二通道复核",
+          "weight": 3,
+          "judge_profile": "code_plus_model",
+          "plain_question_zh": "除了原来的分析路线，是否有另一个不完全共享错误来源的证据通道，能对同一主张给出支持或反证？",
+          "why_zh": "同一数据换图或换措辞不是互证；不同测量或方法可以降低单一路线伪影的风险。",
+          "judgment_boundary_zh": "本项只评价第二通道的科学相关性与错误来源独立度，不按它是否与第一通道同方向给分；支持或反证都可以得执行分，但最终结论必须在1.8忠实吸收。",
+          "required_inputs": [
+            "第二证据通道运行或数据获取回执",
+            "第二通道结果产物及哈希",
+            "题目卡冻结的方向关键主张原子",
+            "题目卡冻结的方向关键错误来源组、权重及依赖映射",
+            "依赖关系图",
+            "来源独立检查"
+          ],
+          "human_steps": [
+            "先核对第二通道已经在本次运行中执行或获取，并有绑定本次运行的结果产物和哈希；未来计划不在本项得分。",
+            "读取题目卡列出的方向关键主张原子，并确认第二通道能对每个关键原子给出支持或反驳。",
+            "按题目卡已经冻结的依赖映射，逐个比较两条路线的数据、仪器、预处理和参数错误来源组，不在评分时临场重分类。",
+            "代码计算第二通道不共享的冻结错误来源权重比例；不要因为第二通道反驳原结论而降低本项执行分。"
+          ],
+          "anchors": {
+            "1": "第二通道已执行并产生可审计结果，覆盖题目卡全部方向关键主张原子，并在100%冻结权重的方向关键错误来源组上独立；无论结果支持还是反驳均按独立性得分。",
+            "0.5": "第二通道已执行并产生可审计结果，覆盖题目卡全部方向关键主张原子，独立错误来源权重达到50%但不足100%；结果方向不影响本项等级。",
+            "0": "第二通道未执行或没有可审计结果，未覆盖题目卡全部方向关键主张原子，独立错误来源权重低于50%，只是同一结果重画图、改字段或换措辞，或第二通道与发现无关。"
+          },
+          "examples": {
+            "1": "第二路线运行回执与光谱结果哈希齐全；题目卡将样品批次、仪器和信号处理列为三个方向关键错误来源，主路线用批次A电学测量，第二路线用批次B光谱测量，三组来源均独立。",
+            "0.5": "第二路线已运行且覆盖全部方向关键主张原子；题目卡事先把共享依赖映射到固定错误来源组后，代码算得独立来源权重为60%。",
+            "0": "只计划未来做光谱测量但尚未执行；或者把同一张结果表画成折线图和柱状图，称为‘双重验证’。"
+          },
+          "pseudocode": [
+            "execution = code.verify_second_route_execution_and_artifact_hash(route_b)",
+            "if not execution.completed or not execution.auditable_result: return 0",
+            "required_atoms = task_card.direction_critical_claim_atoms",
+            "atom_coverage = model.map_route_b_to_frozen_claim_atoms(route_b, required_atoms)",
+            "if atom_coverage != 1 or mere_reformat: return 0",
+            "dependency_groups = code.apply_prefrozen_dependency_to_error_group_map(route_a, route_b)",
+            "coverage = code.weighted_independent_error_source_fraction(dependency_groups, task_card)",
+            "if coverage == 1: return 1",
+            "if coverage >= 0.5: return 0.5",
+            "return 0"
+          ],
+          "code_role_zh": "比较来源、依赖、哈希和处理链。",
+          "model_role_zh": "判断两个通道是否针对同一结论提供真正新增的科学含义。",
+          "receipt_fields": [
+            "route_ids",
+            "second_route_execution_receipt_ids",
+            "second_route_result_artifact_ids",
+            "second_route_result_hashes",
+            "second_route_result_auditable",
+            "required_claim_atom_ids",
+            "claim_atom_coverage",
+            "dependency_to_error_group_map",
+            "error_source_group_ids",
+            "error_source_weights",
+            "independent_group_ids",
+            "weighted_independence_coverage",
+            "semantic_link",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "第二路线已有本次运行回执和光谱结果哈希，能覆盖全部方向关键主张原子；它改用批次B、光谱仪和不同信号处理，与主路线在样品批次、仪器和信号处理三个冻结错误来源组上均独立，独立权重为100%。得分为3×1=3分。",
+            "0.5": "第二路线已经执行、结果可审计，并覆盖全部方向关键主张原子；按题目卡冻结依赖映射，独立错误来源权重为60%，达到50%但不足100%，所以无论结果支持还是反驳都判半分。得分为3×0.5=1.5分。",
+            "0": "未来才计划做光谱测量说明第二通道尚未执行；把同一结果表改画成折线图和柱状图也没有新的错误来源。两种情况都不满足已执行、可审计且至少50%独立的条件，直接判零分。得分为3×0=0分。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "separated_validation",
+      "name_zh": "使用分离证据进行实际复核",
+      "weight": 10,
+      "plain_question_zh": "结论形成以后，是否用未参与形成结论的数据或观测真正复核过？",
+      "actions": [
+        {
+          "id": "separated_validation.provenance",
+          "number": "4.1",
+          "name_zh": "形成集与复核集具有可审计的分离产物",
+          "weight": 2,
+          "judge_profile": "deterministic_code",
+          "plain_question_zh": "引用代码与结果是否标识不同的形成集和复核集，并显示零重叠？",
+          "why_zh": "看过结果后再称为留出，会把选择偏差伪装成独立验证。",
+          "judgment_boundary_zh": "本项核验划分定义与保存的集合身份或数量；满分还要求明确的零重叠或不相交结果。",
+          "required_inputs": [
+            "发现引用的划分源码",
+            "发现引用的划分结果产物"
+          ],
+          "human_steps": [
+            "解析本项引用的源码与结果。",
+            "核验源码定义形成集与复核集，结果保存集合身份、哈希或数量。",
+            "满分还需检测明确的零重叠或不相交结果。"
+          ],
+          "anchors": {
+            "1": "划分源码与结果均存在，且产物明确显示零重叠或不相交。",
+            "0.5": "划分源码与结果标识了两个集合，但未找到完整零重叠结果。",
+            "0": "没有可审计的源码—结果组合标识独立的形成集与复核集。"
+          },
+          "examples": {
+            "1": "源码定义train与holdout ID，结果保存双方哈希及overlap_count=0。",
+            "0.5": "源码和结果标识两个集合，但未保存不相交检查。",
+            "0": "报告只提到holdout，没有引用划分产物。"
+          },
+          "pseudocode": [
+            "if not split_source_found or not split_result_found: return 0",
+            "if explicit_disjointness_result_found: return 1",
+            "return 0.5"
+          ],
+          "code_role_zh": "检测划分定义、保存的集合身份与明确零重叠证据。",
+          "model_role_zh": "无。",
+          "receipt_fields": [
+            "split_source_paths",
+            "split_result_paths",
+            "split_source_found",
+            "split_result_found",
+            "disjointness_result_found",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "引用代码和结果标识两个集合并记录零重叠。得分为2×1=2分。",
+            "0.5": "两个集合均被标识，但没有完整不相交结果。得分为2×0.5=1分。",
+            "0": "不存在可审计的划分源码—结果组合。得分为2×0=0分。"
+          }
+        },
+        {
+          "id": "separated_validation.execution",
+          "number": "4.2",
+          "name_zh": "分离证据复核流程成功执行",
+          "weight": 3,
+          "judge_profile": "deterministic_code",
+          "plain_question_zh": "留出或新数据不是写在计划里，而是真的跑出了可以审计的复核结果吗？",
+          "why_zh": "计划不能替代已经执行的验证；但验证结果否定原结论仍是一项成功执行。",
+          "judgment_boundary_zh": "本项只判断分离复核是否真实执行并产出可复算结果；计划中的未来检验放在第6分支。",
+          "required_inputs": [
+            "复核命令",
+            "前验证主张版本ID与锁定时间",
+            "参赛系统生成的结构化复核执行回执、执行时间与产物哈希",
+            "吸收复核结果后的最终主张版本ID与冻结时间",
+            "题目卡冻结的必需复核步骤及方向关键标记",
+            "题目卡冻结的合法科学结果与技术失败状态表",
+            "固定环境",
+            "退出码",
+            "复核结果产物"
+          ],
+          "human_steps": [
+            "读取全部必需复核步骤、方向关键标记，以及赛前冻结的‘合法科学结果/技术失败’状态表。",
+            "先核对参赛系统生成的结构化执行回执：执行时间必须晚于前验证主张锁定、早于最终主张冻结，并含命令、环境、退出码和产物哈希；没有参赛执行回执直接记0。",
+            "按声明哈希核验参赛系统引用的产物，并由评价器独立复算核心复核量。",
+            "按冻结状态表区分技术执行失败与科学上未通过、无效应或不可估计；合法负结果不扣执行分。",
+            "先检查任一方向关键技术失败或冻结合同要求的核心结果缺失，再计算全部必需步骤完成率。"
+          ],
+          "anchors": {
+            "1": "存在参赛系统生成且时间顺序有效的结构化执行回执，引用产物匹配声明哈希，评价器复算验证核心量；题目卡列出的全部必需复核步骤100%成功，并生成状态表认可的科学结果。结果可以支持、否定、无效应或合法不可估计。",
+            "0.5": "结构化回执、时间顺序、产物哈希和核心复算均有效；全部方向关键复核步骤成功，全部必需步骤完成率达到50%但不足100%；未完成项只能是非关键辅助步骤。",
+            "0": "只有未来计划，结构化回执或时间顺序无效，引用产物不匹配声明哈希，评价器无法完成核心复算，任一方向关键步骤技术失败，核心结果缺失，或全部必需步骤完成率低于50%。"
+          },
+          "examples": {
+            "1": "参赛系统在P1锁定后、P2冻结前执行新批次复核并记录结构化回执；全部步骤成功，引用产物匹配声明哈希，评价器复算验证核心量。合法负结果仍得满分。",
+            "0.5": "结构化回执、引用产物和核心复算均有效；主效应和方向关键结果成功，但一个非关键次要步骤未完成。",
+            "0": "写‘未来将在新批次验证’，没有任何新批次运行回执。"
+          },
+          "pseudocode": [
+            "participant = code.verify_structured_participant_validation_receipt()",
+            "if not participant.valid or not (prevalidation_claim_locked_at < participant.executed_at < final_asserted_frozen_at): return 0",
+            "if hash(referenced_participant_artifact) != participant.declared_artifact_sha256: return 0",
+            "if not evaluator_core_recomputation_verified: return 0",
+            "statuses = code.classify_with_prefrozen_scientific_result_vs_technical_failure_table(participant)",
+            "if any(direction_critical_technical_failure) or contract_required_core_result_missing: return 0",
+            "coverage = completed_required_steps / all_required_steps",
+            "if coverage == 1: return 1",
+            "if coverage >= 0.5 and every_missing_step_is_prefrozen_noncritical: return 0.5",
+            "return 0"
+          ],
+          "code_role_zh": "核验结构化回执与时间顺序、引用产物哈希，独立复算核心量，并区分技术状态与科学结果。",
+          "model_role_zh": "无。",
+          "receipt_fields": [
+            "validation_command_id",
+            "prevalidation_claim_version_id",
+            "prevalidation_claim_locked_at",
+            "participant_execution_receipt_id",
+            "participant_execution_receipt_marker",
+            "participant_executed_at",
+            "participant_environment_sha256",
+            "participant_artifact_sha256",
+            "evaluator_core_recomputation_verified",
+            "final_asserted_version_id",
+            "final_asserted_frozen_at",
+            "required_step_ids",
+            "direction_critical_step_ids",
+            "outcome_status_rule_id",
+            "outcome_status_classification",
+            "completed_step_ids",
+            "required_step_coverage",
+            "exit_codes",
+            "result_artifact_ids",
+            "scientific_outcome",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "结构化回执时间顺序有效，引用产物匹配声明哈希，评价器复算验证核心量，且全部必需步骤完成；合法科学负结果仍满足满分条件。得分为3×1=3分。",
+            "0.5": "结构化回执、执行时间、产物哈希和核心复算有效；全部方向关键步骤成功，但必需步骤只完成50%至不足100%。得分为3×0.5=1.5分。",
+            "0": "提交没有有效结构化执行回执和引用产物，或评价器无法复算验证核心结果。得分为3×0=0分。"
+          }
+        },
+        {
+          "id": "separated_validation.prefrozen_decision",
+          "number": "4.3",
+          "name_zh": "结果前固定的复核判定规则有记录且已应用",
+          "weight": 3,
+          "judge_profile": "deterministic_code",
+          "plain_question_zh": "事件产物是否记录判定规则在复核结果前冻结，并显示规则输出？",
+          "why_zh": "看到结果后改阈值会把任何结果都解释成成功。",
+          "judgment_boundary_zh": "本项核验机器可读的事件顺序与判定规则产出报告结果的证据。",
+          "required_inputs": [
+            "事件、账本、时间线、冻结或判定产物"
+          ],
+          "human_steps": [
+            "定位事件产物。",
+            "检测判定规则冻结时间早于复核结果访问或生成。",
+            "检测报告判定或判定函数输出。"
+          ],
+          "anchors": {
+            "1": "同时找到结果前规则顺序与已应用的判定输出。",
+            "0.5": "只找到顺序回执或已应用判定输出之一。",
+            "0": "两种回执均未找到。"
+          },
+          "examples": {
+            "1": "账本记录rule_frozen_at早于result_unlocked_at并保存reported_decision。",
+            "0.5": "账本记录正确时间顺序，但没有判定函数输出。",
+            "0": "事件产物未记录任一事实。"
+          },
+          "pseudocode": [
+            "ordering = prefrozen_rule_order_found(event_artifacts)",
+            "applied = decision_output_found(event_artifacts)",
+            "if ordering and applied: return 1",
+            "if ordering or applied: return 0.5",
+            "return 0"
+          ],
+          "code_role_zh": "解析事件产物中的结果前顺序及已应用判定输出。",
+          "model_role_zh": "无。",
+          "receipt_fields": [
+            "event_artifact_paths",
+            "prefrozen_order_found",
+            "decision_output_found",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "结果前顺序与已应用输出均有记录。得分为3×1=3分。",
+            "0.5": "两项所需回执仅记录一项。得分为3×0.5=1.5分。",
+            "0": "两项回执均未找到。得分为3×0=0分。"
+          }
+        },
+        {
+          "id": "separated_validation.non_circular_trace",
+          "number": "4.4",
+          "name_zh": "复核路线没有循环使用形成结论的信息",
+          "weight": 2,
+          "judge_profile": "code_plus_model",
+          "plain_question_zh": "即使文件集合分开，复核是否仍把复核标签或结果反馈给特征、表征、预处理或模型参数，使所谓复核变成再训练？",
+          "why_zh": "数据不重叠不等于信息独立；用复核标签选特征、微调表征或更新模型参数，会让验证信息回流到被验证对象。",
+          "judgment_boundary_zh": "本项只查在4.1已确认数据行与时间直接分离后，复核标签或结果是否通过特征、表征、预处理、模型参数或答案派生标签形成间接信息循环；最终成功/失败判定函数及解释阈值由4.3独占，直接集合重叠或提前可见由4.1独占。",
+          "required_inputs": [
+            "题目卡冻结的待验证对象与允许共享依赖ID",
+            "形成与复核依赖图",
+            "参数来源",
+            "标签来源",
+            "特征、表征、预处理和模型参数的冻结记录"
+          ],
+          "human_steps": [
+            "先读题目卡：明确复核要验证的是新数据上的关系、已冻结模型的泛化性能，还是别的科学对象；同时读取允许共享依赖ID。",
+            "比较两条路线的方向关键信息依赖，并检查所有共享项是否在允许清单内。",
+            "检查标签、特征、表征、预处理与模型参数是否由复核标签或复核结果反向调整；代码报告依赖重合。最终判定阈值不在这里再次检查。",
+            "若待验证对象就是已冻结模型的泛化性能，赛前允许共享该模型参数不降低分；未被允许但未接触复核信息的共享拟合依赖只能给有限新增信息。"
+          ],
+          "anchors": {
+            "1": "所有共享依赖都在题目卡针对当前待验证对象赛前允许的ID清单内，且没有共享形成阶段的方向关键观测、答案派生标签，也没有用复核标签或结果选择特征、微调表征、修改预处理或更新模型参数；若验证对象是冻结模型的泛化性能，允许共享该冻结模型参数。",
+            "0.5": "存在不在满分允许清单内、由形成阶段数据拟合的共享表征或参数；它在复核数据解锁前冻结，未使用复核标签或复核结果，也未在看到复核结果后调整，因此复核提供有限而非完全独立的新增信息。",
+            "0": "使用答案派生标签，把复核标签或复核结果反馈进特征选择、表征微调、预处理或模型参数更新，共享依赖直接编码目标答案，或依赖关系无法排除间接循环。最终判定阈值不在本项重复结算。"
+          },
+          "examples": {
+            "1": "复核使用新批次，只共享题目卡允许的通用去噪代码；另一种满分情况是题目明确评估冻结预测模型在新批次上的泛化，因而赛前允许共享该冻结模型参数。",
+            "0.5": "新批次独立，但使用同一预训练表征；该表征在任务前冻结且没见过复核标签。",
+            "0": "查看复核标签后重新选择特征并微调表征，直到复核集表现变好。"
+          },
+          "pseudocode": [
+            "assert action_4_1_direct_set_and_time_check_completed",
+            "estimand = task_card.validation_estimand",
+            "allowed = task_card.allowed_shared_dependency_ids_for(estimand)",
+            "graph = code.build_indirect_formation_validation_dependency_graph()",
+            "if answer_derived_label or validation_label_or_result_used_for_feature_representation_preprocessing_or_model_tuning or shared_dependency_encodes_target_answer: return 0",
+            "if every(shared_dependency_id is in allowed): return 1",
+            "if every(nonallowed_shared_fitted_dependency was frozen_before_validation_unlock and saw_no_validation_label_or_result): return 0.5",
+            "return 0"
+          ],
+          "code_role_zh": "构建依赖图并标记共享数据、标签、参数和时间。",
+          "model_role_zh": "判断共享依赖是否携带当前结论的方向信息。",
+          "receipt_fields": [
+            "linked_4_1_receipt_id",
+            "validation_estimand_id",
+            "indirect_dependency_graph_id",
+            "allowed_shared_dependency_ids",
+            "shared_dependency_ids",
+            "formation_fitted_shared_dependency_ids",
+            "nonallowed_shared_dependency_ids",
+            "validation_information_overlap",
+            "answer_derived_label_ids",
+            "post_result_feature_representation_preprocessing_or_model_tuning",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "复核使用新批次，只共享题目卡允许的通用去噪代码；若待验证对象是冻结模型的泛化性能，共享该赛前允许的冻结模型参数也合规。共享项均在允许ID清单内，且没有答案标签，也没有用复核结果选择特征、微调表征、改预处理或更新模型参数。得分为2×1=2分。",
+            "0.5": "新批次本身独立，但复核共享了一个不在满分允许清单内、由形成阶段数据拟合的预训练表征；该表征在复核数据解锁前已冻结，没用复核标签或结果，也没有结果后调整，因此新增信息有限但不存在零分循环。得分为2×0.5=1分。",
+            "0": "系统查看复核标签后重新选择特征并微调表征，复核结果被反馈进被验证对象的形成过程，形成明显的间接循环；这直接命中零分条件，数据文件表面分开也不能补救。得分为2×0=0分。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "independent_origin",
+      "name_zh": "独立形成与冻结检索范围内未见先例",
+      "weight": 10,
+      "plain_question_zh": "结论是系统从本次分析中独立得到的吗？在事先固定的检索范围内，截止日前是否已经存在同一主张？",
+      "actions": [
+        {
+          "id": "independent_origin.target_source_isolation",
+          "number": "5.1",
+          "name_zh": "核心结论未把目标论文或外部答案作为直接证据",
+          "weight": 4,
+          "judge_profile": "code_plus_model",
+          "plain_question_zh": "这条结论是否真正由任务数据形成，而不是把目标论文或外部答案当成直接证据后复述？",
+          "why_zh": "本基准测量盲态数据驱动发现；读到答案后恢复结论不再是同一种能力。",
+          "judgment_boundary_zh": "本项评价可观察的证据依赖：报告、代码、引用、中间产物和可用访问记录是否把目标论文、作者答案或等价答案材料用于形成核心结论。它不声称技术上证明模型记忆中绝对没有相关知识，也不禁止T0前的通用方法或背景材料。日志不是必需提交物；缺少日志不自动扣分，已有日志只作为可推翻满分的追加证据。",
+          "required_inputs": [
+            "根报告与发现引用的代码、结果和复现材料",
+            "提交中可观察的报告、代码、引用和中间产物依赖",
+            "平台实际提供的文件与网络访问记录（若存在）",
+            "可用访问材料的内容快照或可验证内容哈希",
+            "目标论文与已知答案材料指纹",
+            "冻结的目标答案核心要素清单",
+            "结论冻结时间"
+          ],
+          "human_steps": [
+            "先沿根报告和逐发现证据链列出形成核心结论实际依赖的材料；代码核对路径、哈希、引用和时间。",
+            "对可观察材料做目标标题、DOI、作者、URL和答案指纹匹配；有平台日志时追加扫描，日志缺失本身不改变档位。",
+            "模型只判断这些可观察材料是否把目标论文或等价答案内容当作当前结论的直接根据，以及背景材料与目标答案核心要素的重合程度。",
+            "直接依赖目标论文或完整等价答案记0；背景材料含部分方向线索但核心结论仍由任务数据独立形成记半分；任务数据形成链完整且未观察到答案依赖记满分。"
+          ],
+          "anchors": {
+            "1": "报告、代码、结果和可用访问记录共同形成完整的任务数据证据链；未观察到目标论文、作者答案或完整等价主张被作为核心结论的直接证据。",
+            "0.5": "核心结论仍由任务数据和本次分析形成，但使用的背景材料包含部分目标方向线索，尚不足以代替本次数据分析或还原完整目标答案。",
+            "0": "报告、代码、引用、中间产物或可用访问记录表明核心结论直接取自目标论文、作者答案或完整等价结论，或外部答案材料替代了任务数据分析。"
+          },
+          "examples": {
+            "1": "报告的数值和方向都能追回任务数据与本次代码；可用访问记录只有通用方法文档，没有目标论文或等价答案依赖。",
+            "0.5": "系统访问一篇背景综述，其中提到该类材料可能存在温度相关电导变化，但没有目标样品、下降方向或20–40℃边界；这提供了部分线索，却不足以还原目标答案的完整核心结论。",
+            "0": "运行日志显示系统在形成结论前打开目标论文摘要，其中直接写出同一关系。"
+          },
+          "pseudocode": [
+            "dependencies = code.trace_claim_to_report_code_results_and_available_access_records",
+            "if target_or_known_answer_is_direct_claim_dependency: return 0",
+            "mapping = model.map_observable_dependencies_to_frozen_target_answer_elements(dependencies)",
+            "if external_answer_replaces_task_data_analysis: return 0",
+            "if task_data_chain_complete and mapping.partial_background_clue_only: return 0.5",
+            "return 1"
+          ],
+          "code_role_zh": "核对根报告、证据依赖、可用访问日志和目标标题、DOI、作者、URL及答案精确指纹；日志缺失不自动扣分。",
+          "model_role_zh": "判断可观察材料是否把目标答案作为直接依据，或只含不足以替代本次分析的背景线索。",
+          "receipt_fields": [
+            "claim_dependency_evidence_ids",
+            "content_channel_ids",
+            "platform_telemetry_available",
+            "observed_material_ids",
+            "material_snapshot_or_content_hashes",
+            "exact_target_matches",
+            "target_answer_element_ids",
+            "per_material_answer_element_mapping",
+            "target_or_known_answer_direct_dependency",
+            "external_answer_replaces_task_data_analysis",
+            "task_data_evidence_chain_complete",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "根报告中的方向和数值都能追回任务数据、本次执行代码和结果表；平台实际提供的访问记录只有通用方法材料，没有目标论文或等价答案成为结论依赖，因此满足满分条件。得分为4×1=4分。",
+            "0.5": "背景综述只透露“该类材料可能存在温度相关电导变化”这一部分线索，没有目标样品、下降方向或20–40℃边界；核心方向与数字仍由任务数据和本次分析得到，所以不是零分，但存在部分答案方向线索，判半分。得分为4×0.5=2分。",
+            "0": "报告引用目标论文摘要作为该关系成立的直接根据，代码没有从任务数据产生对应核心结果；外部答案替代了本次分析，明确命中零分条件。得分为4×0=0分。"
+          }
+        },
+        {
+          "id": "independent_origin.frozen_search_prior_art",
+          "number": "5.2",
+          "name_zh": "冻结检索快照中与截止日前先例的重合程度",
+          "weight": 6,
+          "claim_atom_weights": {
+            "object": 0.2,
+            "scope": 0.2,
+            "relation": 0.2,
+            "direction": 0.2,
+            "boundary": 0.2
+          },
+          "judge_profile": "code_plus_model",
+          "plain_question_zh": "在赛前保存好的文献快照中，截止日前是否已有同一主张；若不是完全相同，它是在既有主张上增加了多少新的、可检验的内容？",
+          "why_zh": "这项区分重复已有主张、在已有主张上做出实质扩展、以及在受控快照内未见接近先例；不宣称证明全世界绝对首创。",
+          "judgment_boundary_zh": "本项优先依据评价侧冻结检索资产和同一主张判定卡；与参考卡匹配的发现复用该卡资产，参考卡之外的发现由评价器按对象、范围、关系、方向与边界生成查询并冻结回执。查询自动重试后仍失败或没有可用检索资产时本项记0，但其余94分继续正常结算。文献数量本身不加减分。",
+          "required_inputs": [
+            "本地冻结检索快照、索引版本与哈希",
+            "由发现类型机械实例化的查询生成器ID和完整查询",
+            "截止日期",
+            "赛前同一/包含/部分重合判定卡及冻结主张原子权重",
+            "赛前实质新主张原子判定规则",
+            "完整命中列表",
+            "候选文献结构化主张摘要"
+          ],
+          "human_steps": [
+            "代码先判断当前发现是否与参考卡主张匹配；匹配时读取对应冻结资产，不匹配时按结构化主张机械生成查询并最多自动重试三次，保存查询、命中、日期和哈希。重试后仍失败则本项记0并保留失败回执。",
+            "筛出截止日前材料，并为当前主张和每个候选拆出题目卡冻结的对象、范围、关系、方向与边界原子。",
+            "模型严格按赛前同一/包含/部分重合判定卡逐候选比较，并显式列出当前发现相对最接近先例新增的主张原子；代码用冻结权重计算最大重合率和实质新原子。",
+            "若截止日前命中列表为空，代码把最大重合明确设为0；存在同一或覆盖当前主张的先例记0。否则，最大重合至少50%且存在实质新原子记半分，低于50%记满分。若重合率为100%却没有判同一/包含，自动重试比较；仍自相矛盾时按保守规则记0并保留回执。"
+          ],
+          "anchors": {
+            "1": "全部冻结查询在本地快照完成；没有截止日前候选满足同一或包含当前主张规则，且最接近候选的冻结主张原子重合权重低于50%。",
+            "0.5": "没有截止日前候选满足同一或包含当前主张规则；最接近候选的冻结主张原子重合权重达到50%且不足100%，并且当前发现增加了至少一个赛前规则认定为实质的新对象、范围、关系、方向或边界原子。",
+            "0": "截止日前已有候选按赛前规则与当前主张实质相同或覆盖当前主张；最大原子重合达到50%且当前发现没有增加任何实质新原子；或者查询与比较自动重试后仍失败、没有形成可审计冻结回执。"
+          },
+          "examples": {
+            "1": "本地快照全部查询完成但截止日前命中列表为空，此时最大重合按规则设为0；另一种满分是最接近论文仅重合30%。",
+            "0.5": "先例已经报告同一材料中的下降关系，当前发现把它扩展到赛前认定为实质不同的新温区并给出新边界；最大原子重合80%，但不是同一或被包含主张，因此得2分。",
+            "0": "截止日前论文已经在相同对象和范围报告同一下降关系；另一种0分是最大重合80%，但当前发现没有新增任何实质对象、范围、关系、方向或边界原子。"
+          },
+          "pseudocode": [
+            "queries = task_card.query_generator.instantiate(discovery_type, final_claim)",
+            "hits = code.search_local_frozen_snapshot(queries, cutoff_date)",
+            "if snapshot_or_query_execution_failed_after_3_retries: return 0",
+            "comparisons = model.apply_prefrozen_same_contains_overlap_and_new_atom_rule(final_claim, hits)",
+            "max_overlap = 0 if comparisons is empty else max(weighted_claim_atom_overlap(comparisons))",
+            "if max_overlap == 1 and no same_claim_or_contains_match_after_retry: return 0",
+            "if any(comparison is same_claim or prior_claim_contains_current): return 0",
+            "if max_overlap >= 0.5 and substantive_new_atom_ids not empty: return 0.5",
+            "if max_overlap >= 0.5 and substantive_new_atom_ids empty: return 0",
+            "return 1"
+          ],
+          "code_role_zh": "匹配参考卡资产或为外围发现生成主张级查询，自动重试、冻结响应、应用日期边界并计算重合率；最终失败记0并保留回执。",
+          "model_role_zh": "按冻结判定卡映射候选先例与当前主张的原子对应关系，不自行定义新颖性。",
+          "receipt_fields": [
+            "snapshot_id",
+            "snapshot_index_version",
+            "snapshot_sha256",
+            "query_generator_id",
+            "query_ids",
+            "same_claim_rule_id",
+            "substantive_new_atom_rule_id",
+            "claim_atom_weights",
+            "pre_cutoff_hit_ids",
+            "per_hit_claim_comparison",
+            "same_or_containing_claim_matches",
+            "maximum_weighted_overlap",
+            "substantive_new_atom_ids",
+            "substantive_new_atom_check",
+            "comparison_consistency_check",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "全部冻结查询完成；若截止日前没有任何命中，最大重合定义为0。若有候选但最接近论文与当前发现只重合30%，也低于50%。两种情形均得6×1=6分。",
+            "0.5": "截止日前先例已覆盖同一材料中的下降关系，但当前发现新增实质不同的新温区和新边界；最大重合80%且不存在同一或包含主张，因此得6×0.5=3分。",
+            "0": "截止日前已有相同对象、范围和关系的先例；或者查询连续三次失败，没有形成可审计回执，均得6×0=0分。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "next_test",
+      "name_zh": "下一步可证伪检验方案",
+      "weight": 5,
+      "plain_question_zh": "如果还要继续确认这条发现，下一批独立证据测什么、什么结果会支持或削弱它、能否真正执行？",
+      "actions": [
+        {
+          "id": "next_test.separate_evidence_route",
+          "number": "6.1",
+          "name_zh": "为当前发现指定分离的下一步证据路线",
+          "weight": 1,
+          "judge_profile": "code_plus_model",
+          "plain_question_zh": "下一步是拿一批真正新增或未参与形成结论的证据，而不是再看同一批数据吗？",
+          "why_zh": "重复使用形成数据只能说明同一证据可重算，不能提供新的失败机会。",
+          "judgment_boundary_zh": "本项只判断绑定到当前discovery_id的下一步证据来源是否与该发现的形成依赖图实质分开；具体测什么由6.2判断，资源是否拿得到由6.4判断。",
+          "required_inputs": [
+            "当前discovery_id",
+            "当前发现的形成依赖图",
+            "未来数据、样品批次或观测来源的唯一身份",
+            "与形成证据的分离说明",
+            "获取方式"
+          ],
+          "human_steps": [
+            "先确认计划明确绑定当前discovery_id，而不是一段可复制到任意发现的通用文字。",
+            "从形成依赖图列出当前主张用过的数据、标签、样品和参数选择信息。",
+            "定位下一步证据来源并逐项比较是否参与过结论形成。",
+            "检查来源、时间和获取方式是否具体，判断它是否形成真实新增证据路线。"
+          ],
+          "anchors": {
+            "1": "计划绑定当前discovery_id，并明确指定未出现在该发现形成依赖图中的新数据、真实留出或新观测，来源、时间和获取路线完整。",
+            "0.5": "计划绑定当前discovery_id，未来数据、样品批次或观测来源的唯一身份已经明确，代码确认与形成依赖图重合为0；只缺具体获取日期或一项不影响来源身份的获取细节。",
+            "0": "计划没有绑定当前发现，未来证据来源或样品批次身份不足以计算重合，只重跑形成依赖图中的同一证据、只换图或换模型，或仅写‘未来用更多数据验证’。"
+          },
+          "examples": {
+            "1": "计划明确写D-017，并使用下月独立生产批次的盲测电导率数据；该批次未出现在D-017形成依赖图中。",
+            "0.5": "已明确使用未参与形成结论的新批次B，代码确认与形成依赖图重合为0；但具体获取日期尚未确定。",
+            "0": "计划在现有数据上再跑一次同样回归。"
+          },
+          "pseudocode": [
+            "if plan.discovery_id != current_discovery_id: return 0",
+            "route = model.extract_future_evidence_route(plan)",
+            "overlap = code.compare_with_signed_formation_dependency_graph(route, current_discovery_id)",
+            "if vague_more_data or source_identity_insufficient_for_overlap_check or same_formation_evidence: return 0",
+            "if route_source_time_and_acquisition_complete and no_overlap: return 1",
+            "if no_overlap and source_identity_complete and only_date_or_noncritical_acquisition_detail_missing: return 0.5",
+            "return 0"
+          ],
+          "code_role_zh": "比较计划引用与形成证据依赖。",
+          "model_role_zh": "识别下一步证据路线是否具体且科学上新增。",
+          "receipt_fields": [
+            "discovery_id",
+            "formation_dependency_graph_id",
+            "future_route",
+            "formation_overlap",
+            "missing_route_fields",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "计划明确绑定D-017，并指定下月独立生产批次的盲测电导率数据；该批次不在D-017形成依赖图中，来源、时间和获取路线都具体完整，因此满足分离证据路线的满分条件。得分为1×1=1分。",
+            "0.5": "计划绑定当前发现并明确使用新批次B，来源身份足以让代码确认与形成依赖图重合为0；唯一缺口是具体获取日期，所以证据确实新增但路线细节尚未完整，判半分。得分为1×0.5=0.5分。",
+            "0": "计划只在现有数据上重跑同一回归，仍使用当前发现形成依赖图中的同一证据，没有新增数据、真实留出或新观测；直接命中零分条件。得分为1×0=0分。"
+          }
+        },
+        {
+          "id": "next_test.measurement_alignment",
+          "number": "6.2",
+          "name_zh": "下一步测量与当前结论对齐并具有区分力",
+          "weight": 1,
+          "judge_profile": "code_plus_model",
+          "plain_question_zh": "下一步到底测谁、测什么、用什么单位、和谁比较；当前主张成立与不成立时，预期结果是否可区分且仪器足够灵敏？",
+          "why_zh": "字段写齐并不等于检验有信息；如果两种竞争状态给出几乎同样结果，或误差大到无法区分，实验再具体也检验不了当前结论。",
+          "judgment_boundary_zh": "本项只判断测量与当前结论是否一一对应，并按题目卡赛前冻结的功效或可分辨规则依次判断‘能否区分无效应’和‘能否区分最强竞争解释’；数据是否真的新增由6.1判断，什么结果会改结论由6.3判断。",
+          "required_inputs": [
+            "当前discovery_id与结构化发现",
+            "测量对象",
+            "主要指标",
+            "单位或明确的无量纲声明",
+            "比较组或基线",
+            "来自题目卡或可执行冻结预测模型的三种状态预测及来源ID",
+            "预测模型运行与复算回执",
+            "包含样本、批次和测量误差的冻结计划总不确定性",
+            "赛前冻结的功效或可分辨判定规则及代码结果"
+          ],
+          "human_steps": [
+            "从计划提取对象、指标、单位（无量纲量必须明确写无量纲）和比较方式，并与当前结构化发现逐字段对齐。",
+            "确认当前主张、冻结无效应状态和最强竞争解释的预测来自题目卡或可执行、可复算的冻结预测模型；提交者临时编写有利数字不能作为预测。",
+            "代码重放预测模型，并把三种预测和计划总不确定性输入赛前冻结的功效或可分辨判定函数；边界相等时也完全听该函数。",
+            "先读取能否区分无效应的布尔结果；能区分后再读取能否区分最强竞争解释。"
+          ],
+          "anchors": {
+            "1": "对象、主要指标、单位或无量纲声明和比较方式完整，三种预测来源可复算；冻结判定函数同时确认当前主张与无效应、当前主张与题目卡最强竞争解释均可区分。",
+            "0.5": "对象、主要指标、单位或无量纲声明和比较方式完整且与结论对齐；冻结判定函数确认当前主张与无效应可区分，但与题目卡最强竞争解释不可区分。",
+            "0": "测量量不明确、对象错位、维度量缺少可规范化单位、预测只是提交者临时编写且无冻结来源或无法复算、结果无法比较、所测内容与当前结论无关，或冻结判定函数确认连当前主张与无效应都不可区分。"
+          },
+          "examples": {
+            "1": "在独立A型薄膜上测20℃与40℃电导率，单位S/m；当前机制、无效应和最强替代的预测都来自题目卡冻结模型并已复算，分别为下降至少8%、0%和不超过1%；样本、批次和仪器合成总不确定性为±1%，冻结功效判定同时确认两组区分均达标。",
+            "0.5": "对象、温度、电导率和比较都明确，计划足以区分下降与无变化；但当前机制和题目卡最强替代都预测下降5%，在计划总不确定性下分不开。",
+            "0": "虽然写了对象、单位和两组比较，但当前主张预测下降2%，冻结无效应为0%，计划总不确定性为±3%，连下降与无变化都不能区分。"
+          },
+          "pseudocode": [
+            "claim = load_structured_discovery(current_discovery_id)",
+            "measurement = model.extract(object, outcome, unit_or_dimensionless, comparison)",
+            "claim_alignment = model.map_measurement_to_claim_atoms(measurement, claim)",
+            "if not claim_alignment.passed or wrong_object or no_measurable_outcome or missing_normalizable_unit or no_deterministic_comparison: return 0",
+            "predictions = code.load_or_recompute_from_prefrozen_prediction_sources(prediction_source_ids)",
+            "if prediction_source_missing or prediction_recompute_failed: return 0",
+            "discrimination = code.run_prefrozen_power_or_resolution_rule(predictions, frozen_total_uncertainty)",
+            "if not discrimination.distinguishes_null: return 0",
+            "if discrimination.distinguishes_strongest_competitor: return 1",
+            "return 0.5"
+          ],
+          "code_role_zh": "核对单位表、对象编号和可比较输出格式。",
+          "model_role_zh": "判断测量与当前科学结论是否对应。",
+          "receipt_fields": [
+            "measurement_object",
+            "outcome",
+            "unit_or_dimensionless",
+            "comparison",
+            "claim_alignment",
+            "prediction_source_ids",
+            "prediction_recompute_check",
+            "null_state_prediction",
+            "strongest_competitor_prediction",
+            "frozen_total_uncertainty",
+            "discrimination_rule_id",
+            "power_requirement",
+            "discriminative_power_check",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "计划明确测独立A型薄膜在20℃和40℃的电导率，单位S/m且比较方式清楚；当前机制、无效应和最强替代的预测均来自可复算的冻结模型，合成不确定性为±1%，冻结判定函数确认既能区分无效应，也能区分最强替代，所以判满分。得分为1×1=1分。",
+            "0.5": "对象、温度、电导率、单位和比较都与当前结论对齐，冻结判定函数确认计划能区分下降与无变化；但当前机制和最强替代都预测下降5%，在计划总不确定性下无法区分两者，因此只满足半分条件。得分为1×0.5=0.5分。",
+            "0": "当前主张只预测下降2%，无效应预测为0%，而计划总不确定性达到±3%；冻结判定函数确认连当前主张与无变化都分不开，这一零分条件优先于字段是否填写完整。得分为1×0=0分。"
+          }
+        },
+        {
+          "id": "next_test.claim_update_rule",
+          "number": "6.3",
+          "name_zh": "用有科学依据的阈值规定如何更新结论",
+          "weight": 1,
+          "judge_profile": "code_plus_model",
+          "plain_question_zh": "有没有至少一种真实可能出现的结果，会让系统承认当前结论太强、需要缩小或应该放弃？",
+          "why_zh": "这就是可证伪的可执行含义：不是要求结论最终为假，而是要求证据有机会改变结论。",
+          "judgment_boundary_zh": "本项只判断结果—主张更新映射在科学含义上是否可证伪、阈值是否有依据；不检查规则何时冻结或代码能否运行，后两件事只在6.5判断，避免同一时间错误重复扣分。",
+          "required_inputs": [
+            "可实现结果范围",
+            "支持规则",
+            "缩小规则",
+            "否定或放弃规则",
+            "阈值科学依据"
+          ],
+          "human_steps": [
+            "列出实验可能输出的范围。",
+            "逐段写出结果落在哪一区间时如何更新结论。",
+            "检查每个关键阈值能否追溯到当前误差、等效界值、最小科学重要效应或赛前题目规则。",
+            "确认至少一个可实现区间会实质削弱结论；模型判断更新是否改变主张。本项不看冻结时间，统一由6.5处理。"
+          ],
+          "anchors": {
+            "1": "对可实现结果明确规定至少两类实质不同的结论更新，至少一个区域会削弱当前结论；所有关键阈值都有冻结的科学依据。",
+            "0.5": "有一个具科学依据、可明确判定且可实现的失败阈值，会否定或削弱结论，但没有写清中间收窄区或完整更新表。",
+            "0": "无论出现什么结果都说支持，只写‘若不一致再分析’，失败条件不可测或不可实现，或阈值只是没有依据的任意数字。"
+          },
+          "examples": {
+            "1": "当前估计下降10%，冻结标准误2%，题目卡把最小科学重要下降定为4%；新批次下界>4%保留，区间跨4%则收窄为不确定，区间整体≤4%则放弃‘有实质下降’。",
+            "0.5": "题目卡冻结等效界值±3%；计划明确只有结果落入该区间才放弃‘有实质效应’，但没有写区间外的收窄规则。",
+            "0": "随手写‘下降≥8%成功、<8%失败’，却无法说明8%与当前误差、科学重要性或题目规则的任何关系。"
+          },
+          "pseudocode": [
+            "rules = model.extract_outcome_to_claim_updates(plan)",
+            "basis = code.verify_threshold_basis(current_uncertainty, equivalence_margin, minimum_effect, task_rule)",
+            "if no_measurable_failure_region or arbitrary_threshold: return 0",
+            "if every_possible_result_preserves_claim: return 0",
+            "if at_least_two_update_regions_explicit and every_key_threshold_has_basis: return 1",
+            "if one_explicit_realizable_failure_threshold_has_basis: return 0.5",
+            "return 0"
+          ],
+          "code_role_zh": "核对阈值依据、结果区间和可实现性；冻结时间与可运行性只在6.5检查。",
+          "model_role_zh": "判断规则是否会实质缩小或否定当前主张，而非换句话圆回来。",
+          "receipt_fields": [
+            "outcome_regions",
+            "claim_updates",
+            "threshold_basis",
+            "realizable_failure_region",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "题目卡把4%冻结为最小科学重要下降，计划据此把可实现结果分成保留、收窄为不确定和放弃三类；至少一个区域会削弱结论，且关键阈值可追溯到当前标准误和科学重要性，因此满足满分条件。得分为1×1=1分。",
+            "0.5": "±3%的等效界值来自题目卡，计划也明确结果落入该可实现区间时放弃“有实质效应”，所以已有一个有依据、可明确判定的失败阈值；但区间外如何收窄结论没有完整更新表，不能满分。得分为1×0.5=0.5分。",
+            "0": "计划随手规定下降≥8%成功、低于8%失败，却不能把8%追溯到当前误差、最小科学重要效应、等效界值或题目规则；这是没有科学依据的任意阈值，直接判零分。得分为1×0=0分。"
+          }
+        },
+        {
+          "id": "next_test.resource_feasibility",
+          "number": "6.4",
+          "name_zh": "方案在任务允许资源内可执行",
+          "weight": 1,
+          "judge_profile": "code_plus_model",
+          "plain_question_zh": "所需数据、工具、时间、算力和权限在任务合同内真的拿得到吗？",
+          "why_zh": "无法获得的仪器、无限预算或不存在的数据不能算可执行检验。",
+          "judgment_boundary_zh": "本项只检查资源能否取得，不判断结果是否支持结论，也不因计划昂贵或复杂本身扣分；只与赛前任务资源合同比较。",
+          "required_inputs": [
+            "资源需求",
+            "任务资源上限",
+            "题目准入时已确认科学上有效的完整执行路线与最小收窄路线",
+            "每条路线的必要资源ID",
+            "数据或仪器可得性",
+            "预计运行步骤"
+          ],
+          "human_steps": [
+            "把计划需求结构化为数据、工具、时间、算力和权限；可选和备用资源只展示，不进入得分。",
+            "读取题目准入时已确认科学上有效的完整执行路线和最小收窄路线；本项不再次判断测量区分力。",
+            "与任务资源合同逐项比较，判断哪些完整或收窄路线的全部必要资源已落实。",
+            "完整路线的全部必要资源可得记满分；只有赛前最小收窄路线资源齐全记半分；没有任何资源完整的允许路线记0。"
+          ],
+          "anchors": {
+            "1": "题目卡允许的完整路线全部必要资源均已落实，在时间、算力、权限和预算上满足任务合同。",
+            "0.5": "完整路线不满足资源要求；至少一条题目卡允许的最小收窄路线全部必要资源已落实。",
+            "0": "没有任何题目卡允许的路线具备全部必要资源，或唯一候选路线依赖未授权资源。"
+          },
+          "examples": {
+            "1": "题目准入时已确认完整路线科学有效；它要求两个独立实验室、盲测批次、测量脚本和24小时算力，这些必要资源均已落实。",
+            "0.5": "完整路线缺第二实验室；题目卡允许‘单实验室独立盲测批次’作为最小收窄路线，且该路线全部必要资源已落实，因此得0.5。",
+            "0": "计划依赖一台任务中不存在、也无访问权限的同步辐射装置。"
+          },
+          "pseudocode": [
+            "needs = model.extract_resource_requirements(plan)",
+            "routes = task_card.full_and_minimum_executable_routes",
+            "availability = code.compare_each_route_required_resources(routes, task_resource_contract)",
+            "if full_route.all_required_resources_secured: return 1",
+            "if any(prefrozen_minimum_route.all_required_resources_secured): return 0.5",
+            "return 0"
+          ],
+          "code_role_zh": "与冻结资源合同比较可用性和上限。",
+          "model_role_zh": "把自然语言步骤映射为资源需求。",
+          "receipt_fields": [
+            "resource_requirements",
+            "contract_limits",
+            "full_route_id",
+            "minimum_route_ids",
+            "per_route_required_resource_ids",
+            "secured_resource_ids",
+            "per_route_feasibility",
+            "unavailable_resources",
+            "feasible_route_id",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "完整路线在题目准入时已确认科学有效，本项只检查资源；两个独立实验室、盲测批次、脚本和24小时算力等全部必要资源均已落实并满足任务合同，因此判满分。得分为1×1=1分。",
+            "0.5": "完整路线因缺少第二实验室而不可执行；但题目卡事先允许的单实验室独立盲测最小路线全部必要资源已经落实，因此存在资源可行的收窄路线，但不存在资源可行的完整路线。得分为1×0.5=0.5分。",
+            "0": "唯一候选路线依赖任务中不存在且无访问权限的同步辐射装置，没有任何题目卡允许路线具备全部必要资源；直接命中零分条件。得分为1×0=0分。"
+          }
+        },
+        {
+          "id": "next_test.prefrozen_executable_rule",
+          "number": "6.5",
+          "name_zh": "提交中包含未来检验的可执行规则",
+          "weight": 1,
+          "judge_profile": "deterministic_code",
+          "plain_question_zh": "提交是否包含未来检验判定规则的源码及明确结果分支？",
+          "why_zh": "可运行的预先规则能防止看到结果后改口，也让外部审计者重复判定。",
+          "judgment_boundary_zh": "本项定位文件名指向未来、前瞻检验或判定规则的源码，再检测可执行判定逻辑与明确结果分支。",
+          "required_inputs": [
+            "未来检验或判定规则源码"
+          ],
+          "human_steps": [
+            "定位未来检验或判定规则源码。",
+            "检测可执行判定逻辑。",
+            "检测明确的成功、失败、支持、拒绝或修正结果。"
+          ],
+          "anchors": {
+            "1": "未来规则源码同时包含可执行判定逻辑和明确结果分支。",
+            "0.5": "未来规则源码只包含可执行判定逻辑或明确结果分支之一。",
+            "0": "没有合格的未来规则源码或可识别规则内容。"
+          },
+          "examples": {
+            "1": "future_test.py定义阈值函数及support与revise分支。",
+            "0.5": "future_test.py定义阈值逻辑但没有明确结果分支。",
+            "0": "报告只用文字提出未来检验。"
+          },
+          "pseudocode": [
+            "files = future_rule_source_files()",
+            "logic = executable_decision_logic(files)",
+            "outcomes = explicit_outcome_branches(files)",
+            "if files and logic and outcomes: return 1",
+            "if files and (logic or outcomes): return 0.5",
+            "return 0"
+          ],
+          "code_role_zh": "定位未来规则源码并检测可执行判定逻辑与结果分支。",
+          "model_role_zh": "无。",
+          "receipt_fields": [
+            "future_rule_source_paths",
+            "decision_logic_found",
+            "outcome_branches_found",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "合格源码同时包含判定逻辑与结果分支。得分为1×1=1分。",
+            "0.5": "判定逻辑与结果分支只存在一项。得分为1×0.5=0.5分。",
+            "0": "未找到可执行未来规则证据。得分为1×0=0分。"
+          }
+        }
+      ]
+    }
+  ],
+  "release": "V1.0"
+}

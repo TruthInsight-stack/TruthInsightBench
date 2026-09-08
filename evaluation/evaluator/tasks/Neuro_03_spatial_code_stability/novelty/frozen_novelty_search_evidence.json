@@ -1,0 +1,427 @@
+{
+  "all_queries_completed": true,
+  "api_cutoff": "2020-12-31",
+  "cards": {
+    "A": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2020-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "Abstract Grid cells are part of a widespread network that supports navigation and spatial memory. Stable grid patterns appear late in development, in concert with extracellular matrix aggregates termed perineuronal nets (PNNs) that condense around inhibitory neurons. To reveal the relationship between stable spatial representations and the presence of PNNs we recorded from populations of neurons in adult rats. We show that removal of PNNs leads to lower inhibitory spiking activity, and reduces grid cells’ ability to create stable representations of a novel environment. Furthermore, in animals with disrupted PNNs, exposure to a novel arena corrupted the spatiotemporal relationships within grid cell modules, and the stored representations of a familiar arena. Finally, we show that PNN removal in entorhinal cortex distorted spatial representations in downstream hippocampal neurons. Together this work suggests that PNNs provide a key stabilizing element for the grid cell network.",
+              "doi": "https://doi.org/10.1101/796342",
+              "id": "https://doi.org/10.1101/796342",
+              "landing_page_url": "https://doi.org/10.1101/796342",
+              "publication_date": "2019-10-07",
+              "publication_year": 2019,
+              "source_name": null,
+              "title": "Perineuronal nets stabilize the grid cell network",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/cne.25055/v1/review2",
+              "id": "https://doi.org/10.1002/cne.25055/v1/review2",
+              "landing_page_url": "https://doi.org/10.1002/cne.25055/v1/review2",
+              "publication_date": "2020-06-10",
+              "publication_year": 2020,
+              "source_name": null,
+              "title": "Review for \"Dynamics of perineuronal nets over amphibian metamorphosis\"",
+              "type": "peer-review"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/cne.25055/v2/review1",
+              "id": "https://doi.org/10.1002/cne.25055/v2/review1",
+              "landing_page_url": "https://doi.org/10.1002/cne.25055/v2/review1",
+              "publication_date": "2020-10-05",
+              "publication_year": 2020,
+              "source_name": null,
+              "title": "Review for \"Dynamics of perineuronal nets over amphibian metamorphosis\"",
+              "type": "peer-review"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/cne.25055/v1/review1",
+              "id": "https://doi.org/10.1002/cne.25055/v1/review1",
+              "landing_page_url": "https://doi.org/10.1002/cne.25055/v1/review1",
+              "publication_date": "2020-06-07",
+              "publication_year": 2020,
+              "source_name": null,
+              "title": "Review for \"Dynamics of perineuronal nets over amphibian metamorphosis\"",
+              "type": "peer-review"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/cne.25055/v1/decision1",
+              "id": "https://doi.org/10.1002/cne.25055/v1/decision1",
+              "landing_page_url": "https://doi.org/10.1002/cne.25055/v1/decision1",
+              "publication_date": "2020-06-11",
+              "publication_year": 2020,
+              "source_name": null,
+              "title": "Decision letter for \"Dynamics of perineuronal nets over amphibian metamorphosis\"",
+              "type": "peer-review"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/cne.25055/v2/decision1",
+              "id": "https://doi.org/10.1002/cne.25055/v2/decision1",
+              "landing_page_url": "https://doi.org/10.1002/cne.25055/v2/decision1",
+              "publication_date": "2020-10-07",
+              "publication_year": 2020,
+              "source_name": null,
+              "title": "Decision letter for \"Dynamics of perineuronal nets over amphibian metamorphosis\"",
+              "type": "peer-review"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/cne.25167/v1/review1",
+              "id": "https://doi.org/10.1002/cne.25167/v1/review1",
+              "landing_page_url": "https://doi.org/10.1002/cne.25167/v1/review1",
+              "publication_date": "2020-05-25",
+              "publication_year": 2020,
+              "source_name": null,
+              "title": "Review for \"Sexually dimorphic perineuronal nets in the rodent and primate reproductive circuit\"",
+              "type": "peer-review"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3389/fncel.2018.00063",
+              "id": "https://doi.org/10.3389/fncel.2018.00063",
+              "landing_page_url": "https://doi.org/10.3389/fncel.2018.00063",
+              "publication_date": "2018-03-12",
+              "publication_year": 2018,
+              "source_name": "Frontiers in Cellular Neuroscience",
+              "title": "Chondroitin Sulfate Expression in Perineuronal Nets After Goldfish Spinal Cord Lesion",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "perineuronal nets grid cell stability novel environment",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=perineuronal+nets+grid+cell+stability+novel+environment&filter=until-pub-date%3A2020-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2021-01-01"
+        },
+        {
+          "api_cutoff": "2020-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.proeng.2011.08.360",
+              "id": "https://doi.org/10.1016/j.proeng.2011.08.360",
+              "landing_page_url": "https://doi.org/10.1016/j.proeng.2011.08.360",
+              "publication_date": "2011-01-01",
+              "publication_year": 2011,
+              "source_name": "Procedia Engineering",
+              "title": "The Data Transmission Network and Computing Environment of Spatial Information Grid",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract. The highly complex and symmetric endomembrane network of the chlamydomonad alga, Gloeomonas kupferri , can be disrupted by the herbicide, isopropyl N‐phenyl carbamate (IPC). Upon incubation with IPC for between 30 min and 1 h, curling of the dictyosomes, proliferation of small vesicles from the trans face and swelling of the peripheral vacuolar complex takes place. Longer treatments result in degeneration of dictyosome cisternae into vesicular masses and the formation of supervacuolar complexes. Enzyme cytochemistry revealed that endomembrane ‘marker’ enzymes are altered/inhibited by IPC. A second but striking I PC‐induced effect is the production of branched, fibrillar inclusions in the cell nucleus. A discussion of I PC‐induced affects on ion regulation and microtubule/MTOC distribution in the cell is presented.",
+              "doi": "https://doi.org/10.1111/j.1365-3040.1991.tb00948.x",
+              "id": "https://doi.org/10.1111/j.1365-3040.1991.tb00948.x",
+              "landing_page_url": "https://doi.org/10.1111/j.1365-3040.1991.tb00948.x",
+              "publication_date": "2006-04-28",
+              "publication_year": 2006,
+              "source_name": "Plant, Cell &amp; Environment",
+              "title": "The perturbation of the endomembrane network of the chlamydomonad alga <i>Gloeomonas</i> by the herbicide isopropyl N‐phenyl carbamate (IPC)",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1186/1471-2202-13-s1-p141",
+              "id": "https://doi.org/10.1186/1471-2202-13-s1-p141",
+              "landing_page_url": "https://doi.org/10.1186/1471-2202-13-s1-p141",
+              "publication_date": "2012-07-16",
+              "publication_year": 2012,
+              "source_name": "BMC Neuroscience",
+              "title": "Coding, stability, and non-spatial inputs in a modular grid-to-place cell model",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/epetsg.2018.8659281",
+              "id": "https://doi.org/10.1109/epetsg.2018.8659281",
+              "landing_page_url": "https://doi.org/10.1109/epetsg.2018.8659281",
+              "publication_date": "2018-06-01",
+              "publication_year": 2018,
+              "source_name": "2018 2nd International Conference on Power, Energy and Environment: Towards Smart Technology (ICEPE)",
+              "title": "Smart Grid Stability Analysis on Smart Demand Load Response in Coordinated Network",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/skg.2007.185",
+              "id": "https://doi.org/10.1109/skg.2007.185",
+              "landing_page_url": "https://doi.org/10.1109/skg.2007.185",
+              "publication_date": "2007-10-01",
+              "publication_year": 2007,
+              "source_name": "Third International Conference on Semantics, Knowledge and Grid (SKG 2007)",
+              "title": "A Web Service Based Runtime Environment for Spatial Information Grid",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/s11806-009-0124-1",
+              "id": "https://doi.org/10.1007/s11806-009-0124-1",
+              "landing_page_url": "https://doi.org/10.1007/s11806-009-0124-1",
+              "publication_date": "2009-01-01",
+              "publication_year": 2009,
+              "source_name": "Geo-spatial Information Science",
+              "title": "Remote measurement in steel grid structure based on control grid network",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/skg.2007.15",
+              "id": "https://doi.org/10.1109/skg.2007.15",
+              "landing_page_url": "https://doi.org/10.1109/skg.2007.15",
+              "publication_date": "2007-10-01",
+              "publication_year": 2007,
+              "source_name": "Third International Conference on Semantics, Knowledge and Grid (SKG 2007)",
+              "title": "A Web Service Based Runtime Environment for Spatial Information Grid",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.4337/9781781007471.00011",
+              "id": "https://doi.org/10.4337/9781781007471.00011",
+              "landing_page_url": "https://doi.org/10.4337/9781781007471.00011",
+              "publication_date": "2006-05-25",
+              "publication_year": 2006,
+              "source_name": "Spatial Dynamics, Networks and Modelling",
+              "title": "Power and Packets: A Spatial Network Comparison of the US Electric Power Grid and the Internet Network",
+              "type": "book-chapter"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "grid cell network perturbation spatial stability new environment",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=grid+cell+network+perturbation+spatial+stability+new+environment&filter=until-pub-date%3A2020-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2021-01-01"
+        }
+      ],
+      "search_completed": true
+    },
+    "B": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2020-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3389/fncir.2012.00016",
+              "id": "https://doi.org/10.3389/fncir.2012.00016",
+              "landing_page_url": "https://doi.org/10.3389/fncir.2012.00016",
+              "publication_date": "2012-01-01",
+              "publication_year": 2012,
+              "source_name": "Frontiers in Neural Circuits",
+              "title": "Models of Grid Cell Spatial Firing Published 2005–2011",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.cub.2015.08.020",
+              "id": "https://doi.org/10.1016/j.cub.2015.08.020",
+              "landing_page_url": "https://doi.org/10.1016/j.cub.2015.08.020",
+              "publication_date": "2015-10-01",
+              "publication_year": 2015,
+              "source_name": "Current Biology",
+              "title": "Spatial Cognition: Grid Cell Firing Depends on Self-Motion Cues",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1103/physics.10.s79",
+              "id": "https://doi.org/10.1103/physics.10.s79",
+              "landing_page_url": "https://doi.org/10.1103/physics.10.s79",
+              "publication_date": "2017-07-19",
+              "publication_year": 2017,
+              "source_name": "Physics",
+              "title": "Explaining Grid-Cell Firing",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3389/fnmol.2018.00270",
+              "id": "https://doi.org/10.3389/fnmol.2018.00270",
+              "landing_page_url": "https://doi.org/10.3389/fnmol.2018.00270",
+              "publication_date": "2018-08-03",
+              "publication_year": 2018,
+              "source_name": "Frontiers in Molecular Neuroscience",
+              "title": "The Perineuronal ‘Safety’ Net? Perineuronal Net Abnormalities in Neurological Disorders",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3410/f.5622966.5591067",
+              "id": "https://doi.org/10.3410/f.5622966.5591067",
+              "landing_page_url": "https://doi.org/10.3410/f.5622966.5591067",
+              "publication_date": "2010-10-20",
+              "publication_year": 2010,
+              "source_name": "Faculty Opinions – Post-Publication Peer Review of the Biomedical Literature",
+              "title": "Faculty Opinions recommendation of Coupled noisy spiking neurons as velocity-controlled oscillators in a model of grid cell spatial firing.",
+              "type": "dataset"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/icar.2013.6766544",
+              "id": "https://doi.org/10.1109/icar.2013.6766544",
+              "landing_page_url": "https://doi.org/10.1109/icar.2013.6766544",
+              "publication_date": "2013-11-01",
+              "publication_year": 2013,
+              "source_name": "2013 16th International Conference on Advanced Robotics (ICAR)",
+              "title": "Solving uncertainty during robot navigation by integrating grid cell and place cell firing based on rat spatial cognition studies",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "Abstract Entorhinal grid cells are thought to provide a 2D spatial metric of the environment. In this study we demonstrate that in a familiar 1D circular track (i.e., a continuous space) grid cells display a novel 1D equidistant firing pattern based on integrated distance rather than travelled distance or time. In addition, field spacing is increased compared to a 2D open field, probably due to a reduced access to the visual cue in the track. This metrical modification is accompanied by a change in LFP theta oscillations, but no change in intrinsic grid cell rhythmicity, or firing activity of entorhinal speed and head-direction cells. These results suggest that in a 1D circular space grid cell spatial selectivity is shaped by path integration processes, while grid scale relies on external information.",
+              "doi": "https://doi.org/10.1038/s41467-019-08795-w",
+              "id": "https://doi.org/10.1038/s41467-019-08795-w",
+              "landing_page_url": "https://doi.org/10.1038/s41467-019-08795-w",
+              "publication_date": "2019-02-19",
+              "publication_year": 2019,
+              "source_name": "Nature Communications",
+              "title": "Path integration maintains spatial periodicity of grid cell firing in a 1D circular track",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/s00441-012-1375-y",
+              "id": "https://doi.org/10.1007/s00441-012-1375-y",
+              "landing_page_url": "https://doi.org/10.1007/s00441-012-1375-y",
+              "publication_date": "2012-03-23",
+              "publication_year": 2012,
+              "source_name": "Cell and Tissue Research",
+              "title": "The perineuronal net and the control of CNS plasticity",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "grid cell firing rate stable spatial map degradation perineuronal net",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=grid+cell+firing+rate+stable+spatial+map+degradation+perineuronal+net&filter=until-pub-date%3A2020-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2021-01-01"
+        },
+        {
+          "api_cutoff": "2020-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "Abstract Grid cells in rodent medial entorhinal cortex are thought to play a key role for spatial navigation. When the animal is freely moving in an open arena the firing fields of each grid cell tend to form a hexagonal lattice spanning the environment. Firing rates vary from field to field and change under contextual modifications, whereas the field locations do not shift under such “rate remapping”. The observed differences in firing rate could reflect overall activity changes or changes in the detailed spike-train statistics. As these two alternatives imply distinct neural coding schemes, we investigated whether temporal firing patterns vary from field to field and whether they change under rate remapping. Focusing on short time scales, we found that the proportion of bursts compared to all discharge events is similar in all firing fields of a given grid cell and does not change under rate remapping. Mean firing rates with and without bursts are proportional for each cell. However, this ratio varies across cells. Additionally, we looked at how rate remapping relates to entorhinal theta-frequency oscillations. Theta-phase coding was preserved despite firing-rate changes from rate remapping but we did not observe differences between the first and second half of the theta cycle, as had been reported for CA1. Our results indicate that both, the heterogeneity between firing fields and rate remapping, are not due to altered firing patterns on short time scales but reflect location-specific changes at the firing-rate level.",
+              "doi": "https://doi.org/10.1101/2020.03.28.013318",
+              "id": "https://doi.org/10.1101/2020.03.28.013318",
+              "landing_page_url": "https://doi.org/10.1101/2020.03.28.013318",
+              "publication_date": "2020-03-30",
+              "publication_year": 2020,
+              "source_name": null,
+              "title": "Burst activity plays no role for the field-to-field variability and rate remapping of grid cells",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1201/b14756-18",
+              "id": "https://doi.org/10.1201/b14756-18",
+              "landing_page_url": "https://doi.org/10.1201/b14756-18",
+              "publication_date": "2013-05-06",
+              "publication_year": 2013,
+              "source_name": "Principles of Neural Coding",
+              "title": "- Population Coding by Place Cells and Grid Cells",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "Place and grid cells are thought to use a mixture of external sensory information and internal attractor dynamics to organize their activity. Attractor dynamics may explain both why neurons react coherently following sufficiently large changes to the environment (discrete attractors) and how firing patterns move smoothly from one representation to the next as an animal moves through space (continuous attractors). However, some features of place cell behavior, such as the sometimes independent responsiveness of place cells to environmental change (called “remapping”), seem hard to reconcile with attractor dynamics. This paper suggests that the explanation may be found in an anatomical separation of the two attractor systems coupled with a dynamic contextual modulation of the connection matrix between the two systems, with new learning being back-propagated into the matrix. Such a scheme could explain how place cells sometimes behave coherently and sometimes independently.",
+              "doi": "https://doi.org/10.1155/2011/182602",
+              "id": "https://doi.org/10.1155/2011/182602",
+              "landing_page_url": "https://doi.org/10.1155/2011/182602",
+              "publication_date": "2011-01-01",
+              "publication_year": 2011,
+              "source_name": "Neural Plasticity",
+              "title": "Place Cells, Grid Cells, Attractors, and Remapping",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/ijcnn.2009.5178864",
+              "id": "https://doi.org/10.1109/ijcnn.2009.5178864",
+              "landing_page_url": "https://doi.org/10.1109/ijcnn.2009.5178864",
+              "publication_date": "2009-06-01",
+              "publication_year": 2009,
+              "source_name": "2009 International Joint Conference on Neural Networks",
+              "title": "Extraction of distance information from the activity of entorhinal grid cells: a model study",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/s1464-2859(16)30185-7",
+              "id": "https://doi.org/10.1016/s1464-2859(16)30185-7",
+              "landing_page_url": "https://doi.org/10.1016/s1464-2859(16)30185-7",
+              "publication_date": "2016-07-01",
+              "publication_year": 2016,
+              "source_name": "Fuel Cells Bulletin",
+              "title": "Arcola, IMS Ecubes partner to address grid stability, transport",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Artificial Intelligence is a cutting-edge technology expanding very quickly into every industry. It has made its way into structural engineering and it has shown its benefits in predicting structural performance as well as saving modelling and experimenting time. This paper is the first one (out of three) of a broader research where artificial intelligence was applied to the stability and dynamic analyzes of steel grid-shells. In that study, three Artificial Neural Networks (ANN) with 8 inputs were independently designed for the prediction of a single target variable, namely: (i) the critical buckling factor for uniform loading (i.e. over the entire roof), (ii) the critical buckling factor for uniform loading over half of the roof, and (iii) the fundamental frequency of the structure. This paper addresses target variable (i). The ANN simulations were based on 1098-point datasets obtained via thorough finite element analyzes. The proposed ANN for the prediction of the critical buckling factor in steel grid-shells under uniform loading yields mean and maximum errors of 1.1% and 16.3%, respectively, for all 1098 data points. Only in 10.6% of those examples (points), the prediction error exceeds 3%.",
+              "doi": "https://doi.org/10.36227/techrxiv.12678371.v1",
+              "id": "https://doi.org/10.36227/techrxiv.12678371.v1",
+              "landing_page_url": "https://doi.org/10.36227/techrxiv.12678371.v1",
+              "publication_date": "2020-07-28",
+              "publication_year": 2020,
+              "source_name": null,
+              "title": "Analytical Prediction of Steel Grid-Shell Stability and Dynamic Behaviors Using Neural Networks -- Part 1",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "Abstract We review progress on the modeling and theoretical fronts in the quest to unravel the computational properties of the grid cell code and to explain the mechanisms underlying grid cell dynamics. The goals of the review are to outline a coherent framework for understanding the dynamics of grid cells and their representation of space; to critically present and draw contrasts between recurrent network models of grid cells based on continuous attractor dynamics and independent‐neuron models based on temporal interference; and to suggest open questions for experiment and theory. © 2008 Wiley‐Liss, Inc.",
+              "doi": "https://doi.org/10.1002/hipo.20519",
+              "id": "https://doi.org/10.1002/hipo.20519",
+              "landing_page_url": "https://doi.org/10.1002/hipo.20519",
+              "publication_date": "2008-11-19",
+              "publication_year": 2008,
+              "source_name": "Hippocampus",
+              "title": "Grid cells: The position code, neural network models of activity, and the problem of learning",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/0141-3910(95)00037-m",
+              "id": "https://doi.org/10.1016/0141-3910(95)00037-m",
+              "landing_page_url": "https://doi.org/10.1016/0141-3910(95)00037-m",
+              "publication_date": "1995-01-01",
+              "publication_year": 1995,
+              "source_name": "Polymer Degradation and Stability",
+              "title": "A new semiempirical method of estimation of activity and bond dissociation energies of antioxidants",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "neural activity rate stability dissociation grid cells",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=neural+activity+rate+stability+dissociation+grid+cells&filter=until-pub-date%3A2020-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2021-01-01"
+        }
+      ],
+      "search_completed": true
+    }
+  },
+  "generated_at": "2026-08-22",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "0b3f378d7541bb18019c3fd5803256c5a0891b64986a21181c82e3754d006239",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Searches are frozen reproducible retrieval evidence within the declared provider, queries, cutoff, and result depth. They do not certify absence from all literature.",
+  "strict_before": "2021-01-01",
+  "target_doi_excluded": "10.1038/s41467-020-20241-w",
+  "task_id": "Neuro_03_spatial_code_stability",
+  "release": "V1.0"
+}

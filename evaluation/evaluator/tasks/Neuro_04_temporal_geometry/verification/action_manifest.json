@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Neuro_04_temporal_geometry",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition.py",
+      "script_sha256": "7daf1cf2c623532ebd3e679bb310c537b2e01f6c29d4fb77e7bd55910171aeb1"
+    },
+    {
+      "script": "verification/perturb/A/method.py",
+      "script_sha256": "8036e4b7c34fab89dd8e48c2f83c5512ddee2fd140a06c4d198a33ec746c63ef"
+    },
+    {
+      "script": "verification/perturb/A/sample.py",
+      "script_sha256": "adb0058f445665734f1fea6ee93edc64bfead76c09ae550376c2c753019d6259"
+    },
+    {
+      "script": "verification/perturb/B/definition.py",
+      "script_sha256": "ffd9f87d720e31540739d1179f17e4e31e05aca410560dac905543d31f93b208"
+    },
+    {
+      "script": "verification/perturb/B/method.py",
+      "script_sha256": "ff432de91950375b378327f00439db66703e60656d228fcebc3f94caead1a2df"
+    },
+    {
+      "script": "verification/perturb/B/sample.py",
+      "script_sha256": "c7b2220599637d8e5bbd5ce9e6b81305b6390bbc311f965188603ab1d1572aa0"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "2ecee181850c8c423c26d10279e8c9aaf752e76fe45e3ca81efa21cacfaedccb"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "da63e33c119172e0e99c4849e277ab5fdfb5b23cf86313d1616e71bb693e2255"
+    }
+  ],
+  "verification_tree_sha256": "58bfc69ef62de051f7c2b7380211439b66159f8f4dd67acbd55f28d53c5342c6",
+  "verification_file_count": 8,
+  "shared_runtime_tree_sha256": "20a80a31ad890d42dbf88cdec35a3f1c0636beb9a42156f6be7bc28dbf203784",
+  "shared_runtime_file_count": 4
+}

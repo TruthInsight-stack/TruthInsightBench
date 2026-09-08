@@ -1,0 +1,9 @@
+name: deepNN
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - networkx=2.8.4
+  - scipy=1.9.1
+  - matplotlib
+  - tqdm

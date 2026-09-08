@@ -1,0 +1,27 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "brain connectome node strength wiring distance correlation",
+        "connectome spatial embedding node strength distance"
+      ]
+    },
+    "B": {
+      "queries": [
+        "connectome assortativity edge trimming sensitivity",
+        "brain network assortative mixing distance threshold reversal"
+      ]
+    }
+  },
+  "frozen_at": "2026-08-22",
+  "provider": "OpenAlex_primary_with_Crossref_fallback",
+  "provider_api": [
+    "https://api.openalex.org/works",
+    "https://api.crossref.org/works"
+  ],
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2023-01-01",
+  "target_doi_excluded": "10.1038/s41467-023-38585-4",
+  "task_id": "Information_04_connectome_assortative_structure",
+  "release": "V1.0"
+}

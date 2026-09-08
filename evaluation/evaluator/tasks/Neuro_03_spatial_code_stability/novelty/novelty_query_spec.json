@@ -1,0 +1,27 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "perineuronal nets grid cell stability novel environment",
+        "grid cell network perturbation spatial stability new environment"
+      ]
+    },
+    "B": {
+      "queries": [
+        "grid cell firing rate stable spatial map degradation perineuronal net",
+        "neural activity rate stability dissociation grid cells"
+      ]
+    }
+  },
+  "frozen_at": "2026-08-22",
+  "provider": "OpenAlex_primary_with_Crossref_fallback",
+  "provider_api": [
+    "https://api.openalex.org/works",
+    "https://api.crossref.org/works"
+  ],
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2021-01-01",
+  "target_doi_excluded": "10.1038/s41467-020-20241-w",
+  "task_id": "Neuro_03_spatial_code_stability",
+  "release": "V1.0"
+}

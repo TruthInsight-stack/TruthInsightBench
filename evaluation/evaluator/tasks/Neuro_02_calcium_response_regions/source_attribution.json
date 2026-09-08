@@ -1,0 +1,9 @@
+{
+  "schema": "truthinsightbench-source-attribution",
+  "release": "V1.0",
+  "task_id": "Neuro_02_calcium_response_regions",
+  "title": "Identification of region-specific astrocyte subtypes at single cell resolution",
+  "doi": "10.1038/s41467-019-14198-8",
+  "first_publication_date": "2020-03-05",
+  "raw_data_record": "Europe PMC OA supplementary archive for PMC7058027 (CC-BY)"
+}

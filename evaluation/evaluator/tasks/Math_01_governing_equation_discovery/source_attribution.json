@@ -1,0 +1,12 @@
+{
+  "schema": "truthinsightbench-source-attribution",
+  "release": "V1.0",
+  "task_id": "Math_01_governing_equation_discovery",
+  "title": "Physics-informed learning of governing equations from scarce data",
+  "doi": "10.1038/s41467-021-26434-1",
+  "first_publication_date": "2020-05-05",
+  "raw_data_record": "Author GitHub repository isds-neu/EQDiscovery (article-linked supplementary codes and data)",
+  "earliest_target_artifact": "arXiv:2005.03448 (v1)",
+  "earliest_target_artifact_url": "https://arxiv.org/abs/2005.03448",
+  "version_of_record_date": "2021-10-21"
+}

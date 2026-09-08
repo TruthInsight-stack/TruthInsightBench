@@ -1,0 +1,173 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "Group medians and individual samples span large ratios that survive whole-group and uncertainty filters.",
+      "independent_reconstruction_method": "Group medians with geometric-mean, uncertainty-filter, and leave-one-group alternatives.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Thirty depth intervals nested in five ice-sample collection groups.",
+      "one_liner": "Particle abundance is highly heterogeneous across samples and collection groups.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample.py",
+          "script_sha256": "d9e291623d7eab7da73afb84fb28b56674a1ac7bcca37e6464779de3b5108c2a"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method.py",
+          "script_sha256": "3d976a46f488f38e252d4e1049caf318eee655088691f9ca36cb9707c1feee62"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition.py",
+          "script_sha256": "1f8ca3e72f940dece1026c52b68df2704601ef5ee9aa332383d34b1b0ae54320"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A new horizon sampled within each group should retain between-group heterogeneity above fivefold; failure is convergence to a common group distribution."
+      },
+      "quantities": [
+        {
+          "key": "maximum_to_minimum_group_median_ratio",
+          "role": "core",
+          "tolerance_rel": 0.1,
+          "unit": "fold",
+          "value": 16.77777777777778
+        },
+        {
+          "key": "maximum_to_minimum_sample_ratio",
+          "role": "supporting",
+          "tolerance_rel": 0.1,
+          "unit": "fold",
+          "value": 2277.060606060606
+        },
+        {
+          "key": "sample_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 30
+        },
+        {
+          "key": "collection_group_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 5
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "script_sha256": "6a7a9acb2d2bd8afd6a0d472ce31a5a21157492d377f7e817e17605766ab4180",
+        "values": [
+          {
+            "json_path": "values.maximum_to_minimum_group_median_ratio",
+            "quantity_key": "maximum_to_minimum_group_median_ratio"
+          },
+          {
+            "json_path": "values.maximum_to_minimum_sample_ratio",
+            "quantity_key": "maximum_to_minimum_sample_ratio"
+          },
+          {
+            "json_path": "values.sample_count",
+            "quantity_key": "sample_count"
+          },
+          {
+            "json_path": "values.collection_group_count",
+            "quantity_key": "collection_group_count"
+          }
+        ]
+      },
+      "scope": "Observed concentration heterogeneity only; it does not establish transport causality.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports strongly variable concentrations across cores and horizons, including a 33–75,143 per-liter range.",
+        "paper_location": "Results on whole-core and horizon-level concentration variability.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "PE or varnish is the largest listed component in most samples and their combined median share is high.",
+      "independent_reconstruction_method": "Sample-level dominant-class and combined-share summaries with group-equal and whole-group holdouts.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Per-sample polymer percentage compositions across all 30 intervals.",
+      "one_liner": "Two polymer classes dominate most observed compositions, while their combined share remains group-dependent.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample.py",
+          "script_sha256": "0327ccec729ae57581b4f0224d802c440f37ec588e108b30349ac78a86a799a6"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method.py",
+          "script_sha256": "c104c0b1c7bc0dcb86dd9b97e4c992327af76b7e61ff999257e9ddfd2395ab88"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition.py",
+          "script_sha256": "dadff34cfb9015882f032c2b8fef634b42a63555aaf4298f9985c760157172a6"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A blinded additional horizon set should retain a majority dominated by the same two broad classes; failure is dominance in fewer than half the samples."
+      },
+      "quantities": [
+        {
+          "key": "combined_PE_varnish_median_percent",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "percent",
+          "value": 78.69
+        },
+        {
+          "key": "PE_or_varnish_dominant_fraction",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "fraction",
+          "value": 0.9
+        },
+        {
+          "key": "PE_or_varnish_dominant_sample_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 27
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "script_sha256": "29a85836f15cdb656544bed6e2444d5e5f490384504e7744dcd435eaafdb4704",
+        "values": [
+          {
+            "json_path": "values.combined_PE_varnish_median_percent",
+            "quantity_key": "combined_PE_varnish_median_percent"
+          },
+          {
+            "json_path": "values.PE_or_varnish_dominant_fraction",
+            "quantity_key": "PE_or_varnish_dominant_fraction"
+          },
+          {
+            "json_path": "values.PE_or_varnish_dominant_sample_count",
+            "quantity_key": "PE_or_varnish_dominant_sample_count"
+          }
+        ]
+      },
+      "scope": "Composition percentages share the same samples as total abundance and are not independent replication.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports variable polymer mixtures with PE and varnish prominent in multiple cores and horizons.",
+        "paper_location": "Results on polymer composition across cores and horizons.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "These two cards are verified reference discoveries for blind-rediscovery diagnostics and are not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2018-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "EarthScience_02_ice_particle_composition",
+  "release": "V1.0"
+}

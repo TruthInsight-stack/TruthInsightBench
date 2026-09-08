@@ -1,0 +1,195 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "Covariate-richness rank association is moderately positive overall and remains positive in every complete group.",
+      "independent_reconstruction_method": "Sample-level richness with whole-group checks, disjoint sample parity, and minimum-count thresholds 1/2/5/10.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Complete sample compositions joined to the 490-row covariate table.",
+      "one_liner": "Sample feature richness rises with the continuous covariate under several count thresholds and within every coarse group.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample.py",
+          "script_sha256": "7c386eb27af372922845e82c3ddd9e6406809a78e784a2ee1c475bdc5fcedf0e"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method.py",
+          "script_sha256": "f5a1b03d96d8ff764b14029e4d18682330fd417554b62ac0271fbfebc45c5e3f"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition.py",
+          "script_sha256": "eca83f09bb39e0c821201c186f20af8e578372fc6132c909cb29447200a3e0d7"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A held-out group supports the relationship if sample-level covariate-richness rank correlation exceeds 0.35 under all predeclared thresholds; otherwise it fails."
+      },
+      "quantities": [
+        {
+          "key": "covariate_sample_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 490
+        },
+        {
+          "key": "continuous_covariate_richness_spearman",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "fraction",
+          "value": 0.4571424432478905
+        },
+        {
+          "key": "minimum_within_group_covariate_richness_spearman",
+          "role": "core",
+          "tolerance_rel": 0.1,
+          "unit": "fraction",
+          "value": 0.3968409805677807
+        },
+        {
+          "key": "richness_median_group_A",
+          "role": "supporting",
+          "tolerance_rel": 0.05,
+          "unit": "feature_count",
+          "value": 192.0
+        },
+        {
+          "key": "richness_median_group_B",
+          "role": "supporting",
+          "tolerance_rel": 0.05,
+          "unit": "feature_count",
+          "value": 122.0
+        },
+        {
+          "key": "richness_median_group_C",
+          "role": "supporting",
+          "tolerance_rel": 0.05,
+          "unit": "feature_count",
+          "value": 147.0
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "script_sha256": "040dae96ec91778df652b2a1586ddc56d265867db92a9eee6f5173cbdfe8f515",
+        "values": [
+          {
+            "json_path": "values.covariate_sample_count",
+            "quantity_key": "covariate_sample_count"
+          },
+          {
+            "json_path": "values.continuous_covariate_richness_spearman",
+            "quantity_key": "continuous_covariate_richness_spearman"
+          },
+          {
+            "json_path": "values.minimum_within_group_covariate_richness_spearman",
+            "quantity_key": "minimum_within_group_covariate_richness_spearman"
+          },
+          {
+            "json_path": "values.richness_median_group_A",
+            "quantity_key": "richness_median_group_A"
+          },
+          {
+            "json_path": "values.richness_median_group_B",
+            "quantity_key": "richness_median_group_B"
+          },
+          {
+            "json_path": "values.richness_median_group_C",
+            "quantity_key": "richness_median_group_C"
+          }
+        ]
+      },
+      "scope": "A sparsity/richness association respecting sample-level closure; it is not an unconstrained feature-level regression.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source studies how sampling structure and covariates interact in sparse compositional systems.",
+        "paper_location": "Compositional count-matrix Results and article-linked repository data.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "The condition gap recurs in high-variance and small-sample scenarios under metric halves, means, and positive-only definitions.",
+      "independent_reconstruction_method": "Whole-scenario medians with odd/even metric halves, mean summaries, and positive-only definition.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "All 2,000 scenario-by-condition metric observations.",
+      "one_liner": "Across both bias scenarios, condition 3 metrics are far larger than condition 2 metrics, with a gap exceeding 0.45.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample.py",
+          "script_sha256": "37aaf75740c88546147a43195c60c16a722c3a3e8e84f320777be6471d50ee4c"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method.py",
+          "script_sha256": "e62f2dd3b6c1dbf8bb09ccf6f2b9e68158019b5f59f402cbaac5219bd0e71bc3"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition.py",
+          "script_sha256": "4e1b29a6a2f050e6306f9ef1cdc008b4ccdff1a5423f5d969a1e1929a44048ed"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A new frozen scenario supports the relationship if its condition-3-minus-2 gap exceeds 0.40 under both median and mean definitions; otherwise it fails."
+      },
+      "quantities": [
+        {
+          "key": "high_variance_condition_gap",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "metric_units",
+          "value": 0.5755963569638382
+        },
+        {
+          "key": "small_sample_condition_gap",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "metric_units",
+          "value": 0.6682624612785131
+        },
+        {
+          "key": "minimum_condition_3_minus_2_gap",
+          "role": "supporting",
+          "tolerance_rel": 0.08,
+          "unit": "metric_units",
+          "value": 0.5755963569638382
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "script_sha256": "6d73a10526ed0f34db471d5c79c5d52872132da88f70d4a15d0eae9626d38213",
+        "values": [
+          {
+            "json_path": "values.high_variance_condition_gap",
+            "quantity_key": "high_variance_condition_gap"
+          },
+          {
+            "json_path": "values.small_sample_condition_gap",
+            "quantity_key": "small_sample_condition_gap"
+          },
+          {
+            "json_path": "values.minimum_condition_3_minus_2_gap",
+            "quantity_key": "minimum_condition_3_minus_2_gap"
+          }
+        ]
+      },
+      "scope": "A simulation boundary in these frozen scenarios; metrics are not independent features within a scenario.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports method-dependent performance boundaries under sampling bias and sparse counts.",
+        "paper_location": "Bias-scenario simulation results in the article-linked repository.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "These two cards are verified reference discoveries for blind-rediscovery diagnostics and are not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2020-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Math_02_compositional_invariants",
+  "release": "V1.0"
+}

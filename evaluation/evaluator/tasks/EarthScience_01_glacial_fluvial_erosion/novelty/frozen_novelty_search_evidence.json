@@ -1,0 +1,1049 @@
+{
+  "all_queries_completed": true,
+  "cards": {
+    "A": {
+      "queries": [
+        {
+          "api_cutoff": "2024-10-16",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "",
+              "also_returned_by": [
+                "semantic_scholar"
+              ],
+              "alternate_ids": [
+                "S2:3eb778f88f13602771d1a988cd7c8ef0d63e3cf8"
+              ],
+              "date": "2009-08-23",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/ngeo616",
+              "id": "https://openalex.org/W2129419016",
+              "provider": "openalex",
+              "title": "The relative efficacy of fluvial and glacial erosion over modern to orogenic timescales"
+            },
+            {
+              "abstract": "Mineral dust aerosols in the atmosphere have the potential to affect the global climate by influencing the radiative balance of the atmosphere and the supply of micronutrients to the ocean. Ice and marine sediment cores indicate that dust deposition from the atmosphere was at some locations 2–20 times greater during glacial periods, raising the possibility that mineral aerosols might have contributed to climate change on glacial‐interglacial time scales. To address this question, we have used linked terrestrial biosphere, dust source, and atmospheric transport models to simulate the dust cycle in the atmosphere for current and last glacial maximum (LGM) climates. We obtain a 2.5‐fold higher dust loading in the entire atmosphere and a twenty‐fold higher loading in high latitudes, in LGM relative to present. Comparisons to a compilation of atmospheric dust deposition flux estimates for LGM and present in marine sediment and ice cores show that the simulated flux ratios are broadly in agreement with observations; differences suggest where further improvements in the simple dust model could be made. The simulated increase in high‐latitude dustiness depends on the expansion of unvegetated areas, especially in the high latitudes and in central Asia, caused by a combination of increased aridity and low atmospheric [CO 2 ]. The existence of these dust source areas at the LGM is supported by pollen data and loess distribution in the northern continents. These results point to a role for vegetation feedbacks, including climate effects and physiological effects of low [CO 2 ], in modu",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1999-07-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1029/1999jd900084",
+              "id": "https://openalex.org/W2062430520",
+              "provider": "openalex",
+              "title": "Dust sources and deposition during the last glacial maximum and current climate: A comparison of model results with paleodata from ice cores and marine sediments"
+            },
+            {
+              "abstract": "We use the Total Ozone Mapping Spectrometer (TOMS) sensor on the Nimbus 7 satellite to map the global distribution of major atmospheric dust sources with the goal of identifying common environmental characteristics. The largest and most persistent sources are located in the Northern Hemisphere, mainly in a broad “dust belt” that extends from the west coast of North Africa, over the Middle East, Central and South Asia, to China. There is remarkably little large‐scale dust activity outside this region. In particular, the Southern Hemisphere is devoid of major dust activity. Dust sources, regardless of size or strength, can usually be associated with topographical lows located in arid regions with annual rainfall under 200–250 mm. Although the source regions themselves are arid or hyperarid, the action of water is evident from the presence of ephemeral streams, rivers, lakes, and playas. Most major sources have been intermittently flooded through the Quaternary as evidenced by deep alluvial deposits. Many sources are associated with areas where human impacts are well documented, e.g., the Caspian and Aral Seas, Tigris‐Euphrates River Basin, southwestern North America, and the loess lands in China. Nonetheless, the largest and most active sources are located in truly remote areas where there is little or no human activity. Thus, on a global scale, dust mobilization appears to be dominated by natural sources. Dust activity is extremely sensitive to many environmental parameters. The identification of major sources will enable us to focus on critical regions and to characterize e",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2002-02-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1029/2000rg000095",
+              "id": "https://openalex.org/W2054119472",
+              "provider": "openalex",
+              "title": "ENVIRONMENTAL CHARACTERIZATION OF GLOBAL SOURCES OF ATMOSPHERIC SOIL DUST IDENTIFIED WITH THE NIMBUS 7 TOTAL OZONE MAPPING SPECTROMETER (TOMS) ABSORBING AEROSOL PRODUCT"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2014-11-26",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.pgeola.2014.10.009",
+              "id": "https://openalex.org/W2076170666",
+              "provider": "openalex",
+              "title": "Quaternary fluvial archives and landscape evolution: a global synthesis"
+            },
+            {
+              "abstract": "The Great Unconformity, a profound gap in Earth's stratigraphic record often evident below the base of the Cambrian system, has remained among the most enigmatic field observations in Earth science for over a century. While long associated directly or indirectly with the occurrence of the earliest complex animal fossils, a conclusive explanation for the formation and global extent of the Great Unconformity has remained elusive. Here we show that the Great Unconformity is associated with a set of large global oxygen and hafnium isotope excursions in magmatic zircon that suggest a late Neoproterozoic crustal erosion and sediment subduction event of unprecedented scale. These excursions, the Great Unconformity, preservational irregularities in the terrestrial bolide impact record, and the first-order pattern of Phanerozoic sedimentation can together be explained by spatially heterogeneous Neoproterozoic glacial erosion totaling a global average of 3-5 vertical kilometers, along with the subsequent thermal and isostatic consequences of this erosion for global continental freeboard.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-12-31",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1073/pnas.1804350116",
+              "id": "https://openalex.org/W2907103905",
+              "provider": "openalex",
+              "title": "Neoproterozoic glacial origin of the Great Unconformity"
+            },
+            {
+              "abstract": "Abstract. Supraglacial, moraine-dammed and ice-dammed lakes represent a potential glacial lake outburst flood (GLOF) threat to downstream communities in many mountain regions. This has motivated the development of empirical relationships to predict lake volume given a measurement of lake surface area obtained from satellite imagery. Such relationships are based on the notion that lake depth, area and volume scale predictably. We critically evaluate the performance of these existing empirical relationships by examining a global database of glacial lake depths, areas and volumes. Results show that lake area and depth are not always well correlated (r2 = 0.38) and that although lake volume and area are well correlated (r2 = 0.91), and indeed are auto-correlated, there are distinct outliers in the data set. These outliers represent situations where it may not be appropriate to apply existing empirical relationships to predict lake volume and include growing supraglacial lakes, glaciers that recede into basins with complex overdeepened morphologies or that have been deepened by intense erosion and lakes formed where glaciers advance across and block a main trunk valley. We use the compiled data set to develop a conceptual model of how the volumes of supraglacial ponds and lakes, moraine-dammed lakes and ice-dammed lakes should be expected to evolve with increasing area. Although a large amount of bathymetric data exist for moraine-dammed and ice-dammed lakes, we suggest that further measurements of growing supraglacial ponds and lakes are needed to better understand their develo",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-12-14",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.5194/esurf-3-559-2015",
+              "id": "https://openalex.org/W1639620002",
+              "provider": "openalex",
+              "title": "Estimating the volume of Alpine glacial lakes"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-07-02",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.quascirev.2015.06.010",
+              "id": "https://openalex.org/W786044085",
+              "provider": "openalex",
+              "title": "Millennial-scale fluctuations of the European Ice Sheet at the end of the last glacial, and their potential impact on global climate"
+            },
+            {
+              "abstract": "Abstract Ice can sculpt extraordinary landscapes, yet the efficacy of, and controls governing, glacial erosion on geological timescales remain poorly understood and contended, particularly across Polar continental shields. Here, we assimilate geophysical data with modelling of the Eurasian Ice Sheet — the third largest Quaternary ice mass that spanned 49°N to 82°N — to decipher its erosional footprint during the entire last ~100 ka glacial cycle. Our results demonstrate extreme spatial and temporal heterogeneity in subglacial erosion, with rates ranging from 0 to 5 mm a −1 and a net volume equating to ~130,000 km 3 of bedrock excavated to depths of ~190 m. A hierarchy of environmental controls ostensibly underpins this complex signature: lithology, topography and climate, though it is basal thermodynamics that ultimately regulates erosion, which can be variously protective, pervasive, or, highly selective. Our analysis highlights the remarkable yet fickle nature of glacial erosion — critically modulated by transient ice-sheet dynamics — with its capacity to impart a profound but piecemeal geological legacy across mid- and high latitudes.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-11-30",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41467-022-35072-0",
+              "id": "https://openalex.org/W4310641969",
+              "provider": "openalex",
+              "title": "The extreme yet transient nature of glacial erosion"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-07-10",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.quascirev.2017.06.017",
+              "id": "https://openalex.org/W2698031765",
+              "provider": "openalex",
+              "title": "The fluvial evolution of the Holocene Nile Delta"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-11-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s43017-022-00362-0",
+              "id": "https://openalex.org/W4306718233",
+              "provider": "openalex",
+              "title": "Warming-driven erosion and sediment transport in cold regions"
+            },
+            {
+              "abstract": "Glaciers are highly effective agents of erosion that have profoundly shaped Earth’s surface, but there is uncertainty about how glacial erosion should be parameterised in landscape evolution models. Glacial erosion rate is usually modelled as a function of glacier sliding velocity, but the empirical basis for this relationship is weak. In turn, climate is assumed to control sliding velocity and hence erosion, but this too lacks empirical scrutiny. Here, we present statistically robust relationships between erosion rates, sliding velocities, and climate from a global compilation of 38 glaciers. We show that sliding is positively and significantly correlated with erosion, and derive a relationship for use in erosion models. Our dataset further demonstrates that the most rapid erosion is achieved at temperate glaciers with high mean annual precipitation, which serve to promote rapid sliding. Precipitation has received little attention in glacial erosion studies, but our data illustrate its importance. Glaciers have profoundly shaped Earth’s surface, but glacial erosion models lack a strong empirical basis. Cook et al. have compiled a dataset that illustrates how the speed at which glaciers move controls the rate at which they erode, and that climate is crucial in modulating glacier sliding speed and erosion rates.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-02-06",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41467-020-14583-8",
+              "id": "S2:9cfe3cbce9675944995d603ed567822eff14ca3c",
+              "provider": "semantic_scholar",
+              "title": "The empirical basis for modelling glacial erosion rates",
+              "url": "https://www.semanticscholar.org/paper/9cfe3cbce9675944995d603ed567822eff14ca3c?utm_source=api"
+            },
+            {
+              "abstract": "Conceptual and theoretical models for landscape evolution suggest that fluvial topography is sensitive to climate. However, it remains challenging to demonstrate a compelling link between fluvial topography and climate in natural landscapes. One possible reason is that many studies compare erosion rates to climate data, although theoretical studies show that, at steady state, climate is encoded in the relationship between erosion rate and topography rather than erosion rate alone. We use an existing global compilation of 10Be basin-averaged erosion rates to isolate the climate signal in topography as a function of erosion rate for morphologically steady-state, fluvially dominated basins underlain by crystalline bedrock. Our results show that the relationship between erosion rate (a proxy for rock uplift rate) and the normalized river channel steepness index (a proxy for fluvial relief) becomes increasingly nonlinear with increasing mean annual precipitation and decreasing aridity. This result indicates that erosional efficiency increases in wetter and more humid climates, lowering fluvial relief for a given erosion rate. When interpreted in the context of detachment-limited bedrock incision models that account for incision thresholds and stochastic flood distributions, this systematic pattern can be explained by a decrease in discharge variability in wetter and more humid landscapes, assuming incision thresholds are important on a global scale.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2023-03-13",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1130/g50832.1",
+              "id": "S2:25a436807a5e95ea0cafd73b24935d1d13735260",
+              "provider": "semantic_scholar",
+              "title": "Climate control on the relationship between erosion rate and fluvial topography",
+              "url": "https://www.semanticscholar.org/paper/25a436807a5e95ea0cafd73b24935d1d13735260?utm_source=api"
+            },
+            {
+              "abstract": "Global river systems are experiencing rapid changes in sediment transport under growing anthropogenic and climatic stresses. However, the response of sediment discharge to the coupled influence of anthropogenic and natural factors and the associated impacts on the fluvial geomorphology in the Yangtze and Mekong rivers are not comprehensively assessed. Here, we recalibrated a seamless retrieval algorithm of the total suspended sediment (TSS) concentrations using in situ data and concurrent satellite data sets to analyze spatiotemporal patterns of the TSS concentrations in the lower Yangtze and Mekong rivers. Combined with soil erosion rates estimated by the Revised Universal Soil Loss Equation for the past 20 years, we examined the contributions of different factors to TSS trends. The results show that TSS concentrations in the Yangtze River decreased from 0.47 g L−1 in 2000 to 0.23 g L−1 in 2018 due to the construction of the Three Gorges Dam (TGD), especially in the Jingjiang reach, with a declining magnitude of 0.3 g L−1 (∼56%) since the TGD began operating. The Mekong River experienced increasing TSS concentration trends upstream and decreasing trends downstream from 2000 to 2018, possibly attributed to increased upstream soil erosion and decreased downstream water discharge. Declining TSS concentrations in both rivers have driven varying degrees of river channel erosion over the past two decades. This study investigated long‐term changes in the TSS concentrations and soil erosion in the Yangtze and Mekong rivers, and the results provide baseline information for the sustainable development of river sediment delivery.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-09-26",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1029/2022WR031979",
+              "id": "S2:2e63b0935e78431326af003a9469b0ddd7785375",
+              "provider": "semantic_scholar",
+              "title": "Trends in River Total Suspended Sediments Driven by Dams and Soil Erosion: A Comparison Between the Yangtze and Mekong Rivers",
+              "url": "https://www.semanticscholar.org/paper/2e63b0935e78431326af003a9469b0ddd7785375?utm_source=api"
+            },
+            {
+              "abstract": "Accelerating sea‐level rise and decreasing riverine sediment supply are widely considered to lead to global losses of deltaic marshes and their valuable ecosystem services. However, little is known about the degree to which the related erosion of the seaward delta front can provide sediments to sustain salt marshes. Here, we present data from the mesomacrotidal Yangtze Delta demonstrating that marshes have continued to accrete vertically and laterally, despite rapid relative sea‐level rise (∼10 mm yr−1) and a > 70% decrease in the Yangtze River sediment supply. Marsh progradation has decelerated at a lower rate than fluvial sediment reduction, suggesting an additional source of sediment. We find that under favorable conditions (e.g., a mesomacrotidal range, strong tidal flow, flood dominance, sedimentary settling lag/scour lag effects, and increasing high‐tide level), delta‐front erosion can actually supply sediment to marshes, thereby maintaining marsh accretion rates in balance with relative sea‐level rise. Comparison of global deltas illustrates that the ability of sediment remobilization to sustain marshes depends on coastal processes and varies by more than an order of magnitude among the world's major deltas.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-03-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/lno.11432",
+              "id": "S2:5ebff184a2eed8f1f574e654dd604ba163c01916",
+              "provider": "semantic_scholar",
+              "title": "Role of delta‐front erosion in sustaining salt marshes under sea‐level rise and fluvial sediment decline",
+              "url": "https://www.semanticscholar.org/paper/5ebff184a2eed8f1f574e654dd604ba163c01916?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-08-03",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41561-020-0618-x",
+              "id": "S2:f989c731d13589662a04bb971722ff5cf43404cd",
+              "provider": "semantic_scholar",
+              "title": "Valley formation on early Mars by subglacial and fluvial erosion",
+              "url": "https://www.semanticscholar.org/paper/f989c731d13589662a04bb971722ff5cf43404cd?utm_source=api"
+            },
+            {
+              "abstract": "Averaging time scale bias may produce an apparent acceleration of measured erosion rates in glaciated landscapes. Deciphering erosion rates over geologic time is fundamental for understanding the interplay between climate, tectonic, and erosional processes. Existing techniques integrate erosion over different time scales, and direct comparison of such rates is routinely done in earth science. On the basis of a global compilation, we show that erosion rate estimates in glaciated landscapes may be affected by a systematic averaging bias that produces higher estimated erosion rates toward the present, which do not reflect straightforward changes in erosion rates through time. This trend can result from a heavy-tailed distribution of erosional hiatuses (that is, time periods where no or relatively slow erosion occurs). We argue that such a distribution can result from the intermittency of erosional processes in glaciated landscapes that are tightly coupled to climate variability from decadal to millennial time scales. In contrast, we find no evidence for a time scale bias in spatially averaged erosion rates of landscapes dominated by river incision. We discuss the implications of our findings in the context of the proposed coupling between climate and tectonics, and interpreting erosion rate estimates with different averaging time scales through geologic time.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-10-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1126/sciadv.1600204",
+              "id": "S2:2148c8a4fc801c647b339a368454a6c85695cb38",
+              "provider": "semantic_scholar",
+              "title": "Time scale bias in erosion rates of glaciated landscapes",
+              "url": "https://www.semanticscholar.org/paper/2148c8a4fc801c647b339a368454a6c85695cb38?utm_source=api"
+            },
+            {
+              "abstract": "External impact on the development of fluvial systems is generally exerted by changes in sea level, climate and tectonic movements. In this study, it is shown that a regional to local differentiation of fluvial response may be caused by semi-direct effects of climate change and tectonic movement; for example, vegetation cover, frozen soil, snow cover and longitudinal gradient. Such semi-direct effects may be responsible for specific fluvial activity resulting in specific drainage patterns, sedimentation series and erosion–accumulation rates. These conclusions are exemplified by the study of the fluvial archives of the Tis(z)a catchment in the Pannonian Basin in Hungary and Serbia from the middle of the last glacial to the Pleistocene–Holocene transition. Previous investigations in that catchment are supplemented here by new geomorphological–sedimentological data and OSL-dating. Specific characteristics of this catchment in comparison with other regions are the preponderance of meandering systems during the last glacial and the presence of very large meanders in given time intervals.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-08-16",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3390/QUAT1020014",
+              "id": "S2:689bb9169d8c72aa70f35f772f4217d07da3835e",
+              "provider": "semantic_scholar",
+              "title": "Specifying the External Impact on Fluvial Lowland Evolution: The Last Glacial Tisza (Tisa) Catchment in Hungary and Serbia",
+              "url": "https://www.semanticscholar.org/paper/689bb9169d8c72aa70f35f772f4217d07da3835e?utm_source=api"
+            },
+            {
+              "abstract": "Abstract We use a global compilation of geodetic (GPS) rates to reconstruct vertical land motion (VLM) using a Bayesian inference method. Trends of VLM are derived from almost 15,000 GPS position time-series retrieved from the Nevada Geodetic Laboratory. Our Transdimensional Regression (TR) method is based on Voronoi tessellation and self-adapts to the level of spatial structure contained in the database. It is thus suitable for our strongly heterogeneous dataset, both in terms of the geographical distribution and level of uncertainties, and provides at each location a probability density function for the rate of VLM. We apply the TR method to a set of globally distributed regions. At high latitudes the signal is dominated by Glacial Isostatic Adjustment (GIA); fast uplift rates are observed across the previously ice-covered areas, while subsidence characterizes the surrounding peripheral forebulges. Other long-wavelengths processes, like dynamic topography, occasionally overprint and out-pace the GIA signal. Short-wavelength processes can be disentangled; remarkable examples are the sharp boundary between the uplifting Himalaya and subsiding foreland Ganges plain, the fast subsiding Central Valley of California, or the subsiding Galveston area (Texas) and Mississippi delta. In an attempt to visualize the global signature of GIA, we assembled the regional maps and filtered out the short-wavelength components. Comparison to independent models (dynamic model predictions of GIA) or data (relative sea level change along coastlines) reveals that our map of VLM is robust and dominated by GIA. Conversely, in regions where TR predictions are robust, departure between the two classes of models (dynamic predictions and TR) either reveals that other processes than GIA may locally contribute to the signal, or to incorrect model predictions. For example, on the edges of formerly ice-covered regions, TR predicts larger negative gradients of uplift rates than dynamical models, most probably due to the poor knowledge of the effective rheological structure of the Earth that alters the predictions of dynamic GIA models.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-12-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/J.JOG.2018.10.002",
+              "id": "S2:f26fbcf139df9ccb3b03cbcd4fb8cf6344fd625b",
+              "provider": "semantic_scholar",
+              "title": "Bayesian surface reconstruction of geodetic uplift rates: Mapping the global fingerprint of Glacial Isostatic Adjustment",
+              "url": "https://www.semanticscholar.org/paper/f26fbcf139df9ccb3b03cbcd4fb8cf6344fd625b?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2024-10-16",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 2010,
+              "query": "global compilation glacial fluvial erosion rates comparison",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "9710",
+                "reset_seconds": "78343"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2024-10-16",
+                  "per_page": "10",
+                  "search": "global compilation glacial fluvial erosion rates comparison",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2024-10-17"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2024-10-16",
+              "attempts": 2,
+              "locally_excluded_uncertain_or_not_strictly_before": 1,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 185,
+              "query": "global compilation glacial fluvial erosion rates comparison",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "global compilation glacial fluvial erosion rates comparison",
+                  "year": "1900-2024"
+                }
+              },
+              "strict_before": "2024-10-17"
+            }
+          },
+          "query": "global compilation glacial fluvial erosion rates comparison",
+          "strict_before": "2024-10-17"
+        },
+        {
+          "api_cutoff": "2024-10-16",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2006-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.epsl.2005.11.028",
+              "id": "https://openalex.org/W2010656125",
+              "provider": "openalex",
+              "title": "Controls on the erosion of Cenozoic Asia and the flux of clastic sediment to the ocean"
+            },
+            {
+              "abstract": "Sediment flux to the coastal zone is conditioned by geomorphic and tectonic influences (basin area and relief), geography (temperature, runoff), geology (lithology, ice cover), and human activities (reservoir trapping, soil erosion). A new model, termed “BQART” in recognition of those factors, accounts for these varied influences. When applied to a database of 488 rivers, the BQART model showed no ensemble over‐ or underprediction, had a bias of just 3% across six orders of magnitude in observational values, and accounted for 96% of the between‐river variation in the long‐term (±30 years) sediment load or yield of these rivers. The geographical range of the 488 rivers covers 63% of the global land surface and is highly representative of global geology, climate, and socioeconomic conditions. Based strictly on geological parameters (basin area, relief, lithology, ice erosion), 65% of the between‐river sediment load is explained. Climatic factors (precipitation and temperature) account for an additional 14% of the variability in global patterns in load. Anthropogenic factors account for an additional 16% of the between‐river loads, although with ever more dams being constructed or decommissioned and socioeconomic conditions and infrastructure in flux, this contribution is temporally variable. The glacial factor currently contributes only 1% of the signal represented by our globally distributed database, but it would be much more important during and just after major glaciations. The BQART model makes possible the quantification of the influencing factors (e.g., climate, basin ",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2006-12-12",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1086/509246",
+              "id": "https://openalex.org/W2070370343",
+              "provider": "openalex",
+              "title": "Geology, Geography, and Humans Battle for Dominance over the Delivery of Fluvial Sediment to the Coastal Ocean"
+            },
+            {
+              "abstract": "Abstract Glacier-erosion rates range across orders of magnitude, and much of this variation cannot be attributed to basal sliding rates. Subglacial till acts as lubricating ‘fault gouge’ or ‘sawdust’, and must be removed for rapid subglacial bedrock erosion. Such erosion occurs especially where and when moulin-fed streams access the bed and are unconstrained by supercooling or other processes. Streams also may directly erode bedrock, likely with strong time-evolution. Erosion is primarily by quarrying, aided by strong fluctuations in the water system driven by variable surface melt and by subglacial earthquakes. Debris-bed friction significantly affects abrasion, quarrying and general glacier flow. Frost heave drives cirque headwall erosion as winter cold air enters bergschrunds, creating temperature gradients to drive water flow along premelted films to growing ice lenses that fracture rock, and the glacier removes the resulting blocks. Recent subglacial bedrock erosion and sediment flux are in many cases much higher than long-term averages. Over glacial cycles, evolution of glacial-valley form feeds back strongly on erosion and deposition. Most of this is poorly quantified, with parts open to argument. Glacial erosion and interactions are important to tectonic and volcanic processes as well as climate and biogeochemical fluxes, motivating vigorous research.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-11-26",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1017/aog.2019.38",
+              "id": "https://openalex.org/W2991002590",
+              "provider": "openalex",
+              "title": "Glacial erosion: status and outlook"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2010-01-19",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.earscirev.2009.12.001",
+              "id": "https://openalex.org/W2102526027",
+              "provider": "openalex",
+              "title": "Global connections between aeolian dust, climate and ocean biogeochemistry at the present day and at the last glacial maximum"
+            },
+            {
+              "abstract": "There is now compelling evidence that microbially mediated reactions impart a significant effect upon the dynamics, composition, and abundance of nutrients in glacial melt water. Consequently, we must now consider ice masses as ecosystem habitats in their own right and address their diversity, functional potential, and activity as part of alpine and polar environments. Although such research is already underway, its fragmentary nature provides little basis for developing modern concepts of glacier ecology. This paper therefore provides a much-needed framework for development by reviewing the physical, biogeochemical, and microbiological characteristics of microbial habitats that have been identified within glaciers and ice sheets. Two key glacial ecosystems emerge, one inhabiting the glacier surface (the supraglacial ecosystem) and one at the ice-bed interface (the subglacial ecosystem). The supraglacial ecosystem is characterized by a diverse consortium of microbes (usually bacteria, algae, phytoflagellates, fungi, viruses and occasional rotifers, tardigrades, and diatoms) within the snowpack, supraglacial streams, and melt pools (cryoconite holes). The subglacial system is dominated by aerobic/anaerobic bacteria and most probably viruses in basal ice/till mixtures and subglacial lakes. A third, so-called englacial ecosystem is also described, but it is demonstrated that conditions within glacier ice are sufficient to make metabolic activity and its impact upon nutrient dynamics negligible at the glacier scale. Consideration of the surface and internal heat balances of the",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2008-02-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1890/07-0187.1",
+              "id": "https://openalex.org/W4211057975",
+              "provider": "openalex",
+              "title": "GLACIAL ECOSYSTEMS"
+            },
+            {
+              "abstract": "The transient response of bedrock rivers to a drop in base level can be used to discriminate between competing fluvial erosion models. However, some recent studies of bedrock erosion conclude that transient river long profiles can be approximately characterized by a transport‐limited erosion model, while other authors suggest that a detachment‐limited model best explains their field data. The difference is thought to be due to the relative volume of sediment being fluxed through the fluvial system. Using a pragmatic approach, we address this debate by testing the ability of end‐member fluvial erosion models to reproduce the well‐documented evolution of three catchments in the central Apennines (Italy) which have been perturbed to various extents by an independently constrained increase in relative uplift rate. The transport‐limited model is unable to account for the catchments' response to the increase in uplift rate, consistent with the observed low rates of sediment supply to the channels. Instead, a detachment‐limited model with a threshold corresponding to the field‐derived median grain size of the sediment plus a slope‐dependent channel width satisfactorily reproduces the overall convex long profiles along the studied rivers. Importantly, we find that the prefactor in the hydraulic scaling relationship is uplift dependent, leading to landscapes responding faster the higher the uplift rate, consistent with field observations. We conclude that a slope‐dependent channel width and an entrainment/erosion threshold are necessary ingredients when modeling landscape evolution ",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2011-04-16",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1029/2010jf001875",
+              "id": "https://openalex.org/W2162798797",
+              "provider": "openalex",
+              "title": "Testing fluvial erosion models using the transient response of bedrock rivers to tectonic forcing in the Apennines, Italy"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-11-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s43017-022-00362-0",
+              "id": "https://openalex.org/W4306718233",
+              "provider": "openalex",
+              "title": "Warming-driven erosion and sediment transport in cold regions"
+            },
+            {
+              "abstract": "Erosion in the Himalaya is responsible for one of the greatest mass redistributions on Earth and has fueled models of feedback loops between climate and tectonics. Although the general trends of erosion across the Himalaya are reasonably well known, the relative importance of factors controlling erosion is less well constrained. Here we present 25 10 Be‐derived catchment‐averaged erosion rates from the Yamuna catchment in the Garhwal Himalaya, northern India. Tributary erosion rates range between ~0.1 and 0.5 mm yr −1 in the Lesser Himalaya and ~1 and 2 mm yr −1 in the High Himalaya, despite uniform hillslope angles. The erosion‐rate data correlate with catchment‐averaged values of 5 km radius relief, channel steepness indices, and specific stream power but to varying degrees of nonlinearity. Similar nonlinear relationships and coefficients of determination suggest that topographic steepness is the major control on the spatial variability of erosion and that twofold to threefold differences in annual runoff are of minor importance in this area. Instead, the spatial distribution of erosion in the study area is consistent with a tectonic model in which the rock uplift pattern is largely controlled by the shortening rate and the geometry of the Main Himalayan Thrust fault (MHT). Our data support a shallow dip of the MHT underneath the Lesser Himalaya, followed by a midcrustal ramp underneath the High Himalaya, as indicated by geophysical data. Finally, analysis of sample results from larger main stem rivers indicates significant variability of 10 Be‐derived erosion rates, poss",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2013-11-28",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/2013jf002955",
+              "id": "https://openalex.org/W1504827285",
+              "provider": "openalex",
+              "title": "Tectonic control on <sup>10</sup>Be‐derived erosion rates in the Garhwal Himalaya, India"
+            },
+            {
+              "abstract": "Several processes contribute to denudation in high‐mountain environments. Of these, glacial erosion is particularly difficult to constrain, despite its critical importance in the evolution of many mountain ranges. In this study, we present a new data set of 10 Be concentrations in fluvial sediments sampled along the Marsyandi River and its main tributaries in central Nepal. We interpret the 10 Be concentrations as being significantly impacted by glacially derived sediments along the Marsyandi River. Such additions complicate conventional interpretations of 10 Be‐derived catchment‐scale denudation rates. Using a simple linear mass‐conservation formulation, we invert our data set in order to separate the different denudational contributions to the observed signal, as well as to constrain their magnitude and spatial distribution. Our results suggest significant variations in glacial erosion, both in space and magnitude, within the Marsyandi catchment.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2012-06-27",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1029/2011jf002230",
+              "id": "https://openalex.org/W1903036460",
+              "provider": "openalex",
+              "title": "Impact of glacial erosion on <sup>10</sup>Be concentrations in fluvial sediments of the Marsyandi catchment, central Nepal"
+            },
+            {
+              "abstract": "The International Commission on Stratigraphy (ICS) utilises benchmark chronostratigraphies to divide geologic time. The reliability of these records is fundamental to understand past global change. Here we use the most detailed luminescence dating age model yet published to show that the ICS chronology for the Quaternary terrestrial type section at Jingbian, desert marginal Chinese Loess Plateau, is inaccurate. There are large hiatuses and depositional changes expressed across a dynamic gully landform at the site, which demonstrates rapid environmental shifts at the East Asian desert margin. We propose a new independent age model and reconstruct monsoon climate and desert expansion/contraction for the last ~250 ka. Our record demonstrates the dominant influence of ice volume on desert expansion, dust dynamics and sediment preservation, and further shows that East Asian Summer Monsoon (EASM) variation closely matches that of ice volume, but lags insolation by ~5 ka. These observations show that the EASM at the monsoon margin does not respond directly to precessional forcing.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-03-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41467-018-03329-2",
+              "id": "https://openalex.org/W2792680039",
+              "provider": "openalex",
+              "title": "Ice-volume-forced erosion of the Chinese Loess Plateau global Quaternary stratotype site"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-04-01",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:425456c82713b7f99f369fac79456193e8deb445",
+              "provider": "semantic_scholar",
+              "title": "Implications of sediment transport by subglacial water flow for interpreting contemporary glacial erosion rates",
+              "url": "https://www.semanticscholar.org/paper/425456c82713b7f99f369fac79456193e8deb445?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2009-09-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/NGEO616",
+              "id": "S2:3eb778f88f13602771d1a988cd7c8ef0d63e3cf8",
+              "provider": "semantic_scholar",
+              "title": "The relative efficacy of fluvial and glacial erosion over modern to orogenic timescales",
+              "url": "https://www.semanticscholar.org/paper/3eb778f88f13602771d1a988cd7c8ef0d63e3cf8?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-04-01",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:1e431b32bd4b8fea2f6526979ba696f3e62523e7",
+              "provider": "semantic_scholar",
+              "title": "Constraints on the glacial erosion rule",
+              "url": "https://www.semanticscholar.org/paper/1e431b32bd4b8fea2f6526979ba696f3e62523e7?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1999-01-01",
+              "date_precision": "year",
+              "doi": "https://doi.org/10.3189/172756499781821797",
+              "id": "S2:9a5f0236f08d061c2e24434e5a6abc7020408fa0",
+              "provider": "semantic_scholar",
+              "title": "A new surface-processes model combining glacial and fluvial erosion",
+              "url": "https://www.semanticscholar.org/paper/9a5f0236f08d061c2e24434e5a6abc7020408fa0?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-10-01",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:f7e1ee697c8c8a34b0b1c78bf747c0309f89e284",
+              "provider": "semantic_scholar",
+              "title": "Global Catalogue of the Martian Valley Networks: Evidences for Fluvial, Sapping and Subglacial Processes on Early Mars",
+              "url": "https://www.semanticscholar.org/paper/f7e1ee697c8c8a34b0b1c78bf747c0309f89e284?utm_source=api"
+            },
+            {
+              "abstract": "Abstract. Mountain topography is constructed through a variety of interacting processes. Over glaciological timescales, even simple representations of glacial-flow physics can reproduce many of the distinctive features formed through glacial erosion. However, detailed comparisons at orogen time and length scales hold potential for quantifying the influence of glacial physics in landscape evolution models. We present a comparison using two different numerical models for glacial flow over single and multiple glaciations, within a modified version of the ICE-Cascade landscape evolution model. This model calculates not only glaciological processes but also hillslope and fluvial erosion and sediment transport, isostasy, and temporally and spatially variable orographic precipitation. We compare the predicted erosion patterns using a modified SIA as well as a nested, 3-D Stokes flow model calculated using COMSOL Multiphysics. Both glacial-flow models predict different patterns in time-averaged erosion rates. However, these results are sensitive to the climate and the ice temperature. For warmer climates with more sliding, the higher-order model yields erosion rates that vary spatially and by almost an order of magnitude from those of the SIA model. As the erosion influences the basal topography and the ice deformation affects the ice thickness and extent, the higher-order glacial model can lead to variations in total ice-covered area that are greater than 30% those of the SIA model, again with larger differences for temperate ice. Over multiple glaciations and long timescales, these results suggest that higher-order glacial physics should be considered, particularly in temperate, mountainous settings.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2014-06-04",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.5194/ESURF-3-153-2015",
+              "id": "S2:1ec9a5bd3aa8a223eb91f65ccd4a5b708dab176a",
+              "provider": "semantic_scholar",
+              "title": "Ice flow models and glacial erosion over multiple glacial–interglacial cycles",
+              "url": "https://www.semanticscholar.org/paper/1ec9a5bd3aa8a223eb91f65ccd4a5b708dab176a?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1994-08-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1029/94PA01009",
+              "id": "S2:e13288c2dc1915a119fe4b335250aea9c0dbd79e",
+              "provider": "semantic_scholar",
+              "title": "Global chemical erosion during the Last Glacial Maximum and the present: Sensitivity to changes in lithology and hydrology",
+              "url": "https://www.semanticscholar.org/paper/e13288c2dc1915a119fe4b335250aea9c0dbd79e?utm_source=api"
+            },
+            {
+              "abstract": "Abstract. The retreat of glaciers since the Last Glacial Maximum in the European Alps has left an imprint on topography through various erosional processes. However, few methods are currently capable of resolving these mechanisms on Late Glacial to Holocene timescales. Quantifying the relative contributions of mountain erosion, during these different climate cycles, is useful for understanding long-term landscape evolution and the links between global climate and erosion. Here, we combine three optically stimulated luminescence (OSL) exposure dating signals with 10Be surface exposure dating to constrain the post-glacier erosion rates of bedrock samples adjacent to the Gorner Glacier in the European Alps. The results reveal erosion rates of the order of 10−2 to 10−1 mm a−1, in general agreement with other studies in the region, as well as a strong negative correlation between erosion rate and elevation, suggesting that frost crack weathering is perhaps not the dominant form of post-glacier weathering. Finally, a global compilation of both subglacial and periglacial erosion rates shows that periglacial erosion rates could be greater than previously thought. Yet subglacial erosion remains higher, implying that it continues to have the stronger influence on shaping landscapes. Therefore, with a changing climate, periglacial erosion rates are likely to remain transient. These insights could lead to important implications for landscape evolution models.\n",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-09-19",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.5194/esurf-10-909-2022",
+              "id": "S2:67a84b2b6c5c86d3a4c9843cdfa5e0fded8ae4c1",
+              "provider": "semantic_scholar",
+              "title": "Quantification of post-glacier bedrock surface erosion in the European Alps using 10Be and optically stimulated luminescence exposure dating",
+              "url": "https://www.semanticscholar.org/paper/67a84b2b6c5c86d3a4c9843cdfa5e0fded8ae4c1?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2009-01-15",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/J.GEOMORPH.2008.04.021",
+              "id": "S2:eddaf72ebe57fbc840140fb58a8f170c8a8d7b65",
+              "provider": "semantic_scholar",
+              "title": "Numerically simulating alpine landscapes: The geomorphologic consequences of incorporating glacial erosion in surface process models",
+              "url": "https://www.semanticscholar.org/paper/eddaf72ebe57fbc840140fb58a8f170c8a8d7b65?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2024-10-16",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 1905,
+              "query": "glacial erosion faster than fluvial global erosion rate timescale",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "9680",
+                "reset_seconds": "78332"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2024-10-16",
+                  "per_page": "10",
+                  "search": "glacial erosion faster than fluvial global erosion rate timescale",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2024-10-17"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2024-10-16",
+              "attempts": 1,
+              "locally_excluded_uncertain_or_not_strictly_before": 1,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 117,
+              "query": "glacial erosion faster than fluvial global erosion rate timescale",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "glacial erosion faster than fluvial global erosion rate timescale",
+                  "year": "1900-2024"
+                }
+              },
+              "strict_before": "2024-10-17"
+            }
+          },
+          "query": "glacial erosion faster than fluvial global erosion rate timescale",
+          "strict_before": "2024-10-17"
+        }
+      ]
+    },
+    "B": {
+      "queries": [
+        {
+          "api_cutoff": "2024-10-16",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "There has been recent progress in the understanding of the evolution of Quaternary climate. Simultaneously, there have been improvements in the understanding of glacial erosion processes, with better parameter constraints. Despite this, there remains much debate about whether or not the observed cooling over the Quaternary has driven an increase in glacial erosion rates. Most studies agree that the erosional response to climate change must be transient; therefore, the time scale of the climatic change and the response time of glacial erosion must be accounted for. Here we analyze the equations governing glacial erosion in a steadily uplifting landscape with variable climatic forcing and derive expressions for two fundamental response time scales. The first time scale describes the response of the glacier and the second one the glacial erosion response. We find that glaciers have characteristic time scales of the order of 10 to 10,000 years, while the characteristic time scale for glacial erosion is of the order of a few tens of thousands to a few million years. We then use a numerical model to validate the approximations made to derive the analytical solutions. The solutions show that short period forcing is dampened by the glacier response time, and long period forcing (&gt;1 Myr) may be dampened by erosional response of glaciers when the rock uplift rates are high. In most tectonic and climatic conditions, we expect to see the strongest response of glacial erosion to periodic climatic forcing corresponding to Plio‐Pleistocene climatic cycles. Finally, we use the numerical",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-03-23",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/2017jf004586",
+              "id": "https://openalex.org/W2791699992",
+              "provider": "openalex",
+              "title": "The Response Time of Glacial Erosion"
+            },
+            {
+              "abstract": "Abstract Bedrock erosion rates in natural landscapes are usually slow, of the order of millimeters per year or less, and sophisticated techniques have been developed to measure them. Different techniques have proved to be valuable depending on the spatial and temporal scale on which information is needed, on the environment and on the scientific question that is asked. Here, we give an overview of the various methods that have been developed. We introduce their working principles and outline their advantages and disadvantages. Further, we provide comprehensive references to relevant literature, both on the methods and on scientific examples of their application. © 2016 The Authors. Earth Surface Processes and Landforms published by John Wiley &amp; Sons Ltd.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-08-02",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/esp.4007",
+              "id": "https://openalex.org/W2511442673",
+              "provider": "openalex",
+              "title": "Field techniques for measuring bedrock erosion and denudation"
+            },
+            {
+              "abstract": "The Bergell intrusion (European Alps) was one of the first locations where thermochronometry was used to resolve changes in erosion rate, yet, relating these changes to variations in climate or in local tectonics remains challenging. One approach that enables changes in erosion rate to be related to changes in climate or rock uplift rate is to utilize landscape evolution models, as topographic response to these forcing parameters is unique. Furthermore, low temperature thermochronometric systems have the potential to resolve topography through time and thus topographic response. We present new (U-Th)/He data for samples collected across 2 km of relief from the Bergell. The ages range from ∼2 to ∼16 Ma and define an age elevation with an apparent exhumation rate of 0.1 km/Myr. In order to infer erosion rates, we use a thermokinematic model to solve the heat equation in the crust, track material points through time and predict thermochronometric data. Paleo-topography and erosion rate are parameterized using the stream power model. We find that rock uplift rates were 0.4 km/Myr from ∼25 to ∼20 Ma and subsequently decreased to 0.05 km/Myr. This results in a gradual decrease in erosion rate from rates of 0.4 to 0.1 km/Myr. A recent increase in rock uplift rate at ∼4 Ma to ∼0.6 km/Myr is required to explain the youngest ages and high topographic relief.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2014-03-08",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/2013gc005224",
+              "id": "https://openalex.org/W2164899173",
+              "provider": "openalex",
+              "title": "Rock uplift and erosion rate history of the Bergell intrusion from the inversion of low temperature thermochronometric data"
+            },
+            {
+              "abstract": "Following the last glacial maximum (LGM), the demise of continental ice sheets induced crustal rebound in tectonically stable regions of North America and Scandinavia that is still ongoing. Unlike the ice sheets, the Alpine ice cap developed in an orogen where the measured uplift is potentially attributed to tectonic shortening, lithospheric delamination and unloading due to deglaciation and erosion. Here we show that ∼90% of the geodetically measured rock uplift in the Alps can be explained by the Earth's viscoelastic response to LGM deglaciation. We modelled rock uplift by reconstructing the Alpine ice cap, while accounting for postglacial erosion, sediment deposition and spatial variations in lithospheric rigidity. Clusters of excessive uplift in the Rhône Valley and in the Eastern Alps delineate regions potentially affected by mantle processes, crustal heterogeneity and active tectonics. Our study shows that even small LGM ice caps can dominate present-day rock uplift in tectonically active regions.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-11-10",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/ncomms13382",
+              "id": "https://openalex.org/W2553216221",
+              "provider": "openalex",
+              "title": "Glacial isostatic uplift of the European Alps"
+            },
+            {
+              "abstract": "Sediment archives in the terrestrial and marine realm are regularly analyzed to infer changes in climate, tectonic, or anthropogenic boundary conditions of the past. However, contradictory observations have been made regarding whether short period events are faithfully preserved in stratigraphic archives; for instance, in marine sediments offshore large river systems. On the one hand, short period events are hypothesized to be non-detectable in the signature of terrestrially derived sediments due to buffering during sediment transport along large river systems. On the other hand, several studies have detected signals of short period events in marine records offshore large river systems. We propose that this apparent discrepancy is related to the lack of a differentiation between different types of signals and the lack of distinction between river response times and signal propagation times. In this review, we (1) expand the definition of the term ‘signal’ and group signals in sub-categories related to hydraulic grain size characteristics, (2) clarify the different types of ‘times’ and suggest a precise and consistent terminology for future use, and (3) compile and discuss factors influencing the times of signal transfer along sediment routing systems and how those times vary with hydraulic grain size characteristics. Unraveling different types of signals and distinctive time periods related to signal propagation addresses the discrepancies mentioned above and allows a more comprehensive exploration of event preservation in stratigraphy – a prerequisite for reliable environm",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-04-27",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3389/feart.2021.628315",
+              "id": "https://openalex.org/W3098831708",
+              "provider": "openalex",
+              "title": "Times Associated With Source-to-Sink Propagation of Environmental Signals During Landscape Transience"
+            },
+            {
+              "abstract": "Abstract Basin‐wide correlation of Messinian units and Plio‐Quaternary chronostratigraphic markers (5.3 Ma, 2.6 Ma, 0.9 Ma and 0.45 Ma), the mapping of total sediment thickness and the determination of overall sedimentary volumes enabled us to provide a high‐resolution quantitative history of sediment volumes for the last 6 Ma along the Gulf of Lions margin. The results point to (i) a dramatic increase in terrigenous sediment input during the Messinian Salinity Crisis. This increased sedimentation reflects enhanced regional fluvial erosion related to the dramatic fall of Mediterranean base‐level. Stronger weathering due to a regional wetter climate probably also increased erosional fluxes. (ii) A sediment input three times higher during the Plio‐Quaternary compared to the Miocene seems in agreement with published measurements from World's ocean. However, the timing of this increase being uncertain, it implies that the trigger(s) also remain(s) uncertain. (iii) A decrease in detrital volume around 2.6 Ma is attributed to a regional change in the drainage pattern of rivers in the northwestern Alps. (iv) This study also highlights the Mid‐Pleistocene Revolution around 0.9 Ma, which resulted in an almost doubling of sediment input in the Provencal Basin.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-12-26",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1111/bre.12178",
+              "id": "https://openalex.org/W2285469502",
+              "provider": "openalex",
+              "title": "High‐resolution evolution of terrigenous sediment yields in the Provence Basin during the last 6 Ma: relation with climate and tectonics"
+            },
+            {
+              "abstract": "Abstract How tectonic forcing, expressed as base level change, is encoded in the stratigraphic and geomorphic records of coupled source‐to‐sink systems remains uncertain. Using sedimentological, geochronological and geomorphic approaches, we describe the relationship between transient topographic change and sediment deposition for a low‐storage system forced by rapid rock uplift. We present five new luminescence ages and two terrestrial cosmogenic nuclide paleo‐erosion rates for the late Pleistocene Pagliara fan‐delta complex and we model corresponding base level fall history and erosion of the source catchment located on the Ionian flank of the Peloritani Mountains (NE‐Sicily, Italy). The Pagliara delta complex is part of the broader Messina Gravel‐and‐Sands lithostratigraphic unit that outcrops along the Peloritani coastal belt as extensional basins have been recently inverted by both normal faults and regional uplift at the Messina Straits. The deltas exposed at the mouth of the Pagliara River have constructional tops at ca. 300 m a.s.l. and onlap steeply east‐dipping bedrock at the coast to thickness between ca. 100 and 200 m. Five infrared‐stimulated luminescence (IRSL) ages collected from the delta range in age from ca. 327 to 208 ka and indicate a vertical long‐term sediment accumulation rate as rapid as ca. 2.2 cm/yr during MIS 7. Two cosmogenic 10 Be concentrations measured in samples of delta sediment indicate paleo‐erosion rates during MIS 8–7 near or slightly higher than the modern rates of ca. 1 mm/yr. Linear inversion of Pagliara fluvial topography indicates a",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2024-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1111/bre.12845",
+              "id": "https://openalex.org/W4390948352",
+              "provider": "openalex",
+              "title": "Integrated uplift, subsidence, erosion and deposition in a tightly coupled source‐to‐sink system, Pagliara basin, northeastern Sicily, Italy"
+            },
+            {
+              "abstract": "Abstract. Individual, large thrusting earthquakes can cause hundreds to thousands of years of exhumation in a geologically instantaneous moment through landslide generation. The bedrock landslides generated are important weathering agents through the conversion of bedrock into mobile regolith. Despite this, orogen-scale records of surface uplift and exhumation, whether sedimentary or geochemical, contain little to no evidence of individual large earthquakes. We examine how earthquakes and landslides influence exhumation and surface uplift rates with a zero-dimensional numerical model, supported by observations from the 2008 Mw 7.9 Wenchuan earthquake. We also simulate the concentration of cosmogenic radionuclides within the model domain, so we can examine the timescales over which earthquake-driven changes in exhumation can be measured. Our model uses empirically constrained relationships between seismic energy release, weathering, and landsliding volumes to show that large earthquakes generate the most surface uplift, despite causing lowering of the bedrock surface. Our model suggests that when earthquakes are the dominant rock uplift process in an orogen, rapid surface uplift can occur when regolith, which limits bedrock weathering, is preserved on the mountain range. After a large earthquake, there is a lowering in concentrations of 10Be in regolith leaving the orogen, but the concentrations return to the long-term average within 103 years. The timescale of the seismically induced cosmogenic nuclide concentration signal is shorter than the averaging time of most thermoch",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-07-08",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.5194/esurf-8-579-2020",
+              "id": "https://openalex.org/W2994606802",
+              "provider": "openalex",
+              "title": "The impact of earthquakes on orogen-scale exhumation"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-11-04",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.epsl.2021.117260",
+              "id": "https://openalex.org/W3212008200",
+              "provider": "openalex",
+              "title": "Osmium and lithium isotope evidence for weathering feedbacks linked to orbitally paced organic carbon burial and Silurian glaciations"
+            },
+            {
+              "abstract": "Abstract Currently, the use of numerical models for reproducing the evolution of river systems and landscapes is part of the day-by-day research activities of fluvial engineers and geomorphologists. However, despite landscape evolution modelling is based on a rather long tradition, and scientists and practitioners are studying how to schematize the processes involved in the evolution of a landscape since decades, there is still the need for improving the knowledge of the physical mechanisms and their numerical coding. Updating past review papers, the present work focuses on the first aspect, discussing six main components of a landscape evolution model, namely continuity of mass, hillslope processes, water flow, erosion and sediment transport, soil properties, vegetation dynamics. The more common schematizations are discussed in a plain language, pointing out the current knowledge and possible open questions to be addressed in the future, towards an improvement of the reliability of such kind of models in describing the evolution of fluvial landscapes and river networks.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-01-23",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s11600-020-00401-8",
+              "id": "https://openalex.org/W3002399138",
+              "provider": "openalex",
+              "title": "On the main components of landscape evolution modelling of river systems"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2024-10-16",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 15,
+              "query": "cosmogenic erosion rate timescale fixed measurement thickness Sadler effect",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "9670",
+                "reset_seconds": "78326"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2024-10-16",
+                  "per_page": "10",
+                  "search": "cosmogenic erosion rate timescale fixed measurement thickness Sadler effect",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2024-10-17"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2024-10-16",
+              "attempts": 2,
+              "locally_excluded_uncertain_or_not_strictly_before": 1,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 1,
+              "query": "cosmogenic erosion rate timescale fixed measurement thickness Sadler effect",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "cosmogenic erosion rate timescale fixed measurement thickness Sadler effect",
+                  "year": "1900-2024"
+                }
+              },
+              "strict_before": "2024-10-17"
+            }
+          },
+          "query": "cosmogenic erosion rate timescale fixed measurement thickness Sadler effect",
+          "strict_before": "2024-10-17"
+        },
+        {
+          "api_cutoff": "2024-10-16",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-09-25",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.quageo.2015.09.005",
+              "id": "https://openalex.org/W1815778474",
+              "provider": "openalex",
+              "title": "Cosmogenic nuclide systematics and the CRONUScalc program"
+            },
+            {
+              "abstract": "Erosion rates dictate the morphology of landscapes, and therefore quantifying them is a critical part of many geomorphic studies. Methods to directly measure erosion rates are expensive and time consuming, whereas topographic analysis facilitates prediction of erosion rates rapidly and over large spatial extents. If hillslope sediment flux is nonlinearly dependent on slope then the curvature of hilltops will be linearly proportional to erosion rates. In this contribution we develop new techniques to extract hilltop networks and sample their adjacent hillslopes in order to test the utility of hilltop curvature for estimating erosion rates using high‐resolution (1 m) digital elevation data. Published and new cosmogenic radionuclide analyses in the Feather River basin, California, suggest that erosion rates vary by over an order of magnitude (10 to 250 mm kyr −1 ). Hilltop curvature increases with erosion rates, allowing calibration of the hillslope sediment transport coefficient, which controls the relationship between gradient and sediment flux. Having constraints on sediment transport efficiency allows estimation of erosion rates throughout the landscape by mapping the spatial distribution of hilltop curvature. Additionally, we show that hilltop curvature continues to increase with rising erosion rates after gradient‐limited hillslopes have emerged. Hence hilltop curvature can potentially reflect higher erosion rates than can be predicted by hillslope gradient, providing soil production on hilltops can keep pace with erosion. Finally, hilltop curvature can be used to estima",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2012-03-06",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1029/2011jf002057",
+              "id": "https://openalex.org/W2116875537",
+              "provider": "openalex",
+              "title": "Using hilltop curvature to derive the spatial distribution of erosion rates"
+            },
+            {
+              "abstract": "The Sila Massif in the Calabrian Arc (southern Italy) is a key site to study the response of a landscape to rock uplift. Here an uplift rate of ∼1 mm/yr has imparted a deep imprint on the Sila landscape recorded by a high‐standing low‐relief surface on top of the massif, deeply incised fluvial valleys along its flanks, and flights of marine terraces in the coastal belt. In this framework, we combined river longitudinal profile analysis with hillslope erosion rates calculated by 10 Be content in modern fluvial sediments to reconstruct the long‐term uplift history of the massif. Cosmogenic data show a large variation in erosion rates, marking two main domains. The samples collected in the high‐standing low‐relief surface atop Sila provide low erosion rates (from 0.09 ± 0.01 to 0.13 ± 0.01 mm/yr). Conversely, high values of erosion rate (up to 0.92 ± 0.08 mm/yr) characterize the incised fluvial valleys on the massif flanks. The analyzed river profiles exhibit a wide range of shapes diverging from the commonly accepted equilibrium concave‐up form. Generally, the studied river profiles show two or, more frequently, three concave‐up segments bounded by knickpoints and characterized by different values of concavity and steepness indices. The wide variation in cosmogenic erosion rates and the non‐equilibrated river profiles indicate that the Sila landscape is in a transient state of disequilibrium in response to a strong and unsteady uplift not yet counterbalanced by erosion.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2012-04-11",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1029/2011tc003037",
+              "id": "https://openalex.org/W1843722329",
+              "provider": "openalex",
+              "title": "Uplift history of the Sila Massif, southern Italy, deciphered from cosmogenic <sup>10</sup>Be erosion rates and river longitudinal profile analysis"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-05-07",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.epsl.2018.04.017",
+              "id": "https://openalex.org/W2801212036",
+              "provider": "openalex",
+              "title": "Centennial- to millennial-scale hard rock erosion rates deduced from luminescence-depth profiles"
+            },
+            {
+              "abstract": "This review article summarizes the state of the art of cosmogenic 3 He ( 3 He c ), with a focus on the most efficient methods and strategies for measuring this cosmogenic noble gas in the terrestrial minerals. Our ability to accurately and precisely measure cosmogenic 3 He in minerals is mainly constrained by the level of the non-cosmogenic 3 He background (i.e., magmatic, radiogenic, nucleogenic, and atmospheric 3 He), and thus by the geological characteristics of the samples. Constructing 3 He vs 4 He isochrons by analyzing several aliquots from the same surface sample constitutes a useful and overlooked method. Isochrons can be applied to mineral samples with homogeneous radiogenic 4 He concentration and variable magmatic helium concentrations. This method also allows the direct and joint determination of the cosmogenic 3 He concentration and the magmatic 3 He/ 4 He ratio, precluding the often-complicated step of vacuum crushing. I perform numerical modeling to explore the impact of the non-cosmogenic 3 He components on the final uncertainties and detection limits of 3 He c measurement. Reducing the magmatic component by selecting phenocrysts in the 100–500 μm size fraction improves the precision of cosmogenic 3 He analyses. Moreover, it is important to measure U, Th, and Li concentrations in the analyzed minerals and their host rocks to ensure proper corrections for radiogenic 4 He and nucleogenic 3 He, improving both the accuracy and precision of the method. I discuss the most important aspects of analytical techniques, including the key parameters of noble gas mass sp",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-09-27",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.chemgeo.2021.120543",
+              "id": "https://openalex.org/W3179051318",
+              "provider": "openalex",
+              "title": "Cosmogenic 3He in terrestrial rocks: A review"
+            },
+            {
+              "abstract": "In 1877, G. K. Gilbert reasoned that bedrock erosion is maximized under an intermediate soil thickness and declines as soils become thinner or thicker. Subsequent analyses of this “humped” functional relationship proposed that thin soils are unstable and that perturbations in soil thickness would lead to runaway thinning or thickening of the soil. To explore this issue, we developed a numerical model that simulates the physical weathering of bedrock by root fracture and tree throw. The coupled biogeomorphic model combines data on conifer population dynamics, rootwad volumes, tree throw frequency, and soil creep from the Pacific Northwest (USA). Although not hardwired into the model, a humped relationship emerges between bedrock erosion and soil thickness. The magnitudes of the predicted bedrock erosion rates and their functional dependency on soil thickness are consistent with independent field measurements from a coniferous landscape in the region. Imposed perturbations of soil erosion during model runs demonstrate that where bedrock weathering is episodic and localized, hillslope soils do not exhibit runaway thinning or thickening. The pit‐and‐mound topography created by tree throw produces an uneven distribution of soil thicknesses across a hillslope; thus, although episodes of increased erosion can lead to temporary soil thinning and even the exposure of bedrock patches, local areas of thick soils remain. These soil patches provide habitat for trees and serve as nucleation points for renewed bedrock erosion and soil production. Model results also suggest that where tree",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2010-10-06",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1029/2009jf001526",
+              "id": "https://openalex.org/W2076875941",
+              "provider": "openalex",
+              "title": "Bedrock erosion by root fracture and tree throw: A coupled biogeomorphic model to explore the humped soil production function and the persistence of hillslope soils"
+            },
+            {
+              "abstract": "Abstract The Blue Ridge escarpment, located within the southern Appalachian Mountains of Virginia and North Carolina, forms a distinct, steep boundary between the lower‐elevation Piedmont and higher‐elevation Blue Ridge physiographic provinces. To understand better the rate at which this landform and the adjacent landscape are changing, we measured cosmogenic beryllium‐10 ( 10 Be) in quartz separated from sediment samples ( n = 50) collected in 32 streams and from three exposed bedrock outcrops along four transects normal to the escarpment, allowing us to calculate erosion rates integrated over 10 4 –10 5 years. These basin‐averaged erosion rates (5.4–49 m Myr −1 ) are consistent with those measured elsewhere in the southern Appalachain Mountains and show a positive relationship between erosion rate and average basin slope. Erosion rates show no relationship with basin size or relative position of the Brevard fault zone, a fundamental structural element of the region. The cosmogenic isotopic data, when considered along with the distribution of average basin slopes in each physiographic province, suggest that the escarpment is eroding on average more rapidly than the Blue Ridge uplands, which are eroding more rapidly than the Piedmont lowlands. This difference in erosion rates by geomorphic setting suggests that the elevation difference between the uplands and lowlands adjacent to the escarpment is being reduced but at extremely slow rates. Copyright © 2016 John Wiley &amp; Sons, Ltd.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-09-10",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/esp.4051",
+              "id": "https://openalex.org/W2518838468",
+              "provider": "openalex",
+              "title": "Rates of erosion and landscape change along the Blue Ridge escarpment, southern Appalachian Mountains, estimated from <i>in situ</i> cosmogenic <sup>10</sup>Be"
+            },
+            {
+              "abstract": "Abstract The evolution of Earth's climate over geological timescales is linked to surface erosion via weathering of silicate minerals and burial of organic carbon. However, methodological difficulties in reconstructing erosion rates through time and feedbacks among tectonics, climate, and erosion spurred an ongoing debate on mountain erosion sensitivity to tectonic and climate forcing. At the heart of this debate is the question of whether late Cenozoic climate cooling has increased global erosion rates or not. The Himalaya plays a prominent role in this debate as its erosion produces a large fraction of global sediments delivered to ocean basins. We report a 6‐Myr‐long record of ‐derived erosion rates from the north‐western Himalaya, which indicates that erosion rates in this region varied quasi‐cyclically with a period of ∼1 Myr and increased gradually toward the present. We hypothesize that the observed pattern of erosion rates occurred in response to the tectonic growth of the Himalaya by punctuated basal and frontal accretion of rocks from the underthrusting Indian plate and concomitant changes in topography. In this scenario, basal accretion episodically changes rock‐uplift patterns, which brings landscapes out of equilibrium and results in quasi‐cyclic variations in erosion rates. We used numerical landscape evolution simulations to demonstrate that this hypothesis is physically plausible. We attribute the long‐term increase in erosion rates to the erosional response of topography due to frequent basal accretion relative to frontal accretion. Because tectonic accreti",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-09-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1029/2021av000487",
+              "id": "https://openalex.org/W3200723454",
+              "provider": "openalex",
+              "title": "Tectonic Accretion Controls Erosional Cyclicity in the Himalaya"
+            },
+            {
+              "abstract": "Fieldwork complemented by SPOT image analysis throws light on current crustal shortening processes in the ranges of northeastern Tibet (Gansu and Qinghai provinces, China). The ongoing deformation of Late-Pleistocene bajada aprons in the forelands of the ranges involves folding, at various scales, and chiefly north-vergent, seismogenic thrusts. The most active thrusts usually break the ground many kilometres north of the range-fronts, along the northeast limbs of growing, asymmetric ramp-anticlines. Normal faulting at the apex of other growing anticlines, between the range fronts and the thrust breaks, implies slip on blind ramps connecting distinct active décollement levels that deepen southwards. The various patterns of uplift of the bajada surfaces can be used to constrain plausible links between contemporary thrusts downsection. Typically, the foreland thrusts and décollements appear to splay from master thrusts that plunge at least 15–20 km down beneath the high ranges. Plio-Quaternary anticlinal ridges rising to more than 3000 m a.s.l. expose Palaeozoic metamorphic basement in their core. In general, the geology and topography of the ranges and forelands imply that structural reliefs of the order of 5–10 km have accrued at rates of 1–2 mm yr−1 in approximately the last 5 Ma. From hill to range size, the elongated reliefs that result from such Late-Cenozoic, NE-SW shortening appear to follow a simple scaling law, with roughly constant length/width ratio, suggesting that they have grown self-similarly. The greatest mountain ranges, which are over 5.5 km high, tens of ki",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1998-10-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1046/j.1365-246x.1998.00567.x",
+              "id": "https://openalex.org/W2152546160",
+              "provider": "openalex",
+              "title": "Crustal thickening in Gansu-Qinghai, lithospheric mantle subduction, and oblique, strike-slip controlled growth of the Tibet plateau"
+            },
+            {
+              "abstract": "Abstract Mountainous topography reflects an interplay between tectonic uplift, crustal strength, and climate-conditioned erosion cycles. During glaciations, glacial erosion increases bedrock relief, whereas during interglacials relief is lowered by rockwall erosion. Here, we show that paraglacial, frost cracking and permafrost processes jointly drive postglacial rockwall erosion in our research area. Field observations and modelling experiments demonstrate that all three processes are strongly conditioned by elevation. Our findings on catchment scale provide a potential multi-process explanation for the increase of rockwall erosion rates with elevation across the European Alps. As alpine basins warm during deglaciation, changing intensities and elevation-dependent interactions between periglacial and paraglacial processes result in elevational shifts in rockwall erosion patterns. Future climate warming will shift the intensity and elevation distribution of these processes, resulting in overall lower erosion rates across the Alps, but with more intensified erosion at the highest topography most sensitive to climate change.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-02-09",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s43247-022-00348-2",
+              "id": "https://openalex.org/W4225729677",
+              "provider": "openalex",
+              "title": "Alpine rockwall erosion patterns follow elevation-dependent climate trajectories"
+            },
+            {
+              "abstract": "Abstract. Cosmogenic radionuclides (CRNs) are the standard tool to derive\ncentennial-to-millennial timescale denudation rates; however, it has been\ndemonstrated that chemical weathering in some settings can bias CRNs as a\nproxy for landscape denudation. Currently, studies investigating CRN\nweathering biases have mostly focused on the largely insoluble target\nmineral quartz in felsic lithologies. Here, we examine the response of CRN\nbuild-up for both soluble and insoluble target minerals under different\nweathering scenarios. We assume a simple box model in which bedrock is\nconverted to a well-mixed regolith at a constant rate, and denudation occurs by regolith erosion and weathering either in the regolith or along the regolith–bedrock interface, as is common in carbonate bedrock. We show that weathering along the regolith–bedrock interface increases CRN concentrations compared to a no-weathering case and how independently derived weathering rates or degrees can be used to correct for this bias. If weathering is concentrated within the regolith, insoluble target minerals will have a longer regolith residence time and higher nuclide concentration than soluble\ntarget minerals. This bias can be identified and corrected using paired-nuclide measurements of minerals with different solubility coupled with\nknowledge of either the bedrock or regolith mineralogy to derive denudation\nand long-term weathering rates. Similarly, single-nuclide measurements on\nsoluble or insoluble minerals can be corrected to determine denudation rates if a weathering rate and compositional data are available. Our model\nhighlights that for soluble target minerals, the relationship between\nnuclide accumulation and denudation is not monotonic. We use this\nunderstanding to map the conditions of regolith mass, weathering, and\ndenudation rates at which weathering corrections for cosmogenic nuclides\nbecome large and ambiguous, as well as identify environments in which the\nbias is mostly negligible and CRN concentrations reliably reflect landscape denudation. We highlight how measurements of CRNs from soluble target minerals, coupled with bedrock and regolith mineralogy, can help to expand the range of landscapes for which centennial-to-millennial timescale\ndenudation and weathering rates can be obtained.\n",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-07-06",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.5194/gchron-4-455-2022",
+              "id": "S2:ae2cd38708828114e14b4f98c03b698f31047b3e",
+              "provider": "semantic_scholar",
+              "title": "Cosmogenic nuclide weathering biases: corrections and potential for denudation and weathering rate measurements",
+              "url": "https://www.semanticscholar.org/paper/ae2cd38708828114e14b4f98c03b698f31047b3e?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2013-04-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/esp.3339",
+              "id": "S2:afea4535927354e07c3c9355e41ff4ff236593b9",
+              "provider": "semantic_scholar",
+              "title": "Quantifying effects of deep and near‐surface chemical erosion on cosmogenic nuclides in soils, saprolite, and sediment",
+              "url": "https://www.semanticscholar.org/paper/afea4535927354e07c3c9355e41ff4ff236593b9?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2012-12-01",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:1fc714528c9134c16427c4700bc68a0722fea06b",
+              "provider": "semantic_scholar",
+              "title": "Quantitative determination of erosion rates in humid region using depth profiles of in situ-produced Be-10 and Al-26",
+              "url": "https://www.semanticscholar.org/paper/1fc714528c9134c16427c4700bc68a0722fea06b?utm_source=api"
+            },
+            {
+              "abstract": "Abstract. We use 25 new measurements of in situ produced cosmogenic 26Al and 10Be\nin river sand, paired with estimates of dissolved load flux in river water,\nto characterize the processes and pace of landscape change in central Cuba.\nLong-term erosion rates inferred from 10Be concentrations in quartz\nextracted from central Cuban river sand range from\n3.4–189 Mg km−2 yr−1 (mean 59, median 45). Dissolved loads (10–176 Mg km−2 yr−1; mean 92, median 97), calculated from stream solute\nconcentrations and modeled runoff, exceed measured cosmogenic-10Be-derived erosion rates in 18 of 23 basins. This disparity mandates\nthat in this environment landscape-scale mass loss is not fully represented\nby the cosmogenic nuclide measurements. The 26Al / 10Be ratios are lower than expected for steady-state exposure or erosion in 16 of 24 samples. Depressed 26Al / 10Be ratios occur in many of the basins that have the greatest disparity between dissolved loads (high) and erosion rates inferred from cosmogenic nuclide concentrations (low). Depressed 26Al / 10Be ratios are consistent\nwith the presence of a deep, mixed, regolith layer providing extended\nstorage times on slopes and/or burial and extended storage during fluvial\ntransport. River water chemical analyses indicate that many basins with lower 26Al / 10Be ratios and high 10Be concentrations are underlain at least in part by evaporitic rocks that rapidly dissolve. Our data show that when assessing mass loss in humid tropical landscapes,\naccounting for the contribution of rock dissolution at depth is particularly important. In such warm, wet climates, mineral dissolution can occur many meters below the surface, beyond the penetration depth of most cosmic rays and thus the production of most cosmogenic nuclides. Our data suggest the importance of estimating solute fluxes and measuring paired cosmogenic nuclides to better understand the processes and rates of mass transfer at a basin scale.\n",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-07-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.5194/gchron-4-435-2022",
+              "id": "S2:d2bb8fb215d63e0f1d26a8e6b30ca07cca993e30",
+              "provider": "semantic_scholar",
+              "title": "Cosmogenic nuclide and solute flux data from central Cuban rivers emphasize the importance of both physical and chemical mass loss from tropical landscapes",
+              "url": "https://www.semanticscholar.org/paper/d2bb8fb215d63e0f1d26a8e6b30ca07cca993e30?utm_source=api"
+            },
+            {
+              "abstract": "Abstract Cosmic ray muons penetrate deeply into rock where they interact with atoms to produce cosmogenic nuclides. Incorporation of the muon contribution to the production rates of cosmogenic nuclides increases the accuracy of exposure dates, burial ages, and erosion rates inferred from measured nuclide concentrations. In the absence of empirical evidence, it is generally assumed that muons do not produce 3He, a cosmogenic nuclide commonly used for exposure dating. Here we assess whether muons produce 3He by measuring He isotope concentrations in pyroxene and ilmenite from a ∼300 m deep drill core and other subsurface samples of the mid-Miocene Columbia River Basalt in Washington, USA. 3He concentrations in our samples exhibit an exponential decline with depth with an e-folding length of 32.4 m, which corresponds to an attenuation length for 3He production of 8780 g cm−2. The deeply penetrating exponential is diagnostic of 3He production by cosmic ray muons. Assuming no erosion, we constrain the minimum surface muonogenic production rate to be 0.23 atom g−1 pyroxene yr−1, whereas when incorporating erosion the production rate is 0.45 atom g−1 pyroxene yr−1. 3He concentrations in samples deeper than ∼100 meters are consistent with model-based estimates of depth-independent nucleogenic production from the capture by 6Li of neutrons produced by alpha particle reactions on light elements. Measurements in other subsurface samples indicate that muon-produced 3He is prevalent across the Columbia Plateau. The penetration depth of muonogenic 3He production is substantially deeper, and the ratio of muon- to spallation-produced 3He is substantially lower, than found for other cosmogenic nuclides. Our results provide the first definitive empirical evidence for 3He production by muons, which has several implications for quantifying the timing and rates of Earth surface change and interpreting He isotope ratios. Importantly, despite the low production rates, landforms in the Channeled Scablands, which were formed by incision of the Columbia River Basalt by the late-Pleistocene Missoula floods, have high concentrations of 3He inherited from post-Miocene muon exposure. Hence 3He production by muons must be considered, particularly when dating rapid erosional events in old bedrock. Our findings indicate samples with less than several tens of meters of shielding by overlying rock will contain cosmogenic 3He that elevates 3He/4He ratios. Hence caution should be used when using 3He/4He ratios from samples at shallower depths to infer mantle sources of basalt.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-02-19",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/J.EPSL.2021.116825",
+              "id": "S2:473a03086ae8ceec73c986511b51ca93a3ad7ad2",
+              "provider": "semantic_scholar",
+              "title": "Empirical evidence for cosmogenic 3He production by muons",
+              "url": "https://www.semanticscholar.org/paper/473a03086ae8ceec73c986511b51ca93a3ad7ad2?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2012-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:f930eb9f50e0d0299703d7467470d5ac0dc700ab",
+              "provider": "semantic_scholar",
+              "title": "Incision rate of the Oshika-gorge, Tottori-prefecture, estimated from Terrestrial in site Cosmogenic Nuclides dating",
+              "url": "https://www.semanticscholar.org/paper/f930eb9f50e0d0299703d7467470d5ac0dc700ab?utm_source=api"
+            },
+            {
+              "abstract": "Abstract. Synthetic aperture radar interferometry (InSAR) is an efficient technique for mapping the surface elevation and its temporal change over glaciers and ice sheets. However, due to the penetration of the SAR signal into snow and ice the apparent elevation in uncorrected InSAR digital elevation models (DEMs) is displaced versus the actual surface. We studied relations between interferometric radar signals and physical snow properties and tested procedures for correcting the elevation bias. The work is based on satellite and in-situ data over Union Glacier in the Ellsworth Mountains, West Antarctica, including interferometric data of the TanDEM-X mission, topographic data from optical satellite sensors and field measurements on snow structure and stratigraphy undertaken in December 2016. The study area comprises ice-free surfaces, bare ice, dry snow and firn with a variety of structural features related to local differences in wind exposure and snow accumulation. Time series of laser measurements of NASA’s Ice, Cloud and land Elevation Satellite (ICESat) and ICESat-2 show steady state surface topography. For area-wide elevation reference we use the Reference Elevation Model of Antarctica (REMA). The different elevation data are vertically co-registered on a blue ice area and an ice-free slope, surfaces not affected by radar signal penetration. The backscatter simulations with a multi-layer radiative transfer model show large variations for scattering of individual snow layers due to different size and structure of the scattering elements. The average depth-dependent backscatter contributions can be approximated by an exponential function. We obtain estimates of the elevation bias by inverting the interferometric volume correlation coefficient (coherence) applying a uniform volume model for describing the vertical loss function. Whereas the mean values of the computed elevation bias and the elevation difference between the TDM DEMs and the REMA show good agreement, a trend towards overestimation of penetration is evident for heavily wind-exposed areas and towards underestimation for areas with higher accumulation rates. The angular gradients of the backscatter intensity show also distinct differences between these two domains. This behaviour can be attributed to the anisotropy of the snow/firn volume structure showing differences in the size and shape of the scattering elements and in stratification related to snow accumulation and wind-driven erosion and deposition.\n",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-01-19",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.5194/TC-2020-380",
+              "id": "S2:63c80d833695829f10afe1eebf656d551a8552ef",
+              "provider": "semantic_scholar",
+              "title": "Penetration of interferometric radar signals in Antarctic snow",
+              "url": "https://www.semanticscholar.org/paper/63c80d833695829f10afe1eebf656d551a8552ef?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2024-10-11",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s11430-024-1420-8",
+              "id": "S2:a5370bc636fc6259a1e01d7813dff18808832303",
+              "provider": "semantic_scholar",
+              "title": "Constraints on what controls millennial-scale basin-wide denudation across mountain belts, Asia",
+              "url": "https://www.semanticscholar.org/paper/a5370bc636fc6259a1e01d7813dff18808832303?utm_source=api"
+            },
+            {
+              "abstract": "We describe the joint dynamics of bedload transport and bed elevation changes with a stochastic population model, and we analyze (1) the dependence of bedload flux statistics on local bed elevations and (2) resting time distributions for sediment undergoing burial in the fluctuating sedimentary bed. The model involves entrainment and deposition in a control volume characterized by elevation‐dependent rates, and it exhibits a statistical regulation effect, whereby bed aggradation suppresses the variance of the bedload flux while degradation enhances it. This variance regulation effect is contingent on collective entrainment, whereby moving grains destabilize stationary grains in a positive feedback. When collective entrainment is turned off,bedload transport fluctuations become independent of the bed elevation. Return times from above in the bed elevation time series provide heavy‐tailed power law distributions of resting times with tail behavior characterized by the mean erosion rate and the active layer depth. These results imply bedload statistics measurements on relatively short timescales can be strongly biased by bed elevation changes when collective entrainment occurs, and they support the growing consensus that sediment burial generates heavy‐tailed sediment resting times that ultimately generate anomalous bedload diffusion.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-04-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1029/2019JF005259",
+              "id": "S2:1ded8c3ecad3870e7b39a64963af489799f9d03b",
+              "provider": "semantic_scholar",
+              "title": "Joint Stochastic Bedload Transport and Bed Elevation Model: Variance Regulation and Power Law Rests",
+              "url": "https://www.semanticscholar.org/paper/1ded8c3ecad3870e7b39a64963af489799f9d03b?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2008-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:10c59d9b4f0ba069376141bb7d625d6ae3b2400b",
+              "provider": "semantic_scholar",
+              "title": "Tungsten Nitride Barrier / Tungsten Via to Copper Interconnect for Memory Device Applications",
+              "url": "https://www.semanticscholar.org/paper/10c59d9b4f0ba069376141bb7d625d6ae3b2400b?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2024-10-16",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 117,
+              "query": "erosion rate timescale cosmogenic penetration depth measurement bias",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "9640",
+                "reset_seconds": "78314"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2024-10-16",
+                  "per_page": "10",
+                  "search": "erosion rate timescale cosmogenic penetration depth measurement bias",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2024-10-17"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2024-10-16",
+              "attempts": 1,
+              "locally_excluded_uncertain_or_not_strictly_before": 0,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 11,
+              "query": "erosion rate timescale cosmogenic penetration depth measurement bias",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "erosion rate timescale cosmogenic penetration depth measurement bias",
+                  "year": "1900-2024"
+                }
+              },
+              "strict_before": "2024-10-17"
+            }
+          },
+          "query": "erosion rate timescale cosmogenic penetration depth measurement bias",
+          "strict_before": "2024-10-17"
+        }
+      ]
+    }
+  },
+  "generated_at": "2026-08-12T02:14:51.784394+00:00",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "67cc724434546d9fd5ba3e09e3b37450f6c3f96bd89c32f796833a70406b0ec6",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Migrated without changing the frozen pre-t0 query results; non-detection is scoped, not universal priority.",
+  "strict_before": "2024-10-17",
+  "task_id": "EarthScience_01_glacial_fluvial_erosion",
+  "release": "V1.0"
+}

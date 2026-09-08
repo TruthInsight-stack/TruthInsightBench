@@ -1,0 +1,416 @@
+{
+  "all_queries_completed": true,
+  "api_cutoff": "2019-12-31",
+  "cards": {
+    "A": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "Non-random item nonreponse makes identification if parameters problematic. Such nonresponse can occur with respect to both dependent and conditioning variables. A method often used to reduce nonresponse is that of adding unfolding brackets as follow up to open-ended questions. With these, initial non-respondents can provide additional (incomplete) information on the missing values. However, recent studies suggest that responses to unfolding brackets can lead to a type of bias as a result of the Achoring Effect. In this paper, bounding intervals of the tzpe as presented in Horowitz and Manski (1998) are extended to incorporate information provided by bracket respondents while allowing for different types of anchoring, and, therefore, accounting for significant nonresponse in the conditioning set. The theoretical framework is illustrated with empirical evidence based on the 1996 wave of the Health and Retirement Study (HRS, 1996).",
+              "doi": "https://doi.org/10.2139/ssrn.485962",
+              "id": "https://doi.org/10.2139/ssrn.485962",
+              "landing_page_url": "https://doi.org/10.2139/ssrn.485962",
+              "publication_date": "2004-01-01",
+              "publication_year": 2004,
+              "source_name": null,
+              "title": "Anchoring Bias and Covariate Nonresponse",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "Abstract Years of over-fishing combined with increased nutrient pollution have had a catastrophic effect on the ecology of the Chesapeake Bay. The Holocene record of bay mollusks may provide a baseline for ecological restoration, but the effects of taphonomic bias on these assemblages first must be assessed. In this study, a live-dead comparison was carried out on four sites distributed in the main channel of the upper bay. Molluscan death-assemblage data were obtained from replicate box-core samples from which whole specimens and fragments were sorted, identified, and counted. Data on live communities at the same sites, sampled over the past twenty years, were provided by the Chesapeake Bay Program, making it possible to examine the degree to which death assemblages reflect long-term changes in the live community. Traditional live-dead metrics document a strong agreement between live-community and death-assemblage estimates of species composition, richness, and abundance—77% of the species in the live community are found in the death assemblage, and 99% of the individuals of species found in the death assemblage are found in the live community. Correlations between live and dead estimates of species richness are not statistically significant, although they do improve with longer-term sampling of the live community. Rank abundance of taxa in the death assemblage is correlated strongly and significantly with live rank abundance regardless of the duration of live sampling. These results suggest that Holocene molluscan assemblages may provide useful estimates of richness and abundance for Chesapeake Bay restoration.",
+              "doi": "https://doi.org/10.2110/palo.2005.p05-74e",
+              "id": "https://doi.org/10.2110/palo.2005.p05-74e",
+              "landing_page_url": "https://doi.org/10.2110/palo.2005.p05-74e",
+              "publication_date": "2006-08-01",
+              "publication_year": 2006,
+              "source_name": "PALAIOS",
+              "title": "QUANTIFYING TAPHONOMIC BIAS OF COMPOSITIONAL FIDELITY, SPECIES RICHNESS, AND RANK ABUNDANCE IN MOLLUSCAN DEATH ASSEMBLAGES FROM THE UPPER CHESAPEAKE BAY",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/0470863641.ch8",
+              "id": "https://doi.org/10.1002/0470863641.ch8",
+              "landing_page_url": "https://doi.org/10.1002/0470863641.ch8",
+              "publication_date": "2005-10-10",
+              "publication_year": 2005,
+              "source_name": "Selection Bias and Covariate Imbalances in Randomized Clinical Trials",
+              "title": "Managing Selection Bias in Randomized Trials",
+              "type": "other"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/0470863641.ch5",
+              "id": "https://doi.org/10.1002/0470863641.ch5",
+              "landing_page_url": "https://doi.org/10.1002/0470863641.ch5",
+              "publication_date": "2005-10-10",
+              "publication_year": 2005,
+              "source_name": "Selection Bias and Covariate Imbalances in Randomized Clinical Trials",
+              "title": "Preventing Selection Bias in Randomized Trials",
+              "type": "other"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/0470863641.ch6",
+              "id": "https://doi.org/10.1002/0470863641.ch6",
+              "landing_page_url": "https://doi.org/10.1002/0470863641.ch6",
+              "publication_date": "2005-10-10",
+              "publication_year": 2005,
+              "source_name": "Selection Bias and Covariate Imbalances in Randomized Clinical Trials",
+              "title": "Detecting Selection Bias in Randomized Trials",
+              "type": "other"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/0470863641.ch3",
+              "id": "https://doi.org/10.1002/0470863641.ch3",
+              "landing_page_url": "https://doi.org/10.1002/0470863641.ch3",
+              "publication_date": "2005-10-10",
+              "publication_year": 2005,
+              "source_name": "Selection Bias and Covariate Imbalances in Randomized Clinical Trials",
+              "title": "Evidence of Selection Bias in Randomized Trials",
+              "type": "other"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1007/978-94-009-4109-0_12",
+              "id": "https://doi.org/10.1007/978-94-009-4109-0_12",
+              "landing_page_url": "https://doi.org/10.1007/978-94-009-4109-0_12",
+              "publication_date": "1986-01-01",
+              "publication_year": 1986,
+              "source_name": "The Statistical Analysis of Compositional Data",
+              "title": "Compositions in a covariate role",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/0470863641.ch4",
+              "id": "https://doi.org/10.1002/0470863641.ch4",
+              "landing_page_url": "https://doi.org/10.1002/0470863641.ch4",
+              "publication_date": "2005-10-10",
+              "publication_year": 2005,
+              "source_name": "Selection Bias and Covariate Imbalances in Randomized Clinical Trials",
+              "title": "Impact of Selection Bias in Randomized Trials",
+              "type": "other"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "microbiome feature richness covariate compositional bias correction",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=microbiome+feature+richness+covariate+compositional+bias+correction&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        },
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 7,
+          "hits": [
+            {
+              "abstract": "Abstract Count data derived from high-throughput DNA sequencing is frequently used in quantitative molecular assays. Due to properties inherent to the sequencing process, unnormalized count data is compositional, measuring relative and not absolute abundances of the assayed features. This compositional bias confounds inference of absolute abundances. We demonstrate that existing techniques for estimating compositional bias fail with sparse metagenomic 16S count data and propose an empirical Bayes normalization approach to overcome this problem. In addition, we clarify the assumptions underlying frequently used scaling normalization methods in light of compositional bias, including scaling methods that were not designed directly to address it.",
+              "doi": "https://doi.org/10.1101/142851",
+              "id": "https://doi.org/10.1101/142851",
+              "landing_page_url": "https://doi.org/10.1101/142851",
+              "publication_date": "2017-05-26",
+              "publication_year": 2017,
+              "source_name": null,
+              "title": "Analysis and correction of compositional bias in sparse sequencing count data",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1186/s12864-018-5160-5",
+              "id": "https://doi.org/10.1186/s12864-018-5160-5",
+              "landing_page_url": "https://doi.org/10.1186/s12864-018-5160-5",
+              "publication_date": "2018-11-06",
+              "publication_year": 2018,
+              "source_name": "BMC Genomics",
+              "title": "Analysis and correction of compositional bias in sparse sequencing count data",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract Years of over-fishing combined with increased nutrient pollution have had a catastrophic effect on the ecology of the Chesapeake Bay. The Holocene record of bay mollusks may provide a baseline for ecological restoration, but the effects of taphonomic bias on these assemblages first must be assessed. In this study, a live-dead comparison was carried out on four sites distributed in the main channel of the upper bay. Molluscan death-assemblage data were obtained from replicate box-core samples from which whole specimens and fragments were sorted, identified, and counted. Data on live communities at the same sites, sampled over the past twenty years, were provided by the Chesapeake Bay Program, making it possible to examine the degree to which death assemblages reflect long-term changes in the live community. Traditional live-dead metrics document a strong agreement between live-community and death-assemblage estimates of species composition, richness, and abundance—77% of the species in the live community are found in the death assemblage, and 99% of the individuals of species found in the death assemblage are found in the live community. Correlations between live and dead estimates of species richness are not statistically significant, although they do improve with longer-term sampling of the live community. Rank abundance of taxa in the death assemblage is correlated strongly and significantly with live rank abundance regardless of the duration of live sampling. These results suggest that Holocene molluscan assemblages may provide useful estimates of richness and abundance for Chesapeake Bay restoration.",
+              "doi": "https://doi.org/10.2110/palo.2005.p05-74e",
+              "id": "https://doi.org/10.2110/palo.2005.p05-74e",
+              "landing_page_url": "https://doi.org/10.2110/palo.2005.p05-74e",
+              "publication_date": "2006-08-01",
+              "publication_year": 2006,
+              "source_name": "PALAIOS",
+              "title": "QUANTIFYING TAPHONOMIC BIAS OF COMPOSITIONAL FIDELITY, SPECIES RICHNESS, AND RANK ABUNDANCE IN MOLLUSCAN DEATH ASSEMBLAGES FROM THE UPPER CHESAPEAKE BAY",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1136/jech-2019-ssmabstracts.81",
+              "id": "https://doi.org/10.1136/jech-2019-ssmabstracts.81",
+              "landing_page_url": "https://doi.org/10.1136/jech-2019-ssmabstracts.81",
+              "publication_date": "2019-09-03",
+              "publication_year": 2019,
+              "source_name": "Oral Presentations",
+              "title": "OP78 A causal inference perspective on compositional data and collider ‘bias’",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "Abstract Electronic health record phenotyping is the use of raw electronic health record data to assert characterizations about patients. Researchers have been doing it since the beginning of biomedical informatics, under different names. Phenotyping will benefit from an increasing focus on fidelity, both in the sense of increasing richness, such as measured levels, degree or severity, timing, probability, or conceptual relationships, and in the sense of reducing bias. Research agendas should shift from merely improving binary assignment to studying and improving richer representations. The field is actively researching new temporal directions and abstract representations, including deep learning. The field would benefit from research in nonlinear dynamics, in combining mechanistic models with empirical data, including data assimilation, and in topology. The health care process produces substantial bias, and studying that bias explicitly rather than treating it as merely another source of noise would facilitate addressing it.",
+              "doi": "https://doi.org/10.1093/jamia/ocx110",
+              "id": "https://doi.org/10.1093/jamia/ocx110",
+              "landing_page_url": "https://doi.org/10.1093/jamia/ocx110",
+              "publication_date": "2017-10-12",
+              "publication_year": 2017,
+              "source_name": "Journal of the American Medical Informatics Association",
+              "title": "High-fidelity phenotyping: richness and freedom from bias",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1360/n012017-00147",
+              "id": "https://doi.org/10.1360/n012017-00147",
+              "landing_page_url": "https://doi.org/10.1360/n012017-00147",
+              "publication_date": "2017-11-16",
+              "publication_year": 2017,
+              "source_name": "SCIENTIA SINICA Mathematica",
+              "title": "High-dimensional count and compositional data analysis in\\\\ microbiome studies",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1201/9780429455537-13",
+              "id": "https://doi.org/10.1201/9780429455537-13",
+              "landing_page_url": "https://doi.org/10.1201/9780429455537-13",
+              "publication_date": "2018-07-17",
+              "publication_year": 2018,
+              "source_name": "Compositional Data Analysis in Practice",
+              "title": "Clustering of compositional data",
+              "type": "book-chapter"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "compositional count data richness association bias",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=compositional+count+data+richness+association+bias&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        }
+      ],
+      "search_completed": true
+    },
+    "B": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "Abstract Motivated by recent advances in causal mediation analysis and problems in the analysis of microbiome data, we consider the setting where the effect of a treatment on an outcome is transmitted through perturbing the microbial communities or compositional mediators. Compositional and high-dimensional nature of such mediators makes the standard mediation analysis not directly applicable to our setting. We propose a sparse compositional mediation model that can be used to estimate the causal direct and indirect (or mediation) effects utilizing the algebra for compositional data in the simplex space. We also propose tests of total and component-wise mediation effects using bootstrap. We conduct extensive simulation studies to assess the performance of the proposed method and apply the method to a real metagenomic dataset to investigate the effect of fat intake on body mass index mediated through the gut microbiome composition.",
+              "doi": "https://doi.org/10.1101/149419",
+              "id": "https://doi.org/10.1101/149419",
+              "landing_page_url": "https://doi.org/10.1101/149419",
+              "publication_date": "2017-06-13",
+              "publication_year": 2017,
+              "source_name": null,
+              "title": "Compositional Mediation Analysis for Microbiome Studies",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.humic.2019.100063",
+              "id": "https://doi.org/10.1016/j.humic.2019.100063",
+              "landing_page_url": "https://doi.org/10.1016/j.humic.2019.100063",
+              "publication_date": "2019-08-01",
+              "publication_year": 2019,
+              "source_name": "Human Microbiome Journal",
+              "title": "Beyond the gut: Skin microbiome compositional changes are associated with BMI",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.7287/peerj.2969v0.1/reviews/2",
+              "id": "https://doi.org/10.7287/peerj.2969v0.1/reviews/2",
+              "landing_page_url": "https://doi.org/10.7287/peerj.2969v0.1/reviews/2",
+              "publication_date": "2017-02-09",
+              "publication_year": 2017,
+              "source_name": null,
+              "title": "Peer Review #2 of \"Phylogenetic factorization of compositional data yields lineage-level associations in microbiome datasets (v0.1)\"",
+              "type": "peer-review"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.7287/peerj.2969v0.2/reviews/2",
+              "id": "https://doi.org/10.7287/peerj.2969v0.2/reviews/2",
+              "landing_page_url": "https://doi.org/10.7287/peerj.2969v0.2/reviews/2",
+              "publication_date": "2017-02-09",
+              "publication_year": 2017,
+              "source_name": null,
+              "title": "Peer Review #2 of \"Phylogenetic factorization of compositional data yields lineage-level associations in microbiome datasets (v0.2)\"",
+              "type": "peer-review"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1186/s40168-018-0469-5",
+              "id": "https://doi.org/10.1186/s40168-018-0469-5",
+              "landing_page_url": "https://doi.org/10.1186/s40168-018-0469-5",
+              "publication_date": "2018-05-10",
+              "publication_year": 2018,
+              "source_name": "Microbiome",
+              "title": "Low-abundant bacteria drive compositional changes in the gut microbiota after dietary alteration",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1515/9783110332865.217",
+              "id": "https://doi.org/10.1515/9783110332865.217",
+              "landing_page_url": "https://doi.org/10.1515/9783110332865.217",
+              "publication_date": "2005-12-31",
+              "publication_year": 2005,
+              "source_name": "Applications to Linguistics, Psychology and Neuroscience",
+              "title": "The Goldilocks Scenario: Is Noun-noun Compounding Compositional?",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "S ummary A critical task in microbiome data analysis is to explore the association between a scalar response of interest and a large number of microbial taxa that are summarized as compositional data at different taxonomic levels. Motivated by fine-mapping of the microbiome, we propose a two-step compositional knockoff filter (CKF) to provide the effective finite-sample false discovery rate (FDR) control in high-dimensional linear log-contrast regression analysis of microbiome compositional data. In the first step, we employ the compositional screening procedure to remove insignificant microbial taxa while retaining the essential sum-to-zero constraint. In the second step, we extend the knockoff filter to identify the significant microbial taxa in the sparse regression model for compositional data. Thereby, a subset of the microbes is selected from the high-dimensional microbial taxa as related to the response using a pre-specified FDR threshold. We study the asymptotic properties of the proposed two-step procedure, including both sure screening and effective false discovery control. We demonstrate the finite-sample properties in simulation studies, which show the gain in the empirical power while controlling the nominal FDR. The potential usefulness of the proposed method is also illustrated with application to an inflammatory bowel disease dataset to identify microbial taxa that influence host gene expressions.",
+              "doi": "https://doi.org/10.1101/851337",
+              "id": "https://doi.org/10.1101/851337",
+              "landing_page_url": "https://doi.org/10.1101/851337",
+              "publication_date": "2019-11-21",
+              "publication_year": 2019,
+              "source_name": null,
+              "title": "Compositional knockoff filter for high-dimensional regression analysis of microbiome data",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.7748/ns2010.10.25.5.30.b1117",
+              "id": "https://doi.org/10.7748/ns2010.10.25.5.30.b1117",
+              "landing_page_url": "https://doi.org/10.7748/ns2010.10.25.5.30.b1117",
+              "publication_date": "2010-10-06",
+              "publication_year": 2010,
+              "source_name": "Nursing Standard",
+              "title": "The Value of Difference – Eliminating Bias in OrganisationsThe Value of Difference – Eliminating Bias in Organisations",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "microbiome compositional bias scenario metric condition difference",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=microbiome+compositional+bias+scenario+metric+condition+difference&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        },
+        {
+          "api_cutoff": "2019-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1017/cbo9780511751981.018",
+              "id": "https://doi.org/10.1017/cbo9780511751981.018",
+              "landing_page_url": "https://doi.org/10.1017/cbo9780511751981.018",
+              "publication_date": "2000-07-20",
+              "publication_year": 2000,
+              "source_name": "Simulation-based Inference in Econometrics",
+              "title": "Calibration by simulation for small sample bias correction",
+              "type": "book-chapter"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1080/03610918.2019.1577976",
+              "id": "https://doi.org/10.1080/03610918.2019.1577976",
+              "landing_page_url": "https://doi.org/10.1080/03610918.2019.1577976",
+              "publication_date": "2019-03-12",
+              "publication_year": 2019,
+              "source_name": "Communications in Statistics - Simulation and Computation",
+              "title": "Small sample bias correction or bias reduction?",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract The Lincoln‐Petersen and Bailey estimators of an unknown population size were compared in a computer simulation of capture‐recapture sampling with replacement from small populations. The Bailey estimator was negatively biased and had smaller variance than the Petersen estimator. The Petersen estimator tended to be positively biased. The Lincoln‐Petersen variance estimator tended to be positively biased while the Bailey variance estimator was negatively biased.",
+              "doi": "https://doi.org/10.1002/bimj.4710300615",
+              "id": "https://doi.org/10.1002/bimj.4710300615",
+              "landing_page_url": "https://doi.org/10.1002/bimj.4710300615",
+              "publication_date": "2007-01-19",
+              "publication_year": 2007,
+              "source_name": "Biometrical Journal",
+              "title": "Small Sample Bias and Variance of Lincoln‐Petersen and Bailey Estimators",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.3102/1429480",
+              "id": "https://doi.org/10.3102/1429480",
+              "landing_page_url": "https://doi.org/10.3102/1429480",
+              "publication_date": "2019-01-01",
+              "publication_year": 2019,
+              "source_name": "Proceedings of the 2019 AERA Annual Meeting",
+              "title": "Small Sample Bias Correction in Multilevel Meta-Analyses of Standardized Single-Case Experimental Data",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "Abstract When clustered multinomial responses are fit using the generalized logistic link, Morel (1989) introduced a small sample correction in the Taylor series based estimator of the covariance matrix of the parameter estimates. The correction reduces the bias of the Type I error rates in small samples and guarantees positive definiteness of the estimated variance‐covariance matrix. It is well known that small sample bias in the use of the Delta method persists in any application of the Generalized Estimating Equations (GEE) methodology. In this article, we extend the correction originally suggested for the generalized logistic link, to other link functions and distributions, when parameters are estimated by GEE. In a Monte Carlo study with correlated data generated under different sampling schemes, the small sample correction has been shown to be effective in reducing the Type I error rates when the number of clusters is relatively small.",
+              "doi": "https://doi.org/10.1002/bimj.200390021",
+              "id": "https://doi.org/10.1002/bimj.200390021",
+              "landing_page_url": "https://doi.org/10.1002/bimj.200390021",
+              "publication_date": "2003-06-05",
+              "publication_year": 2003,
+              "source_name": "Biometrical Journal",
+              "title": "Small Sample Correction for the Variance of GEE Estimators",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1080/03610918.2012.748913",
+              "id": "https://doi.org/10.1080/03610918.2012.748913",
+              "landing_page_url": "https://doi.org/10.1080/03610918.2012.748913",
+              "publication_date": "2014-05-08",
+              "publication_year": 2014,
+              "source_name": "Communications in Statistics - Simulation and Computation",
+              "title": "Finite-Sample Bias-Correction Factors for the Median Absolute Deviation",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1145/318242.318447",
+              "id": "https://doi.org/10.1145/318242.318447",
+              "landing_page_url": "https://doi.org/10.1145/318242.318447",
+              "publication_date": "1986-01-01",
+              "publication_year": 1986,
+              "source_name": "Proceedings of the 18th conference on Winter simulation  - WSC '86",
+              "title": "Large and small sample comparisons of various variance estimators",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "Monte Carlo studies have shown that estimated asymptotic standard errors of the efficient two-step generalised method of moments (GMM) estimator can be severely downward biased in small samples. The weight matrix used in the calculation of the efficient two-step GMM estimator is based on initial consistent parameter estimates. In this paper it is shown that the extra variation due to the presence of these estimated parameters in the weight matrix accounts for much of the difference between the finite sample and the asymptotic variance of the two-step GMM estimator that utilises moment conditions that are linear in the parameters. This difference can be estimated, resulting in a finite sample corrected estimate of the variance. In a Monte Carlo study of a panel data model it is shown that the corrected variance estimate approximates the finite sample variance well, leading to more accurate inference.",
+              "doi": "https://doi.org/10.2139/ssrn.250448",
+              "id": "https://doi.org/10.2139/ssrn.250448",
+              "landing_page_url": "https://doi.org/10.2139/ssrn.250448",
+              "publication_date": "2000-01-01",
+              "publication_year": 2000,
+              "source_name": null,
+              "title": "A Finite Sample Correction for the Variance of Linear Two-Step GMM Estimators",
+              "type": "posted-content"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "bias correction microbiome simulation high variance small sample",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=bias+correction+microbiome+simulation+high+variance+small+sample&filter=until-pub-date%3A2019-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2020-01-01"
+        }
+      ],
+      "search_completed": true
+    }
+  },
+  "generated_at": "2026-08-22",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "59cd3d3bc310972c01a49fcc35e358b83cfd33cc64419abb570e123fe266434b",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Searches are frozen reproducible retrieval evidence within the declared provider, queries, cutoff, and result depth. They do not certify absence from all literature.",
+  "strict_before": "2020-01-01",
+  "target_doi_excluded": "10.1038/s41467-020-17041-7",
+  "task_id": "Math_02_compositional_invariants",
+  "release": "V1.0"
+}

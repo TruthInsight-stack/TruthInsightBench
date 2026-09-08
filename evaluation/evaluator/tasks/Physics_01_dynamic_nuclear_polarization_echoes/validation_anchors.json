@@ -1,0 +1,208 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "相位反转使电子—核极化传递近似倒演并产生2*t_inv回波，但失配和高阶项使长时间重聚焦逐步衰减",
+      "independent_reconstruction_method": "Frozen evaluator recomputation: verification/recompute/A.py",
+      "non_exhaustive_validation_anchor": true,
+      "object": "相位反转时间为132、220、440、880和2200 ns的脉冲动态核极化EPR原始波形",
+      "one_liner": "五个相位反转条件的EPR电子极化均在反转时刻的两倍附近重聚焦，最大时刻误差88 ns；最短条件的局部回波为基线0.983，最长条件为0.432",
+      "perturbation_bindings": [
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition_expected_sample.py",
+          "script_sha256": "2555a97521363696fa9266d4525ed3e56f5dda6dd7a5c8df3bffe1e900518cac"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method_epr_window.py",
+          "script_sha256": "70c71395c3d3e08f7e20c217f86b4f9c228dc4f9525c1c74a68cede4b54d7a94"
+        },
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample_leave_one_condition.py",
+          "script_sha256": "1e63dc4483502cc93da0e2b8e22f11e5acd5cc02f19415ea5ceb390a5b0b6771"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "measurement: \"新增一个未用于冻结的反转时间，按同一EPR处理合同检测局部极化恢复时刻与基线归一化幅度\"; expected_range: [-88, 88]; failure_criterion: \"回波峰相对2*t_inv偏差超过两个44 ns采样步，或长时间条件的局部恢复不再可见\""
+      },
+      "quantities": [
+        {
+          "key": "epr_max_abs_timing_error_ns",
+          "role": "core",
+          "tolerance_rel": 0.0,
+          "unit": "ns",
+          "value": 88
+        },
+        {
+          "key": "epr_median_abs_timing_error_ns",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "ns",
+          "value": 44
+        },
+        {
+          "key": "epr_short_echo_fraction",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "baseline_fraction",
+          "value": 0.9832733789
+        },
+        {
+          "key": "epr_long_echo_fraction",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "baseline_fraction",
+          "value": 0.4321803458
+        },
+        {
+          "key": "epr_echo_condition_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "condition",
+          "value": 5
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "values": [
+          {
+            "json_path": "values.epr_max_abs_timing_error_ns",
+            "quantity_key": "epr_max_abs_timing_error_ns"
+          },
+          {
+            "json_path": "values.epr_median_abs_timing_error_ns",
+            "quantity_key": "epr_median_abs_timing_error_ns"
+          },
+          {
+            "json_path": "values.epr_short_echo_fraction",
+            "quantity_key": "epr_short_echo_fraction"
+          },
+          {
+            "json_path": "values.epr_long_echo_fraction",
+            "quantity_key": "epr_long_echo_fraction"
+          },
+          {
+            "json_path": "values.epr_echo_condition_count",
+            "quantity_key": "epr_echo_condition_count"
+          }
+        ],
+        "script_sha256": "9f576f02d3a90b1ff7d9c9d39c0c54a76cc5dc1d89eafeadcda51bf69b33415a"
+      },
+      "scope": "六份完整EPR扫描（含无反转基线）；解析信号、1.735 GHz下变频、256点Chebyshev窗和固定参考相位",
+      "target_alignment": {
+        "paper_claim_paraphrase": "作者报告五个反转时间均在2*t_inv形成电子自旋DNP回波，短时间近乎完全、长时间重聚焦不完全",
+        "paper_location": "Results, Fig. 2 bottom panels; DNP echo formation for trityl",
+        "rationale": "冻结验证器直接移植作者EPR处理链并从六份原始波形重算时刻和归一化幅度",
+        "status": "reported_target_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "核自旋读出独立复现2*t_inv重聚焦；短时间近乎回到零，且特定相位反转可部分校正失配并提高总核极化",
+      "independent_reconstruction_method": "Frozen evaluator recomputation: verification/recompute/B.py",
+      "non_exhaustive_validation_anchor": true,
+      "object": "同一相位反转实验的八步相位循环NMR读出及独立NMR参考波形",
+      "one_liner": "NMR核极化最低点同样按反转时刻的两倍移动，最大误差88 ns；最短条件在预期点仅残留基线的0.03683，而中等反转条件的峰值为无反转的1.1486倍",
+      "perturbation_bindings": [
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition_projection.py",
+          "script_sha256": "d90dced83c161aa3d0ec62e3452d251988fcfa0a5a2403fcb5c86550b1dbfa58"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method_nmr_template.py",
+          "script_sha256": "7c0b778be9ea517705c53649c6128eab5a65441a08deea1a22f9123b5a4b8b36"
+        },
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample_leave_one_condition.py",
+          "script_sha256": "b3479c1c3776623c9ee2a6d7f671944f7625961307985a7327a7d5d0e2b9d231"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "measurement: \"新增相位反转条件的八步相位循环NMR曲线，以及同日无反转基线；预注册检测2*t_inv附近的最小绝对投影\"; expected_range: [1.9, 2.1]; failure_criterion: \"NMR最低点不随t_inv以约2倍斜率移动，或短时间条件无法接近零；440 ns增强若不复现则只否定增强子结论\""
+      },
+      "quantities": [
+        {
+          "key": "nmr_max_abs_timing_error_ns",
+          "role": "core",
+          "tolerance_rel": 0.0,
+          "unit": "ns",
+          "value": 88
+        },
+        {
+          "key": "nmr_short_exact_residual_fraction",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "baseline_fraction",
+          "value": 0.0368262976
+        },
+        {
+          "key": "nmr_phase_inversion_peak_enhancement_440",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "ratio",
+          "value": 1.148560686
+        },
+        {
+          "key": "nmr_detected_time_slope",
+          "role": "supporting",
+          "tolerance_rel": 0.05,
+          "unit": "ns_per_ns",
+          "value": 2.005117156
+        },
+        {
+          "key": "nmr_echo_condition_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "condition",
+          "value": 5
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "values": [
+          {
+            "json_path": "values.nmr_max_abs_timing_error_ns",
+            "quantity_key": "nmr_max_abs_timing_error_ns"
+          },
+          {
+            "json_path": "values.nmr_short_exact_residual_fraction",
+            "quantity_key": "nmr_short_exact_residual_fraction"
+          },
+          {
+            "json_path": "values.nmr_phase_inversion_peak_enhancement_440",
+            "quantity_key": "nmr_phase_inversion_peak_enhancement_440"
+          },
+          {
+            "json_path": "values.nmr_detected_time_slope",
+            "quantity_key": "nmr_detected_time_slope"
+          },
+          {
+            "json_path": "values.nmr_echo_condition_count",
+            "quantity_key": "nmr_echo_condition_count"
+          }
+        ],
+        "script_sha256": "70860900682ede0c6d9c307b6bbfc1d8f7c593100fb932e736a338e883549ee0"
+      },
+      "scope": "六份DNP-NMR扫描和一份64次扫描参考；八步相位循环后使用冻结128点复数匹配投影",
+      "target_alignment": {
+        "paper_claim_paraphrase": "作者报告核自旋读出也在2*t_inv形成回波，132 ns条件近乎回零，并指出440 ns附近相位反转可获得更高核极化",
+        "paper_location": "Results, Fig. 2 top panels and paragraph following Fig. 2",
+        "rationale": "冻结验证器对原始NMR执行八步相位循环和独立参考匹配投影，再量化时刻、残余和增强",
+        "status": "reported_target_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "Two verified validation anchors for blind-rediscovery diagnostics; not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2024-06-26",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Physics_01_dynamic_nuclear_polarization_echoes",
+  "release": "V1.0"
+}

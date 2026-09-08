@@ -1,0 +1,173 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "Condition differences remain negative under whole-animal exclusion, animal-equal aggregation, and composite definitions.",
+      "independent_reconstruction_method": "Whole-animal leave-out, animal-equal medians, and mean/median composite new-environment stability.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "All 32 tracked units nested in ten animals and two conditions.",
+      "one_liner": "Matrix perturbation lowers two new-environment stability measures and makes novel-versus-repeated change more negative.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample.py",
+          "script_sha256": "74a551d7ea4140a4a9c23b9a67d486ac0424136a57e065b2fcbfc3ef39aec2b7"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method.py",
+          "script_sha256": "818aa257cf13b3e3e34df8f230c2c0bd5654323cec51b408fa5cb94b85cebe96"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition.py",
+          "script_sha256": "ef8d5d61615032c5048ce8a0c6adfde422f57c2b38498ca4c3accf8f7391484d"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A new animal cohort supports the relationship if both new-environment condition differences are below −0.10; either at or above −0.10 is failure."
+      },
+      "quantities": [
+        {
+          "key": "new_environment_stability_2_condition_difference",
+          "role": "core",
+          "tolerance_rel": 0.1,
+          "unit": "correlation_units",
+          "value": -0.17270331841321263
+        },
+        {
+          "key": "new_environment_stability_3_condition_difference",
+          "role": "core",
+          "tolerance_rel": 0.1,
+          "unit": "correlation_units",
+          "value": -0.23350892216806973
+        },
+        {
+          "key": "novel_vs_repeated_change_condition_difference",
+          "role": "supporting",
+          "tolerance_rel": 0.12,
+          "unit": "correlation_units",
+          "value": -0.14650427511206868
+        },
+        {
+          "key": "tracked_unit_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 32
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "script_sha256": "2a7d793d5a60c363c31d9c87b66bdb796a33cecf4eca87f0af261eadddcc5152",
+        "values": [
+          {
+            "json_path": "values.new_environment_stability_2_condition_difference",
+            "quantity_key": "new_environment_stability_2_condition_difference"
+          },
+          {
+            "json_path": "values.new_environment_stability_3_condition_difference",
+            "quantity_key": "new_environment_stability_3_condition_difference"
+          },
+          {
+            "json_path": "values.novel_vs_repeated_change_condition_difference",
+            "quantity_key": "novel_vs_repeated_change_condition_difference"
+          },
+          {
+            "json_path": "values.tracked_unit_count",
+            "quantity_key": "tracked_unit_count"
+          }
+        ]
+      },
+      "scope": "Tracked-unit stability with animal-blocked inference; unit count is not animal replication.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports perturbation-associated loss of spatial-code stability across environments.",
+        "paper_location": "Tracked-unit repeated/new-environment stability Results/source data.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "Average-rate condition ratio stays near one while stability difference is strongly negative.",
+      "independent_reconstruction_method": "Whole-animal rate holdouts, median/mean animal aggregation, and alternate novel-stability definition.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Animal-equal unit-session activity summaries and tracked-unit stability summaries.",
+      "one_liner": "Animal-equal average activity is similar between conditions even though new-environment stability is substantially lower, forming a cross-level dissociation.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample.py",
+          "script_sha256": "3e0e6164ada914544b2491a6d276f2430b87ba8a1cd89fc2861b56fa00ec12a2"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method.py",
+          "script_sha256": "1d5d95cbe0261470ca66937a347922c322b69a6f4fbd09090839711935862e7d"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition.py",
+          "script_sha256": "d564acff8b06045138d4b037441ba3bb83ff9f21f2ab4a03598d78fcdeec2da7"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "Replication supports dissociation if the animal-equal rate ratio remains within 0.8–1.2 while stability difference stays below −0.18; otherwise it fails."
+      },
+      "quantities": [
+        {
+          "key": "animal_equal_average_rate_condition_ratio",
+          "role": "core",
+          "tolerance_rel": 0.1,
+          "unit": "fold",
+          "value": 1.0636289615637626
+        },
+        {
+          "key": "new_environment_stability_3_condition_difference",
+          "role": "core",
+          "tolerance_rel": 0.1,
+          "unit": "correlation_units",
+          "value": -0.23350892216806973
+        },
+        {
+          "key": "absolute_rate_ratio_deviation_from_one",
+          "role": "supporting",
+          "tolerance_rel": 0.15,
+          "unit": "fraction",
+          "value": 0.06362896156376263
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "script_sha256": "f890a77db27ef2471b39310ce1850512c839d29fa8429e404e74aef0ec623d0f",
+        "values": [
+          {
+            "json_path": "values.animal_equal_average_rate_condition_ratio",
+            "quantity_key": "animal_equal_average_rate_condition_ratio"
+          },
+          {
+            "json_path": "values.new_environment_stability_3_condition_difference",
+            "quantity_key": "new_environment_stability_3_condition_difference"
+          },
+          {
+            "json_path": "values.absolute_rate_ratio_deviation_from_one",
+            "quantity_key": "absolute_rate_ratio_deviation_from_one"
+          }
+        ]
+      },
+      "scope": "A descriptive dissociation; unpaired animals and summary data limit causal inference.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source distinguishes activity-rate effects from cross-environment spatial stability changes.",
+        "paper_location": "Unit-session activity and tracked-stability source-data panels.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "These two cards are verified reference discoveries for blind-rediscovery diagnostics and are not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2021-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Neuro_03_spatial_code_stability",
+  "release": "V1.0"
+}

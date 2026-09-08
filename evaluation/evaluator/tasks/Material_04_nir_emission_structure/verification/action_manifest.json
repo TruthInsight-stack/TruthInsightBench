@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Material_04_nir_emission_structure",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition.py",
+      "script_sha256": "197b0e04ff0fd3b9dcd7c650a208c1619a78de602c26aa4a8d998edfef177ef1"
+    },
+    {
+      "script": "verification/perturb/A/method.py",
+      "script_sha256": "f1bb63d17a31239f7d98823602553c78b0b1c5c611f6fcb0335aeb368d87a229"
+    },
+    {
+      "script": "verification/perturb/A/sample.py",
+      "script_sha256": "d320242019c0c7f79fa0dfc26889aea88a9ff189909f27a8108b55ac0b3dae85"
+    },
+    {
+      "script": "verification/perturb/B/definition.py",
+      "script_sha256": "f3112ece74252c4720587a497c9c53f2085e9f99d78b333839ce7f899fff550b"
+    },
+    {
+      "script": "verification/perturb/B/method.py",
+      "script_sha256": "7f8f03c83796aa65271a2a869d53a5395e5e42f7b264bf940f8c3894e7fa1460"
+    },
+    {
+      "script": "verification/perturb/B/sample.py",
+      "script_sha256": "fc701f08e1254cc257df4e862e821643d9742da92d618cc95e5bc0f143400e9e"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "d69b93b1996969f6e76f0eceed62a99fa72ad0f040d2f02926112b51724f3878"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "c9fcd9f72c608d87e5d56012057656aa30cc047ffe85bf6d7c5ff073f8b1d0ac"
+    }
+  ],
+  "verification_tree_sha256": "dae569ec854d04db678ad082e6ba8f733c1bf4f0007845e0b063e4257a7cd198",
+  "verification_file_count": 8,
+  "shared_runtime_tree_sha256": "20a80a31ad890d42dbf88cdec35a3f1c0636beb9a42156f6be7bc28dbf203784",
+  "shared_runtime_file_count": 4
+}

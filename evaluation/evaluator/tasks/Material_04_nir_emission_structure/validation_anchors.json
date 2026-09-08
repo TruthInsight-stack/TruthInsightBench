@@ -1,0 +1,184 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "Reference peak/centroid positions are much longer-wavelength, while matched design-series peak gaps across states are under 10 nm.",
+      "independent_reconstruction_method": "Complete-spectrum maxima, leave-one aggregate state, intensity-weighted centroids, and aggregate/dilute comparison.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Complete aggregate spectra across five states and complete dilute spectra for three matched design series.",
+      "one_liner": "The reference aggregate series is red-shifted by over 80 nm relative to all three design series, whose aggregate and dilute peaks remain close.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample.py",
+          "script_sha256": "d320242019c0c7f79fa0dfc26889aea88a9ff189909f27a8108b55ac0b3dae85"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method.py",
+          "script_sha256": "f1bb63d17a31239f7d98823602553c78b0b1c5c611f6fcb0335aeb368d87a229"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition.py",
+          "script_sha256": "197b0e04ff0fd3b9dcd7c650a208c1619a78de602c26aa4a8d998edfef177ef1"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A new complete state supports the relationship if every reference-to-design peak gap exceeds 80 nm and matched design aggregate/dilute gaps stay below 10 nm; otherwise it fails."
+      },
+      "quantities": [
+        {
+          "key": "reference_aggregate_peak_median_nm",
+          "role": "core",
+          "tolerance_rel": 0.02,
+          "unit": "nm",
+          "value": 1122.0
+        },
+        {
+          "key": "minimum_reference_to_design_peak_gap_nm",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "nm",
+          "value": 94.0
+        },
+        {
+          "key": "maximum_design_aggregate_to_dilute_peak_gap_nm",
+          "role": "supporting",
+          "tolerance_rel": 0.15,
+          "unit": "nm",
+          "value": 6.0
+        },
+        {
+          "key": "design_series_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 4
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "script_sha256": "d69b93b1996969f6e76f0eceed62a99fa72ad0f040d2f02926112b51724f3878",
+        "values": [
+          {
+            "json_path": "values.reference_aggregate_peak_median_nm",
+            "quantity_key": "reference_aggregate_peak_median_nm"
+          },
+          {
+            "json_path": "values.minimum_reference_to_design_peak_gap_nm",
+            "quantity_key": "minimum_reference_to_design_peak_gap_nm"
+          },
+          {
+            "json_path": "values.maximum_design_aggregate_to_dilute_peak_gap_nm",
+            "quantity_key": "maximum_design_aggregate_to_dilute_peak_gap_nm"
+          },
+          {
+            "json_path": "values.design_series_count",
+            "quantity_key": "design_series_count"
+          }
+        ]
+      },
+      "scope": "Spectral-state structure only; intensity and peak position do not uniquely identify an emission mechanism.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports design- and state-dependent long-wavelength emission spectra.",
+        "paper_location": "Optical-spectrum Results and complete source-data sheets.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "Every series has rank correlation one and a positive robust slope; endpoint folds range from modest to about twofold.",
+      "independent_reconstruction_method": "Leave-one-interior-composition ranks, Theil-Sen slopes, and endpoint-fold definition.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "All 20 composition-response observations grouped into four complete series.",
+      "one_liner": "Long-wavelength response increases monotonically with composition fraction in all four series, with series-specific effect size.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample.py",
+          "script_sha256": "fc701f08e1254cc257df4e862e821643d9742da92d618cc95e5bc0f143400e9e"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method.py",
+          "script_sha256": "7f8f03c83796aa65271a2a869d53a5395e5e42f7b264bf940f8c3894e7fa1460"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition.py",
+          "script_sha256": "f3112ece74252c4720587a497c9c53f2085e9f99d78b333839ce7f899fff550b"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A new series supports the relationship if rank correlation exceeds 0.99, Theil-Sen slope is positive, and endpoint fold exceeds 1.10; any failure rejects it."
+      },
+      "quantities": [
+        {
+          "key": "series_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 4
+        },
+        {
+          "key": "minimum_composition_response_spearman",
+          "role": "core",
+          "tolerance_rel": 0.0,
+          "unit": "fraction",
+          "value": 0.9999999999999999
+        },
+        {
+          "key": "minimum_endpoint_fold",
+          "role": "supporting",
+          "tolerance_rel": 0.08,
+          "unit": "fold",
+          "value": 1.1308411214953271
+        },
+        {
+          "key": "maximum_endpoint_fold",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "fold",
+          "value": 2.042207792207792
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "script_sha256": "c9fcd9f72c608d87e5d56012057656aa30cc047ffe85bf6d7c5ff073f8b1d0ac",
+        "values": [
+          {
+            "json_path": "values.series_count",
+            "quantity_key": "series_count"
+          },
+          {
+            "json_path": "values.minimum_composition_response_spearman",
+            "quantity_key": "minimum_composition_response_spearman"
+          },
+          {
+            "json_path": "values.minimum_endpoint_fold",
+            "quantity_key": "minimum_endpoint_fold"
+          },
+          {
+            "json_path": "values.maximum_endpoint_fold",
+            "quantity_key": "maximum_endpoint_fold"
+          }
+        ]
+      },
+      "scope": "Monotonicity within the measured composition range, not an extrapolated optimum.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports composition-dependent enhancement of long-wavelength emission response.",
+        "paper_location": "Composition-dependent long-wavelength response panel.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "These two cards are verified reference discoveries for blind-rediscovery diagnostics and are not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2020-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Material_04_nir_emission_structure",
+  "release": "V1.0"
+}

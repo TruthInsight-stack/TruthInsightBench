@@ -1,0 +1,21 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "in vitro neural network synaptic plasticity prospective prediction",
+        "free energy neuronal culture learning trajectory"
+      ]
+    },
+    "B": {
+      "queries": [
+        "in vitro neural network future response prediction",
+        "free energy neuronal culture sensory response"
+      ]
+    }
+  },
+  "provider": "frozen_bibliographic_snapshot",
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2022-01-01",
+  "task_id": "Neuro_01_self_organization_prediction",
+  "release": "V1.0"
+}

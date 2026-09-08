@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Life_02_contextual_immune_response",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition.py",
+      "script_sha256": "abaab5643459f66215bb6f079997563bda6999f79a3c0ff0a5eb5fa772a41d77"
+    },
+    {
+      "script": "verification/perturb/A/method.py",
+      "script_sha256": "9c86f4a042c5a0c279743cd042bfbee2600267db0f5e35c81d0e2471d6b80498"
+    },
+    {
+      "script": "verification/perturb/A/sample.py",
+      "script_sha256": "d4bcc437c97b0fe83650a2781a35e75d194ce65eb5cca86f32eebfd18f82180c"
+    },
+    {
+      "script": "verification/perturb/B/definition.py",
+      "script_sha256": "be92d9e53347b41718e8058da2588f55f5a89f78ba122602e17e36e559c41af3"
+    },
+    {
+      "script": "verification/perturb/B/method.py",
+      "script_sha256": "ab33487fe1e5443a699d5bd8af1cf558a73be358c6e64c8e6558bbe6fc8468d1"
+    },
+    {
+      "script": "verification/perturb/B/sample.py",
+      "script_sha256": "53741377641d82048a571eab82b8234b78205215d0cf406544b18f0f307bae5c"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "c3ec48ee88e7a0fe62f64f5a059dd1d88e015b70db8bec42aac25f3f6a8dcf9c"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "3e9daaf4fd215717d698f5ed99b2a6b04dba293347ebf1ff7fc296961c11cab5"
+    }
+  ],
+  "verification_tree_sha256": "eae019d73107ad314ecde664da50b4198d630b51e72222ee4b08fe386f4d5622",
+  "verification_file_count": 8,
+  "shared_runtime_tree_sha256": "20a80a31ad890d42dbf88cdec35a3f1c0636beb9a42156f6be7bc28dbf203784",
+  "shared_runtime_file_count": 4
+}

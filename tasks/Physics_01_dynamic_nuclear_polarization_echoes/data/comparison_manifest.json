@@ -1,0 +1,48 @@
+{
+  "schema": "truthinsightbench-physics-phase-inversion-comparison-manifest",
+  "provenance": "Derived only from the public MAT pulse-sequence metadata and file inventory. It declares experimental conditions and contains no paper conclusion or processed scientific result.",
+  "comparisons": [
+    {
+      "comparison_id": "epr_phase_inversion_timing",
+      "intervention": "132/220/440/880/2200 ns phase-inversion scans",
+      "control": "no-phase-inversion EPR scan",
+      "readout": "EPR",
+      "intervention_files": [
+        "raw/20240522_130805_dnp_echo_pp_length_2.mat",
+        "raw/20240522_130914_dnp_echo_pp_length_2.mat",
+        "raw/20240522_131018_dnp_echo_pp_length_2.mat",
+        "raw/20240522_131142_dnp_echo_pp_length_2.mat",
+        "raw/20240522_131404_dnp_echo_pp_length_2.mat"
+      ],
+      "control_file": "raw/20240522_125527_dnp_echo_pp_length_2.mat",
+      "inversion_times_ns": [
+        132,
+        220,
+        440,
+        880,
+        2200
+      ]
+    },
+    {
+      "comparison_id": "nmr_independent_readout",
+      "intervention": "phase-inversion DNP-NMR scans",
+      "control": "no-phase-inversion DNP-NMR scan",
+      "readout": "NMR",
+      "intervention_files": [
+        "raw/20240522_1404_dnpdata_dnp_contact_swp.mat",
+        "raw/20240522_1434_dnpdata_dnp_contact_swp.mat",
+        "raw/20240522_1505_dnpdata_dnp_contact_swp.mat",
+        "raw/20240522_1535_dnpdata_dnp_contact_swp.mat",
+        "raw/20240523_0954_dnpdata_dnp_contact_swp.mat"
+      ],
+      "control_file": "raw/20240523_1308_dnpdata_dnp_contact_swp.mat",
+      "inversion_times_ns": [
+        132,
+        220,
+        440,
+        880,
+        2200
+      ]
+    }
+  ]
+}

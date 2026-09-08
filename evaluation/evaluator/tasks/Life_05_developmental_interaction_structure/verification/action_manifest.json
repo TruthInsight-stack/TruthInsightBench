@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Life_05_developmental_interaction_structure",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition.py",
+      "script_sha256": "2103e73637a29244c5a39b2310bd001a478d4d0b0e37e3558a81f22d54d91896"
+    },
+    {
+      "script": "verification/perturb/A/method.py",
+      "script_sha256": "51628aa9baa9aa1c64820660df98774a6e58ff76e494a32be0fa943b6aea44f5"
+    },
+    {
+      "script": "verification/perturb/A/sample.py",
+      "script_sha256": "0ca2651f36679233c09267af708e775865cea72de82323262364e5fe9d8f6c53"
+    },
+    {
+      "script": "verification/perturb/B/definition.py",
+      "script_sha256": "30890ea4d6cabd7b448c42f2d25a4ad6953a70c83cd1f2ead73991db459d86cb"
+    },
+    {
+      "script": "verification/perturb/B/method.py",
+      "script_sha256": "8c1d8be2dfe13251f40a4d5cc584749b387d099e9ea69b17e084210e43dfc0a8"
+    },
+    {
+      "script": "verification/perturb/B/sample.py",
+      "script_sha256": "f219ce776a76a0c2b20a71d4d3eca01fa4ce03a8025e7b65645fe66034fb89be"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "1d4af71cb1b53adf85e29732cfda4f700cf1bcb42c98b7196be2d430ea8b8fb4"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "91b0c0f083894eb15447ab2d0689444a93e69f79491c8761cfc6e6b2e3491fdc"
+    }
+  ],
+  "verification_tree_sha256": "f78868ae6b499261c8ac1a77c5c50353947342791fa4ecb6206597813b0b3434",
+  "verification_file_count": 8,
+  "shared_runtime_tree_sha256": "20a80a31ad890d42dbf88cdec35a3f1c0636beb9a42156f6be7bc28dbf203784",
+  "shared_runtime_file_count": 4
+}

@@ -1,0 +1,27 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "microbiome feature richness covariate compositional bias correction",
+        "compositional count data richness association bias"
+      ]
+    },
+    "B": {
+      "queries": [
+        "microbiome compositional bias scenario metric condition difference",
+        "bias correction microbiome simulation high variance small sample"
+      ]
+    }
+  },
+  "frozen_at": "2026-08-22",
+  "provider": "OpenAlex_primary_with_Crossref_fallback",
+  "provider_api": [
+    "https://api.openalex.org/works",
+    "https://api.crossref.org/works"
+  ],
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2020-01-01",
+  "target_doi_excluded": "10.1038/s41467-020-17041-7",
+  "task_id": "Math_02_compositional_invariants",
+  "release": "V1.0"
+}

@@ -1,0 +1,1081 @@
+{
+  "all_queries_completed": true,
+  "cards": {
+    "A": {
+      "queries": [
+        {
+          "api_cutoff": "2024-10-01",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "Lots of learning tasks require dealing with graph data which contains rich relation information among elements. Modeling physics systems, learning molecular fingerprints, predicting protein interface, and classifying diseases demand a model to learn from graph inputs. In other domains such as learning from non-structural data like texts and images, reasoning on extracted structures (like the dependency trees of sentences and the scene graphs of images) is an important research topic which also needs graph reasoning models. Graph neural networks (GNNs) are neural models that capture the dependence of graphs via message passing between the nodes of graphs. In recent years, variants of GNNs such as graph convolutional network (GCN), graph attention network (GAT), graph recurrent network (GRN) have demonstrated ground-breaking performances on many deep learning tasks. In this survey, we propose a general design pipeline for GNN models and discuss the variants of each component, systematically categorize the applications, and propose four open problems for future research.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-12-20",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.48550/arxiv.1812.08434",
+              "id": "https://openalex.org/W2905224888",
+              "provider": "openalex",
+              "title": "Graph Neural Networks: A Review of Methods and Applications"
+            },
+            {
+              "abstract": "Abstract Physics-Informed Neural Networks (PINN) are neural networks (NNs) that encode model equations, like Partial Differential Equations (PDE), as a component of the neural network itself. PINNs are nowadays used to solve PDEs, fractional equations, integral-differential equations, and stochastic PDEs. This novel methodology has arisen as a multi-task learning framework in which a NN must fit observed data while reducing a PDE residual. This article provides a comprehensive review of the literature on PINNs: while the primary goal of the study was to characterize these networks and their related advantages and disadvantages. The review also attempts to incorporate publications on a broader range of collocation-based physics informed neural networks, which stars form the vanilla PINN, as well as many other variants, such as physics-constrained neural networks (PCNN), variational hp-VPINN, and conservative PINN (CPINN). The study indicates that most research has focused on customizing the PINN through different activation functions, gradient optimization techniques, neural network structures, and loss function structures. Despite the wide range of applications for which PINNs have been used, by demonstrating their ability to be more feasible in some contexts than classical numerical techniques like Finite Element Method (FEM), advancements are still possible, most notably theoretical issues that remain unresolved.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-07-26",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s10915-022-01939-z",
+              "id": "https://openalex.org/W4288039037",
+              "provider": "openalex",
+              "title": "Scientific Machine Learning Through Physics–Informed Neural Networks: Where we are and What’s Next"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-05-24",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s42254-021-00314-5",
+              "id": "https://openalex.org/W3163993681",
+              "provider": "openalex",
+              "title": "Physics-informed machine learning"
+            },
+            {
+              "abstract": "The complexity of many biological, social and technological systems stems from the richness of the interactions among their units. Over the past decades, a variety of complex systems has been successfully described as networks whose interacting pairs of nodes are connected by links. Yet, from human communications to chemical reactions and ecological systems, interactions can often occur in groups of three or more nodes and cannot be described simply in terms of dyads. Until recently little attention has been devoted to the higher-order architecture of real complex systems. However, a mounting body of evidence is showing that taking the higher-order structure of these systems into account can enhance our modeling capacities and help us understand and predict their dynamical behavior. Here we present a complete overview of the emerging field of networks beyond pairwise interactions. We discuss how to represent higher-order interactions and introduce the different frameworks used to describe higher-order systems, highlighting the links between the existing concepts and representations. We review the measures designed to characterize the structure of these systems and the models proposed to generate synthetic structures, such as random and growing bipartite graphs, hypergraphs and simplicial complexes. We introduce the rapidly growing research on higher-order dynamical systems and dynamical topology, discussing the relations between higher-order interactions and collective behavior. We focus in particular on new emergent phenomena characterizing dynamical processes, such as dif",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-06-13",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.physrep.2020.05.004",
+              "id": "https://openalex.org/W3033513666",
+              "provider": "openalex",
+              "title": "Networks beyond pairwise interactions: Structure and dynamics"
+            },
+            {
+              "abstract": "A minimal synaptic architecture is proposed for how the brain might perform path integration by computing the next internal representation of self-location from the current representation and from the perceived velocity of motion. In the model, a place-cell assembly called a \"chart\" contains a two-dimensional attractor set called an \"attractor map\" that can be used to represent coordinates in any arbitrary environment, once associative binding has occurred between chart locations and sensory inputs. In hippocampus, there are different spatial relations among place fields in different environments and behavioral contexts. Thus, the same units may participate in many charts, and it is shown that the number of uncorrelated charts that can be encoded in the same recurrent network is potentially quite large. According to this theory, the firing of a given place cell is primarily a cooperative effect of the activity of its neighbors on the currently active chart. Therefore, it is not particularly useful to think of place cells as encoding any particular external object or event. Because of its recurrent connections, hippocampal field CA3 is proposed as a possible location for this \"multichart\" architecture; however, other implementations in anatomy would not invalidate the main concepts. The model is implemented numerically both as a network of integrate-and-fire units and as a \"macroscopic\" (with respect to the space of states) description of the system, based on a continuous approximation defined by a system of stochastic differential equations. It provides an explanation for a",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1997-08-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1523/jneurosci.17-15-05900.1997",
+              "id": "https://openalex.org/W2149422514",
+              "provider": "openalex",
+              "title": "Path Integration and Cognitive Mapping in a Continuous Attractor Neural Network Model"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2009-09-25",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.camwa.2009.08.039",
+              "id": "https://openalex.org/W2063133641",
+              "provider": "openalex",
+              "title": "Fractional calculus models of complex dynamics in biological tissues"
+            },
+            {
+              "abstract": "Deep learning as represented by the artificial deep neural networks (DNNs) has achieved great success recently in many important areas that deal with text, images, videos, graphs, and so on. However, the black-box nature of DNNs has become one of the primary obstacles for their wide adoption in mission-critical applications such as medical diagnosis and therapy. Because of the huge potentials of deep learning, increasing the interpretability of deep neural networks has recently attracted much research attention. In this paper, we propose a simple but comprehensive taxonomy for interpretability, systematically review recent studies in improving interpretability of neural networks, describe applications of interpretability in medicine, and discuss possible future research directions of interpretability, such as in relation to fuzzy logic and brain science.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-03-17",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/trpms.2021.3066428",
+              "id": "https://openalex.org/W3154435685",
+              "provider": "openalex",
+              "title": "On Interpretability of Artificial Neural Networks: A Survey"
+            },
+            {
+              "abstract": "In the last few years, intensive research has been done to enhance artificial intelligence (AI) using optimization techniques. In this paper, we present an extensive review of artificial neural networks (ANNs) based optimization algorithm techniques with some of the famous optimization techniques, e.g., genetic algorithm (GA), particle swarm optimization (PSO), artificial bee colony (ABC), and backtracking search algorithm (BSA) and some modern developed techniques, e.g., the lightning search algorithm (LSA) and whale optimization algorithm (WOA), and many more. The entire set of such techniques is classified as algorithms based on a population where the initial population is randomly created. Input parameters are initialized within the specified range, and they can provide optimal solutions. This paper emphasizes enhancing the neural network via optimization algorithms by manipulating its tuned parameters or training parameters to obtain the best structure network pattern to dissolve the problems in the best way. This paper includes some results for improving the ANN performance by PSO, GA, ABC, and BSA optimization techniques, respectively, to search for optimal parameters, e.g., the number of neurons in the hidden layers and learning rate. The obtained neural net is used for solving energy management problems in the virtual power plant system.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-11-03",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3390/electronics10212689",
+              "id": "https://openalex.org/W3209340886",
+              "provider": "openalex",
+              "title": "Artificial Neural Networks Based Optimization Techniques: A Review"
+            },
+            {
+              "abstract": "Partial differential equations (PDEs) play a central role in the mathematical analysis and modeling of complex dynamic processes across all corners of science and engineering. Their solution often requires laborious analytical or computational tools, associated with a cost that is markedly amplified when different scenarios need to be investigated, for example, corresponding to different initial or boundary conditions, different inputs, etc. In this work, we introduce physics-informed DeepONets, a deep learning framework for learning the solution operator of arbitrary PDEs, even in the absence of any paired input-output training data. We illustrate the effectiveness of the proposed framework in rapidly predicting the solution of various types of parametric PDEs up to three orders of magnitude faster compared to conventional PDE solvers, setting a previously unexplored paradigm for modeling and simulation of nonlinear and nonequilibrium processes in science and engineering.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-09-29",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1126/sciadv.abi8605",
+              "id": "https://openalex.org/W3201666041",
+              "provider": "openalex",
+              "title": "Learning the solution operator of parametric partial differential equations with physics-informed DeepONets"
+            },
+            {
+              "abstract": "MOTIVATION: Our goal is to construct a model for genetic regulatory networks such that the model class: (i) incorporates rule-based dependencies between genes; (ii) allows the systematic study of global network dynamics; (iii) is able to cope with uncertainty, both in the data and the model selection; and (iv) permits the quantification of the relative influence and sensitivity of genes in their interactions with other genes. RESULTS: We introduce Probabilistic Boolean Networks (PBN) that share the appealing rule-based properties of Boolean networks, but are robust in the face of uncertainty. We show how the dynamics of these networks can be studied in the probabilistic context of Markov chains, with standard Boolean networks being special cases. Then, we discuss the relationship between PBNs and Bayesian networks--a family of graphical models that explicitly represent probabilistic relationships between variables. We show how probabilistic dependencies between a gene and its parent genes, constituting the basic building blocks of Bayesian networks, can be obtained from PBNs. Finally, we present methods for quantifying the influence of genes on other genes, within the context of PBNs. Examples illustrating the above concepts are presented throughout the paper.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2002-02-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1093/bioinformatics/18.2.261",
+              "id": "https://openalex.org/W2160533336",
+              "provider": "openalex",
+              "title": "Probabilistic Boolean networks: a rule-based uncertainty model for gene regulatory networks"
+            },
+            {
+              "abstract": "Modeling continuous-time dynamics constitutes a foundational challenge, and uncovering inter-component correlations within complex systems holds promise for enhancing the efficacy of dynamic modeling. The prevailing approach of integrating graph neural networks with ordinary differential equations has demonstrated promising performance. However, they disregard the crucial signed information potential on graphs, impeding their capacity to accurately capture real-world phenomena and leading to subpar outcomes. In response, we introduce a novel approach: a signed graph neural ordinary differential equation, adeptly addressing the limitations of miscapturing signed information. Our proposed solution boasts both flexibility and efficiency. To substantiate its effectiveness, we seamlessly integrate our devised strategies into three preeminent graph-based dynamic modeling frameworks: graph neural ordinary differential equations, graph neural controlled differential equations, and graph recurrent neural networks. Rigorous assessments encompass three intricate dynamic scenarios from physics and biology, as well as scrutiny across four authentic real-world traffic datasets. Remarkably outperforming the trio of baselines, empirical results underscore the substantial performance enhancements facilitated by our proposed approach. Our code can be found at https://github.com/beautyonce/SGODE.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2023-12-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.48550/arXiv.2312.11198",
+              "id": "S2:45ece02ea82f79c4c678c8de8e95cd0dfbe5a37d",
+              "provider": "semantic_scholar",
+              "title": "Signed Graph Neural Ordinary Differential Equation for Modeling Continuous-time Dynamics",
+              "url": "https://www.semanticscholar.org/paper/45ece02ea82f79c4c678c8de8e95cd0dfbe5a37d?utm_source=api"
+            },
+            {
+              "abstract": "Graph Neural Networks (GNNs) have demonstrated remarkable success in modeling complex relationships in graph-structured data. A recent innovation in this field is the family of Differential Equation-Inspired Graph Neural Networks (DE-GNNs), which leverage principles from continuous dynamical systems to model information flow on graphs with built-in properties such as feature smoothing or preservation. However, existing DE-GNNs rely on first or second-order temporal dependencies. In this paper, we propose a neural extension to those pre-defined temporal dependencies. We show that our model, called TDE-GNN, can capture a wide range of temporal dynamics that go beyond typical first or second-order methods, and provide use cases where existing temporal models are challenged. We demonstrate the benefit of learning the temporal dependencies using our method rather than using pre-defined temporal dynamics on several graph benchmarks.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2024-01-20",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.48550/arXiv.2401.11074",
+              "id": "S2:9a227e7014c89095b713bdd0263b13ec6d6256f4",
+              "provider": "semantic_scholar",
+              "title": "On The Temporal Domain of Differential Equation Inspired Graph Neural Networks",
+              "url": "https://www.semanticscholar.org/paper/9a227e7014c89095b713bdd0263b13ec6d6256f4?utm_source=api"
+            },
+            {
+              "abstract": "Differential equations are a ubiquitous tool to study dynamics, ranging from physical systems to complex systems, where a large number of agents interact through a graph with non-trivial topological features. Data-driven approximations of differential equations present a promising alternative to traditional methods for uncovering a model of dynamical systems, especially in complex systems that lack explicit first principles. A recently employed machine learning tool for studying dynamics is neural networks, which can be used for data-driven solution finding or discovery of differential equations. Specifically for the latter task, however, deploying deep learning models in unfamiliar settings - such as predicting dynamics in unobserved state space regions or on novel graphs - can lead to spurious results. Focusing on complex systems whose dynamics are described with a system of first-order differential equations coupled through a graph, we show that extending the model's generalizability beyond traditional statistical learning theory limits is feasible. However, achieving this advanced level of generalization requires neural network models to conform to fundamental assumptions about the dynamical model. Additionally, we propose a statistical significance test to assess prediction quality during inference, enabling the identification of a neural network's confidence level in its predictions.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2023-01-12",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:b76cb748f1c1d7e5a78e058e50f01d01f58ac717",
+              "provider": "semantic_scholar",
+              "title": "Stretched and measured neural predictions of complex network dynamics",
+              "url": "https://www.semanticscholar.org/paper/b76cb748f1c1d7e5a78e058e50f01d01f58ac717?utm_source=api"
+            },
+            {
+              "abstract": "The ability to learn complex system dynamics is crucial to enhancing the reliability and stability of power systems. In this paper, we develop a novel neural ordinary differential equation (ODE) based algorithm to predict the transient trajectories of power systems. To handle noisy measurements, we propose a noise-removal module, which is implemented before the neural ODE module. The proposed algorithm is validated using the IEEE 118-bus system. The numerical study results demonstrated the superior accuracy of the proposed model over the baseline neural network (NN) and its robustness against measurement noise. Furthermore, the analytics results verified the generalization performance across different fault durations and locations.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2024-07-21",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/PESGM51994.2024.10689132",
+              "id": "S2:62fedc716ed977bc94e42f5e06acb80ef38920c5",
+              "provider": "semantic_scholar",
+              "title": "Learning Power System Dynamics with Noisy Data Using Neural Ordinary Differential Equations",
+              "url": "https://www.semanticscholar.org/paper/62fedc716ed977bc94e42f5e06acb80ef38920c5?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2023-10-09",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s11063-023-11423-w",
+              "id": "S2:d508c2b4d9ff121c41b54020e571a0bd086eaab8",
+              "provider": "semantic_scholar",
+              "title": "Dirichlet Graph Convolution Coupled Neural Differential Equation for Spatio-temporal Time Series Prediction",
+              "url": "https://www.semanticscholar.org/paper/d508c2b4d9ff121c41b54020e571a0bd086eaab8?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2024-10-01",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 11307,
+              "query": "neural differential equation complex network dynamics generalization graph",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8280",
+                "reset_seconds": "47024"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2024-10-01",
+                  "per_page": "10",
+                  "search": "neural differential equation complex network dynamics generalization graph",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2024-10-02"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2024-10-01",
+              "attempts": 2,
+              "locally_excluded_uncertain_or_not_strictly_before": 5,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 1153,
+              "query": "neural differential equation complex network dynamics generalization graph",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "neural differential equation complex network dynamics generalization graph",
+                  "year": "1900-2024"
+                }
+              },
+              "strict_before": "2024-10-02"
+            }
+          },
+          "query": "neural differential equation complex network dynamics generalization graph",
+          "strict_before": "2024-10-02"
+        },
+        {
+          "api_cutoff": "2024-10-01",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "Multilayer neural networks trained with the back-propagation algorithm constitute the best example of a successful gradient based learning technique. Given an appropriate network architecture, gradient-based learning algorithms can be used to synthesize a complex decision surface that can classify high-dimensional patterns, such as handwritten characters, with minimal preprocessing. This paper reviews various methods applied to handwritten character recognition and compares them on a standard handwritten digit recognition task. Convolutional neural networks, which are specifically designed to deal with the variability of 2D shapes, are shown to outperform all other techniques. Real-life document recognition systems are composed of multiple modules including field extraction, segmentation recognition, and language modeling. A new learning paradigm, called graph transformer networks (GTN), allows such multimodule systems to be trained globally using gradient-based methods so as to minimize an overall performance measure. Two systems for online handwriting recognition are described. Experiments demonstrate the advantage of global training, and the flexibility of graph transformer networks. A graph transformer network for reading a bank cheque is also described. It uses convolutional neural network character recognizers combined with global training techniques to provide record accuracy on business and personal cheques. It is deployed commercially and reads several million cheques per day.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1998-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/5.726791",
+              "id": "https://openalex.org/W2112796928",
+              "provider": "openalex",
+              "title": "Gradient-based learning applied to document recognition"
+            },
+            {
+              "abstract": "Point clouds provide a flexible geometric representation suitable for countless applications in computer graphics; they also comprise the raw output of most 3D data acquisition devices. While hand-designed features on point clouds have long been proposed in graphics and vision, however, the recent overwhelming success of convolutional neural networks (CNNs) for image analysis suggests the value of adapting insight from CNN to the point cloud world. Point clouds inherently lack topological information, so designing a model to recover topology can enrich the representation power of point clouds. To this end, we propose a new neural network module dubbed EdgeConv suitable for CNN-based high-level tasks on point clouds, including classification and segmentation. EdgeConv acts on graphs dynamically computed in each layer of the network. It is differentiable and can be plugged into existing architectures. Compared to existing modules operating in extrinsic space or treating each point independently, EdgeConv has several appealing properties: It incorporates local neighborhood information; it can be stacked applied to learn global shape properties; and in multi-layer systems affinity in feature space captures semantic characteristics over potentially long distances in the original embedding. We show the performance of our model on standard benchmarks, including ModelNet40, ShapeNetPart, and S3DIS.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-10-10",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1145/3326362",
+              "id": "https://openalex.org/W2979750740",
+              "provider": "openalex",
+              "title": "Dynamic Graph CNN for Learning on Point Clouds"
+            },
+            {
+              "abstract": "Humans and animals have the ability to continually acquire, fine-tune, and transfer knowledge and skills throughout their lifespan. This ability, referred to as lifelong learning, is mediated by a rich set of neurocognitive mechanisms that together contribute to the development and specialization of our sensorimotor skills as well as to long-term memory consolidation and retrieval. Consequently, lifelong learning capabilities are crucial for computational learning systems and autonomous agents interacting in the real world and processing continuous streams of information. However, lifelong learning remains a long-standing challenge for machine learning and neural network models since the continual acquisition of incrementally available information from non-stationary data distributions generally leads to catastrophic forgetting or interference. This limitation represents a major drawback for state-of-the-art deep neural network models that typically learn representations from stationary batches of training data, thus without accounting for situations in which information becomes incrementally available over time. In this review, we critically summarize the main challenges linked to lifelong learning for artificial learning systems and compare existing neural network approaches that alleviate, to different extents, catastrophic forgetting. Although significant advances have been made in domain-specific learning with neural networks, extensive research efforts are required for the development of robust lifelong learning on autonomous agents and robots. We discuss well-establi",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-02-10",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.neunet.2019.01.012",
+              "id": "https://openalex.org/W2788388592",
+              "provider": "openalex",
+              "title": "Continual lifelong learning with neural networks: A review"
+            },
+            {
+              "abstract": "Abstract Physics-Informed Neural Networks (PINN) are neural networks (NNs) that encode model equations, like Partial Differential Equations (PDE), as a component of the neural network itself. PINNs are nowadays used to solve PDEs, fractional equations, integral-differential equations, and stochastic PDEs. This novel methodology has arisen as a multi-task learning framework in which a NN must fit observed data while reducing a PDE residual. This article provides a comprehensive review of the literature on PINNs: while the primary goal of the study was to characterize these networks and their related advantages and disadvantages. The review also attempts to incorporate publications on a broader range of collocation-based physics informed neural networks, which stars form the vanilla PINN, as well as many other variants, such as physics-constrained neural networks (PCNN), variational hp-VPINN, and conservative PINN (CPINN). The study indicates that most research has focused on customizing the PINN through different activation functions, gradient optimization techniques, neural network structures, and loss function structures. Despite the wide range of applications for which PINNs have been used, by demonstrating their ability to be more feasible in some contexts than classical numerical techniques like Finite Element Method (FEM), advancements are still possible, most notably theoretical issues that remain unresolved.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-07-26",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s10915-022-01939-z",
+              "id": "https://openalex.org/W4288039037",
+              "provider": "openalex",
+              "title": "Scientific Machine Learning Through Physics–Informed Neural Networks: Where we are and What’s Next"
+            },
+            {
+              "abstract": "In the last few years, the deep learning (DL) computing paradigm has been deemed the Gold Standard in the machine learning (ML) community. Moreover, it has gradually become the most widely used computational approach in the field of ML, thus achieving outstanding results on several complex cognitive tasks, matching or even beating those provided by human performance. One of the benefits of DL is the ability to learn massive amounts of data. The DL field has grown fast in the last few years and it has been extensively used to successfully address a wide range of traditional applications. More importantly, DL has outperformed well-known ML techniques in many domains, e.g., cybersecurity, natural language processing, bioinformatics, robotics and control, and medical information processing, among many others. Despite it has been contributed several works reviewing the State-of-the-Art on DL, all of them only tackled one aspect of the DL, which leads to an overall lack of knowledge about it. Therefore, in this contribution, we propose using a more holistic approach in order to provide a more suitable starting point from which to develop a full understanding of DL. Specifically, this review attempts to provide a more comprehensive survey of the most important aspects of DL and including those enhancements recently added to the field. In particular, this paper outlines the importance of DL, presents the types of DL techniques and networks. It then presents convolutional neural networks (CNNs) which the most utilized DL network type and describes the development of CNNs architectur",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-03-31",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1186/s40537-021-00444-8",
+              "id": "https://openalex.org/W3140854437",
+              "provider": "openalex",
+              "title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions"
+            },
+            {
+              "abstract": "Abstract One of the most exciting tools that have entered the material science toolbox in recent years is machine learning. This collection of statistical methods has already proved to be capable of considerably speeding up both fundamental and applied research. At present, we are witnessing an explosion of works that develop and apply machine learning to solid-state systems. We provide a comprehensive overview and analysis of the most recent research in this topic. As a starting point, we introduce machine learning principles, algorithms, descriptors, and databases in materials science. We continue with the description of different machine learning approaches for the discovery of stable materials and the prediction of their crystal structure. Then we discuss research in numerous quantitative structure–property relationships and various approaches for the replacement of first-principle methods by machine learning. We review how active learning and surrogate-based optimization can be applied to improve the rational design process and related examples of applications. Two major questions are always the interpretability of and the physical understanding gained from machine learning models. We consider therefore the different facets of interpretability and their importance in materials science. Finally, we propose solutions and future research paths for various challenges in computational materials science.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-08-08",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41524-019-0221-0",
+              "id": "https://openalex.org/W2968923792",
+              "provider": "openalex",
+              "title": "Recent advances and applications of machine learning in solid-state materials science"
+            },
+            {
+              "abstract": "Machine Learning (ML) has been enjoying an unprecedented surge in applications that solve problems and enable automation in diverse domains. Primarily, this is due to the explosion in the availability of data, significant improvements in ML techniques, and advancement in computing capabilities. Undoubtedly, ML has been applied to various mundane and complex problems arising in network operation and management. There are various surveys on ML for specific areas in networking or for specific network technologies. This survey is original, since it jointly presents the application of diverse ML techniques in various key areas of networking across different network technologies. In this way, readers will benefit from a comprehensive discussion on the different learning paradigms and ML techniques applied to fundamental problems in networking, including traffic prediction, routing and classification, congestion control, resource and fault management, QoS and QoE management, and network security. Furthermore, this survey delineates the limitations, give insights, research challenges and future opportunities to advance ML in networking. Therefore, this is a timely contribution of the implications of ML for networking, that is pushing the barriers of autonomic network operation and management.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-06-21",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1186/s13174-018-0087-2",
+              "id": "https://openalex.org/W2809684781",
+              "provider": "openalex",
+              "title": "A comprehensive survey on machine learning for networking: evolution, applications and research opportunities"
+            },
+            {
+              "abstract": "Predictions obtained by, e.g., artificial neural networks have a high accuracy but humans often perceive the models as black boxes. Insights about the decision making are mostly opaque for humans. Particularly understanding the decision making in highly sensitive areas such as healthcare or finance, is of paramount importance. The decision-making behind the black boxes requires it to be more transparent, accountable, and understandable for humans. This survey paper provides essential definitions, an overview of the different principles and methodologies of explainable Supervised Machine Learning (SML). We conduct a state-of-the-art survey that reviews past and recent explainable SML approaches and classifies them according to the introduced definitions. Finally, we illustrate principles by means of an explanatory case study and discuss important future directions.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-01-19",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1613/jair.1.12228",
+              "id": "https://openalex.org/W3101981467",
+              "provider": "openalex",
+              "title": "A Survey on the Explainability of Supervised Machine Learning"
+            },
+            {
+              "abstract": "Despite its great success, machine learning can have its limits when dealing with insufficient training data. A potential solution is the additional integration of prior knowledge into the training process which leads to the notion of informed machine learning. In this paper, we present a structured overview of various approaches in this field. We provide a definition and propose a concept for informed machine learning which illustrates its building blocks and distinguishes it from conventional machine learning. We introduce a taxonomy that serves as a classification framework for informed machine learning approaches. It considers the source of knowledge, its representation, and its integration into the machine learning pipeline. Based on this taxonomy, we survey related research and describe how different knowledge representations such as algebraic equations, logic rules, or simulation results can be used in learning systems. This evaluation of numerous papers on the basis of our taxonomy uncovers key methods in the field of informed machine learning.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/tkde.2021.3079836",
+              "id": "https://openalex.org/W3006087551",
+              "provider": "openalex",
+              "title": "Informed Machine Learning - A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems"
+            },
+            {
+              "abstract": "The upcoming fifth generation (5G) of wireless networks is expected to lay a foundation of intelligent networks with the provision of some isolated artificial intelligence (AI) operations. However, fully intelligent network orchestration and management for providing innovative services will only be realized in Beyond 5G (B5G) networks. To this end, we envisage that the sixth generation (6G) of wireless networks will be driven by on-demand self-reconfiguration to ensure a many-fold increase in the network performance and service types. The increasingly stringent performance requirements of emerging networks may finally trigger the deployment of some interesting new technologies, such as large intelligent surfaces, electromagnetic-orbital angular momentum, visible light communications, and cell-free communications, to name a few. Our vision for 6G is a massively connected complex network capable of rapidly responding to the users' service calls through real-time learning of the network state as described by the network edge (e.g., base-station locations and cache contents), air interface (e.g., radio spectrum and propagation channel), and the user-side (e.g., battery-life and locations). The multi-state, multi-dimensional nature of the network state, requiring the real-time knowledge, can be viewed as a quantum uncertainty problem. In this regard, the emerging paradigms of machine learning (ML), quantum computing (QC), and quantum ML (QML) and their synergies with communication networks can be considered as core 6G enablers. Considering these potentials, starting with the 5G ",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/access.2019.2909490",
+              "id": "https://openalex.org/W2929612105",
+              "provider": "openalex",
+              "title": "Quantum Machine Learning for 6G Communication Networks: State-of-the-Art and Vision for the Future"
+            },
+            {
+              "abstract": "Multiscale dynamical systems, modeled by high-dimensional stiff ordinary differential equations (ODEs) with wide-ranging characteristic timescales, arise across diverse fields of science and engineering, but their numerical solvers often encounter severe efficiency bottlenecks. This paper introduces a novel DeePODE method, which consists of an Evolutionary Monte Carlo Sampling method (EMCS) and an efficient end-to-end deep neural network (DNN) to predict multiscale dynamical systems. We validate this finding across dynamical systems from ecological systems to reactive flows, including a predator-prey model, a power system oscillation, a battery electrolyte thermal runaway, and turbulent reaction-diffusion systems with complex chemical kinetics. The method demonstrates robust generalization capabilities, allowing pre-trained DNN models to accurately predict the behavior in previously unseen scenarios, largely due to the delicately constructed dataset. While theoretical guarantees remain to be established, empirical evidence shows that DeePODE achieves the accuracy of implicit numerical schemes while maintaining the computational efficiency of explicit schemes. This work underscores the crucial relationship between training data distribution and neural network generalization performance. This work demonstrates the potential of deep learning approaches in modeling complex dynamical systems across scientific and engineering domains.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2024-01-02",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.48550/arXiv.2401.01220",
+              "id": "S2:5a13d1179a4978cd7a933329d922430cdb736e6d",
+              "provider": "semantic_scholar",
+              "title": "Solving multiscale dynamical systems by deep learning",
+              "url": "https://www.semanticscholar.org/paper/5a13d1179a4978cd7a933329d922430cdb736e6d?utm_source=api"
+            },
+            {
+              "abstract": "This research paper is about the effectiveness of a fusion of machine learning and artificial intelligence into smart irrigation systems in terms of both safety and benefit of the environment and the economy in farming. We've experienced a intensive process of experiment and application of this succeeded method in a real world scenario and we've also detailed the performance of the dynamic irrigation scheduling and the adapter sensor network optimization. Results indicate a significant improvement in key metrics: scheduling was done dynamically which on average was a 10% rise in crop yield and 15% water saving, on the other hand, sensor network optimization with adaptive technology resulted into a 15% increase in cover area and 20% improvement achieved in data transmission reliability. Furthermore, the introduction of the smart irrigation system got impressive results signified by a 10 kg more production per hectare, irrigation efficiency that rose from 70% to 85%, and saving 20% of the water consumed. This calls to mind the capability of cutting-edge technologies to contribute to innovative water management paradigms, improved resource use, and security in food production in face of unpredictable climatic variability.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2024-07-24",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/ICAIT61638.2024.10690523",
+              "id": "S2:8b9de652495cf7cb4016c0d25fe181e17ebe07cf",
+              "provider": "semantic_scholar",
+              "title": "Intelligent Irrigation Mechanism to Enhance the Sensor Network Topology by Using Machine Learning and Artificial Intelligence",
+              "url": "https://www.semanticscholar.org/paper/8b9de652495cf7cb4016c0d25fe181e17ebe07cf?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:2df18b8860493ff9a5ace8afcee734e5c22fb87f",
+              "provider": "semantic_scholar",
+              "title": "Learning Dynamical Systems Requires Rethinking Generalization",
+              "url": "https://www.semanticscholar.org/paper/2df18b8860493ff9a5ace8afcee734e5c22fb87f?utm_source=api"
+            },
+            {
+              "abstract": "Accurately identifying the underlying graph structures of multi-agent systems remains a difficult challenge. Our work introduces a novel machine learning-based solution that leverages the attention mechanism to predict future states of multi-agent systems by learning node representations. The graph structure is then inferred from the strength of the attention values. This approach is applied to both linear consensus dynamics and the non-linear dynamics of Kuramoto oscillators, resulting in implicit learning of the graph by learning good agent representations. Our results demonstrate that the presented data-driven graph attention machine learning model can identify the network topology in multi-agent systems, even when the underlying dynamic model is not known, as evidenced by the F1 scores achieved in the link prediction.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2024-08-27",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.48550/arXiv.2408.15449",
+              "id": "S2:ec527d3abddcc82ef333bd4698876a4838d087eb",
+              "provider": "semantic_scholar",
+              "title": "Graph Attention Inference of Network Topology in Multi-Agent Systems",
+              "url": "https://www.semanticscholar.org/paper/ec527d3abddcc82ef333bd4698876a4838d087eb?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2023-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:b4be201e41272bdd12ca0b0cd3d304288d4c2850",
+              "provider": "semantic_scholar",
+              "title": "Poster: Fixing the Foundations: Towards Generalization for Machine Learning Intrusion Detection Systems",
+              "url": "https://www.semanticscholar.org/paper/b4be201e41272bdd12ca0b0cd3d304288d4c2850?utm_source=api"
+            },
+            {
+              "abstract": "A central question of network science is how functional properties of systems emerge from their structure. For networked dynamical systems, structure is typically captured through network measures. We investigate the relationship between these measures and stability metrics across non-linear and linear oscillators, as well as real-world power grid topologies and dynamics. We find that this relationship is highly sensitive to the underlying ensemble: minor changes in the networks considered, such as going from mean degree 6 to mean degree 8, can invert the correlation between a network measure and stability. We also investigate network measures as inputs for machine learning, as well as Graph Neural Networks (GNNs) as predictors of stability. Both GNNs and the non-linear combination of many network measures can accurately predict stability within a given ensemble, yet both can fail when the ensemble changes. We conclude that neither approach reliably identifies the underlying structural causes of instability.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2024-02-27",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:41d2454bf45209abfc2da1843f774a809a0a20d4",
+              "provider": "semantic_scholar",
+              "title": "Instability in Complex Oscillator Networks: Limitations and Potentials of Network Measures and Machine Learning",
+              "url": "https://www.semanticscholar.org/paper/41d2454bf45209abfc2da1843f774a809a0a20d4?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2024-10-01",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 5582,
+              "query": "machine learning dynamical systems unseen network topology generalization",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8270",
+                "reset_seconds": "47015"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2024-10-01",
+                  "per_page": "10",
+                  "search": "machine learning dynamical systems unseen network topology generalization",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2024-10-02"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2024-10-01",
+              "attempts": 2,
+              "locally_excluded_uncertain_or_not_strictly_before": 4,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 1016,
+              "query": "machine learning dynamical systems unseen network topology generalization",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "machine learning dynamical systems unseen network topology generalization",
+                  "year": "1900-2024"
+                }
+              },
+              "strict_before": "2024-10-02"
+            }
+          },
+          "query": "machine learning dynamical systems unseen network topology generalization",
+          "strict_before": "2024-10-02"
+        }
+      ]
+    },
+    "B": {
+      "queries": [
+        {
+          "api_cutoff": "2024-10-01",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "This work presents Neural Equivariant Interatomic Potentials (NequIP), an E(3)-equivariant neural network approach for learning interatomic potentials from ab-initio calculations for molecular dynamics simulations. While most contemporary symmetry-aware models use invariant convolutions and only act on scalars, NequIP employs E(3)-equivariant convolutions for interactions of geometric tensors, resulting in a more information-rich and faithful representation of atomic environments. The method achieves state-of-the-art accuracy on a challenging and diverse set of molecules and materials while exhibiting remarkable data efficiency. NequIP outperforms existing models with up to three orders of magnitude fewer training data, challenging the widely held belief that deep neural networks require massive training sets. The high data efficiency of the method allows for the construction of accurate potentials using high-order quantum chemical level of theory as reference and enables high-fidelity molecular dynamics simulations over long time scales.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-05-04",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41467-022-29939-5",
+              "id": "https://openalex.org/W4225405705",
+              "provider": "openalex",
+              "title": "E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials"
+            },
+            {
+              "abstract": "Graphs naturally appear in numerous application domains, ranging from social analysis, bioinformatics to computer vision. The unique capability of graphs enables capturing the structural relations among data, and thus allows to harvest more insights compared to analyzing data in isolation. However, it is often very challenging to solve the learning problems on graphs, because (1) many types of data are not originally structured as graphs, such as images and text data, and (2) for graph-structured data, the underlying connectivity patterns are often complex and diverse. On the other hand, the representation learning has achieved great successes in many areas. Thereby, a potential solution is to learn the representation of graphs in a low-dimensional Euclidean space, such that the graph properties can be preserved. Although tremendous efforts have been made to address the graph representation learning problem, many of them still suffer from their shallow learning mechanisms. Deep learning models on graphs (e.g., graph neural networks) have recently emerged in machine learning and other related areas, and demonstrated the superior performance in various problems. In this survey, despite numerous types of graph neural networks, we conduct a comprehensive review specifically on the emerging field of graph convolutional networks, which is one of the most prominent graph deep learning models. First, we group the existing graph convolutional network models into two categories based on the types of convolutions and highlight some graph convolutional network models in details. Then, ",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-11-10",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1186/s40649-019-0069-y",
+              "id": "https://openalex.org/W2985331920",
+              "provider": "openalex",
+              "title": "Graph convolutional networks: a comprehensive review"
+            },
+            {
+              "abstract": "Since the discovery of small-world and scale-free networks the study of complex systems from a network perspective has taken an enormous flight. In recent years many important properties of complex networks have been delineated. In particular, significant progress has been made in understanding the relationship between the structural properties of networks and the nature of dynamics taking place on these networks. For instance, the 'synchronizability' of complex networks of coupled oscillators can be determined by graph spectral analysis. These developments in the theory of complex networks have inspired new applications in the field of neuroscience. Graph analysis has been used in the study of models of neural networks, anatomical connectivity, and functional connectivity based upon fMRI, EEG and MEG. These studies suggest that the human brain can be modelled as a complex network, and may have a small-world structure both at the level of anatomical as well as functional connectivity. This small-world structure is hypothesized to reflect an optimal situation associated with rapid synchronization and information transfer, minimal wiring costs, as well as a balance between local processing and global integration. The topological structure of functional networks is probably restrained by genetic and anatomical factors, but can be modified during tasks. There is also increasing evidence that various types of brain disease such as Alzheimer's disease, schizophrenia, brain tumours and epilepsy may be associated with deviations of the functional network topology from the optimal s",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2007-07-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1186/1753-4631-1-3",
+              "id": "https://openalex.org/W2026384313",
+              "provider": "openalex",
+              "title": "Graph theoretical analysis of complex networks in the brain"
+            },
+            {
+              "abstract": "Electroencephalography (EEG) measures the neuronal activities in different brain regions via electrodes. Many existing studies on EEG-based emotion recognition do not fully exploit the topology of EEG channels. In this article, we propose a regularized graph neural network (RGNN) for EEG-based emotion recognition. RGNN considers the biological topology among different brain regions to capture both local and global relations among different EEG channels. Specifically, we model the inter-channel relations in EEG signals via an adjacency matrix in a graph neural network where the connection and sparseness of the adjacency matrix are inspired by neuroscience theories of human brain organization. In addition, we propose two regularizers, namely node-wise domain adversarial training (NodeDAT) and emotion-aware distribution learning (EmotionDL), to better handle cross-subject EEG variations and noisy labels, respectively. Extensive experiments on two public datasets, SEED, and SEED-IV, demonstrate the superior performance of our model than state-of-the-art models in most experimental settings. Moreover, ablation studies show that the proposed adjacency matrix and two regularizers contribute consistent and significant gain to the performance of our RGNN model. Finally, investigations on the neuronal activities reveal important brain regions and inter-channel relations for EEG-based emotion recognition.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-05-11",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/taffc.2020.2994159",
+              "id": "https://openalex.org/W3024961463",
+              "provider": "openalex",
+              "title": "EEG-Based Emotion Recognition Using Regularized Graph Neural Networks"
+            },
+            {
+              "abstract": "Recommender system is one of the most important information services on today’s Internet. Recently, graph neural networks have become the new state-of-the-art approach to recommender systems. In this survey, we conduct a comprehensive review of the literature on graph neural network-based recommender systems. We first introduce the background and the history of the development of both recommender systems and graph neural networks. For recommender systems, in general, there are four aspects for categorizing existing works: stage, scenario, objective, and application. For graph neural networks, the existing methods consist of two categories: spectral models and spatial ones. We then discuss the motivation of applying graph neural networks into recommender systems, mainly consisting of the high-order connectivity, the structural property of data and the enhanced supervision signal. We then systematically analyze the challenges in graph construction, embedding propagation/aggregation, model optimization, and computation efficiency. Afterward and primarily, we provide a comprehensive overview of a multitude of existing works of graph neural network-based recommender systems, following the taxonomy above. Finally, we raise discussions on the open problems and promising future directions in this area. We summarize the representative papers along with their code repositories in https://github.com/tsinghua-fib-lab/GNN-Recommender-Systems .",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2023-01-14",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1145/3568022",
+              "id": "https://openalex.org/W4315977496",
+              "provider": "openalex",
+              "title": "A Survey of Graph Neural Networks for Recommender Systems: Challenges, Methods, and Directions"
+            },
+            {
+              "abstract": "Abstract Physics-Informed Neural Networks (PINN) are neural networks (NNs) that encode model equations, like Partial Differential Equations (PDE), as a component of the neural network itself. PINNs are nowadays used to solve PDEs, fractional equations, integral-differential equations, and stochastic PDEs. This novel methodology has arisen as a multi-task learning framework in which a NN must fit observed data while reducing a PDE residual. This article provides a comprehensive review of the literature on PINNs: while the primary goal of the study was to characterize these networks and their related advantages and disadvantages. The review also attempts to incorporate publications on a broader range of collocation-based physics informed neural networks, which stars form the vanilla PINN, as well as many other variants, such as physics-constrained neural networks (PCNN), variational hp-VPINN, and conservative PINN (CPINN). The study indicates that most research has focused on customizing the PINN through different activation functions, gradient optimization techniques, neural network structures, and loss function structures. Despite the wide range of applications for which PINNs have been used, by demonstrating their ability to be more feasible in some contexts than classical numerical techniques like Finite Element Method (FEM), advancements are still possible, most notably theoretical issues that remain unresolved.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-07-26",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s10915-022-01939-z",
+              "id": "https://openalex.org/W4288039037",
+              "provider": "openalex",
+              "title": "Scientific Machine Learning Through Physics–Informed Neural Networks: Where we are and What’s Next"
+            },
+            {
+              "abstract": "With the broader and highly successful usage of machine learning (ML) in industry and the sciences, there has been a growing demand for explainable artificial intelligence (XAI). Interpretability and explanation methods for gaining a better understanding of the problem-solving abilities and strategies of nonlinear ML, in particular, deep neural networks, are, therefore, receiving increased attention. In this work, we aim to: 1) provide a timely overview of this active emerging field, with a focus on “post hoc” explanations, and explain its theoretical foundations; 2) put interpretability algorithms to a test both from a theory and comparative evaluation perspective using extensive simulations; 3) outline best practice aspects, i.e., how to best include interpretation methods into the standard usage of ML; and 4) demonstrate successful usage of XAI in a representative selection of application scenarios. Finally, we discuss challenges and possible future directions of this exciting foundational field of ML.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-03-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/jproc.2021.3060483",
+              "id": "https://openalex.org/W3132191748",
+              "provider": "openalex",
+              "title": "Explaining Deep Neural Networks and Beyond: A Review of Methods and Applications"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2013-04-30",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.neuroimage.2013.04.087",
+              "id": "https://openalex.org/W2146406922",
+              "provider": "openalex",
+              "title": "Graph analysis of the human connectome: Promise, progress, and pitfalls"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-05-24",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s42254-021-00314-5",
+              "id": "https://openalex.org/W3163993681",
+              "provider": "openalex",
+              "title": "Physics-informed machine learning"
+            },
+            {
+              "abstract": "Background: Analysis of the human connectome using functional magnetic resonance imaging (fMRI) started in the mid-1990s and attracted increasing attention in attempts to discover the neural underpinnings of human cognition and neurological disorders. In general, brain connectivity patterns from fMRI data are classified as statistical dependencies (functional connectivity) or causal interactions (effective connectivity) among various neural units. Computational methods, especially graph theory-based methods, have recently played a significant role in understanding brain connectivity architecture. Objectives: Thanks to the emergence of graph theoretical analysis, the main purpose of the current paper is to systematically review how brain properties can emerge through the interactions of distinct neuronal units in various cognitive and neurological applications using fMRI. Moreover, this article provides an overview of the existing functional and effective connectivity methods used to construct the brain network, along with their advantages and pitfalls. Methods: In this systematic review, the databases Science Direct, Scopus, arXiv, Google Scholar, IEEE Xplore, PsycINFO, PubMed, and SpringerLink are employed for exploring the evolution of computational methods in human brain connectivity from 1990 to the present, focusing on graph theory. The Cochrane Collaboration's tool was used to assess the risk of bias in individual studies. Results: Our results show that graph theory and its implications in cognitive neuroscience have attracted the attention of researchers since 2009 (",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-06-06",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3389/fnins.2019.00585",
+              "id": "https://openalex.org/W2949763225",
+              "provider": "openalex",
+              "title": "Application of Graph Theory for Identifying Connectivity Patterns in Human Brain Networks: A Systematic Review"
+            },
+            {
+              "abstract": "Graph neural networks (GNNs) have become compelling models designed to perform learning and inference on graph-structured data. However, little work has been done to understand the fundamental limitations of GNNs for scaling to larger graphs and generalizing to out-of-distribution (OOD) inputs. In this paper, we use a random graph generator to systematically investigate how the graph size and structural properties affect the predictive performance of GNNs. We present specific evidence that the average node degree is a key feature in determining whether GNNs can generalize to unseen graphs, and that the use of multiple node update functions can improve the generalization performance of GNNs when dealing with graphs of multimodal degree distributions. Accordingly, we propose a multi-module GNN framework that allows the network to adapt flexibly to new graphs by generalizing a single canonical nonlinear transformation over aggregated inputs. Our results show that the multi-module GNNs improve the OOD generalization on a variety of inference tasks in the direction of diverse structural features.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-09-14",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.48550/arXiv.2209.06589",
+              "id": "S2:54c6b4e63a2b1390ea6d182a8fc88f63264c2000",
+              "provider": "semantic_scholar",
+              "title": "Towards Better Generalization with Flexible Representation of Multi-Module Graph Neural Networks",
+              "url": "https://www.semanticscholar.org/paper/54c6b4e63a2b1390ea6d182a8fc88f63264c2000?utm_source=api"
+            },
+            {
+              "abstract": "In this work we study the dynamics of systems composed of numerous interacting elements interconnected through a random weighted directed graph, such as models of random neural networks. We develop an original theoretical approach based on a combination of a classical mean-field theory originally developed in the context of dynamical spin-glass models, and the heterogeneous mean-field theory developed to study epidemic propagation on graphs. Our main result is that, surprisingly, increasing the variance of the in-degree distribution does not result in a more variable dynamical behavior, but on the contrary that the most variable behaviors are obtained in the regular graph setting. We further study how the dynamical complexity of the attractors is influenced by the statistical properties of the in-degree distribution.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2014-02-14",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PhysRevE.92.032802",
+              "id": "S2:7aa5925b042f33be2f65ef16584476b91ad2b30d",
+              "provider": "semantic_scholar",
+              "title": "Regular graphs maximize the variability of random neural networks.",
+              "url": "https://www.semanticscholar.org/paper/7aa5925b042f33be2f65ef16584476b91ad2b30d?utm_source=api"
+            },
+            {
+              "abstract": "A fundamental question regarding neural systems and other applications \ninvolving networks is the extent to which the network architecture \nmay contribute to the observed dynamics. We explore this question by investigating \ntwo different processes on three different graph structures, asking to \nwhat extent the graph structure (as represented by the degree distribution) is \nreflected in the dynamics of the process. Our findings suggest that memoryless \nprocesses are more likely to reflect the degree distribution, whereas processes \nwith memory can robustly give power law or other heavy-tailed distributions \nregardless of degree distribution.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2011-10-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3934/PROC.2011.2011.1279",
+              "id": "S2:373cb8c5d7908b1aa1184589e3a8a76dc1ad97ac",
+              "provider": "semantic_scholar",
+              "title": "Random graph and stochastic process contributions to network dynamics",
+              "url": "https://www.semanticscholar.org/paper/373cb8c5d7908b1aa1184589e3a8a76dc1ad97ac?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2009-06-14",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/IJCNN.2009.5178633",
+              "id": "S2:e7fda22302adb9e16f276051fc8161ab2663f9e7",
+              "provider": "semantic_scholar",
+              "title": "Robustness of power laws in degree distributions for spiking neural networks",
+              "url": "https://www.semanticscholar.org/paper/e7fda22302adb9e16f276051fc8161ab2663f9e7?utm_source=api"
+            },
+            {
+              "abstract": "We study the influence of network topology on retrieval properties of recurrent neural networks, using replica techniques for dilute systems. The theory is presented for a network with an arbitrary degree distribution p(k) and applied to power-law distributions p(k) ∼ k −γ , i.e. to neural networks on scale-free graphs. A bifurcation analysis identifies phase boundaries between the paramagnetic phase and either a retrieval phase or a spin-glass phase. Using a population dynamics algorithm, the retrieval overlap and spin-glass order parameters may be calculated throughout the phase diagram. It is shown that there is an enhancement of the retrieval properties compared with a Poissonian random graph. We compare our findings with simulations.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2004-04-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/0305-4470/37/37/002",
+              "id": "S2:43fcf88450a344e57f3db2d8c0a506d38443c07a",
+              "provider": "semantic_scholar",
+              "title": "Analytic solution of attractor neural networks on scale-free graphs",
+              "url": "https://www.semanticscholar.org/paper/43fcf88450a344e57f3db2d8c0a506d38443c07a?utm_source=api"
+            },
+            {
+              "abstract": "The standard logistic map, x'=ax(1-x), serves as a paradigmatic model to demonstrate how apparently simple nonlinear equations lead to complex and chaotic dynamics. In this work, we introduce and investigate its matrix analogue defined for an arbitrary matrix X of a given order N. We show that for an arbitrary initial ensemble of Hermitian random matrices with a continuous level density supported on the interval [0,1], the asymptotic level density converges to the invariant measure of the logistic map. Depending on the parameter a, the constructed measure may be either singular, fractal or described by a continuous density. In a wider class of the map, the multiplication by a scalar logistic parameter a is replaced by transforming aX(I-X) into BX(I-X)B†, where A=BB† is a fixed positive matrix of order N. This approach generalizes the known model of coupled logistic maps and allows us to study the transition to chaos in complex networks and multidimensional systems. In particular, by associating the matrix B with a given graph, we demonstrate the gradual transfer of chaos between subsystems corresponding to vertices of a graph and coupled according to its edges.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2023-03-10",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1063/5.0298024",
+              "id": "S2:e77087134afdbd6319812c0df5c1c20d5340bad7",
+              "provider": "semantic_scholar",
+              "title": "Matrix logistic map: Fractal spectral distributions and transfer of chaos.",
+              "url": "https://www.semanticscholar.org/paper/e77087134afdbd6319812c0df5c1c20d5340bad7?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-05-30",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:592f56913579f887147484b2b6b36570ddab4e0a",
+              "provider": "semantic_scholar",
+              "title": "Functional Neuroimages Analyzed by means of Artificial Neural Networks Can Help Psychiatrists to Diagnose Schizophrenia",
+              "url": "https://www.semanticscholar.org/paper/592f56913579f887147484b2b6b36570ddab4e0a?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2009-08-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/TEVC.2009.2019825",
+              "id": "S2:683f7f923ac62dbaf6eabcac3483fc0bb34b196c",
+              "provider": "semantic_scholar",
+              "title": "Evolutionary Dynamics on Scale-Free Interaction Networks",
+              "url": "https://www.semanticscholar.org/paper/683f7f923ac62dbaf6eabcac3483fc0bb34b196c?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-08-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/IHMSC.2015.238",
+              "id": "S2:58a40ca7ce8befd7be8b4cc3d57cf601b975014f",
+              "provider": "semantic_scholar",
+              "title": "Time Series Analysis Based on Visibility Graph Theory",
+              "url": "https://www.semanticscholar.org/paper/58a40ca7ce8befd7be8b4cc3d57cf601b975014f?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2024-10-01",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 18115,
+              "query": "graph neural networks nonlinear dynamics transfer random graph degree distribution",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8260",
+                "reset_seconds": "47006"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2024-10-01",
+                  "per_page": "10",
+                  "search": "graph neural networks nonlinear dynamics transfer random graph degree distribution",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2024-10-02"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2024-10-01",
+              "attempts": 1,
+              "locally_excluded_uncertain_or_not_strictly_before": 1,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 55,
+              "query": "graph neural networks nonlinear dynamics transfer random graph degree distribution",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "graph neural networks nonlinear dynamics transfer random graph degree distribution",
+                  "year": "1900-2024"
+                }
+              },
+              "strict_before": "2024-10-02"
+            }
+          },
+          "query": "graph neural networks nonlinear dynamics transfer random graph degree distribution",
+          "strict_before": "2024-10-02"
+        },
+        {
+          "api_cutoff": "2024-10-01",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "Multilayer neural networks trained with the back-propagation algorithm constitute the best example of a successful gradient based learning technique. Given an appropriate network architecture, gradient-based learning algorithms can be used to synthesize a complex decision surface that can classify high-dimensional patterns, such as handwritten characters, with minimal preprocessing. This paper reviews various methods applied to handwritten character recognition and compares them on a standard handwritten digit recognition task. Convolutional neural networks, which are specifically designed to deal with the variability of 2D shapes, are shown to outperform all other techniques. Real-life document recognition systems are composed of multiple modules including field extraction, segmentation recognition, and language modeling. A new learning paradigm, called graph transformer networks (GTN), allows such multimodule systems to be trained globally using gradient-based methods so as to minimize an overall performance measure. Two systems for online handwriting recognition are described. Experiments demonstrate the advantage of global training, and the flexibility of graph transformer networks. A graph transformer network for reading a bank cheque is also described. It uses convolutional neural network character recognizers combined with global training techniques to provide record accuracy on business and personal cheques. It is deployed commercially and reads several million cheques per day.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1998-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/5.726791",
+              "id": "https://openalex.org/W2112796928",
+              "provider": "openalex",
+              "title": "Gradient-based learning applied to document recognition"
+            },
+            {
+              "abstract": "Humans and animals have the ability to continually acquire, fine-tune, and transfer knowledge and skills throughout their lifespan. This ability, referred to as lifelong learning, is mediated by a rich set of neurocognitive mechanisms that together contribute to the development and specialization of our sensorimotor skills as well as to long-term memory consolidation and retrieval. Consequently, lifelong learning capabilities are crucial for computational learning systems and autonomous agents interacting in the real world and processing continuous streams of information. However, lifelong learning remains a long-standing challenge for machine learning and neural network models since the continual acquisition of incrementally available information from non-stationary data distributions generally leads to catastrophic forgetting or interference. This limitation represents a major drawback for state-of-the-art deep neural network models that typically learn representations from stationary batches of training data, thus without accounting for situations in which information becomes incrementally available over time. In this review, we critically summarize the main challenges linked to lifelong learning for artificial learning systems and compare existing neural network approaches that alleviate, to different extents, catastrophic forgetting. Although significant advances have been made in domain-specific learning with neural networks, extensive research efforts are required for the development of robust lifelong learning on autonomous agents and robots. We discuss well-establi",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-02-10",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.neunet.2019.01.012",
+              "id": "https://openalex.org/W2788388592",
+              "provider": "openalex",
+              "title": "Continual lifelong learning with neural networks: A review"
+            },
+            {
+              "abstract": "Since the classical molecular dynamics simulator LAMMPS was released as an open source code in 2004, it has become a widely-used tool for particle-based modeling of materials at length scales ranging from atomic to mesoscale to continuum. Reasons for its popularity are that it provides a wide variety of particle interaction models for different materials, that it runs on any platform from a single CPU core to the largest supercomputers with accelerators, and that it gives users control over simulation details, either via the input script or by adding code for new interatomic potentials, constraints, diagnostics, or other features needed for their models. As a result, hundreds of people have contributed new capabilities to LAMMPS and it has grown from fifty thousand lines of code in 2004 to a million lines today. In this paper several of the fundamental algorithms used in LAMMPS are described along with the design strategies which have made it flexible for both users and developers. We also highlight some capabilities recently added to the code which were enabled by this flexibility, including dynamic load balancing, on-the-fly visualization, magnetic spin dynamics models, and quantum-accuracy machine learning interatomic potentials. Program Title: Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) CPC Library link to program files: https://doi.org/10.17632/cxbxs9btsv.1 Developer's repository link: https://github.com/lammps/lammps Licensing provisions: GPLv2 Programming language: C++, Python, C, Fortran Supplementary material: https://www.lammps.org Nature of",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-09-22",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.cpc.2021.108171",
+              "id": "https://openalex.org/W3201073812",
+              "provider": "openalex",
+              "title": "LAMMPS - a flexible simulation tool for particle-based materials modeling at the atomic, meso, and continuum scales"
+            },
+            {
+              "abstract": "The complexity of many biological, social and technological systems stems from the richness of the interactions among their units. Over the past decades, a variety of complex systems has been successfully described as networks whose interacting pairs of nodes are connected by links. Yet, from human communications to chemical reactions and ecological systems, interactions can often occur in groups of three or more nodes and cannot be described simply in terms of dyads. Until recently little attention has been devoted to the higher-order architecture of real complex systems. However, a mounting body of evidence is showing that taking the higher-order structure of these systems into account can enhance our modeling capacities and help us understand and predict their dynamical behavior. Here we present a complete overview of the emerging field of networks beyond pairwise interactions. We discuss how to represent higher-order interactions and introduce the different frameworks used to describe higher-order systems, highlighting the links between the existing concepts and representations. We review the measures designed to characterize the structure of these systems and the models proposed to generate synthetic structures, such as random and growing bipartite graphs, hypergraphs and simplicial complexes. We introduce the rapidly growing research on higher-order dynamical systems and dynamical topology, discussing the relations between higher-order interactions and collective behavior. We focus in particular on new emergent phenomena characterizing dynamical processes, such as dif",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-06-13",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.physrep.2020.05.004",
+              "id": "https://openalex.org/W3033513666",
+              "provider": "openalex",
+              "title": "Networks beyond pairwise interactions: Structure and dynamics"
+            },
+            {
+              "abstract": "This work presents Neural Equivariant Interatomic Potentials (NequIP), an E(3)-equivariant neural network approach for learning interatomic potentials from ab-initio calculations for molecular dynamics simulations. While most contemporary symmetry-aware models use invariant convolutions and only act on scalars, NequIP employs E(3)-equivariant convolutions for interactions of geometric tensors, resulting in a more information-rich and faithful representation of atomic environments. The method achieves state-of-the-art accuracy on a challenging and diverse set of molecules and materials while exhibiting remarkable data efficiency. NequIP outperforms existing models with up to three orders of magnitude fewer training data, challenging the widely held belief that deep neural networks require massive training sets. The high data efficiency of the method allows for the construction of accurate potentials using high-order quantum chemical level of theory as reference and enables high-fidelity molecular dynamics simulations over long time scales.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-05-04",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41467-022-29939-5",
+              "id": "https://openalex.org/W4225405705",
+              "provider": "openalex",
+              "title": "E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials"
+            },
+            {
+              "abstract": "In recent years, the network approach to psychopathology has been advanced as an alternative way of conceptualizing mental disorders. In this approach, mental disorders arise from direct interactions between symptoms. Although the network approach has led to many novel methodologies and substantive applications, it has not yet been fully articulated as a scientific theory of mental disorders. The present paper aims to develop such a theory, by postulating a limited set of theoretical principles regarding the structure and dynamics of symptom networks. At the heart of the theory lies the notion that symptoms of psychopathology are causally connected through myriads of biological, psychological and societal mechanisms. If these causal relations are sufficiently strong, symptoms can generate a level of feedback that renders them self-sustaining. In this case, the network can get stuck in a disorder state. The network theory holds that this is a general feature of mental disorders, which can therefore be understood as alternative stable states of strongly connected symptom networks. This idea naturally leads to a comprehensive model of psychopathology, encompassing a common explanatory model for mental disorders, as well as novel definitions of associated concepts such as mental health, resilience, vulnerability and liability. In addition, the network theory has direct implications for how to understand diagnosis and treatment, and suggests a clear agenda for future research in psychiatry and associated disciplines.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-01-26",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/wps.20375",
+              "id": "https://openalex.org/W2582550385",
+              "provider": "openalex",
+              "title": "A network theory of mental disorders"
+            },
+            {
+              "abstract": "Since the discovery of small-world and scale-free networks the study of complex systems from a network perspective has taken an enormous flight. In recent years many important properties of complex networks have been delineated. In particular, significant progress has been made in understanding the relationship between the structural properties of networks and the nature of dynamics taking place on these networks. For instance, the 'synchronizability' of complex networks of coupled oscillators can be determined by graph spectral analysis. These developments in the theory of complex networks have inspired new applications in the field of neuroscience. Graph analysis has been used in the study of models of neural networks, anatomical connectivity, and functional connectivity based upon fMRI, EEG and MEG. These studies suggest that the human brain can be modelled as a complex network, and may have a small-world structure both at the level of anatomical as well as functional connectivity. This small-world structure is hypothesized to reflect an optimal situation associated with rapid synchronization and information transfer, minimal wiring costs, as well as a balance between local processing and global integration. The topological structure of functional networks is probably restrained by genetic and anatomical factors, but can be modified during tasks. There is also increasing evidence that various types of brain disease such as Alzheimer's disease, schizophrenia, brain tumours and epilepsy may be associated with deviations of the functional network topology from the optimal s",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2007-07-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1186/1753-4631-1-3",
+              "id": "https://openalex.org/W2026384313",
+              "provider": "openalex",
+              "title": "Graph theoretical analysis of complex networks in the brain"
+            },
+            {
+              "abstract": "The human brain is a complex system whose topological organization can be represented using connectomics. Recent studies have shown that human connectomes can be constructed using various neuroimaging technologies and further characterized using sophisticated analytic strategies, such as graph theory. These methods reveal the intriguing topological architectures of human brain networks in healthy populations and explore the changes throughout normal development and aging and under various pathological conditions. However, given the huge complexity of this methodology, toolboxes for graph-based network visualization are still lacking. Here, using MATLAB with a graphical user interface (GUI), we developed a graph-theoretical network visualization toolbox, called BrainNet Viewer, to illustrate human connectomes as ball-and-stick models. Within this toolbox, several combinations of defined files with connectome information can be loaded to display different combinations of brain surface, nodes and edges. In addition, display properties, such as the color and size of network elements or the layout of the figure, can be adjusted within a comprehensive but easy-to-use settings panel. Moreover, BrainNet Viewer draws the brain surface, nodes and edges in sequence and displays brain networks in multiple views, as required by the user. The figure can be manipulated with certain interaction functions to display more detailed information. Furthermore, the figures can be exported as commonly used image file formats or demonstration video for further use. BrainNet Viewer helps researchers",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2013-07-04",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1371/journal.pone.0068910",
+              "id": "https://openalex.org/W2005821483",
+              "provider": "openalex",
+              "title": "BrainNet Viewer: A Network Visualization Tool for Human Brain Connectomics"
+            },
+            {
+              "abstract": "We develop a geometric framework to study the structure and function of complex networks. We assume that hyperbolic geometry underlies these networks, and we show that with this assumption, heterogeneous degree distributions and strong clustering in complex networks emerge naturally as simple reflections of the negative curvature and metric property of the underlying hyperbolic geometry. Conversely, we show that if a network has some metric structure, and if the network degree distribution is heterogeneous, then the network has an effective hyperbolic geometry underneath. We then establish a mapping between our geometric framework and statistical mechanics of complex networks. This mapping interprets edges in a network as noninteracting fermions whose energies are hyperbolic distances between nodes, while the auxiliary fields coupled to edges are linear functions of these energies or distances. The geometric network ensemble subsumes the standard configuration model and classical random graphs as two limiting cases with degenerate geometric structures. Finally, we show that targeted transport processes without global topology knowledge, made possible by our geometric framework, are maximally efficient, according to all efficiency measures, in networks with strongest heterogeneity and clustering, and that this efficiency is remarkably robust with respect to even catastrophic disturbances and damages to the network structure.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2010-09-09",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/physreve.82.036106",
+              "id": "https://openalex.org/W1971215074",
+              "provider": "openalex",
+              "title": "Hyperbolic geometry of complex networks"
+            },
+            {
+              "abstract": "Abstract In computer vision, a series of exemplary advances have been made in several areas involving image classification, semantic segmentation, object detection, and image super-resolution reconstruction with the rapid development of deep convolutional neural network (CNN). The CNN has superior features for autonomous learning and expression, and feature extraction from original input data can be realized by means of training CNN models that match practical applications. Due to the rapid progress in deep learning technology, the structure of CNN is becoming more and more complex and diverse. Consequently, it gradually replaces the traditional machine learning methods. This paper presents an elementary understanding of CNN components and their functions, including input layers, convolution layers, pooling layers, activation functions, batch normalization, dropout, fully connected layers, and output layers. On this basis, this paper gives a comprehensive overview of the past and current research status of the applications of CNN models in computer vision fields, e.g., image classification, object detection, and video prediction. In addition, we summarize the challenges and solutions of the deep CNN, and future research directions are also discussed.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2024-03-23",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s10462-024-10721-6",
+              "id": "https://openalex.org/W4393115925",
+              "provider": "openalex",
+              "title": "A review of convolutional neural networks in computer vision"
+            },
+            {
+              "abstract": "Although real-world complex systems typically interact through sparse and heterogeneous networks, analytic solutions of their dynamics are limited to models with all-to-all interactions. Here, we solve the dynamics of a broad range of nonlinear models of complex systems on sparse directed networks with a random structure. By generalizing dynamical mean-field theory to sparse systems, we derive an exact equation for the path probability describing the effective dynamics of a single degree of freedom. Our general solution applies to key models in the study of neural networks, ecosystems, epidemic spreading, and synchronization. Using the population dynamics algorithm, we solve the path-probability equation to determine the phase diagram of a seminal neural network model in the sparse regime, showing that this model undergoes a transition from a fixed-point phase to chaos as a function of the network topology.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2024-06-10",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PhysRevLett.134.037401",
+              "id": "S2:80f9ac3ce7e368ad11d5d2d4c2ba5bc25b28edd6",
+              "provider": "semantic_scholar",
+              "title": "Dynamical Mean-Field Theory of Complex Systems on Sparse Directed Networks.",
+              "url": "https://www.semanticscholar.org/paper/80f9ac3ce7e368ad11d5d2d4c2ba5bc25b28edd6?utm_source=api"
+            },
+            {
+              "abstract": "This paper investigates the long-time behavior of fractional-order complex memristive neural networks in order to analyze the synchronization of both anatomical and functional brain networks, for predicting therapy response, and ensuring safe diagnostic and treatments of neurological disorder (such as epilepsy, Alzheimer’s disease, or Parkinson’s disease). A new mathematical brain connectivity model, taking into account the memory characteristics of neurons and their past history, the heterogeneity of brain tissue, and the local anisotropy of cell diffusion, is proposed. This developed model, which depends on topology, interactions, and local dynamics, is a set of coupled nonlinear Caputo fractional reaction–diffusion equations, in the shape of a fractional-order ODE coupled with a set of time fractional-order PDEs, interacting via an asymmetric complex network. In order to introduce into the model the connection structure between neurons (or brain regions), the graph theory, in which the discrete Laplacian matrix of the communication graph plays a fundamental role, is considered. The existence of an absorbing set in state spaces for system is discussed, and then the dissipative dynamics result, with absorbing sets, is proved. Finally, some Mittag–Leffler synchronization results are established for this complex memristive neural network under certain threshold values of coupling forces, memristive weight coefficients, and diffusion coefficients.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2024-06-28",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3390/axioms13070440",
+              "id": "S2:861dab015ec4d44e8312db203829c42e1ac8f28e",
+              "provider": "semantic_scholar",
+              "title": "Brain Connectivity Dynamics and Mittag-Leffler Synchronization in Asymmetric Complex Networks for a Class of Coupled Nonlinear Fractional-Order Memristive Neural Network System with Coupling Boundary Conditions",
+              "url": "https://www.semanticscholar.org/paper/861dab015ec4d44e8312db203829c42e1ac8f28e?utm_source=api"
+            },
+            {
+              "abstract": "Comparison of data representations is a complex multi-aspect problem that has not enjoyed a complete solution yet. We propose a method for comparing two data representations. We introduce the Representation Topology Divergence (RTD), measuring the dissimilarity in multi-scale topology between two point clouds of equal size with a one-to-one correspondence between points. The data point clouds are allowed to lie in different ambient spaces. The RTD is one of the few TDA-based practical methods applicable to real machine learning datasets. Experiments show that the proposed RTD agrees with the intuitive assessment of data representation similarity and is sensitive to its topological structure. We apply RTD to gain insights on neural networks representations in computer vision and NLP domains for various problems: training dynamics analysis, data distribution shift, transfer learning, ensemble learning, disentanglement assessment.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-12-31",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:655e4837a05afdfa03124d9c41c0912805423571",
+              "provider": "semantic_scholar",
+              "title": "Representation Topology Divergence: A Method for Comparing Neural Network Representations",
+              "url": "https://www.semanticscholar.org/paper/655e4837a05afdfa03124d9c41c0912805423571?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2024-07-22",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s11071-024-09642-4",
+              "id": "S2:027df2e1b7747598b3e2d990ad8081f46ee80963",
+              "provider": "semantic_scholar",
+              "title": "State-space reconstruction from partial observables using an invertible neural network with structure-preserving properties for nonlinear structural dynamics",
+              "url": "https://www.semanticscholar.org/paper/027df2e1b7747598b3e2d990ad8081f46ee80963?utm_source=api"
+            },
+            {
+              "abstract": "The increasing penetration of distributed generations is fundamentally reshaping the dynamics and stability characteristics of microgrids in power distribution systems. This shift complicates the model development and due to the lack of complete parameters of microgrid components, especially when vendors do not offer transparent information about their devices. To address the issue of unclear parameters and ambiguous mechanisms bringing by this situation, we introduce physics-informed neural network (PINN) into the parameter estimation and dynamic simulation processes of microgrids. By solving ordinary differential equations constructed for the electrical equipment within microgrids, PINN is able to provide dynamic time-domain predictions and estimating unknown parameters. This approach harnesses the strengths of neural networks while also complying with the laws of physics. It has been validated through modelling and verification in the real-time digital simulation system, demonstrating its effectiveness. This work has also shown the potential of extending, the introduced method to other microgrid application in which traditional numerical methods may encounter difficulties.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2024-07-21",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/PESGM51994.2024.10688678",
+              "id": "S2:a506c766cd1e359b681bd52f765cd91cb66e2526",
+              "provider": "semantic_scholar",
+              "title": "Physics-Informed Neural Network for Microgrid Forward/Inverse Ordinary Differential Equations",
+              "url": "https://www.semanticscholar.org/paper/a506c766cd1e359b681bd52f765cd91cb66e2526?utm_source=api"
+            },
+            {
+              "abstract": "Lagrangian and Hamiltonian neural networks (LNNs and HNNs, respectively) encode strong inductive biases that allow them to outperform other models of physical systems significantly. However, these models have, thus far, mostly been limited to simple systems such as pendulums and springs or a single rigid body such as a gyroscope or a rigid rotor. Here, we present a Lagrangian graph neural network (LGNN) that can learn the dynamics of articulated rigid bodies by exploiting their topology. We demonstrate the performance of LGNN by learning the dynamics of ropes, chains, and trusses with the bars modeled as rigid bodies. LGNN also exhibits generalizability -- LGNN trained on chains with a few segments exhibits generalizability to simulate a chain with large number of links and arbitrary link length. We also show that the LGNN can simulate unseen hybrid systems including bars and chains, on which they have not been trained on. Specifically, we show that the LGNN can be used to model the dynamics of complex real-world structures such as the stability of tensegrity structures. Finally, we discuss the non-diagonal nature of the mass matrix and its ability to generalize in complex systems.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-09-23",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.52202/068431-2160",
+              "id": "S2:88f7d271934ab75ee518b8b1dfb8a9eec87133d2",
+              "provider": "semantic_scholar",
+              "title": "Learning Articulated Rigid Body Dynamics with Lagrangian Graph Neural Network",
+              "url": "https://www.semanticscholar.org/paper/88f7d271934ab75ee518b8b1dfb8a9eec87133d2?utm_source=api"
+            },
+            {
+              "abstract": "Abstract Deep learning models are not yet fully applied to fluid dynamics predictions, while they are the state-of-the-art solution in many other areas i.e. video and language processing, finance, robotics,... Prediction problems on high-dimensional, complex dynamical systems require deep learning models devised to avoid overfitting while maintaining the required model complexity. In this work we present a deep learning prediction model based on a combination of 3D convolutional layers and a low-dimensional intermediate representation that is specifically designed to forecast the future states of this type of dynamical systems. The model predicts p future velocity-field time-slices (samples) based on k past samples from a training dataset consisting of a synthetic jet in transitional regime. The complexity of this flow is characterized by two topology patterns that are periodically changing, making this flow as a suitable example to test the performance of deep learning models to predict time states in complex flows. Moreover, the wide number of applications of synthetic jets (i.e.: fluid mixing, heat transfer enhancement, flow control), points out this example as a reference for future applications, where modeling synthetic jet flows with a reduced computational effort is needed. This work additionally opens up research opportunities for other areas that also operate with complex and high-dimensional time-series data: future frame video prediction, network traffic forecasting, network intrusion detection, The proposed model is presented in detail. A comprehensive analysis of the results is provided. The results are based on a strict validation strategy to ensure its generalization. The model offers an average symmetric mean absolute error (sMAPE) and a relative root mean square error (RRMSE) of 1.068 and 0.026 respectively (one order of magnitude improvement over low-rank approximation tools), using 10 past samples and predicting 6 future samples of a two-dimensional velocity field on a 70x50 point matrix associated to a synthetic jet dataset.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-03-20",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/J.ESWA.2021.114924",
+              "id": "S2:2df3f5aa691423369d0923445c936f124bc2e129",
+              "provider": "semantic_scholar",
+              "title": "Model-free short-term fluid dynamics estimator with a deep 3D-convolutional neural network",
+              "url": "https://www.semanticscholar.org/paper/2df3f5aa691423369d0923445c936f124bc2e129?utm_source=api"
+            },
+            {
+              "abstract": "Dynamic graph neural networks (DyGNNs) have demonstrated powerful predictive abilities by exploiting graph structural and temporal dynamics. However, the existing DyGNNs fail to handle distribution shifts, which naturally exist in dynamic graphs, mainly because the patterns exploited by DyGNNs may be variant with respect to labels under distribution shifts. In this paper, we propose to handle spatio-temporal distribution shifts in dynamic graphs by discovering and utilizing invariant patterns , i.e., structures and features whose predictive abilities are stable across distribution shifts, which faces two key challenges: 1) How to discover the complex variant and invariant spatio-temporal patterns in dynamic graphs, which involve both time-varying graph structures and node features. 2) How to handle spatio-temporal distribution shifts with the discovered variant and invariant patterns. To tackle these challenges, we propose the Disentangled Intervention-based Dynamic graph Attention networks ( DIDA ). Our proposed method can effectively handle spatio-temporal distribution shifts in dynamic graphs by discovering and fully utilizing invariant spatio-temporal patterns. Specifically, we first propose a disentangled spatio-temporal attention network to capture the variant and invariant patterns. Then, we design a spatio-temporal intervention mechanism to create multiple interventional distributions by sampling and reassembling variant patterns across neighborhoods and time stamps to eliminate the spurious impacts of variant patterns. Lastly, we propose an invariance regularization term to minimize the variance of predictions in intervened distributions so that our model can make predictions based on invariant patterns with stable predictive abilities and therefore handle distribution shifts. Experiments on three real-world datasets and one synthetic dataset demonstrate the superiority of our method over state-of-the-art baselines under distribution shifts. Our work is the first study of spatio-temporal distribution shifts in dynamic graphs, to the best of our knowledge",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-01-01",
+              "date_precision": "year",
+              "doi": "https://doi.org/10.52202/068431-0440",
+              "id": "S2:bd4b8cad70faa48605163eaede13d62fb671f5de",
+              "provider": "semantic_scholar",
+              "title": "Dynamic Graph Neural Networks Under Spatio-Temporal Distribution Shift",
+              "url": "https://www.semanticscholar.org/paper/bd4b8cad70faa48605163eaede13d62fb671f5de?utm_source=api"
+            },
+            {
+              "abstract": "Contamination events in water distribution networks (WDN) pose significant threats to water supply and public health. Rapid and accurate contamination source identification (CSI) can facilitate the development of remedial measures to reduce impacts. Though many machine learning (ML) methods have been proposed for fast detection, there is a critical need for approaches capturing complex spatial dynamics in WDNs to enhance prediction accuracy. This study proposes a gated graph neural network (GGNN) for CSI in the WDN, incorporating both spatiotemporal water quality data and flow directionality between network nodes. Evaluated across various contamination scenarios, the GGNN demonstrates high prediction accuracy even with limited sensor coverage. Notably, directional connections significantly enhance the GGNN CSI accuracy, underscoring the importance of network topology and flow dynamics in ML-based WDN CSI approaches. Specifically, the method achieves a 92.27% accuracy in narrowing the contamination source to 5 points using just 2 h of sensor data. The GGNN showcases resilience under model and measurement uncertainties, reaffirming its potential for real-time implementation in practice. Moreover, our findings highlight the impact of sensor sampling frequency and measurement accuracy on CSI accuracy, offering practical insights for ML methods in water network applications.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2023-12-19",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.jenvman.2023.119806",
+              "id": "S2:9087e2d428ef74a62e61ef742b7dae03298e1816",
+              "provider": "semantic_scholar",
+              "title": "Gated graph neural networks for identifying contamination sources in water distribution systems.",
+              "url": "https://www.semanticscholar.org/paper/9087e2d428ef74a62e61ef742b7dae03298e1816?utm_source=api"
+            },
+            {
+              "abstract": "In the past two years, electromagnetic topology has become an important method to solve electromagnetic interference. Some people have proposed improved calculation methods in view of the shortcomings of traditional methods. In the transmission line model, the extraction of distribution parameters is the first step, and domestic scholars have proposed different solutions. The main purpose of this paper is to study the electromagnetic topology optimization algorithm based on BP neural network technology. Based on the electromagnetic topology theory, this paper proposes a hybrid method to calculate the coupled interference voltage of cable field lines in a complex shielded enclosure. The electromagnetic topology diagram of the external interference source of the cavity to the load is established to analyze the energy transfer process between the systems. Experiments show that the calculation time of the method in this paper is only 9.7% and 12.5% of the CST simulation time. It can be seen that the computational efficiency of the method in this paper is significantly improved, and the modeling difficulty is effectively reduced.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-10-12",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/ICCASIT55263.2022.9987033",
+              "id": "S2:96e62c75bf3163605d66b792de01dd12ddc750d3",
+              "provider": "semantic_scholar",
+              "title": "The Electromagnetic Topology Optimization Algorithm Based on BP Neural Network Technology",
+              "url": "https://www.semanticscholar.org/paper/96e62c75bf3163605d66b792de01dd12ddc750d3?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2024-10-01",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 27597,
+              "query": "neural network model complex systems distribution shift topology dynamics",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8250",
+                "reset_seconds": "47004"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2024-10-01",
+                  "per_page": "10",
+                  "search": "neural network model complex systems distribution shift topology dynamics",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2024-10-02"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2024-10-01",
+              "attempts": 1,
+              "locally_excluded_uncertain_or_not_strictly_before": 0,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 1235,
+              "query": "neural network model complex systems distribution shift topology dynamics",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "neural network model complex systems distribution shift topology dynamics",
+                  "year": "1900-2024"
+                }
+              },
+              "strict_before": "2024-10-02"
+            }
+          },
+          "query": "neural network model complex systems distribution shift topology dynamics",
+          "strict_before": "2024-10-02"
+        }
+      ]
+    }
+  },
+  "generated_at": "2026-08-13T10:56:39.771237+00:00",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "4624446fe22474b87032763e6f496ef85fe46c860d3e16a4a23cac9d4add176f",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Migrated without changing the frozen pre-t0 query results; non-detection is scoped, not universal priority.",
+  "strict_before": "2024-10-02",
+  "task_id": "Information_01_dynamics_generalization",
+  "release": "V1.0"
+}

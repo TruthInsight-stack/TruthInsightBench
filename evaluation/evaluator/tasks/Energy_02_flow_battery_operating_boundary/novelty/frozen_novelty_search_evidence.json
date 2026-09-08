@@ -1,0 +1,427 @@
+{
+  "all_queries_completed": true,
+  "api_cutoff": "2021-12-31",
+  "cards": {
+    "A": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1109/isie.2019.8781152",
+              "id": "https://doi.org/10.1109/isie.2019.8781152",
+              "landing_page_url": "https://doi.org/10.1109/isie.2019.8781152",
+              "publication_date": "2019-06-01",
+              "publication_year": 2019,
+              "source_name": "2019 IEEE 28th International Symposium on Industrial Electronics (ISIE)",
+              "title": "Maximizing Vanadium Redox Flow Battery Efficiency: Strategies of Flow Rate Control",
+              "type": "proceedings-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.7249/n2009",
+              "id": "https://doi.org/10.7249/n2009",
+              "landing_page_url": "https://doi.org/10.7249/n2009",
+              "publication_date": "1983-01-01",
+              "publication_year": 1983,
+              "source_name": null,
+              "title": "The tradeoff between equity and efficiency in electric utility rate structures: A comment on the TVA approach",
+              "type": "edited-book"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jpowsour.2013.09.071",
+              "id": "https://doi.org/10.1016/j.jpowsour.2013.09.071",
+              "landing_page_url": "https://doi.org/10.1016/j.jpowsour.2013.09.071",
+              "publication_date": "2014-02-01",
+              "publication_year": 2014,
+              "source_name": "Journal of Power Sources",
+              "title": "Studies on pressure losses and flow rate optimization in vanadium redox flow battery",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jpowsour.2011.11.036",
+              "id": "https://doi.org/10.1016/j.jpowsour.2011.11.036",
+              "landing_page_url": "https://doi.org/10.1016/j.jpowsour.2011.11.036",
+              "publication_date": "2012-04-01",
+              "publication_year": 2012,
+              "source_name": "Journal of Power Sources",
+              "title": "An optimal strategy of electrolyte flow rate for vanadium redox flow battery",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jpowsour.2013.05.079",
+              "id": "https://doi.org/10.1016/j.jpowsour.2013.05.079",
+              "landing_page_url": "https://doi.org/10.1016/j.jpowsour.2013.05.079",
+              "publication_date": "2013-11-01",
+              "publication_year": 2013,
+              "source_name": "Journal of Power Sources",
+              "title": "Investigation of the effect of shunt current on battery efficiency and stack temperature in vanadium redox flow battery",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jpowsour.2021.229819",
+              "id": "https://doi.org/10.1016/j.jpowsour.2021.229819",
+              "landing_page_url": "https://doi.org/10.1016/j.jpowsour.2021.229819",
+              "publication_date": "2021-05-01",
+              "publication_year": 2021,
+              "source_name": "Journal of Power Sources",
+              "title": "A high-rate nonaqueous organic redox flow battery",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.orl.2021.04.002",
+              "id": "https://doi.org/10.1016/j.orl.2021.04.002",
+              "landing_page_url": "https://doi.org/10.1016/j.orl.2021.04.002",
+              "publication_date": "2021-05-01",
+              "publication_year": 2021,
+              "source_name": "Operations Research Letters",
+              "title": "Efficiency fairness tradeoff in battery sharing",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jpowsour.2012.03.029",
+              "id": "https://doi.org/10.1016/j.jpowsour.2012.03.029",
+              "landing_page_url": "https://doi.org/10.1016/j.jpowsour.2012.03.029",
+              "publication_date": "2012-07-01",
+              "publication_year": 2012,
+              "source_name": "Journal of Power Sources",
+              "title": "Effects of undercharge and internal loss on the rate dependence of battery charge storage efficiency",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "chlorine flow battery rate efficiency power tradeoff",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=chlorine+flow+battery+rate+efficiency+power+tradeoff&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        },
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jpowsour.2014.06.053",
+              "id": "https://doi.org/10.1016/j.jpowsour.2014.06.053",
+              "landing_page_url": "https://doi.org/10.1016/j.jpowsour.2014.06.053",
+              "publication_date": "2014-12-01",
+              "publication_year": 2014,
+              "source_name": "Journal of Power Sources",
+              "title": "Peak power prediction of a vanadium redox flow battery",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract Highly concentrated polysulfide‐ (PS) and iodide‐based (I 3 − /I − ) redox couples are promising active materials for redox flow battery applications owing to their high volumetric capacity. However, their applications in lithium redox flow batteries suffer from severe shuttle of iodine and PS and thus require the use of an ion‐selective ceramic membrane for stable operation. This inherent challenge critically limits the practical current density of the flow battery (&lt;1 mA cm −2 ). Herein, we developed a dual PS‐LiI catholyte to simultaneously alleviate the shuttling of iodine and the passivation of Li 2 S, demonstrating stable ion‐selective membrane‐free Li‐catholyte cells achieving volumetric capacity between 30–60 Ah L −1 catholyte with long cycle life (&gt;150 cycles) at high current densities (3.8 mA cm −2 and 5.4 mA cm −2 ). The dual PS‐LiI catholyte not only increases the volumetric capacity and stability, but also removes the resistive and high‐cost ion‐selective membrane for low‐cost, high‐energy and high‐power flow battery applications.",
+              "doi": "https://doi.org/10.1002/batt.201900107",
+              "id": "https://doi.org/10.1002/batt.201900107",
+              "landing_page_url": "https://doi.org/10.1002/batt.201900107",
+              "publication_date": "2019-09-11",
+              "publication_year": 2019,
+              "source_name": "Batteries &amp; Supercaps",
+              "title": "Ion‐Selective Membrane‐Free Dual Sulfur‐Iodine Catholyte for Low‐Cost and High‐Power Flow Battery Applications",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jpowsour.2016.05.110",
+              "id": "https://doi.org/10.1016/j.jpowsour.2016.05.110",
+              "landing_page_url": "https://doi.org/10.1016/j.jpowsour.2016.05.110",
+              "publication_date": "2016-08-01",
+              "publication_year": 2016,
+              "source_name": "Journal of Power Sources",
+              "title": "Flow field design and optimization based on the mass transport polarization regulation in a flow-through type vanadium flow battery",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jpowsour.2011.10.102",
+              "id": "https://doi.org/10.1016/j.jpowsour.2011.10.102",
+              "landing_page_url": "https://doi.org/10.1016/j.jpowsour.2011.10.102",
+              "publication_date": "2012-04-01",
+              "publication_year": 2012,
+              "source_name": "Journal of Power Sources",
+              "title": "A multilayered membrane for vanadium redox flow battery",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jpowsour.2021.230234",
+              "id": "https://doi.org/10.1016/j.jpowsour.2021.230234",
+              "landing_page_url": "https://doi.org/10.1016/j.jpowsour.2021.230234",
+              "publication_date": "2021-09-01",
+              "publication_year": 2021,
+              "source_name": "Journal of Power Sources",
+              "title": "Dual-porous structured membrane for ion-selection in vanadium flow battery",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jpowsour.2010.02.008",
+              "id": "https://doi.org/10.1016/j.jpowsour.2010.02.008",
+              "landing_page_url": "https://doi.org/10.1016/j.jpowsour.2010.02.008",
+              "publication_date": "2010-07-01",
+              "publication_year": 2010,
+              "source_name": "Journal of Power Sources",
+              "title": "A significantly improved membrane for vanadium redox flow battery",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jpowsour.2018.11.070",
+              "id": "https://doi.org/10.1016/j.jpowsour.2018.11.070",
+              "landing_page_url": "https://doi.org/10.1016/j.jpowsour.2018.11.070",
+              "publication_date": "2019-02-01",
+              "publication_year": 2019,
+              "source_name": "Journal of Power Sources",
+              "title": "A modelling and simulation study of soluble lead redox flow battery: Effect of presence of free convection on the battery characteristics",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jpowsour.2020.228816",
+              "id": "https://doi.org/10.1016/j.jpowsour.2020.228816",
+              "landing_page_url": "https://doi.org/10.1016/j.jpowsour.2020.228816",
+              "publication_date": "2020-12-01",
+              "publication_year": 2020,
+              "source_name": "Journal of Power Sources",
+              "title": "Unveiling electrode compression impact on vanadium flow battery from polarization perspective via a symmetric cell configuration",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "membrane free flow battery polarization peak power",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=membrane+free+flow+battery+polarization+peak+power&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        }
+      ],
+      "search_completed": true
+    },
+    "B": {
+      "interpretation": "These are scoped prior-art retrieval results, not proof of universal novelty or non-novelty. The validation anchor is not represented as an exhaustive or world-first claim.",
+      "queries": [
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/s0013-4686(02)00808-3",
+              "id": "https://doi.org/10.1016/s0013-4686(02)00808-3",
+              "landing_page_url": "https://doi.org/10.1016/s0013-4686(02)00808-3",
+              "publication_date": "2003-04-01",
+              "publication_year": 2003,
+              "source_name": "Electrochimica Acta",
+              "title": "Effect of cathode binder on capacity retention and cycle life in transition metal phosphate of a rechargeable lithium battery",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/s0013-4686(03)00251-2",
+              "id": "https://doi.org/10.1016/s0013-4686(03)00251-2",
+              "landing_page_url": "https://doi.org/10.1016/s0013-4686(03)00251-2",
+              "publication_date": "2003-06-01",
+              "publication_year": 2003,
+              "source_name": "Electrochimica Acta",
+              "title": "Erratum to “Effect of cathode binder on capacity retention and cycle life in transition metal phosphate of a rechargeable lithium battery”",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract Rechargeable aqueous zinc‐based flow batteries (ZFBs) are promising candidates for large scale energy storage devices. However, the challenges from zinc dendrites and limited areal capacity considerably impede their wide application. Here, an in situ vertical growth of layered double hydroxide membrane (LDH‐G) is constructed to enable long‐life ZFBs. Owing to the high hydroxide ion conductivity and ion selectivity nature of LDH nanosheets, specifically, the precise control of directional ion transport in vertical arrangement LDHs, a superior battery performance can be realized. Moreover, the defect‐free LDHs layer serves as a buffer layer to enable a uniform Zn deposition, which effectively enhances the areal capacity of the battery. As a result, the designed membrane endows an alkaline zinc‐iron flow battery with excellent rate performance and cycling stability, maintaining an energy efficiency of 80% at 260 mA cm −2 for 800 cycles, which is the highest performance ever reported. Most importantly, the LDHs layer enables the battery for 1200 h long‐cycle stability with a uniform Zn deposition and high areal capacity of 240 mAh cm −2 . This work realizes an in situ growth of 3D LDHs arrays on the polymer substrate, which provides a strategy toward high areal capacity and dendrite‐free Zn deposition for ZFBs.",
+              "doi": "https://doi.org/10.1002/adfm.202102167",
+              "id": "https://doi.org/10.1002/adfm.202102167",
+              "landing_page_url": "https://doi.org/10.1002/adfm.202102167",
+              "publication_date": "2021-05-27",
+              "publication_year": 2021,
+              "source_name": "Advanced Functional Materials",
+              "title": "In Situ Defect‐Free Vertically Aligned Layered Double Hydroxide Composite Membrane for High Areal Capacity and Long‐Cycle Zinc‐Based Flow Battery",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.jpowsour.2017.03.150",
+              "id": "https://doi.org/10.1016/j.jpowsour.2017.03.150",
+              "landing_page_url": "https://doi.org/10.1016/j.jpowsour.2017.03.150",
+              "publication_date": "2017-06-01",
+              "publication_year": 2017,
+              "source_name": "Journal of Power Sources",
+              "title": "Hierarchical porous poly (ether sulfone) membranes with excellent capacity retention for vanadium flow battery application",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1115/1.0004415v",
+              "id": "https://doi.org/10.1115/1.0004415v",
+              "landing_page_url": "https://doi.org/10.1115/1.0004415v",
+              "publication_date": "2021-07-16",
+              "publication_year": 2021,
+              "source_name": null,
+              "title": "Capacity Fade Estimation of a Lithium-Ion Battery Through an Integrated Electrochemical Battery Model and Empirical Cycle Aging Model",
+              "type": "posted-content"
+            },
+            {
+              "abstract": "In this presentation, we report solute strengthening in a series of micrometer silicon (Si)-germanium (Ge) alloy particles, which have not been reported in open literature yet. In addition, we will discuss the role of solvent and binder on the capacity retention in high performance anodes (e.g. Si, Ge, and Si-Ge solid solution). Mastery of strengthening strategies to achieve high-capacity anodes for lithium-ion batteries can shed light on the understanding the nature of diffusion-induced stress and offer an approach to use micro-sized materials with an ultrahigh capacity for large-scale batteries. While the nano-sized materials as anodes show the promise, there is a need to utilize micro-sized materials for large-scale battery applications (e.g. electric vehicle) because of their cost-effective process, high package density, ease to scale-up, and the absence of undesirable side reactions between micro-sized anodes and the electrolyte. Consequently, Si-Ge alloys are of practical importance because the resident defects in solid-solutions can strengthen the materials, thus have a potential to alleviate diffusion-induced stress. Addition of a solute (Ge) into silicon creates a local stress field during the formation of solid solution, which interacts with resident dislocations and subsequently impedes their motion. As a result, an increase in yield stress in silicon-based anodes can be obtained, which are capable of withholding greater stresses to initiate slip and the attendant yielding. Germanium is larger than that of silicon in size, hence when the larger solute atom (Ge) is added to the solvent atoms (Si), a compressive stress is generated in the vicinity of Ge atoms. This local stress field interacts with resident dislocations and subsequently impedes their motion to increase the yield stress in silicon-based anodes. Mechanical properties, e.g. Young’s modulus, of Si-Ge alloys have been studied, particularly in Yonenaga’s series of publications for the alloys at high temperatures (&gt; 500 o C). The stress-strain for germanium rich alloy was similar to Ge, likewise silicon-rich alloy similar with Si. The unique behavior occurs in compositions with x ~0.50 at which an athermal stress is in its maximum. Below the athermal stress, dislocations are pinned due to the dynamic interaction between a solute and surrounding dislocations, thus strengthening Si-Ge alloys. These results are consistent with our strain analysis and electrochemical measurements. The synthesis process is facile, cost-effective and easily scalable. Si 0.50 Ge 0.50 exhibits a stable capacity of 1320 mAh/g based on the total mass of the electrode at the current density of 500 mA/g with a capacity retention of 92% after 100 cycles. Isotropic structural changes in germanium and strengthening in solid solution contribute to the stable capacity cycling in micro-sized anodes. In comparison with silicon, the addition of Ge into Si substantially improves the capacity retention, particularly in Si 0.50 Ge 0.50 , which is consistent with literature reports that Si/Ge alloy showed a maximum yield stress in Si 0.50 Ge 0.50 . More importantly, our very recent work shows that the capacity retention can be further improved by designing the distribution of Ge into Si matrix and selecting proper solvent. When the anode particles have a proper structure and composition, they exhibit a very stable capacity up to a few thousand cycles. In Addition, the fluoroethylene carbonate based solvent plays an important role in yielding a better capacity retention. We will summarize our work by analyzing the necessity for a stable mixed conducting structure in the anode to achieve high capacity and highly stable electrode for lithium ion batteries.",
+              "doi": "https://doi.org/10.1149/ma2016-02/3/506",
+              "id": "https://doi.org/10.1149/ma2016-02/3/506",
+              "landing_page_url": "https://doi.org/10.1149/ma2016-02/3/506",
+              "publication_date": "2016-09-01",
+              "publication_year": 2016,
+              "source_name": "ECS Meeting Abstracts",
+              "title": "Approaches to Develop High Capacity and Long-Cycle Life Anodes for Lithium Ion Battery",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "The development of new energy storage systems beyond lithium ion batteries is a central task for electric transportation and grid energy storage. Sodium-ion batteries (SIBs) have attracted great interest owing to the natural abundance and low cost of sodium [1] . However, emerging anode materials for SIBs suffer from reduced cycle stability and limited specific capacity. In contrast to Li and Na, metallic magnesium (Mg) can be safely used as an anode material in Mg-ion batteries (MIBs) [2] . But, the development of MIBs is hindered by a lack of suitable cathode materials and electrolytes and overall anode-electrolyte-cathode incompatibilities. In order to fully exploit the cost and safety benefits of SIBs and MIBs, we present herein a hybrid Na/Mg ion battery in which metallic Mg serves as the anode, commercial titanium disulfide (TiS 2 ) as the cathode, and an electrolyte composed of 1.0 M NaBH 4 + 0.1 M Mg(BH 4 ) 2 dissolved in diglyme. The stable voltage window of the chosen electrolyte is limited to 0.4 ~ 2.0 V vs. Mg 2+ /Mg, as confirmed by control experiments using a stainless steel current collector. Galvanostatic cycling shows that most of the discharge capacity was released in the voltage window of 0.8~1.2 V (Figure 1a). Good synergetic effect between the anode, cathode and the electrolyte is evidenced by high Columbic efficiency of ~ 100%. Rate capability test demonstrates that the hybrid ion battery shows excellent rate performance (Figure 1b). Cells were initially cycledat 200 mA g -1 (~ 1 C rate) obtaining a stable discharge capacity of 190 mAh g -1 . Then the current was increased to 500, 1000, 2000 and 4000 mA g -1 . Even at such high rates, the battery cells could deliver stable capacity of 160, 130, 110 and 60 mAh g -1 , respectively. Long term charge-discharge cycling shows that the battery cell could deliver 90 mAh g -1 after 10000 cycles which is 80 % of its highest capacity at the 10 C rate (Figure 1c). Elemental analysis of the fully discharged cathode shows that both Na + (~ 90 at.%) and Mg 2+ (~ 10 at.%) ions are intercalated into the TiS 2 cathode. Meanwhile, the (001) interlayer space is increased from 0.57 nm to 0.66 nm as determined by high transmission electron microscope (HRTEM). On the anode side, nano sized metallic Mg grains are uniformly deposited on the current collector after long term cycling, without formation of any Mg dendrites. The ionic diffusion coefficients of the TiS 2 cathode are determined by galvanostatic intermittent titration technique (GITT), which are 10 -9 ~10 -10 cm 2 s -1 during the whole discharge process. It is believed that the large ionic diffusion coefficients results in high rate capability of the battery. Due to the above excellent electrochemical performance, our hybrid Na/Mg ion battery shows promising potential in stationary energy storage and grid energy storage. Figure 1. Charge-discharge voltage profiles (a), rate dependent cycling performance (b), and cycling performance of the hybrid Na/Mg ion battery (c). Acknowledgements This work was supported by the Ministry of Science and Technology of China under the grant No. 2015CB251103. References [1] D. Wang, N. Chen, M. Li, C. Wang, H. Ehrenberg, X. Bie, Y. Wei, G. Chen, F. Du, J. Mater. Chem. A 2015, 3, 8636. [2] (a) Y. Cheng, L. R. Parent, Y. Shao, C. Wang, V. L. Sprenkle, G. Li, J. Liu, Chemistry of Materials 2014, 26, 4904; (b) D. Aurbach, G. S. Suresh, E. Levi, A. Mitelman, O. Mizrahi, O. Chusid, M. Brunelli, Advanced Materials 2007, 19, 4260. Figure 1",
+              "doi": "https://doi.org/10.1149/ma2016-03/2/801",
+              "id": "https://doi.org/10.1149/ma2016-03/2/801",
+              "landing_page_url": "https://doi.org/10.1149/ma2016-03/2/801",
+              "publication_date": "2016-06-10",
+              "publication_year": 2016,
+              "source_name": "ECS Meeting Abstracts",
+              "title": "Hybrid Mg/Na Ion Battery with High Capacity and Ultra-Long Cycle Life",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Lithium-ion batteries (LIBs) have been implemented as a high energy and high power density source in numerous electronic devices, electrical vehicles, and space-crafts. A great deal of research has been carried out to improve the lifetime and capacity of LIBs. Thin film coatings on LIB electrode powders have proven to be an effective way to improve the capacity retention, rate capability, and thermal stability of electrode materials. Atomic layer deposition (ALD), as a thin film deposition technique, has been explored as a viable path to improve the performance of LIBs. However, a trade-off between the species transport (capacity) and protection (lifetime), resulting from the insulating properties of ALD films, is the key challenge in ALD technology. Here, we report a new strategy to overcome this trade-off by coating an ultra-thin conformal conductive ALD film on the surfaces of LiMn 2 O 4 particles. The optimized conductive film coated particles exhibit a significant improvement in capacity and cycling performance compared to uncoated samples at room temperature and 55 °C for long cycling numbers. The initial capacity of the conductive film coated sample shows 24% increment compared to the capacity of the uncoated one, and 96% and 95% of the initial capacity is retained after 1,000 cycles with 1 C rate at room temperature and 55 °C, respectively.",
+              "doi": "https://doi.org/10.1149/ma2015-01/2/449",
+              "id": "https://doi.org/10.1149/ma2015-01/2/449",
+              "landing_page_url": "https://doi.org/10.1149/ma2015-01/2/449",
+              "publication_date": "2015-04-29",
+              "publication_year": 2015,
+              "source_name": "ECS Meeting Abstracts",
+              "title": "Significant Capacity Improvement and Long Cycle-Life of Lithium-Ion Battery through Thin Film Stabilized Cathode Particles",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "chlorine flow battery long cycle capacity retention",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=chlorine+flow+battery+long+cycle+capacity+retention&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        },
+        {
+          "api_cutoff": "2021-12-31",
+          "fallback_reason": "OpenAlex unavailable after HTTP 429; Semantic Scholar fallback used",
+          "hit_count_returned": 8,
+          "hits": [
+            {
+              "abstract": "In this work, imidazole group containing brominated poly(phenylene oxide) (Im-bPPO), in which imidazole functional groups are introduced to brominated poly(phenylene oxide), are synthesized and used as a low-cost, hydrocarbon-based anion exchange membrane for vanadium redox flow battery (VRFB). Although the imidazole group containing brominated poly(phenylene oxide) (Im-bPPO) membrane has a room temperature ionic conductivity of 0.02 S cm -1 , which is somewhat lower than that of Nafion 212 (0.08 S cm -1 ), it shows three orders of magnitude lower VO 2+ permeability of 1.75×10 -9 cm 2 min -1 compared with Nafion 212 (1.41×10 -6 cm 2 min -1 ), suggesting its benefit of easier rebalancing control during VRFB operation. In comparison with the single cells using Nafion 212, the Im-bPPO membrane-based cell has a higher coulombic efficiency (CE) because of its excellent rejection of vanadium ions. However, the voltage efficiency (VE) of the Im-bPPO-based cell is lower than that of Nafion 212-based cell due to the lower ionic conductivity of the Im-bPPO membrane. Also, the cycle life of the Im-bPPO-based cell is 15 times shorter than the Nafion 212-based cell because of the chemical deterioration by highly oxidative VO 2 + ions as observed for other hydrocarbon-based membranes. These results demonstrate the advantage of hydrocarbon-based anion exchange membrane in preventing vanadium crossover, but present a challenge in improving chemical stability for practical usage. Keywords: Vanadium Redox Flow Battery; Anion Exchange Membrane; Imidazole; Polyphenylene Oxide (PPO) Figure 1",
+              "doi": "https://doi.org/10.1149/ma2018-01/1/101",
+              "id": "https://doi.org/10.1149/ma2018-01/1/101",
+              "landing_page_url": "https://doi.org/10.1149/ma2018-01/1/101",
+              "publication_date": "2018-04-13",
+              "publication_year": 2018,
+              "source_name": "ECS Meeting Abstracts",
+              "title": "Cycling Performance of Vanadium Redox Flow Battery Using Anion Exchange Membrane Based on Im-bPPO",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.memsci.2015.04.053",
+              "id": "https://doi.org/10.1016/j.memsci.2015.04.053",
+              "landing_page_url": "https://doi.org/10.1016/j.memsci.2015.04.053",
+              "publication_date": "2015-09-01",
+              "publication_year": 2015,
+              "source_name": "Journal of Membrane Science",
+              "title": "Sulfonated polyimide/s-MoS2 composite membrane with high proton selectivity and good stability for vanadium redox flow battery",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1149/2.0891807jes",
+              "id": "https://doi.org/10.1149/2.0891807jes",
+              "landing_page_url": "https://doi.org/10.1149/2.0891807jes",
+              "publication_date": "2018-05-15",
+              "publication_year": 2018,
+              "source_name": "Journal of The Electrochemical Society",
+              "title": "Flow Battery Molecular Reactant Stability Determined by Symmetric Cell Cycling Methods",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/s0958-2118(00)80003-8",
+              "id": "https://doi.org/10.1016/s0958-2118(00)80003-8",
+              "landing_page_url": "https://doi.org/10.1016/s0958-2118(00)80003-8",
+              "publication_date": "1999-11-01",
+              "publication_year": 1999,
+              "source_name": "Membrane Technology",
+              "title": "Redox flow battery system and cell stack",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1016/j.memsci.2020.117906",
+              "id": "https://doi.org/10.1016/j.memsci.2020.117906",
+              "landing_page_url": "https://doi.org/10.1016/j.memsci.2020.117906",
+              "publication_date": "2020-03-01",
+              "publication_year": 2020,
+              "source_name": "Journal of Membrane Science",
+              "title": "A polydopamine-coated polyamide thin film composite membrane with enhanced selectivity and stability for vanadium redox flow battery",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "The reversible and fast redox kinetics of bromine/bromide makes it a desirable couple as a catholyte in redox‐flow batteries (RFBs). In principle, the highest possible energy density is obtained with hydrogen‐bromine RFBs. Bromine sequestration agents, also called bromine complexing agents (BCAs), bind bromine in a non‐miscible phase and can, therefore, reduce the vapor pressure of bromine, mitigate its crossover, and result in higher practical range of electrolyte concentration. Therefore, BCAs can enhance the battery's safety and competitivity by significantly decreasing the cost of components. To date, BCAs are commonly used in membrane‐free bromine systems, which cannot provide the high current density demonstrated in hydrogen‐bromine RFBs. Herein, the drastic limitations encountered are shown while operating a hydrogen‐bromine RFB with a standard perfluorinated sulfonic acid membrane due to the strong BCA–perfluorinated sulfonic acid interaction. On the other hand, the benefits of using a polyvinylidene difluoride‐silica (PVDF–SiO 2 ) nanoporous separator are demonstrated, which does not interact with the BCA. In this approach, the hydrogen‐bromine RFB can sustain cycling, albeit at a more moderate current than a BCA‐free battery.",
+              "doi": "https://doi.org/10.1002/ente.202000978",
+              "id": "https://doi.org/10.1002/ente.202000978",
+              "landing_page_url": "https://doi.org/10.1002/ente.202000978",
+              "publication_date": "2021-01-14",
+              "publication_year": 2021,
+              "source_name": "Energy Technology",
+              "title": "Hydrogen‐Bromine Redox‐Flow Battery Cycling with Bromine Complexing Agent: on the Benefits of Nanoporous Separator Versus Proton Exchange Membrane",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "",
+              "doi": "https://doi.org/10.1002/ange.201784161",
+              "id": "https://doi.org/10.1002/ange.201784161",
+              "landing_page_url": "https://doi.org/10.1002/ange.201784161",
+              "publication_date": "2017-09-27",
+              "publication_year": 2017,
+              "source_name": "Angewandte Chemie",
+              "title": "Frontispiz: A Membrane‐Free Redox Flow Battery with Two Immiscible Redox Electrolytes",
+              "type": "journal-article"
+            },
+            {
+              "abstract": "Abstract Flexible and scalable energy storage solutions are necessary for mitigating fluctuations of renewable energy sources. The main advantage of redox flow batteries is their ability to decouple power and energy. However, they present some limitations including poor performance, short‐lifetimes, and expensive ion‐selective membranes as well as high price, toxicity, and scarcity of vanadium compounds. We report a membrane‐free battery that relies on the immiscibility of redox electrolytes and where vanadium is replaced by organic molecules. We show that the biphasic system formed by one acidic solution and one ionic liquid, both containing quinoyl species, behaves as a reversible battery without any membrane. This proof‐of‐concept of a membrane‐free battery has an open circuit voltage of 1.4 V with a high theoretical energy density of 22.5 Wh L −1 , and is able to deliver 90 % of its theoretical capacity while showing excellent long‐term performance (coulombic efficiency of 100 % and energy efficiency of 70 %).",
+              "doi": "https://doi.org/10.1002/ange.201704318",
+              "id": "https://doi.org/10.1002/ange.201704318",
+              "landing_page_url": "https://doi.org/10.1002/ange.201704318",
+              "publication_date": "2017-07-19",
+              "publication_year": 2017,
+              "source_name": "Angewandte Chemie",
+              "title": "A Membrane‐Free Redox Flow Battery with Two Immiscible Redox Electrolytes",
+              "type": "journal-article"
+            }
+          ],
+          "provider": "Crossref",
+          "query": "membrane free flow battery cycling stability",
+          "request_completed": true,
+          "request_url": "https://api.crossref.org/works?query.bibliographic=membrane+free+flow+battery+cycling+stability&filter=until-pub-date%3A2021-12-31&sort=relevance&rows=8&select=DOI%2Ctitle%2Cpublished-online%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title%2CURL%2Cabstract&mailto=research-bench%40example.invalid",
+          "strict_before": "2022-01-01"
+        }
+      ],
+      "search_completed": true
+    }
+  },
+  "generated_at": "2026-08-22",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "87db6f18fd7d7106058572c963a77325f3fc29a1983e564838e50820582af60e",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Searches are frozen reproducible retrieval evidence within the declared provider, queries, cutoff, and result depth. They do not certify absence from all literature.",
+  "strict_before": "2022-01-01",
+  "target_doi_excluded": "10.1038/s41467-022-28880-x",
+  "task_id": "Energy_02_flow_battery_operating_boundary",
+  "release": "V1.0"
+}

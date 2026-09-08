@@ -1,0 +1,228 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "Positive-unit medians are lower on both axes and the surface-positive percentage is negatively rank-associated with assay value.",
+      "independent_reconstruction_method": "Whole-unit leave-out, median/mean group contrasts, and continuous surface-percentage association.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Thirty independent units and their unit-level quantitative and aggregated environmental observations.",
+      "one_liner": "Environment-positive units have lower quantitative-assay values and earlier illness days than negative units, with a negative assay-versus-surface association.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample.py",
+          "script_sha256": "f974c126006b88ca3544090f94e2242dc62b02367aaac05876e97ca6d4e88e48"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method.py",
+          "script_sha256": "bd04d0a061d61c973c30de05f78489d8a2185e1ce5b1027eec90b3a5c42fbf8a"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition.py",
+          "script_sha256": "55ef21901a33e5bc4c671a9f40078e49e1c22b6e19a1cb03f500f88ea32a9157"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A new whole-unit cohort supports the relationship if positive medians remain lower for assay and illness day and rank correlation is below −0.5; otherwise it fails."
+      },
+      "quantities": [
+        {
+          "key": "positive_unit_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 17
+        },
+        {
+          "key": "negative_unit_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 13
+        },
+        {
+          "key": "positive_unit_assay_median",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "assay_units",
+          "value": 25.69
+        },
+        {
+          "key": "negative_unit_assay_median",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "assay_units",
+          "value": 33.04
+        },
+        {
+          "key": "positive_unit_illness_day_median",
+          "role": "supporting",
+          "tolerance_rel": 0.1,
+          "unit": "day",
+          "value": 5.0
+        },
+        {
+          "key": "negative_unit_illness_day_median",
+          "role": "supporting",
+          "tolerance_rel": 0.1,
+          "unit": "day",
+          "value": 13.0
+        },
+        {
+          "key": "surface_percent_assay_spearman",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "fraction",
+          "value": -0.6020605341967593
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "script_sha256": "64f0d5bb63371d43f6ee75a07376c293d6d0fa55e24e8669c4fc9e8b8205995a",
+        "values": [
+          {
+            "json_path": "values.positive_unit_count",
+            "quantity_key": "positive_unit_count"
+          },
+          {
+            "json_path": "values.negative_unit_count",
+            "quantity_key": "negative_unit_count"
+          },
+          {
+            "json_path": "values.positive_unit_assay_median",
+            "quantity_key": "positive_unit_assay_median"
+          },
+          {
+            "json_path": "values.negative_unit_assay_median",
+            "quantity_key": "negative_unit_assay_median"
+          },
+          {
+            "json_path": "values.positive_unit_illness_day_median",
+            "quantity_key": "positive_unit_illness_day_median"
+          },
+          {
+            "json_path": "values.negative_unit_illness_day_median",
+            "quantity_key": "negative_unit_illness_day_median"
+          },
+          {
+            "json_path": "values.surface_percent_assay_spearman",
+            "quantity_key": "surface_percent_assay_spearman"
+          }
+        ]
+      },
+      "scope": "Observational association with unit blocking; no transmission route or direction is inferred.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports environment positivity associated with quantitative assay and illness timing.",
+        "paper_location": "Environmental detection Results and unit-level source-data workbook.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "Site rates span a material range, while symptom-group positivity fractions are nearly equal.",
+      "independent_reconstruction_method": "Whole-unit holdout, half-count site-rate smoothing, and any-surface symptom definition.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "All ten site roles nested in 30 units plus the unit-level symptom summary.",
+      "one_liner": "Site positivity rates are heterogeneous, whereas symptom status has almost no unit-level difference in any-surface positivity.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample.py",
+          "script_sha256": "702a33eeaaa17dbe24cb270a5e0c4457ecaaf73f9ce1ce201a7d150aaf9f10b4"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method.py",
+          "script_sha256": "3f5e1d6454dd18cfde7283ec9975d4874689bb737ec25a59a3c65350a1e39e60"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition.py",
+          "script_sha256": "837c68fa39572eef217cbb9b9288fac7a732d1d33a88c886d7db7cc680c90649"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A new cohort supports this boundary if site-rate range exceeds 0.15 while symptom-group positivity differs by under 0.10; either boundary failing rejects it."
+      },
+      "quantities": [
+        {
+          "key": "site_role_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 10
+        },
+        {
+          "key": "site_positive_rate_min",
+          "role": "supporting",
+          "tolerance_rel": 0.1,
+          "unit": "fraction",
+          "value": 0.18181818181818182
+        },
+        {
+          "key": "site_positive_rate_max",
+          "role": "supporting",
+          "tolerance_rel": 0.1,
+          "unit": "fraction",
+          "value": 0.42857142857142855
+        },
+        {
+          "key": "site_positive_rate_range",
+          "role": "core",
+          "tolerance_rel": 0.1,
+          "unit": "fraction",
+          "value": 0.24675324675324672
+        },
+        {
+          "key": "symptom_positive_fraction_difference",
+          "role": "core",
+          "tolerance_rel": 0.15,
+          "unit": "fraction",
+          "value": 0.006211180124223614
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "script_sha256": "37740b629106253996475de173c5f337622b462426211fe2564a9f507a90bd28",
+        "values": [
+          {
+            "json_path": "values.site_role_count",
+            "quantity_key": "site_role_count"
+          },
+          {
+            "json_path": "values.site_positive_rate_min",
+            "quantity_key": "site_positive_rate_min"
+          },
+          {
+            "json_path": "values.site_positive_rate_max",
+            "quantity_key": "site_positive_rate_max"
+          },
+          {
+            "json_path": "values.site_positive_rate_range",
+            "quantity_key": "site_positive_rate_range"
+          },
+          {
+            "json_path": "values.symptom_positive_fraction_difference",
+            "quantity_key": "symptom_positive_fraction_difference"
+          }
+        ]
+      },
+      "scope": "A site/symptom boundary under small symptom strata; it is not evidence of symptom independence in all populations.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports site-specific environmental detection and evaluates symptom/timing associations.",
+        "paper_location": "Site-stratified environmental source-data sheets.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "These two cards are verified reference discoveries for blind-rediscovery diagnostics and are not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2020-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Life_04_environmental_transfer_boundary",
+  "release": "V1.0"
+}

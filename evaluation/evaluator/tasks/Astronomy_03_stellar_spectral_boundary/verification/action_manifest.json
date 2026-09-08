@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Astronomy_03_stellar_spectral_boundary",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition.py",
+      "script_sha256": "583031fc2c52ff7fa50a455ab0f6857b9563645304c11dfc8414080ce3c7c417"
+    },
+    {
+      "script": "verification/perturb/A/method.py",
+      "script_sha256": "3db747f2d689673d4b37d47e53fabaadccb167fddc94f232af00931b1e3ba34d"
+    },
+    {
+      "script": "verification/perturb/A/sample.py",
+      "script_sha256": "b6a7713b6197a64d9401c2c6683f14995adbd35f7d8af85df205aa3c17d76bf2"
+    },
+    {
+      "script": "verification/perturb/B/definition.py",
+      "script_sha256": "2129ea9b9447fb6c3bd76896834ce635ecf0f7b6527101af6a24ab6ecd283615"
+    },
+    {
+      "script": "verification/perturb/B/method.py",
+      "script_sha256": "772dd9e0ba0ed776369a4ee35679b602a6c8c7628813064803912b23bfcff8d2"
+    },
+    {
+      "script": "verification/perturb/B/sample.py",
+      "script_sha256": "957b1b18fc7ab325c2072be9f64df859f3132576595e7f21f983ce1ae64333ec"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "70a1e4b5c51740133326636f0617a3458a560adc0e76a9d65af43c0ab8bd7717"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "75b7a689977f281b8d41f3ce8be0a4fb3b42b94ee167e6ff2e38f430206107c9"
+    }
+  ],
+  "verification_tree_sha256": "24e72e4c17050dfd69cbe7103d1a58734d4a73fba7b8428adeb56822a7504dba",
+  "verification_file_count": 8,
+  "shared_runtime_tree_sha256": "20a80a31ad890d42dbf88cdec35a3f1c0636beb9a42156f6be7bc28dbf203784",
+  "shared_runtime_file_count": 4
+}

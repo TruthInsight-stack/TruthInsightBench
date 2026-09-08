@@ -1,0 +1,1051 @@
+{
+  "all_queries_completed": true,
+  "cards": {
+    "A": {
+      "queries": [
+        {
+          "api_cutoff": "2018-10-28",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "Multilayer neural networks trained with the back-propagation algorithm constitute the best example of a successful gradient based learning technique. Given an appropriate network architecture, gradient-based learning algorithms can be used to synthesize a complex decision surface that can classify high-dimensional patterns, such as handwritten characters, with minimal preprocessing. This paper reviews various methods applied to handwritten character recognition and compares them on a standard handwritten digit recognition task. Convolutional neural networks, which are specifically designed to deal with the variability of 2D shapes, are shown to outperform all other techniques. Real-life document recognition systems are composed of multiple modules including field extraction, segmentation recognition, and language modeling. A new learning paradigm, called graph transformer networks (GTN), allows such multimodule systems to be trained globally using gradient-based methods so as to minimize an overall performance measure. Two systems for online handwriting recognition are described. Experiments demonstrate the advantage of global training, and the flexibility of graph transformer networks. A graph transformer network for reading a bank cheque is also described. It uses convolutional neural network character recognizers combined with global training techniques to provide record accuracy on business and personal cheques. It is deployed commercially and reads several million cheques per day.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1998-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/5.726791",
+              "id": "https://openalex.org/W2112796928",
+              "provider": "openalex",
+              "title": "Gradient-based learning applied to document recognition"
+            },
+            {
+              "abstract": "Graph theory is a valuable framework to study the organization of functional and anatomical connections in the brain. Its use for comparing network topologies, however, is not without difficulties. Graph measures may be influenced by the number of nodes (N) and the average degree (k) of the network. The explicit form of that influence depends on the type of network topology, which is usually unknown for experimental data. Direct comparisons of graph measures between empirical networks with different N and/or k can therefore yield spurious results. We list benefits and pitfalls of various approaches that intend to overcome these difficulties. We discuss the initial graph definition of unweighted graphs via fixed thresholds, average degrees or edge densities, and the use of weighted graphs. For instance, choosing a threshold to fix N and k does eliminate size and density effects but may lead to modifications of the network by enforcing (ignoring) non-significant (significant) connections. Opposed to fixing N and k, graph measures are often normalized via random surrogates but, in fact, this may even increase the sensitivity to differences in N and k for the commonly used clustering coefficient and small-world index. To avoid such a bias we tried to estimate the N,k-dependence for empirical networks, which can serve to correct for size effects, if successful. We also add a number of methods used in social sciences that build on statistics of local network structures including exponential random graph models and motif counting. We show that none of the here-investigated methods",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2010-10-28",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1371/journal.pone.0013701",
+              "id": "https://openalex.org/W2166148649",
+              "provider": "openalex",
+              "title": "Comparing Brain Networks of Different Size and Connectivity Density Using Graph Theory"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2004-03-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1140/epjb/e2004-00124-y",
+              "id": "https://openalex.org/W2125050594",
+              "provider": "openalex",
+              "title": "Detecting community structure in networks"
+            },
+            {
+              "abstract": "Consider a set of S of n data points in real d -dimensional space, R d , where distances are measured using any Minkowski metric. In nearest neighbor searching, we preprocess S into a data structure, so that given any query point q ∈ R d , is the closest point of S to q can be reported quickly. Given any positive real ϵ, data point p is a (1 +ϵ)- approximate nearest neighbor of q if its distance from q is within a factor of (1 + ϵ) of the distance to the true nearest neighbor. We show that it is possible to preprocess a set of n points in R d in O(dn log n ) time and O(dn) space, so that given a query point q ∈ R d , and ϵ &gt; 0, a (1 + ϵ)-approximate nearest neighbor of q can be computed in O ( c d , ϵ log n ) time, where c d,ϵ ≤ d ⌈1 + 6d/ϵ⌉ d is a factor depending only on dimension and ϵ. In general, we show that given an integer k ≥ 1, (1 + ϵ)-approximations to the k nearest neighbors of q can be computed in additional O(kd log n ) time.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1998-11-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1145/293347.293348",
+              "id": "https://openalex.org/W2427881153",
+              "provider": "openalex",
+              "title": "An optimal algorithm for approximate nearest neighbor searching fixed dimensions"
+            },
+            {
+              "abstract": "In this paper we study the small-world network model of Watts and Strogatz, which mimics some aspects of the structure of networks of social interactions. We argue that there is one nontrivial length-scale in the model, analogous to the correlation length in other systems, which is well-defined in the limit of infinite system size and which diverges continuously as the randomness in the network tends to zero, giving a normal critical point in this limit. This length-scale governs the crossover from large- to small-world behavior in the model, as well as the number of vertices in a neighborhood of given radius on the network. We derive the value of the single critical exponent controlling behavior in the critical region and the finite size scaling form for the average vertex-vertex distance on the network, and, using series expansion and Padé approximants, find an approximate analytic form for the scaling function. We calculate the effective dimension of small-world graphs and show that this dimension varies as a function of the length-scale on which it is measured, in a manner reminiscent of multifractals. We also study the problem of site percolation on small-world networks as a simple model of disease propagation, and derive an approximate expression for the percolation probability at which a giant component of connected vertices first forms (in epidemiological terms, the point at which an epidemic occurs). The typical cluster radius satisfies the expected finite size scaling form with a cluster size exponent close to that for a random graph. All our analytic results are ",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1999-12-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/physreve.60.7332",
+              "id": "https://openalex.org/W2032332507",
+              "provider": "openalex",
+              "title": "Scaling and percolation in the small-world network model"
+            },
+            {
+              "abstract": "The development of new technologies for mapping structural and functional brain connectivity has led to the creation of comprehensive network maps of neuronal circuits and systems. The architecture of these brain networks can be examined and analyzed with a large variety of graph theory tools. Methods for detecting modules, or network communities, are of particular interest because they uncover major building blocks or subnetworks that are particularly densely connected, often corresponding to specialized functional components. A large number of methods for community detection have become available and are now widely applied in network neuroscience. This article first surveys a number of these methods, with an emphasis on their advantages and shortcomings; then it summarizes major findings on the existence of modules in both structural and functional brain networks and briefly considers their potential functional roles in brain evolution, wiring minimization, and the emergence of functional specialization and complex dynamics.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-09-22",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1146/annurev-psych-122414-033634",
+              "id": "https://openalex.org/W2143502460",
+              "provider": "openalex",
+              "title": "Modular Brain Networks"
+            },
+            {
+              "abstract": "We study by analytical methods and large scale simulations a dynamical model for the spreading of epidemics in complex networks. In networks with exponentially bounded connectivity we recover the usual epidemic behavior with a threshold defining a critical point below that the infection prevalence is null. On the contrary, on a wide range of scale-free networks we observe the absence of an epidemic threshold and its associated critical behavior. This implies that scale-free networks are prone to the spreading and the persistence of infections whatever spreading rate the epidemic agents might possess. These results can help understanding computer virus epidemics and other spreading phenomena on communication and social networks.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2001-05-22",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/physreve.63.066117",
+              "id": "https://openalex.org/W2136525561",
+              "provider": "openalex",
+              "title": "Epidemic dynamics and endemic states in complex networks"
+            },
+            {
+              "abstract": "16S ribosomal RNA (rRNA) gene and other environmental sequencing techniques provide snapshots of microbial communities, revealing phylogeny and the abundances of microbial populations across diverse ecosystems. While changes in microbial community structure are demonstrably associated with certain environmental conditions (from metabolic and immunological health in mammals to ecological stability in soils and oceans), identification of underlying mechanisms requires new statistical tools, as these datasets present several technical challenges. First, the abundances of microbial operational taxonomic units (OTUs) from amplicon-based datasets are compositional. Counts are normalized to the total number of counts in the sample. Thus, microbial abundances are not independent, and traditional statistical metrics (e.g., correlation) for the detection of OTU-OTU relationships can lead to spurious results. Secondly, microbial sequencing-based studies typically measure hundreds of OTUs on only tens to hundreds of samples; thus, inference of OTU-OTU association networks is severely under-powered, and additional information (or assumptions) are required for accurate inference. Here, we present SPIEC-EASI (SParse InversE Covariance Estimation for Ecological Association Inference), a statistical method for the inference of microbial ecological networks from amplicon sequencing datasets that addresses both of these issues. SPIEC-EASI combines data transformations developed for compositional data analysis with a graphical model inference framework that assumes the underlying ecological as",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-05-07",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1371/journal.pcbi.1004226",
+              "id": "https://openalex.org/W1864161604",
+              "provider": "openalex",
+              "title": "Sparse and Compositionally Robust Inference of Microbial Ecological Networks"
+            },
+            {
+              "abstract": "Evidence that extreme rainfall intensity is increasing at the global scale has strengthened considerably in recent years. Research now indicates that the greatest increases are likely to occur in short-duration storms lasting less than a day, potentially leading to an increase in the magnitude and frequency of flash floods. This review examines the evidence for subdaily extreme rainfall intensification due to anthropogenic climate change and describes our current physical understanding of the association between subdaily extreme rainfall intensity and atmospheric temperature. We also examine the nature, quality, and quantity of information needed to allow society to adapt successfully to predicted future changes, and discuss the roles of observational and modeling studies in helping us to better understand the physical processes that can influence subdaily extreme rainfall characteristics. We conclude by describing the types of research required to produce a more thorough understanding of the relationships between local-scale thermodynamic effects, large-scale atmospheric circulation, and subdaily extreme rainfall intensity.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2014-07-25",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/2014rg000464",
+              "id": "https://openalex.org/W1590065089",
+              "provider": "openalex",
+              "title": "Future changes to the intensity and frequency of short-duration extreme rainfall"
+            },
+            {
+              "abstract": "ABSTRACT Many financial markets are characterized by strong relationships and networks, rather than arm's‐length, spot market transactions. We examine the performance consequences of this organizational structure in the context of relationships established when VCs syndicate portfolio company investments. We find that better‐networked VC firms experience significantly better fund performance, as measured by the proportion of investments that are successfully exited through an IPO or a sale to another company. Similarly, the portfolio companies of better‐networked VCs are significantly more likely to survive to subsequent financing and eventual exit. We also provide initial evidence on the evolution of VC networks.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2007-01-11",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1111/j.1540-6261.2007.01207.x",
+              "id": "https://openalex.org/W3122371828",
+              "provider": "openalex",
+              "title": "Whom You Know Matters: Venture Capital Networks and Investment Performance"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2018-10-28",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 8144,
+              "query": "extremal average shortest path network fixed size density",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8200",
+                "reset_seconds": "46969"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2018-10-28",
+                  "per_page": "10",
+                  "search": "extremal average shortest path network fixed size density",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2018-10-29"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2018-10-28",
+              "attempts": 3,
+              "error": "HTTP 429 | HTTP 429 | HTTP 429",
+              "ok": false,
+              "provider": "semantic_scholar",
+              "query": "extremal average shortest path network fixed size density",
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "extremal average shortest path network fixed size density",
+                  "year": "1900-2018"
+                }
+              },
+              "strict_before": "2018-10-29"
+            }
+          },
+          "query": "extremal average shortest path network fixed size density",
+          "strict_before": "2018-10-29"
+        },
+        {
+          "api_cutoff": "2018-10-28",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "Previous article Next article Bounds on Multiprocessing Timing AnomaliesR. L. GrahamR. L. Grahamhttps://doi.org/10.1137/0117039PDFBibTexSections ToolsAdd to favoritesExport CitationTrack CitationsEmail SectionsAbout[1] E. F. Codd, Multiprogram scheduling. I, II. Introduction and theory, Comm. ACM, 3 (1960), 347–350 10.1145/367297.367317 MR0130079 0102.34202 CrossrefISIGoogle Scholar[2] R. L. Graham, Bounds for certain multiprocessing anomalies, Bell System Tech. J., 45 (1966), 1563–1581 0168.40703 CrossrefISIGoogle Scholar[3] J. Heller, Sequencing aspects of multiprogramming, J. Assoc. Comput. Mach., 8 (1961), 426–439 MR0159443 CrossrefGoogle Scholar[4] John L. Kelley, General topology, D. Van Nostrand Company, Inc., Toronto-New York-London, 1955xiv+298 MR0070144 0066.16604 Google Scholar[5] B. Liebesman, The use of a special algebra in schedule analysis, to appear Google Scholar[6] G. K. Manacher, Production and stabilization of real-time task schedules, J. Assoc. Comput. Mach., 14 (1967), 439–465 CrossrefISIGoogle Scholar[7] B. P. Ochsner, Controlling a multiprocessor system, Record, 44, Bell Laboratories, 1966, pp. 59–62 Google Scholar[8] P. Richards, Parallel programming, Rep., TD-B60-27, Technical Operations Inc., 1960 Google Scholar[9] M. Rothkopf, Scheduling independent tasks on one or more processors, Interim Tech. Rep., 2, Operations Research Center, M.I.T., Cambridge, 1964 Google Scholar Previous article Next article FiguresRelatedReferencesCited ByDetails DAG Scheduling and Analysis on Multi-Core Systems by Modelling Parallelism and DependencyIEEE Transactions on",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1969-03-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1137/0117039",
+              "id": "https://openalex.org/W2104680817",
+              "provider": "openalex",
+              "title": "Bounds on Multiprocessing Timing Anomalies"
+            },
+            {
+              "abstract": "In this paper, we present a family of adaptive protocols, called SPIN (Sensor Protocols for Information via Negotiation), that efficiently disseminates information among sensors in an energy-constrained wireless sensor network. Nodes running a SPIN communication protocol name their data using high-level data descriptors, called meta-data. They use meta-data negotiations to eliminate the transmission of redundant data throughout the network. In addition, SPIN nodes can base their communication decisions both upon application-specific knowledge of the data and upon knowledge of the resources that are available to them. This allows the sensors to efficiently distribute data given a limited energy supply. We simulate and analyze the performance of two specific SPIN protocols, comparing them to other possible approaches and a theoretically optimal protocol. We find that the SPIN protocols can deliver 60% more data for a given amount of energy than conventional approaches. We also find that, in terms of dissemination rate and energy usage, the SPlN protocols perform close to the theoretical optimum.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1999-08-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1145/313451.313529",
+              "id": "https://openalex.org/W2091936226",
+              "provider": "openalex",
+              "title": "Adaptive protocols for information dissemination in wireless sensor networks"
+            },
+            {
+              "abstract": "We develop a geometric framework to study the structure and function of complex networks. We assume that hyperbolic geometry underlies these networks, and we show that with this assumption, heterogeneous degree distributions and strong clustering in complex networks emerge naturally as simple reflections of the negative curvature and metric property of the underlying hyperbolic geometry. Conversely, we show that if a network has some metric structure, and if the network degree distribution is heterogeneous, then the network has an effective hyperbolic geometry underneath. We then establish a mapping between our geometric framework and statistical mechanics of complex networks. This mapping interprets edges in a network as noninteracting fermions whose energies are hyperbolic distances between nodes, while the auxiliary fields coupled to edges are linear functions of these energies or distances. The geometric network ensemble subsumes the standard configuration model and classical random graphs as two limiting cases with degenerate geometric structures. Finally, we show that targeted transport processes without global topology knowledge, made possible by our geometric framework, are maximally efficient, according to all efficiency measures, in networks with strongest heterogeneity and clustering, and that this efficiency is remarkably robust with respect to even catastrophic disturbances and damages to the network structure.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2010-09-09",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/physreve.82.036106",
+              "id": "https://openalex.org/W1971215074",
+              "provider": "openalex",
+              "title": "Hyperbolic geometry of complex networks"
+            },
+            {
+              "abstract": "The goal of decentralized optimization over a network is to optimize a global objective formed by a sum of local (possibly nonsmooth) convex functions using only local computation and communication. It arises in various application domains, including distributed tracking and localization, multi-agent coordination, estimation in sensor networks, and large-scale machine learning. We develop and analyze distributed algorithms based on dual subgradient averaging, and we provide sharp bounds on their convergence rates as a function of the network size and topology. Our analysis allows us to clearly separate the convergence of the optimization algorithm itself and the effects of communication dependent on the network structure. We show that the number of iterations required by our algorithm scales inversely in the spectral gap of the network, and confirm this prediction's sharpness both by theoretical lower bounds and simulations for various networks. Our approach includes the cases of deterministic optimization and communication, as well as problems with stochastic optimization and/or communication.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2011-07-06",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/tac.2011.2161027",
+              "id": "https://openalex.org/W2148087609",
+              "provider": "openalex",
+              "title": "Dual Averaging for Distributed Optimization: Convergence Analysis and Network Scaling"
+            },
+            {
+              "abstract": "The network structure of a hyperlinked environment can be a rich source of information about the content of the environment, provided we have effective means for understanding it. We develop a set of algorithmic tools for extracting information from the link structures of such environments, and report on experiments that demonstrate their effectiveness in a variety of context on the World Wide Web. The central issue we address within our framework is the distillation of broad search topics, through the discovery of “authorative” information sources on such topics. We propose and test an algorithmic formulation of the notion of authority, based on the relationship between a set of relevant authoritative pages and the set of “hub pages” that join them together in the link structure. Our formulation has connections to the eigenvectors of certain matrices associated with the link graph; these connections in turn motivate additional heuristrics for link-based analysis.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1999-09-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1145/324133.324140",
+              "id": "https://openalex.org/W2138621811",
+              "provider": "openalex",
+              "title": "Authoritative sources in a hyperlinked environment"
+            },
+            {
+              "abstract": "The human brain is a complex network of interlinked regions. Recent studies have demonstrated the existence of a number of highly connected and highly central neocortical hub regions, regions that play a key role in global information integration between different parts of the network. The potential functional importance of these \"brain hubs\" is underscored by recent studies showing that disturbances of their structural and functional connectivity profile are linked to neuropathology. This study aims to map out both the subcortical and neocortical hubs of the brain and examine their mutual relationship, particularly their structural linkages. Here, we demonstrate that brain hubs form a so-called \"rich club,\" characterized by a tendency for high-degree nodes to be more densely connected among themselves than nodes of a lower degree, providing important information on the higher-level topology of the brain network. Whole-brain structural networks of 21 subjects were reconstructed using diffusion tensor imaging data. Examining the connectivity profile of these networks revealed a group of 12 strongly interconnected bihemispheric hub regions, comprising the precuneus, superior frontal and superior parietal cortex, as well as the subcortical hippocampus, putamen, and thalamus. Importantly, these hub regions were found to be more densely interconnected than would be expected based solely on their degree, together forming a rich club. We discuss the potential functional implications of the rich-club organization of the human connectome, particularly in light of its role in informa",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2011-11-02",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1523/jneurosci.3539-11.2011",
+              "id": "https://openalex.org/W2012559638",
+              "provider": "openalex",
+              "title": "Rich-Club Organization of the Human Connectome"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2009-08-06",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.comnet.2009.05.015",
+              "id": "https://openalex.org/W2004067242",
+              "provider": "openalex",
+              "title": "A topology control approach for utilizing multiple channels in multi-radio wireless mesh networks"
+            },
+            {
+              "abstract": "Random walks are ubiquitous in the sciences, and they are interesting from both theoretical and practical perspectives. They are one of the most fundamental types of stochastic processes; can be used to model numerous phenomena, including diffusion, interactions, and opinions among humans and animals; and can be used to extract information about important entities or dense groups of entities in a network. Random walks have been studied for many decades on both regular lattices and (especially in the last couple of decades) on networks with a variety of structures. In the present article, we survey the theory and applications of random walks on networks, restricting ourselves to simple cases of single and non-adaptive random walkers. We distinguish three main types of random walks: discrete-time random walks, node-centric continuous-time random walks, and edge-centric continuous-time random walks. We first briefly survey random walks on a line, and then we consider random walks on various types of networks. We extensively discuss applications of random walks, including ranking of nodes (e.g., PageRank), community detection, respondent-driven sampling, and opinion models such as voter models.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-08-31",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.physrep.2017.07.007",
+              "id": "https://openalex.org/W2566971417",
+              "provider": "openalex",
+              "title": "Random walks and diffusion on networks"
+            },
+            {
+              "abstract": "Algorithms for scheduling TDMA transmissions in multi-hop networks usually determine the smallest length conflict-free assignment of slots in which each link or node is activated at least once. This is based on the assumption that there are many independent point-to-point flows in the network. In sensor networks however often data are transferred from the sensor nodes to a few central data collectors. The scheduling problem is therefore to determine the smallest length conflict-free assignment of slots during which the packets generated at each node reach their destination. The conflicting node transmissions are determined based on an interference graph, which may be different from connectivity graph due to the broadcast nature of wireless transmissions. We show that this problem is NP-complete. We first propose two centralized heuristic algorithms: one based on direct scheduling of the nodes or node-based scheduling, which is adapted from classical multi-hop scheduling algorithms for general ad hoc networks, and the other based on scheduling the levels in the routing tree before scheduling the nodes or level-based scheduling, which is a novel scheduling algorithm for many-to-one communication in sensor networks. The performance of these algorithms depends on the distribution of the nodes across the levels. We then propose a distributed algorithm based on the distributed coloring of the nodes, that increases the delay by a factor of 10–70 over centralized algorithms for 1000 nodes. We also obtain upper bound for these schedules as a function of the total number of packets g",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2009-05-26",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s11276-009-0183-0",
+              "id": "https://openalex.org/W2120462722",
+              "provider": "openalex",
+              "title": "TDMA scheduling algorithms for wireless sensor networks"
+            },
+            {
+              "abstract": "GLS is a new distributed location service which tracks mobile node locations. GLS combined with geographic forwarding allows the construction of ad hoc mobile networks that scale to a larger number of nodes than possible with previous work. GLS is decentralized and runs on the mobile nodes themselves, requiring no fixed infrastructure. Each mobile node periodically updates a small set of other nodes (its location servers) with its current location. A node sends its position updates to its location servers without knowing their actual identities, assisted by a predefined ordering of node identifiers and a predefined geographic hierarchy. Queries for a mobile node's location also use the predefined identifier ordering and spatial hierarchy to find a location server for that node.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2000-08-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1145/345910.345931",
+              "id": "https://openalex.org/W2164192722",
+              "provider": "openalex",
+              "title": "A scalable location service for geographic ad hoc routing"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-05-15",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/VTCSpring.2016.7504507",
+              "id": "S2:f9243c4bfd202e219f31921096f9254c3af0fcf4",
+              "provider": "semantic_scholar",
+              "title": "Topology Evolution Model for Cognitive Ad Hoc Networks Based on Complex Network Theory",
+              "url": "https://www.semanticscholar.org/paper/f9243c4bfd202e219f31921096f9254c3af0fcf4?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2014-02-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1504/IJCNDS.2014.059439",
+              "id": "S2:ac3636fe351e857d435d6e70c83373f013883846",
+              "provider": "semantic_scholar",
+              "title": "Tree topology inference from leaf-to-leaf path lengths using Prüfer sequence",
+              "url": "https://www.semanticscholar.org/paper/ac3636fe351e857d435d6e70c83373f013883846?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:3951f8cd7a72be29f26f68221008444d8a1851d3",
+              "provider": "semantic_scholar",
+              "title": "Ratio of Chaotic Propagation According Network Topology in Complex Networks with Coupled Chaotic Circuits",
+              "url": "https://www.semanticscholar.org/paper/3951f8cd7a72be29f26f68221008444d8a1851d3?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [
+                "S2:e394107762a7917632c88eea2036041110d3751e"
+              ],
+              "date": "2012-04-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/0256-307X/29/4/048702",
+              "id": "S2:276fe654414d87d10eb722053df60a02fa4fd0ab",
+              "provider": "semantic_scholar",
+              "title": "The Efficiency of a Small-World Functional Brain Network",
+              "url": "https://www.semanticscholar.org/paper/276fe654414d87d10eb722053df60a02fa4fd0ab?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-01-09",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s11682-017-9802-z",
+              "id": "S2:487971d8e1a0601f2f912328c0cb983cc9a6fbc3",
+              "provider": "semantic_scholar",
+              "title": "Disrupted topological organization of the frontal-mesolimbic network in obese patients",
+              "url": "https://www.semanticscholar.org/paper/487971d8e1a0601f2f912328c0cb983cc9a6fbc3?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-05-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/INFOCOM.2017.8057091",
+              "id": "S2:65156e9248569ca62a5b437c38d04110bb87b5a8",
+              "provider": "semantic_scholar",
+              "title": "Fundamental limits of failure identifiability by boolean network tomography",
+              "url": "https://www.semanticscholar.org/paper/65156e9248569ca62a5b437c38d04110bb87b5a8?utm_source=api"
+            },
+            {
+              "abstract": "Through the study of airport network of China (ANC), composed of 128 airports (nodes) and 1165 flights (edges), we show the topological structure of ANC conveys two characteristics of small worlds, a short average path length (2.067) and a high degree of clustering (0.733). The cumulative degree distributions of both directed and undirected ANC obey two-regime power laws with different exponents, i.e., the so-called double Pareto law. In-degrees and out-degrees of each airport have positive correlations, whereas the undirected degrees of adjacent airports have significant linear anticorrelations. It is demonstrated both weekly and daily cumulative distributions of flight weights (frequencies) of ANC have power-law tails. Besides, the weight of any given flight is proportional to the degrees of both airports at the two ends of that flight. It is also shown the diameter of each subcluster (consisting of an airport and all those airports to which it is linked) is inversely proportional to its density of connectivity. Efficiency of ANC and of its subclusters is measured through a simple definition. In terms of that, the efficiency of ANC's subclusters increases as the density of connectivity does. ANC is found to have an efficiency of 0.484.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2003-09-09",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PhysRevE.69.046106",
+              "id": "S2:b63e8b08a8c4fcf59d7dd30ec9a4260c95c70fe0",
+              "provider": "semantic_scholar",
+              "title": "Statistical analysis of airport network of China.",
+              "url": "https://www.semanticscholar.org/paper/b63e8b08a8c4fcf59d7dd30ec9a4260c95c70fe0?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2009-11-02",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1145/1645953.1646063",
+              "id": "S2:4bcca348c358a5aa382715e693aa9304158d881b",
+              "provider": "semantic_scholar",
+              "title": "Fast shortest path distance estimation in large networks",
+              "url": "https://www.semanticscholar.org/paper/4bcca348c358a5aa382715e693aa9304158d881b?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2018-10-28",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 4497,
+              "query": "network topology bounds path length efficiency given nodes edges",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8190",
+                "reset_seconds": "46945"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2018-10-28",
+                  "per_page": "10",
+                  "search": "network topology bounds path length efficiency given nodes edges",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2018-10-29"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2018-10-28",
+              "attempts": 1,
+              "locally_excluded_uncertain_or_not_strictly_before": 1,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 152,
+              "query": "network topology bounds path length efficiency given nodes edges",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "network topology bounds path length efficiency given nodes edges",
+                  "year": "1900-2018"
+                }
+              },
+              "strict_before": "2018-10-29"
+            }
+          },
+          "query": "network topology bounds path length efficiency given nodes edges",
+          "strict_before": "2018-10-29"
+        }
+      ]
+    },
+    "B": {
+      "queries": [
+        {
+          "api_cutoff": "2018-10-28",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "Multilayer neural networks trained with the back-propagation algorithm constitute the best example of a successful gradient based learning technique. Given an appropriate network architecture, gradient-based learning algorithms can be used to synthesize a complex decision surface that can classify high-dimensional patterns, such as handwritten characters, with minimal preprocessing. This paper reviews various methods applied to handwritten character recognition and compares them on a standard handwritten digit recognition task. Convolutional neural networks, which are specifically designed to deal with the variability of 2D shapes, are shown to outperform all other techniques. Real-life document recognition systems are composed of multiple modules including field extraction, segmentation recognition, and language modeling. A new learning paradigm, called graph transformer networks (GTN), allows such multimodule systems to be trained globally using gradient-based methods so as to minimize an overall performance measure. Two systems for online handwriting recognition are described. Experiments demonstrate the advantage of global training, and the flexibility of graph transformer networks. A graph transformer network for reading a bank cheque is also described. It uses convolutional neural network character recognizers combined with global training techniques to provide record accuracy on business and personal cheques. It is deployed commercially and reads several million cheques per day.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1998-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/5.726791",
+              "id": "https://openalex.org/W2112796928",
+              "provider": "openalex",
+              "title": "Gradient-based learning applied to document recognition"
+            },
+            {
+              "abstract": "Graph theory is a valuable framework to study the organization of functional and anatomical connections in the brain. Its use for comparing network topologies, however, is not without difficulties. Graph measures may be influenced by the number of nodes (N) and the average degree (k) of the network. The explicit form of that influence depends on the type of network topology, which is usually unknown for experimental data. Direct comparisons of graph measures between empirical networks with different N and/or k can therefore yield spurious results. We list benefits and pitfalls of various approaches that intend to overcome these difficulties. We discuss the initial graph definition of unweighted graphs via fixed thresholds, average degrees or edge densities, and the use of weighted graphs. For instance, choosing a threshold to fix N and k does eliminate size and density effects but may lead to modifications of the network by enforcing (ignoring) non-significant (significant) connections. Opposed to fixing N and k, graph measures are often normalized via random surrogates but, in fact, this may even increase the sensitivity to differences in N and k for the commonly used clustering coefficient and small-world index. To avoid such a bias we tried to estimate the N,k-dependence for empirical networks, which can serve to correct for size effects, if successful. We also add a number of methods used in social sciences that build on statistics of local network structures including exponential random graph models and motif counting. We show that none of the here-investigated methods",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2010-10-28",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1371/journal.pone.0013701",
+              "id": "https://openalex.org/W2166148649",
+              "provider": "openalex",
+              "title": "Comparing Brain Networks of Different Size and Connectivity Density Using Graph Theory"
+            },
+            {
+              "abstract": "A major consideration we had in writing this survey was to make it accessible to mathematicians as well as to computer scientists, since expander graphs, the protagonists of our story, come up in numerous and often surprising contexts in both fields.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2006-08-07",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1090/s0273-0979-06-01126-8",
+              "id": "https://openalex.org/W2018047324",
+              "provider": "openalex",
+              "title": "Expander graphs and their applications"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2004-03-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1140/epjb/e2004-00124-y",
+              "id": "https://openalex.org/W2125050594",
+              "provider": "openalex",
+              "title": "Detecting community structure in networks"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2006-10-26",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.socnet.2006.08.003",
+              "id": "https://openalex.org/W2135838082",
+              "provider": "openalex",
+              "title": "Recent developments in exponential random graph (p*) models for social networks"
+            },
+            {
+              "abstract": "The development of new technologies for mapping structural and functional brain connectivity has led to the creation of comprehensive network maps of neuronal circuits and systems. The architecture of these brain networks can be examined and analyzed with a large variety of graph theory tools. Methods for detecting modules, or network communities, are of particular interest because they uncover major building blocks or subnetworks that are particularly densely connected, often corresponding to specialized functional components. A large number of methods for community detection have become available and are now widely applied in network neuroscience. This article first surveys a number of these methods, with an emphasis on their advantages and shortcomings; then it summarizes major findings on the existence of modules in both structural and functional brain networks and briefly considers their potential functional roles in brain evolution, wiring minimization, and the emergence of functional specialization and complex dynamics.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-09-22",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1146/annurev-psych-122414-033634",
+              "id": "https://openalex.org/W2143502460",
+              "provider": "openalex",
+              "title": "Modular Brain Networks"
+            },
+            {
+              "abstract": "ABSTRACT Biodiversity and its responses to environmental changes are central issues in ecology and for society. Almost all microbial biodiversity research focuses on “species” richness and abundance but not on their interactions. Although a network approach is powerful in describing ecological interactions among species, defining the network structure in a microbial community is a great challenge. Also, although the stimulating effects of elevated CO 2 (eCO 2 ) on plant growth and primary productivity are well established, its influences on belowground microbial communities, especially microbial interactions, are poorly understood. Here, a random matrix theory (RMT)-based conceptual framework for identifying functional molecular ecological networks was developed with the high-throughput functional gene array hybridization data of soil microbial communities in a long-term grassland FACE (free air, CO 2 enrichment) experiment. Our results indicate that RMT is powerful in identifying functional molecular ecological networks in microbial communities. Both functional molecular ecological networks under eCO 2 and ambient CO 2 (aCO 2 ) possessed the general characteristics of complex systems such as scale free, small world, modular, and hierarchical. However, the topological structures of the functional molecular ecological networks are distinctly different between eCO 2 and aCO 2 , at the levels of the entire communities, individual functional gene categories/groups, and functional genes/sequences, suggesting that eCO 2 dramatically altered the network interactions among differen",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2010-10-06",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1128/mbio.00169-10",
+              "id": "https://openalex.org/W2163056825",
+              "provider": "openalex",
+              "title": "Functional Molecular Ecological Networks"
+            },
+            {
+              "abstract": "Clustering is the unsupervised classification of patterns (observations, data items, or feature vectors) into groups (clusters). The clustering problem has been addressed in many contexts and by researchers in many disciplines; this reflects its broad appeal and usefulness as one of the steps in exploratory data analysis. However, clustering is a difficult problem combinatorially, and differences in assumptions and contexts in different communities has made the transfer of useful generic concepts and methodologies slow to occur. This paper presents an overview of pattern clustering methods from a statistical pattern recognition perspective, with a goal of providing useful advice and references to fundamental concepts accessible to the broad community of clustering practitioners. We present a taxonomy of clustering techniques, and identify cross-cutting themes and recent advances. We also describe some important applications of clustering algorithms such as image segmentation, object recognition, and information retrieval.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1999-09-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1145/331499.331504",
+              "id": "https://openalex.org/W1992419399",
+              "provider": "openalex",
+              "title": "Data clustering"
+            },
+            {
+              "abstract": "A comprehensive review of an area of machine learning that deals with the use of unlabeled data in classification problems: state-of-the-art algorithms, a taxonomy of the field, applications, benchmark experiments, and directions for future research. In the field of machine learning, semi-supervised learning (SSL) occupies the middle ground, between supervised learning (in which all training examples are labeled) and unsupervised learning (in which no label data are given). Interest in SSL has increased in recent years, particularly because of application domains in which unlabeled data are plentiful, such as images, text, and bioinformatics. This first comprehensive overview of SSL presents state-of-the-art algorithms, a taxonomy of the field, selected applications, benchmark experiments, and perspectives on ongoing and future research.Semi-Supervised Learning first presents the key assumptions and ideas underlying the field: smoothness, cluster or low-density separation, manifold structure, and transduction. The core of the book is the presentation of SSL methods, organized according to algorithmic strategies. After an examination of generative models, the book describes algorithms that implement the low-density separation assumption, graph-based methods, and algorithms that perform two-step learning. The book then discusses SSL applications and offers guidelines for SSL practitioners by analyzing the results of extensive benchmark experiments. Finally, the book looks at interesting directions for SSL research. The book closes with a discussion of the relationship between",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2006-09-22",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.7551/mitpress/9780262033589.001.0001",
+              "id": "https://openalex.org/W1479807131",
+              "provider": "openalex",
+              "title": "Semi-Supervised Learning"
+            },
+            {
+              "abstract": "Summary Network models are widely used to represent relations between interacting units or actors. Network data often exhibit transitivity, meaning that two actors that have ties to a third actor are more likely to be tied than actors that do not, homophily by attributes of the actors or dyads, and clustering. Interest often focuses on finding clusters of actors or ties, and the number of groups in the data is typically unknown. We propose a new model, the latent position cluster model, under which the probability of a tie between two actors depends on the distance between them in an unobserved Euclidean ‘social space’, and the actors’ locations in the latent social space arise from a mixture of distributions, each corresponding to a cluster. We propose two estimation methods: a two-stage maximum likelihood method and a fully Bayesian method that uses Markov chain Monte Carlo sampling. The former is quicker and simpler, but the latter performs better. We also propose a Bayesian way of determining the number of clusters that are present by using approximate conditional Bayes factors. Our model represents transitivity, homophily by attributes and clustering simultaneously and does not require the number of clusters to be known. The model makes it easy to simulate realistic networks with clustering, which are potentially useful as inputs to models of more complex systems of which the network is part, such as epidemic models of infectious disease. We apply the model to two networks of social relations. A free software package in the R statistical language, latentnet, is availab",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2007-03-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1111/j.1467-985x.2007.00471.x",
+              "id": "https://openalex.org/W2096091969",
+              "provider": "openalex",
+              "title": "Model-Based Clustering for Social Networks"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2004-05-10",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/ISPAN.2004.1300451",
+              "id": "S2:c1afb5a550c0f040d25fd82d92511181d526f704",
+              "provider": "semantic_scholar",
+              "title": "Dynamic update of shortest path tree in OSPF",
+              "url": "https://www.semanticscholar.org/paper/c1afb5a550c0f040d25fd82d92511181d526f704?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1986-11-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1145/12130.12144",
+              "id": "S2:c8fb31bef2bf64bfbde869601cb624812a1d066e",
+              "provider": "semantic_scholar",
+              "title": "A new approach to the maximum flow problem",
+              "url": "https://www.semanticscholar.org/paper/c8fb31bef2bf64bfbde869601cb624812a1d066e?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-07-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s11390-015-1559-5",
+              "id": "S2:244cc0a6fffe1b5eced4febcd58e6856df37f2c9",
+              "provider": "semantic_scholar",
+              "title": "Threshold-Based Shortest Path Query over Large Correlated Uncertain Graphs",
+              "url": "https://www.semanticscholar.org/paper/244cc0a6fffe1b5eced4febcd58e6856df37f2c9?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-05-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/IPDPS.2017.53",
+              "id": "S2:b513282f61f89df61da807dede220acfc7812b4a",
+              "provider": "semantic_scholar",
+              "title": "Scalable Graph Traversal on Sunway TaihuLight with Ten Million Cores",
+              "url": "https://www.semanticscholar.org/paper/b513282f61f89df61da807dede220acfc7812b4a?utm_source=api"
+            },
+            {
+              "abstract": "Research into binary network analysis of brain function faces a methodological challenge in selecting an appropriate threshold to binarise edge weights. For EEG phase-based functional connectivity, we test the hypothesis that such binarisation should take into account the complex hierarchical structure found in functional connectivity. We explore the density range suitable for such structure and provide a comparison of state-of-the-art binarisation techniques, the recently proposed Cluster-Span Threshold (CST), minimum spanning trees, efficiency-cost optimisation and union of shortest path graphs, with arbitrary proportional thresholds and weighted networks. We test these techniques on weighted complex hierarchy models by contrasting model realisations with small parametric differences. We also test the robustness of these techniques to random and targeted topological attacks. We find that the CST performs consistenty well in state-of-the-art modelling of EEG network topology, robustness to topological network attacks, and in three real datasets, agreeing with our hypothesis of hierarchical complexity. This provides interesting new evidence into the relevance of considering a large number of edges in EEG functional connectivity research to provide informational density in the topology.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-10-20",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1371/journal.pone.0186164",
+              "id": "S2:204d56314ee159bce709d401a2b2606459b6fd44",
+              "provider": "semantic_scholar",
+              "title": "Accounting for the complex hierarchical topology of EEG phase-based functional connectivity in network binarisation",
+              "url": "https://www.semanticscholar.org/paper/204d56314ee159bce709d401a2b2606459b6fd44?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1997-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:0ce2c17c4113dd11e66aae22ace5b28c25f9d8df",
+              "provider": "semantic_scholar",
+              "title": "The maximum degree of a critical graph of diameter two",
+              "url": "https://www.semanticscholar.org/paper/0ce2c17c4113dd11e66aae22ace5b28c25f9d8df?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1988-10-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1145/48014.61051",
+              "id": "S2:28b7d1abd849b2ef1e5d02d473e1cba071af5ab1",
+              "provider": "semantic_scholar",
+              "title": "A new approach to the maximum-flow problem",
+              "url": "https://www.semanticscholar.org/paper/28b7d1abd849b2ef1e5d02d473e1cba071af5ab1?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1998-12-30",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:e4f2a719a622ba3b0ed49a82cde9bf07d6ce67f6",
+              "provider": "semantic_scholar",
+              "title": "Graph Theory and Its Applications",
+              "url": "https://www.semanticscholar.org/paper/e4f2a719a622ba3b0ed49a82cde9bf07d6ce67f6?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2011-12-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/wcm.1222",
+              "id": "S2:40df8c4d53a42d5d5401c2f5b80fd5678863687d",
+              "provider": "semantic_scholar",
+              "title": "Localized delay-bounded and energy-efficient data aggregation in wireless sensor and actor networks",
+              "url": "https://www.semanticscholar.org/paper/40df8c4d53a42d5d5401c2f5b80fd5678863687d?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1979-06-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1111/j.1749-6632.1979.tb17769.x",
+              "id": "S2:5c59ea162730e8254de0f5a4c77425a76e13702e",
+              "provider": "semantic_scholar",
+              "title": "ON EXTREMAL GRAPHS WITH GIVEN DIAMETER AND CONNECTIVITY",
+              "url": "https://www.semanticscholar.org/paper/5c59ea162730e8254de0f5a4c77425a76e13702e?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2018-10-28",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 3113,
+              "query": "maximum shortest path efficiency graph edge density extremal networks",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8180",
+                "reset_seconds": "46942"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2018-10-28",
+                  "per_page": "10",
+                  "search": "maximum shortest path efficiency graph edge density extremal networks",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2018-10-29"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2018-10-28",
+              "attempts": 2,
+              "locally_excluded_uncertain_or_not_strictly_before": 0,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 46,
+              "query": "maximum shortest path efficiency graph edge density extremal networks",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "maximum shortest path efficiency graph edge density extremal networks",
+                  "year": "1900-2018"
+                }
+              },
+              "strict_before": "2018-10-29"
+            }
+          },
+          "query": "maximum shortest path efficiency graph edge density extremal networks",
+          "strict_before": "2018-10-29"
+        },
+        {
+          "api_cutoff": "2018-10-28",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "This thesis describes an investigation into the practical use of ontologies for the development of information systems. Ontologies are formal descriptions of shared knowledge in a domain. An ontology can be used as a specification of an information system because it specifies the knowledge that is required for the tasks the information system has to perform. Sharing and reuse of ontologies across different domains and applications can therefore improve information systems design. Ontologies have been a subject for a lot of research carried out in the artificial intelligence community. Although many ontologies have been developed, they fail to demonstrate that ontologies for large and complex domains can be developed that can be used and reused across different applications. There are three reasons for this: (i) many ontologies have not been used to develop a real-life application, (ii) many ontologies have not been reused for different applications in different domains and (iii)many ontologies are merely taxonomies of domain concepts and fail to capture meta-level and tacit background knowledge. As a result, the question whether ontologies can be used and reused for different real-life applications remains open. The aim of our research has therefore been to find the answer to this question.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1997-09-05",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3990/1.9789036509886",
+              "id": "https://openalex.org/W2140923664",
+              "provider": "openalex",
+              "title": "Construction of engineering ontologies for knowledge sharing and reuse"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2000-02-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1006/aama.1999.0677",
+              "id": "https://openalex.org/W2094731111",
+              "provider": "openalex",
+              "title": "Graphs of Some CAT(0) Complexes"
+            },
+            {
+              "abstract": "The review covers the period 1997–2007 of development of the boundary control method, which is an approach to inverse problems based on their relations to control theory (Belishev 1986). The method solves the problems on unknown manifolds: given inverse data of a dynamical system associated with a manifold it recovers the manifold, the operator governing the system and the states of the system defined on the manifold. The main subject of the review is the extension of the boundary control method to the inverse problems of electrodynamics, elasticity theory, impedance tomography, problems on graphs as well as some new relations of the method to functional analysis and topology.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2007-09-14",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/0266-5611/23/5/r01",
+              "id": "https://openalex.org/W2070851331",
+              "provider": "openalex",
+              "title": "Recent progress in the boundary control method"
+            },
+            {
+              "abstract": "To my teachers and friends 0. Introduction Manifold topology enjoyed a golden age in the late 1950's and 1960's. Of the mysteries still remaining after that period of great success the most compelling seemed to lie in dimensions three and four. Although experience suggested that manifold theory at these dimensions has a distinct character, the dream remained since my graduate school days 1 that some key principle from the high dimensional theory would extend, at least to dimension four, and bring with it the beautiful adherence of topology to algebra familiar in dimensions greater than or equal to five. There is such a principle. It is a homotopy theoretic criterion for imbedding (relatively) a topological 2-handle in a smooth four-dimensional manifold with boundary. The main impact, as outlined in 1, is to the classification of 1-connected 4-manifolds and topological end recognition. However, certain applications to nonsimply connected problems such as knot concordance are also obtained.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1982-01-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.4310/jdg/1214437136",
+              "id": "https://openalex.org/W1504831268",
+              "provider": "openalex",
+              "title": "The topology of four-dimensional manifolds"
+            },
+            {
+              "abstract": "In this paper, we establish max-flow min-cut theorems for several important classes of multicommodity flow problems. In particular, we show that for any n-node multicommodity flow problem with uniform demands, the max-flow for the problem is within an O(log n) factor of the upper bound implied by the min-cut. The result (which is existentially optimal) establishes an important analogue of the famous 1-commodity max-flow min-cut theorem for problems with multiple commodities. The result also has substantial applications to the field of approximation algorithms. For example, we use the flow result to design the first polynomial-time (polylog n-times-optimal) approximation algorithms for well-known NP-hard optimization problems such as graph partitioning, min-cut linear arrangement, crossing number, VLSI layout, and minimum feedback arc set. Applications of the flow results to path routing problems, network reconfiguration, communication in distributed networks, scientific computing and rapidly mixing Markov chains are also described in the paper.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1999-11-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1145/331524.331526",
+              "id": "https://openalex.org/W2150148016",
+              "provider": "openalex",
+              "title": "Multicommodity max-flow min-cut theorems and their use in designing approximation algorithms"
+            },
+            {
+              "abstract": "In this article we describe recent progress on the design, analysis and implementation of hybrid numerical-asymptotic boundary integral methods for boundary value problems for the Helmholtz equation that model time harmonic acoustic wave scattering in domains exterior to impenetrable obstacles. These hybrid methods combine conventional piecewise polynomial approximations with high-frequency asymptotics to build basis functions suitable for representing the oscillatory solutions. They have the potential to solve scattering problems accurately in a computation time that is (almost) independent of frequency and this has been realized for many model problems. The design and analysis of this class of methods requires new results on the analysis and numerical analysis of highly oscillatory boundary integral operators and on the high-frequency asymptotics of scattering problems. The implementation requires the development of appropriate quadrature rules for highly oscillatory integrals. This article contains a historical account of the development of this currently very active field, a detailed account of recent progress and, in addition, a number of original research results on the design, analysis and implementation of these methods.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2012-04-19",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1017/s0962492912000037",
+              "id": "https://openalex.org/W2038870672",
+              "provider": "openalex",
+              "title": "Numerical-asymptotic boundary integral methods in high-frequency acoustic scattering"
+            },
+            {
+              "abstract": "The following problem is discussed: given n points in the plane (the sites) and an arbitrary query point q , find the site that is closest to q . This problem can be solved by constructing the Voronoi diagram of the griven sites and then locating the query point inone of its regions. Two algorithms are given, one that constructs the Voronoi diagram in O ( n log n ) time, and another that inserts a new sit on O(n) time. Both are based on the use of the Voronoi dual, or Delaunay triangulation, and are simple enough to be of practical value. the simplicity of both algorithms can be attributed to the separation of the geometrical and topological aspects of the problem and to the use of two simple but powerful primitives, a geometric predicate and an operator for manipulating the topology of the diagram. The topology is represented by a new data structure for generalized diagrams, that is, embeddings of graphs in two-dimensional manifolds. This structure represents simultaneously an embedding, its dual, and its mirror image. Furthermore, just two operators are sufficients for building and modifying arbitrary diagrams.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1985-04-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1145/282918.282923",
+              "id": "https://openalex.org/W2052165970",
+              "provider": "openalex",
+              "title": "Primitives for the manipulation of general subdivisions and the computation of Voronoi"
+            },
+            {
+              "abstract": "In this paper we study the impact of random exponential edge weights on the distances in a random graph and, in particular, on its diameter. Our main result consists of a precise asymptotic expression for the maximal weight of the shortest weight paths between all vertices (the weighted diameter) of sparse random graphs, when the edge weights are i.i.d. exponential random variables.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-03-23",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1214/14-aap1034",
+              "id": "https://openalex.org/W2053943172",
+              "provider": "openalex",
+              "title": "The diameter of weighted random graphs"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1987-06-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/scientificamerican0687-108",
+              "id": "https://openalex.org/W2158365276",
+              "provider": "openalex",
+              "title": "The Connection Machine"
+            },
+            {
+              "abstract": "This paper presents a new approach for analysing the structural properties of time series from complex systems. Starting from the concept of recurrences in phase space, the recurrence matrix of a time series is interpreted as the adjacency matrix of an associated complex network, which links different points in time if the considered states are closely neighboured in phase space. In comparison with similar network-based techniques the new approach has important conceptual advantages, and can be considered as a unifying framework for transforming time series into complex networks that also includes other existing methods as special cases. It has been demonstrated here that there are fundamental relationships between many topological properties of recurrence networks and different nontrivial statistical properties of the phase space density of the underlying dynamical system. Hence, this novel interpretation of the recurrence matrix yields new quantitative characteristics (such as average path length, clustering coefficient, or centrality measures of the recurrence network) related to the dynamical complexity of a time series, most of which are not yet provided by other existing methods of nonlinear time series analysis.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2010-03-15",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/1367-2630/12/3/033025",
+              "id": "https://openalex.org/W1981510969",
+              "provider": "openalex",
+              "title": "Recurrence networks—a novel paradigm for nonlinear time series analysis"
+            },
+            {
+              "abstract": "A network topology with low average shortest path length (ASPL) provides efficient data transmission while the number of nodes and the number of links incident to each node are often limited due to physical constraints. In this paper, we consider the construction of low ASPL graphs under these constraints by using stochastic local search (SLS) algorithms. Since the ASPL cannot be calculated efficiently, the ASPL is not suitable for the evaluation function of SLS algorithms. We first derive an equality and bounds for the ASPL of graphs of diameter 3. On the basis of the simplest upper bound of the ASPL, we propose to use 3Δ + 2□ as the evaluation function for graphs of diameter 3 where Δ and □ denote the number of triangles and squares in a graph, respectively. We show that the proposed evaluation function can be evaluated in O(1) time as the number of nodes and the maximum degree tend to infinity by using some data tables. By using the simulated annealing with the proposed evaluation function, we construct low ASPL regular graphs of diameter 3 with 10 000 nodes.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-06-16",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/NOCS.2016.7579335",
+              "id": "S2:f6f99003cdf305b8974cbecb3a7dd6a39f829c72",
+              "provider": "semantic_scholar",
+              "title": "Average shortest path length of graphs of diameter 3",
+              "url": "https://www.semanticscholar.org/paper/f6f99003cdf305b8974cbecb3a7dd6a39f829c72?utm_source=api"
+            },
+            {
+              "abstract": "The high attenuation of radio signals in water leaves acoustic waves the most viable communication media for underwater sensor networks. Nevertheless, acoustic communication suffers from significantly high latency because of its low propagation speed compared to radio communication. In this article, we consider the problem of constructing connected dominating sets as virtual backbones under acoustic communication. We abstract a wireless sensor network as a graph with weighted edges, where the weight of an edge represents the latency between the wireless nodes it links. Three approximation algorithms are proposed to optimize the latency of a connected dominating set. The first algorithm provides a two-approximation to the diameter of a connected dominating set, where the diameter is defined as the length of the longest shortest path in a graph. The second algorithm guarantees a six-approximation to the minimum latency between any pair of nodes and meanwhile has constant approximations to the connected dominating set size in unit disk graphs and unit ball graphs. The third algorithm constructs a connected dominating set with 12-approximation to the diameter and 10.197-approximation to the size in unit disk graphs. Extensive simulations are carried out to validate the performance of the proposed algorithms.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-11-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1177/1550147717740267",
+              "id": "S2:e9ad6fbac1b99c627d9d292efb68de1a29be4fa3",
+              "provider": "semantic_scholar",
+              "title": "Latency-optimal virtual backbone construction with acoustic communication in underwater sensor networks",
+              "url": "https://www.semanticscholar.org/paper/e9ad6fbac1b99c627d9d292efb68de1a29be4fa3?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1997-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:0ce2c17c4113dd11e66aae22ace5b28c25f9d8df",
+              "provider": "semantic_scholar",
+              "title": "The maximum degree of a critical graph of diameter two",
+              "url": "https://www.semanticscholar.org/paper/0ce2c17c4113dd11e66aae22ace5b28c25f9d8df?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1984-02-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1109/TC.1984.1676410",
+              "id": "S2:b163e79a645759a5a93e56416f89da96cff80e2b",
+              "provider": "semantic_scholar",
+              "title": "Families of Fixed Degree Graphs for Processor Interconnection",
+              "url": "https://www.semanticscholar.org/paper/b163e79a645759a5a93e56416f89da96cff80e2b?utm_source=api"
+            },
+            {
+              "abstract": "In Bhatt and Roy's minimal directed spanning tree construction for a random, partially ordered set of points in the unit square, all edges must respect the ‘coordinatewise’ partial order and there must be a directed path from each vertex to a minimal element. We study the asymptotic behaviour of the total length of this graph with power-weighted edges. The limiting distribution is given by the sum of a normal component away from the boundary plus a contribution introduced by the boundary effects, which can be characterized by a fixed-point equation, and is reminiscent of limits arising in the probabilistic analysis of certain algorithms. As the exponent of the power weighting increases, the distribution undergoes a phase transition from the normal contribution being dominant to the boundary effects being dominant. In the critical case in which the weight is simple Euclidean length, both effects contribute significantly to the limit law.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2004-09-13",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1239/aap/1151337075",
+              "id": "S2:b90a5eaad9251e747a565f28a1826b6fb266cbd1",
+              "provider": "semantic_scholar",
+              "title": "On the total length of the random minimal directed spanning tree",
+              "url": "https://www.semanticscholar.org/paper/b90a5eaad9251e747a565f28a1826b6fb266cbd1?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2013-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:d53a11a9fffa9ff29be9c3fef9361d7ca0452859",
+              "provider": "semantic_scholar",
+              "title": "On the complexity of the Diameter-Constrained K-Reliability Problem",
+              "url": "https://www.semanticscholar.org/paper/d53a11a9fffa9ff29be9c3fef9361d7ca0452859?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2010-03-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.2514/1.46323",
+              "id": "S2:8d7e3301178f0f95b05b851a68013118876a8efb",
+              "provider": "semantic_scholar",
+              "title": "Path Planning and State Estimation for Unmanned Aerial Vehicles in Hostile Environments",
+              "url": "https://www.semanticscholar.org/paper/8d7e3301178f0f95b05b851a68013118876a8efb?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1979-06-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1111/j.1749-6632.1979.tb17769.x",
+              "id": "S2:5c59ea162730e8254de0f5a4c77425a76e13702e",
+              "provider": "semantic_scholar",
+              "title": "ON EXTREMAL GRAPHS WITH GIVEN DIAMETER AND CONNECTIVITY",
+              "url": "https://www.semanticscholar.org/paper/5c59ea162730e8254de0f5a4c77425a76e13702e?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1985-06-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1145/327070.327370",
+              "id": "S2:053c0048206f826523be2d7de7f6ecc18e92134d",
+              "provider": "semantic_scholar",
+              "title": "Design and analysis of fault-tolerant multistage interconnection networks with low link complexity",
+              "url": "https://www.semanticscholar.org/paper/053c0048206f826523be2d7de7f6ecc18e92134d?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2006-07-30",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1145/1148109.1148145",
+              "id": "S2:fa9f5f8751f49611c58a29b6865c563e67af0d29",
+              "provider": "semantic_scholar",
+              "title": "Towards small world emergence",
+              "url": "https://www.semanticscholar.org/paper/fa9f5f8751f49611c58a29b6865c563e67af0d29?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2018-10-28",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 3260,
+              "query": "graph construction diameter path length boundaries fixed links",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8170",
+                "reset_seconds": "46934"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2018-10-28",
+                  "per_page": "10",
+                  "search": "graph construction diameter path length boundaries fixed links",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2018-10-29"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2018-10-28",
+              "attempts": 1,
+              "locally_excluded_uncertain_or_not_strictly_before": 0,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 29,
+              "query": "graph construction diameter path length boundaries fixed links",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "10",
+                  "query": "graph construction diameter path length boundaries fixed links",
+                  "year": "1900-2018"
+                }
+              },
+              "strict_before": "2018-10-29"
+            }
+          },
+          "query": "graph construction diameter path length boundaries fixed links",
+          "strict_before": "2018-10-29"
+        }
+      ]
+    }
+  },
+  "generated_at": "2026-08-13T10:57:49.000852+00:00",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "ef6e63bdde5bd38246563f538f7834c2e212f9473a408d6b18875ce1d9c14010",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Migrated without changing the frozen pre-t0 query results; non-detection is scoped, not universal priority.",
+  "strict_before": "2018-10-29",
+  "task_id": "Information_02_network_path_boundaries",
+  "release": "V1.0"
+}

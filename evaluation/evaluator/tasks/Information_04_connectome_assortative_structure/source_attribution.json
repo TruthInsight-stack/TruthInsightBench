@@ -1,0 +1,9 @@
+{
+  "schema": "truthinsightbench-source-attribution",
+  "release": "V1.0",
+  "task_id": "Information_04_connectome_assortative_structure",
+  "title": "Assortative mixing in micro-architecturally annotated brain connectomes",
+  "doi": "10.1038/s41467-023-38585-4",
+  "first_publication_date": "2023-05-18",
+  "raw_data_record": "Europe PMC OA supplementary archive for PMC10195875 (CC-BY)"
+}

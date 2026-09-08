@@ -1,0 +1,184 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "Category medians span more than one unit for feature 7 and nearly one unit for feature 6.",
+      "independent_reconstruction_method": "Complete-category medians with disjoint observation halves, mean summaries, and an alternate response feature.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "All 1,430 observations in the largest anonymous condition-response panel.",
+      "one_liner": "One categorical condition axis partitions both anonymous response features into widely separated regimes in the largest landscape.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample.py",
+          "script_sha256": "b7aab67b120af0f57f8dfef4048a789aefde7e1d5ee19ccd04a4a9d709ddceed"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method.py",
+          "script_sha256": "31e8fa4011d79d4309cbcb032c28f1efd112af9820c7d010dfcfb702fd95447d"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition.py",
+          "script_sha256": "0b57c3015366e6eee34e2147840880a6b7fa57d7922b75ba6b6e9440ce82dc00"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A held-out complete condition block supports the relationship if the feature-7 category span remains above 0.8; a span at or below 0.8 is failure."
+      },
+      "quantities": [
+        {
+          "key": "observation_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 1430
+        },
+        {
+          "key": "category_count_feature_4",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 11
+        },
+        {
+          "key": "feature_7_category_median_span",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "anonymous_response_units",
+          "value": 1.0985907505316652
+        },
+        {
+          "key": "feature_6_category_median_span",
+          "role": "core",
+          "tolerance_rel": 0.1,
+          "unit": "anonymous_response_units",
+          "value": 0.8849050092622608
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "script_sha256": "5b099b2201655e725304a6631d5d4e3fcf8a8e2d7ced047e111198866d6912d9",
+        "values": [
+          {
+            "json_path": "values.observation_count",
+            "quantity_key": "observation_count"
+          },
+          {
+            "json_path": "values.category_count_feature_4",
+            "quantity_key": "category_count_feature_4"
+          },
+          {
+            "json_path": "values.feature_7_category_median_span",
+            "quantity_key": "feature_7_category_median_span"
+          },
+          {
+            "json_path": "values.feature_6_category_median_span",
+            "quantity_key": "feature_6_category_median_span"
+          }
+        ]
+      },
+      "scope": "Measured response-landscape structure only; anonymous features do not license a named chemical mechanism.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports structured selectivity variation across a large asymmetric-catalysis reaction space.",
+        "paper_location": "High-throughput reaction-landscape Results and selected complete source-data panels.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "Each selected within-panel mapping is strongly positive under raw, rank, half-panel, and endpoint-trimmed comparisons.",
+      "independent_reconstruction_method": "Panel-specific Pearson and Spearman mappings with contiguous halves and endpoint trimming.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Complete selected feature pairs from observation sets 2, 3, and 4.",
+      "one_liner": "Three auxiliary panels each contain a strong low-dimensional numerical mapping, but the mapped feature pairs are panel-specific.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample.py",
+          "script_sha256": "2f3c83d403c1525c7a93119ffc0fe01845fdcbb68f574085188a1a09a6f2a3f8"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method.py",
+          "script_sha256": "36dc277b68763947783d888e9697b8a3342a011a7fe9c55e1ee9772dd9afecaf"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition.py",
+          "script_sha256": "7b1175ddfd5e535591d7b520a20b9b37386c5242ba911df002f63b66e35e3438"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A new complete auxiliary panel supports recurrence only if a predeclared feature pair exceeds 0.70 correlation in both contiguous halves; failure in either half rejects transfer."
+      },
+      "quantities": [
+        {
+          "key": "panel_2_mapping_pearson",
+          "role": "core",
+          "tolerance_rel": 0.02,
+          "unit": "fraction",
+          "value": 0.9984725422598203
+        },
+        {
+          "key": "panel_3_mapping_pearson",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "fraction",
+          "value": 0.8783870995747862
+        },
+        {
+          "key": "panel_4_mapping_pearson",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "fraction",
+          "value": 0.8792589736020572
+        },
+        {
+          "key": "minimum_selected_cross_panel_mapping_pearson",
+          "role": "supporting",
+          "tolerance_rel": 0.05,
+          "unit": "fraction",
+          "value": 0.8783870995747862
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "script_sha256": "5f45e3584bf74ca89eca635158c67c1c6374ccd6a858f934bb202d0187f9f84c",
+        "values": [
+          {
+            "json_path": "values.panel_2_mapping_pearson",
+            "quantity_key": "panel_2_mapping_pearson"
+          },
+          {
+            "json_path": "values.panel_3_mapping_pearson",
+            "quantity_key": "panel_3_mapping_pearson"
+          },
+          {
+            "json_path": "values.panel_4_mapping_pearson",
+            "quantity_key": "panel_4_mapping_pearson"
+          },
+          {
+            "json_path": "values.minimum_selected_cross_panel_mapping_pearson",
+            "quantity_key": "minimum_selected_cross_panel_mapping_pearson"
+          }
+        ]
+      },
+      "scope": "Cross-panel structural recurrence, not a claim that anonymous features share chemical identity.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source provides multiple complementary measurements for reaction-space transfer and validation.",
+        "paper_location": "Supplementary cross-measurement panels associated with the reaction-space study.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "These two cards are verified reference discoveries for blind-rediscovery diagnostics and are not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2023-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Chemistry_03_catalysis_response_landscape",
+  "release": "V1.0"
+}

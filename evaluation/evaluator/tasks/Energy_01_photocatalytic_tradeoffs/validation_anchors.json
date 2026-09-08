@@ -1,0 +1,173 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "Trajectory slopes preserve their rank under early/late windows, endpoint rates, and robust slope estimation.",
+      "independent_reconstruction_method": "Whole-trajectory OLS slopes with endpoint, contiguous-time, and Theil-Sen alternatives.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Four complete product-evolution time courses.",
+      "one_liner": "Complete product-evolution trajectories show a stable four-formulation performance hierarchy spanning over fiftyfold.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample.py",
+          "script_sha256": "5c28b90899c58f881be1d5c4766c66762795334f3d80b3cce3b4c39c0c32a6ef"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method.py",
+          "script_sha256": "e58c294890a0b1665ea83669be71d0d11d2cc59e234b224009b95773e3e7b100"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition.py",
+          "script_sha256": "4c44168621f75e180047c8e10746f70af13281e45df976dcf2c1153dbc9edca6"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A replicate set supports the relationship only if its predeclared complete-trajectory rank is preserved in both early and late windows; any window-specific rank reversal is failure, while a tied rank within measurement uncertainty is explicitly unresolved."
+      },
+      "quantities": [
+        {
+          "key": "maximum_slope_umol_per_h",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "micromole_per_hour",
+          "value": 2.38
+        },
+        {
+          "key": "minimum_slope_umol_per_h",
+          "role": "core",
+          "tolerance_rel": 0.1,
+          "unit": "micromole_per_hour",
+          "value": 0.04340999999999999
+        },
+        {
+          "key": "maximum_to_minimum_slope_ratio",
+          "role": "core",
+          "tolerance_rel": 0.1,
+          "unit": "fold",
+          "value": 54.82607694079706
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "script_sha256": "32ef5aa535d6f0fea3c8a1b1bd330fa1f225d178aa79d089e82e624e1df22b1f",
+        "values": [
+          {
+            "json_path": "values.maximum_slope_umol_per_h",
+            "quantity_key": "maximum_slope_umol_per_h"
+          },
+          {
+            "json_path": "values.minimum_slope_umol_per_h",
+            "quantity_key": "minimum_slope_umol_per_h"
+          },
+          {
+            "json_path": "values.maximum_to_minimum_slope_ratio",
+            "quantity_key": "maximum_to_minimum_slope_ratio"
+          }
+        ]
+      },
+      "scope": "The supplied formulations only; the independent loading scan is a separate opportunity and is not part of this anchor.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports large activity differences between related formulations.",
+        "paper_location": "Results and source-data product-evolution panels.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "Action response rises and falls with absorption across the measured bands.",
+      "independent_reconstruction_method": "Interpolation of the dense absorption trace at action wavelengths, with leave-one-band and contiguous-band checks.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Complete absorption scan and six action-spectrum observations.",
+      "one_liner": "The sparse action response closely tracks the interpolated absorption spectrum and peaks at 450 nm.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample.py",
+          "script_sha256": "01ca827ad98078564db21331b787808194a8269138f8c1ed9bb2ca1bf8a2a363"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method.py",
+          "script_sha256": "fa6ac646c67bb3ffa76e8984c00c3b93f1b740e4bda4f95ff85092efdb27ef20"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition.py",
+          "script_sha256": "a54a88041766dfa2eae278f88d43a20b6dc0ef708317fecc6253050b9cc18ca0"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "Additional action-spectrum bands should remain positively associated with absorption; failure is a predeclared contiguous window with negative correlation."
+      },
+      "quantities": [
+        {
+          "key": "pearson_correlation",
+          "role": "core",
+          "tolerance_rel": 0.02,
+          "unit": "fraction",
+          "value": 0.9963166223116073
+        },
+        {
+          "key": "spearman_correlation",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "fraction",
+          "value": 0.942857142857143
+        },
+        {
+          "key": "peak_action_wavelength_nm",
+          "role": "supporting",
+          "tolerance_rel": 0.02,
+          "unit": "nanometer",
+          "value": 450.0
+        },
+        {
+          "key": "peak_action_response_percent",
+          "role": "supporting",
+          "tolerance_rel": 0.03,
+          "unit": "percent",
+          "value": 82.6
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "script_sha256": "945edf290438990790ccd13e1934b6aa4ba459d9fe9fc50b07c8fee304d6b625",
+        "values": [
+          {
+            "json_path": "values.pearson_correlation",
+            "quantity_key": "pearson_correlation"
+          },
+          {
+            "json_path": "values.spearman_correlation",
+            "quantity_key": "spearman_correlation"
+          },
+          {
+            "json_path": "values.peak_action_wavelength_nm",
+            "quantity_key": "peak_action_wavelength_nm"
+          },
+          {
+            "json_path": "values.peak_action_response_percent",
+            "quantity_key": "peak_action_response_percent"
+          }
+        ]
+      },
+      "scope": "Spectral association; it does not uniquely establish a charge-transfer mechanism.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports an apparent quantum efficiency of 82.6% at 450 nm.",
+        "paper_location": "Abstract and Results reporting apparent quantum efficiency and action-spectrum consistency.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "These two cards are verified reference discoveries for blind-rediscovery diagnostics and are not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2022-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Energy_01_photocatalytic_tradeoffs",
+  "release": "V1.0"
+}

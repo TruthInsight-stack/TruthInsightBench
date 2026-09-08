@@ -1,0 +1,250 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "Model B has lower residual magnitude than model A in every complete pass and aggregate contiguous time window, although several pass-level ratios approach one.",
+      "independent_reconstruction_method": "All-pass and whole-pass RMS with MAE, median-absolute, and contiguous-window alternatives.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "All 22 complete time-resolved gravity-residual passes under two anonymous residual models; a third supplied alternative remains available for comparison.",
+      "one_liner": "Across all 22 complete passes, model B lowers aggregate RMS by about one quarter and improves every pass, with substantial pass-to-pass heterogeneity.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample.py",
+          "script_sha256": "2ebcc60ffd8601a5223028af4772aa358c76f304001d3acd7007914e0444f20d"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method.py",
+          "script_sha256": "e83cbbe9a279c38776aa851f35d65b76fe05e19a8f256a1b78d050ffa6eccd69"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition.py",
+          "script_sha256": "7171a06ad30af4deae7b149b4e4dfd766033a9ade082b5b9ba2b455400355536"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A predeclared new complete pass supports the relationship if its model-B/model-A RMS ratio is below 1.0; a ratio at or above 1.0 is failure, with no unclassified gap."
+      },
+      "quantities": [
+        {
+          "key": "model_A_rms_mm_s",
+          "role": "core",
+          "tolerance_rel": 0.03,
+          "unit": "mm/s",
+          "value": 0.040186916493705795
+        },
+        {
+          "key": "model_B_rms_mm_s",
+          "role": "core",
+          "tolerance_rel": 0.03,
+          "unit": "mm/s",
+          "value": 0.030324618318244848
+        },
+        {
+          "key": "rms_ratio_B_over_A",
+          "role": "core",
+          "tolerance_rel": 0.05,
+          "unit": "fraction",
+          "value": 0.7545893281708834
+        },
+        {
+          "key": "complete_pass_improvement_fraction",
+          "role": "core",
+          "tolerance_rel": 0.0,
+          "unit": "fraction",
+          "value": 1.0
+        },
+        {
+          "key": "maximum_complete_pass_rms_ratio",
+          "role": "supporting",
+          "tolerance_rel": 0.02,
+          "unit": "fraction",
+          "value": 0.9736167579406341
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "script_sha256": "d46e3dce9371e20db0818589649e548f1833a298f969d01cbd8f4d26d3ce7cda",
+        "values": [
+          {
+            "json_path": "values.model_A_rms_mm_s",
+            "quantity_key": "model_A_rms_mm_s"
+          },
+          {
+            "json_path": "values.model_B_rms_mm_s",
+            "quantity_key": "model_B_rms_mm_s"
+          },
+          {
+            "json_path": "values.rms_ratio_B_over_A",
+            "quantity_key": "rms_ratio_B_over_A"
+          },
+          {
+            "json_path": "values.complete_pass_improvement_fraction",
+            "quantity_key": "complete_pass_improvement_fraction"
+          },
+          {
+            "json_path": "values.maximum_complete_pass_rms_ratio",
+            "quantity_key": "maximum_complete_pass_rms_ratio"
+          }
+        ]
+      },
+      "scope": "All supplied complete passes; time samples are repeated measurements, not independent replicates.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports that an oscillatory structured model improves the Doppler residual explanation over alternatives.",
+        "paper_location": "Results and source-data residual traces associated with the time-variable gravity comparison.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "The best structured candidates occupy a bounded spectral/amplitude region and have much lower information criterion than the uniform alternative.",
+      "independent_reconstruction_method": "Global and leave-one-ranked minima use the delta-scaled full grid; the structured-versus-uniform gap compares only the absolute information-criterion columns in the supporting structured slices and uniform scan. Near-optimal regions under multiple cutoffs and the independent frequency grid provide additional robustness checks.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "The ranked full parameter grid, supporting structured-grid slices, uniform alternative scan, and independent mode-frequency grid.",
+      "one_liner": "The ranked full grid supports a bounded structured region near 1,000–1,200 microhertz far more strongly than the supplied uniform family.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample.py",
+          "script_sha256": "5b64f682ac6c50dc675517e4167ecaa0cbae734e980955bd544f9c63088ecfe4"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method.py",
+          "script_sha256": "cd951d425a4dd162b09803006afbc1ff8d2a3a87cfb7dcde59e5568285ba0419"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition.py",
+          "script_sha256": "52e0b7769c7cc1f2d5feb4863d5e0d2697b8811669c7a8f9905b1e65addd910b"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "An independently evaluated parameter grid supports the relationship only if structured and uniform candidates evaluated on one common absolute information-criterion scale favor a structured candidate and its delta-scaled near-optimal frequency basin intersects 900–1300 microhertz; either condition failing is a predeclared failure."
+      },
+      "quantities": [
+        {
+          "key": "best_structured_delta_information_criterion",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "information_criterion_units",
+          "value": 0.0
+        },
+        {
+          "key": "best_structured_slice_information_criterion",
+          "role": "supporting",
+          "tolerance_rel": 0.02,
+          "unit": "information_criterion_units",
+          "value": 43.9
+        },
+        {
+          "key": "information_criterion_gap",
+          "role": "core",
+          "tolerance_rel": 0.02,
+          "unit": "information_criterion_units",
+          "value": 1478.2
+        },
+        {
+          "key": "best_peak_frequency_microhz",
+          "role": "core",
+          "tolerance_rel": 0.03,
+          "unit": "microhertz",
+          "value": 1010.0
+        },
+        {
+          "key": "best_max_velocity_cm_s",
+          "role": "core",
+          "tolerance_rel": 0.1,
+          "unit": "cm/s",
+          "value": 30.0
+        },
+        {
+          "key": "best_min_velocity_cm_s",
+          "role": "supporting",
+          "tolerance_rel": 0.1,
+          "unit": "cm/s",
+          "value": 0.05
+        },
+        {
+          "key": "best_frequency_width_microhz",
+          "role": "supporting",
+          "tolerance_rel": 0.05,
+          "unit": "microhertz",
+          "value": 275.0
+        },
+        {
+          "key": "delta20_frequency_min_microhz",
+          "role": "supporting",
+          "tolerance_rel": 0.03,
+          "unit": "microhertz",
+          "value": 1010
+        },
+        {
+          "key": "delta20_frequency_max_microhz",
+          "role": "supporting",
+          "tolerance_rel": 0.03,
+          "unit": "microhertz",
+          "value": 1160
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "script_sha256": "373f4fe511aef29da05dd6f01fb55ae234646df41ba599894b393a4e46b599e0",
+        "values": [
+          {
+            "json_path": "values.best_structured_delta_information_criterion",
+            "quantity_key": "best_structured_delta_information_criterion"
+          },
+          {
+            "json_path": "values.best_structured_slice_information_criterion",
+            "quantity_key": "best_structured_slice_information_criterion"
+          },
+          {
+            "json_path": "values.information_criterion_gap",
+            "quantity_key": "information_criterion_gap"
+          },
+          {
+            "json_path": "values.best_peak_frequency_microhz",
+            "quantity_key": "best_peak_frequency_microhz"
+          },
+          {
+            "json_path": "values.best_max_velocity_cm_s",
+            "quantity_key": "best_max_velocity_cm_s"
+          },
+          {
+            "json_path": "values.best_min_velocity_cm_s",
+            "quantity_key": "best_min_velocity_cm_s"
+          },
+          {
+            "json_path": "values.best_frequency_width_microhz",
+            "quantity_key": "best_frequency_width_microhz"
+          },
+          {
+            "json_path": "values.delta20_frequency_min_microhz",
+            "quantity_key": "delta20_frequency_min_microhz"
+          },
+          {
+            "json_path": "values.delta20_frequency_max_microhz",
+            "quantity_key": "delta20_frequency_max_microhz"
+          }
+        ]
+      },
+      "scope": "Relative support within the supplied model families; it does not prove physical uniqueness.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports a preferred peak-amplitude spectrum in the 900–1200 microhertz range and lower-frequency bounds.",
+        "paper_location": "Abstract, Results, and source-data candidate-spectrum tables.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "These two cards are verified reference discoveries for blind-rediscovery diagnostics and are not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2022-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Astronomy_02_gravity_spectral_structure",
+  "release": "V1.0"
+}

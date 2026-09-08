@@ -1,0 +1,362 @@
+{
+  "schema": "truthinsightbench-computational-observations",
+  "scientific_object": "anonymous variational-circuit and restricted-Boltzmann-state calculations",
+  "generation_contract": "deterministic paper-era author-code replay; graph and optimizer seeds are frozen in the archived execution contract",
+  "actions": [
+    {
+      "action_id": "rbm_exact_cost_layer",
+      "case_count": 12,
+      "cases": [
+        {
+          "edges": 5,
+          "exact_state_fidelity": 1.0000000000000009,
+          "gamma": -0.63,
+          "graph": "cycle_5",
+          "nodes": 5,
+          "rbm_hidden_units_after_cost_layer": 6
+        },
+        {
+          "edges": 5,
+          "exact_state_fidelity": 1.0000000000000004,
+          "gamma": 0.23,
+          "graph": "cycle_5",
+          "nodes": 5,
+          "rbm_hidden_units_after_cost_layer": 6
+        },
+        {
+          "edges": 5,
+          "exact_state_fidelity": 1.0000000000000004,
+          "gamma": 0.71,
+          "graph": "cycle_5",
+          "nodes": 5,
+          "rbm_hidden_units_after_cost_layer": 6
+        },
+        {
+          "edges": 6,
+          "exact_state_fidelity": 1.0,
+          "gamma": -0.63,
+          "graph": "complete_4",
+          "nodes": 4,
+          "rbm_hidden_units_after_cost_layer": 7
+        },
+        {
+          "edges": 6,
+          "exact_state_fidelity": 1.0000000000000004,
+          "gamma": 0.23,
+          "graph": "complete_4",
+          "nodes": 4,
+          "rbm_hidden_units_after_cost_layer": 7
+        },
+        {
+          "edges": 6,
+          "exact_state_fidelity": 0.9999999999999998,
+          "gamma": 0.71,
+          "graph": "complete_4",
+          "nodes": 4,
+          "rbm_hidden_units_after_cost_layer": 7
+        },
+        {
+          "edges": 9,
+          "exact_state_fidelity": 1.0000000000000004,
+          "gamma": -0.63,
+          "graph": "random_regular_3_6_seed123",
+          "nodes": 6,
+          "rbm_hidden_units_after_cost_layer": 10
+        },
+        {
+          "edges": 9,
+          "exact_state_fidelity": 0.9999999999999996,
+          "gamma": 0.23,
+          "graph": "random_regular_3_6_seed123",
+          "nodes": 6,
+          "rbm_hidden_units_after_cost_layer": 10
+        },
+        {
+          "edges": 9,
+          "exact_state_fidelity": 1.0,
+          "gamma": 0.71,
+          "graph": "random_regular_3_6_seed123",
+          "nodes": 6,
+          "rbm_hidden_units_after_cost_layer": 10
+        },
+        {
+          "edges": 7,
+          "exact_state_fidelity": 1.0000000000000022,
+          "gamma": -0.63,
+          "graph": "barbell_3_0",
+          "nodes": 6,
+          "rbm_hidden_units_after_cost_layer": 8
+        },
+        {
+          "edges": 7,
+          "exact_state_fidelity": 1.0000000000000009,
+          "gamma": 0.23,
+          "graph": "barbell_3_0",
+          "nodes": 6,
+          "rbm_hidden_units_after_cost_layer": 8
+        },
+        {
+          "edges": 7,
+          "exact_state_fidelity": 1.0000000000000013,
+          "gamma": 0.71,
+          "graph": "barbell_3_0",
+          "nodes": 6,
+          "rbm_hidden_units_after_cost_layer": 8
+        }
+      ],
+      "observed_minimum_exact_state_fidelity": 0.9999999999999996
+    },
+    {
+      "action_id": "rbm_p2_multigraph_pipeline",
+      "case_count": 3,
+      "cases": [
+        {
+          "compression_exact_fidelity": 0.9995464024328914,
+          "compression_terminal_estimated_fidelity": 0.9996195947652939,
+          "degree": 3,
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              5,
+              3
+            ]
+          ],
+          "first_layer_gate_terminal_fidelities": [
+            0.999235397577046,
+            0.996852259370526,
+            0.999230661777953,
+            1.0001811107313403,
+            1.000064430637035,
+            0.9989313113467975
+          ],
+          "graph_seed": 12345,
+          "initial_angles": [
+            0.25076480061730955,
+            0.38064116905898393,
+            -0.607303030161062,
+            -0.4217043908635955
+          ],
+          "nodes": 6,
+          "optimized_angles": [
+            0.25076480061730955,
+            0.38064116905898393,
+            -0.607303030161062,
+            -0.4217043908635955
+          ],
+          "optimized_exact_cost": -7.034330773959219,
+          "p1_final_fidelity": 0.9892774281295591,
+          "p2_final_fidelity": 0.9756043403530013,
+          "passed_frozen_thresholds": true,
+          "qaoa_optimizer_step_count": 67,
+          "second_layer_gate_terminal_fidelities": [
+            0.9999450568165629,
+            0.9994763127529697,
+            0.9993393079671704,
+            0.9993415119952002,
+            0.9991380551339898,
+            0.9993423204923189
+          ],
+          "stochastic_seed": 20210813
+        },
+        {
+          "compression_exact_fidelity": 0.9995392572316039,
+          "compression_terminal_estimated_fidelity": 1.000127030100402,
+          "degree": 3,
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "first_layer_gate_terminal_fidelities": [
+            0.999896251042479,
+            0.9985166977865993,
+            0.9956506705754804,
+            1.0001356072371859,
+            0.9995426927980078,
+            0.9998820881471231
+          ],
+          "graph_seed": 24680,
+          "initial_angles": [
+            0.25051492093070155,
+            0.45970174434394767,
+            -0.47811389266251086,
+            -0.2888374241870769
+          ],
+          "nodes": 6,
+          "optimized_angles": [
+            0.25051492093070155,
+            0.45970174434394767,
+            -0.47811389266251086,
+            -0.2888374241870769
+          ],
+          "optimized_exact_cost": -4.205598642026452,
+          "p1_final_fidelity": 0.990358773974237,
+          "p2_final_fidelity": 0.9815851170054515,
+          "passed_frozen_thresholds": true,
+          "qaoa_optimizer_step_count": 74,
+          "second_layer_gate_terminal_fidelities": [
+            0.9996643913719603,
+            0.9995931664216944,
+            0.9934816062547616,
+            0.9986422147552869,
+            0.997687008424832,
+            0.9970879129721364
+          ],
+          "stochastic_seed": 20210814
+        },
+        {
+          "compression_exact_fidelity": 0.9991800836013702,
+          "compression_terminal_estimated_fidelity": 0.9985108701831229,
+          "degree": 3,
+          "edges": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              0
+            ]
+          ],
+          "first_layer_gate_terminal_fidelities": [
+            0.9990141212096859,
+            0.9994567299080105,
+            0.9904045325288312,
+            0.9911422297964009,
+            0.9994264262492314,
+            0.9999720714690451
+          ],
+          "graph_seed": 97531,
+          "initial_angles": [
+            0.2505149209294045,
+            0.4597017443423358,
+            -0.4781138926653155,
+            -0.28883742418883823
+          ],
+          "nodes": 6,
+          "optimized_angles": [
+            0.2505149209294045,
+            0.4597017443423358,
+            -0.4781138926653155,
+            -0.28883742418883823
+          ],
+          "optimized_exact_cost": -4.205598642026351,
+          "p1_final_fidelity": 0.9805953975270472,
+          "p2_final_fidelity": 0.9774953129837863,
+          "passed_frozen_thresholds": true,
+          "qaoa_optimizer_step_count": 74,
+          "second_layer_gate_terminal_fidelities": [
+            0.9985133612043327,
+            0.999228743695001,
+            0.9984551865887128,
+            0.9965040736313607,
+            0.9992381156917376,
+            0.9966929848887762
+          ],
+          "stochastic_seed": 20210815
+        }
+      ],
+      "frozen_thresholds_from_prior_single_graph_execution": {
+        "compression_fidelity": 0.95,
+        "p1_final_fidelity": 0.94,
+        "p2_final_fidelity": 0.92
+      },
+      "minimum_compression_exact_fidelity": 0.9991800836013702,
+      "minimum_gate_terminal_fidelity": 0.9904045325288312,
+      "minimum_p1_final_fidelity": 0.9805953975270472,
+      "minimum_p2_final_fidelity": 0.9756043403530013
+    }
+  ]
+}

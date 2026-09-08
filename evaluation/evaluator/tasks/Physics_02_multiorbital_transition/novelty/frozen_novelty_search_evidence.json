@@ -1,0 +1,737 @@
+{
+  "all_queries_completed": true,
+  "cards": {
+    "A": {
+      "queries": [
+        {
+          "api_cutoff": "2023-04-20",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "Abstract We introduce a variational state for one-dimensional two-orbital Hubbard models that intuitively explains the recent computational discovery of pairing in these systems when hole doped. Our ansatz is an optimized linear superposition of Affleck–Kennedy–Lieb–Tasaki valence-bond states, rendering the combination a valence-bond liquid dubbed orbital resonant valence bond. We show that the undoped (one-electron/orbital) quantum state of two sites coupled into a global spin singlet is exactly written employing only spin-1/2 singlets linking orbitals at nearest-neighbor sites. Generalizing to longer chains defines our variational state visualized geometrically expressing our chain as a two-leg ladder, with one orbital per leg. As in Anderson’s resonating valence-bond state, our undoped variational state contains preformed singlet pairs that via doping become mobile, leading to superconductivity. Doped real materials with one-dimensional substructures, two near-degenerate orbitals, and intermediate Hubbard U / W strengths— W the carrier’s bandwidth—could realize spin-singlet pairing if on-site anisotropies are small. If these anisotropies are robust, spin-triplet pairing emerges.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-05-08",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41535-020-0228-2",
+              "id": "https://openalex.org/W3022506732",
+              "provider": "openalex",
+              "title": "Emergence of superconductivity in doped multiorbital Hubbard chains"
+            },
+            {
+              "abstract": "Originally, the Hubbard model was derived for describing the behavior of strongly correlated electrons in solids. However, for over a decade now, variations of it have also routinely been implemented with ultracold atoms in optical lattices, allowing their study in a clean, essentially defect-free environment. Here, we review some of the vast literature on this subject, with a focus on more recent non-standard forms of the Hubbard model. After giving an introduction to standard (fermionic and bosonic) Hubbard models, we discuss briefly common models for mixtures, as well as the so-called extended Bose-Hubbard models, that include interactions between neighboring sites, next-neighbor sites, and so on. The main part of the review discusses the importance of additional terms appearing when refining the tight-binding approximation for the original physical Hamiltonian. Even when restricting the models to the lowest Bloch band is justified, the standard approach neglects the density-induced tunneling (which has the same origin as the usual on-site interaction). The importance of these contributions is discussed for both contact and dipolar interactions. For sufficiently strong interactions, the effects related to higher Bloch bands also become important even for deep optical lattices. Different approaches that aim at incorporating these effects, mainly via dressing the basis, Wannier functions with interactions, leading to effective, density-dependent Hubbard-type models, are reviewed. We discuss also examples of Hubbard-like models that explicitly involve higher p orbitals, as ",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-05-29",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/0034-4885/78/6/066001",
+              "id": "https://openalex.org/W1895614612",
+              "provider": "openalex",
+              "title": "Non-standard Hubbard models in optical lattices: a review"
+            },
+            {
+              "abstract": "Ultrafast laser pulses can be used to drive materials into nonequilibrium states that have unusual properties and are promising for technological applications. Different classes of phenomena are observed during and after the optical illumination. This Colloquium discusses the recent developments in this field, and the prospects for using these techniques to create materials with novel functionalities in a controlled way.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-10-14",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/revmodphys.93.041002",
+              "id": "https://openalex.org/W3150002358",
+              "provider": "openalex",
+              "title": "<i>Colloquium:</i> Nonthermal pathways to ultrafast control in quantum materials"
+            },
+            {
+              "abstract": "Exotic quantum phase transitions in metals, such as the electronic nematic state, have been discovered one after another and found to be universal now. The emergence of unconventional density-wave (DW) order in frustrated kagome metal AV 3 Sb 5 and its interplay with exotic superconductivity attract increasing attention. We find that the DW in kagome metal is the bond order, because the sizable intersite attraction is caused by the quantum interference among paramagnons. This mechanism is important in kagome metals because the geometrical frustration prohibits the freezing of paramagnons. In addition, we uncover that moderate bond-order fluctuations mediate sizable pairing glue, and this mechanism gives rise to both singlet s-wave and triplet p-wave superconductivity. Furthermore, characteristic pressure-induced phase transitions in CsV 3 Sb 5 are naturally understood by the present theory. Thus, both the exotic density wave and the superconductivity in geometrically frustrated kagome metals are explained by the quantum interference mechanism.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-04-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1126/sciadv.abl4108",
+              "id": "https://openalex.org/W3177796450",
+              "provider": "openalex",
+              "title": "Mechanism of exotic density-wave and beyond-Migdal unconventional superconductivity in kagome metal AV <sub>3</sub> Sb <sub>5</sub> (A = K, Rb, Cs)"
+            },
+            {
+              "abstract": "We review recent experimental and theoretical progress in realizing and simulating many-body phases of ultracold atoms in optical lattices, which gives access to analog quantum simulations of fundamental model Hamiltonians for strongly correlated condensed matter systems, such as the Hubbard model. After a general introduction to quantum gases in optical lattices, their preparation and cooling, and measurement techniques for relevant observables, we focus on several examples, where quantum simulations of this type have been performed successfully during the past years: Mott-insulator states, itinerant quantum magnetism, disorder-induced localization and its interplay with interactions, and topological quantum states in synthetic gauge fields.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-12-20",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/1361-6455/aaa31b",
+              "id": "https://openalex.org/W2779980369",
+              "provider": "openalex",
+              "title": "Quantum simulation of strongly correlated condensed matter systems"
+            },
+            {
+              "abstract": "Abstract The present review discusses different effects related to orbital degrees of freedom. Leaving aside such aspects as the superexchange mechanism of cooperative Jahn–Teller distortions and various properties of ‘Kugel–Khomskii’-like models, we mostly concentrate on other phenomena, which are the focus of modern condensed matter physics. After a general introduction, we start with a discussion of the concept of effective reduction of dimensionality due to orbital degrees of freedom and consider such phenomena as the orbitally driven Peierls effect and the formation of small clusters of ions in the vicinity of the Mott transition, which behave like ‘molecules’ embedded in a solid. The second large part is devoted to orbital-selective effects, such as the orbital-selective Mott transition and the suppression of magnetism due to the fact that the electrons on some orbitals start to form singlet molecular orbitals. At the end, the rapidly growing field of so-called ‘spin–orbit-dominated’ transition metal compounds is briefly reviewed, including such topics as the interplay between the spin–orbit coupling and the Jahn–Teller effect, the formation of the spin–orbit driven Mott and Peierls states, the role of orbital degrees of freedom in generating the Kitaev exchange coupling, and the singlet (excitonic) magnetism in 4d and 5d transition metal compounds.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-08-31",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.3367/ufne.2017.08.038196",
+              "id": "https://openalex.org/W2751875807",
+              "provider": "openalex",
+              "title": "Orbital physics in transition metal compounds: new trends"
+            },
+            {
+              "abstract": "We study the $t-V-V'$ model in one dimension at half-filling. It is known that for large enough $V$ fixed, as $V'$ is varied, the system goes from a charge-density wave into a Luttinger liquid, then a bond-order, and then a second charge density wave phase. We find that the Luttinger liquid state is further split into two, separating parts with distinct values of the many-body polarization Berry phase. Inside this phase, the variance of the polarization is infinite in the thermodynamic limit, meaning that even if the polarization differs, it would not be measurable. However, in the gapped phases on each side of the Luttinger liquid, the polarization takes a different measurable value, implying topologically distinction. The key difference is that the large-$V'$ phases are link-inversion symmetric, while the small-$V'$ one is site-inversion symmetric. We show that large-$V'$ phase can be related to an $S=1$ spin chain, and exhibits many features of the Haldane phase. The lowest lying states of the entanglement spectrum display different degeneracies in the two cases, and we also find string order in the large-$V'$ phase. We also study the system under open boundary conditions, and suggest that the number of defects is related to the topology.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-05-07",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PHYSREVRESEARCH.2.023277",
+              "id": "S2:4e6a75f385b32db8c0ba23f7089257a9d5ffd80b",
+              "provider": "semantic_scholar",
+              "title": "Interaction-driven polarization shift in the \nt−V−V′\n lattice fermion model at half filling: Emergent Haldane phase",
+              "url": "https://www.semanticscholar.org/paper/4e6a75f385b32db8c0ba23f7089257a9d5ffd80b?utm_source=api"
+            },
+            {
+              "abstract": "Topology in quantum many-body systems has profoundly changed our understanding of quantum phases of matter. The model that has played an instrumental role in elucidating these effects is the antiferromagnetic spin-1 Haldane chain1,2. Its ground state is a disordered state, with symmetry-protected fourfold-degenerate edge states due to fractional spin excitations. In the bulk, it is characterized by vanishing two-point spin correlations, gapped excitations and a characteristic non-local order parameter3,4. More recently it has been understood that the Haldane chain forms a specific example of a more general classification scheme of symmetry-protected topological phases of matter, which is based on ideas connected to quantum information and entanglement5–7. Here, we realize a finite-temperature version of such a topological Haldane phase with Fermi–Hubbard ladders in an ultracold-atom quantum simulator. We directly reveal both edge and bulk properties of the system through the use of single-site and particle-resolved measurements, as well as non-local correlation functions. Continuously changing the Hubbard interaction strength of the system enables us to investigate the robustness of the phase to charge (density) fluctuations far from the regime of the Heisenberg model, using a novel correlator. A ladder-like arrangement of an ultracold gas of lithium atoms trapped in an optical lattice enables the observation of a symmetry-protected topological phase.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-03-18",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41586-022-04688-z",
+              "id": "S2:070b94e4a10dc41a7388982594908196c1f928f1",
+              "provider": "semantic_scholar",
+              "title": "Realizing the symmetry-protected Haldane phase in Fermi–Hubbard ladders",
+              "url": "https://www.semanticscholar.org/paper/070b94e4a10dc41a7388982594908196c1f928f1?utm_source=api"
+            },
+            {
+              "abstract": "We have simulated a half-filled 1Dp-wave periodic Anderson model with numerically exact projector quantum Monte Carlo technique, and the system is indeed located in the Haldane-like state as detected in previous works on the p-wave Kondo lattice model, though the soluble non-interacting limit corresponds to the conventional Z2 topological insulator. The site-resolved magnetization in an open boundary system and strange correlator for the periodic boundary have been used to identify the mentioned topological states. Interestingly, the edge magnetization in the Haldane-like state is not saturated to unit magnetic moment due to the intrinsic charge fluctuation in our periodic Anderson-like model, which is beyond the description of the Kondo lattice-like model in existing literature. The finding here underlies the correlation driven topological state in this prototypical interacting topological state of matter and naive use of non-interacting picture should be taken care. Moreover, no trace of the surface Kondo breakdown at zero temperature is observed and it is suspected that frustration-like interaction may be crucial in inducing such radical destruction of Kondo screening. The findings here may be relevant to our understanding of interacting topological materials like topological Kondo insulator candidate SmB6.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2016-12-30",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1140/epjb/e2017-80102-0",
+              "id": "S2:d7757cb6abae4d93f521077d5f5020f168685041",
+              "provider": "semantic_scholar",
+              "title": "Topological phase in 1D topological Kondo insulator: Z2 topological insulator, Haldane-like phase and Kondo breakdown",
+              "url": "https://www.semanticscholar.org/paper/d7757cb6abae4d93f521077d5f5020f168685041?utm_source=api"
+            },
+            {
+              "abstract": "We investigate the electronic state and structure transition of BaNi2As2, which shows a similar superconducting phase diagram as Fe-based superconductors. We construct the ten-orbital tight-binding model for BaNi2As2 by using the maximally localized Wannier function method. The Coulomb and quadrupole-quadrupole interactions are treated within the random-phase approximation. We obtain the strong developments of charge quadrupole susceptibilities driven by the in-plane and out-of-plane oscillations of Ni ions. The largest susceptibility is either O_{X^2-Y^2}-quadrupole susceptibility at q = (pi, 0, pi) or O_{XZ(YZ)}-quadrupole susceptibility at q = (pi, pi, pi), depending on the level splitting between d_{X^2-Y^2} and d_{XZ(YZ)}. These antiferro-quadrupole fluctuations would then be the origin of the strong coupling superconductivity in Ni-based superconductors. Also, we propose that the antiferro-quadrupole O_{X^2-Y^2} order with q = (pi, 0, pi) is the origin of the zigzag chain structure reported in experiments. We identify similarities and differences between Ni- and Fe-based superconductors.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2012-11-16",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.7566/JPSJ.82.094704",
+              "id": "S2:ad78a6fa19c5ebea3b0e527cd7949455f259547a",
+              "provider": "semantic_scholar",
+              "title": "Zigzag chain structure transition and orbital fluctuations in Ni-based superconductors",
+              "url": "https://www.semanticscholar.org/paper/ad78a6fa19c5ebea3b0e527cd7949455f259547a?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2004-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:6b9f2d18ffa1a68ab6a0a099233372024bcadeba",
+              "provider": "semantic_scholar",
+              "title": "Randomness Effects on Quantum Phase Transitions of Bond-Alternating Haldane Chain",
+              "url": "https://www.semanticscholar.org/paper/6b9f2d18ffa1a68ab6a0a099233372024bcadeba?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2004-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:46b9de7c0ce6e7421b6146e2a4cc5b7839199c79",
+              "provider": "semantic_scholar",
+              "title": "Sodium Pyroxene NaTiSi 2 O 6 : Possible Haldane S = 1 Chain System",
+              "url": "https://www.semanticscholar.org/paper/46b9de7c0ce6e7421b6146e2a4cc5b7839199c79?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2023-04-20",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 28,
+              "query": "interaction driven Haldane phase charge fluctuations multiorbital chain",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8010",
+                "reset_seconds": "26679"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2023-04-20",
+                  "per_page": "6",
+                  "search": "interaction driven Haldane phase charge fluctuations multiorbital chain",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2023-04-21"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2023-04-20",
+              "attempts": 3,
+              "locally_excluded_uncertain_or_not_strictly_before": 0,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 15,
+              "query": "interaction driven Haldane phase charge fluctuations multiorbital chain",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "6",
+                  "query": "interaction driven Haldane phase charge fluctuations multiorbital chain",
+                  "year": "1900-2023"
+                }
+              },
+              "strict_before": "2023-04-21"
+            }
+          },
+          "query": "interaction driven Haldane phase charge fluctuations multiorbital chain",
+          "strict_before": "2023-04-21"
+        },
+        {
+          "api_cutoff": "2023-04-20",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-07-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/nature23268",
+              "id": "https://openalex.org/W2595688496",
+              "provider": "openalex",
+              "title": "Topological quantum chemistry"
+            },
+            {
+              "abstract": "Cryo-electron microscopy of vitrified specimens was just emerging as a practical method when Richard Henderson proposed that we should teach an EMBO course on the new technique. The request seemed to come too early because at that moment the method looked more like a laboratory game than a useful tool. However, during the months which ellapsed before the start of the course, several of the major difficulties associated with electron microscopy of vitrified specimens found surprisingly elegant solutions or simply became non-existent. The course could therefore take place under favourable circumstances in the summer of 1983. It was repeated the following years and cryo-electron microscopy spread rapidly. Since that time, water, which was once the arch enemy of all electronmicroscopists, became what it always was in nature – an integral part of biological matter and a beautiful substance.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1988-05-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1017/s0033583500004297",
+              "id": "https://openalex.org/W2103972113",
+              "provider": "openalex",
+              "title": "Cryo-electron microscopy of vitrified specimens"
+            },
+            {
+              "abstract": "The anomalous Hall effect (AHE) occurs in solids with broken time-reversal symmetry, typically in a ferromagnetic phase, as a consequence of spin-orbit coupling. Experimental and theoretical studies of the AHE are reviewed, focusing on recent developments that have provided a more complete framework for understanding this subtle phenomenon and have, in many instances, replaced controversy by clarity. Synergy between experimental and theoretical works, both playing a crucial role, has been at the heart of these advances. On the theoretical front, the adoption of the Berry-phase concepts has established a link between the AHE and the topological nature of the Hall currents. On the experimental front, new experimental studies of the AHE in transition metals, transition-metal oxides, spinels, pyrochlores, and metallic dilute magnetic semiconductors have established systematic trends. These two developments, in concert with first-principles electronic structure calculations, strongly favor the dominance of an intrinsic Berry-phase-related AHE mechanism in metallic ferromagnets with moderate conductivity. The intrinsic AHE can be expressed in terms of the Berry-phase curvatures and it is therefore an intrinsic quantum-mechanical property of a perfect crystal. An extrinsic mechanism, skew scattering from disorder, tends to dominate the AHE in highly conductive ferromagnets. The full modern semiclassical treatment of the AHE is reviewed which incorporates an anomalous contribution to wave-packet group velocity due to momentum-space Berry curvatures and correctly combines the roles ",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2010-05-13",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/revmodphys.82.1539",
+              "id": "https://openalex.org/W2000564135",
+              "provider": "openalex",
+              "title": "Anomalous Hall effect"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-12-21",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41586-022-05516-0",
+              "id": "https://openalex.org/W4312122066",
+              "provider": "openalex",
+              "title": "Topological kagome magnets and superconductors"
+            },
+            {
+              "abstract": "2D transition metal carbides, carbonitrides, and nitrides, known as MXenes, are a rapidly growing family of 2D materials with close to 30 members experimentally synthesized, and dozens more studied theoretically. They exhibit outstanding electronic, optical, mechanical, and thermal properties with versatile transition metal and surface chemistries. They have shown promise in many applications, such as energy storage, electromagnetic interference shielding, transparent electrodes, sensors, catalysis, photothermal therapy, etc. The high electronic conductivity and wide range of optical absorption properties of MXenes are the key to their success in the aforementioned applications. However, relatively little is currently known about their fundamental electronic and optical properties, limiting their use to their full potential. Here, MXenes' electronic and optical properties from both theoretical and experimental perspectives, as well as applications related to those properties, are discussed, providing a guide for researchers who are exploring those properties of MXenes.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-11-19",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1002/adma.201804779",
+              "id": "https://openalex.org/W2900567006",
+              "provider": "openalex",
+              "title": "Electronic and Optical Properties of 2D Transition Metal Carbides and Nitrides (MXenes)"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-12-09",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/s41565-019-0577-9",
+              "id": "https://openalex.org/W2992499060",
+              "provider": "openalex",
+              "title": "Topological frustration induces unconventional magnetism in a nanographene"
+            },
+            {
+              "abstract": "We study the effects of electron correlations on the topological phase transition in the Bernevig-Hughes-Zhang model using the variational cluster approach where the short-range spatial correlations are taken into account exactly. We calculate the spin Chern number and local magnetic moment to show that the topologically nontrivial antiferromagnetic order exists and that the magnetic transition is of the second order. We furthermore demonstrate that under the spin-quantized condition the topological phase transition is caused by the closing of the bulk band gap.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2013-04-30",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PhysRevB.87.195133",
+              "id": "S2:093bce7fe0432c8273d343b95dd4b6551e9885e7",
+              "provider": "semantic_scholar",
+              "title": "Antiferromagnetic topological insulator state in the correlated Bernevig-Hughes-Zhang model",
+              "url": "https://www.semanticscholar.org/paper/093bce7fe0432c8273d343b95dd4b6551e9885e7?utm_source=api"
+            },
+            {
+              "abstract": "We apply a generalized Schrieffer-Wolff transformation to the extended Anderson-like topological heavy fermion (THF) model for the magic-angle (θ=1.05°) twisted bilayer graphene (MATBLG) [Phys. Rev. Lett. 129, 047601 (2022)PRLTAO0031-900710.1103/PhysRevLett.129.047601], to obtain its Kondo lattice limit. In this limit localized f electrons on a triangular lattice interact with topological conduction c electrons. By solving the exact limit of the THF model, we show that the integer fillings ν=0,±1,±2 are controlled by the heavy f electrons, while ν=±3 is at the border of a phase transition between two f-electron fillings. For ν=0,±1,±2, we then calculate the Ruderman-Kittel-Kasuya-Yosida (RKKY) interactions between the f moments in the full model and analytically prove the SU(4) Hund's rule for the ground state which maintains that two f electrons fill the same valley-spin flavor. Our (ferromagnetic interactions in the) spin model dramatically differ from the usual Heisenberg antiferromagnetic interactions expected at strong coupling. We show the ground state in some limits can be found exactly by employing a positive semidefinite \"bond-operators\" method. We then compute the excitation spectrum of the f moments in the ordered ground state, prove the stability of the ground state favored by RKKY interactions, and discuss the properties of the Goldstone modes, the (reason for the accidental) degeneracy of (some of) the excitation modes, and the physics of their phase stiffness. We develop a low-energy effective theory for the f moments and obtain analytic expressions for the dispersion of the collective modes. We discuss the relevance of our results to the spin-entropy experiments in TBG.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2023-01-11",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PhysRevLett.131.026502",
+              "id": "S2:56658248c228cd1ee01868499b0cb1324cb40e9a",
+              "provider": "semantic_scholar",
+              "title": "Kondo Lattice Model of Magic-Angle Twisted-Bilayer Graphene: Hund's Rule, Local-Moment Fluctuations, and Low-Energy Effective Theory.",
+              "url": "https://www.semanticscholar.org/paper/56658248c228cd1ee01868499b0cb1324cb40e9a?utm_source=api"
+            },
+            {
+              "abstract": "Abstract We investigate the triple quantum dots with triangular geometry, in which one of the dots (embedded dot) is coupled to pseudo-gap Fermi system and electrons in the dot interact with a local phonon mode. The model, which we treat using the analytical argument and the numerical renormalization group, exhibits the quantum phase transition between ferromagnetically-coupled local moment phase and antiferromagnetically-coupled strong coupling phase depending upon electron-phonon coupling. We restrict our discussion to the case that inter-dot exchange couplings are much smaller than the Kondo temperature for the embedded dot. Since Fermi system has the density of states dependent on energy in power-law fashion, the embedded dot retains an unscreened spin degree of freedom even in Kondo regime. For the coupling to such Fermi system, the simultaneous increase of electron-phonon coupling and pseudo-gap exponent has the contrary effects on the quantum phase transition depending upon inter-dot couplings.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-09-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/J.PHYSB.2018.03.029",
+              "id": "S2:181c36861e0ef1f8462e9cf87f917ca7e2c63113",
+              "provider": "semantic_scholar",
+              "title": "Influence of electron-phonon interaction on quantum phase transition in the triple quantum dots coupled to pseudo-gap Fermi system",
+              "url": "https://www.semanticscholar.org/paper/181c36861e0ef1f8462e9cf87f917ca7e2c63113?utm_source=api"
+            },
+            {
+              "abstract": "By using the cluster perturbation theory, we investigate the effects of the local electron-phonon interaction in the quantum spin Hall topological insulator described by the half-filled Kane-Mele model on an honeycomb lattice. Starting from the topological non trivial phase, where the minimal gap is located at the two inequivalent Dirac points of the Graphene, $\\text{K}$ and $\\text{K}'$, we show that the coupling with quantum phonons induces a topological-trivial quantum phase transition through a gap closing and reopening in the $\\text{M}$ point of the Brillouin zone. The average number of fermions in this point turns out to be a direct indicator of the quantum transition pointing out a strong hybridization between the two bare quasiparticle bands of the Kane-Mele model. By increasing the strength of charge-lattice coupling, the phonon Green's propagator displays a two peak structure: the one located at the lowest energy exhibits a softening that is maximum around the topological transition. Numerical simulations provide also evidence of several kinks in the quasiparticle dispersion caused by the coupling of the electrons with the bosonic lattice mode.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-05-03",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:f0f554d6078c95ecf0eb9f6e613a82bfe039fbeb",
+              "provider": "semantic_scholar",
+              "title": "Topological phase transition in quantum spin Hall insulator in the presence of charge lattice coupling",
+              "url": "https://www.semanticscholar.org/paper/f0f554d6078c95ecf0eb9f6e613a82bfe039fbeb?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2023-04-20",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 6463,
+              "query": "electron correlations topological phase transition local moment gap",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "8000",
+                "reset_seconds": "26656"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2023-04-20",
+                  "per_page": "6",
+                  "search": "electron correlations topological phase transition local moment gap",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2023-04-21"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2023-04-20",
+              "attempts": 2,
+              "locally_excluded_uncertain_or_not_strictly_before": 2,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 526,
+              "query": "electron correlations topological phase transition local moment gap",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "6",
+                  "query": "electron correlations topological phase transition local moment gap",
+                  "year": "1900-2023"
+                }
+              },
+              "strict_before": "2023-04-21"
+            }
+          },
+          "query": "electron correlations topological phase transition local moment gap",
+          "strict_before": "2023-04-21"
+        }
+      ]
+    },
+    "B": {
+      "queries": [
+        {
+          "api_cutoff": "2023-04-20",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "Quantum many-body systems naturally present intricate entanglement patterns between the extensive number of degrees of freedom. In the presence of symmetry, the entanglement contribution of each symmetry sector gives a powerful lens through which to observe these patterns, both in theory and in experiment. It has been proposed that, in clean systems, an entanglement equipartition generically emerges, meaning that the different sectors contribute equally. This work shows that such equipartition is, not obviously, robust against disorder, at least in the random singlet phase of quantum spin chains. Furthermore, the authors identify the subleading term breaking the equipartition.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-07-30",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/physrevb.102.014455",
+              "id": "https://openalex.org/W3023293960",
+              "provider": "openalex",
+              "title": "Entanglement equipartition in critical random spin chains"
+            },
+            {
+              "abstract": "We review recent developments in the physics of ultracold atomic and molecular gases in optical lattices. Such systems are nearly perfect realisations of various kinds of Hubbard models, and as such may very well serve to mimic condensed matter phenomena. We show how these systems may be employed as quantum simulators to answer some challenging open questions of condensed matter, and even high energy physics. After a short presentation of the models and the methods of treatment of such systems, we discuss in detail, which challenges of condensed matter physics can be addressed with (i) disordered ultracold lattice gases, (ii) frustrated ultracold gases, (iii) spinor lattice gases, (iv) lattice gases in “artificial” magnetic fields, and, last but not least, (v) quantum information processing in lattice gases. For completeness, also some recent progress related to the above topics with trapped cold gases will be discussed. Motto: There are more things in heaven and earth, Horatio, Than are dreamt of in your philosophy Citation1",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2007-03-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1080/00018730701223200",
+              "id": "https://openalex.org/W1963988846",
+              "provider": "openalex",
+              "title": "Ultracold atomic gases in optical lattices: mimicking condensed matter physics and beyond"
+            },
+            {
+              "abstract": "We study the symmetry resolved entanglement entropies in gapped integrable lattice models. We use the corner transfer matrix to investigate two prototypical gapped systems with a U(1) symmetry: the complex harmonic chain and the XXZ spin-chain. While the former is a free bosonic system, the latter is genuinely interacting. We focus on a subsystem being half of an infinitely long chain. In both models, we obtain exact expressions for the charged moments and for the symmetry resolved entropies. While for the spin chain we found exact equipartition of entanglement (i.e. all the symmetry resolved entropies are the same), this is not the case for the harmonic system where equipartition is effectively recovered only in some limits. Exploiting the gaussianity of the harmonic chain, we also develop an exact correlation matrix approach to the symmetry resolved entanglement that allows us to test numerically our analytic results.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-03-26",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.21468/scipostphys.8.3.046",
+              "id": "https://openalex.org/W2990967506",
+              "provider": "openalex",
+              "title": "Symmetry resolved entanglement in gapped integrable systems: a corner transfer matrix approach"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-07-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1038/nature23268",
+              "id": "https://openalex.org/W2595688496",
+              "provider": "openalex",
+              "title": "Topological quantum chemistry"
+            },
+            {
+              "abstract": "These are lecture notes for a short course given at the Les Houches Summer School on ``Integrability in Atomic and Condensed Matter Physics'', in summer 2018. Here, I pedagogically discuss recent advances in the study of the entanglement spreading during the non-equilibrium dynamics of isolated integrable quantum systems. I first introduce the idea that the stationary thermodynamic entropy is the entanglement accumulated during the non-equilibrium dynamics and then join such an idea with the quasiparticle picture for the entanglement spreading to provide quantitive predictions for the time evolution of the entanglement entropy in arbitrary integrable models, regardless of the interaction strength.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2020-12-01",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.21468/scipostphyslectnotes.20",
+              "id": "https://openalex.org/W3080693465",
+              "provider": "openalex",
+              "title": "Entanglement spreading in non-equilibrium integrable systems"
+            },
+            {
+              "abstract": "Not much is known about the role that geometric symmetries play in exotic states of quantum matter known as symmetry-protected topological phases. A new approach is developed to classify and understand these phases, which are shown to be comprised of simpler, lower-dimensional states.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2017-02-21",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/physrevx.7.011020",
+              "id": "https://openalex.org/W2342827313",
+              "provider": "openalex",
+              "title": "Topological Phases Protected by Point Group Symmetry"
+            },
+            {
+              "abstract": "In frustrated spin ladders the interplay of frustration and correlations leads to the familiar Haldane (H) and rung-singlet (RS) phases. The nature of the transition between these two phases is still under debate. In this paper we tackle this issue using tools of quantum information theory. We consider frustrated mixed-spin-(1, 1/2) ladders with antiferromagnetic leg, rung and diagonal couplings, and calculate various quantities, such as the entanglement entropy (EE), the Schmidt gap, and the level degeneracy of the entanglement spectrum (ES). We use two numerical techniques, the infinite time-evolving block decimation (iTEBD) and the density matrix renormalization group (DMRG). We demonstrate that there exists an intermediate phase in which the ES levels do not exhibit the characteristic degeneracies of the H and RS phases. To understand the underlying physics in this phase, we investigate short-range spin correlations along legs, rungs and diagonals and show that in this intermediate phase long-wavelength modulations occur, akin to bond order waves.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-06-15",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PhysRevB.106.174419",
+              "id": "S2:6a00b72154e0eeaae273cd43f4f713de2ce12d0c",
+              "provider": "semantic_scholar",
+              "title": "Frustrated mixed-spin ladders: Evidence for a bond-order wave phase between rung-singlet and Haldane phases",
+              "url": "https://www.semanticscholar.org/paper/6a00b72154e0eeaae273cd43f4f713de2ce12d0c?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2021-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:e6f4bf96b6d864c0dc2ae05bf5109424e731b11e",
+              "provider": "semantic_scholar",
+              "title": "Frustrated mixed-spin ladders : An intermediate phase between rung-singlet and Haldane phases",
+              "url": "https://www.semanticscholar.org/paper/e6f4bf96b6d864c0dc2ae05bf5109424e731b11e?utm_source=api"
+            },
+            {
+              "abstract": "The entanglement spectrum provides crucial information about correlated quantum systems. We show that the study of the blocklike nature of the reduced density matrix in number sectors and the partition dependence of the spectrum in finite systems leads to interesting unexpected insights, which we illustrate for the case of a one-dimensional extended Hubbard model. We show that block symmetry provides an intuitive understanding of the spectral double degeneracy of the Haldane insulator, which is remarkably maintained at low on-site interaction, where triple or higher site occupation is significant and particle-hole symmetry is broken. Moreover, surprisingly, the partition dependence of the spectral degeneracy in the Haldane insulator, and of a partial degeneracy in the Mott insulator, is directly linked to the, in principle unrelated, density-density correlations, and presents an intriguing periodic behavior in superfluid and supersolid phases.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2011-04-27",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/PhysRevB.84.085138",
+              "id": "S2:b073ac9fd355150f0c95c29359d049eaf42c942b",
+              "provider": "semantic_scholar",
+              "title": "Entanglement spectrum of one-dimensional extended Bose-Hubbard models",
+              "url": "https://www.semanticscholar.org/paper/b073ac9fd355150f0c95c29359d049eaf42c942b?utm_source=api"
+            },
+            {
+              "abstract": "Commensurate and incommensurate Haldane phases for a spin-1 bilinear-biquadratic model are investigated using an infinite matrix product state algorithm. The bipartite entanglement entropy can detect a transition point between the two phases. In both phases, the entanglement spectrum shows double degeneracy. We calculate the nonlocal order parameter of the bond-centered inversion in both phases, which rapidly approaches a saturation value of −1 as the segment length increases. The nonlocal order parameter of the bond-centered inversion with a saturation value −1 and the nonzero value string order indicate that the Haldane phase is a symmetry-protected topological phase. To distinguish the commensurate and incommensurate Haldane phases, the transversal spin correlation and corresponding momentum distribution of the structure factor are analyzed. As a result, the transversal spin correlations exhibit different decay forms in both phases.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-12-16",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1088/1674-1056/acac0c",
+              "id": "S2:1b320aa458e887914e1467a65c158bf1e158333c",
+              "provider": "semantic_scholar",
+              "title": "Commensurate and incommensurate Haldane phases for a spin-1 bilinear–biquadratic model",
+              "url": "https://www.semanticscholar.org/paper/1b320aa458e887914e1467a65c158bf1e158333c?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2018-01-01",
+              "date_precision": "year",
+              "doi": null,
+              "id": "S2:89380537062428de4ff9c9c3e67999dd632a460c",
+              "provider": "semantic_scholar",
+              "title": "Post-Quench Entanglement and Fluctuations in the Haldane Model",
+              "url": "https://www.semanticscholar.org/paper/89380537062428de4ff9c9c3e67999dd632a460c?utm_source=api"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2015-12-17",
+              "date_precision": "day",
+              "doi": null,
+              "id": "S2:17063204345a85552def584d05ba4d415767ac0c",
+              "provider": "semantic_scholar",
+              "title": "Entanglement convertibility by sweeping through the phase diagram of one dimensional $XXZ$ model with bond alternation",
+              "url": "https://www.semanticscholar.org/paper/17063204345a85552def584d05ba4d415767ac0c?utm_source=api"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2023-04-20",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 262,
+              "query": "entanglement spectrum degeneracy local moment Haldane phase correlations",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "7990",
+                "reset_seconds": "26647"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2023-04-20",
+                  "per_page": "6",
+                  "search": "entanglement spectrum degeneracy local moment Haldane phase correlations",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2023-04-21"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2023-04-20",
+              "attempts": 1,
+              "locally_excluded_uncertain_or_not_strictly_before": 0,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 17,
+              "query": "entanglement spectrum degeneracy local moment Haldane phase correlations",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "6",
+                  "query": "entanglement spectrum degeneracy local moment Haldane phase correlations",
+                  "year": "1900-2023"
+                }
+              },
+              "strict_before": "2023-04-21"
+            }
+          },
+          "query": "entanglement spectrum degeneracy local moment Haldane phase correlations",
+          "strict_before": "2023-04-21"
+        },
+        {
+          "api_cutoff": "2023-04-20",
+          "credential_sources": {
+            "openalex": "frozen_bibliographic_snapshot",
+            "semantic_scholar": "frozen_bibliographic_snapshot"
+          },
+          "hits": [
+            {
+              "abstract": "This article reviews the electronic and transport properties of carbon nanotubes. The focus is mainly theoretical, but when appropriate the relation with experimental results is mentioned. While simple band-folding arguments will be invoked to rationalize how the metallic or semiconducting character of nanotubes is inferred from their topological structure, more sophisticated tight-binding and ab initio treatments will be introduced to discuss more subtle physical effects, such as those induced by curvature, tube-tube interactions, or topological defects. The same approach will be followed for transport properties. The fundamental aspects of conduction regimes and transport length scales will be presented using simple models of disorder, with the derivation of a few analytic results concerning specific situations of short- and long-range static perturbations. Further, the latest developments in semiempirical or ab initio simulations aimed at exploring the effect of realistic static scatterers (chemical impurities, adsorbed molecules, etc.) or inelastic electron-phonon interactions will be emphasized. Finally, specific issues, going beyond the noninteracting electron model, will be addressed, including excitonic effects in optical experiments, the Coulomb-blockade regime, and the Luttinger liquid, charge density waves, or superconducting transition.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2007-05-16",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/revmodphys.79.677",
+              "id": "https://openalex.org/W1987112649",
+              "provider": "openalex",
+              "title": "Electronic and transport properties of nanotubes"
+            },
+            {
+              "abstract": "The long-sought quantum spin liquid phase of the triangular antiferromagnet has been concealed by various effects, including structural disorder, geometrical distortion, and Dzyaloshinskii-Moriya anisotropy. NaYbO${}_{2}$ has emerged as a model material that overcomes such obstacles and has been found to show the generic physics of a quantum spin liquid in a triangular antiferromagnet. In the experiments here, NaYbO${}_{2}$ shows persistent spin dynamics, continuous magnetic excitations emanating from the $K$ point of the Brillouin zone, and absence of a spin gap down to the lowest measured temperatures, suggesting that the spin-liquid state is gapless.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2019-10-24",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1103/physrevb.100.144432",
+              "id": "https://openalex.org/W2914293618",
+              "provider": "openalex",
+              "title": "Gapless spin-liquid state in the structurally disorder-free triangular antiferromagnet <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:msub><mml:mi>NaYbO</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:math>"
+            },
+            {
+              "abstract": "Abstract The Laser Interferometer Space Antenna (LISA) has the potential to reveal wonders about the fundamental theory of nature at play in the extreme gravity regime, where the gravitational interaction is both strong and dynamical. In this white paper, the Fundamental Physics Working Group of the LISA Consortium summarizes the current topics in fundamental physics where LISA observations of gravitational waves can be expected to provide key input. We provide the briefest of reviews to then delineate avenues for future research directions and to discuss connections between this working group, other working groups and the consortium work package teams. These connections must be developed for LISA to live up to its science potential in these areas.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-06-30",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1007/s41114-022-00036-9",
+              "id": "https://openalex.org/W4283722432",
+              "provider": "openalex",
+              "title": "New horizons for fundamental physics with LISA"
+            },
+            {
+              "abstract": "The influence of an external magnetic field on the chemical and photochemical processes in molecular solids, semiconductors, photosynthetic systems, and liquid solutions, the magnetic (or nuclear-spin) isotope effect, the chemically induced magnetic polarization of electrons and nuclei, the radiofrequency chemical maser, the high-frequency magnetic-resonance modulation of the rates of physical and chemical processes involving paramagnetic particles, and magnetic effects in the molecular physics of gases—all these effects are a consequence of spin selection rules and spin evolution. In this review, we analyze the origin of magnetic spin effects, estimate their quantitative scale, and discuss the time scale of spin dynamics.",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "1988-05-31",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1070/pu1988v031n05abeh003544",
+              "id": "https://openalex.org/W2077969539",
+              "provider": "openalex",
+              "title": "Magnetic-spin effects in chemistry and molecular physics"
+            },
+            {
+              "abstract": "",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2022-07-15",
+              "date_precision": "day",
+              "doi": "https://doi.org/10.1016/j.jmmm.2022.169692",
+              "id": "https://openalex.org/W4285501434",
+              "provider": "openalex",
+              "title": "Spin-orbit torque switching of magnetic tunnel junctions for memory applications"
+            },
+            {
+              "abstract": "Dense liquids above their glass transition exhibit spatially heterogeneous dynamics (SHD) in which regions within the liquid exhibit enhanced or diminished mobility relative to the average on some time scale. The spatially heterogeneous nature of local dynamics in supercooled liquids is fairly well established both experimentally and computationally. However, many questions remain concerning why and how this complex dynamics arises. Here we address these questions and present results of a detailed investigation of SHD in models of a one-component supercooled liquid and a low-molecular-weight polymer melt, via molecular dynamics simulation. We find that particles or chain segments (monomers) with high mobility exhibit a correlated motion in which they move in a quasi-one dimensional ``string-like'' paths that aggregate into larger, ramified clusters. These dynamical clusters grow in size with decreasing temperature. The mean string and cluster sizes show a transient nature, with peaks at the late-$\\beta$/early-$\\alpha$ relaxation time of the mode-coupling theory (MCT). The size distribution of the strings shows an exponential behavior, while that of the clusters approaches a power law near $T_{\\rm MCT}$. We further investigate the microscopic details of local particle dynamics in order to understand the mechanisms by which particles move along string-like correlated paths. We find that the degree of coherence, i.e., the simulataneous motion by consecutive particles along a string, depends on the length of the string. We also explore the thermodynamic behavior of the one-comp",
+              "also_returned_by": [],
+              "alternate_ids": [],
+              "date": "2004-04-16",
+              "date_precision": "day",
+              "doi": null,
+              "id": "https://openalex.org/W1549764903",
+              "provider": "openalex",
+              "title": "Spatially Heterogeneous Dynamics and String-Like Correlated Motion in Supercooled Liquids and Polymers"
+            }
+          ],
+          "ok": true,
+          "provider": "openalex",
+          "providers": {
+            "primary": {
+              "api_cutoff": "2023-04-20",
+              "attempts": 1,
+              "locally_excluded_not_strictly_before": 0,
+              "ok": true,
+              "provider": "openalex",
+              "provider_total": 31,
+              "query": "topological degeneracy precedes local moment saturation correlated chain",
+              "rate_limit": {
+                "credits_used": "10",
+                "remaining": "7980",
+                "reset_seconds": "26645"
+              },
+              "request": {
+                "endpoint": "https://api.openalex.org/works",
+                "params": {
+                  "filter": "to_publication_date:2023-04-20",
+                  "per_page": "6",
+                  "search": "topological degeneracy precedes local moment saturation correlated chain",
+                  "select": "id,title,publication_date,doi,abstract_inverted_index"
+                }
+              },
+              "strict_before": "2023-04-21"
+            },
+            "semantic_supplement": {
+              "api_cutoff": "2023-04-20",
+              "attempts": 1,
+              "locally_excluded_uncertain_or_not_strictly_before": 0,
+              "ok": true,
+              "provider": "semantic_scholar",
+              "provider_total": 0,
+              "query": "topological degeneracy precedes local moment saturation correlated chain",
+              "rate_policy": {
+                "backoff_seconds": [
+                  5,
+                  15
+                ],
+                "min_interval_seconds": 3
+              },
+              "request": {
+                "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search",
+                "params": {
+                  "fields": "paperId,externalIds,url,title,abstract,venue,year,publicationDate,citationCount,authors,openAccessPdf,tldr",
+                  "limit": "6",
+                  "query": "topological degeneracy precedes local moment saturation correlated chain",
+                  "year": "1900-2023"
+                }
+              },
+              "strict_before": "2023-04-21"
+            }
+          },
+          "query": "topological degeneracy precedes local moment saturation correlated chain",
+          "strict_before": "2023-04-21"
+        }
+      ]
+    }
+  },
+  "generated_at": "2026-08-12T16:35:57.866256+00:00",
+  "provider": "frozen_bibliographic_snapshot",
+  "query_spec_sha256": "3220352707b04c0d6059d6b3e59d341091af63dc75cfbe524bd915f315a5ce01",
+  "schema": "truthinsightbench-frozen-novelty-search-evidence",
+  "search_scope_statement": "Migrated without changing the frozen pre-t0 query results; non-detection is scoped, not universal priority.",
+  "strict_before": "2023-04-21",
+  "task_id": "Physics_02_multiorbital_transition",
+  "release": "V1.0"
+}

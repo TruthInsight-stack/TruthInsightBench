@@ -1,0 +1,27 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "barium iron oxide room temperature magnetic hysteresis high temperature",
+        "room temperature multiferroic magnetic transition oxide"
+      ]
+    },
+    "B": {
+      "queries": [
+        "barium ferrite switchable polarization electrical loop",
+        "room temperature multiferroic electric hysteresis oxide"
+      ]
+    }
+  },
+  "frozen_at": "2026-08-22",
+  "provider": "OpenAlex_primary_with_Crossref_fallback",
+  "provider_api": [
+    "https://api.openalex.org/works",
+    "https://api.crossref.org/works"
+  ],
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2022-01-01",
+  "target_doi_excluded": "10.1038/s41467-022-35669-5",
+  "task_id": "Material_02_temperature_response_boundaries",
+  "release": "V1.0"
+}

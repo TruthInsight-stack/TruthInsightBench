@@ -1,0 +1,21 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "global compilation glacial fluvial erosion rates comparison",
+        "glacial erosion faster than fluvial global erosion rate timescale"
+      ]
+    },
+    "B": {
+      "queries": [
+        "cosmogenic erosion rate timescale fixed measurement thickness Sadler effect",
+        "erosion rate timescale cosmogenic penetration depth measurement bias"
+      ]
+    }
+  },
+  "provider": "frozen_bibliographic_snapshot",
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2024-10-17",
+  "task_id": "EarthScience_01_glacial_fluvial_erosion",
+  "release": "V1.0"
+}

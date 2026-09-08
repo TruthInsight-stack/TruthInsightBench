@@ -1,0 +1,44 @@
+{
+  "schema": "truthinsightbench-verification-manifest",
+  "release": "V1.0",
+  "task_id": "Math_04_anomalous_diffusion_change_points",
+  "action_count": 8,
+  "actions": [
+    {
+      "script": "verification/perturb/A/definition.py",
+      "script_sha256": "2ccf5425fe91458fe1f7ba849c1ee6b35eb1b763e6a3e5d582976fd22c5f49cc"
+    },
+    {
+      "script": "verification/perturb/A/method.py",
+      "script_sha256": "8908dc069301ed7c81579d7164d2ffb63bdf4f55565934121545c55423fcc5fe"
+    },
+    {
+      "script": "verification/perturb/A/sample.py",
+      "script_sha256": "b772ad0b37c1c6f74440c5584439d463c6b7a26c3046aa357e70db847bf86a1e"
+    },
+    {
+      "script": "verification/perturb/B/definition.py",
+      "script_sha256": "ebe02fa815a6dbb16a1d5a3876bd2659d498202e95b76ee89f9887196d3f9c43"
+    },
+    {
+      "script": "verification/perturb/B/method.py",
+      "script_sha256": "2dff6fa7ca901db962de9c7f497f9df4a958cf788f710713949c0a4c3bd086a5"
+    },
+    {
+      "script": "verification/perturb/B/sample.py",
+      "script_sha256": "6f97a92e8ed7a1b54e71b9b05b501980fae70a358c4cf2aea93bef2568bd2994"
+    },
+    {
+      "script": "verification/recompute/A.py",
+      "script_sha256": "90ff952554061cc985a2395e839e03ee937eb20ddebb45aeeb6871029bb70f69"
+    },
+    {
+      "script": "verification/recompute/B.py",
+      "script_sha256": "e67dc0351c6113222f837bdb7195651b8f15737da37d36263d302c7ee093dd65"
+    }
+  ],
+  "verification_tree_sha256": "72c09375627f408a1590758bbcf03d5fcb7764ffdfc319f932d41f6be8483906",
+  "verification_file_count": 8,
+  "shared_runtime_tree_sha256": "20a80a31ad890d42dbf88cdec35a3f1c0636beb9a42156f6be7bc28dbf203784",
+  "shared_runtime_file_count": 4
+}

@@ -1,0 +1,21 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "nanoparticle fluid interface square hexagonal bilayer spacing",
+        "binary nanoparticle bilayer interfacial self assembly"
+      ]
+    },
+    "B": {
+      "queries": [
+        "binary nanoparticle Kagome hexagonal superlattice",
+        "fluid interface nanoparticle Kagome monolayer assembly"
+      ]
+    }
+  },
+  "provider": "frozen_bibliographic_snapshot",
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2022-01-01",
+  "task_id": "Material_01_binary_superlattice",
+  "release": "V1.0"
+}

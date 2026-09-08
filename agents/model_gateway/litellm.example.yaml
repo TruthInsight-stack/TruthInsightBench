@@ -1,0 +1,15 @@
+model_list:
+  - model_name: DeepSeek-V4-Flash
+    litellm_params:
+      model: hosted_vllm/os.environ/TIB_UPSTREAM_MODEL
+      api_base: os.environ/TIB_UPSTREAM_BASE_URL
+      api_key: os.environ/TIB_UPSTREAM_API_KEY
+      drop_params: true
+      extra_body:
+        enable_thinking: false
+
+litellm_settings:
+  drop_params: true
+
+general_settings:
+  disable_spend_logs: true

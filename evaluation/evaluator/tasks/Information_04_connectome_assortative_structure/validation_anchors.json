@@ -1,0 +1,206 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "Strength-distance correlation remains positive under contiguous blocks, decile holdouts, and coordinate-index residualization.",
+      "independent_reconstruction_method": "Rank/linear association, contiguous region blocks, leave-one decile, and polynomial index residuals.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "All 800 anonymous nodes in the summary table.",
+      "one_liner": "Node strength is strongly associated with mean connection distance, while homophily-distance association is much weaker.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample.py",
+          "script_sha256": "de1d15f6cfe3c5f2e5ad5a14f12fad89fe49ac70fbccfc5a26a2dfa360f5793e"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method.py",
+          "script_sha256": "0a3861b315e2b72157250f020575df8e8cb10a46d2147565fcabdde3865f9a61"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition.py",
+          "script_sha256": "a116b8e50bd6a7dd2c7423abf8f3125cc0fbe01fcedffedaf9bdfc682724453a"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A complete held-out network supports the relationship if strength-distance rank correlation exceeds 0.45 in every predeclared block; any block at or below that value is failure."
+      },
+      "quantities": [
+        {
+          "key": "node_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 800
+        },
+        {
+          "key": "strength_distance_spearman",
+          "role": "core",
+          "tolerance_rel": 0.04,
+          "unit": "fraction",
+          "value": 0.6790797954371804
+        },
+        {
+          "key": "strength_distance_pearson",
+          "role": "core",
+          "tolerance_rel": 0.04,
+          "unit": "fraction",
+          "value": 0.6482945503891568
+        },
+        {
+          "key": "homophily_distance_spearman",
+          "role": "supporting",
+          "tolerance_rel": 0.1,
+          "unit": "fraction",
+          "value": 0.1566835182554973
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "script_sha256": "411c746f9a025c64dddfe989bbcae40feb1ec8051d8962d98cf3e402a63b4f3a",
+        "values": [
+          {
+            "json_path": "values.node_count",
+            "quantity_key": "node_count"
+          },
+          {
+            "json_path": "values.strength_distance_spearman",
+            "quantity_key": "strength_distance_spearman"
+          },
+          {
+            "json_path": "values.strength_distance_pearson",
+            "quantity_key": "strength_distance_pearson"
+          },
+          {
+            "json_path": "values.homophily_distance_spearman",
+            "quantity_key": "homophily_distance_spearman"
+          }
+        ]
+      },
+      "scope": "Node-level network geometry; nodes are dependent and do not establish developmental causality.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports relationships among annotated-network topology, wiring distance, and assortative organization.",
+        "paper_location": "Node topology and spatial-distance Results/source data.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "The median begins positive, ends negative, and the reversal survives series holdout and early/late aggregation.",
+      "independent_reconstruction_method": "Leave-one-series medians, means, and first/last three-trim definitions.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "All 14 complete z-statistic trimming series across systems and annotations.",
+      "one_liner": "Assortativity evidence is highly trimming-sensitive: the median z-like statistic reverses from positive to negative and every series decreases.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample.py",
+          "script_sha256": "e3af0cb7fb26176288f91d8c25201c0932f3252836686e1f55de72474abc9d9d"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method.py",
+          "script_sha256": "2db8e851d9f1e3b6226015b32e5bbbf5b2a202f04653e10b4971e2ddaedfe1aa"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition.py",
+          "script_sha256": "e64f085afa3611386df12fee9dc883a770c0513143e7bd718dc623b4854f4e94"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A new system validates the boundary if its statistic decreases from the early to late trimming region and the pooled median still changes sign; otherwise the claimed generality fails."
+      },
+      "quantities": [
+        {
+          "key": "assortativity_series_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 14
+        },
+        {
+          "key": "first_trim_median_z",
+          "role": "core",
+          "tolerance_rel": 0.1,
+          "unit": "z_units",
+          "value": 1.4160544536218684
+        },
+        {
+          "key": "last_trim_median_z",
+          "role": "core",
+          "tolerance_rel": 0.1,
+          "unit": "z_units",
+          "value": -1.5648110419408015
+        },
+        {
+          "key": "decreasing_series_fraction",
+          "role": "core",
+          "tolerance_rel": 0.0,
+          "unit": "fraction",
+          "value": 1.0
+        },
+        {
+          "key": "positive_fraction_first_trim",
+          "role": "supporting",
+          "tolerance_rel": 0.08,
+          "unit": "fraction",
+          "value": 0.7857142857142857
+        },
+        {
+          "key": "positive_fraction_last_trim",
+          "role": "supporting",
+          "tolerance_rel": 0.08,
+          "unit": "fraction",
+          "value": 0.07142857142857142
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "script_sha256": "4e0e377e768d3e8b14b0a9d42ddbbe2bce2f6022ea37a11fa42a0b5281235ab4",
+        "values": [
+          {
+            "json_path": "values.assortativity_series_count",
+            "quantity_key": "assortativity_series_count"
+          },
+          {
+            "json_path": "values.first_trim_median_z",
+            "quantity_key": "first_trim_median_z"
+          },
+          {
+            "json_path": "values.last_trim_median_z",
+            "quantity_key": "last_trim_median_z"
+          },
+          {
+            "json_path": "values.decreasing_series_fraction",
+            "quantity_key": "decreasing_series_fraction"
+          },
+          {
+            "json_path": "values.positive_fraction_first_trim",
+            "quantity_key": "positive_fraction_first_trim"
+          },
+          {
+            "json_path": "values.positive_fraction_last_trim",
+            "quantity_key": "positive_fraction_last_trim"
+          }
+        ]
+      },
+      "scope": "A robustness boundary, not evidence that one trimming percentage is uniquely correct.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source explicitly examines how spatial trimming changes annotated-network assortativity.",
+        "paper_location": "Trimming-sensitivity Results and source-data panel.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "These two cards are verified reference discoveries for blind-rediscovery diagnostics and are not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2023-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Information_04_connectome_assortative_structure",
+  "release": "V1.0"
+}

@@ -1,0 +1,21 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "interaction driven Haldane phase charge fluctuations multiorbital chain",
+        "electron correlations topological phase transition local moment gap"
+      ]
+    },
+    "B": {
+      "queries": [
+        "entanglement spectrum degeneracy local moment Haldane phase correlations",
+        "topological degeneracy precedes local moment saturation correlated chain"
+      ]
+    }
+  },
+  "provider": "frozen_bibliographic_snapshot",
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2023-04-21",
+  "task_id": "Physics_02_multiorbital_transition",
+  "release": "V1.0"
+}

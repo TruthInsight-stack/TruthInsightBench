@@ -1,0 +1,1944 @@
+{
+  "status": "frozen",
+  "public_name_en": "Scientific Finding Quality Score",
+  "construct_en": "For a fixed data-analysis task, the degree to which a testable scientific finding is supported by correct inputs, genuine execution, reproducible calculations, robustness tests, tests of alternative explanations, separated evidence, controlled prior-art search, and a next-step falsification test.",
+  "scope_en": "This scale is designed for auditable, replayable, data-driven scientific-discovery tasks. A score of 100 means that every evidence item specified in advance for this task has been completed; it does not imply world-class importance, absolute truth, or cross-domain difficulty.",
+  "atomic_scoring_item": {
+    "name_en": "Atomic scoring item",
+    "definition_en": "The evaluator answers one public, lowest-level decision question at a time and generates one receipt for it. “Atomic” means that the leaderboard does not divide this item into additional point-bearing items; it does not mean that a task card cannot contain multiple objects, quantities, or tests that must each be checked. It is an evaluation action, not one tool call by the participant system.",
+    "one_receipt_rule": "Every registered finding must produce exactly twenty-nine atomic scoring receipts. Each scoring item appears once and contributes only its published weight."
+  },
+  "normative_hierarchy": {
+    "rule_en": "When ambiguity arises, the three-level anchors in the public scoring specification define the decision logic, while the pre-competition task action card instantiates objects, data, thresholds, counts, and tolerances. Examples aid interpretation only; they cannot create new conditions or override an anchor.",
+    "order": [
+      "Public scoring specification: fixed branches, weights, three-level anchors, and state machine",
+      "Pre-competition task action card: instantiated objects, data, formulas, thresholds, counts, tolerances, and evidence locations",
+      "Code fact package: records actual inputs, executions, values, times, dependencies, and hashes",
+      "Frozen-model judgment: returns three mutually exclusive anchor Booleans, in zero-credit → full-credit → half-credit order, using only the code fact package; it does not report a level directly",
+      "Examples: explanatory only, with no independent normative force"
+    ]
+  },
+  "discovery_unit": {
+    "name_en": "One finding",
+    "definition_en": "A conclusion that can be tested independently. It must state the study object, applicable scope, relationship or quantity, direction or boundary, and evidence references. If one sentence contains two main conclusions that can be falsified separately, split it into two findings before scoring.",
+    "required_fields": [
+      "discovery_id",
+      "object",
+      "scope",
+      "relation_or_quantity",
+      "direction_shape_or_boundary",
+      "evidence_references",
+      "status",
+      "frozen_at"
+    ]
+  },
+  "discovery_lifecycle": {
+    "candidate": "A provisional candidate under exploration is not a submitted finding and is not scored. It may be revised, merged, or abandoned.",
+    "asserted": "Every final finding that the system registers as asserted and freezes before result submission enters all twenty-nine scoring items, semantic deduplication, and aggregation. A low-scoring finding cannot be withdrawn after scoring.",
+    "withdrawn": "A candidate explicitly withdrawn before submission freeze retains only an audit trail and is not scored. If the withdrawal process itself establishes the testable negative result that “the original relationship does not hold within a specified scope,” that result must be registered separately as a new asserted finding to receive credit.",
+    "revision": "Final findings use stable discovery_id and frozen_at fields and supersedes to record revision relationships. Semantic deduplication merges multiple versions of the same conclusion."
+  },
+  "operational_limits": {
+    "max_asserted_discoveries_per_run": 100,
+    "reason_en": "This engineering safety limit prevents pairwise semantic deduplication from being overwhelmed by an extremely large input. It neither encourages submitting 100 findings nor changes the scientific rule that every finding is scored and the top two enter the main quality term."
+  },
+  "scoring": {
+    "action_levels": [
+      0,
+      0.5,
+      1
+    ],
+    "action_points": "action.weight * action.level",
+    "discovery_score": "sum(action.weight * action.level)",
+    "gate": "none",
+    "rounding": "All weights are integers, so a finding score can increase only in increments of 0.5 points; no arbitrary fractional values are produced internally.",
+    "level_precedence": [
+      "Check zero-credit conditions first. Any explicit directional conflict, wrong object, non-execution, or unverifiable evidence takes precedence and receives 0.",
+      "If no zero-credit condition is triggered, check the full-credit conditions. Assign 1 only when all are satisfied.",
+      "If full credit is not satisfied but the action’s explicit valid-partial-completion condition is met, assign 0.5.",
+      "Assign 0 in all other cases. The judging model may not interpolate freely."
+    ],
+    "run_score": "clamp(0.60*S1 + 0.20*S2 + yield_bonus + hidden_target_recovery - deterministic_false_claim_penalty, 0, 100)",
+    "run_terms": {
+      "S1": "The highest finding score after semantic deduplication of all findings; 0 if there are no findings.",
+      "S2": "The second-highest finding score after semantic deduplication of all findings; 0 if fewer than two findings remain.",
+      "yield_bonus": "After deduplication, the first, second, third, and fourth findings that reach 40 points without triggering a deterministic error add 4, 2, 2, and 2 points, respectively, for a maximum of 10. This denotes only mechanically reaching 40 points and is not labeled a “reliable finding.”",
+      "hidden_target_recovery": "Each of two hidden reference targets is compared by object, applicable scope, relationship direction, and core values. Complete, partial, or no recovery is multiplied by 1, 0.5, or 0, respectively. Each target card is worth 5 points, for a maximum of 10. Target-source isolation is scored independently within the finding-quality score and is not a multiplicative gate on the target-recovery reward.",
+      "deterministic_false_claim_penalty": "Only when execution or recomputation evidence has directly refuted a conclusion and the final report still states that it holds is 5 points deducted per deduplicated conclusion, up to 10 points. Ordinary missing evidence loses points only within that finding."
+    }
+  },
+  "execution_contract": {
+    "participant_missing_evidence": "The evaluator must still generate a complete receipt for the action with level=0 and reason_code=participant_evidence_missing.",
+    "judge_failure": "If the model service, path resolver, or scoring program has a transient failure, the evaluator retries internally and saves an error log without publishing a special scoring status to the leaderboard. If the service or program remains unavailable, publication of that result stops. A frozen prior-art query that still fails after the agreed retries is the only explicit scoring-degradation exception: that novelty action receives 0, while the other 28 actions are scored normally.",
+    "evidence_responsibility": "If the root report, referenced code, results, or reproduction materials that the Agent must deliver are genuinely missing, the corresponding action receives 0. Before treating a path as missing, the evaluator must exhaust container-path remapping, working-directory inference, relative paths, suffix lookup, and safe wildcard expansion; its own path-resolution error cannot be counted as an Agent failure. Missing optional platform logs do not automatically lose credit. The target-source-isolation action receives 0 only when available materials explicitly show that the target answer became direct evidence.",
+    "scoring_bridge": "The evaluation framework first generates a hash-bound scoring bridge package from the root Result.md and genuine intermediate artifacts. The model receives only the current finding text, its parsed intermediate artifacts, trusted code facts, and the current atomic rule. Agent text is uniformly labeled untrusted evidence and cannot override system instructions, evidence scope, or the output contract.",
+    "model_authority": "The model performs only structured semantic mapping and evaluates conditions in order: zero credit first; full credit only if zero credit was not triggered; half credit only if zero credit was not triggered and full credit was not satisfied. It returns three raw Booleans with at most one true. It may not fabricate execution facts, override hash or numerical checks, report a level directly, or assign an impressionistic 0–100 score.",
+    "code_authority": "Code checks inputs, hashes, executions, values, tolerances, dependencies, times, and the complete ID set. It then derives the unique level from the raw anchor judgments with a fixed state machine—zero credit first, full credit second, half credit last—and performs the addition.",
+    "evidence_reuse": "The same result may be cited by different, pre-specified scientific questions—for example, both to recompute a value and to determine whether prose exaggerates it. The task card must freeze the operation_id→scientific_predicate_id→action_id mapping. If one execution earns credit across actions, it must be shown to answer two different scientific predicates frozen before the competition. One operation answering one predicate can belong to only one action and cannot be counted again under a different name. Source independence is checked only by actions that explicitly require independent evidence.",
+    "task_admission": "Before release, each task must freeze its admissible data identities and hashes, time boundary, resource contract, two hidden reference targets, and evaluator-side prior-art search assets. The evaluator does not require a standard research route to be specified in advance or twenty-nine task-specific scoring systems to be authored by hand. It identifies the formulas, baselines, controls, alternative explanations, and robustness tests actually used in the Agent's Result and intermediate artifacts, then judges them against the same twenty-nine scientific criteria. If a task's data identity, time boundary, or hidden targets are incomplete, they must be repaired before the task enters cross-system evaluation; weights cannot be changed ad hoc during scoring.",
+    "deduplication": "One frozen model reviews all findings in a system-task report and returns non-overlapping equivalence groups using object, applicable scope, relationship type, direction, and key evidence dependencies. Different evidence sources cannot split one conclusion into two. Code validates finding IDs, membership uniqueness, and minimum group size; findings not assigned to a duplicate group remain singletons. Invalid structured grouping responses are retried up to three times before result publication stops."
+  },
+  "judge_profiles": {
+    "deterministic_code": "Deterministic code judgment; the model may not change the score.",
+    "code_plus_model": "Code first generates a trusted fact package; one frozen model judges scientific semantics only; code then resolves the score under the anchors."
+  },
+  "families": [
+    {
+      "id": "evidence_validity",
+      "name_en": "Validity of evidence for the core conclusion",
+      "weight": 45,
+      "plain_question_en": "Did the most important sentence in the report genuinely come from a successful execution on the required data, with traceable and recomputable results?",
+      "actions": [
+        {
+          "id": "evidence.data_identity",
+          "number": "1.1",
+          "name_en": "The finding is bound to the task's registered frozen input snapshot",
+          "weight": 4,
+          "judge_profile": "deterministic_code",
+          "plain_question_en": "Is the finding bound to the task's frozen dataset and to concrete analysis and result artifacts?",
+          "why_en": "If the registered task inputs changed or the finding cannot be traced to concrete analysis and result artifacts, attractive reported numbers do not demonstrate completion of this discovery task.",
+          "judgment_boundary_en": "This item checks the registered input snapshot and the finding's source-to-result trace. It does not judge whether the reported values are correct or whether the conclusion holds; those matters are judged in Items 1.5 through 1.7.",
+          "required_inputs": [
+            "Registered task manifest and frozen input hashes",
+            "Before-and-after workspace integrity receipt",
+            "Finding-linked analysis source paths",
+            "Finding-linked result artifact paths"
+          ],
+          "human_steps": [
+            "Verify that the assembled task inputs match the registered manifest before execution.",
+            "Verify that the registered inputs are unchanged after execution.",
+            "Resolve the analysis source and result artifact cited for the finding.",
+            "Assign the level from the integrity receipt and the finding-specific trace."
+          ],
+          "anchors": {
+            "1": "The workspace matches the registered frozen input snapshot before and after execution, and the finding resolves to both an analysis source and a result artifact.",
+            "0.5": "The workspace matches the registered frozen input snapshot and an analysis source resolves, but the finding-specific source-to-result trace is incomplete.",
+            "0": "The registered snapshot is missing, changed, or mismatched, or no analysis source resolves."
+          },
+          "examples": {
+            "1": "The task workspace matches its registered hashes before and after execution, and the finding cites an existing analysis script together with the result file it produced.",
+            "0.5": "The task workspace matches its registered hashes and the analysis script exists, but the finding does not resolve to a concrete result artifact.",
+            "0": "A registered input changed during execution, or the finding has no resolvable analysis source."
+          },
+          "pseudocode": [
+            "if not registered_input_integrity: return 0",
+            "if not analysis_source_resolves: return 0",
+            "if finding_source_result_trace_passes: return 1",
+            "return 0.5"
+          ],
+          "code_role_en": "Verify the registered input snapshot and resolve finding-linked analysis and result artifacts.",
+          "model_role_en": "None.",
+          "receipt_fields": [
+            "input_integrity_passed",
+            "changed_input_paths",
+            "missing_input_paths",
+            "analysis_source_paths",
+            "result_artifact_paths",
+            "finding_traceability_passed",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "The registered task inputs are unchanged and match the frozen snapshot, while the finding's analysis source and result artifact both resolve. Score is 4 × 1 = 4 points.",
+            "0.5": "The registered task inputs are unchanged and the analysis source resolves, but the finding-specific result link is incomplete. Score is 4 × 0.5 = 2 points.",
+            "0": "The registered input integrity receipt fails or no analysis source resolves. Score is 4 × 0 = 0 points."
+          }
+        },
+        {
+          "id": "evidence.analysis_scope",
+          "number": "1.2",
+          "name_en": "The study object, scope, units, and independent-observation definition are correct",
+          "weight": 4,
+          "judge_profile": "code_plus_model",
+          "plain_question_en": "The report states who was studied, over what period, and in what units. Did the program actually analyze the same objects using the same unit of observation?",
+          "why_en": "Misaligned objects, confused units, or treating repeated measurements of one object as independent samples can distort both relationship direction and uncertainty.",
+          "judgment_boundary_en": "This item checks only who was analyzed, over what scope, in what units, and what counts as one independent observation. It does not judge the strength of the observed relationship.",
+          "required_inputs": [
+            "Structured Discovery",
+            "Question Range Cards and Field Weights and Key Markers",
+            "Analysis Configuration",
+            "Sample & Group Ledger",
+            "Unit Mapping",
+            "Sensitivity Recomputation Receipt for Secondary Field Difference"
+          ],
+          "human_steps": [
+            "Identify objects, time windows, groups, filters, units, and independent units of observation from the discovery.",
+            "Use code to generate the actual sample and group summaries, then read the task card's pre-specified weight and criticality marker for each field.",
+            "Compare by field and calculate the frozen weight coverage for consistent fields; the model is only responsible for mapping natural language to fields.",
+            "Before assigning half credit, inspect the sensitivity-recomputation ID, inputs, outputs, and comparison with the core determination. Assign 0 if any critical field is misaligned, matching coverage is below 50%, or a difference changes the core determination."
+          ],
+          "anchors": {
+            "1": "All object, scope, filter, unit, and independent-observation fields, representing 100% of the frozen weight, agree with the task card and the actual data.",
+            "0.5": "All critical fields are correct, and exactly matching fields account for at least 50% but less than 100% of the frozen weight. Every mismatch, omission, or incomplete record is confined to a minor field designated in advance by the task card, and a sensitivity recomputation confirms that it does not change the core determination.",
+            "0": "Any critical object, primary scope, unit, or independent-observation definition is wrong; the overall matching weight is below 50%; a minor-field difference changes the core determination; or repeated measurements of the same object are incorrectly treated as multiple independent samples."
+          },
+          "examples": {
+            "1": "The conclusion is limited to type-A films at 20–40 °C. The analysis uses those samples and treats each film, rather than each repeated reading, as one independent observation.",
+            "0.5": "The key fields such as object, temperature range, and film-level independent unit are correct, covering a total of 80% frozen weight; the two secondary quality screening instructions are incomplete, but the sensitivity recomputation does not change the core judgment.",
+            "0": "The same film was tested 100 times, but the report wrote 100 readings as 100 independent samples."
+          },
+          "pseudocode": [
+            "claim_scope = model.extract(object, range, unit, independent_unit)",
+            "facts = code.build_actual_scope_summary_with_frozen_weights()",
+            "if any(critical_field_wrong) or pseudoreplication: return 0",
+            "coverage = sum(weight of exactly_matching fields) / sum(all frozen field weights)",
+            "if coverage == 1: return 1",
+            "if coverage >= 0.5 and every_mismatch_or_gap_is_prefrozen_minor and core_decision_unchanged: return 0.5",
+            "return 0"
+          ],
+          "code_role_en": "Generate actual sample membership, grouping, unit, and repeated-measurement facts.",
+          "model_role_en": "Map the objects and scopes in the report to frozen fields without judging execution authenticity.",
+          "receipt_fields": [
+            "claim_scope",
+            "actual_scope",
+            "field_weights",
+            "critical_field_ids",
+            "field_comparison",
+            "weighted_field_coverage",
+            "independent_observation_check",
+            "sensitivity_recompute_id",
+            "sensitivity_inputs",
+            "sensitivity_outputs",
+            "core_decision_unchanged",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "Conclusions, task cards, and actual analyses all point to A-type films at 20–40 degrees Celsius, and the program also uses films rather than single readings as independent observations; the frozen fields such as objects, ranges, units, and independent observations are 100% consistent, and there is no critical misalignment. Score is 4 × 1 = 4 points.",
+            "0.5": "The key fields such as object, temperature range and film-level independent unit are all correct, and 80% of the fields are consistent according to the frozen weight of the task card. The gap is only marked as a secondary quality screening field in advance, and the sensitivity recomputation confirms that these differences do not change the core judgment, so it does not trigger zero credit but does not reach 100% of the full score. Score is 4 × 0.5 = 2 points.",
+            "0": "100 repeated measurements of the same membrane are treated as 100 independent samples, and critical errors occur in the independent observation unit, triggering the zero-credit condition; even if the object or temperature range is written correctly, it cannot qualify for half or full credit. Score is 4 × 0 = 0 points."
+          }
+        },
+        {
+          "id": "evidence.execution_receipt",
+          "number": "1.3",
+          "name_en": "The analysis that generated the core result executed successfully",
+          "weight": 6,
+          "judge_profile": "deterministic_code",
+          "plain_question_en": "Was the code not merely submitted, but actually run to successful completion and used to generate the result cited in the report?",
+          "why_en": "The presence of code is not evidence that an analysis executed; scientific evidence must come from a process that actually ran successfully.",
+          "judgment_boundary_en": "This item judges only whether the core computation genuinely executed successfully and produced an artifact. A successful execution can earn credit even if the result does not support the conclusion; interpretation of the conclusion is judged in Items 1.7 and 1.8.",
+          "required_inputs": [
+            "Run manifest and platform exit code",
+            "Canonical-output validation receipt",
+            "Finding-linked analysis source and result artifact",
+            "Evaluator recomputation receipt for the core quantity"
+          ],
+          "human_steps": [
+            "Verify that the platform run completed with exit code zero.",
+            "Verify that the canonical output passed structural validation.",
+            "Resolve the finding's analysis source and result artifact.",
+            "Check whether the evaluator can recompute a core quantity that supports the reported claim."
+          ],
+          "anchors": {
+            "1": "The run completed successfully, canonical output validation passed, the finding resolves to analysis and result artifacts, and the evaluator verifies a core recomputation that supports the reported claim.",
+            "0.5": "The run completed successfully, canonical output validation passed, and the finding resolves to analysis and result artifacts, but no supporting core recomputation is available.",
+            "0": "The run failed, canonical output validation failed, or the finding does not resolve to both analysis and result artifacts."
+          },
+          "examples": {
+            "1": "The platform records a successful validated run, the finding links analysis.py to result.json, and evaluator recomputation verifies the core quantity.",
+            "0.5": "The platform records a successful validated run and the finding links analysis.py to result.json, but the core quantity is outside the evaluator's recomputation whitelist.",
+            "0": "The platform run fails or the finding cites no concrete result artifact."
+          },
+          "pseudocode": [
+            "if not run_completed_with_valid_canonical_output: return 0",
+            "if not finding_source_result_trace_passes: return 0",
+            "if supporting_core_recomputation_verified: return 1",
+            "return 0.5"
+          ],
+          "code_role_en": "Verify run status, canonical output, finding-level artifact traceability, and core recomputation.",
+          "model_role_en": "None.",
+          "receipt_fields": [
+            "run_status",
+            "platform_exit_code",
+            "canonical_output_valid",
+            "finding_traceability_passed",
+            "analysis_source_paths",
+            "result_artifact_paths",
+            "core_recomputation_verified",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "The run and canonical-output checks pass, the finding's source and result resolve, and the evaluator verifies a supporting core recomputation. Score is 6 × 1 = 6 points.",
+            "0.5": "The run and trace checks pass, but no supporting core recomputation is available. Score is 6 × 0.5 = 3 points.",
+            "0": "The run receipt, canonical output, or finding-specific source-result trace fails. Score is 6 × 0 = 0 points."
+          }
+        },
+        {
+          "id": "evidence.artifact_traceability",
+          "number": "1.4",
+          "name_en": "Every part of the core conclusion can be traced to artifacts from this run",
+          "weight": 4,
+          "judge_profile": "code_plus_model",
+          "plain_question_en": "Can an auditor trace the direction, values, and boundaries reported back to a specific file, table, row or column, and this particular run?",
+          "why_en": "An unlocatable number cannot be audited, and an evaluator cannot rule out that it was copied from another run or from prose.",
+          "judgment_boundary_en": "This item judges only where each reported number points. It does not recompute whether the number is correct; recomputation is covered by Items 1.5 and 1.6.",
+          "required_inputs": [
+            "Structured Discovery",
+            "Claim atoms and weights frozen in the task card",
+            "Result Reference",
+            "Product hash",
+            "Table and Field Names",
+            "Run number"
+          ],
+          "human_steps": [
+            "Read the frozen claim atoms, weights, and direction-critical markers.",
+            "Find the result locator for each atom.",
+            "Use code to verify that each locator exists and belongs to this run.",
+            "First check whether any direction-critical atom is missing or points to the wrong artifact; then calculate the traceable fraction of the frozen weight."
+          ],
+          "anchors": {
+            "1": "Claim atoms representing 100% of the frozen weight can be located in specific result fields from this run, and every locator is valid.",
+            "0.5": "Every direction-critical atom can be located, and valid locators cover at least 50% but less than 100% of the frozen weight. Every missing item is a non-direction-critical atom designated before the competition.",
+            "0": "Any direction-critical atom cannot be located; a locator does not exist or points to a different run; or valid locators cover less than 50% of the frozen weight."
+          },
+          "examples": {
+            "1": "Every frozen claim atom—the object, the 20–40 °C range, the direction of decrease, and the 12% effect size—points to specific fields in run_07/result.parquet, and both the file hash and run ID match.",
+            "0.5": "Both the decrease direction and the 12% can be located; there is no row-level traceability for the number of secondary samples attached to the report.",
+            "0": "The report states \"a 12% decrease,\" but neither the value nor its direction can be located in any result artifact."
+          },
+          "pseudocode": [
+            "atoms = task_card.weighted_claim_atoms(final_claim)",
+            "locators = submission.claim_result_links",
+            "checks = code.validate_locator_for_each_atom(atoms, locators, this_run)",
+            "if any(direction_critical_atom_invalid_or_missing): return 0",
+            "coverage = sum(weight of atoms with valid locator) / sum(all atom weights)",
+            "if coverage == 1: return 1",
+            "if coverage >= 0.5 and every_missing_atom_is_prefrozen_nondirectional: return 0.5",
+            "return 0"
+          ],
+          "code_role_en": "Validate paths, hashes, rows and columns, values, and run attribution.",
+          "model_role_en": "Identify the core claim atoms that require artifact locators.",
+          "receipt_fields": [
+            "claim_atom_ids",
+            "claim_atom_weights",
+            "direction_critical_atom_ids",
+            "artifact_locators",
+            "invalid_locators",
+            "weighted_locator_coverage",
+            "run_binding",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "Objects, 20–40 °C range, decrease direction and 12% effect size can all be located to the specific field of run_07/result.parquet, and the file hash and run number also match this run; effective traceability covers 100% frozen weight. Score is 4 × 1 = 4 points.",
+            "0.5": "Every direction-critical atom, including the decrease direction and 12% magnitude, is locatable. Valid locators cover at least 50% but less than 100% of the frozen weight; only a non-critical secondary sample count lacks row-level traceability. Score is 4 × 0.5 = 2 points.",
+            "0": "The \"12% drop\" in the report can neither find the corresponding result field nor the artifact traceability in the decrease direction, resulting in the inability to recover the key atoms in the direction of this run; this triggers the zero-credit condition. Score is 4 × 0 = 0 points."
+          }
+        },
+        {
+          "id": "evidence.directional_recompute",
+          "number": "1.5",
+          "name_en": "The key quantities that determine the core finding can be recomputed",
+          "weight": 10,
+          "judge_profile": "code_plus_model",
+          "plain_question_en": "When the key numbers determining increase versus decrease, no material effect, or boundary crossing are recomputed under the frozen formula, do they yield the same determination?",
+          "why_en": "This is the highest-weighted item for a finding because one critical quantitative error can turn an increase, decrease, no-material-effect, or boundary-crossing claim into a different scientific conclusion.",
+          "judgment_boundary_en": "This item recomputes only the frozen key quantities that can change the core determination category. It applies not only to increasing or decreasing direction, but also to equivalence intervals, null-effect boundaries, and threshold determinations. Supporting quantities for range and effect size are covered by Item 1.6, and whether the numbers entail the written conclusion is covered by Item 1.7.",
+          "required_inputs": [
+            "List of key quantities of questions, weights and independent quantities of evidence/joint rule input roles",
+            "Frozen Core Joint Decision Rule",
+            "Formula",
+            "Unit",
+            "Tolerance",
+            "Playback input",
+            "Volume by Volume Comparison Table",
+            "Joint Decision Rule Recomputation Receipt"
+          ],
+          "human_steps": [
+            "Bind the finding's core determination to the task's key-quantity IDs and frozen decision rule. The task card distinguishes quantities required by the joint rule from parallel evidence that independently supports the same determination.",
+            "Recompute each quantity with the frozen formula. First confirm that every required input to the joint rule is present and that the rule can execute.",
+            "Apply the frozen decision rule and compare its recomputed category with the report. Assign 0 if the joint rule cannot execute or the categories conflict.",
+            "Only when the core determination is recomputable and no category conflict exists, calculate passing coverage from the frozen weights."
+          ],
+          "anchors": {
+            "1": "The frozen joint core decision rule can be recomputed in full. Core decision quantities representing 100% of the frozen weight can be recomputed and yield the same determination category as the report under the pre-competition rules.",
+            "0.5": "The frozen joint core decision rule can be recomputed in full. Passing quantities account for at least 50% but less than 100% of the frozen weight; every missing quantity is designated by the task card as parallel evidence rather than a required input to the joint rule; and no recomputed key quantity yields a determination category that conflicts with the report.",
+            "0": "The frozen joint core decision rule cannot execute because any required input is missing; the passing weight is below 50%; or any key quantity, under the frozen rule, yields the opposite direction, falls within the equivalence interval while the report claims an effect, or crosses the opposite boundary."
+          },
+          "examples": {
+            "1": "Three key quantities have weights of 50%, 30%, and 20%. All can be recomputed and all fall in the frozen decrease category, matching the report.",
+            "0.5": "The effect estimate and interval required by the joint rule can be recomputed. Parallel evidence worth 30% is missing, leaving 70% passing coverage, while the joint rule still yields the reported core determination.",
+            "0": "The report claims a material decrease, but the recomputed confidence interval lies entirely within the task's frozen no-material-effect equivalence interval. This category conflict requires 0."
+          },
+          "pseudocode": [
+            "mapped = model.bind_core_decision_to_frozen_quantity_ids()",
+            "checks = code.recompute_quantities(mapped)",
+            "core_decision_recomputable = code.run_frozen_joint_decision_rule(all_required_joint_inputs)",
+            "if not core_decision_recomputable or any(decision_class_conflict): return 0",
+            "coverage = sum(weight of passing quantities) / sum(frozen weights)",
+            "if coverage == 1: return 1",
+            "if coverage >= 0.5 and every_missing_quantity_is_parallel_not_joint_required: return 0.5",
+            "return 0"
+          ],
+          "code_role_en": "Recompute quantities, convert units, apply tolerances, and summarize frozen-weight coverage.",
+          "model_role_en": "Bind only the natural-language determination to the relevant key-quantity IDs.",
+          "receipt_fields": [
+            "quantity_bindings",
+            "quantity_roles",
+            "joint_rule_required_quantity_ids",
+            "frozen_decision_rules",
+            "per_quantity_checks",
+            "joint_decision_rule_execution_id",
+            "core_decision_recomputable",
+            "joint_decision_class",
+            "weighted_coverage",
+            "decision_class_conflicts",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "The necessary inputs for the frozen joint decision rule are complete, and the three key quantities of 50%, 30%, and 20% of the weight can be recomputed according to the frozen formula, and all fall into the same decrease category as the report; the weight is 100%, and there is no conflict in direction or judgment category. Score is 10 × 1 = 10 points.",
+            "0.5": "The effect estimation and interval necessary for the frozen joint rule can be recomputed, so the core judgment itself can be executed and consistent with the report. What is missing is the 30% weight of the task card labeled parallel evidence volume, rather than the 30% weight that must be entered for the joint rules. The existing pass weight is 70%, reaching 50% but less than 100%, so it receives half credit. Score is 10 × 0.5 = 5 points.",
+            "0": "The report claims a material decrease, but the confidence interval recomputed under the frozen rule lies entirely within the no-material-effect equivalence interval. This determination-category conflict requires 0 regardless of coverage. Score is 10 × 0 = 0 points."
+          }
+        },
+        {
+          "id": "evidence.other_quantity_recompute",
+          "number": "1.6",
+          "name_en": "Other quantities supporting scope and effect size can be recomputed",
+          "weight": 5,
+          "judge_profile": "code_plus_model",
+          "plain_question_en": "Beyond the direction of increase or decrease, can the numbers used to state how large the effect is, where it applies, and where its boundaries lie also be computed?",
+          "why_en": "Even with the correct direction, exaggerated effect sizes, intervals, or boundaries can still lead to overinterpretation.",
+          "judgment_boundary_en": "This item uses the pre-competition quantity registry and evaluates only magnitude, interval, scope, or boundary predicates. Even if the same numeric value appears in Item 1.5, this item does not reward its directional category again; it checks only distinct magnitude or boundary predicates.",
+          "required_inputs": [
+            "Quantity frozen pre-competition — Predicate registry, weight and claim type mapping",
+            "Report Quantity Reference",
+            "Formula",
+            "Unit",
+            "Tolerance"
+          ],
+          "human_steps": [
+            "Use the discovery-type ontology to map the current claim to the pre-competition quantity-predicate registry; the evaluator may not choose predicates ad hoc.",
+            "Locate and recompute each registered magnitude, interval, scope, or boundary predicate, recording its frozen weight and category.",
+            "First check for any discrepancy that changes a reported boundary or effect-size category. If a value also determines direction in Item 1.5, score only its distinct magnitude or boundary predicate here.",
+            "Then calculate passing coverage from the registry's frozen weights."
+          ],
+          "anchors": {
+            "1": "Auxiliary quantities representing 100% of the frozen weight can all be located, recomputed, and matched within tolerance.",
+            "0.5": "Passing quantities account for at least 50% but less than 100% of the frozen weight. The remaining quantities are missing or incomplete, and no discrepancy changes a boundary or effect-size category.",
+            "0": "The passing weight is below 50%, or any discrepancy changes a reported scope, effect-size category, or boundary."
+          },
+          "examples": {
+            "1": "Item 1.5 scores only the decrease category. Here, the 12% magnitude, confidence interval [-15%, -9%], and 38 °C transition temperature are recomputed under their frozen predicates, and all match the report.",
+            "0.5": "The 12% magnitude and its interval can be recomputed. The transition temperature is missing, but no available result contradicts the reported boundary.",
+            "0": "The report gives a transition temperature of 38 °C, whereas the frozen formula yields 52 °C, materially changing the claimed scope."
+          },
+          "pseudocode": [
+            "predicates = task_card.quantity_predicate_registry.instantiate(discovery_type, final_claim)",
+            "assert every predicate has frozen weight, category, formula, unit and tolerance",
+            "checks = code.recompute_and_compare(predicates excluding direction_class predicate already scored in 1.5)",
+            "if any(boundary_or_effect_class_conflict): return 0",
+            "coverage = sum(weight of passing predicates) / sum(all instantiated predicate weights)",
+            "if coverage == 1: return 1",
+            "if coverage >= 0.5: return 0.5",
+            "return 0"
+          ],
+          "code_role_en": "Resolve quantity locators, recompute values, and compare them under frozen tolerances.",
+          "model_role_en": "Identify the scope, magnitude, interval, and boundary quantities asserted in the report.",
+          "receipt_fields": [
+            "quantity_predicate_registry_id",
+            "quantity_predicate_ids",
+            "predicate_categories",
+            "predicate_weights",
+            "cross_check_with_1_5",
+            "per_quantity_checks",
+            "weighted_coverage",
+            "boundary_conflicts",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "This item does not repeat the downward direction in reward 1.5, but recomputes the 12% range, confidence interval [-15%, -9%] and 38 °C transition temperature separately; these frozen auxiliary predicates are all locatable, recomputable and consistent within the tolerance, covering 100% weight. Score is 5 × 1 = 5 points.",
+            "0.5": "The 12% magnitude and confidence interval are recomputable, giving at least 50% but less than 100% passing frozen weight. The transition temperature is missing, but no available result conflicts with the reported scope, effect-size category, or boundary. Score is 5 × 0.5 = 2.5 points.",
+            "0": "The report writes the transition temperature as 38 °C, but the frozen formula is recomputed as 52 °C. This difference will directly change the boundary of the scope of application of the report; hit the zero-credit condition of \"difference change range or boundary\", and no longer look at other quantitative coverage. Score is 5 × 0 = 0 points."
+          }
+        },
+        {
+          "id": "evidence.claim_entailment",
+          "number": "1.7",
+          "name_en": "The execution results support the strength of the conclusion stated in the report",
+          "weight": 8,
+          "judge_profile": "code_plus_model",
+          "plain_question_en": "Do the results actually support the sentence in the report, or does the report turn association into causation, a local result into a universal one, or a weak effect into a strong law?",
+          "why_en": "Recomputing a number shows only that it was not copied incorrectly; the evaluator must also determine whether the number entails the written scientific conclusion.",
+          "judgment_boundary_en": "This item compares only the strength of the core analytical evidence that formed the current conclusion—the controlled fact package from Items 1.1 through 1.6—with the final registered conclusion. It does not reassess later replications, perturbations, controls, or separated validation; those are synthesized in Item 1.8.",
+          "required_inputs": [
+            "Final Structured Discovery",
+            "Task card frozen core formation result ID list",
+            "Recomputation Fact Package for 1.1 to 1.6",
+            "Question Determination Rules",
+            "Scope and qualifiers"
+          ],
+          "human_steps": [
+            "Read the task card's frozen list of results that constitute the core evidence for the current claim. Do not rescore replication, perturbation, control, or separated-validation results from Branches 2–4 here.",
+            "Use the discovery-type ontology to divide the final registered claim into mandatory core atoms and permitted secondary precision or boundary atoms. Object, scope, relation type, and direction always remain in the denominator.",
+            "Compare each claim atom with the core evidence. A conflict in object, direction, or relation type requires 0; otherwise calculate the frozen-weight fraction supported by the evidence.",
+            "Place unvalidated candidates in a hypothesis or next-step plan, not in an asserted claim. A permitted but uncertain secondary boundary can receive partial credit only when the uncertainty is stated explicitly."
+          ],
+          "anchors": {
+            "1": "Every claim atom in the final conclusion, representing 100% of the frozen weight, is supported by the execution results. The object, scope, relation type, direction, and strength do not go beyond the evidence.",
+            "0.5": "There is no conflict in object, direction, or relation type. All required core atoms are included in the denominator, and supported atoms account for at least 50% but less than 100% of the frozen weight. Every unsupported component is a minor precision or boundary atom that the task card permits to be reported with uncertainty, and that uncertainty is explicitly stated.",
+            "0": "The supported weight is below 50%, or there is any substantive conflict, including an object mismatch, opposite direction, presenting association as causation, unsupported extrapolation beyond scope, or an exaggerated boundary."
+          },
+          "examples": {
+            "1": "The observational data support an association between temperature and lower conductivity within 20–40 °C, and the report states only that association.",
+            "0.5": "Supported object, scope, decrease direction, and association atoms account for 80% of the weight. The remaining 20% concerns a turning-temperature boundary that can currently be limited only to 35–45 °C, and the final claim states this uncertainty explicitly.",
+            "0": "The analysis is observational and establishes only an association, but the report states that heating causes conductivity to decrease. The causal claim exceeds the evidence."
+          },
+          "pseudocode": [
+            "atoms = task_card.claim_ontology.instantiate_required_and_optional_atoms(discovery_type, final_claim)",
+            "assert every required_core_atom is present in denominator",
+            "facts = code.verified_core_formation_facts(excluding_branch_2_to_4_results)",
+            "checks = model.compare_each_atom_to_facts(atoms, facts)",
+            "if any(object_conflict or direction_conflict or relation_type_overclaim or unsupported_scope): return 0",
+            "coverage = sum(weight of supported atoms) / sum(weight of all instantiated atoms)",
+            "if coverage == 1: return 1",
+            "if coverage >= 0.5 and every_unsupported_atom_is_allowed_minor_uncertainty_and_explicitly_labeled: return 0.5",
+            "return 0"
+          ],
+          "code_role_en": "Provide only verified values, study-design facts, and scope facts, then apply the fixed decision rule.",
+          "model_role_en": "Compare claim strength with the instruction-isolated fact package; do not infer unexecuted facts.",
+          "receipt_fields": [
+            "structured_claim",
+            "core_formation_result_ids",
+            "excluded_followup_result_ids",
+            "weighted_claim_atoms",
+            "verified_core_formation_facts",
+            "per_atom_checks",
+            "weighted_support_coverage",
+            "mismatch_types",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "The implementation facts only support that the temperature within 20–40 °C is \"correlated\" with the decrease in conductivity. The final conclusion also uses the same object, range, direction, and correlation, and there is no escalation into causation or extrapolation range. All frozen claim atoms are supported by core-forming evidence. Score is 8 × 1 = 8 points.",
+            "0.5": "The required core atoms such as the object, range, decrease direction, and correlation are all supported, covering 80% of the frozen weight; the 20% that is not fully supported is only the uncertain secondary turning boundary allowed by the task card. The final conclusion is also clearly written as 35–45 °C and the \"boundary is still uncertain\", so there is no substantive conflict but the coverage is less than 100%. Score is 8 × 0.5 = 4 points.",
+            "0": "The analysis and design can only prove that the observation is relevant, but the report is written as \"the conductivity decreases due to heating\", and the relationship type is upgraded from correlation to causation; this is a substantive conflict that the strength of the conclusion exceeds the evidence, and triggers the zero-credit condition. Score is 8 × 0 = 0 points."
+          }
+        },
+        {
+          "id": "evidence.all_results_synthesis",
+          "number": "1.8",
+          "name_en": "The final conclusion faithfully incorporates all executed results",
+          "weight": 4,
+          "judge_profile": "code_plus_model",
+          "plain_question_en": "When replication, perturbation, control, or validation produced failures, was the final conclusion narrowed or abandoned in response to the evidence instead of selecting only successful results?",
+          "why_en": "Scientific discovery requires not only running tests but allowing their results to change the conclusion, closing the evidence-correction loop.",
+          "judgment_boundary_en": "This item judges only whether the final conclusion faithfully incorporates executed replication, perturbation, control, and separated-validation results beyond the evidence that originally formed the core claim. Whether the core evidence itself supports the claim is judged only in Item 1.7; whether each test was completed is judged only by its corresponding action.",
+          "required_inputs": [
+            "Task card frozen core formation result ID and subsequent test result ID partition",
+            "2 to 4 Branches All Executed Result Matrix",
+            "Result ID, execution time and artifact hash for each subsequent result",
+            "Relevant Result Weights and Direction Key Markers",
+            "Failure Log",
+            "Pre-validation claim version ID and lockout time",
+            "Final Claim Version ID and Freeze Time",
+            "Final Structured Discovery",
+            "Advocate for modification of records"
+          ],
+          "human_steps": [
+            "Exclude the core-formation results already assessed in Item 1.7. List only auditable replication, perturbation, control, and separated-validation results produced in Branches 2–4 before the final claim was frozen, including failures and null effects, and bind their task-card weights.",
+            "Read the task card's direction-critical result IDs. No special, evaluator-invented category of decisive failure is introduced.",
+            "If no qualifying follow-up scientific result exists, assign 0. An empty set cannot be treated as 100% coverage.",
+            "Check whether each qualifying follow-up result is represented faithfully in the final claim, then calculate the represented fraction of the frozen result weight.",
+            "This item evaluates whether follow-up evidence changed the claim. It does not rescore the quantity, strength, or robustness-boundary artifact produced by the underlying test."
+          ],
+          "anchors": {
+            "1": "All relevant positive, negative, and null-effect results, representing 100% of the frozen weight, are correctly reflected in the final conclusion.",
+            "0.5": "Every direction-critical result is reflected, and faithfully represented results account for at least 50% but less than 100% of the frozen weight. Every omission is confined to a minor boundary that cannot change the direction or relation type.",
+            "0": "No executed and auditable follow-up scientific result exists before the final claim was frozen; any direction-critical follow-up result frozen in the task card is ignored by the final conclusion; or faithfully represented follow-up results account for less than 50% of the weight."
+          },
+          "examples": {
+            "1": "The sample disturbance showed instability in the cryogenic zone, and the report limited the conclusion to 25–40 °C and retained the failure result table.",
+            "0.5": "The direction-changing conflict is incorporated, but an uncertain interval near a secondary threshold is omitted.",
+            "0": "The holdout shows no decrease, yet the final summary still says “a stable decrease in new data” and does not mention the failure."
+          },
+          "pseudocode": [
+            "matrix = code.collect_branch_2_to_4_results_excluding_core_formation_results(executed_at <= final_asserted_frozen_at)",
+            "if matrix.valid_scientific_result_count == 0: return 0",
+            "checks = model.map_each_followup_result_to_final_claim(matrix, final_claim)",
+            "if any(prefrozen_direction_critical_followup_result_ignored): return 0",
+            "coverage = sum(weight of faithfully_reflected_followup_results) / sum(all_relevant_followup_result_weights)",
+            "if coverage == 1: return 1",
+            "if coverage >= 0.5 and every_omission_is_prefrozen_minor_boundary: return 0.5",
+            "return 0"
+          ],
+          "code_role_en": "Ensure that the result set is complete, marking the execution status and deterministic conflicts.",
+          "model_role_en": "Compare whether the final conclusion is faithfully expressed in the full set of results.",
+          "receipt_fields": [
+            "core_formation_result_ids_excluded",
+            "followup_executed_result_ids",
+            "followup_result_executed_at",
+            "followup_result_artifact_sha256",
+            "relevant_followup_result_ids",
+            "followup_result_weights",
+            "direction_critical_followup_result_ids",
+            "faithfully_reflected_followup_ids",
+            "weighted_reflection_coverage",
+            "ignored_conflict_ids",
+            "prevalidation_claim_version_id",
+            "prevalidation_claim_locked_at",
+            "final_asserted_version_id",
+            "final_asserted_frozen_at",
+            "claim_revision_trace",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "After a sample perturbation reveals instability in the cryogenic region, the final report narrows the claim to 25–40 °C and retains the failure table. All relevant positive, negative, and null follow-up results are represented, covering 100% of the frozen weight. Score is 4 × 1 = 4 points.",
+            "0.5": "Conflicts that will change direction have been dealt with in the final conclusion, so there is no missing direction-critical result; all that is still missing is the uncertain interval near the secondary threshold. According to the weight of the task card, the proportion of faithful reflection reaches at least 50% but less than 100%, so if it is not full, it will be awarded half credit. Score is 4 × 0.5 = 2 points.",
+            "0": "The holdout has shown no decline, but the final summary still claims \"steady decline in new data\" and does not mention failure at all, which is equivalent to ignoring the key follow-up results of the task card freeze. If there are no implemented and auditable follow-up results before the final claim freeze, it is also 0 points, instead of treating the empty set as 100% coverage. Score is 4 × 0 = 0 points."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stability",
+      "name_en": "Uncertainty, replication, and robustness boundaries",
+      "weight": 15,
+      "plain_question_en": "How large is the uncertainty, does the result persist under different samples or methods, and under what conditions does it fail?",
+      "actions": [
+        {
+          "id": "stability.uncertainty",
+          "number": "2.1",
+          "name_en": "Uncertainty or error ranges are present in cited executable artifacts",
+          "weight": 3,
+          "judge_profile": "deterministic_code",
+          "plain_question_en": "Do the finding's cited artifacts contain a computed uncertainty result and, for full credit, the corresponding computation in analysis source?",
+          "why_en": "Without uncertainty, observed differences cannot be distinguished reliably from sampling variation.",
+          "judgment_boundary_en": "This item verifies recognizable uncertainty computations and saved uncertainty outputs in the artifacts cited for this finding. It does not infer whether every scientifically possible error source was covered.",
+          "required_inputs": [
+            "Finding-linked analysis source",
+            "Finding-linked result artifacts"
+          ],
+          "human_steps": [
+            "Resolve artifacts cited for this action.",
+            "Search result artifacts for saved intervals, standard errors, deviations, or equivalent error quantities.",
+            "For full credit, confirm that linked source contains a recognized uncertainty computation."
+          ],
+          "anchors": {
+            "1": "A cited result artifact contains an uncertainty or error quantity and linked source contains a recognized computation for it.",
+            "0.5": "A cited result artifact contains an uncertainty or error quantity, but the corresponding computation is not located in linked source.",
+            "0": "No cited result artifact contains a recognizable uncertainty or error quantity."
+          },
+          "examples": {
+            "1": "A cited table saves confidence bounds and the linked script computes them by bootstrap.",
+            "0.5": "A cited result saves a standard error, but no linked source shows how it was computed.",
+            "0": "Only a point estimate and narrative statement are present."
+          },
+          "pseudocode": [
+            "result_hit = uncertainty_output_pattern(cited_results)",
+            "source_hit = uncertainty_method_pattern(linked_sources)",
+            "if result_hit and source_hit: return 1",
+            "if result_hit: return 0.5",
+            "return 0"
+          ],
+          "code_role_en": "Resolve cited artifacts and detect saved uncertainty outputs and corresponding source computations.",
+          "model_role_en": "None.",
+          "receipt_fields": [
+            "analysis_source_paths",
+            "result_artifact_paths",
+            "uncertainty_source_pattern_found",
+            "uncertainty_result_pattern_found",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "The cited output saves confidence bounds and the linked source contains a recognized uncertainty computation. Score is 3 × 1 = 3 points.",
+            "0.5": "The cited output saves an error quantity, but its computation is not found in linked source. Score is 3 × 0.5 = 1.5 points.",
+            "0": "No recognizable uncertainty output is present in cited results. Score is 3 × 0 = 0 points."
+          }
+        },
+        {
+          "id": "stability.replication",
+          "number": "2.2",
+          "name_en": "Distinct full-pipeline run identifiers are retained in result artifacts",
+          "weight": 3,
+          "judge_profile": "deterministic_code",
+          "plain_question_en": "Do result artifacts retain identifiers for multiple full-pipeline runs or seeds?",
+          "why_en": "Stochastic computational replication can reveal dependence on random seeds and resampling choices; it is not a new sample, a new laboratory, or an independent scientific replication at another time.",
+          "judgment_boundary_en": "This item counts distinct identifiers explicitly labeled as full-pipeline or replicate runs in result artifacts. Internal bootstrap samples are not recognized by this identifier contract.",
+          "required_inputs": [
+            "Finding-linked result artifacts",
+            "Full-pipeline run or seed identifiers"
+          ],
+          "human_steps": [
+            "Resolve result artifacts cited for this action.",
+            "Extract identifiers labeled as full-pipeline or replicate run IDs or seeds.",
+            "Count distinct identifiers."
+          ],
+          "anchors": {
+            "1": "At least three distinct full-pipeline run identifiers are retained.",
+            "0.5": "Exactly two distinct full-pipeline run identifiers are retained.",
+            "0": "Fewer than two distinct full-pipeline run identifiers are retained."
+          },
+          "examples": {
+            "1": "The result artifact records three distinct replicate_run_id values.",
+            "0.5": "The result artifact records two distinct full_pipeline_seed values.",
+            "0": "Only one run ID is present, or only bootstrap iteration counts are shown."
+          },
+          "pseudocode": [
+            "ids = distinct_full_pipeline_ids(cited_results)",
+            "if count(ids) >= 3: return 1",
+            "if count(ids) == 2: return 0.5",
+            "return 0"
+          ],
+          "code_role_en": "Extract and count distinct full-pipeline run identifiers from cited result artifacts.",
+          "model_role_en": "None.",
+          "receipt_fields": [
+            "result_artifact_paths",
+            "distinct_full_pipeline_run_ids",
+            "run_count",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "Three distinct full-pipeline run identifiers are retained. Score is 3 × 1 = 3 points.",
+            "0.5": "Two distinct full-pipeline run identifiers are retained. Score is 3 × 0.5 = 1.5 points.",
+            "0": "Fewer than two qualifying identifiers are retained. Score is 3 × 0 = 0 points."
+          }
+        },
+        {
+          "id": "stability.sample_perturbation",
+          "number": "2.3",
+          "name_en": "A sample-composition perturbation is executed and saved",
+          "weight": 3,
+          "judge_profile": "deterministic_code",
+          "plain_question_en": "Do cited artifacts show an executed sample-composition perturbation?",
+          "why_en": "Small changes in sample composition can create or eliminate an apparent finding.",
+          "judgment_boundary_en": "This item checks for a recognizable sample perturbation in saved results and, for full credit, its corresponding implementation in linked source.",
+          "required_inputs": [
+            "Finding-linked analysis source",
+            "Finding-linked result artifacts"
+          ],
+          "human_steps": [
+            "Resolve artifacts cited for this action.",
+            "Detect a saved leave-one-out, jackknife, subsample, downsample, batch-drop, or sample-fraction result.",
+            "For full credit, locate the corresponding implementation in linked source."
+          ],
+          "anchors": {
+            "1": "A recognizable sample-perturbation result is saved and its implementation is found in linked source.",
+            "0.5": "A recognizable sample-perturbation result is saved, but its implementation is not found in linked source.",
+            "0": "No recognizable sample-perturbation result is saved."
+          },
+          "examples": {
+            "1": "A cited table saves leave-one-batch-out results and linked source implements the batch drops.",
+            "0.5": "A cited result reports a subsample analysis but no linked source implements it.",
+            "0": "The report asserts robustness without a cited perturbation result."
+          },
+          "pseudocode": [
+            "result_hit = sample_perturbation_pattern(cited_results)",
+            "source_hit = sample_perturbation_pattern(linked_sources)",
+            "if result_hit and source_hit: return 1",
+            "if result_hit: return 0.5",
+            "return 0"
+          ],
+          "code_role_en": "Detect saved sample-perturbation results and corresponding source implementation.",
+          "model_role_en": "None.",
+          "receipt_fields": [
+            "analysis_source_paths",
+            "result_artifact_paths",
+            "sample_perturbation_source_found",
+            "sample_perturbation_result_found",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "Both implementation and saved sample-perturbation output are found. Score is 3 × 1 = 3 points.",
+            "0.5": "A saved perturbation result exists without a located implementation. Score is 3 × 0.5 = 1.5 points.",
+            "0": "No saved sample-perturbation result is found. Score is 3 × 0 = 0 points."
+          }
+        },
+        {
+          "id": "stability.method_perturbation",
+          "number": "2.4",
+          "name_en": "A method or threshold perturbation is executed and saved",
+          "weight": 3,
+          "judge_profile": "deterministic_code",
+          "plain_question_en": "Do cited artifacts show an executed method, solver, normalization, or threshold variation?",
+          "why_en": "A result that appears only under one arbitrary methodological setting may be an artifact of an analytical choice.",
+          "judgment_boundary_en": "This item checks for a recognizable method perturbation in saved results and, for full credit, its corresponding implementation in linked source.",
+          "required_inputs": [
+            "Finding-linked analysis source",
+            "Finding-linked result artifacts"
+          ],
+          "human_steps": [
+            "Resolve artifacts cited for this action.",
+            "Detect saved method, threshold, solver, normalization, transformation, or estimator comparisons.",
+            "For full credit, locate the corresponding implementation in linked source."
+          ],
+          "anchors": {
+            "1": "A recognizable method-perturbation result is saved and its implementation is found in linked source.",
+            "0.5": "A recognizable method-perturbation result is saved, but its implementation is not found in linked source.",
+            "0": "No recognizable method-perturbation result is saved."
+          },
+          "examples": {
+            "1": "Cited results compare two estimators and linked source executes both.",
+            "0.5": "A cited threshold-sensitivity result is saved but its implementation is not located.",
+            "0": "Only the selected method is shown."
+          },
+          "pseudocode": [
+            "result_hit = method_perturbation_pattern(cited_results)",
+            "source_hit = method_perturbation_pattern(linked_sources)",
+            "if result_hit and source_hit: return 1",
+            "if result_hit: return 0.5",
+            "return 0"
+          ],
+          "code_role_en": "Detect saved method-perturbation results and corresponding source implementation.",
+          "model_role_en": "None.",
+          "receipt_fields": [
+            "analysis_source_paths",
+            "result_artifact_paths",
+            "method_perturbation_source_found",
+            "method_perturbation_result_found",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "Both implementation and saved method-variation output are found. Score is 3 × 1 = 3 points.",
+            "0.5": "A saved method-variation result exists without a located implementation. Score is 3 × 0.5 = 1.5 points.",
+            "0": "No saved method-perturbation result is found. Score is 3 × 0 = 0 points."
+          }
+        },
+        {
+          "id": "stability.validity_boundary",
+          "number": "2.5",
+          "name_en": "Explicit applicability boundaries are computed from the complete robustness matrix",
+          "weight": 3,
+          "judge_profile": "code_plus_model",
+          "plain_question_en": "Did the system compute all replication and perturbation results into recomputable regions of validity, failure points, and unknown regions, rather than leave only a statement such as “very robust”?",
+          "why_en": "A finding’s scientific value often lies in its boundaries; honestly reporting failure regions is more rigorous than describing every result as robust.",
+          "judgment_boundary_en": "This item judges only whether a correct, recomputable robustness-boundary artifact was generated from the complete Branch 2 result matrix. Whether the final claim adopts that boundary is judged only in Item 1.8, so summary wording is not penalized again here.",
+          "required_inputs": [
+            "Branch 2 Complete Repeat and Perturbation Result Matrix",
+            "Number of valid, completed, and recomputable matrix cells",
+            "Boundary calculation rules frozen before the competition",
+            "Machine-readable boundary artifacts and references to their results"
+          ],
+          "human_steps": [
+            "Use code to classify every frozen condition as supported, failed, direction-reversed, or undecidable, and verify that no matrix row was selectively omitted.",
+            "First count matrix cells that were genuinely completed and are recomputable. If the count is 0, assign 0; labeling every cell untested cannot create a boundary.",
+            "Derive supported regions, observed failure points, and untested regions under the frozen rules.",
+            "The model only maps the natural language conditions in the machine-readable boundary artifact back to the matrix coordinates, and the code verifies whether each boundary or failure point is consistent.",
+            "This item ends with generation of the boundary artifact. Item 1.8 separately judges whether the final claim incorporates that boundary."
+          ],
+          "anchors": {
+            "1": "At least one valid, completed, and recomputable matrix cell exists. A machine-readable boundary artifact accurately covers the validity region, observed failure region, and untested or uncertain region across all frozen variations. If no failure is observed within the tested range, the artifact explicitly states “no failure observed within the tested range; unknown outside it.”",
+            "0.5": "At least one valid, completed, and recomputable matrix cell exists. The boundary artifact accurately gives at least one recomputable local boundary or failure point, and no written boundary conflicts with the matrix, but not all frozen variations have yet been integrated.",
+            "0": "There are no valid, completed, and recomputable matrix cells; there is no recomputable local boundary or failure point consistent with the matrix; the report merely says “robust” or “basically stable”; the matrix is selectively omitted; or a written boundary conflicts with the complete matrix."
+          },
+          "examples": {
+            "1": "The boundary artifact states that the relationship holds when sample size is at least 80 and the threshold is 0.2–0.4, and that direction is uncertain above 0.5; this agrees with every matrix cell. Another full-credit case is one in which every tested grid point holds and the artifact states “no failure observed in the tested grid; unknown outside the grid.”",
+            "0.5": "The boundary artifact accurately locates the failure point of the threshold > 0.5, but the batch change has not been integrated; no wider boundary that conflicts with the matrix is written.",
+            "0": "Two of three perturbations fail, but no local failure point or boundary artifact is generated; the report says only that the conclusion is “robust to various settings.”"
+          },
+          "pseudocode": [
+            "matrix = code.build_complete_branch_2_stability_matrix()",
+            "if matrix.valid_completed_cell_count == 0: return 0",
+            "computed_boundary = code.derive_prefrozen_boundary(matrix)",
+            "comparison = model.map_submitted_boundary_artifact_to_matrix(submitted_boundary_artifact, matrix)",
+            "if selective_matrix_omission or any_submitted_boundary_conflicts_with_matrix: return 0",
+            "if submitted_boundary_artifact_complete_match: return 1",
+            "if at_least_one_correct_recomputable_local_boundary_or_failure_point: return 0.5",
+            "return 0"
+          ],
+          "code_role_en": "Calculate completed cells, failures, and boundary facts from the full matrix.",
+          "model_role_en": "Map natural-language conditions in the boundary artifact to matrix coordinates; do not judge the final claim.",
+          "receipt_fields": [
+            "stability_matrix_id",
+            "matrix_completeness_check",
+            "valid_completed_cell_count",
+            "boundary_rule_id",
+            "computed_boundary",
+            "submitted_boundary_artifact_id",
+            "mapped_boundary_cells",
+            "conflicting_boundary_cells",
+            "unreported_cells",
+            "local_boundary_or_failure_point_ids",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "The machine-readable artifact maps the complete matrix to a validity region with sample size ≥80 and threshold 0.2–0.4, and to a direction-uncertain region above 0.5. If every tested grid point is valid, it explicitly marks the region outside the grid unknown. All frozen variations are covered with no boundary conflict. Score is 3 × 1 = 3 points.",
+            "0.5": "The artifact accurately locates the recomputed failure point above threshold 0.5 and does not claim a wider boundary that conflicts with the matrix. Batch perturbations have not yet been integrated, so the artifact does not cover every frozen variation. Score is 3 × 0.5 = 1.5 points.",
+            "0": "Two of three perturbations fail, but the submission produces no recomputable local failure point or boundary and states only that the result is robust to various settings. If every matrix cell is untested, the valid-completion count is also zero; unknown cells cannot be treated as successful coverage. Score is 3 × 0 = 0 points."
+          }
+        }
+      ]
+    },
+    {
+      "id": "alternatives",
+      "name_en": "Controls, alternative explanations, and evidence triangulation",
+      "weight": 15,
+      "plain_question_en": "Does the phenomenon outperform simple explanations and negative controls, survive the strongest competing explanation, and receive support from a different evidence channel?",
+      "actions": [
+        {
+          "id": "alternatives.simple_baseline",
+          "number": "3.1",
+          "name_en": "The analysis is actually compared with the simple baseline specified by the task",
+          "weight": 3,
+          "judge_profile": "code_plus_model",
+          "plain_question_en": "Was the task-specified null-effect, mean-prediction, or other simple baseline actually run on the same data, scope, and evaluation metric to produce comparable results?",
+          "why_en": "Without a simple baseline, a complex pattern may be no more than a trivial expectation, random variation, or the data mean.",
+          "judgment_boundary_en": "This item judges only whether the specified baseline was genuinely and comparably run under the same conditions. It does not require the more complex discovery to win. Whether the final conclusion faithfully incorporates the baseline result is judged uniformly in Item 1.8, avoiding duplicate penalties for the same interpretive error.",
+          "required_inputs": [
+            "Freeze baseline lists and weights",
+            "Operations — Scientific Verbs — Scoring Item Mapping",
+            "Same data, scope, and evaluation metric",
+            "Run Receipt From Baseline",
+            "All Attempt Status and Comparison Table"
+          ],
+          "human_steps": [
+            "Read every simple baseline, its frozen weight, and the common evaluation scope from the task card; confirm that each operation ID maps to the simple-baseline-comparison predicate.",
+            "Check whether each baseline was genuinely run on the same data, scope, and evaluation metric. Mark each attempt validly_completed, executed_but_incomparable, or not_executed; incomparable attempts do not enter the numerator.",
+            "Confirm that valid, invalid, and failed attempts are all retained. Assign 0 for selective omission, then calculate coverage from the frozen weights of validly completed baselines.",
+            "A baseline outperforming the discovery does not reduce this action's execution score. Item 1.8 separately judges whether the final claim incorporates that result."
+          ],
+          "anchors": {
+            "1": "Valid completions cover 100% of the frozen baseline weight. Every baseline is actually run on the same data, scope, and evaluation metric, and the results are complete and recomputable. Additional invalid attempts do not affect full credit if fully disclosed.",
+            "0.5": "Valid completions cover at least 50% but less than 100% of the frozen baseline weight. Completed comparisons use the same data, scope, and evaluation metric, their results are complete and recomputable, and every attempt is disclosed.",
+            "0": "Valid completions cover less than 50%; no baseline was run; or attempts were selectively hidden. An attempt with mismatched data, scope, or evaluation metric is recorded only as invalid_attempt and excluded from the numerator; it does not independently reduce other qualifying valid comparisons to zero."
+          },
+          "examples": {
+            "1": "The no-effect and constant-mean baselines are run on the same samples, scope, and evaluation metric, and both results are recomputable. Full execution credit applies even if the discovery only matches a baseline; Item 1.8 handles interpretation.",
+            "0.5": "Only one of the two frozen baselines was completed and correctly compared.",
+            "0": "The report states only \"significantly better than random\" and provides no randomized-baseline execution or result."
+          },
+          "pseudocode": [
+            "checks = verify_each_frozen_baseline_and_operation_predicate_mapping()",
+            "if selectively_hidden_attempts: return 0",
+            "valid_weighted_coverage = sum(weight of valid_completed baselines) / sum(all frozen baseline weights)",
+            "if valid_weighted_coverage == 1: return 1",
+            "if valid_weighted_coverage >= 0.5: return 0.5",
+            "return 0"
+          ],
+          "code_role_en": "Run the baseline and compare using the same data, units, and metrics.",
+          "model_role_en": "Map the natural-language baseline name to the frozen baseline ID, comparison object, and evaluation metric; do not judge the final claim.",
+          "receipt_fields": [
+            "baseline_ids",
+            "baseline_weights",
+            "operation_predicate_action_mapping_id",
+            "operation_ids",
+            "comparison_data_scope",
+            "comparison_metric",
+            "per_baseline_status",
+            "valid_completed_baseline_ids",
+            "invalid_attempt_ids",
+            "all_attempts_retained",
+            "weighted_coverage",
+            "result_table",
+            "result_auditability",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "Both the no-effect baseline and the constant mean baseline were run realistically on the same sample, range, and evaluation volume as found, and the results were fully recomputable, covering 100% of the frozen baseline weight; it was found that even if it was only equal to the baseline, it would not affect the full score of this implementation. Score is 3 × 1 = 3 points.",
+            "0.5": "One of the two frozen baselines is completed using the same data, scope, and evaluation metric, and its result is recomputable. It covers at least 50% but less than 100% of the frozen baseline weight, and all attempts are disclosed. Score is 3 × 0.5 = 1.5 points.",
+            "0": "The report has only “significantly better than random” text, no frozen random-baseline runs or results, effective completion coverage is 0%, less than 50%; this triggers the zero-credit condition. Score is 3 × 0 = 0 points."
+          }
+        },
+        {
+          "id": "alternatives.negative_control",
+          "number": "3.2",
+          "name_en": "A negative control corresponding to the primary error mechanism is executed",
+          "weight": 3,
+          "judge_profile": "code_plus_model",
+          "plain_question_en": "Does the control actually selected and executed by the Agent sever the relationship on which the current claim or its primary erroneous explanation depends?",
+          "why_en": "A valid negative control tests whether the pipeline can break the claimed relationship or primary erroneous explanation; merely adding an irrelevant comparison does not do so.",
+          "judgment_boundary_en": "This item evaluates only the scientific validity of the actual control, authenticity of execution, auditability of its results, and coverage. It does not require the control to show no effect, and the control result does not change the execution score whether it supports or contradicts the claim. Whether the final conclusion incorporates the control result is judged uniformly in Item 1.8.",
+          "required_inputs": [
+            "Structured Objects, Relationships, Scope and Major Misinterpretations of Current Findings",
+            "Actual control operations performed by the Agent and their scientific purpose",
+            "Control the target relationship or error mechanism that should be severed",
+            "Records of available positive results, sensitivity tests or successful detection of the same pipeline",
+            "Run Receipt By Match",
+            "All Attempt Status, Results and Failure Rules"
+          ],
+          "human_steps": [
+            "First identify the target relationship or primary error mechanism that the control is intended to sever. Merely stating that a comparison was made is insufficient.",
+            "Use code to verify that the control was actually executed, its inputs and outputs exist, cited paths resolve, and its result is traceable to frozen artifacts. Repair only path-location or working-directory problems before adjudication; after that, genuine execution failures count as failures.",
+            "Establish the pipeline's basic sensitivity for interpreting the negative control through a positive result, a sensitivity check, or a successful record from the same pipeline under a condition where a signal should be detected. Full credit is unavailable when nothing shows that the pipeline can detect any signal.",
+            "Assign this action from valid control coverage. An unexpected control effect does not reduce execution credit, but Item 1.8 must account for it when judging the final claim."
+          ],
+          "anchors": {
+            "1": "At least one executed control clearly severs the current claim or its primary erroneous explanation; pipeline sensitivity has an auditable basis; and the inputs, run, and results are fully traceable. Full credit is unchanged whether the control still shows an effect or not.",
+            "0.5": "A scientifically relevant and auditable control was actually executed, but it severs only part of the error mechanism, has incomplete evidence of sensitivity, or has clearly limited coverage. Its result remains locatable, and unexecuted prose was not presented as an execution.",
+            "0": "No control was executed; the purported control does not sever the current relationship or primary erroneous explanation; repairing the path still yields no run or result; or the result is not auditable."
+          },
+          "examples": {
+            "1": "The claim is specific to SensorB. The Agent runs a same-dose SensorA control with complete code and results, and an auditable sensitivity check shows that the pipeline detects the SensorB signal. Even if SensorA also shows an effect, execution remains complete; Item 1.8 judges how that result changes the claim.",
+            "0.5": "The Agent performed adjacent objects or weak permutation control, which was able to exclude some common load effects, but did not completely cut off the most important mechanism; the operation and results were recoverable.",
+            "0": "The report states only that a spurious relationship was excluded, with no control code or result, or it presents the same study object as a negative control."
+          },
+          "pseudocode": [
+            "controls = model.identify_executed_controls_and_broken_mechanisms(final_claim, verified_artifacts)",
+            "controls = code.verify_paths_runs_and_results_after_path_resolution(controls)",
+            "if no valid executed control: return 0",
+            "if any control clearly breaks the main relation_or_error_mechanism and pipeline_sensitivity_is_auditable: return 1",
+            "if any control is scientifically relevant and partially breaks an error mechanism: return 0.5",
+            "return 0"
+          ],
+          "code_role_en": "Resolve paths and working directories, then verify control inputs, execution, and results.",
+          "model_role_en": "Judge whether the control actually selected by the Agent cuts off the current claim or major misinterpretation in a scientific sense; do not judge the final conclusion.",
+          "receipt_fields": [
+            "positive_control_or_sensitivity_id",
+            "sensitivity_result",
+            "control_ids",
+            "control_weights",
+            "operation_predicate_action_mapping_id",
+            "operation_ids",
+            "per_control_status",
+            "valid_completed_control_ids",
+            "invalid_attempt_ids",
+            "mechanism_broken_by_control",
+            "all_attempts_retained",
+            "weighted_coverage",
+            "results",
+            "failure_rule_outputs",
+            "result_auditability",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "The same-dose SensorA control directly tests the primary erroneous explanation that any sensor load causes inhibition. Execution and results are complete, and an auditable sensitivity result shows that the same pipeline detects the SensorB effect. Score is 3 × 1 = 3 points.",
+            "0.5": "The adjacent object control only excludes part of the general load effect, and the most important mechanism is still not completely cut off, but the operation and results are auditable, so 3 × 0.5 = 1.5 points.",
+            "0": "After path normalization and reference repair, no executed control or control result can be found. The report contains only unsupported control language. Score is 3 × 0 = 0 points."
+          }
+        },
+        {
+          "id": "alternatives.strongest_competitor",
+          "number": "3.3",
+          "name_en": "The strongest feasible alternative scientific mechanism in the task card is tested",
+          "weight": 4,
+          "judge_profile": "code_plus_model",
+          "plain_question_en": "For the current discovery, was a discriminating test actually executed for the feasible alternative scientific mechanism ranked first by the frozen task-card rules?",
+          "why_en": "Testing only convenient alternatives can leave the strongest feasible explanation untouched.",
+          "judgment_boundary_en": "This item checks only the first-ranked alternative in the scientific_mechanism category under the discovery-type and frozen ranking rules; all tied first-ranked alternatives are included under the frozen tie rule. Data-generation confounding and measurement or processing artifacts are covered in Item 3.4. Whether the final conclusion incorporates the test result is judged in Item 1.8.",
+          "required_inputs": [
+            "Freeze Normalized Threats Registry",
+            "Freeze Alternate Explanation Card",
+            "Direction-critical discriminating-test IDs and weights",
+            "Operations — Scientific Verbs — Scoring Item Mapping",
+            "Distinguished Prediction",
+            "Execute Receipt By Inspection",
+            "All Attempt Status and Comparison Results"
+          ],
+          "human_steps": [
+            "First verify the task card's normalized-threat registry: composite threats are split, each threat ID has one category, and the Item 3.3 and 3.4 sets do not overlap. A violation invalidates the task card rather than assigning 0 to the participant.",
+            "Apply the frozen ranking rule for the discovery type to identify the highest-ranked scientific mechanism. If mechanisms are tied, include the complete required set under the frozen tie rule; the evaluator may not choose among them ad hoc.",
+            "Confirm that each test performed has a different freeze expectation under the current mechanism and the alternative mechanism.",
+            "Use code to verify that the participant system genuinely executed each test and retained its result. Score by the frozen-weight coverage of valid discriminating tests, without regard to which mechanism the results favor."
+          ],
+          "anchors": {
+            "1": "All first-ranked alternative scientific mechanisms produced by the frozen rules, and all their direction-critical discriminating tests, are executed in full. Each test has distinct frozen predictions under the competing mechanisms, and every result is fully locatable.",
+            "0.5": "Tests that code deems valid and complete cover at least 50% but less than 100% of the pre-specified direction-critical test weight. These tests have distinct pre-specified predictions under the competing mechanisms, execution is genuine, results are fully locatable, and every attempt is disclosed.",
+            "0": "Valid frozen-weight coverage is below 50%; possibilities are merely listed without execution; or attempts are selectively hidden. Any individual attempt that has no distinct frozen predictions under the competing mechanisms, was not genuinely executed, or has unverifiable results is marked invalid_attempt and excluded from the numerator."
+          },
+          "examples": {
+            "1": "The current explanation is that electron scattering decreases conductivity; the first-ranked alternative is that microcracks reduce geometric conduction paths. Both task-card discriminating tests—in-situ structural measurement and annealing recovery—are executed completely, and their results are locatable.",
+            "0.5": "The first-ranked alternative can produce the same decrease as the current mechanism. The task card freezes two discriminating tests with weights of 60% and 40%; the system completes only the 60% test validly. That test has different frozen predictions under the two mechanisms and its result is locatable, so this item earns 2 points.",
+            "0": "The report only states that “it may also be another carrier mechanism, but does not affect the conclusion”, and does not perform any test that can distinguish between the two mechanisms."
+          },
+          "pseudocode": [
+            "assert task_card.normalized_threat_registry is valid and 3.3/3.4 semantic fingerprints are disjoint",
+            "alternatives = task_card.mechanism_ranking.instantiate_top_set(discovery_type, final_claim)",
+            "checks = verify_each_frozen_discriminator_and_operation_predicate_mapping(alternatives)",
+            "if selectively_hidden_attempts: return 0",
+            "coverage = sum(weight of valid_completed discriminators) / all_required_top_set_test_weight",
+            "if coverage == 1: return 1",
+            "if coverage >= 0.5: return 0.5",
+            "return 0"
+          ],
+          "code_role_en": "Verify task-card bindings, execution receipts, and result fields.",
+          "model_role_en": "Determine whether the frozen test has different expectations under the two scientific mechanisms; do not determine the final conclusion.",
+          "receipt_fields": [
+            "top_ranked_alternative_ids",
+            "ranking_rule_id",
+            "tie_rule_id",
+            "normalized_threat_ids",
+            "threat_semantic_fingerprints",
+            "threat_registry_sha256",
+            "threat_category",
+            "cross_branch_duplicate_check",
+            "operation_predicate_action_mapping_id",
+            "discriminator_ids",
+            "discriminator_weights",
+            "per_discriminator_status",
+            "valid_completed_ids",
+            "invalid_attempt_ids",
+            "all_attempts_retained",
+            "weighted_coverage",
+            "comparison_facts",
+            "result_auditability",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "The task card ranks microcracking as the strongest alternative and freezes two direction-critical tests: in-situ structural measurement and annealing recovery. Both have distinct predictions under the competing mechanisms, both are executed, and both results are locatable, covering 100% of the frozen weight. Score is 4 × 1 = 4 points.",
+            "0.5": "The frozen weights of the two key differential tests are 60% and 40%, and the system only effectively completes 60% of the items. This item does have different frozen predictions and the results can be located, covering 50% but less than 100%. All attempts have also been disclosed, so it receives half credit. Score is 4 × 0.5 = 2 points.",
+            "0": "The report merely lists another carrier mechanism and performs no test with distinct frozen predictions under the two mechanisms. Valid frozen-weight coverage is 0%. Score is 4 × 0 = 0 points."
+          }
+        },
+        {
+          "id": "alternatives.confound_or_artifact",
+          "number": "3.4",
+          "name_en": "Data-generation confounding or measurement and processing artifacts are tested",
+          "weight": 2,
+          "judge_profile": "code_plus_model",
+          "plain_question_en": "Could the observed relationship be an artifact of batch, instrument, preprocessing, or sample composition in the data-generation process?",
+          "why_en": "Many apparently novel relationships are created by data-generation or processing pipelines; they require targeted checks, not generic caveats.",
+          "judgment_boundary_en": "This item checks only batch, selection, instrument, measurement, or processing artifacts mechanically mapped from the discovery type by the task card. Alternative scientific mechanisms are not counted again here. Whether the final conclusion faithfully incorporates adjusted results is judged uniformly in Item 1.8.",
+          "required_inputs": [
+            "Freeze Normalized Threats Registry",
+            "Freeze Miscellaneous Cards and Weights",
+            "Confounder variables or artifact indicators",
+            "Hybrid variables or artifact indicators",
+            "Execute Receipt By Inspection",
+            "All Attempt Status and Results Before and After Adjustment"
+          ],
+          "human_steps": [
+            "First, check that the normalized threat registry is valid and that the composite threat has been split, and confirm that the threat ID of 3.4 does not appear in 3.3; if it is violated, the task card is invalid.",
+            "Use the discovery type and frozen mapping to generate every applicable data-generation confounder and measurement or processing artifact, together with its weight.",
+            "Verify that the participant system executed the corresponding test and retained the results before and after adjustment.",
+            "Calculate coverage from frozen weights for tests that were executed and whose results are auditable. Item 1.8 separately judges the result direction and any required update to the final claim."
+          ],
+          "anchors": {
+            "1": "Applicable data-generation confounders or measurement or processing artifacts representing 100% of the frozen weight are actually tested, with fully locatable results before and after adjustment.",
+            "0.5": "Applicable confounder or artifact tests that code deems valid and complete cover at least 50% but less than 100% of the pre-specified weight, and every attempt is disclosed.",
+            "0": "Valid coverage is below 50%; no test was executed; or attempts were selectively hidden. Any individual attempt unrelated to a frozen confounder, or whose before-and-after results cannot be verified, is marked invalid_attempt and excluded from the numerator."
+          },
+          "examples": {
+            "1": "Batch effects and instrument drift are tested, and results before and after adjustment are fully locatable. Whether the adjusted effect is incorporated into the report is judged separately in Item 1.8.",
+            "0.5": "Only the batch test, weighted at 60%, is completed; instrument drift is not. Results before and after the batch adjustment are fully locatable, so the item earns 1 point.",
+            "0": "The discussion merely notes a possible confounder and provides no adjustment, stratification, or auditable result."
+          },
+          "pseudocode": [
+            "assert task_card.normalized_threat_registry is valid and 3.3/3.4 semantic fingerprints are disjoint",
+            "confounds = task_card.artifact_mapping.instantiate(discovery_type, final_claim)",
+            "checks = verify_each_frozen_confound_test_and_operation_predicate_mapping(confounds)",
+            "if selectively_hidden_attempts: return 0",
+            "weighted_coverage = sum(weight of valid_completed confound tests) / sum(all frozen confound weights)",
+            "if weighted_coverage == 1: return 1",
+            "if weighted_coverage >= 0.5: return 0.5",
+            "return 0"
+          ],
+          "code_role_en": "Compute coverage, compare results before and after adjustment, and verify execution state.",
+          "model_role_en": "Determine whether the test performed corresponds to frozen confounder or artifact in a scientific sense; do not determine the final conclusion.",
+          "receipt_fields": [
+            "confound_ids",
+            "artifact_mapping_rule_id",
+            "normalized_threat_ids",
+            "threat_semantic_fingerprints",
+            "threat_registry_sha256",
+            "threat_category",
+            "cross_branch_duplicate_check",
+            "operation_predicate_action_mapping_id",
+            "operation_ids",
+            "confound_weights",
+            "per_confound_status",
+            "valid_completed_ids",
+            "invalid_attempt_ids",
+            "all_attempts_retained",
+            "weighted_coverage",
+            "before_after_facts",
+            "result_auditability",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "The frozen task card's batch-effect and instrument-drift checks are both executed, and their before-and-after results are fully locatable. Applicable confounder and artifact coverage is 100%; Item 1.8 separately judges how the adjusted result changes the final claim. Score is 2 × 1 = 2 points.",
+            "0.5": "Only the batch check, weighted at 60%, is complete. Its before-and-after results are fully locatable, while the instrument-drift check is incomplete. Coverage is at least 50% but below 100%, and no attempt was hidden. Score is 2 × 0.5 = 1 point.",
+            "0": "The discussion only notes a possible confounder and provides no adjustment, stratification, or auditable result. Acknowledging the risk does not substitute for executing the test. Score is 2 × 0 = 0 points."
+          }
+        },
+        {
+          "id": "alternatives.independent_triangulation",
+          "number": "3.5",
+          "name_en": "A second channel with different error-source dependencies is used for validation",
+          "weight": 3,
+          "judge_profile": "code_plus_model",
+          "plain_question_en": "Beyond the original analysis route, is there another evidence channel that does not fully share its error sources and can support or contradict the same claim?",
+          "why_en": "Two analyses that share the same critical error source may agree while both are wrong; triangulation matters only when error dependence changes.",
+          "judgment_boundary_en": "This item evaluates only the scientific relevance of the second channel and its independence from the first channel’s error sources, not whether it points in the same direction. Supporting and contradictory evidence can both earn execution credit, but the final conclusion must faithfully incorporate the result in Item 1.8.",
+          "required_inputs": [
+            "Second Evidence Channel Run or Data Acquisition Receipt",
+            "Second channel result artifact and hash",
+            "Task card frozen direction-critical proposition atom",
+            "Task card frozen direction critical error source group, weight and dependency mapping",
+            "Dependency Diagram",
+            "Source Independent Inspection"
+          ],
+          "human_steps": [
+            "First verify that the second channel was executed or acquired in this run and produced a result artifact whose hash is bound to the run. A future plan does not count here.",
+            "Read the task card's direction-critical claim atoms and confirm that the second channel can support or refute each one.",
+            "Compare the two routes across data, instrument, preprocessing, and parameter error-source groups under the frozen task-card dependency mapping. Do not reclassify dependencies during scoring.",
+            "The code calculates the proportion of the weight of the frozen error source that is not shared by the second channel; do not lower the execution score of this item because the second channel refutes the original conclusion."
+          ],
+          "anchors": {
+            "1": "The second channel was executed and produced auditable results, covers every direction-critical claim atom in the task card, and is independent across direction-critical error-source groups representing 100% of the frozen weight. Its independence score is unaffected by whether its result supports or contradicts the claim.",
+            "0.5": "The second channel was executed and produced auditable results, covers every direction-critical claim atom in the task card, and has independent error sources representing at least 50% but less than 100% of the frozen weight. The direction of its result does not affect this level.",
+            "0": "The second channel was not executed or has no auditable result; it does not cover every direction-critical claim atom in the task card; independent error sources account for less than 50% of the weight; it merely redraws, relabels fields, or rephrases the same result; or it is irrelevant to the discovery."
+          },
+          "examples": {
+            "1": "The second route has complete, hash-bound execution receipts and spectral results. The task card identifies sample batch, instrument, and signal processing as the three direction-critical error-source groups. The main route uses electrical measurements from batch A; the second uses spectra from batch B, independently covering all three groups.",
+            "0.5": "The second route was executed and covers every direction-critical claim atom. Under the task card's frozen dependency mapping, code calculates 60% independent error-source weight.",
+            "0": "Only future spectral measurements are proposed, or the same result table is plotted as both a line chart and a histogram and called independent validation."
+          },
+          "pseudocode": [
+            "execution = code.verify_second_route_execution_and_artifact_hash(route_b)",
+            "if not execution.completed or not execution.auditable_result: return 0",
+            "required_atoms = task_card.direction_critical_claim_atoms",
+            "atom_coverage = model.map_route_b_to_frozen_claim_atoms(route_b, required_atoms)",
+            "if atom_coverage != 1 or mere_reformat: return 0",
+            "dependency_groups = code.apply_prefrozen_dependency_to_error_group_map(route_a, route_b)",
+            "coverage = code.weighted_independent_error_source_fraction(dependency_groups, task_card)",
+            "if coverage == 1: return 1",
+            "if coverage >= 0.5: return 0.5",
+            "return 0"
+          ],
+          "code_role_en": "Compare sources, dependencies, hashes, and processing chains.",
+          "model_role_en": "Determine whether the second channel provides scientifically relevant evidence about the same claim.",
+          "receipt_fields": [
+            "route_ids",
+            "second_route_execution_receipt_ids",
+            "second_route_result_artifact_ids",
+            "second_route_result_hashes",
+            "second_route_result_auditable",
+            "required_claim_atom_ids",
+            "claim_atom_coverage",
+            "dependency_to_error_group_map",
+            "error_source_group_ids",
+            "error_source_weights",
+            "independent_group_ids",
+            "weighted_independence_coverage",
+            "semantic_link",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "The second route has a hash-bound execution receipt and spectral result covering every direction-critical claim atom. It uses batch B, a spectrometer, and different signal processing, making it independent of the main route across all three frozen error-source groups. Independent weight is 100%. Score is 3 × 1 = 3 points.",
+            "0.5": "The second route was executed, its result is auditable, and it covers every direction-critical claim atom. Under the frozen dependency mapping, independent error-source weight is 60%, regardless of whether the result supports or refutes the claim. Score is 3 × 0.5 = 1.5 points.",
+            "0": "Future spectral measurement is only planned, so the second channel has not executed; alternatively, the same result table is merely rendered as both a line chart and a histogram, creating no independent error source. In both cases the executed, auditable, and at-least-50%-independent requirements are not met. Score is 3 × 0 = 0 points."
+          }
+        }
+      ]
+    },
+    {
+      "id": "separated_validation",
+      "name_en": "Validation with separated evidence",
+      "weight": 10,
+      "plain_question_en": "Was any conclusion genuinely checked using data or observations that did not participate in forming it?",
+      "actions": [
+        {
+          "id": "separated_validation.provenance",
+          "number": "4.1",
+          "name_en": "Formation and validation sets have auditable separation artifacts",
+          "weight": 2,
+          "judge_profile": "deterministic_code",
+          "plain_question_en": "Do cited code and results identify separate formation and validation sets, and do the artifacts demonstrate zero overlap?",
+          "why_en": "Evidence used to invent or select a claim cannot also serve as genuinely separated validation of that claim.",
+          "judgment_boundary_en": "This item verifies split definitions and saved set identities or counts. Full credit additionally requires an explicit zero-overlap or disjointness result.",
+          "required_inputs": [
+            "Finding-linked split source",
+            "Finding-linked split result artifact"
+          ],
+          "human_steps": [
+            "Resolve source and result artifacts cited for this action.",
+            "Verify that source defines formation and validation sets and the result records their identities, hashes, or counts.",
+            "For full credit, detect an explicit zero-overlap or disjointness result."
+          ],
+          "anchors": {
+            "1": "Split source and result artifacts are present, and the artifacts explicitly show zero overlap or disjointness.",
+            "0.5": "Split source and result artifacts identify both sets, but no complete zero-overlap result is found.",
+            "0": "No auditable source-result pair identifies separate formation and validation sets."
+          },
+          "examples": {
+            "1": "Source defines train and holdout IDs; results save both hashes and overlap_count=0.",
+            "0.5": "Source and results identify both sets, but no disjointness check is saved.",
+            "0": "The report mentions a holdout without cited split artifacts."
+          },
+          "pseudocode": [
+            "if not split_source_found or not split_result_found: return 0",
+            "if explicit_disjointness_result_found: return 1",
+            "return 0.5"
+          ],
+          "code_role_en": "Detect split definitions, saved set identities, and explicit zero-overlap evidence.",
+          "model_role_en": "None.",
+          "receipt_fields": [
+            "split_source_paths",
+            "split_result_paths",
+            "split_source_found",
+            "split_result_found",
+            "disjointness_result_found",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "Cited code and results identify both sets and record zero overlap. Score is 2 × 1 = 2 points.",
+            "0.5": "Both sets are identified, but no complete disjointness result is saved. Score is 2 × 0.5 = 1 point.",
+            "0": "No auditable split source-result pair exists. Score is 2 × 0 = 0 points."
+          }
+        },
+        {
+          "id": "separated_validation.execution",
+          "number": "4.2",
+          "name_en": "The separated-evidence validation process executed successfully",
+          "weight": 3,
+          "judge_profile": "deterministic_code",
+          "plain_question_en": "Was the holdout or new dataset actually run to produce an auditable validation result, rather than mentioned only as a plan?",
+          "why_en": "A plan cannot replace completed validation, while a completed validation that refutes the original conclusion is still a successful execution.",
+          "judgment_boundary_en": "This item judges only whether separated validation genuinely executed and produced a recomputable result. A planned future test belongs in Branch 6.",
+          "required_inputs": [
+            "Validation Commands",
+            "Pre-validation claim version ID and lockout time",
+            "Participant-issued structured validation receipt, execution time, and artifact hash",
+            "Final claim version ID and freeze time after absorption of validation results",
+            "Required validation steps and direction-critical markers frozen in the task card",
+            "Task card frozen legal scientific results and technical failure status table",
+            "Fixed environment",
+            "Exit code",
+            "Validation Result Product"
+          ],
+          "human_steps": [
+            "Read all required validation steps, direction-critical markers, and the pre-competition status table distinguishing legitimate scientific results from technical failures.",
+            "First inspect the participant system's structured execution receipt. Its time must follow the pre-validation claim lock and precede final-claim freeze, and it must record the command, environment, exit code, and artifact hash. Assign 0 if no such receipt exists.",
+            "Verify the referenced participant artifact against its declared hash and independently recompute the core validation quantity.",
+            "Use the frozen status table to distinguish technical failures from legitimate negative, null, or non-estimable scientific results. A legitimate negative result does not lose execution credit.",
+            "First check for a direction-critical technical failure or a missing core result required by the frozen contract; then calculate completion across all required steps."
+          ],
+          "anchors": {
+            "1": "A participant-issued structured execution receipt exists with valid time ordering, its artifact hash matches the referenced artifact, and evaluator recomputation verifies a core quantity. All required validation steps complete successfully and produce a recognized scientific result. The result may support or refute the claim, show a null effect, or be legitimately non-estimable.",
+            "0.5": "The structured receipt, time ordering, artifact hash, and core recomputation are valid. Every direction-critical validation step succeeds, and at least 50% but less than 100% of all required steps are complete. Every incomplete item is a non-critical auxiliary step.",
+            "0": "There is only a future plan; the structured receipt or time ordering is invalid; the referenced artifact does not match its declared hash; evaluator core recomputation is unavailable; any direction-critical step has a technical failure; the core result is missing; or fewer than 50% of all required steps are complete."
+          },
+          "examples": {
+            "1": "The participant system executes a new-batch validation and records a structured receipt after P1 is locked and before P2 is frozen. Every step succeeds, the referenced artifact matches its declared hash, and evaluator recomputation verifies the core quantity. A legitimate negative result still earns full execution credit.",
+            "0.5": "The structured receipt, referenced artifact, and core recomputation are valid; the main effect and direction-critical results succeed, but a non-critical secondary step is incomplete.",
+            "0": "The report states that a future batch will be used for validation, but no new-batch execution receipt exists."
+          },
+          "pseudocode": [
+            "participant = code.verify_structured_participant_validation_receipt()",
+            "if not participant.valid or not (prevalidation_claim_locked_at < participant.executed_at < final_asserted_frozen_at): return 0",
+            "if hash(referenced_participant_artifact) != participant.declared_artifact_sha256: return 0",
+            "if not evaluator_core_recomputation_verified: return 0",
+            "statuses = code.classify_with_prefrozen_scientific_result_vs_technical_failure_table(participant)",
+            "if any(direction_critical_technical_failure) or contract_required_core_result_missing: return 0",
+            "coverage = completed_required_steps / all_required_steps",
+            "if coverage == 1: return 1",
+            "if coverage >= 0.5 and every_missing_step_is_prefrozen_noncritical: return 0.5",
+            "return 0"
+          ],
+          "code_role_en": "Verify the structured receipt and event sequence, compare the referenced artifact hash, independently recompute a core quantity, and distinguish technical status from scientific outcome.",
+          "model_role_en": "None.",
+          "receipt_fields": [
+            "validation_command_id",
+            "prevalidation_claim_version_id",
+            "prevalidation_claim_locked_at",
+            "participant_execution_receipt_id",
+            "participant_execution_receipt_marker",
+            "participant_executed_at",
+            "participant_environment_sha256",
+            "participant_artifact_sha256",
+            "evaluator_core_recomputation_verified",
+            "final_asserted_version_id",
+            "final_asserted_frozen_at",
+            "required_step_ids",
+            "direction_critical_step_ids",
+            "outcome_status_rule_id",
+            "outcome_status_classification",
+            "completed_step_ids",
+            "required_step_coverage",
+            "exit_codes",
+            "result_artifact_ids",
+            "scientific_outcome",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "The structured receipt has valid time ordering, the referenced artifact matches its declared hash, evaluator recomputation verifies the core quantity, and every required step completes. A legitimate negative scientific result still satisfies full execution credit. Score is 3 × 1 = 3 points.",
+            "0.5": "The structured receipt, execution time, artifact hash, and core recomputation are valid. Every direction-critical step succeeds, but only 50% to less than 100% of required steps complete. Score is 3 × 0.5 = 1.5 points.",
+            "0": "The submission provides no valid structured execution receipt and referenced artifact, or evaluator core recomputation cannot verify the result. Score is 3 × 0 = 0 points."
+          }
+        },
+        {
+          "id": "separated_validation.prefrozen_decision",
+          "number": "4.3",
+          "name_en": "A pre-result validation decision rule is recorded and applied",
+          "weight": 3,
+          "judge_profile": "deterministic_code",
+          "plain_question_en": "Do event artifacts record that the decision rule was frozen before validation results and show the rule's reported output?",
+          "why_en": "Changing a threshold after observing the result can make any result appear successful.",
+          "judgment_boundary_en": "This item checks machine-readable event ordering and evidence that the decision rule produced a reported output.",
+          "required_inputs": [
+            "Event, ledger, timeline, freeze, or decision artifacts"
+          ],
+          "human_steps": [
+            "Locate event artifacts.",
+            "Detect a decision-rule freeze time preceding validation-result access or generation.",
+            "Detect a reported decision or decision-function output."
+          ],
+          "anchors": {
+            "1": "Both pre-result rule ordering and an applied decision output are found.",
+            "0.5": "Exactly one of the ordering receipt or applied decision output is found.",
+            "0": "Neither receipt is found."
+          },
+          "examples": {
+            "1": "The ledger records rule_frozen_at before result_unlocked_at and saves reported_decision.",
+            "0.5": "The ledger records the correct time ordering but no decision-function output.",
+            "0": "No event artifact records either fact."
+          },
+          "pseudocode": [
+            "ordering = prefrozen_rule_order_found(event_artifacts)",
+            "applied = decision_output_found(event_artifacts)",
+            "if ordering and applied: return 1",
+            "if ordering or applied: return 0.5",
+            "return 0"
+          ],
+          "code_role_en": "Parse event artifacts for pre-result ordering and an applied decision output.",
+          "model_role_en": "None.",
+          "receipt_fields": [
+            "event_artifact_paths",
+            "prefrozen_order_found",
+            "decision_output_found",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "Both the pre-result ordering and applied output are recorded. Score is 3 × 1 = 3 points.",
+            "0.5": "Only one of the two required receipts is recorded. Score is 3 × 0.5 = 1.5 points.",
+            "0": "Neither receipt is found. Score is 3 × 0 = 0 points."
+          }
+        },
+        {
+          "id": "separated_validation.non_circular_trace",
+          "number": "4.4",
+          "name_en": "The validation route does not circularly reuse information that formed the conclusion",
+          "weight": 2,
+          "judge_profile": "code_plus_model",
+          "plain_question_en": "Even if the file sets are separate, did validation feed validation labels or results back into features, representations, preprocessing, or model parameters, turning the purported validation into retraining?",
+          "why_en": "Non-overlapping data do not guarantee independent information; using validation labels to select features, fine-tune representations, or update model parameters feeds validation information back into the object being tested.",
+          "judgment_boundary_en": "After Item 4.1 has established direct separation of data rows and time, this item checks only whether validation labels or results create an indirect information loop through features, representations, preprocessing, model parameters, or answer-derived labels. The final success-or-failure function and interpretation thresholds are exclusive to Item 4.3; direct set overlap or early visibility is exclusive to Item 4.1.",
+          "required_inputs": [
+            "Task card frozen subject to be verified and allowed to share dependency ID",
+            "Forming and validationing dependency diagrams",
+            "Parameter Source",
+            "Tag source",
+            "Frozen records of characteristics, representation, pretreatment and model parameters"
+          ],
+          "human_steps": [
+            "Read the task card to identify the validation object: a relationship in new data, generalization of a frozen model, or another scientific object. Also read the allowlisted shared-dependency IDs.",
+            "Compare the direction-critical information dependencies of the formation and validation routes, and verify that every shared item is allowlisted.",
+            "Check whether validation labels or results were fed back into feature selection, representation learning, preprocessing, or model parameters. The final decision threshold is not reassessed here.",
+            "If the validation object is generalization of a frozen model, sharing that model's pre-frozen parameters is permitted. A shared fitted dependency that was frozen before validation but is not on the full-credit allowlist provides only limited new information."
+          ],
+          "anchors": {
+            "1": "Every shared dependency is on the task card’s pre-competition allowlist of IDs for the current validation object. No direction-critical observation or answer-derived label from the formation phase is shared, and validation labels or results are not used to select features, fine-tune representations, change preprocessing, or update model parameters. If the validation object is the generalization performance of a frozen model, sharing that frozen model’s parameters is permitted.",
+            "0.5": "A shared representation or parameter fitted on formation-phase data is not on the full-credit allowlist. It was frozen before the validation data were unlocked, did not use validation labels or results, and was not adjusted after validation results were seen; validation therefore supplies limited rather than fully independent new information.",
+            "0": "Answer-derived labels are used; validation labels or results are fed into feature selection, representation fine-tuning, preprocessing, or model-parameter updates; a shared dependency directly encodes the target answer; or the dependency graph cannot rule out an indirect loop. The final decision threshold is not scored again in this item."
+          },
+          "examples": {
+            "1": "Validation uses a new batch and shares only general denoising code allowed by the task card. Another full-credit case evaluates a frozen prediction model on the new batch, for which sharing the model's pre-frozen parameters is explicitly permitted.",
+            "0.5": "The new batch is independent, but uses the same pre-trained representation; this representation is frozen before the task and no validation label is seen.",
+            "0": "After viewing the validation labels, the system reselects features and fine-tunes the representation until validation performance improves."
+          },
+          "pseudocode": [
+            "assert action_4_1_direct_set_and_time_check_completed",
+            "estimand = task_card.validation_estimand",
+            "allowed = task_card.allowed_shared_dependency_ids_for(estimand)",
+            "graph = code.build_indirect_formation_validation_dependency_graph()",
+            "if answer_derived_label or validation_label_or_result_used_for_feature_representation_preprocessing_or_model_tuning or shared_dependency_encodes_target_answer: return 0",
+            "if every(shared_dependency_id is in allowed): return 1",
+            "if every(nonallowed_shared_fitted_dependency was frozen_before_validation_unlock and saw_no_validation_label_or_result): return 0.5",
+            "return 0"
+          ],
+          "code_role_en": "Build dependency graphs and identify shared data, labels, representations, parameters, and timing.",
+          "model_role_en": "Determine whether the shared dependency carries the directional information of the current conclusion.",
+          "receipt_fields": [
+            "linked_4_1_receipt_id",
+            "validation_estimand_id",
+            "indirect_dependency_graph_id",
+            "allowed_shared_dependency_ids",
+            "shared_dependency_ids",
+            "formation_fitted_shared_dependency_ids",
+            "nonallowed_shared_dependency_ids",
+            "validation_information_overlap",
+            "answer_derived_label_ids",
+            "post_result_feature_representation_preprocessing_or_model_tuning",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "Validation uses of new batches, and only share the general denoising code allowed by the task card; if the object to be verified is the generalization performance of the frozen model, the shared frozen model parameters allowed before the competition are also compliant. Shared items are in the list of allowed IDs and do not have answer labels, nor do they use validation results to select features, fine-tune representation, change pre-processing, or update model parameters. Score is 2 × 1 = 2 points.",
+            "0.5": "The new batch itself is independent, but validation shares a pretrained representation fitted on formation-stage data that is not on the full-credit allowlist. The representation was frozen before the validation data were unlocked, uses no validation labels or results, and was not adjusted after results were seen. The new information is therefore limited, but no zero-credit circularity is present. Score is 2 × 0.5 = 1 point.",
+            "0": "After viewing validation labels, the system reselects features and fine-tunes the representation. Validation information is therefore fed back into formation of the evaluated object, creating an indirect loop that separate files cannot remedy. Score is 2 × 0 = 0 points."
+          }
+        }
+      ]
+    },
+    {
+      "id": "independent_origin",
+      "name_en": "Independent origin and frozen prior-art search",
+      "weight": 10,
+      "plain_question_en": "Was the conclusion formed independently in this analysis, and did the same idea exist before the cutoff in a fixed prior-art corpus?",
+      "actions": [
+        {
+          "id": "independent_origin.target_source_isolation",
+          "number": "5.1",
+          "name_en": "The core conclusion does not use the target paper or an external answer as direct evidence",
+          "weight": 4,
+          "judge_profile": "code_plus_model",
+          "plain_question_en": "Was this conclusion genuinely formed from the task data, rather than by treating the target paper or an external answer as direct evidence and restating it?",
+          "why_en": "This benchmark measures blind, data-driven discovery; reconstructing a conclusion after reading an answer is a different capability.",
+          "judgment_boundary_en": "This item evaluates observable evidence dependencies: whether the report, code, citations, intermediate artifacts, and available access records use the target paper, author answer, or equivalent answer material to form the core conclusion. It does not claim to prove technically that model memory contains no relevant knowledge, and it does not prohibit general methods or background material from before T0. Logs are not required submission artifacts; missing logs do not automatically lose credit, and existing logs serve only as additional evidence capable of defeating full credit.",
+          "required_inputs": [
+            "Root Report & Discovery Referenced Codes, Results and Recreated Materials",
+            "Observable reports, codes, references and intermediate artifact dependencies in submissions",
+            "Documents and network access records actually provided by the platform (if any)",
+            "Available content snapshots or verifiable content hashes for accessing material",
+            "Target paper and known answer material fingerprints",
+            "Frozen Target Answer Core Elements List",
+            "Conclusion freeze time"
+          ],
+          "human_steps": [
+            "Follow each finding's evidence chain from the root report and list the materials that actually formed the core conclusion. Use code to verify their paths, hashes, references, and timestamps.",
+            "Match observable materials against the target title, DOI, authors, URL, and answer fingerprints. When platform logs are available, scan them as additional evidence; the mere absence of logs does not by itself change the level.",
+            "The model only determines whether these observable materials take the content of the target paper or equivalent answer as a direct basis for the current conclusion, and the degree of overlap between the background material and the core elements of the target answer.",
+            "Assign 0 when the target paper or a complete equivalent answer directly supplies the conclusion. Assign half credit when background material provides partial directional clues but the task data still forms the core conclusion. Assign full credit when the task-data formation chain is complete and no answer dependency is observed."
+          ],
+          "anchors": {
+            "1": "The report, code, results, and available access records form a complete evidence chain from the task data. No target paper, author answer, or fully equivalent claim is observed as direct evidence for the core conclusion.",
+            "0.5": "The core conclusion is still formed from the task data and this analysis, but the background material used contains some clues pointing toward the target direction and is insufficient to replace this data analysis or reconstruct the complete target answer.",
+            "0": "The report, code, citations, intermediate artifacts, or available access records show that the core conclusion was taken directly from the target paper, author answer, or fully equivalent conclusion, or that external answer material replaced analysis of the task data."
+          },
+          "examples": {
+            "1": "Reported values and directions are able to recover task data with this code; available access records are only generic methodology documents, and there is no target paper or equivalent answer dependency.",
+            "0.5": "The system accesses a background review that mentions possible temperature-dependent conductivity changes in this class of materials, but it contains neither the target sample, the direction of decrease, nor the 20–40 °C boundary. This provides a partial clue but is insufficient to reconstruct the target answer's complete core conclusion.",
+            "0": "The operation log shows that the system opens the abstract of the target paper before forming a conclusion, in which the same relationship is written directly."
+          },
+          "pseudocode": [
+            "dependencies = code.trace_claim_to_report_code_results_and_available_access_records",
+            "if target_or_known_answer_is_direct_claim_dependency: return 0",
+            "mapping = model.map_observable_dependencies_to_frozen_target_answer_elements(dependencies)",
+            "if external_answer_replaces_task_data_analysis: return 0",
+            "if task_data_chain_complete and mapping.partial_background_clue_only: return 0.5",
+            "return 1"
+          ],
+          "code_role_en": "Inspect root reports, evidence dependencies, available access logs, and target titles, DOIs, authors, URLs, and answer fingerprints. Do not penalize absent optional logs automatically.",
+          "model_role_en": "Determine whether the observable material uses the target answer as a direct basis, or contains only background clues that are not sufficient to replace this analysis.",
+          "receipt_fields": [
+            "claim_dependency_evidence_ids",
+            "content_channel_ids",
+            "platform_telemetry_available",
+            "observed_material_ids",
+            "material_snapshot_or_content_hashes",
+            "exact_target_matches",
+            "target_answer_element_ids",
+            "per_material_answer_element_mapping",
+            "target_or_known_answer_direct_dependency",
+            "external_answer_replaces_task_data_analysis",
+            "task_data_evidence_chain_complete",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "The direction and value in the root report can recover the task data, the execution code and the result table; the access records actually provided by the platform are only general methodological materials, and there is no target paper or equivalent answer to become a conclusion dependence, so the full-credit condition is met. Score is 4 × 1 = 4 points.",
+            "0.5": "A background review mentions possible temperature-dependent conductivity changes in this material class but gives neither the target sample, decrease direction, nor 20–40 °C boundary. The task data and submitted analysis still supply the core direction and values, but the review provides a partial directional clue. Score is 4 × 0.5 = 2 points.",
+            "0": "The report cites the abstract of the target paper as the direct basis for the establishment of the relationship. The code does not generate the corresponding core results from the task data; the external answer replaces this analysis and thereby triggering the zero-credit condition. Score is 4 × 0 = 0 points."
+          }
+        },
+        {
+          "id": "independent_origin.frozen_search_prior_art",
+          "number": "5.2",
+          "name_en": "Overlap with prior art before the cutoff is measured in a frozen search snapshot",
+          "weight": 6,
+          "claim_atom_weights": {
+            "object": 0.2,
+            "scope": 0.2,
+            "relation": 0.2,
+            "direction": 0.2,
+            "boundary": 0.2
+          },
+          "judge_profile": "code_plus_model",
+          "plain_question_en": "In the literature snapshot saved before the competition, did the same claim already exist before the cutoff; if it was not identical, how much new, testable content does this finding add?",
+          "why_en": "This item distinguishes repetition of an existing claim, substantive extension of one, and absence of a close precedent within a controlled snapshot; it does not claim to prove absolute world-first novelty.",
+          "judgment_boundary_en": "This item primarily uses evaluator-side frozen search assets and the same-claim decision card. A finding matching a reference card reuses that card’s assets; for a finding outside the reference cards, the evaluator generates queries from its object, scope, relation, direction, and boundary and freezes the receipts. If queries still fail after automatic retries or no search asset is available, this item receives 0 while the remaining 94 points are scored normally. The number of papers itself neither adds nor subtracts credit.",
+          "required_inputs": [
+            "Local freeze retrieval snapshots, index versions and hashes",
+            "Query generator ID and full query instantiated by discovery type machinery",
+            "Due Date",
+            "Pre-match same/included/partially overlapping decision card and freeze claim atomic weight",
+            "Pre-match substantive new claim atomic judgment rules",
+            "Full list of hits",
+            "Summary of Candidate Literature Structured Claims"
+          ],
+          "human_steps": [
+            "First determine whether the finding matches a reference-card claim. If it does, load that card's frozen search assets. Otherwise generate queries from the structured claim, retry up to three times, and save each query, hit list, date, and hash. If all retries fail, assign 0 to this item and retain the failure receipt.",
+            "Filter to materials available before the cutoff, then extract the frozen object, scope, relation, direction, and boundary atoms for the current claim and each candidate.",
+            "Compare each candidate under the frozen same, included, or partial-overlap decision card, and list any substantive claim atoms added relative to the closest precedent. Use code and frozen weights to calculate maximum overlap and substantive new content.",
+            "If the pre-cutoff hit list is empty, code explicitly sets maximum overlap to 0 and the count of prior-art items that are the same as or cover the current claim to 0. Otherwise, full credit requires maximum overlap below 50%; half credit requires overlap of at least 50% plus a substantively new atom. If overlap is 100% but the same-or-included judgment is false, automatically retry the comparison; if the contradiction remains, conservatively record 0 and retain the receipt."
+          ],
+          "anchors": {
+            "1": "Every frozen query completes against the local snapshot. No candidate before the cutoff satisfies the same-claim or claim-inclusion rule, and the closest candidate overlaps less than 50% of the frozen claim-atom weight.",
+            "0.5": "No candidate before the cutoff satisfies the same-claim or claim-inclusion rule. The closest candidate overlaps at least 50% but less than 100% of the frozen claim-atom weight, and the current finding adds at least one substantively new object, scope, relation, direction, or boundary atom under the pre-competition rules.",
+            "0": "A candidate before the cutoff is substantively the same as, or covers, the current claim under the pre-competition rules; maximum atom overlap reaches at least 50% and the current finding adds no substantively new atom; or query and comparison still fail after automatic retries and no auditable frozen receipt is produced."
+          },
+          "examples": {
+            "1": "The frozen-snapshot search completes and returns no pre-cutoff hit, so maximum overlap is 0. Full credit also applies when the closest paper has only 30% weighted overlap.",
+            "0.5": "Precedents have reported declining relationships in the same material, and current findings extend it to new temperature zones identified as substantially different before the competition and give new boundaries; the maximum atomic overlap is 80%, but not the same or contained claims, hence a score of 2.",
+            "0": "The paper before the deadline has reported the same declining relationship in the same object and range; the other 0 point is the maximum overlap of 80%, but no substantive object, range, relationship, direction or boundary atoms have been added."
+          },
+          "pseudocode": [
+            "queries = task_card.query_generator.instantiate(discovery_type, final_claim)",
+            "hits = code.search_local_frozen_snapshot(queries, cutoff_date)",
+            "if snapshot_or_query_execution_failed_after_3_retries: return 0",
+            "comparisons = model.apply_prefrozen_same_contains_overlap_and_new_atom_rule(final_claim, hits)",
+            "max_overlap = 0 if comparisons is empty else max(weighted_claim_atom_overlap(comparisons))",
+            "if max_overlap == 1 and no same_claim_or_contains_match_after_retry: return 0",
+            "if any(comparison is same_claim or prior_claim_contains_current): return 0",
+            "if max_overlap >= 0.5 and substantive_new_atom_ids not empty: return 0.5",
+            "if max_overlap >= 0.5 and substantive_new_atom_ids empty: return 0",
+            "return 1"
+          ],
+          "code_role_en": "Match reference-card assets or generate claim-level queries for unmatched findings, retry automatically, freeze responses, apply the cutoff, and calculate weighted overlap. If all searches fail, assign 0 and retain the failure receipts.",
+          "model_role_en": "Map each candidate precedent to current claim atoms under the frozen comparison card; do not define novelty ad hoc.",
+          "receipt_fields": [
+            "snapshot_id",
+            "snapshot_index_version",
+            "snapshot_sha256",
+            "query_generator_id",
+            "query_ids",
+            "same_claim_rule_id",
+            "substantive_new_atom_rule_id",
+            "claim_atom_weights",
+            "pre_cutoff_hit_ids",
+            "per_hit_claim_comparison",
+            "same_or_containing_claim_matches",
+            "maximum_weighted_overlap",
+            "substantive_new_atom_ids",
+            "substantive_new_atom_check",
+            "comparison_consistency_check",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "All frozen queries are completed; if there are no hits before the deadline, the maximum overlap is defined as 0. If there are candidates but the nearest paper overlaps with the current finding only 30%, also less than 50%.6 × 1 = 6 points in both cases.",
+            "0.5": "The precedent before the cut-off date has covered the declining relationship in the same material, but it is currently found that new temperature zones and new boundaries have been added that are substantially different; the maximum overlap is 80% and there is no identical or contained claim, so 6 × 0.5 = 3 points.",
+            "0": "A pre-cutoff precedent contains the same object, scope, and relationship; alternatively, all three search attempts fail without producing an auditable evidence receipt. Score is 6 × 0 = 0 points."
+          }
+        }
+      ]
+    },
+    {
+      "id": "next_test",
+      "name_en": "Next falsification test",
+      "weight": 5,
+      "plain_question_en": "To test the finding further, what separate evidence should be measured next, what results would support or weaken it, and is the test practically executable?",
+      "actions": [
+        {
+          "id": "next_test.separate_evidence_route",
+          "number": "6.1",
+          "name_en": "A separate next-step evidence route is specified for the current finding",
+          "weight": 1,
+          "judge_profile": "code_plus_model",
+          "plain_question_en": "Does the next step obtain genuinely new evidence, or evidence not used to form the conclusion, rather than inspect the same data again?",
+          "why_en": "Reusing formation data can show only that the same evidence is recomputable; it provides no new opportunity for the finding to fail.",
+          "judgment_boundary_en": "This item judges only whether the next evidence source bound to the current discovery_id is substantively separate from the dependency graph that formed the finding. What to measure is judged in Item 6.2; whether the resources are obtainable is judged in Item 6.4.",
+          "required_inputs": [
+            "Current discovery_id",
+            "Current Discovery Formation Dependency Diagram",
+            "Unique identity of future data, sample batch or observation source",
+            "Instructions for separation from formative evidence",
+            "Get Method"
+          ],
+          "human_steps": [
+            "Begin by confirming that the plan explicitly binds the current discovery_id, rather than a generic text that can be copied to any discovery.",
+            "Use the formation dependency graph to list the data, labels, samples, and parameters used to form the current claim.",
+            "Identify the proposed next evidence source and check, item by item, whether it participated in forming the claim.",
+            "Verify that source, timing, and acquisition method are specific enough to establish a genuinely separate evidence route."
+          ],
+          "anchors": {
+            "1": "The plan is bound to the current discovery_id and explicitly specifies new data, a genuine holdout, or new observations absent from the finding’s formation dependency graph, with complete source, timing, and acquisition route.",
+            "0.5": "The plan is bound to the current discovery_id; the future dataset, sample batch, or observation source has a unique identity; and code confirms zero overlap with the formation dependency graph. The only omission is a specific acquisition date or one acquisition detail that does not affect source identity.",
+            "0": "The plan is not bound to the current finding; the identity of the future evidence source or sample batch is insufficient to compute overlap; it merely reruns the same evidence in the formation dependency graph, changes only the plot or model, or states only “validate with more data in the future.”"
+          },
+          "examples": {
+            "1": "The plan explicitly binds finding D-017 and uses blinded conductivity data from an independent fabrication batch to be acquired next month. That batch does not appear in D-017's formation dependency graph.",
+            "0.5": "The plan explicitly identifies new batch B, which did not participate in forming the conclusion, and code confirms zero overlap with the formation dependency graph; only the specific acquisition date remains unknown.",
+            "0": "Plan to run the same regression again on existing data."
+          },
+          "pseudocode": [
+            "if plan.discovery_id != current_discovery_id: return 0",
+            "route = model.extract_future_evidence_route(plan)",
+            "overlap = code.compare_with_signed_formation_dependency_graph(route, current_discovery_id)",
+            "if vague_more_data or source_identity_insufficient_for_overlap_check or same_formation_evidence: return 0",
+            "if route_source_time_and_acquisition_complete and no_overlap: return 1",
+            "if no_overlap and source_identity_complete and only_date_or_noncritical_acquisition_detail_missing: return 0.5",
+            "return 0"
+          ],
+          "code_role_en": "Compare the proposed route with the finding's formation dependencies.",
+          "model_role_en": "Determine whether the proposed evidence route is specific and scientifically distinct.",
+          "receipt_fields": [
+            "discovery_id",
+            "formation_dependency_graph_id",
+            "future_route",
+            "formation_overlap",
+            "missing_route_fields",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "The plan clearly binds D-017 and specifies the blinded conductivity data of the independent fabrication batch for the next month; the batch is not in the D-017 formation dependency diagram, the source, time and acquisition route are specific and complete, so the full-credit condition of the separation evidence route is met. Score is 1 × 1 = 1 point.",
+            "0.5": "The plan is to bind the current finding and clearly use the new batch B, and the source identity is enough to make the code confirmation and the formation dependency graph have zero overlap; the only gap is the specific acquisition date, so the evidence is indeed added, but the route details are not yet complete, and it receives half credit. Score is 1 × 0.5 = 0.5 points.",
+            "0": "It is planned to rerun the same regression only on the existing data, and still use the same evidence in the current finding's formation dependency graph, with no new data, real holdout, or new observations; triggers the zero-credit condition. Score is 1 × 0 = 0 points."
+          }
+        },
+        {
+          "id": "next_test.measurement_alignment",
+          "number": "6.2",
+          "name_en": "The next measurement aligns with the current conclusion and is discriminating",
+          "weight": 1,
+          "judge_profile": "code_plus_model",
+          "plain_question_en": "Exactly what object will be measured, what will be measured, in what units, and against what comparator; and are the expected results distinguishable with sufficient instrument sensitivity when the current claim is true versus false?",
+          "why_en": "Completing form fields does not make a test informative. If competing states predict nearly identical results, or uncertainty exceeds their separation, the experiment cannot specifically test the current conclusion.",
+          "judgment_boundary_en": "This item judges only whether each measurement corresponds to the current conclusion and, under power or resolution rules frozen in the task card before the competition, determines in order whether it can distinguish a null effect and whether it can distinguish the strongest competing explanation. Whether the data are genuinely new is judged in Item 6.1; which outcomes change the conclusion is judged in Item 6.3.",
+          "required_inputs": [
+            "Current discovery_id vs. structured discovery",
+            "Measurement object",
+            "Key Indicators",
+            "Unit or explicit dimensionless declaration",
+            "Comparison group or baseline",
+            "Three state forecasts and source IDs from task cards or executable frozen forecast models",
+            "Predictive Model Run and Recomputation Receipt",
+            "Total Uncertainty of Freeze Plan with Sample, Lot and Measurement Errors",
+            "Efficacy or distinguishable judgment rules and code results of pre-competition freeze"
+          ],
+          "human_steps": [
+            "Extract objects, metrics, units (dimensionless quantities must be explicitly written dimensionless), and comparison methods from the plan and align them field by field with the current structured discovery.",
+            "Confirm that predictions under the current claim, null effect, and strongest competing explanation come from the task card or an executable, recomputable frozen prediction model. Submitter-created favorable numbers are not valid predictions.",
+            "Replay the prediction model and pass all three predictions, together with the plan's total uncertainty, to the frozen power or distinguishability function. Apply the function exactly at equality boundaries.",
+            "Read the two Boolean outputs in order: distinguishable from the null effect, then distinguishable from the strongest competing explanation."
+          ],
+          "anchors": {
+            "1": "The object, primary measure, unit or dimensionless declaration, and comparison are complete; all three prediction sources can be recomputed; and the frozen decision function confirms both that the current claim is distinguishable from a null effect and that it is distinguishable from the strongest competing explanation on the task card.",
+            "0.5": "The object, primary measure, unit or dimensionless declaration, and comparison are complete and aligned with the conclusion. The frozen decision function confirms that the current claim is distinguishable from a null effect, but not from the strongest competing explanation on the task card.",
+            "0": "The measurement is unspecified; the object is mismatched; a dimensional quantity lacks a normalizable unit; a prediction was improvised by the submitter without a frozen source or cannot be recomputed; results cannot be compared; the measured content is irrelevant to the current conclusion; or the frozen decision function confirms that the current claim cannot even be distinguished from a null effect."
+          },
+          "examples": {
+            "1": "Measure conductivity in S/m for independent type-A films at 20 °C and 40 °C. The recomputed frozen model predicts decreases of at least 8%, 0%, and no more than 1% under the current mechanism, null effect, and strongest competing explanation, respectively. Total sample, batch, and instrument uncertainty is ±1%, and the frozen power rule confirms both required distinctions.",
+            "0.5": "The object, temperature, conductivity, and comparison are clear, and the plan is sufficient to distinguish between decline and no change; however, the current mechanism and the strongest competing explanation of the task card are all predicted to decrease by 5%, which is inseparable from the total uncertainty of the plan.",
+            "0": "The object, unit, and two-group comparison are specified, but the current-claim prediction is a 2% decrease, the frozen null-effect prediction is 0%, and total planned uncertainty is ±3%. The proposed measurement cannot distinguish the claimed decrease from no change."
+          },
+          "pseudocode": [
+            "claim = load_structured_discovery(current_discovery_id)",
+            "measurement = model.extract(object, outcome, unit_or_dimensionless, comparison)",
+            "claim_alignment = model.map_measurement_to_claim_atoms(measurement, claim)",
+            "if not claim_alignment.passed or wrong_object or no_measurable_outcome or missing_normalizable_unit or no_deterministic_comparison: return 0",
+            "predictions = code.load_or_recompute_from_prefrozen_prediction_sources(prediction_source_ids)",
+            "if prediction_source_missing or prediction_recompute_failed: return 0",
+            "discrimination = code.run_prefrozen_power_or_resolution_rule(predictions, frozen_total_uncertainty)",
+            "if not discrimination.distinguishes_null: return 0",
+            "if discrimination.distinguishes_strongest_competitor: return 1",
+            "return 0.5"
+          ],
+          "code_role_en": "Verify object identity, unit mapping, predictions, total uncertainty, and comparable output format.",
+          "model_role_en": "Determine if the measurement corresponds to the current scientific conclusion.",
+          "receipt_fields": [
+            "measurement_object",
+            "outcome",
+            "unit_or_dimensionless",
+            "comparison",
+            "claim_alignment",
+            "prediction_source_ids",
+            "prediction_recompute_check",
+            "null_state_prediction",
+            "strongest_competitor_prediction",
+            "frozen_total_uncertainty",
+            "discrimination_rule_id",
+            "power_requirement",
+            "discriminative_power_check",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "The plan is to clearly measure the conductivity of the independent A-type film at 20 °C and 40 °C in S/m and the comparison method is clear; the current mechanism, no effect and strongest competing explanation prediction are all from the recomputable frozen model, and the synthesis uncertainty is ± 1%. The frozen decision function confirms that it can distinguish between the no effect and the strongest competing explanation, so it receives full credit. Score is 1 × 1 = 1 point.",
+            "0.5": "Objects, temperature, conductivity, units, and comparisons are all aligned with the current conclusion, and the frozen decision function confirms that the plan can distinguish between decline and no change; however, the current mechanism and the strongest competing explanation are both predicted to decrease by 5%. Under the total uncertainty of the plan, it is impossible to distinguish between the two, so only the half-credit condition is met. Score is 1 × 0.5 = 0.5 points.",
+            "0": "The current claim is only predicted to decline by 2%, the no effect is predicted to be 0%, and the total uncertainty of the plan reaches ± 3%. The frozen decision function confirms that even the current claim is inseparable from no change. This zero-credit condition takes precedence over whether the field is complete. Score is 1 × 0 = 0 points."
+          }
+        },
+        {
+          "id": "next_test.claim_update_rule",
+          "number": "6.3",
+          "name_en": "Scientifically justified thresholds specify how the conclusion will be updated",
+          "weight": 1,
+          "judge_profile": "code_plus_model",
+          "plain_question_en": "Is there at least one realistically possible outcome that would make the system acknowledge that the current conclusion is too strong, should be narrowed, or should be abandoned?",
+          "why_en": "This is the meaning of an actionable falsification rule: not that the conclusion must be false, but that evidence must be able to change it.",
+          "judgment_boundary_en": "This item judges only whether the outcome-to-claim update mapping is scientifically falsifiable and whether its thresholds are justified. It does not check when the rule was frozen or whether code can execute it; those two matters are judged only in Item 6.5, avoiding duplicate penalties for the same timing error.",
+          "required_inputs": [
+            "Scope of results achievable",
+            "Support rules",
+            "Narrow down the rules",
+            "Negate or Waiver Rule",
+            "Threshold scientific basis"
+          ],
+          "human_steps": [
+            "List the experiment's attainable outcome regions.",
+            "For each region, specify how the conclusion would be retained, narrowed, or abandoned.",
+            "Check that each critical threshold can be traced back to the current error, equivalent margin, least scientifically significant effect, or pre-competition topic rule.",
+            "Confirm that at least one achievable outcome region substantively weakens the conclusion; the model determines whether the update changes the claim. This item does not inspect freeze time, which is handled exclusively by Item 6.5."
+          ],
+          "anchors": {
+            "1": "At least two substantively different claim updates are explicitly specified for achievable outcomes, at least one region weakens the current conclusion, and every critical threshold has a frozen scientific justification.",
+            "0.5": "One scientifically justified, unambiguous, achievable failure threshold would refute or weaken the conclusion, but no intermediate narrowing region or complete update table is specified.",
+            "0": "Every outcome is described as supportive; the plan says only “reanalyze if inconsistent”; failure conditions are unmeasurable or unrealizable; or a threshold is an arbitrary number without justification."
+          },
+          "examples": {
+            "1": "Current estimate = a 10% decrease and the frozen standard error = 2%. The task card sets 4% as the minimum scientifically important decrease. Retain if the new-batch interval's lower bound is >4%; narrow to uncertainty if the interval crosses 4%; abandon 'a material decrease' if the entire interval is ≤4%.",
+            "0.5": "The task card freezes an equivalence threshold of ±3%. The plan abandons the claim of a substantial effect when the result lies within that interval, but gives no rule for narrowing the claim outside it.",
+            "0": "The plan states \"decrease ≥8% means success; <8% means failure\" but does not justify 8% from current uncertainty, scientific importance, or a task rule."
+          },
+          "pseudocode": [
+            "rules = model.extract_outcome_to_claim_updates(plan)",
+            "basis = code.verify_threshold_basis(current_uncertainty, equivalence_margin, minimum_effect, task_rule)",
+            "if no_measurable_failure_region or arbitrary_threshold: return 0",
+            "if every_possible_result_preserves_claim: return 0",
+            "if at_least_two_update_regions_explicit and every_key_threshold_has_basis: return 1",
+            "if one_explicit_realizable_failure_threshold_has_basis: return 0.5",
+            "return 0"
+          ],
+          "code_role_en": "Check the threshold basis, result interval and achievability; the freeze time and operability are only checked at 6.5.",
+          "model_role_en": "Determine whether an outcome rule would substantively narrow or reject the current claim rather than merely rephrase it.",
+          "receipt_fields": [
+            "outcome_regions",
+            "claim_updates",
+            "threshold_basis",
+            "realizable_failure_region",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "The task card freezes 4% as the minimum scientific importance decline, and plans to divide the achievable results into three categories: retention, narrowing to uncertainty, and abandonment; at least one area will weaken the conclusion, and the critical threshold can be traced back to the current standard error and scientific importance, so the full-credit condition is met. Score is 1 × 1 = 1 point.",
+            "0.5": "The task card supplies an equivalence threshold of ±3%. The plan abandons the claim of a substantial effect when the result falls inside that attainable interval, providing a justified failure threshold. It lacks a complete rule for narrowing the claim outside the interval. Score is 1 × 0.5 = 0.5 points.",
+            "0": "The plan labels a decrease of ≥8% successful and a smaller decrease unsuccessful, but the 8% threshold cannot be traced to current uncertainty, the minimum scientifically important effect, an equivalence bound, or a task rule. The threshold is scientifically unjustified. Score is 1 × 0 = 0 points."
+          }
+        },
+        {
+          "id": "next_test.resource_feasibility",
+          "number": "6.4",
+          "name_en": "The plan is executable within the resources allowed by the task",
+          "weight": 1,
+          "judge_profile": "code_plus_model",
+          "plain_question_en": "Are the required data, tools, time, compute, and permissions actually available under the task contract?",
+          "why_en": "Unavailable instruments, unlimited budgets, or nonexistent data do not constitute an executable test.",
+          "judgment_boundary_en": "This item checks only whether resources can be obtained. It does not judge whether the result will support the conclusion, and it does not deduct credit merely because the plan is expensive or complex; it compares the plan only with the pre-competition task resource contract.",
+          "required_inputs": [
+            "Resource Requirements",
+            "Task Resource Limit",
+            "The scientifically valid full execution route and minimal narrowing route have been confirmed at the time of question entry",
+            "Required resource IDs for each route",
+            "Data or instrument availability",
+            "Estimated Running Steps"
+          ],
+          "human_steps": [
+            "Organize plan requirements into data, tools, time, compute, and permissions. Record optional or backup resources, but do not score them.",
+            "Use the complete route and minimum narrowing route already judged scientifically valid when the task was admitted. Do not reassess measurement distinguishability in this item.",
+            "For each complete or narrowing route, compare every required resource with the frozen task resource contract.",
+            "Assign full credit when all resources for the complete route are available, half credit when all resources for the pre-specified minimum narrowing route are available, and 0 when neither route is fully resourced."
+          ],
+          "anchors": {
+            "1": "Every resource required by the complete route allowed by the task card is secured, and the route satisfies the task contract for time, compute, permissions, and budget.",
+            "0.5": "The complete route does not meet the resource requirements, but at least one minimal narrowing route allowed by the task card has every required resource secured.",
+            "0": "No route allowed by the task card has every required resource, or the sole candidate route depends on unauthorized resources."
+          },
+          "examples": {
+            "1": "Entry to the question has confirmed that the complete route is scientifically valid; it requires two independent laboratories, blind test lots, measurement scripts, and 24 hours of compute, all of which have been secured.",
+            "0.5": "The complete route lacks a second laboratory. The task card permits a single-laboratory independent blind-test batch as the minimum narrowing route, and all resources for that route are secured.",
+            "0": "The only route depends on a synchrotron facility that is unavailable under the task contract and for which the participant has no access permission."
+          },
+          "pseudocode": [
+            "needs = model.extract_resource_requirements(plan)",
+            "routes = task_card.full_and_minimum_executable_routes",
+            "availability = code.compare_each_route_required_resources(routes, task_resource_contract)",
+            "if full_route.all_required_resources_secured: return 1",
+            "if any(prefrozen_minimum_route.all_required_resources_secured): return 0.5",
+            "return 0"
+          ],
+          "code_role_en": "Compare resource availability and limits with the frozen task resource contract.",
+          "model_role_en": "Map natural language steps to resource requirements.",
+          "receipt_fields": [
+            "resource_requirements",
+            "contract_limits",
+            "full_route_id",
+            "minimum_route_ids",
+            "per_route_required_resource_ids",
+            "secured_resource_ids",
+            "per_route_feasibility",
+            "unavailable_resources",
+            "feasible_route_id",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "The complete route has been confirmed to be scientifically valid at the time of question entry, and this item only checks resources; all necessary resources such as two independent laboratories, blind test batches, scripts, and 24-hour computing power have been secured and meet the task contract, so a full score is awarded. Score is 1 × 1 = 1 point.",
+            "0.5": "The complete route cannot be implemented due to the lack of a second laboratory; however, all the necessary resources for the single laboratory independent blind test minimum route allowed in advance by the task card have been secured, so there is a narrowing route with feasible resources, but there is no complete route with feasible resources. Score is 1 × 0.5 = 0.5 points.",
+            "0": "The only candidate route depends on a synchrotron facility that does not exist in the task and does not have access rights. No task card allows the route to have all the necessary resources; triggers the zero-credit condition. Score is 1 × 0 = 0 points."
+          }
+        },
+        {
+          "id": "next_test.prefrozen_executable_rule",
+          "number": "6.5",
+          "name_en": "An executable rule for a future test is included",
+          "weight": 1,
+          "judge_profile": "deterministic_code",
+          "plain_question_en": "Does the submission include source code for a future-test decision rule with explicit outcome branches?",
+          "why_en": "A frozen, executable rule prevents post-result manipulation and lets an external auditor reproduce the decision.",
+          "judgment_boundary_en": "This item checks submitted source files whose names identify a future or prospective test or decision rule, then detects executable decision logic and explicit outcome branches.",
+          "required_inputs": [
+            "Future-test or decision-rule source files"
+          ],
+          "human_steps": [
+            "Locate future-test or decision-rule source files.",
+            "Detect executable decision logic.",
+            "Detect explicit success, failure, support, rejection, or revision outcomes."
+          ],
+          "anchors": {
+            "1": "A future-rule source file contains executable decision logic and explicit outcome branches.",
+            "0.5": "A future-rule source file contains either executable decision logic or explicit outcome branches, but not both.",
+            "0": "No qualifying future-rule source file or recognizable rule content is found."
+          },
+          "examples": {
+            "1": "future_test.py defines a threshold decision function with support and revise branches.",
+            "0.5": "future_test.py defines threshold logic but no explicit outcome branch.",
+            "0": "The report only proposes a future test in prose."
+          },
+          "pseudocode": [
+            "files = future_rule_source_files()",
+            "logic = executable_decision_logic(files)",
+            "outcomes = explicit_outcome_branches(files)",
+            "if files and logic and outcomes: return 1",
+            "if files and (logic or outcomes): return 0.5",
+            "return 0"
+          ],
+          "code_role_en": "Locate future-rule source and detect executable decision logic and outcome branches.",
+          "model_role_en": "None.",
+          "receipt_fields": [
+            "future_rule_source_paths",
+            "decision_logic_found",
+            "outcome_branches_found",
+            "level",
+            "reason_code"
+          ],
+          "example_reasoning": {
+            "1": "A qualifying source file contains both decision logic and outcome branches. Score is 1 × 1 = 1 point.",
+            "0.5": "Only one of decision logic or outcome branches is present. Score is 1 × 0.5 = 0.5 points.",
+            "0": "No executable future-rule evidence is found. Score is 1 × 0 = 0 points."
+          }
+        }
+      ]
+    }
+  ],
+  "release": "V1.0"
+}

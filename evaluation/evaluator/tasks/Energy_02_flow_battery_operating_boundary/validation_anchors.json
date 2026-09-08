@@ -1,0 +1,206 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "Efficiency declines monotonically, charge-discharge separation widens, and power eventually turns down at the highest rate.",
+      "independent_reconstruction_method": "Rate-summary ranks and interpolated whole-curve voltage separation under multiple state windows.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "Seven paired rate curves and efficiency/power summaries over the supplied operating range.",
+      "one_liner": "Increasing rate trades lower efficiency and wider voltage separation for higher power until a finite power maximum.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample.py",
+          "script_sha256": "42384c424ced55d3703509eb901e1888eab6f35eb32768c12fcb9221288fac0d"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method.py",
+          "script_sha256": "e91c97c6469f166a05febff289610b7675c8762c825545c384e86f9ad47b18a8"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition.py",
+          "script_sha256": "990422678d728e17cb81e930fa1ed03ded7fc517fd348aa5b08218a939741181"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A new intermediate rate should lie on the widening-gap/decreasing-efficiency boundary; failure is simultaneous improvement in all metrics outside uncertainty."
+      },
+      "quantities": [
+        {
+          "key": "efficiency_spearman_vs_rate",
+          "role": "core",
+          "tolerance_rel": 0.01,
+          "unit": "fraction",
+          "value": -1.0
+        },
+        {
+          "key": "efficiency_first_percent",
+          "role": "supporting",
+          "tolerance_rel": 0.03,
+          "unit": "percent",
+          "value": 93.4141
+        },
+        {
+          "key": "efficiency_last_percent",
+          "role": "supporting",
+          "tolerance_rel": 0.03,
+          "unit": "percent",
+          "value": 67.22
+        },
+        {
+          "key": "peak_power_rate",
+          "role": "core",
+          "tolerance_rel": 0.03,
+          "unit": "anonymous_rate_units",
+          "value": 300.0
+        },
+        {
+          "key": "peak_power_value",
+          "role": "core",
+          "tolerance_rel": 0.03,
+          "unit": "power_density_units",
+          "value": 330.0
+        },
+        {
+          "key": "first_to_last_median_voltage_gap_ratio",
+          "role": "supporting",
+          "tolerance_rel": 0.08,
+          "unit": "fold",
+          "value": 5.749693766593005
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "script_sha256": "4ef4d1ab011223d64fefa5e296291d53c9f0181389ee60490e2693d4d2da6d75",
+        "values": [
+          {
+            "json_path": "values.efficiency_spearman_vs_rate",
+            "quantity_key": "efficiency_spearman_vs_rate"
+          },
+          {
+            "json_path": "values.efficiency_first_percent",
+            "quantity_key": "efficiency_first_percent"
+          },
+          {
+            "json_path": "values.efficiency_last_percent",
+            "quantity_key": "efficiency_last_percent"
+          },
+          {
+            "json_path": "values.peak_power_rate",
+            "quantity_key": "peak_power_rate"
+          },
+          {
+            "json_path": "values.peak_power_value",
+            "quantity_key": "peak_power_value"
+          },
+          {
+            "json_path": "values.first_to_last_median_voltage_gap_ratio",
+            "quantity_key": "first_to_last_median_voltage_gap_ratio"
+          }
+        ]
+      },
+      "scope": "The anonymous system and supplied rates; the observed maximum is not a universal optimum.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source reports high low-rate efficiency alongside rate-dependent overpotential and peak-power behavior.",
+        "paper_location": "Abstract, Results, and source-data rate curves and performance summaries.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "Capacity remains comparatively high while declining over the long horizon.",
+      "independent_reconstruction_method": "Robust first/last-window retention and OLS drift, perturbed by segment, Theil-Sen, and window width.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "One complete ordered 600-cycle capacity-like sequence.",
+      "one_liner": "The 600-cycle record retains about 91% by robust end-window medians but has a sustained negative drift.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample.py",
+          "script_sha256": "37b3a942a4e397c86a24fdc26bcd2ca3c8f8966f7c836db2fdd710ab27c013f9"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method.py",
+          "script_sha256": "aa7b3b53b04351e9fd4f2b09cfc00573247a1ba16b2d18b37f798c07f6fef4f6"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition.py",
+          "script_sha256": "bbbcf2474ab4a626d45832e6cf7038a5a01ff7d16327a2594df1b981b0358d50"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A preregistered continuation should remain above 85% of the initial-window median but retain nonpositive drift; failure is abrupt collapse or a stable positive trend."
+      },
+      "quantities": [
+        {
+          "key": "cycle_count",
+          "role": "core",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 600
+        },
+        {
+          "key": "last50_to_first50_median_retention",
+          "role": "core",
+          "tolerance_rel": 0.03,
+          "unit": "fraction",
+          "value": 0.9116497206464442
+        },
+        {
+          "key": "capacity_slope_per_cycle",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "capacity_units_per_cycle",
+          "value": -0.11999399289081358
+        },
+        {
+          "key": "linear_trend_r_squared",
+          "role": "supporting",
+          "tolerance_rel": 0.05,
+          "unit": "fraction",
+          "value": 0.8523569200158072
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "script_sha256": "34af40e0f9a4bdde6a72e4fbc5be44143e32d9531ccbd9322fb2f2b0b9d06eb4",
+        "values": [
+          {
+            "json_path": "values.cycle_count",
+            "quantity_key": "cycle_count"
+          },
+          {
+            "json_path": "values.last50_to_first50_median_retention",
+            "quantity_key": "last50_to_first50_median_retention"
+          },
+          {
+            "json_path": "values.capacity_slope_per_cycle",
+            "quantity_key": "capacity_slope_per_cycle"
+          },
+          {
+            "json_path": "values.linear_trend_r_squared",
+            "quantity_key": "linear_trend_r_squared"
+          }
+        ]
+      },
+      "scope": "Adjacent cycles are repeated observations of one experiment and not 600 independent devices.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source emphasizes long-cycle operation while documenting nonzero capacity loss.",
+        "paper_location": "Long-cycle stability Results and source-data cycling panel.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "These two cards are verified reference discoveries for blind-rediscovery diagnostics and are not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2022-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Energy_02_flow_battery_operating_boundary",
+  "release": "V1.0"
+}

@@ -1,0 +1,184 @@
+{
+  "cards": [
+    {
+      "card_id": "A",
+      "direction_or_boundary": "A three-term model using u·u_x, u_xx, and sin(x)sin(t) is selected from the richer library and explains virtually all derivative variance on held-out contiguous time blocks.",
+      "independent_reconstruction_method": "Central finite differences, sequential thresholded least squares over a frozen 13-term library, train-on-two/validate-on-one contiguous time blocks, threshold perturbation, admitted Gaussian smoothing up to sigma 0.5, and spatial-boundary exclusion; sigma 1 is frozen as a non-admitted stress boundary because it adds terms.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "The complete dense synthetic spatiotemporal field and its full coordinate grids.",
+      "one_liner": "Thresholded selection from a 13-term competing library recovers a three-term forced nonlinear diffusion equation with coefficients near −1, 0.1, and 1.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/A/sample.py",
+          "script_sha256": "137a2548ae8e4644f1409443696f644681ce837c0bf288f99de1e9b1b65fa2dd"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/A/method.py",
+          "script_sha256": "41b7b371ae31300a58fbfa0727a74ebf9aa6457b2a81cc5bae8496c8da5cb047"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/A/definition.py",
+          "script_sha256": "ffba1dd17a7d9381f70b8f5c9b283920b34dfcf281049629f83ac1e55439187e"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "A new initial-condition field supports the relationship only if the same three terms are selected with their signs and held-out derivative R² above 0.98; any term loss/addition, sign reversal, or R² at or below 0.98 is failure."
+      },
+      "quantities": [
+        {
+          "key": "coefficient_u_times_u_x",
+          "role": "core",
+          "tolerance_rel": 0.03,
+          "unit": "dimensionless",
+          "value": -0.9958468079615513
+        },
+        {
+          "key": "coefficient_u_xx",
+          "role": "core",
+          "tolerance_rel": 0.1,
+          "unit": "dimensionless",
+          "value": 0.10237578410756489
+        },
+        {
+          "key": "coefficient_sin_x_sin_t",
+          "role": "core",
+          "tolerance_rel": 0.03,
+          "unit": "dimensionless",
+          "value": 1.0007713576738921
+        },
+        {
+          "key": "r_squared",
+          "role": "core",
+          "tolerance_rel": 0.01,
+          "unit": "fraction",
+          "value": 0.9998942661918524
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/A.py",
+        "script_sha256": "ff98444c267cc2c0f0ed35724f1e0ef1b5cae770cdb76a90986f7a1cda4ddee1",
+        "values": [
+          {
+            "json_path": "values.coefficient_u_times_u_x",
+            "quantity_key": "coefficient_u_times_u_x"
+          },
+          {
+            "json_path": "values.coefficient_u_xx",
+            "quantity_key": "coefficient_u_xx"
+          },
+          {
+            "json_path": "values.coefficient_sin_x_sin_t",
+            "quantity_key": "coefficient_sin_x_sin_t"
+          },
+          {
+            "json_path": "values.r_squared",
+            "quantity_key": "r_squared"
+          }
+        ]
+      },
+      "scope": "This synthetic field only; numerical differentiation and candidate-library choices define the reconstruction boundary.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The author implementation defines the active coefficients as −1 for u·u_x, 0.1 for u_xx, and 1 for sin(x)sin(t).",
+        "paper_location": "Author code for the forced Burgers example and Results on sparse governing-equation recovery.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    },
+    {
+      "card_id": "B",
+      "direction_or_boundary": "Integrated field magnitude increases more than threefold in every channel while spatial-time fields remain correlated.",
+      "independent_reconstruction_method": "Spatial trapezoidal integration with sum, channel holdout, and domain-trimming alternatives.",
+      "non_exhaustive_validation_anchor": true,
+      "object": "The complete sparse three-channel cell-density field over 0, 12, 24, 36, and 48 hours and the retained source assay positions.",
+      "one_liner": "All three experimental channels show monotone integrated growth over five times and share correlated spatial dynamics.",
+      "perturbation_bindings": [
+        {
+          "family": "sample",
+          "script": "verification/perturb/B/sample.py",
+          "script_sha256": "2f95ecaa888f7f7e231bae8531c9f3b52f280dac6d4f5dedfa5532038dcf1c76"
+        },
+        {
+          "family": "method",
+          "script": "verification/perturb/B/method.py",
+          "script_sha256": "aae28f3e2af70418ff96543938cae004998150017e26992f194a1304ffe4aa34"
+        },
+        {
+          "family": "definition",
+          "script": "verification/perturb/B/definition.py",
+          "script_sha256": "b6ad389d26cb70a7b73035dc70393dc379d3c968ea12f89d0115f1dfb132ba85"
+        }
+      ],
+      "prediction": {
+        "measurement_and_failure_rule": "An additional replicate supports the relationship if integrated density is strictly monotone and its 48 h/0 h ratio exceeds three; nonmonotonicity or a ratio at or below three is failure."
+      },
+      "quantities": [
+        {
+          "key": "minimum_last_to_first_integrated_ratio",
+          "role": "core",
+          "tolerance_rel": 0.08,
+          "unit": "fold",
+          "value": 3.1289960740325284
+        },
+        {
+          "key": "maximum_last_to_first_integrated_ratio",
+          "role": "supporting",
+          "tolerance_rel": 0.08,
+          "unit": "fold",
+          "value": 3.8539703903095575
+        },
+        {
+          "key": "minimum_cross_channel_field_correlation",
+          "role": "core",
+          "tolerance_rel": 0.03,
+          "unit": "fraction",
+          "value": 0.9173173859458744
+        },
+        {
+          "key": "channel_count",
+          "role": "supporting",
+          "tolerance_rel": 0.0,
+          "unit": "count",
+          "value": 3
+        }
+      ],
+      "recompute_binding": {
+        "script": "verification/recompute/B.py",
+        "script_sha256": "3fc018454cf13c93c9369523c4c30d7029ea03389707dd33b71bfece448eda4c",
+        "values": [
+          {
+            "json_path": "values.minimum_last_to_first_integrated_ratio",
+            "quantity_key": "minimum_last_to_first_integrated_ratio"
+          },
+          {
+            "json_path": "values.maximum_last_to_first_integrated_ratio",
+            "quantity_key": "maximum_last_to_first_integrated_ratio"
+          },
+          {
+            "json_path": "values.minimum_cross_channel_field_correlation",
+            "quantity_key": "minimum_cross_channel_field_correlation"
+          },
+          {
+            "json_path": "values.channel_count",
+            "quantity_key": "channel_count"
+          }
+        ]
+      },
+      "scope": "Descriptive shared growth across three replicate channels; this anchor does not force the synthetic equation onto experimental data.",
+      "target_alignment": {
+        "paper_claim_paraphrase": "The source models sparse replicate cell-density fields with migration and proliferation dynamics over 0–48 h.",
+        "paper_location": "Experimental cell migration/proliferation Results and author-released scratch-assay field.",
+        "status": "reported_or_source_level_claim",
+        "target_evidence_binding": "source_attribution.json"
+      }
+    }
+  ],
+  "interpretation": "These two cards are verified reference discoveries for blind-rediscovery diagnostics and are not an exhaustive answer set.",
+  "schema": "truthinsightbench-validation-anchors",
+  "t0": "2020-01-01",
+  "target_evidence_binding": "source_attribution.json",
+  "task_id": "Math_01_governing_equation_discovery",
+  "release": "V1.0"
+}

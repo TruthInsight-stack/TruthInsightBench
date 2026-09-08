@@ -1,0 +1,21 @@
+{
+  "cards": {
+    "A": {
+      "queries": [
+        "neural ordinary differential equation physical dynamics frequency prediction",
+        "machine learning forecast spin dynamics oscillation frequency"
+      ]
+    },
+    "B": {
+      "queries": [
+        "neural ordinary differential equation extrapolation failure dynamical systems",
+        "machine learning spin dynamics trajectory generalization boundary"
+      ]
+    }
+  },
+  "provider": "frozen_bibliographic_snapshot",
+  "schema": "truthinsightbench-novelty-query-spec",
+  "strict_before": "2021-04-01",
+  "task_id": "Physics_03_controlled_dynamics_forecast",
+  "release": "V1.0"
+}

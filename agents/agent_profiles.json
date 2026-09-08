@@ -1,0 +1,36 @@
+{
+  "schema": "truthinsightbench-public-agent-profiles",
+  "release": "V1.0",
+  "default_participant_model": "DeepSeek-V4-Flash",
+  "thinking_enabled": false,
+  "agents": {
+    "claude": {
+      "display_name": "Claude Code harness",
+      "harness": "Claude Code",
+      "version": "2.1.220",
+      "adapter": "adapters/claude_code.py",
+      "default_timeout_seconds": 0
+    },
+    "codex": {
+      "display_name": "Codex CLI harness",
+      "harness": "Codex CLI",
+      "version": "0.149.0",
+      "adapter": "adapters/codex_cli.py",
+      "default_timeout_seconds": 0
+    },
+    "openscience": {
+      "display_name": "OpenScience harness",
+      "harness": "OpenScience",
+      "version": "2.0.1",
+      "adapter": "adapters/openscience.py",
+      "default_timeout_seconds": 0
+    },
+    "deepseek_harness": {
+      "display_name": "DeepSeek Harness",
+      "harness": "deepseek-harness-sdk",
+      "version": "0.1.0rc7",
+      "adapter": "adapters/deepseek_harness/runner.py",
+      "default_timeout_seconds": 0
+    }
+  }
+}
